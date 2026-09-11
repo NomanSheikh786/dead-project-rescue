@@ -1,0 +1,329 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F0E8"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 96
+      y: 54
+      width: 1728
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8960C"
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 96
+      y: 76.59
+      width: 107.36
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2C1810"
+              letterSpacingPt: 0.528
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "04"
+    frame:
+      x: 1799.31
+      y: 78.03
+      width: 27.74
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C1810"
+              letterSpacingPt: 0.192
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 931.2
+      y: 302.84
+      width: 57.59
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8960C"
+  - id: text3
+    type: text
+    name: Join Our Journey
+    frame:
+      x: 458.62
+      y: 347.03
+      width: 1002.79
+      height: 255
+    body:
+      paragraphs:
+        - runs:
+            - text: Join Our Journey
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1810"
+              letterSpacingPt: -0.576
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Partner with us to redef...
+    frame:
+      x: 575.975
+      y: 495.34
+      width: 768.05
+      height: 88.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Partner with us to redefine what is possible in the industry.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C1810"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+    rotationDeg: 0.02
+  - id: shape3
+    type: shape
+    frame:
+      x: 974.44
+      y: 654.78
+      width: 1
+      height: 119.86
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8960C"
+      opacity: 0.4
+  - id: text5
+    type: text
+    name: CONTACT
+    frame:
+      x: 650.12
+      y: 646.52
+      width: 247.52
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CONTACT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2C1810"
+              letterSpacingPt: 0.96
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: partners@example.co
+    frame:
+      x: 600.12
+      y: 694.38
+      width: 297.52
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: partners@example.co
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8960C"
+              italic: true
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: +1 (555) 123-4567
+    frame:
+      x: 650.12
+      y: 740.08
+      width: 247.52
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: +1 (555) 123-4567
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C1810"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: HEADQUARTERS
+    frame:
+      x: 1052.23
+      y: 646.52
+      width: 217.64
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: HEADQUARTERS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2C1810"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: 100 Innovation Drive
+    frame:
+      x: 1052.23
+      y: 686.11
+      width: 259.21
+      height: 96.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 100 Innovation Drive
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C1810"
+          lineHeight: 1.4
+        - runs:
+            - text: Suite 400
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C1810"
+          lineHeight: 1.4
+        - runs:
+            - text: New York, NY 10001
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C1810"
+          lineHeight: 1.4
+      overflow: visible
+  - id: text10
+    type: text
+    name: EXAMPLE COMPANY, INC. • ...
+    frame:
+      x: 96
+      y: 977.48
+      width: 452.21
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. • CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1810"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape4
+    type: shape
+    frame:
+      x: 96
+      y: 1025
+      width: 1728
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8960C"

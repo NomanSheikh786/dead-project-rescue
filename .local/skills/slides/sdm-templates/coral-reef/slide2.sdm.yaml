@@ -1,0 +1,598 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: linearGradient
+  angleDeg: 180
+  stops:
+    - offset: 0
+      color:
+        kind: rgb
+        value: "#0A3D5C"
+    - offset: 1
+      color:
+        kind: rgb
+        value: "#051B2C"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 768
+      y: -54
+      width: 864
+      height: 864
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 345.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4726E"
+    opacity: 0.083
+  - id: shape2
+    type: shape
+    frame:
+      x: -192
+      y: 144
+      width: 1152
+      height: 1152
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#6B9E8E"
+    opacity: 0.055
+  - id: shape3
+    type: shape
+    frame:
+      x: 1344
+      y: 324
+      width: 672
+      height: 672
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 201.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4B896"
+    opacity: 0.083
+  - id: shape4
+    type: shape
+    frame:
+      x: 192
+      y: 162
+      width: 7.67
+      height: 7.67
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.15
+  - id: shape5
+    type: shape
+    frame:
+      x: 1524.48
+      y: 918
+      width: 11.52
+      height: 11.52
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.2
+  - id: shape6
+    type: shape
+    frame:
+      x: 96
+      y: 540
+      width: 5.75
+      height: 5.75
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.1
+  - id: shape7
+    type: shape
+    frame:
+      x: 864
+      y: 324
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.15
+  - id: shape8
+    type: shape
+    frame:
+      x: 1152
+      y: 756
+      width: 7.67
+      height: 7.67
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.2
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 102.99
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#E8E0D0"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text2
+    type: text
+    name: Our Approach
+    frame:
+      x: 1656.52
+      y: 67.67
+      width: 152.79
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: Our Approach
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E0D0"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text3
+    type: text
+    name: Navigating the Current
+    frame:
+      x: 115.19
+      y: 185.75
+      width: 768.07
+      height: 190.09
+    body:
+      paragraphs:
+        - runs:
+            - text: Navigating the Current
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.432
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Just as coral reefs supp...
+    frame:
+      x: 115.19
+      y: 419.03
+      width: 791.11
+      height: 184.06
+    body:
+      paragraphs:
+        - runs:
+            - text: Just as coral reefs support vibrant ecosystems, our foundation provides the infrastructure needed for sustainable growth. We build resilient frameworks that adapt to changing environments.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#E8E0D0"
+          lineHeight: 1.7
+      overflow: visible
+    opacity: 0.85
+  - id: text5
+    type: text
+    name: By focusing on systemic ...
+    frame:
+      x: 115.19
+      y: 588.48
+      width: 768.07
+      height: 139.06
+    body:
+      paragraphs:
+        - runs:
+            - text: By focusing on systemic balance and organic expansion, we ensure that every new development is grounded in solid, reliable principles.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#E8E0D0"
+          lineHeight: 1.7
+      overflow: visible
+    opacity: 0.85
+    rotationDeg: 0.02
+  - id: shape9
+    type: shape
+    frame:
+      x: 1036.8
+      y: 478.89
+      width: 768.02
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8E0D0"
+      opacity: 0.15
+  - id: shape10
+    type: shape
+    frame:
+      x: 1036.8
+      y: 371.63
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4726E"
+  - id: text6
+    type: text
+    name: "01"
+    frame:
+      x: 1036.775
+      y: 371.63
+      width: 57.64
+      height: 57.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "01"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#0A3D5C"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text7
+    type: text
+    name: Adaptability
+    frame:
+      x: 1132.78
+      y: 371.63
+      width: 556.11
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Adaptability
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Flexing with the tides o...
+    frame:
+      x: 1132.78
+      y: 425.61
+      width: 572.79
+      height: 65
+    body:
+      paragraphs:
+        - runs:
+            - text: Flexing with the tides of market shifts to maintain stability.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#E8E0D0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape11
+    type: shape
+    frame:
+      x: 1036.8
+      y: 651.94
+      width: 768.02
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8E0D0"
+      opacity: 0.15
+  - id: shape12
+    type: shape
+    frame:
+      x: 1036.8
+      y: 544.67
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#6B9E8E"
+  - id: text9
+    type: text
+    name: "02"
+    frame:
+      x: 1036.775
+      y: 544.67
+      width: 57.64
+      height: 57.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#0A3D5C"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text10
+    type: text
+    name: Ecosystem Growth
+    frame:
+      x: 1132.78
+      y: 544.67
+      width: 485.6
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Ecosystem Growth
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Fostering partnerships t...
+    frame:
+      x: 1132.78
+      y: 598.66
+      width: 500.18
+      height: 65
+    body:
+      paragraphs:
+        - runs:
+            - text: Fostering partnerships that benefit all participants.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#E8E0D0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape13
+    type: shape
+    frame:
+      x: 1036.8
+      y: 717.72
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4B896"
+  - id: text12
+    type: text
+    name: "03"
+    frame:
+      x: 1036.775
+      y: 717.72
+      width: 57.64
+      height: 57.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#0A3D5C"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text13
+    type: text
+    name: Endurance
+    frame:
+      x: 1132.78
+      y: 717.72
+      width: 539.55
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Endurance
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: Creating long-lasting va...
+    frame:
+      x: 1132.78
+      y: 771.7
+      width: 555.75
+      height: 65
+    body:
+      paragraphs:
+        - runs:
+            - text: Creating long-lasting value through robust architectures.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#E8E0D0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text15
+    type: text
+    name: "02"
+    frame:
+      x: 115.19
+      y: 989.28
+      width: 28.13
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E0D0"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text16
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 1665.22
+      y: 989.28
+      width: 149.64
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E0D0"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6

@@ -1,0 +1,274 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0A0A"
+elements:
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 96
+      y: 54
+      width: 125.18
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.72
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1753.53
+      y: 54
+      width: 77.52
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Our Philosophy
+    frame:
+      x: 96
+      y: 183.58
+      width: 1728.05
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: Our Philosophy
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+              letterSpacingPt: -1.152
+          lineHeight: 1
+      overflow: visible
+  - id: text4
+    type: text
+    name: 01. Uncompromising Quali...
+    frame:
+      x: 96
+      y: 363.58
+      width: 556.34
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: 01. Uncompromising Quality
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: We believe that every de...
+    frame:
+      x: 96
+      y: 442.78
+      width: 556.34
+      height: 184.38
+    body:
+      paragraphs:
+        - runs:
+            - text: We believe that every detail matters. By obsessing over the smallest interactions, we craft experiences that feel inevitable and profound. Our approach strips away the unnecessary until only the essential remains.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.6
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text6
+    type: text
+    name: 02. Enduring Design
+    frame:
+      x: 697.59
+      y: 363.58
+      width: 524.86
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: 02. Enduring Design
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Trends fade, but true cr...
+    frame:
+      x: 697.59
+      y: 442.78
+      width: 556.35
+      height: 184.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Trends fade, but true craftsmanship endures. We build products designed to stand the test of time, marrying classic aesthetics with modern technological capability to create something truly timeless.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text8
+    type: text
+    name: 03. Silent Power
+    frame:
+      x: 1299.2
+      y: 363.58
+      width: 524.85
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: 03. Silent Power
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: The best tools get out o...
+    frame:
+      x: 1299.2
+      y: 442.78
+      width: 589.72
+      height: 147.5
+    body:
+      paragraphs:
+        - runs:
+            - text: The best tools get out of your way. Our infrastructure is robust yet invisible, providing unparalleled performance without demanding attention. It simply works, beautifully.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 971
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text10
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 96
+      y: 1008.02
+      width: 494.71
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: "02"
+    frame:
+      x: 1800.36
+      y: 1008.02
+      width: 26.69
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible

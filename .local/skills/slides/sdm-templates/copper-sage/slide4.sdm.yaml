@@ -1,0 +1,254 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#E8EDE5"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 76.8
+      y: 76.8
+      width: 1766.41
+      height: 926.41
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B87333"
+      widthPt: 0.5
+  - id: shape2
+    type: shape
+    frame:
+      x: 192.74
+      y: 150.99
+      width: 12
+      height: 12
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87333"
+    rotationDeg: 45
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 223.69
+      y: 142.59
+      width: 91.22
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D3B2D"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "04"
+    frame:
+      x: 1701.5
+      y: 144.03
+      width: 28.57
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#546654"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 945.49
+      y: 310.76
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87333"
+    rotationDeg: 45
+  - id: text3
+    type: text
+    name: Join the Journey
+    frame:
+      x: 468.96
+      y: 404.45
+      width: 982.07
+      height: 255
+    body:
+      paragraphs:
+        - runs:
+            - text: Join the Journey
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D3B2D"
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Partner with us to forge...
+    frame:
+      x: 575.975
+      y: 574.36
+      width: 768.05
+      height: 100.28
+    body:
+      paragraphs:
+        - runs:
+            - text: Partner with us to forge a legacy of excellence and sustainable success.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 15.36
+              weight: 300
+              color:
+                kind: rgb
+                value: "#546654"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text5
+    type: text
+    name: contact@acme.co
+    frame:
+      x: 793.84
+      y: 737.44
+      width: 245.92
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: contact@acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B87333"
+              letterSpacingPt: 1.152
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1061.58
+      y: 754.22
+      width: 57.59
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87333"
+  - id: text6
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 711.28
+      y: 911.48
+      width: 241.22
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#546654"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 1015.43
+      y: 920.45
+      width: 8
+      height: 8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87333"
+    rotationDeg: 45
+  - id: text7
+    type: text
+    name: Confidential
+    frame:
+      x: 1100.06
+      y: 911.48
+      width: 121.71
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#546654"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible

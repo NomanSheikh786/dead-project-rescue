@@ -1,0 +1,531 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#111827"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1248
+      y: -288
+      width: 768
+      height: 768
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4F46E5"
+    opacity: 0.11
+  - id: shape2
+    type: shape
+    frame:
+      x: 153.59
+      y: 879.61
+      width: 38.39
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F97316"
+  - id: shape3
+    type: shape
+    frame:
+      x: 767.9
+      y: 835.1
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 3.84
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4F46E5"
+    rotationDeg: 45
+  - id: shape4
+    type: shape
+    frame:
+      x: 153.59
+      y: 68.73
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F97316"
+  - id: text1
+    type: text
+    name: Example Company
+    frame:
+      x: 201.58
+      y: 65.86
+      width: 210.03
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.23
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 1607.06
+      y: 64.8
+      width: 159.34
+      height: 36.7
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 18.35
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text2
+    type: text
+    name: GET STARTED
+    frame:
+      x: 1626.25
+      y: 70.19
+      width: 124.65
+      height: 53
+    body:
+      paragraphs:
+        - runs:
+            - text: GET STARTED
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Ready to scale
+    frame:
+      x: 153.59
+      y: 295.64
+      width: 1152.05
+      height: 243.91
+    body:
+      paragraphs:
+        - runs:
+            - text: Ready to scale
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 57.6
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -1.728
+          lineHeight: 1.05
+        - runs:
+            - text: your team?
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 57.6
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -1.728
+          lineHeight: 1.05
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 153.59
+      y: 581.58
+      width: 279.44
+      height: 77.75
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4F46E5"
+  - id: text4
+    type: text
+    name: Start Free Trial
+    frame:
+      x: 151.1
+      y: 581.58
+      width: 284.41
+      height: 114
+    body:
+      paragraphs:
+        - runs:
+            - text: Start Free Trial
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 28.8
+        bottom: 10.8
+        left: 28.8
+  - id: shape7
+    type: shape
+    frame:
+      x: 471.42
+      y: 580.73
+      width: 278.11
+      height: 79.44
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 1.5
+      opacity: 0.2
+  - id: text5
+    type: text
+    name: Contact Sales
+    frame:
+      x: 463.05
+      y: 580.73
+      width: 294.85
+      height: 79.44
+    body:
+      paragraphs:
+        - runs:
+            - text: Contact Sales
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 9.72
+        right: 28.8
+        bottom: 9.72
+        left: 28.8
+  - id: text6
+    type: text
+    name: EMAIL US
+    frame:
+      x: 153.59
+      y: 724.97
+      width: 253.08
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EMAIL US
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#9CA3AF"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: hello@example.com
+    frame:
+      x: 153.59
+      y: 756.28
+      width: 253.08
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@example.com
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: CALL US
+    frame:
+      x: 483.42
+      y: 724.97
+      width: 222.47
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: CALL US
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#9CA3AF"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: +1 (555) 123-4567
+    frame:
+      x: 483.42
+      y: 756.28
+      width: 229.13
+      height: 82.31
+    body:
+      paragraphs:
+        - runs:
+            - text: +1 (555) 123-4567
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: VISIT US
+    frame:
+      x: 782.64
+      y: 724.97
+      width: 222.08
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: VISIT US
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#9CA3AF"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: San Francisco, CA
+    frame:
+      x: 782.64
+      y: 756.28
+      width: 228.74
+      height: 82.31
+    body:
+      paragraphs:
+        - runs:
+            - text: San Francisco, CA
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 153.59
+      y: 990.73
+      width: 182.22
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.16
+              weight: 500
+              color:
+                kind: rgb
+                value: "#6B7280"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: /
+    frame:
+      x: 368.84
+      y: 990.73
+      width: 10.61
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: /
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.16
+              weight: 500
+              color:
+                kind: rgb
+                value: "#6B7280"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: Confidential
+    frame:
+      x: 413.8
+      y: 990.73
+      width: 104.61
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.16
+              weight: 500
+              color:
+                kind: rgb
+                value: "#6B7280"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: /
+    frame:
+      x: 545.75
+      y: 990.73
+      width: 10.61
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: /
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.16
+              weight: 500
+              color:
+                kind: rgb
+                value: "#6B7280"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: "2026"
+    frame:
+      x: 590.7
+      y: 990.73
+      width: 45.16
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.16
+              weight: 500
+              color:
+                kind: rgb
+                value: "#6B7280"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text17
+    type: text
+    name: "04"
+    frame:
+      x: 1745
+      y: 990.73
+      width: 23.46
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.16
+              weight: 500
+              color:
+                kind: rgb
+                value: "#6B7280"
+          lineHeight: 1.5
+      overflow: visible

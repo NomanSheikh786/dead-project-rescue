@@ -1,0 +1,491 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#1A3A2A"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1248
+      y: -108
+      width: 768
+      height: 768
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#F5F0E8"
+      widthPt: 0.5
+      opacity: 0.1
+  - id: shape2
+    type: shape
+    frame:
+      x: -192
+      y: 144
+      width: 1152
+      height: 1152
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#F5F0E8"
+      widthPt: 0.5
+      opacity: 0.05
+  - id: text1
+    type: text
+    name: 🌿 YIELD METRICS
+    frame:
+      x: 153.59
+      y: 129.59
+      width: 1612.86
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: 🌿 YIELD METRICS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#F5F0E8"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape3
+    type: shape
+    frame:
+      x: 153.59
+      y: 304.56
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5F0E8"
+      opacity: 0.2
+  - id: text2
+    type: text
+    name: Harvest Results
+    frame:
+      x: 153.59
+      y: 187.7
+      width: 537.68
+      height: 170.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Harvest Results
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5F0E8"
+              italic: true
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: Quarterly analysis showi...
+    frame:
+      x: 1190.36
+      y: 177.11
+      width: 576.05
+      height: 95.06
+    body:
+      paragraphs:
+        - runs:
+            - text: Quarterly analysis showing unprecedented growth across all major biological asset categories and synthetic derivatives.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F5F0E8"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: shape5
+    type: shape
+    frame:
+      x: 153.59
+      y: 391.95
+      width: 499.2
+      height: 284.14
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5F0E8"
+      opacity: 0.03
+  - id: shape4
+    type: shape
+    frame:
+      x: 153.59
+      y: 391.95
+      width: 499.2
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5F0E8"
+  - id: text4
+    type: text
+    name: 248%
+    frame:
+      x: 191.98
+      y: 438.14
+      width: 422.47
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: "248"
+              sizePt: 48
+            - text: "%"
+              sizePt: 28.8
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            weight: 300
+            color:
+              kind: rgb
+              value: "#F5F0E8"
+            italic: true
+      overflow: visible
+  - id: text5
+    type: text
+    name: BIOMASS INCREASE
+    frame:
+      x: 191.98
+      y: 544.94
+      width: 422.47
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: BIOMASS INCREASE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F5F0E8"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Year-over-year growth in...
+    frame:
+      x: 191.98
+      y: 584.53
+      width: 503.17
+      height: 26.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Year-over-year growth in primary vegetative assets.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F5F0E8"
+          lineHeight: 1.4
+      overflow: visible
+    opacity: 0.6
+  - id: shape7
+    type: shape
+    frame:
+      x: 710.39
+      y: 391.95
+      width: 499.22
+      height: 284.14
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5F0E8"
+      opacity: 0.03
+  - id: shape6
+    type: shape
+    frame:
+      x: 710.39
+      y: 391.95
+      width: 499.22
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5F0E8"
+  - id: text7
+    type: text
+    name: 14k
+    frame:
+      x: 748.78
+      y: 438.14
+      width: 422.49
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: "14"
+              sizePt: 48
+            - text: k
+              sizePt: 28.8
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            weight: 300
+            color:
+              kind: rgb
+              value: "#F5F0E8"
+            italic: true
+      overflow: visible
+  - id: text8
+    type: text
+    name: NEW SEEDLINGS
+    frame:
+      x: 748.78
+      y: 544.94
+      width: 422.49
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: NEW SEEDLINGS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F5F0E8"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Successfully germinated ...
+    frame:
+      x: 748.78
+      y: 584.53
+      width: 422.49
+      height: 50.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Successfully germinated units integrated into the system.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F5F0E8"
+          lineHeight: 1.4
+      overflow: visible
+    opacity: 0.6
+  - id: shape9
+    type: shape
+    frame:
+      x: 1267.2
+      y: 391.95
+      width: 499.2
+      height: 284.14
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5F0E8"
+      opacity: 0.03
+  - id: shape8
+    type: shape
+    frame:
+      x: 1267.2
+      y: 391.95
+      width: 499.2
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5F0E8"
+  - id: text10
+    type: text
+    name: 92%
+    frame:
+      x: 1305.59
+      y: 438.14
+      width: 422.47
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: "92"
+              sizePt: 48
+            - text: "%"
+              sizePt: 28.8
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            weight: 300
+            color:
+              kind: rgb
+              value: "#F5F0E8"
+            italic: true
+      overflow: visible
+  - id: text11
+    type: text
+    name: SURVIVAL RATE
+    frame:
+      x: 1305.59
+      y: 544.94
+      width: 422.47
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: SURVIVAL RATE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F5F0E8"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Historic high retention ...
+    frame:
+      x: 1305.59
+      y: 584.53
+      width: 474.69
+      height: 26.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Historic high retention in optimal climate conditions.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F5F0E8"
+          lineHeight: 1.4
+      overflow: visible
+    opacity: 0.6
+  - id: text13
+    type: text
+    name: acme.co
+    frame:
+      x: 76.8
+      y: 1021.69
+      width: 75.75
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F5F0E8"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text14
+    type: text
+    name: "03"
+    frame:
+      x: 1820.16
+      y: 1021.69
+      width: 26.1
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F5F0E8"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5

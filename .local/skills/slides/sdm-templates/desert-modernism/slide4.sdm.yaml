@@ -1,0 +1,290 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#638C80"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: -192
+      y: -162
+      width: 768
+      height: 768
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#EFEBE3"
+    opacity: 0.1
+  - id: shape2
+    type: shape
+    frame:
+      x: 1152
+      y: 336
+      width: 960
+      height: 960
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E3A881"
+    opacity: 0.2
+  - id: shape3
+    type: shape
+    frame:
+      x: 1420.81
+      y: 78
+      width: 115.19
+      height: 115.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D48B6A"
+  - id: text1
+    type: text
+    name: LET'S BUILD THE FUTURE
+    frame:
+      x: 730.46
+      y: 144.55
+      width: 459.09
+      height: 88.19
+    body:
+      paragraphs:
+        - runs:
+            - text: LET'S BUILD THE FUTURE
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E3A881"
+              letterSpacingPt: 2.88
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Ready to partner with us...
+    frame:
+      x: 383.975
+      y: 230.92
+      width: 1152.05
+      height: 255.44
+    body:
+      paragraphs:
+        - runs:
+            - text: Ready to partner with us?
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#EFEBE3"
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 902.41
+      y: 538.36
+      width: 115.19
+      height: 4.31
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D48B6A"
+  - id: text3
+    type: text
+    name: Join us in redefining th...
+    frame:
+      x: 383.975
+      y: 607.47
+      width: 1152.05
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Join us in redefining the standard. Reach out to our team to schedule a detailed strategy session.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#EFEBE3"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: shape5
+    type: shape
+    frame:
+      x: 798
+      y: 775.95
+      width: 324
+      height: 81.75
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 40.88
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D48B6A"
+    stroke:
+      color:
+        kind: rgb
+        value: "#D48B6A"
+      widthPt: 1
+  - id: text4
+    type: text
+    name: CONTACT US
+    frame:
+      x: 797.975
+      y: 775.95
+      width: 324.05
+      height: 81.75
+    body:
+      paragraphs:
+        - runs:
+            - text: CONTACT US
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#EFEBE3"
+              letterSpacingPt: 1.152
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: text5
+    type: text
+    name: hello@example.co  •  +1 ...
+    frame:
+      x: 744.3
+      y: 900.89
+      width: 431.4
+      height: 71
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@example.co  •  +1 (555) 123-4567
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#EFEBE3"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text6
+    type: text
+    name: ACME.CO
+    frame:
+      x: 111.48
+      y: 86.39
+      width: 130.08
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#EFEBE3"
+              letterSpacingPt: 1.152
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: EXAMPLE COMPANY, INC. — ...
+    frame:
+      x: 91.69
+      y: 967.69
+      width: 426.69
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. — CONFIDENTIAL
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#EFEBE3"
+              letterSpacingPt: 0.432
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text8
+    type: text
+    name: "04"
+    frame:
+      x: 1781.12
+      y: 967.69
+      width: 24.72
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#EFEBE3"
+          align: center
+          lineHeight: 1.5
+      overflow: visible

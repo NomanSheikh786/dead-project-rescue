@@ -1,0 +1,255 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0C0A08"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: jungle-temple
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0.55
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#0C0A08"
+          opacity: 0.88
+  - id: shape3
+    type: shape
+    frame:
+      x: 0
+      y: 380
+      width: 1920
+      height: 700
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#0C0A08"
+          opacity: 0
+        - offset: 0.2
+          color:
+            kind: rgb
+            value: "#0C0A08"
+          opacity: 0.5
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#0C0A08"
+          opacity: 0.5
+  - id: text1
+    type: text
+    name: LOST KINGDOMS
+    frame:
+      x: 115.19
+      y: 531.89
+      width: 201.99
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: LOST KINGDOMS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8965A"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 323.7
+      y: 542.91
+      width: 230.39
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8965A"
+    opacity: 0.6
+  - id: text2
+    type: text
+    name: EXPEDITION LOG
+    frame:
+      x: 582.89
+      y: 531.89
+      width: 150.58
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EXPEDITION LOG
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D8C4"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: ◆ Field Report No. 1
+    frame:
+      x: 115.19
+      y: 576.52
+      width: 1689.68
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ◆ Field Report No. 1
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8965A"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Example Deck
+    frame:
+      x: 115.19
+      y: 632.67
+      width: 1689.68
+      height: 155.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 76.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D8C4"
+              letterSpacingPt: -0.768
+          lineHeight: 1
+      overflow: visible
+  - id: text5
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 115.19
+      y: 807.86
+      width: 960.05
+      height: 92.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D8C4"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.85
+  - id: text6
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 989.28
+      width: 72.57
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D8C4"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text7
+    type: text
+    name: Est. MMXXVI
+    frame:
+      x: 1691
+      y: 986.41
+      width: 135.61
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Est. MMXXVI
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8965A"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+assets:
+  jungle-temple:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/jungle-temple.png

@@ -1,0 +1,601 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#EBE3D5"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 60.64
+      stops:
+        - offset: 0.4
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#8B7355"
+          opacity: 0.1
+  - id: shape2
+    type: shape
+    frame:
+      x: 57.59
+      y: 57.59
+      width: 1804.81
+      height: 964.81
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 7.5
+  - id: shape3
+    type: shape
+    frame:
+      x: 87.95
+      y: 87.95
+      width: 1744.09
+      height: 904.09
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 1.5
+  - id: shape4
+    type: shape
+    frame:
+      x: 90.95
+      y: 210.92
+      width: 1738.09
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: text1
+    type: text
+    name: EST. 2026
+    frame:
+      x: 167.75
+      y: 136.53
+      width: 166.58
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: EST. 2026
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 2.88
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 811.14
+      y: 149.98
+      width: 57.59
+      height: 1.91
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: text2
+    type: text
+    name: ACME.CO
+    frame:
+      x: 887.92
+      y: 129.34
+      width: 185.7
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 2.88
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 1082.25
+      y: 149.98
+      width: 57.59
+      height: 1.91
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: text3
+    type: text
+    name: VOL. 01
+    frame:
+      x: 1643.42
+      y: 136.53
+      width: 122.33
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: VOL. 01
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 2.88
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 129.34
+      y: 252.31
+      width: 38.39
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 0.5
+  - id: shape8
+    type: shape
+    frame:
+      x: 140.86
+      y: 263.83
+      width: 15.36
+      height: 15.36
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: shape9
+    type: shape
+    frame:
+      x: 1752.27
+      y: 252.31
+      width: 38.39
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 0.5
+  - id: shape10
+    type: shape
+    frame:
+      x: 1763.78
+      y: 263.83
+      width: 15.36
+      height: 15.36
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: shape11
+    type: shape
+    frame:
+      x: 129.34
+      y: 804.27
+      width: 38.39
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 0.5
+  - id: shape12
+    type: shape
+    frame:
+      x: 140.86
+      y: 815.78
+      width: 15.36
+      height: 15.36
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: shape13
+    type: shape
+    frame:
+      x: 1752.27
+      y: 804.27
+      width: 38.39
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 0.5
+  - id: shape14
+    type: shape
+    frame:
+      x: 1763.78
+      y: 815.78
+      width: 15.36
+      height: 15.36
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: text4
+    type: text
+    name: GENUINE & AUTHENTIC
+    frame:
+      x: 725.54
+      y: 264.23
+      width: 468.9
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: GENUINE & AUTHENTIC
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 4.608
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Example Deck
+    frame:
+      x: 467.42
+      y: 331.19
+      width: 985.17
+      height: 309
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 76.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              italic: true
+              letterSpacingPt: -1.536
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: shape15
+    type: shape
+    frame:
+      x: 624.02
+      y: 536.61
+      width: 288
+      height: 1.91
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: shape16
+    type: shape
+    frame:
+      x: 950.5
+      y: 528.06
+      width: 19
+      height: 19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 1
+    rotationDeg: 45
+  - id: shape17
+    type: shape
+    frame:
+      x: 1007.98
+      y: 536.61
+      width: 288
+      height: 1.91
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: text6
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 383.975
+      y: 590.34
+      width: 1152.05
+      height: 115.22
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A5D4E"
+              italic: true
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape18
+    type: shape
+    frame:
+      x: 678.08
+      y: 759.56
+      width: 563.83
+      height: 71.17
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      opacity: 0.05
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 1
+      dash: dash
+  - id: text7
+    type: text
+    name: PREPARED BY EXAMPLE COMP...
+    frame:
+      x: 643.21
+      y: 759.56
+      width: 633.57
+      height: 71.17
+    body:
+      paragraphs:
+        - runs:
+            - text: PREPARED BY EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 1.92
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 9.6
+        right: 19.2
+        bottom: 9.6
+        left: 19.2
+  - id: shape19
+    type: shape
+    frame:
+      x: 90.95
+      y: 881.05
+      width: 1738.09
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: shape20
+    type: shape
+    frame:
+      x: 543.17
+      y: 884.05
+      width: 3
+      height: 105
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: text8
+    type: text
+    name: GUARANTEED QUALITY
+    frame:
+      x: 184.5
+      y: 923.58
+      width: 265.12
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: GUARANTEED QUALITY
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 1.728
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape21
+    type: shape
+    frame:
+      x: 1373.83
+      y: 884.05
+      width: 3
+      height: 105
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: text9
+    type: text
+    name: Confidential Document • ...
+    frame:
+      x: 738.19
+      y: 919.27
+      width: 443.61
+      height: 71
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential Document • Handle with Care
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              italic: true
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: STRICTLY PRIVATE
+    frame:
+      x: 1487.23
+      y: 923.58
+      width: 231.42
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: STRICTLY PRIVATE
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 1.728
+          align: center
+          lineHeight: 1.5
+      overflow: visible

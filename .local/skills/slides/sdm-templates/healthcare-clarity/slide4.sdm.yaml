@@ -1,0 +1,314 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 192
+      y: -228
+      width: 1536
+      height: 1536
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2A7B7B"
+      widthPt: 1.5
+    opacity: 0.1
+  - id: shape2
+    type: shape
+    frame:
+      x: 0
+      y: 972
+      width: 1920
+      height: 108
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2A7B7B"
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 1011.59
+      width: 85.53
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "04"
+    frame:
+      x: 1741.42
+      y: 1011.59
+      width: 27.03
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: shape3
+    type: shape
+    frame:
+      x: 902.41
+      y: 209.55
+      width: 115.19
+      height: 4.31
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2A7B7B"
+  - id: text3
+    type: text
+    name: Ready to Transform Healt...
+    frame:
+      x: 151.41
+      y: 257.05
+      width: 1617.18
+      height: 107.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Ready to Transform Healthcare?
+              font:
+                kind: family
+                family: Inter
+              sizePt: 48
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A2E"
+              letterSpacingPt: -0.96
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Join us in building the ...
+    frame:
+      x: 349.41
+      y: 395.03
+      width: 1221.17
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Join us in building the next generation of patient-centric, data-driven medical infrastructure. Let's talk about integration.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A68"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape4
+    type: shape
+    frame:
+      x: 574.47
+      y: 563.52
+      width: 314
+      height: 83.75
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2A7B7B"
+  - id: text5
+    type: text
+    name: Contact Sales
+    frame:
+      x: 565.02
+      y: 563.52
+      width: 332.89
+      height: 83.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Contact Sales
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.23
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: shape5
+    type: shape
+    frame:
+      x: 946.06
+      y: 563.52
+      width: 399.45
+      height: 83.75
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2A7B7B"
+      widthPt: 1.5
+  - id: text6
+    type: text
+    name: View Documentation
+    frame:
+      x: 946.035
+      y: 563.52
+      width: 399.5
+      height: 83.75
+    body:
+      paragraphs:
+        - runs:
+            - text: View Documentation
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2A7B7B"
+              letterSpacingPt: 0.23
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: text7
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 662.995
+      y: 733.66
+      width: 141.74
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#4A4A68"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: +1 (555) 123-4567
+    frame:
+      x: 865.44
+      y: 733.66
+      width: 199.87
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: +1 (555) 123-4567
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#4A4A68"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: www.acme.co
+    frame:
+      x: 1126.035
+      y: 733.66
+      width: 130.96
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: www.acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#4A4A68"
+          align: center
+          lineHeight: 1.5
+      overflow: visible

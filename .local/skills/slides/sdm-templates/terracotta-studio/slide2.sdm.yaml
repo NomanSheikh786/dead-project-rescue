@@ -1,0 +1,473 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5EDE0"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: -96
+      y: -162
+      width: 576
+      height: 432
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 172.8
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D2B48C"
+    opacity: 0.5
+  - id: shape2
+    type: shape
+    frame:
+      x: 1632
+      y: 492
+      width: 480
+      height: 480
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B85C38"
+    opacity: 0.1
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 120.72
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 700
+              color:
+                kind: rgb
+                value: "#8B4513"
+              letterSpacingPt: 0.672
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: OUR APPROACH
+    frame:
+      x: 1621.39
+      y: 92.14
+      width: 153.77
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: OUR APPROACH
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#A0522D"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: The Artisan Method
+    frame:
+      x: 153.59
+      y: 213.09
+      width: 748.86
+      height: 190.09
+    body:
+      paragraphs:
+        - runs:
+            - text: The Artisan Method
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 600
+              color:
+                kind: rgb
+                value: "#4A2F1D"
+              italic: true
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: CRAFTING EXCELLENCE
+    frame:
+      x: 153.59
+      y: 446.38
+      width: 748.86
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: CRAFTING EXCELLENCE
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#A0522D"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: We believe in the power ...
+    frame:
+      x: 153.59
+      y: 502.53
+      width: 748.86
+      height: 184.75
+    body:
+      paragraphs:
+        - runs:
+            - text: We believe in the power of careful, deliberate creation. Every detail is considered, every material is sourced with intention, and every process is refined to produce the highest quality results.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B4423"
+          lineHeight: 1.7
+      overflow: visible
+  - id: text6
+    type: text
+    name: Our methodology combines...
+    frame:
+      x: 153.59
+      y: 717.67
+      width: 748.86
+      height: 139.06
+    body:
+      paragraphs:
+        - runs:
+            - text: Our methodology combines traditional techniques with modern innovation, resulting in products that are both timeless and forward-thinking.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B4423"
+          lineHeight: 1.7
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1017.59
+      y: 299.55
+      width: 748.81
+      height: 167.75
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 16
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D2B48C"
+      opacity: 0.2
+  - id: shape3
+    type: shape
+    frame:
+      x: 1017.59
+      y: 299.55
+      width: 9
+      height: 167.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#A0522D"
+  - id: text7
+    type: text
+    name: Sourcing
+    frame:
+      x: 1084.19
+      y: 331.94
+      width: 624.68
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: Sourcing
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 600
+              color:
+                kind: rgb
+                value: "#8B4513"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Selecting only the fines...
+    frame:
+      x: 1084.19
+      y: 400.34
+      width: 624.68
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Selecting only the finest sustainable materials.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B4423"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 1017.59
+      y: 499.69
+      width: 748.81
+      height: 167.75
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 16
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D2B48C"
+      opacity: 0.2
+  - id: shape5
+    type: shape
+    frame:
+      x: 1017.59
+      y: 499.69
+      width: 9
+      height: 167.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#A0522D"
+  - id: text9
+    type: text
+    name: Refining
+    frame:
+      x: 1084.19
+      y: 532.08
+      width: 624.68
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: Refining
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 600
+              color:
+                kind: rgb
+                value: "#8B4513"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Meticulous preparation a...
+    frame:
+      x: 1084.19
+      y: 600.48
+      width: 624.68
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Meticulous preparation and processing.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B4423"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 1017.59
+      y: 699.83
+      width: 748.81
+      height: 167.75
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 16
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D2B48C"
+      opacity: 0.2
+  - id: shape7
+    type: shape
+    frame:
+      x: 1017.59
+      y: 699.83
+      width: 9
+      height: 167.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#A0522D"
+  - id: text11
+    type: text
+    name: Creation
+    frame:
+      x: 1084.19
+      y: 732.22
+      width: 624.68
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: Creation
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 600
+              color:
+                kind: rgb
+                value: "#8B4513"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Expert assembly by maste...
+    frame:
+      x: 1084.19
+      y: 800.63
+      width: 624.68
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Expert assembly by master artisans.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B4423"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Crafted with care
+    frame:
+      x: 153.59
+      y: 959.42
+      width: 176.06
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: Crafted with care
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8B4513"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 1684.44
+      y: 954.03
+      width: 81.97
+      height: 39.58
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.79
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B85C38"
+  - id: text14
+    type: text
+    name: "02"
+    frame:
+      x: 1684.44
+      y: 954.03
+      width: 86.94
+      height: 41.58
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 14.4
+        bottom: 2.7
+        left: 14.4

@@ -1,0 +1,404 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFBF0"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1766.41
+      y: 0
+      width: 153.59
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF4D00"
+  - id: shape2
+    type: shape
+    frame:
+      x: 1574.42
+      y: 856.81
+      width: 115.19
+      height: 115.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FF4D00"
+      widthPt: 1
+    opacity: 0.3
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 104.27
+      height: 39.42
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 12.48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: WHAT WE DO
+    frame:
+      x: 1572
+      y: 64.8
+      width: 164.23
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: WHAT WE DO
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FF4D00"
+              letterSpacingPt: 2.16
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 115.19
+      y: 231.8
+      width: 512
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text3
+    type: text
+    name: "01"
+    frame:
+      x: 115.19
+      y: 266.19
+      width: 512.05
+      height: 67.2
+    body:
+      paragraphs:
+        - runs:
+            - text: "01"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 33.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FF4D00"
+          lineHeight: 1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Strategy
+    frame:
+      x: 115.19
+      y: 354.98
+      width: 512.05
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: Strategy
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 19.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: -0.384
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: We decode market signals...
+    frame:
+      x: 115.19
+      y: 428.78
+      width: 542.77
+      height: 61.44
+    body:
+      paragraphs:
+        - runs:
+            - text: We decode market signals and define clear, actionable roadmaps that align with your long-term vision.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 703.98
+      y: 231.8
+      width: 512.02
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text6
+    type: text
+    name: "02"
+    frame:
+      x: 703.98
+      y: 266.19
+      width: 512.07
+      height: 67.2
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 33.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FF4D00"
+          lineHeight: 1
+      overflow: visible
+  - id: text7
+    type: text
+    name: Design
+    frame:
+      x: 703.98
+      y: 354.98
+      width: 512.07
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: Design
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 19.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: -0.384
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: We craft bold, memorable...
+    frame:
+      x: 703.98
+      y: 428.78
+      width: 512.07
+      height: 61.44
+    body:
+      paragraphs:
+        - runs:
+            - text: We craft bold, memorable brand identities and digital experiences that captivate and convert.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 1292.8
+      y: 231.8
+      width: 473.61
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text9
+    type: text
+    name: "03"
+    frame:
+      x: 1292.8
+      y: 266.19
+      width: 512.07
+      height: 67.2
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 33.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FF4D00"
+          lineHeight: 1
+      overflow: visible
+  - id: text10
+    type: text
+    name: Engineering
+    frame:
+      x: 1292.8
+      y: 354.98
+      width: 512.07
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: Engineering
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 19.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: -0.384
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: We build robust, scalabl...
+    frame:
+      x: 1292.8
+      y: 428.78
+      width: 433.2
+      height: 92.16
+    body:
+      paragraphs:
+        - runs:
+            - text: We build robust, scalable architectures and seamless interactive products with precision.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text12
+    type: text
+    name: EXAMPLE COMPANY, INC.
+    frame:
+      x: 115.19
+      y: 989.28
+      width: 265.78
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 409.28
+      y: 989.28
+      width: 149.64
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: "02"
+    frame:
+      x: 606.47
+      y: 989.28
+      width: 28.13
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible

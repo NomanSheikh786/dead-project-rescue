@@ -1,0 +1,317 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0A0A"
+elements:
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 96
+      y: 54
+      width: 125.18
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.72
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1753.53
+      y: 54
+      width: 77.52
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Let's Begin.
+    frame:
+      x: 583.96
+      y: 401.66
+      width: 752.09
+      height: 309
+    body:
+      paragraphs:
+        - runs:
+            - text: Let's Begin.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 76.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+              letterSpacingPt: -1.536
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: text4
+    type: text
+    name: INQUIRIES
+    frame:
+      x: 455.19
+      y: 641.63
+      width: 106.25
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: INQUIRIES
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.864
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 398.49
+      y: 678.34
+      width: 219.65
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 727.09
+      y: 641.63
+      width: 1
+      height: 79.91
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text6
+    type: text
+    name: LOCATION
+    frame:
+      x: 918.74
+      y: 641.63
+      width: 106.41
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: LOCATION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.864
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text7
+    type: text
+    name: New York / London
+    frame:
+      x: 827.34
+      y: 678.34
+      width: 289.22
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: New York / London
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape2
+    type: shape
+    frame:
+      x: 1215.83
+      y: 641.63
+      width: 1
+      height: 79.91
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text8
+    type: text
+    name: SOCIAL
+    frame:
+      x: 1384.99
+      y: 641.63
+      width: 77.28
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: SOCIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.864
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: "@acmestudio"
+    frame:
+      x: 1326.5
+      y: 678.34
+      width: 194.3
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "@acmestudio"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 0
+      y: 971
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text10
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 96
+      y: 1008.02
+      width: 494.71
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: "04"
+    frame:
+      x: 1800.08
+      y: 1008.02
+      width: 26.97
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible

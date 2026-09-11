@@ -1,0 +1,405 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FDFBF7"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: -96
+      y: -108
+      width: 768
+      height: 768
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFD8D8"
+    opacity: 0.33
+  - id: shape2
+    type: shape
+    frame:
+      x: 1152
+      y: 282
+      width: 960
+      height: 960
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D8F0E6"
+    opacity: 0.33
+  - id: shape3
+    type: shape
+    frame:
+      x: 1344
+      y: 216
+      width: 288
+      height: 288
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 76.8
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E2D8FF"
+    rotationDeg: 15
+    opacity: 0.7
+  - id: shape4
+    type: shape
+    frame:
+      x: 288
+      y: 618
+      width: 192
+      height: 192
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFE8A1"
+    opacity: 0.8
+  - id: shape5
+    type: shape
+    frame:
+      x: 576
+      y: 108
+      width: 96
+      height: 96
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 38.4
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFC4A3"
+    rotationDeg: -20
+    opacity: 0.7
+  - id: shape6
+    type: shape
+    frame:
+      x: 192
+      y: 108
+      width: 1536
+      height: 864
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 115.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.6
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 1.5
+      opacity: 0.8
+  - id: shape7
+    type: shape
+    frame:
+      x: 310.19
+      y: 175.8
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text1
+    type: text
+    name: a.
+    frame:
+      x: 310.165
+      y: 175.8
+      width: 57.64
+      height: 57.59
+    body:
+      paragraphs:
+        - runs:
+            - text: a.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text2
+    type: text
+    name: acme.co
+    frame:
+      x: 386.97
+      y: 183
+      width: 118.24
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 1412.31
+      y: 176.52
+      width: 197.5
+      height: 56.16
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 28.08
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFC4A3"
+  - id: text3
+    type: text
+    name: Next Steps
+    frame:
+      x: 1412.31
+      y: 176.52
+      width: 204.9
+      height: 92.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Next Steps
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#A65121"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 5.4
+        right: 19.2
+        bottom: 5.4
+        left: 19.2
+  - id: text4
+    type: text
+    name: Ready to play?
+    frame:
+      x: 489.06
+      y: 354.48
+      width: 941.89
+      height: 297
+    body:
+      paragraphs:
+        - runs:
+            - text: Ready to play?
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 67.2
+              weight: 800
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -2.016
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text5
+    type: text
+    name: Join us in redefining th...
+    frame:
+      x: 428.23
+      y: 534.72
+      width: 1063.54
+      height: 109
+    body:
+      paragraphs:
+        - runs:
+            - text: Join us in redefining the boundaries of what is possible.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          align: center
+          lineHeight: 1.4
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape9
+    type: shape
+    frame:
+      x: 619.08
+      y: 653.28
+      width: 322.53
+      height: 95.27
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 47.64
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text6
+    type: text
+    name: Get Started
+    frame:
+      x: 612.05
+      y: 653.28
+      width: 336.58
+      height: 137.27
+    body:
+      paragraphs:
+        - runs:
+            - text: Get Started
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 15.36
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: shape10
+    type: shape
+    frame:
+      x: 980
+      y: 653.28
+      width: 320.92
+      height: 95.27
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 47.64
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+      widthPt: 1.5
+  - id: text7
+    type: text
+    name: Contact Us
+    frame:
+      x: 977.47
+      y: 653.28
+      width: 325.98
+      height: 137.27
+    body:
+      paragraphs:
+        - runs:
+            - text: Contact Us
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 15.36
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: text8
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 310.19
+      y: 869.64
+      width: 274.52
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: "04"
+    frame:
+      x: 1578.92
+      y: 869.64
+      width: 30.94
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible

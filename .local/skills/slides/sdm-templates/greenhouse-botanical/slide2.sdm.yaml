@@ -1,0 +1,286 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F0E8"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 576
+      height: 1080
+    assetId: greenhouse-interior
+    altText: Greenhouse interior
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 576
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A3A2A"
+      opacity: 0.4
+  - id: shape2
+    type: shape
+    frame:
+      x: 729.59
+      y: 198.72
+      width: 998.39
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A3A2A"
+      opacity: 0.2
+  - id: text1
+    type: text
+    name: 🌿 STRATEGIC VISION
+    frame:
+      x: 729.59
+      y: 162
+      width: 998.44
+      height: 37.72
+    body:
+      paragraphs:
+        - runs:
+            - text: 🌿 STRATEGIC VISION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 5.4
+        left: 0
+  - id: text2
+    type: text
+    name: Cultivating Sustainable ...
+    frame:
+      x: 729.59
+      y: 232.11
+      width: 998.44
+      height: 190.09
+    body:
+      paragraphs:
+        - runs:
+            - text: Cultivating Sustainable Growth
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+              italic: true
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: Root Systems
+    frame:
+      x: 729.59
+      y: 465.39
+      width: 460.85
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Root Systems
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Establishing a strong fo...
+    frame:
+      x: 729.59
+      y: 516.14
+      width: 488.5
+      height: 186
+    body:
+      paragraphs:
+        - runs:
+            - text: Establishing a strong foundation requires careful attention to the underlying infrastructure. By nurturing the core components of our ecosystem, we ensure resilience against market fluctuations and environmental shifts.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+  - id: text5
+    type: text
+    name: Canopy Expansion
+    frame:
+      x: 1267.19
+      y: 465.39
+      width: 460.85
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Canopy Expansion
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Reaching new heights mea...
+    frame:
+      x: 1267.19
+      y: 516.14
+      width: 488.5
+      height: 155.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Reaching new heights means extending our reach into untapped markets. We are developing strategic partnerships that act as sunlight, driving photosynthesis across our entire product line and service offerings.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+  - id: shape3
+    type: shape
+    frame:
+      x: 729.59
+      y: 734.53
+      width: 3
+      height: 96.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A3A2A"
+  - id: text7
+    type: text
+    name: '"The best time to plant ...'
+    frame:
+      x: 770.98
+      y: 734.53
+      width: 957.05
+      height: 98.75
+    body:
+      paragraphs:
+        - runs:
+            - text: '"The best time to plant a tree was twenty years ago. The second best time is now."'
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+              italic: true
+          lineHeight: 1.4
+      overflow: visible
+    opacity: 0.9
+  - id: text8
+    type: text
+    name: acme.co
+    frame:
+      x: 652.8
+      y: 1021.69
+      width: 76.72
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text9
+    type: text
+    name: "02"
+    frame:
+      x: 1819.86
+      y: 1021.69
+      width: 26.39
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+assets:
+  greenhouse-interior:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/greenhouse-interior.png

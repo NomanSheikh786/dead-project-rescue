@@ -1,0 +1,173 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: image
+  assetId: dark-florals
+  fit: cover
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.9
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.4
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 142.21
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C5B9"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1748.47
+      y: 86.39
+      width: 62.39
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C5B9"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Example Deck
+    frame:
+      x: 115.19
+      y: 398.05
+      width: 1152.05
+      height: 155.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 76.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+              letterSpacingPt: -1.536
+          lineHeight: 1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 115.19
+      y: 584.03
+      width: 864.05
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 17.28
+              weight: 300
+              color:
+                kind: rgb
+                value: "#A89F96"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 115.19
+      y: 964.81
+      width: 237.52
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A8179"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Confidential
+    frame:
+      x: 1685.39
+      y: 964.81
+      width: 135.47
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A8179"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  dark-florals:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/dark-florals.jpg

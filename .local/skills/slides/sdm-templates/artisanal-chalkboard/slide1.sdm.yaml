@@ -1,0 +1,243 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#1A251D"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 138.24
+      width: 1689.63
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      opacity: 0.3
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 135.03
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1740.55
+      y: 64.8
+      width: 71.32
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 192
+      y: 332.64
+      width: 1536
+      height: 476
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      widthPt: 1.5
+      opacity: 0.4
+      dash: dash
+    rotationDeg: -1
+  - id: shape3
+    type: shape
+    frame:
+      x: 172.99
+      y: 343.63
+      width: 1574
+      height: 454
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 38.4
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      widthPt: 1
+      opacity: 0.2
+    rotationDeg: 0.5
+  - id: text3
+    type: text
+    name: Example Deck
+    frame:
+      x: 264.75
+      y: 330.14
+      width: 1390.51
+      height: 213.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 96
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+              letterSpacingPt: 1.92
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 816
+      y: 584.67
+      width: 288
+      height: 4
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+    rotationDeg: -1
+    opacity: 0.8
+  - id: text4
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 304.105
+      y: 632.02
+      width: 1152.05
+      height: 137.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 21.12
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.85
+    rotationDeg: 0.02
+  - id: shape5
+    type: shape
+    frame:
+      x: 115.19
+      y: 957.05
+      width: 1689.63
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      opacity: 0.3
+  - id: text5
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 115.19
+      y: 980.64
+      width: 252.03
+      height: 71
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 1624.48
+      y: 986.41
+      width: 191.2
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7

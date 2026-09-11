@@ -1,0 +1,190 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#111111"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 57.59
+      y: 32.39
+      width: 1804.81
+      height: 1015.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.1
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 164.7
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 4.8
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: MMXXVI
+    frame:
+      x: 1675.33
+      y: 89.27
+      width: 96.6
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: MMXXVI
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: text3
+    type: text
+    name: INTRODUCING
+    frame:
+      x: 153.565
+      y: 388.17
+      width: 1612.86
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: INTRODUCING
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 4.608
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: text4
+    type: text
+    name: Example
+    frame:
+      x: 153.565
+      y: 443.59
+      width: 1612.86
+      height: 132.55
+    body:
+      paragraphs:
+        - runs:
+            - text: Example
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 76.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+              letterSpacingPt: 1.536
+          align: center
+          lineHeight: 0.85
+      overflow: visible
+  - id: text5
+    type: text
+    name: DECK
+    frame:
+      x: 153.565
+      y: 574.14
+      width: 1612.86
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: DECK
+              font:
+                kind: family
+                family: Inter
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 23.04
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 575.975
+      y: 933.5
+      width: 768.05
+      height: 38.02
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.8
+      overflow: visible
+    opacity: 0.5
+  - id: shape2
+    type: shape
+    frame:
+      x: 912
+      y: 993.11
+      width: 96
+      height: 0.5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.3

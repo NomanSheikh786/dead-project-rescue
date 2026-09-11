@@ -1,0 +1,669 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0C0C0C"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 96
+      y: 0
+      width: 1728
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#D4AF37"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape2
+    type: shape
+    frame:
+      x: 96
+      y: 1078
+      width: 1728
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#D4AF37"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape3
+    type: shape
+    frame:
+      x: 96
+      y: 32.39
+      width: 1728
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#D4AF37"
+          opacity: 0.3
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape4
+    type: shape
+    frame:
+      x: 96
+      y: 1046.61
+      width: 1728
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#D4AF37"
+          opacity: 0.3
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape5
+    type: shape
+    frame:
+      x: 96
+      y: 32.39
+      width: 1
+      height: 1015.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#D4AF37"
+          opacity: 0.3
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape6
+    type: shape
+    frame:
+      x: 1823
+      y: 32.39
+      width: 1
+      height: 1015.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#D4AF37"
+          opacity: 0.3
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: text1
+    type: text
+    name: PERFORMANCE
+    frame:
+      x: 153.59
+      y: 75.59
+      width: 508
+      height: 88
+    body:
+      paragraphs:
+        - runs:
+            - text: PERFORMANCE
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 28.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 2.88
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: KEY METRICS
+    frame:
+      x: 153.59
+      y: 172.78
+      width: 467.02
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: KEY METRICS
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+              letterSpacingPt: 5.76
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: ◆
+    frame:
+      x: 1736.88
+      y: 75.59
+      width: 29.58
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: ◆
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 959.5
+      y: 293.73
+      width: 1
+      height: 644.45
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+      opacity: 0.3
+  - id: text4
+    type: text
+    name: YEAR OVER YEAR GROWTH
+    frame:
+      x: 153.59
+      y: 449.09
+      width: 729.16
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: YEAR OVER YEAR GROWTH
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text5
+    type: text
+    name: +145%
+    frame:
+      x: 153.59
+      y: 499.48
+      width: 729.16
+      height: 155
+    body:
+      paragraphs:
+        - runs:
+            - text: +145%
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 76.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 153.59
+      y: 674.67
+      width: 192
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+  - id: text6
+    type: text
+    name: A monumental leap in ope...
+    frame:
+      x: 153.59
+      y: 709.06
+      width: 729.16
+      height: 73.75
+    body:
+      paragraphs:
+        - runs:
+            - text: A monumental leap in operational excellence, driving unprecedented returns across all primary sectors.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+  - id: text7
+    type: text
+    name: ◆
+    frame:
+      x: 1037.3
+      y: 432.39
+      width: 14.82
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ◆
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: $4.2B
+    frame:
+      x: 1109.66
+      y: 383.8
+      width: 205.68
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: $4.2B
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 28.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1
+      overflow: visible
+  - id: text9
+    type: text
+    name: GLOBAL REVENUE
+    frame:
+      x: 1109.66
+      y: 446.78
+      width: 232.22
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: GLOBAL REVENUE
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+              letterSpacingPt: 1.056
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Across 42 active markets
+    frame:
+      x: 1109.66
+      y: 483.86
+      width: 244.97
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Across 42 active markets
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text11
+    type: text
+    name: ◆
+    frame:
+      x: 1037.3
+      y: 601.56
+      width: 14.82
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ◆
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: 98.5%
+    frame:
+      x: 1109.66
+      y: 552.97
+      width: 219.32
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: 98.5%
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 28.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1
+      overflow: visible
+  - id: text13
+    type: text
+    name: CLIENT RETENTION
+    frame:
+      x: 1109.66
+      y: 615.95
+      width: 248.14
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: CLIENT RETENTION
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+              letterSpacingPt: 1.056
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: Industry-leading loyalty
+    frame:
+      x: 1109.66
+      y: 653.03
+      width: 219.32
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Industry-leading loyalty
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text15
+    type: text
+    name: ◆
+    frame:
+      x: 1037.3
+      y: 770.73
+      width: 14.82
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ◆
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: 32%
+    frame:
+      x: 1109.66
+      y: 722.14
+      width: 222.41
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: 32%
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 28.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1
+      overflow: visible
+  - id: text17
+    type: text
+    name: MARKET SHARE
+    frame:
+      x: 1109.66
+      y: 785.13
+      width: 222.41
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: MARKET SHARE
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+              letterSpacingPt: 1.056
+          lineHeight: 1.5
+      overflow: visible
+  - id: text18
+    type: text
+    name: Dominant category positi...
+    frame:
+      x: 1109.66
+      y: 822.2
+      width: 251.65
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Dominant category position
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text19
+    type: text
+    name: EXAMPLE COMPANY / Q4 REP...
+    frame:
+      x: 153.59
+      y: 981.38
+      width: 409.31
+      height: 25
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY / Q4 REPORT
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text20
+    type: text
+    name: "03"
+    frame:
+      x: 1737.59
+      y: 981.38
+      width: 33
+      height: 25
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5

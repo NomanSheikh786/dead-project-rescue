@@ -1,0 +1,432 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 1612.8
+      height: 2.16
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1C1C1C"
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 153.59
+      y: 107.98
+      width: 97.6
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1C1C1C"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Strategic Focus
+    frame:
+      x: 1625.25
+      y: 107.98
+      width: 168.18
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Strategic Focus
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: "02"
+    frame:
+      x: 153.59
+      y: 378
+      width: 612.75
+      height: 384
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 240
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F5F5F5"
+              letterSpacingPt: -12
+          lineHeight: 0.8
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text4
+    type: text
+    name: DATE
+    frame:
+      x: 153.59
+      y: 942.14
+      width: 124.36
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: DATE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: October 2026
+    frame:
+      x: 153.59
+      y: 967.69
+      width: 131.82
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: October 2026
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: PREPARED BY
+    frame:
+      x: 431.5
+      y: 942.14
+      width: 145.08
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: PREPARED BY
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Strategy Group
+    frame:
+      x: 431.5
+      y: 967.69
+      width: 200
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Strategy Group
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: PAGE
+    frame:
+      x: 1729.11
+      y: 942.14
+      width: 37.3
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: PAGE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: "02"
+    frame:
+      x: 1734.11
+      y: 967.69
+      width: 32.3
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1C1C1C"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Key Objectives
+    frame:
+      x: 153.59
+      y: 223.17
+      width: 1612.86
+      height: 75.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Key Objectives
+              font:
+                kind: family
+                family: Inter
+              sizePt: 33.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1C1C1C"
+              letterSpacingPt: -0.672
+          lineHeight: 1.1
+      overflow: visible
+  - id: text11
+    type: text
+    name: Market Expansion
+    frame:
+      x: 153.59
+      y: 361.89
+      width: 307.24
+      height: 74.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Market Expansion
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1C1C1C"
+              letterSpacingPt: -0.134
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Aggressively target emer...
+    frame:
+      x: 518.38
+      y: 361.89
+      width: 787.27
+      height: 76.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Aggressively target emerging markets in APAC and EMEA, establishing local presence and localized product offerings.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 12.48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 153.59
+      y: 479.92
+      width: 1152
+      height: 1.08
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0E0E0"
+  - id: text13
+    type: text
+    name: Product Innovation
+    frame:
+      x: 153.59
+      y: 524.19
+      width: 307.24
+      height: 74.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Product Innovation
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1C1C1C"
+              letterSpacingPt: -0.134
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: Launch three new major p...
+    frame:
+      x: 518.38
+      y: 524.19
+      width: 884.58
+      height: 76.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Launch three new major product lines leveraging our proprietary models to solve core enterprise workflow constraints.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 12.48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 153.59
+      y: 642.22
+      width: 1152
+      height: 1.08
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0E0E0"
+  - id: text15
+    type: text
+    name: Operational Efficiency
+    frame:
+      x: 153.59
+      y: 686.48
+      width: 325.67
+      height: 74.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Operational Efficiency
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1C1C1C"
+              letterSpacingPt: -0.134
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: Streamline internal supp...
+    frame:
+      x: 518.38
+      y: 686.48
+      width: 834.51
+      height: 76.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Streamline internal supply chain operations to reduce overhead costs by 15% over the next four financial quarters.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 12.48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 153.59
+      y: 908.75
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0E0E0"

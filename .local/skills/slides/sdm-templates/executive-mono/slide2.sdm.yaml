@@ -1,0 +1,322 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: text1
+    type: text
+    name: "02"
+    frame:
+      x: 1528.34
+      y: 150
+      width: 307.52
+      height: 230.41
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 115.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E5E5E5"
+          lineHeight: 1
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text2
+    type: text
+    name: "[acme.co]"
+    frame:
+      x: 115.19
+      y: 99.19
+      width: 134.8
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "[acme.co]"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: "DATE: 2026"
+    frame:
+      x: 1689.69
+      y: 99.19
+      width: 115.18
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "DATE: 2026"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: CORE // FEATURES
+    frame:
+      x: 115.19
+      y: 220.14
+      width: 1689.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CORE // FEATURES
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: SYSTEM ARCHITECTURE
+    frame:
+      x: 115.19
+      y: 270.53
+      width: 1689.68
+      height: 95.05
+    body:
+      paragraphs:
+        - runs:
+            - text: SYSTEM ARCHITECTURE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 43.2
+              weight: 500
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: -0.864
+          lineHeight: 1.1
+      overflow: visible
+  - id: text6
+    type: text
+    name: "> DECENTRALIZED PROTOCOL"
+    frame:
+      x: 115.19
+      y: 430.38
+      width: 384.05
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "> DECENTRALIZED PROTOCOL"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: A robust framework that ...
+    frame:
+      x: 556.78
+      y: 430.38
+      width: 902.46
+      height: 67.59
+    body:
+      paragraphs:
+        - runs:
+            - text: A robust framework that removes single points of failure while ensuring maximum uptime and reliability.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text8
+    type: text
+    name: "> ENCRYPTED COMMUNICATIO..."
+    frame:
+      x: 115.19
+      y: 541.16
+      width: 384.05
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "> ENCRYPTED COMMUNICATIONS"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: End-to-end security via ...
+    frame:
+      x: 556.78
+      y: 541.16
+      width: 902.46
+      height: 67.59
+    body:
+      paragraphs:
+        - runs:
+            - text: End-to-end security via advanced cryptographic primitives, guaranteeing privacy by default.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text10
+    type: text
+    name: "> REAL-TIME SYNC"
+    frame:
+      x: 115.19
+      y: 651.94
+      width: 384.05
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "> REAL-TIME SYNC"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: State resolution happens...
+    frame:
+      x: 556.78
+      y: 651.94
+      width: 902.46
+      height: 67.59
+    body:
+      paragraphs:
+        - runs:
+            - text: State resolution happens in milliseconds across global nodes without compromising consistency.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text12
+    type: text
+    name: "COMPANY: Example Company..."
+    frame:
+      x: 115.19
+      y: 928.97
+      width: 336.75
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: "COMPANY: Example Company, Inc."
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+        - runs:
+            - text: "STATUS: Confidential"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 1689.63
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape2
+    type: shape
+    frame:
+      x: 115.19
+      y: 1013.2
+      width: 1689.63
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"

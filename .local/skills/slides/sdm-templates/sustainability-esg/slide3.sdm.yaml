@@ -1,0 +1,631 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F7F2"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 384
+      y: -108
+      width: 768
+      height: 768
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5B7C5A"
+    opacity: 0.08
+  - id: shape2
+    type: shape
+    frame:
+      x: 768
+      y: -102
+      width: 1344
+      height: 1344
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A962"
+    opacity: 0.06
+  - id: shape3
+    type: shape
+    frame:
+      x: 153.59
+      y: 135.58
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5B7C5A"
+      opacity: 0.2
+  - id: shape4
+    type: shape
+    frame:
+      x: 153.59
+      y: 64.8
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5B7C5A"
+  - id: shape5
+    type: shape
+    frame:
+      x: 172.8
+      y: 84
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A962"
+    opacity: 0.8
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 211.17
+      y: 66.7
+      width: 103.91
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#5B7C5A"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: PROGRESS METRICS
+    frame:
+      x: 1542.23
+      y: 69.59
+      width: 237.67
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: PROGRESS METRICS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#6B7C6A"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: PERFORMANCE DATA
+    frame:
+      x: 153.565
+      y: 201.38
+      width: 1612.86
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: PERFORMANCE DATA
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#C4A962"
+              letterSpacingPt: 1.584
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: 2025 Impact at a Glance
+    frame:
+      x: 153.565
+      y: 254.66
+      width: 1612.86
+      height: 75.92
+    body:
+      paragraphs:
+        - runs:
+            - text: 2025 Impact at a Glance
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 33.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: -0.672
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text5
+    type: text
+    name: Measurable progress towa...
+    frame:
+      x: 575.975
+      y: 350.17
+      width: 768.05
+      height: 69.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Measurable progress toward our ambitious 2030 climate and sustainability goals across global operations.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B7C6A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 364.81
+      y: 484.09
+      width: 345.59
+      height: 272.41
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: shape6
+    type: shape
+    frame:
+      x: 364.81
+      y: 484.09
+      width: 345.59
+      height: 7
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5B7C5A"
+  - id: text6
+    type: text
+    name: -42%
+    frame:
+      x: 422.385
+      y: 534.28
+      width: 230.46
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: -42%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5B7C5A"
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: text7
+    type: text
+    name: CARBON FOOTPRINT
+    frame:
+      x: 422.385
+      y: 621.88
+      width: 230.46
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CARBON FOOTPRINT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 0.48
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Reduction in CO2 emissio...
+    frame:
+      x: 415.47
+      y: 661.47
+      width: 244.29
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Reduction in CO2 emissions vs 2020 baseline.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B7C6A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 787.2
+      y: 484.09
+      width: 345.59
+      height: 272.41
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: shape8
+    type: shape
+    frame:
+      x: 787.2
+      y: 484.09
+      width: 345.59
+      height: 7
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A962"
+  - id: text9
+    type: text
+    name: 85%
+    frame:
+      x: 844.775
+      y: 534.28
+      width: 230.46
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 85%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A962"
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: text10
+    type: text
+    name: RENEWABLE ENERGY
+    frame:
+      x: 844.775
+      y: 621.88
+      width: 230.46
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: RENEWABLE ENERGY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 0.48
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Of our global facilities...
+    frame:
+      x: 837.86
+      y: 661.47
+      width: 244.29
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Of our global facilities now powered by renewables.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B7C6A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape11
+    type: shape
+    frame:
+      x: 1209.59
+      y: 484.09
+      width: 345.59
+      height: 272.41
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: shape10
+    type: shape
+    frame:
+      x: 1209.59
+      y: 484.09
+      width: 345.59
+      height: 7
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: text12
+    type: text
+    name: 1.2M
+    frame:
+      x: 1267.165
+      y: 534.28
+      width: 230.46
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 1.2M
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: text13
+    type: text
+    name: TREES PLANTED
+    frame:
+      x: 1267.165
+      y: 621.88
+      width: 230.46
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: TREES PLANTED
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 0.48
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: Through our reforestatio...
+    frame:
+      x: 1260.25
+      y: 661.47
+      width: 244.29
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Through our reforestation partnerships this year.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B7C6A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape12
+    type: shape
+    frame:
+      x: 691.88
+      y: 821.55
+      width: 28.8
+      height: 3.83
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5B7C5A"
+  - id: text15
+    type: text
+    name: Data verified by indepen...
+    frame:
+      x: 739.86
+      y: 810.5
+      width: 581.6
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Data verified by independent third-party auditors (Q4 2025)
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B7C6A"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape13
+    type: shape
+    frame:
+      x: 153.59
+      y: 955.89
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5B7C5A"
+      opacity: 0.2
+  - id: text16
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 153.59
+      y: 989.28
+      width: 209.43
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A998A"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text17
+    type: text
+    name: "03"
+    frame:
+      x: 948.64
+      y: 989.28
+      width: 24.03
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#5B7C5A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text18
+    type: text
+    name: Confidential & Proprieta...
+    frame:
+      x: 1556.3
+      y: 989.28
+      width: 250.31
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential & Proprietary
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A998A"
+          lineHeight: 1.5
+      overflow: visible

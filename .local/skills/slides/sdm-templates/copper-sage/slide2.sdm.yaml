@@ -1,0 +1,484 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#E8EDE5"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 76.8
+      y: 76.8
+      width: 1766.41
+      height: 926.41
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B87333"
+      widthPt: 0.5
+  - id: shape2
+    type: shape
+    frame:
+      x: 192.74
+      y: 150.99
+      width: 12
+      height: 12
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87333"
+    rotationDeg: 45
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 223.69
+      y: 142.59
+      width: 91.22
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D3B2D"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "02"
+    frame:
+      x: 1702.13
+      y: 144.03
+      width: 27.94
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#546654"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 192.98
+      y: 271.67
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87333"
+  - id: text3
+    type: text
+    name: CORE PHILOSOPHY
+    frame:
+      x: 308.17
+      y: 257.78
+      width: 253.11
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CORE PHILOSOPHY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B87333"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Cultivating Value
+    frame:
+      x: 192.98
+      y: 329.77
+      width: 1534.08
+      height: 95.05
+    body:
+      paragraphs:
+        - runs:
+            - text: Cultivating Value
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D3B2D"
+          lineHeight: 1.1
+      overflow: visible
+  - id: text5
+    type: text
+    name: Our approach blends trad...
+    frame:
+      x: 192.98
+      y: 511.2
+      width: 709.47
+      height: 174
+    body:
+      paragraphs:
+        - runs:
+            - text: Our approach blends traditional craftsmanship with modern efficiency. We believe in building enduring structures that stand the test of time, both physically and metaphorically.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#546654"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text6
+    type: text
+    name: By focusing on the intri...
+    frame:
+      x: 192.98
+      y: 704.8
+      width: 709.47
+      height: 131
+    body:
+      paragraphs:
+        - runs:
+            - text: By focusing on the intrinsic qualities of our materials and the people who work with them, we establish a foundation for unprecedented growth.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#546654"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1017.59
+      y: 513.36
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B87333"
+      widthPt: 0.5
+  - id: shape5
+    type: shape
+    frame:
+      x: 1027.19
+      y: 522.95
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87333"
+  - id: text7
+    type: text
+    name: Sustainable Sourcing
+    frame:
+      x: 1075.19
+      y: 511.2
+      width: 642.82
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Sustainable Sourcing
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2D3B2D"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Materials chosen for lon...
+    frame:
+      x: 1075.19
+      y: 556.91
+      width: 722.27
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Materials chosen for longevity and minimal environmental impact.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#546654"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 1017.59
+      y: 623.14
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B87333"
+      widthPt: 0.5
+  - id: shape7
+    type: shape
+    frame:
+      x: 1027.19
+      y: 632.73
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87333"
+  - id: text9
+    type: text
+    name: Artisan Expertise
+    frame:
+      x: 1075.19
+      y: 620.98
+      width: 628.49
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Artisan Expertise
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2D3B2D"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Craftsmen dedicated to p...
+    frame:
+      x: 1075.19
+      y: 666.69
+      width: 748.54
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Craftsmen dedicated to perfecting their discipline over decades.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#546654"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 1017.59
+      y: 732.92
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B87333"
+      widthPt: 0.5
+  - id: shape9
+    type: shape
+    frame:
+      x: 1027.19
+      y: 742.52
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87333"
+  - id: text11
+    type: text
+    name: Measured Growth
+    frame:
+      x: 1075.19
+      y: 730.77
+      width: 541.33
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Measured Growth
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2D3B2D"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Expanding our footprint ...
+    frame:
+      x: 1075.19
+      y: 776.47
+      width: 644.73
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Expanding our footprint thoughtfully to maintain quality.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#546654"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 192.98
+      y: 911.48
+      width: 241.22
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#546654"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape10
+    type: shape
+    frame:
+      x: 497.13
+      y: 920.45
+      width: 8
+      height: 8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87333"
+    rotationDeg: 45
+  - id: text14
+    type: text
+    name: Confidential
+    frame:
+      x: 581.77
+      y: 911.48
+      width: 121.71
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#546654"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible

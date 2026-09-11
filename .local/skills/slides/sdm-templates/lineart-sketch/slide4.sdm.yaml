@@ -1,0 +1,326 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FEFCF8"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 0
+      width: 3.83
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E54D2E"
+      opacity: 0.4
+  - id: shape2
+    type: shape
+    frame:
+      x: 163.19
+      y: 0
+      width: 1.91
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E54D2E"
+      opacity: 0.2
+  - id: text1
+    type: text
+    name: NEXT STEPS
+    frame:
+      x: 230.39
+      y: 64.8
+      width: 169.12
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: NEXT STEPS
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#333333"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1707.77
+      y: 64.8
+      width: 62.68
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E54D2E"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 230.39
+      y: 986.41
+      width: 416.01
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "EXAMPLE COMPANY, INC. / "
+              color:
+                kind: rgb
+                value: "#333333"
+            - text: CONFIDENTIAL
+              color:
+                kind: rgb
+                value: "#E54D2E"
+          lineHeight: 1.5
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Courier New
+            sizePt: 9.6
+            weight: 700
+      overflow: visible
+  - id: text4
+    type: text
+    name: SLIDE_04
+    frame:
+      x: 1676.95
+      y: 986.41
+      width: 95.49
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: SLIDE_04
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Ready to Launch?
+    frame:
+      x: 352.44
+      y: 270.2
+      width: 1291.89
+      height: 462
+    body:
+      paragraphs:
+        - runs:
+            - text: Ready to Launch?
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 76.8
+              weight: 800
+              color:
+                kind: rgb
+                value: "#333333"
+              letterSpacingPt: -1.92
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -1
+  - id: text6
+    type: text
+    name: Join us in building the ...
+    frame:
+      x: 441.91
+      y: 543.69
+      width: 1112.99
+      height: 117
+    body:
+      paragraphs:
+        - runs:
+            - text: Join us in building the next generation of sketchy, beautifully imperfect tools.
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 19.2
+              weight: 600
+              color:
+                kind: rgb
+                value: "#555555"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.5
+  - id: shape3
+    type: shape
+    frame:
+      x: 842.99
+      y: 754.8
+      width: 330
+      height: 101
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 50.5
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+    rotationDeg: -2
+  - id: shape4
+    type: shape
+    frame:
+      x: 833.39
+      y: 745.2
+      width: 330
+      height: 101
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 50.5
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E54D2E"
+    stroke:
+      color:
+        kind: rgb
+        value: "#333333"
+      widthPt: 1.5
+    rotationDeg: -2
+  - id: text7
+    type: text
+    name: LET'S TALK
+    frame:
+      x: 828.36
+      y: 745.2
+      width: 340.06
+      height: 148
+    body:
+      paragraphs:
+        - runs:
+            - text: LET'S TALK
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 17.28
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+    rotationDeg: -2
+  - id: text8
+    type: text
+    name: hello@example.com
+    frame:
+      x: 646.545
+      y: 906.7
+      width: 234.05
+      height: 35
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@example.com
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#333333"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 1
+  - id: text9
+    type: text
+    name: "@example_co"
+    frame:
+      x: 957.685
+      y: 911.48
+      width: 160.05
+      height: 35
+    body:
+      paragraphs:
+        - runs:
+            - text: "@example_co"
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#333333"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 1
+  - id: text10
+    type: text
+    name: example.com
+    frame:
+      x: 1194.495
+      y: 915.58
+      width: 156.05
+      height: 35
+    body:
+      paragraphs:
+        - runs:
+            - text: example.com
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#333333"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 1

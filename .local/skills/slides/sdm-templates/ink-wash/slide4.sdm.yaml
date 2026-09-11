@@ -1,0 +1,371 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F0E6"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 288
+      y: -132
+      width: 1344
+      height: 1344
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 604.8
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+    opacity: 0.022
+  - id: shape2
+    type: shape
+    frame:
+      x: 480
+      y: 54
+      width: 768
+      height: 864
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D93829"
+    opacity: 0.017
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 230.39
+      y: 967.69
+      width: 81.13
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text2
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 388.27
+      y: 967.69
+      width: 238.72
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text3
+    type: text
+    name: "04"
+    frame:
+      x: 1664.63
+      y: 967.69
+      width: 28.03
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: shape3
+    type: shape
+    frame:
+      x: 912
+      y: 240.27
+      width: 96
+      height: 96
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D93829"
+    stroke:
+      color:
+        kind: rgb
+        value: "#F5F0E6"
+      widthPt: 2.5
+  - id: text4
+    type: text
+    name: 印
+    frame:
+      x: 939.385
+      y: 259.45
+      width: 41.22
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: 印
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F5F0E6"
+              letterSpacingPt: -1.92
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 90
+  - id: text5
+    type: text
+    name: Begin the dialogue.
+    frame:
+      x: 400.03
+      y: 401.06
+      width: 1119.95
+      height: 128.72
+    body:
+      paragraphs:
+        - runs:
+            - text: Begin the dialogue.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -1.152
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+    opacity: 0.9
+  - id: text6
+    type: text
+    name: Mastery is a journey sha...
+    frame:
+      x: 575.975
+      y: 560.17
+      width: 768.05
+      height: 88
+    body:
+      paragraphs:
+        - runs:
+            - text: Mastery is a journey shared. Reach out to explore how our principles can elevate your vision.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.6
+    rotationDeg: 0.02
+  - id: shape4
+    type: shape
+    frame:
+      x: 598.94
+      y: 732.56
+      width: 722.11
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+      opacity: 0.1
+  - id: text7
+    type: text
+    name: EMAIL
+    frame:
+      x: 598.915
+      y: 776.75
+      width: 169.24
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EMAIL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 1.536
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: text8
+    type: text
+    name: studio@acme.co
+    frame:
+      x: 589.92
+      y: 805.17
+      width: 187.24
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: studio@acme.co
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: LOCATION
+    frame:
+      x: 844.895
+      y: 776.75
+      width: 246.19
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: LOCATION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 1.536
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: text10
+    type: text
+    name: Kyoto, JP · New York, US
+    frame:
+      x: 821.38
+      y: 805.17
+      width: 293.22
+      height: 71
+    body:
+      paragraphs:
+        - runs:
+            - text: Kyoto, JP · New York, US
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: SOCIAL
+    frame:
+      x: 1167.835
+      y: 776.75
+      width: 153.24
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: SOCIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 1.536
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: text12
+    type: text
+    name: "@acme_studio"
+    frame:
+      x: 1161.34
+      y: 805.17
+      width: 166.24
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "@acme_studio"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible

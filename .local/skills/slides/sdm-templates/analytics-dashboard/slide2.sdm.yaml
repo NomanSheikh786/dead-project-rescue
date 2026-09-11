@@ -1,0 +1,934 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FAFBFC"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 76.8
+      y: 103.17
+      width: 1766.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E2E8F0"
+  - id: shape2
+    type: shape
+    frame:
+      x: 76.8
+      y: 43.19
+      width: 38.39
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 7.68
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0D9488"
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 134.38
+      y: 45.09
+      width: 100.32
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1E3A5F"
+              letterSpacingPt: 0.23
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: EXECUTIVE SUMMARY
+    frame:
+      x: 1543.25
+      y: 47.98
+      width: 226.3
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: EXECUTIVE SUMMARY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#64748B"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: "2026"
+    frame:
+      x: 1795.08
+      y: 47.98
+      width: 52.18
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#64748B"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: KEY OBJECTIVES
+    frame:
+      x: 76.8
+      y: 179.47
+      width: 844.85
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: KEY OBJECTIVES
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#0D9488"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Accelerating Growth
+    frame:
+      x: 76.8
+      y: 224.83
+      width: 844.85
+      height: 86.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Accelerating Growth
+              font:
+                kind: family
+                family: Inter
+              sizePt: 38.4
+              weight: 800
+              color:
+                kind: rgb
+                value: "#1E3A5F"
+              letterSpacingPt: -0.768
+          lineHeight: 1.1
+      overflow: visible
+  - id: text6
+    type: text
+    name: Our primary focus for th...
+    frame:
+      x: 76.8
+      y: 330.89
+      width: 768.05
+      height: 161.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Our primary focus for this quarter is to expand our user base while maintaining best-in-class retention rates. We plan to achieve this through targeted campaigns and product enhancements.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 12.48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#475569"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 76.8
+      y: 533.77
+      width: 844.8
+      height: 112.02
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#E2E8F0"
+      widthPt: 0.5
+  - id: shape4
+    type: shape
+    frame:
+      x: 116.19
+      y: 556.36
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0D9488"
+      opacity: 0.1
+  - id: text7
+    type: text
+    name: "1"
+    frame:
+      x: 116.165
+      y: 556.36
+      width: 57.64
+      height: 57.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "1"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#0D9488"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text8
+    type: text
+    name: Market Expansion
+    frame:
+      x: 202.58
+      y: 556.36
+      width: 344.05
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Market Expansion
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1E3A5F"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Launch in 3 new internat...
+    frame:
+      x: 202.58
+      y: 596.31
+      width: 386.57
+      height: 26.88
+    body:
+      paragraphs:
+        - runs:
+            - text: Launch in 3 new international markets
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#64748B"
+          lineHeight: 1.4
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 76.8
+      y: 667.38
+      width: 844.8
+      height: 112.02
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#E2E8F0"
+      widthPt: 0.5
+  - id: shape6
+    type: shape
+    frame:
+      x: 116.19
+      y: 689.97
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0D9488"
+      opacity: 0.1
+  - id: text10
+    type: text
+    name: "2"
+    frame:
+      x: 116.165
+      y: 689.97
+      width: 57.64
+      height: 57.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "2"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#0D9488"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text11
+    type: text
+    name: Product Innovation
+    frame:
+      x: 202.58
+      y: 689.97
+      width: 363.39
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Product Innovation
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1E3A5F"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Release version 3.0 of o...
+    frame:
+      x: 202.58
+      y: 729.92
+      width: 432.8
+      height: 26.88
+    body:
+      paragraphs:
+        - runs:
+            - text: Release version 3.0 of our core platform
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#64748B"
+          lineHeight: 1.4
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 76.8
+      y: 800.98
+      width: 844.8
+      height: 112.02
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#E2E8F0"
+      widthPt: 0.5
+  - id: shape8
+    type: shape
+    frame:
+      x: 116.19
+      y: 823.58
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0D9488"
+      opacity: 0.1
+  - id: text13
+    type: text
+    name: "3"
+    frame:
+      x: 116.165
+      y: 823.58
+      width: 57.64
+      height: 57.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "3"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#0D9488"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text14
+    type: text
+    name: Enterprise Sales
+    frame:
+      x: 202.58
+      y: 823.58
+      width: 329.3
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Enterprise Sales
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1E3A5F"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: Close 5 major Fortune 50...
+    frame:
+      x: 202.58
+      y: 863.53
+      width: 370
+      height: 26.88
+    body:
+      paragraphs:
+        - runs:
+            - text: Close 5 major Fortune 500 accounts
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#64748B"
+          lineHeight: 1.4
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 998.39
+      y: 147.36
+      width: 844.81
+      height: 797.75
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#E2E8F0"
+      widthPt: 0.5
+  - id: shape10
+    type: shape
+    frame:
+      x: 1056.98
+      y: 392.37
+      width: 727.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E2E8F0"
+  - id: text16
+    type: text
+    name: Strategic Milestones
+    frame:
+      x: 1056.98
+      y: 327.59
+      width: 727.68
+      height: 65.78
+    body:
+      paragraphs:
+        - runs:
+            - text: Strategic Milestones
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1E3A5F"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 10.8
+        left: 0
+  - id: shape11
+    type: shape
+    frame:
+      x: 1066.58
+      y: 447.36
+      width: 2
+      height: 295.92
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E2E8F0"
+  - id: shape12
+    type: shape
+    frame:
+      x: 76.8
+      y: 988.3
+      width: 1766.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E2E8F0"
+  - id: text17
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 76.8
+      y: 1010.89
+      width: 193.33
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#94A3B8"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text18
+    type: text
+    name: Confidential & Proprieta...
+    frame:
+      x: 1525.73
+      y: 1010.89
+      width: 253.72
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential & Proprietary
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#94A3B8"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text19
+    type: text
+    name: •
+    frame:
+      x: 1757.91
+      y: 1010.89
+      width: 11.27
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: •
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#94A3B8"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text20
+    type: text
+    name: Page 2
+    frame:
+      x: 1786.31
+      y: 1010.89
+      width: 60.36
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Page 2
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#94A3B8"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape13
+    type: shape
+    frame:
+      x: 1056.98
+      y: 446.41
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0D9488"
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 2
+  - id: text21
+    type: text
+    name: JANUARY
+    frame:
+      x: 1114.56
+      y: 425.77
+      width: 234.13
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: JANUARY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#0D9488"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text22
+    type: text
+    name: Q1 Kickoff & Planning
+    frame:
+      x: 1114.56
+      y: 451.69
+      width: 278.85
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Q1 Kickoff & Planning
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1E3A5F"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape14
+    type: shape
+    frame:
+      x: 1056.98
+      y: 539.28
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0D9488"
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 2
+  - id: text23
+    type: text
+    name: FEBRUARY
+    frame:
+      x: 1114.56
+      y: 518.64
+      width: 223.27
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: FEBRUARY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#0D9488"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text24
+    type: text
+    name: Beta Launch of V3.0
+    frame:
+      x: 1114.56
+      y: 544.56
+      width: 250.87
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Beta Launch of V3.0
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1E3A5F"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape15
+    type: shape
+    frame:
+      x: 1056.98
+      y: 632.16
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0D9488"
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 2
+  - id: text25
+    type: text
+    name: MARCH
+    frame:
+      x: 1114.56
+      y: 611.52
+      width: 305.52
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: MARCH
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#0D9488"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text26
+    type: text
+    name: Global Marketing Campaig...
+    frame:
+      x: 1114.56
+      y: 637.44
+      width: 323.85
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Global Marketing Campaign
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1E3A5F"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape16
+    type: shape
+    frame:
+      x: 1056.98
+      y: 725.03
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0D9488"
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 2
+  - id: text27
+    type: text
+    name: APRIL
+    frame:
+      x: 1114.56
+      y: 704.39
+      width: 261.47
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: APRIL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#0D9488"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text28
+    type: text
+    name: Q1 Performance Review
+    frame:
+      x: 1114.56
+      y: 730.31
+      width: 277.16
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Q1 Performance Review
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1E3A5F"
+          lineHeight: 1.5
+      overflow: visible

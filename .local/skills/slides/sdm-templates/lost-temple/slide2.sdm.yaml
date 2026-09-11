@@ -1,0 +1,383 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0C0A08"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: jungle-temple
+    fit: cover
+    opacity: 0.15
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#0C0A08"
+          opacity: 0.95
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#0C0A08"
+          opacity: 0.8
+  - id: text1
+    type: text
+    name: DISCOVERY
+    frame:
+      x: 153.59
+      y: 110.88
+      width: 132.47
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: DISCOVERY
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8965A"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 306.81
+      y: 121.89
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8965A"
+    opacity: 0.6
+  - id: text2
+    type: text
+    name: The Path Forward
+    frame:
+      x: 412.41
+      y: 86.39
+      width: 459.19
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: The Path Forward
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D8C4"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Every expedition begins ...
+    frame:
+      x: 153.59
+      y: 266.38
+      width: 748.86
+      height: 174
+    body:
+      paragraphs:
+        - runs:
+            - text: Every expedition begins with a profound sense of the unknown. We chart the unseen territories of the market, identifying areas of vast potential that others have left undisturbed.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D8C4"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.9
+  - id: text4
+    type: text
+    name: Our methodology combines...
+    frame:
+      x: 153.59
+      y: 481.56
+      width: 748.86
+      height: 156.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Our methodology combines ancient wisdom with modern precision, allowing us to unearth opportunities that lie hidden beneath the dense canopy of conventional thinking. We don't just follow trails; we forge them.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D8C4"
+          lineHeight: 1.7
+      overflow: visible
+    opacity: 0.7
+  - id: shape3
+    type: shape
+    frame:
+      x: 1017.59
+      y: 266.38
+      width: 2
+      height: 94.33
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8965A"
+  - id: text5
+    type: text
+    name: Excavation
+    frame:
+      x: 1057.98
+      y: 266.38
+      width: 708.47
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Excavation
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8965A"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Deep diving into the str...
+    frame:
+      x: 1057.98
+      y: 329.02
+      width: 708.47
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Deep diving into the strata of consumer behavior.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D8C4"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: shape4
+    type: shape
+    frame:
+      x: 1017.59
+      y: 403.89
+      width: 2
+      height: 94.33
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8965A"
+  - id: text7
+    type: text
+    name: Navigation
+    frame:
+      x: 1057.98
+      y: 403.89
+      width: 708.47
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Navigation
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8965A"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Steering through complex...
+    frame:
+      x: 1057.98
+      y: 466.53
+      width: 708.47
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Steering through complex regulatory environments.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D8C4"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: shape5
+    type: shape
+    frame:
+      x: 1017.59
+      y: 541.41
+      width: 2
+      height: 94.33
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8965A"
+  - id: text9
+    type: text
+    name: Preservation
+    frame:
+      x: 1057.98
+      y: 541.41
+      width: 708.47
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Preservation
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8965A"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Securing long-term value...
+    frame:
+      x: 1057.98
+      y: 604.05
+      width: 708.47
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Securing long-term value for future generations.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D8C4"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text11
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 967.69
+      width: 72.57
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D8C4"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text12
+    type: text
+    name: "02"
+    frame:
+      x: 1745.69
+      y: 967.69
+      width: 24.77
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8965A"
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  jungle-temple:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/jungle-temple.png

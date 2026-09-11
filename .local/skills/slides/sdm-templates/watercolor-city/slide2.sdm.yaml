@@ -1,0 +1,536 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FDF8F0"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: -192
+      y: -108
+      width: 768
+      height: 768
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 45
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#E6E6FA"
+          opacity: 0.4
+        - offset: 0.7
+          color:
+            kind: rgb
+            value: "#E6E6FA"
+          opacity: 0
+    opacity: 0.55
+  - id: text1
+    type: text
+    name: Our Journey
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 1689.68
+      height: 129.61
+    body:
+      paragraphs:
+        - runs:
+            - text: Our Journey
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 201.58
+      y: 511.19
+      width: 288
+      height: 288
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 115.2
+    fill:
+      kind: linearGradient
+      angleDeg: 45
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#FF7F50"
+          opacity: 0.6
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#FF7F50"
+          opacity: 0.2
+        - offset: 0.7
+          color:
+            kind: rgb
+            value: "#FF7F50"
+          opacity: 0
+    opacity: 0.495
+  - id: shape3
+    type: shape
+    frame:
+      x: 582.39
+      y: 509.99
+      width: 345.59
+      height: 268.8
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 134.4
+    fill:
+      kind: linearGradient
+      angleDeg: 52.12
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#FFD700"
+          opacity: 0.6
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#FFD700"
+          opacity: 0.2
+        - offset: 0.7
+          color:
+            kind: rgb
+            value: "#FFD700"
+          opacity: 0
+    opacity: 0.495
+  - id: shape4
+    type: shape
+    frame:
+      x: 1011.22
+      y: 507
+      width: 307.19
+      height: 307.19
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 122.88
+    fill:
+      kind: linearGradient
+      angleDeg: 45
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#E6E6FA"
+          opacity: 0.8
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#E6E6FA"
+          opacity: 0.3
+        - offset: 0.7
+          color:
+            kind: rgb
+            value: "#E6E6FA"
+          opacity: 0
+    opacity: 0.495
+  - id: shape5
+    type: shape
+    frame:
+      x: 1440.02
+      y: 486.6
+      width: 268.8
+      height: 326.39
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 107.52
+    fill:
+      kind: linearGradient
+      angleDeg: 39.47
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#008080"
+          opacity: 0.5
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#008080"
+          opacity: 0.15
+        - offset: 0.7
+          color:
+            kind: rgb
+            value: "#008080"
+          opacity: 0
+    opacity: 0.495
+  - id: shape6
+    type: shape
+    frame:
+      x: 230.38
+      y: 706.2
+      width: 1459.25
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C2C2C"
+      opacity: 0.15
+  - id: text2
+    type: text
+    name: "2024"
+    frame:
+      x: 281.23
+      y: 572
+      width: 128.69
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: "2024"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 24
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              italic: true
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: FOUNDED
+    frame:
+      x: 253.555
+      y: 661
+      width: 184.05
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: FOUNDED
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+              letterSpacingPt: 0.576
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Started with a vision
+    frame:
+      x: 235.98
+      y: 726
+      width: 219.21
+      height: 26.88
+    body:
+      paragraphs:
+        - runs:
+            - text: Started with a vision
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+          align: center
+          lineHeight: 1.4
+      overflow: visible
+    opacity: 0.7
+  - id: text5
+    type: text
+    name: "2025"
+    frame:
+      x: 690.86
+      y: 572
+      width: 128.64
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: "2025"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 24
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              italic: true
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: PRODUCT LAUNCH
+    frame:
+      x: 605.18
+      y: 661
+      width: 300
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: PRODUCT LAUNCH
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+              letterSpacingPt: 0.576
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: First users onboarded
+    frame:
+      x: 638.835
+      y: 726
+      width: 232.69
+      height: 26.88
+    body:
+      paragraphs:
+        - runs:
+            - text: First users onboarded
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+          align: center
+          lineHeight: 1.4
+      overflow: visible
+    opacity: 0.7
+  - id: text8
+    type: text
+    name: "2026"
+    frame:
+      x: 1100.39
+      y: 572
+      width: 128.85
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 24
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              italic: true
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: SERIES A
+    frame:
+      x: 1102.74
+      y: 661
+      width: 124.13
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: SERIES A
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+              letterSpacingPt: 0.576
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: $12M raised
+    frame:
+      x: 1099.02
+      y: 726
+      width: 131.58
+      height: 26.88
+    body:
+      paragraphs:
+        - runs:
+            - text: $12M raised
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+          align: center
+          lineHeight: 1.4
+      overflow: visible
+    opacity: 0.7
+    rotationDeg: 0.02
+  - id: text11
+    type: text
+    name: "2027"
+    frame:
+      x: 1509.81
+      y: 572
+      width: 129.21
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: "2027"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 24
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              italic: true
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: GLOBAL
+    frame:
+      x: 1476.885
+      y: 661
+      width: 195.07
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: GLOBAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+              letterSpacingPt: 0.576
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Expanding worldwide
+    frame:
+      x: 1471.03
+      y: 726
+      width: 206.77
+      height: 26.88
+    body:
+      paragraphs:
+        - runs:
+            - text: Expanding worldwide
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+          align: center
+          lineHeight: 1.4
+      overflow: visible
+    opacity: 0.7
+  - id: text14
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 115.19
+      y: 967.69
+      width: 317.4
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text15
+    type: text
+    name: "02"
+    frame:
+      x: 1779.06
+      y: 964.81
+      width: 28.8
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5

@@ -1,0 +1,331 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: text1
+    type: text
+    name: STRUCTURAL DATA
+    frame:
+      x: 76.8
+      y: 86.39
+      width: 1766.46
+      height: 48
+    body:
+      paragraphs:
+        - runs:
+            - text: STRUCTURAL DATA
+              font:
+                kind: family
+                family: Inter
+              sizePt: 24
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 4.8
+          lineHeight: 1
+      overflow: visible
+  - id: text2
+    type: text
+    name: Load bearing capacities ...
+    frame:
+      x: 76.8
+      y: 145.19
+      width: 1766.46
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Load bearing capacities and material stress
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 76.8
+      y: 266.14
+      width: 529.92
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape2
+    type: shape
+    frame:
+      x: 76.8
+      y: 991.61
+      width: 529.92
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text3
+    type: text
+    name: 84%
+    frame:
+      x: 76.8
+      y: 547.08
+      width: 529.97
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: 84%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: -2.88
+          lineHeight: 1
+      overflow: visible
+  - id: text4
+    type: text
+    name: CONCRETE DENSITY
+    frame:
+      x: 76.8
+      y: 683.88
+      width: 529.97
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CONCRETE DENSITY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 695.05
+      y: 266.14
+      width: 529.92
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape4
+    type: shape
+    frame:
+      x: 695.05
+      y: 991.61
+      width: 529.92
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text5
+    type: text
+    name: 1.2M
+    frame:
+      x: 695.05
+      y: 547.08
+      width: 529.97
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: 1.2M
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: -2.88
+          lineHeight: 1
+      overflow: visible
+  - id: text6
+    type: text
+    name: TENSILE STRENGTH
+    frame:
+      x: 695.05
+      y: 683.88
+      width: 529.97
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: TENSILE STRENGTH
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 1313.28
+      y: 266.14
+      width: 529.92
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape6
+    type: shape
+    frame:
+      x: 1313.28
+      y: 991.61
+      width: 529.92
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text7
+    type: text
+    name: "450"
+    frame:
+      x: 1313.28
+      y: 547.08
+      width: 529.97
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: "450"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: -2.88
+          lineHeight: 1
+      overflow: visible
+  - id: text8
+    type: text
+    name: METRIC TONS
+    frame:
+      x: 1313.28
+      y: 683.88
+      width: 529.97
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: METRIC TONS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 76.8
+      y: 1027.45
+      width: 349.04
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.672
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: "03"
+    frame:
+      x: 1823.73
+      y: 1027.45
+      width: 22.52
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.672
+          lineHeight: 1.5
+      overflow: visible

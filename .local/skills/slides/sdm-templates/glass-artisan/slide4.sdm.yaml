@@ -1,0 +1,369 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0A0F"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 60.64
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#D4A84B"
+          opacity: 0.08
+        - offset: 0.7
+          color:
+            kind: rgb
+            value: "#0A0A0F"
+  - id: shape2
+    type: shape
+    frame:
+      x: 76.8
+      y: 43.19
+      width: 1766.41
+      height: 993.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4A84B"
+      widthPt: 0.5
+      opacity: 0.1
+  - id: shape3
+    type: shape
+    frame:
+      x: 86.39
+      y: 37.8
+      width: 19.19
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+  - id: shape4
+    type: shape
+    frame:
+      x: 86.39
+      y: 37.8
+      width: 1
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+  - id: shape5
+    type: shape
+    frame:
+      x: 1814.42
+      y: 37.8
+      width: 19.19
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+  - id: shape6
+    type: shape
+    frame:
+      x: 1832.61
+      y: 37.8
+      width: 1
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+  - id: shape7
+    type: shape
+    frame:
+      x: 86.39
+      y: 1041.21
+      width: 19.19
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+  - id: shape8
+    type: shape
+    frame:
+      x: 86.39
+      y: 1023.02
+      width: 1
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+  - id: shape9
+    type: shape
+    frame:
+      x: 1832.61
+      y: 1023.02
+      width: 1
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+  - id: shape10
+    type: shape
+    frame:
+      x: 1814.42
+      y: 1041.21
+      width: 19.19
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+  - id: shape11
+    type: shape
+    frame:
+      x: 959.05
+      y: 194.55
+      width: 1.91
+      height: 86.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+  - id: text1
+    type: text
+    name: COMMISSION A PIECE
+    frame:
+      x: 795.2
+      y: 334.94
+      width: 329.62
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: COMMISSION A PIECE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4A84B"
+              letterSpacingPt: 2.88
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Shape the Future
+    frame:
+      x: 434.38
+      y: 396.13
+      width: 1051.23
+      height: 255.44
+    body:
+      paragraphs:
+        - runs:
+            - text: Shape the Future
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+          align: center
+          lineHeight: 1.1
+        - runs:
+            - text: of Glass Art
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: Join our exclusive colle...
+    frame:
+      x: 575.975
+      y: 692.75
+      width: 768.05
+      height: 67.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Join our exclusive collective of collectors and patrons. Begin your journey with a private consultation.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.6
+    rotationDeg: 0.02
+  - id: shape12
+    type: shape
+    frame:
+      x: 830.17
+      y: 825.14
+      width: 259.66
+      height: 60.3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+      opacity: 0.05
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4A84B"
+      widthPt: 0.5
+  - id: text4
+    type: text
+    name: INQUIRE NOW
+    frame:
+      x: 822.35
+      y: 825.14
+      width: 275.29
+      height: 60.3
+    body:
+      paragraphs:
+        - runs:
+            - text: INQUIRE NOW
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4A84B"
+              letterSpacingPt: 1.296
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+  - id: text5
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 992.17
+      width: 75.32
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: text6
+    type: text
+    name: "04"
+    frame:
+      x: 1744.89
+      y: 992.17
+      width: 25.57
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4

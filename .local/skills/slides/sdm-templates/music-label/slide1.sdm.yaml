@@ -1,0 +1,229 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0C080F"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: recording-studio
+    altText: Recording Studio
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0.4
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#0C080F"
+          opacity: 0.88
+  - id: text1
+    type: text
+    name: SOUND & VISION
+    frame:
+      x: 1197.28
+      y: 347.05
+      width: 273.51
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: SOUND & VISION
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9B8BB4"
+              letterSpacingPt: 2.304
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: —
+    frame:
+      x: 1499.54
+      y: 347.05
+      width: 18.49
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: —
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+              letterSpacingPt: 2.304
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: STUDIO SESSION
+    frame:
+      x: 1531.3
+      y: 347.05
+      width: 273.51
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: STUDIO SESSION
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9B8BB4"
+              letterSpacingPt: 2.304
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Example Deck
+    frame:
+      x: 991.84
+      y: 414.01
+      width: 812.97
+      height: 128.72
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+              letterSpacingPt: -0.576
+          align: right
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 1651.22
+      y: 583.91
+      width: 153.59
+      height: 2.16
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A060"
+  - id: text5
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 990.68
+      y: 629.26
+      width: 814.13
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9B8BB4"
+              italic: true
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: acme.co
+    frame:
+      x: 1710.78
+      y: 1008.02
+      width: 94.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9B8BB4"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Vol. I
+    frame:
+      x: 1724.2
+      y: 43.19
+      width: 80.66
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Vol. I
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9B8BB4"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  recording-studio:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/recording-studio.png

@@ -1,0 +1,646 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FDFBF7"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: -96
+      y: -108
+      width: 768
+      height: 768
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFD8D8"
+    opacity: 0.33
+  - id: shape2
+    type: shape
+    frame:
+      x: 1152
+      y: 282
+      width: 960
+      height: 960
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D8F0E6"
+    opacity: 0.33
+  - id: shape3
+    type: shape
+    frame:
+      x: 1344
+      y: 216
+      width: 288
+      height: 288
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 76.8
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E2D8FF"
+    rotationDeg: 15
+    opacity: 0.7
+  - id: shape4
+    type: shape
+    frame:
+      x: 288
+      y: 618
+      width: 192
+      height: 192
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFE8A1"
+    opacity: 0.8
+  - id: shape5
+    type: shape
+    frame:
+      x: 576
+      y: 108
+      width: 96
+      height: 96
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 38.4
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFC4A3"
+    rotationDeg: -20
+    opacity: 0.7
+  - id: shape6
+    type: shape
+    frame:
+      x: 192
+      y: 108
+      width: 1536
+      height: 864
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 115.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.6
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 1.5
+      opacity: 0.8
+  - id: shape7
+    type: shape
+    frame:
+      x: 310.19
+      y: 175.8
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text1
+    type: text
+    name: a.
+    frame:
+      x: 310.165
+      y: 175.8
+      width: 57.64
+      height: 57.59
+    body:
+      paragraphs:
+        - runs:
+            - text: a.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text2
+    type: text
+    name: acme.co
+    frame:
+      x: 386.97
+      y: 183
+      width: 118.24
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 1429.95
+      y: 176.52
+      width: 179.86
+      height: 56.16
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 28.08
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E2D8FF"
+  - id: text3
+    type: text
+    name: Overview
+    frame:
+      x: 1429.95
+      y: 176.52
+      width: 190.7
+      height: 58.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Overview
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#5C3CA8"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 5.4
+        right: 19.2
+        bottom: 5.4
+        left: 19.2
+  - id: text4
+    type: text
+    name: A fresh approach to desi...
+    frame:
+      x: 310.19
+      y: 276.58
+      width: 592.27
+      height: 285.14
+    body:
+      paragraphs:
+        - runs:
+            - text: A fresh approach to design
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 43.2
+              weight: 800
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -0.864
+          lineHeight: 1.1
+      overflow: visible
+  - id: text5
+    type: text
+    name: We combine playful aesth...
+    frame:
+      x: 310.19
+      y: 575
+      width: 627.81
+      height: 259.22
+    body:
+      paragraphs:
+        - runs:
+            - text: We combine playful aesthetics with rigorous functionality. Soft edges, vibrant pastels, and a user-centric flow make complex tools feel welcoming and intuitive.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.4
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 310.19
+      y: 837.43
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D8F0E6"
+    stroke:
+      color:
+        kind: rgb
+        value: "#2E7D5D"
+      widthPt: 1.5
+  - id: text6
+    type: text
+    name: Intuitive Structure
+    frame:
+      x: 358.17
+      y: 824
+      width: 280.58
+      height: 94.08
+    body:
+      paragraphs:
+        - runs:
+            - text: Intuitive Structure
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 15.36
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape10
+    type: shape
+    frame:
+      x: 310.19
+      y: 887.43
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFE8A1"
+    stroke:
+      color:
+        kind: rgb
+        value: "#9A7C00"
+      widthPt: 1.5
+  - id: text7
+    type: text
+    name: Playful Aesthetics
+    frame:
+      x: 358.17
+      y: 874
+      width: 274.97
+      height: 94.08
+    body:
+      paragraphs:
+        - runs:
+            - text: Playful Aesthetics
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 15.36
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape11
+    type: shape
+    frame:
+      x: 310.19
+      y: 937.43
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFD8D8"
+    stroke:
+      color:
+        kind: rgb
+        value: "#A83232"
+      widthPt: 1.5
+  - id: text8
+    type: text
+    name: Rigorous Functionality
+    frame:
+      x: 358.17
+      y: 924
+      width: 342.27
+      height: 94.08
+    body:
+      paragraphs:
+        - runs:
+            - text: Rigorous Functionality
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 15.36
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape12
+    type: shape
+    frame:
+      x: 1017.7
+      y: 377.87
+      width: 592
+      height: 185
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 57.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#F0F0F0"
+      widthPt: 0.5
+    rotationDeg: 2
+  - id: text9
+    type: text
+    name: "Step 1: Discover"
+    frame:
+      x: 1077.52
+      y: 411.23
+      width: 475.05
+      height: 45
+    body:
+      paragraphs:
+        - runs:
+            - text: "Step 1: Discover"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 2
+  - id: text10
+    type: text
+    name: Uncover the core insight...
+    frame:
+      x: 1075.26
+      y: 464.84
+      width: 550.71
+      height: 65
+    body:
+      paragraphs:
+        - runs:
+            - text: Uncover the core insights that drive engagement and shape our foundation.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#777777"
+          lineHeight: 1.4
+      overflow: visible
+    rotationDeg: 2
+  - id: shape13
+    type: shape
+    frame:
+      x: 1017.7
+      y: 584.76
+      width: 592
+      height: 185
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 57.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E2D8FF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4C4FA"
+      widthPt: 0.5
+    rotationDeg: -1
+  - id: text11
+    type: text
+    name: "Step 2: Prototype"
+    frame:
+      x: 1075.55
+      y: 618.1
+      width: 475.05
+      height: 45
+    body:
+      paragraphs:
+        - runs:
+            - text: "Step 2: Prototype"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#5C3CA8"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -1
+  - id: text12
+    type: text
+    name: Quickly iterate and buil...
+    frame:
+      x: 1076.67
+      y: 671.75
+      width: 475.05
+      height: 65
+    body:
+      paragraphs:
+        - runs:
+            - text: Quickly iterate and build touchable concepts that validate our hypothesis.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B4EB5"
+          lineHeight: 1.4
+      overflow: visible
+    rotationDeg: -1
+  - id: shape14
+    type: shape
+    frame:
+      x: 1017.7
+      y: 791.65
+      width: 592
+      height: 185
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 57.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D8F0E6"
+    stroke:
+      color:
+        kind: rgb
+        value: "#BCE6D5"
+      widthPt: 0.5
+    rotationDeg: 1.5
+  - id: text13
+    type: text
+    name: "Step 3: Elevate"
+    frame:
+      x: 1077.19
+      y: 825
+      width: 475.05
+      height: 45
+    body:
+      paragraphs:
+        - runs:
+            - text: "Step 3: Elevate"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2E7D5D"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 1.5
+  - id: text14
+    type: text
+    name: Add the polish and delig...
+    frame:
+      x: 1075.5
+      y: 878.63
+      width: 550.71
+      height: 65
+    body:
+      paragraphs:
+        - runs:
+            - text: Add the polish and delight that turns ordinary software into magic.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#3F9C76"
+          lineHeight: 1.4
+      overflow: visible
+    rotationDeg: 1.5
+  - id: text15
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 310.19
+      y: 1077.94
+      width: 274.52
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text16
+    type: text
+    name: "02"
+    frame:
+      x: 1580.5
+      y: 1077.94
+      width: 32.36
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02

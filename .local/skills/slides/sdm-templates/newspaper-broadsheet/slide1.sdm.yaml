@@ -1,0 +1,639 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F7F4EF"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 76.8
+      y: 79.91
+      width: 1766.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 76.8
+      y: 43.19
+      width: 86.91
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: '"All the Ideas That Are ...'
+    frame:
+      x: 792.42
+      y: 43.19
+      width: 332.17
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: '"All the Ideas That Are Fit to Print"'
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: VOL. MMXXVI
+    frame:
+      x: 1716.75
+      y: 43.19
+      width: 134.09
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: VOL. MMXXVI
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 76.8
+      y: 266.89
+      width: 1766.41
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: text4
+    type: text
+    name: EXAMPLE DECK
+    frame:
+      x: 76.775
+      y: 91.7
+      width: 1766.46
+      height: 155.59
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE DECK
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 76.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: -1.536
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 76.8
+      y: 275.28
+      width: 1766.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: shape4
+    type: shape
+    frame:
+      x: 76.8
+      y: 342.5
+      width: 1766.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0DDD6"
+  - id: text5
+    type: text
+    name: NEW YORK, 2025
+    frame:
+      x: 76.8
+      y: 308.67
+      width: 139.44
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: NEW YORK, 2025
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: EDITION NO. 1
+    frame:
+      x: 880.67
+      y: 308.67
+      width: 110.99
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EDITION NO. 1
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: CONFIDENTIAL REPORT
+    frame:
+      x: 1663.98
+      y: 308.67
+      width: 184.64
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL REPORT
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 76.8
+      y: 375.89
+      width: 134.08
+      height: 34.55
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: text8
+    type: text
+    name: BREAKING
+    frame:
+      x: 76.8
+      y: 375.89
+      width: 134.13
+      height: 36.55
+    body:
+      paragraphs:
+        - runs:
+            - text: BREAKING
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F7F4EF"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.16
+        right: 7.68
+        bottom: 2.16
+        left: 7.68
+  - id: text9
+    type: text
+    name: A Compelling Subtitle Go...
+    frame:
+      x: 76.8
+      y: 432.03
+      width: 1074.61
+      height: 170.94
+    body:
+      paragraphs:
+        - runs:
+            - text: "A Compelling Subtitle Goes Here: The Big Idea"
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: -0.384
+          lineHeight: 1.1
+      overflow: visible
+  - id: text10
+    type: text
+    name: BY EXAMPLE COMPANY, INC.
+    frame:
+      x: 76.8
+      y: 622.56
+      width: 1074.61
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: BY EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 76.8
+      y: 670.08
+      width: 1074.61
+      height: 258.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence. This abstract presents an unprecedented opportunity to revolutionize the current market landscape through strategic innovation and operational excellence. The forthcoming presentation will detail the methodology, financial projections, and implementation timeline required to achieve market dominance. Stakeholders are advised to review the core metrics outlined in the subsequent sections, as they form the foundation of our strategic thesis. The board's approval will initiate phase one immediately.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+          align: justify
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 1228.14
+      y: 375.89
+      width: 1
+      height: 660.92
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1CEC7"
+  - id: shape7
+    type: shape
+    frame:
+      x: 1305.92
+      y: 428.16
+      width: 537.28
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: text12
+    type: text
+    name: Inside This Issue
+    frame:
+      x: 1305.92
+      y: 375.89
+      width: 537.33
+      height: 53.27
+    body:
+      paragraphs:
+        - runs:
+            - text: Inside This Issue
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.2
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 5.4
+        left: 0
+  - id: shape8
+    type: shape
+    frame:
+      x: 1305.92
+      y: 503.8
+      width: 537.28
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0DDD6"
+  - id: text13
+    type: text
+    name: Executive Summary
+    frame:
+      x: 1305.92
+      y: 450.75
+      width: 211.55
+      height: 42.25
+    body:
+      paragraphs:
+        - runs:
+            - text: Executive Summary
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 2
+      overflow: visible
+  - id: text14
+    type: text
+    name: A2
+    frame:
+      x: 1815.33
+      y: 450.75
+      width: 29.93
+      height: 42.25
+    body:
+      paragraphs:
+        - runs:
+            - text: A2
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 2
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 1305.92
+      y: 568.64
+      width: 537.28
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0DDD6"
+  - id: text15
+    type: text
+    name: Market Analysis
+    frame:
+      x: 1305.92
+      y: 515.59
+      width: 186.86
+      height: 42.25
+    body:
+      paragraphs:
+        - runs:
+            - text: Market Analysis
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 2
+      overflow: visible
+  - id: text16
+    type: text
+    name: B1
+    frame:
+      x: 1815.28
+      y: 515.59
+      width: 29.97
+      height: 42.25
+    body:
+      paragraphs:
+        - runs:
+            - text: B1
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 2
+      overflow: visible
+  - id: shape10
+    type: shape
+    frame:
+      x: 1305.92
+      y: 633.49
+      width: 537.28
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0DDD6"
+  - id: text17
+    type: text
+    name: Financial Projections
+    frame:
+      x: 1305.92
+      y: 580.44
+      width: 241.1
+      height: 42.25
+    body:
+      paragraphs:
+        - runs:
+            - text: Financial Projections
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 2
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text18
+    type: text
+    name: C4
+    frame:
+      x: 1815.03
+      y: 580.44
+      width: 28.22
+      height: 42.25
+    body:
+      paragraphs:
+        - runs:
+            - text: C4
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 2
+      overflow: visible
+  - id: shape11
+    type: shape
+    frame:
+      x: 1305.92
+      y: 698.33
+      width: 537.28
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0DDD6"
+  - id: text19
+    type: text
+    name: Implementation Plan
+    frame:
+      x: 1305.92
+      y: 645.28
+      width: 219.3
+      height: 42.25
+    body:
+      paragraphs:
+        - runs:
+            - text: Implementation Plan
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 2
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text20
+    type: text
+    name: D2
+    frame:
+      x: 1813.52
+      y: 645.28
+      width: 29.74
+      height: 42.25
+    body:
+      paragraphs:
+        - runs:
+            - text: D2
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 2
+      overflow: visible

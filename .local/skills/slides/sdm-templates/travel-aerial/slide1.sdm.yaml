@@ -1,0 +1,186 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#000000"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: photo-ocean-aerial
+    altText: Ocean Aerial
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 60.64
+      stops:
+        - offset: 0.3
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.5
+  - id: text1
+    type: text
+    name: EXAMPLE COMPANY
+    frame:
+      x: 76.8
+      y: 43.19
+      width: 234.96
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1788.11
+      y: 43.19
+      width: 61.14
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: BOUNDLESS
+    frame:
+      x: 254.515
+      y: 324
+      width: 1439.75
+      height: 192
+    body:
+      paragraphs:
+        - runs:
+            - text: BOUNDLESS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 96
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 14.4
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 935
+      y: 548.39
+      width: 50
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.8
+  - id: text4
+    type: text
+    name: WHERE THE WILD MEETS THE...
+    frame:
+      x: 643.09
+      y: 581.78
+      width: 633.82
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: WHERE THE WILD MEETS THE INFINITE.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 2.304
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text5
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 76.75
+      y: 1013.78
+      width: 1766.46
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.384
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+assets:
+  photo-ocean-aerial:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/photo-ocean-aerial.png

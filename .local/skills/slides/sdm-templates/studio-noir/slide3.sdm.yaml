@@ -1,0 +1,407 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0A0A"
+elements:
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 96
+      y: 54
+      width: 125.18
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.72
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1753.53
+      y: 54
+      width: 77.52
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: The Impact
+    frame:
+      x: 96
+      y: 183.58
+      width: 652.85
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: The Impact
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+              letterSpacingPt: -1.152
+          lineHeight: 1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Our metrics reflect a qu...
+    frame:
+      x: 96
+      y: 341.97
+      width: 522.28
+      height: 186.25
+    body:
+      paragraphs:
+        - runs:
+            - text: Our metrics reflect a quiet revolution in how businesses operate, prioritizing depth over noise and substance over flash.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 844.8
+      y: 341.97
+      width: 470.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text5
+    type: text
+    name: 99.9%
+    frame:
+      x: 844.8
+      y: 183.58
+      width: 470.46
+      height: 86.41
+    body:
+      paragraphs:
+        - runs:
+            - text: 99.9%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1
+      overflow: visible
+  - id: text6
+    type: text
+    name: SYSTEM RELIABILITY
+    frame:
+      x: 844.8
+      y: 280.78
+      width: 470.46
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: SYSTEM RELIABILITY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#888888"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 1353.59
+      y: 341.97
+      width: 470.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text7
+    type: text
+    name: 450M
+    frame:
+      x: 1353.59
+      y: 183.58
+      width: 470.46
+      height: 86.41
+    body:
+      paragraphs:
+        - runs:
+            - text: 450M
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1
+      overflow: visible
+  - id: text8
+    type: text
+    name: EVENTS PROCESSED
+    frame:
+      x: 1353.59
+      y: 280.78
+      width: 470.46
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: EVENTS PROCESSED
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#888888"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 844.8
+      y: 544.55
+      width: 470.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text9
+    type: text
+    name: 12x
+    frame:
+      x: 844.8
+      y: 386.16
+      width: 470.46
+      height: 86.41
+    body:
+      paragraphs:
+        - runs:
+            - text: 12x
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1
+      overflow: visible
+  - id: text10
+    type: text
+    name: PERFORMANCE GAIN
+    frame:
+      x: 844.8
+      y: 483.36
+      width: 470.46
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: PERFORMANCE GAIN
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#888888"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1353.59
+      y: 544.55
+      width: 470.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text11
+    type: text
+    name: $2.4B
+    frame:
+      x: 1353.59
+      y: 386.16
+      width: 470.46
+      height: 86.41
+    body:
+      paragraphs:
+        - runs:
+            - text: $2.4B
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1
+      overflow: visible
+  - id: text12
+    type: text
+    name: VALUE GENERATED
+    frame:
+      x: 1353.59
+      y: 483.36
+      width: 470.46
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: VALUE GENERATED
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#888888"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 0
+      y: 971
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text13
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 96
+      y: 1008.02
+      width: 494.71
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: "03"
+    frame:
+      x: 1800.52
+      y: 1008.02
+      width: 26.53
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible

@@ -1,0 +1,335 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#000000"
+elements:
+  - id: text1
+    type: text
+    name: K E Y M E T R I C S
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 316.35
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: K E Y M E T R I C S
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#D4C4A0"
+              letterSpacingPt: 3.84
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 172.8
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4C4A0"
+    opacity: 0.3
+  - id: shape2
+    type: shape
+    frame:
+      x: 664.92
+      y: 270
+      width: 1
+      height: 225.33
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4C4A0"
+      opacity: 0.2
+  - id: text2
+    type: text
+    name: 42%
+    frame:
+      x: 153.59
+      y: 270
+      width: 434.58
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: 42%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C4A0"
+              italic: true
+          lineHeight: 1
+      overflow: visible
+  - id: text3
+    type: text
+    name: MARKET SHARE
+    frame:
+      x: 153.59
+      y: 406.8
+      width: 434.58
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: MARKET SHARE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Expansion across key dem...
+    frame:
+      x: 153.59
+      y: 446.39
+      width: 434.58
+      height: 50.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Expansion across key demographics in top-tier global markets.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.16
+              weight: 300
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape3
+    type: shape
+    frame:
+      x: 1254.06
+      y: 270
+      width: 1
+      height: 225.33
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4C4A0"
+      opacity: 0.2
+  - id: text5
+    type: text
+    name: 18k
+    frame:
+      x: 742.72
+      y: 270
+      width: 434.6
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: 18k
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C4A0"
+              italic: true
+          lineHeight: 1
+      overflow: visible
+  - id: text6
+    type: text
+    name: BOUTIQUE PARTNERS
+    frame:
+      x: 742.72
+      y: 406.8
+      width: 434.6
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: BOUTIQUE PARTNERS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Exclusive retailers cura...
+    frame:
+      x: 742.72
+      y: 446.39
+      width: 434.6
+      height: 50.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Exclusive retailers curating our signature collection worldwide.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.16
+              weight: 300
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text8
+    type: text
+    name: 2.5x
+    frame:
+      x: 1331.86
+      y: 270
+      width: 434.6
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: 2.5x
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C4A0"
+              italic: true
+          lineHeight: 1
+      overflow: visible
+  - id: text9
+    type: text
+    name: REVENUE GROWTH
+    frame:
+      x: 1331.86
+      y: 406.8
+      width: 434.6
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: REVENUE GROWTH
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Year-over-year increase ...
+    frame:
+      x: 1331.86
+      y: 446.39
+      width: 434.6
+      height: 50.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Year-over-year increase driven by an uncompromising commitment to quality.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.16
+              weight: 300
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text11
+    type: text
+    name: ACME.CO
+    frame:
+      x: 153.59
+      y: 995.05
+      width: 85.41
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 300
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+              letterSpacingPt: 1.344
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: "03"
+    frame:
+      x: 1744.53
+      y: 992.17
+      width: 24.93
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#D4C4A0"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible

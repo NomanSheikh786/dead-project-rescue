@@ -1,0 +1,348 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#141414"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 162
+      width: 1920
+      height: 1.08
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#A0785A"
+  - id: text1
+    type: text
+    name: Core Investment Strategy
+    frame:
+      x: 192
+      y: 45
+      width: 700.78
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: Core Investment Strategy
+              font:
+                kind: family
+                family: Inter
+              sizePt: 24
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: VALUE CREATION
+    frame:
+      x: 192
+      y: 248.39
+      width: 642.75
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: VALUE CREATION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0785A"
+              letterSpacingPt: 0.72
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: We identify market ineff...
+    frame:
+      x: 192
+      y: 302.38
+      width: 642.75
+      height: 110.63
+    body:
+      paragraphs:
+        - runs:
+            - text: We identify market inefficiencies and apply rigorous operational improvements to unlock sustainable, long-term value across our portfolio companies.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text4
+    type: text
+    name: STRATEGIC ACQUISITIONS
+    frame:
+      x: 192
+      y: 456.19
+      width: 642.75
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: STRATEGIC ACQUISITIONS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0785A"
+              letterSpacingPt: 0.72
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Targeting established mi...
+    frame:
+      x: 192
+      y: 510.17
+      width: 642.75
+      height: 110.63
+    body:
+      paragraphs:
+        - runs:
+            - text: Targeting established middle-market enterprises with defensible market positions and untapped potential for geographic expansion and digital transformation.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 988.3
+      y: 248.39
+      width: 1
+      height: 637.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+  - id: shape3
+    type: shape
+    frame:
+      x: 1085.3
+      y: 257.02
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#A0785A"
+  - id: text6
+    type: text
+    name: Proprietary deal sourcin...
+    frame:
+      x: 1123.69
+      y: 248.39
+      width: 604.36
+      height: 76.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Proprietary deal sourcing network prioritizing off-market opportunities.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 12.48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1085.3
+      y: 364.25
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#A0785A"
+  - id: text7
+    type: text
+    name: Data-driven due diligenc...
+    frame:
+      x: 1123.69
+      y: 355.63
+      width: 604.36
+      height: 76.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Data-driven due diligence and comprehensive risk mitigation frameworks.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 12.48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 1085.3
+      y: 471.48
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#A0785A"
+  - id: text8
+    type: text
+    name: Active board-level engag...
+    frame:
+      x: 1123.69
+      y: 462.86
+      width: 604.36
+      height: 76.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Active board-level engagement and deep management partnerships.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 12.48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 1085.3
+      y: 578.72
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#A0785A"
+  - id: text9
+    type: text
+    name: Disciplined exit strateg...
+    frame:
+      x: 1123.69
+      y: 570.09
+      width: 604.36
+      height: 76.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Disciplined exit strategies maximizing capital returns.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 12.48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: CONFIDENTIAL • 2026
+    frame:
+      x: 192
+      y: 1013.78
+      width: 240.59
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL • 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: "02"
+    frame:
+      x: 1702.47
+      y: 1013.78
+      width: 28.58
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#A0785A"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible

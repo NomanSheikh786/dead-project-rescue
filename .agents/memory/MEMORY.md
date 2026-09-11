@@ -1,0 +1,1 @@
+- [Analyzer safety boundary](analyzer-safety-boundary.md) — the MVP is metadata-only; execution and repository writes require an isolated sandbox.

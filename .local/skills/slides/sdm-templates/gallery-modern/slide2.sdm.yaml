@@ -1,0 +1,142 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FCFAF8"
+elements:
+  - id: text1
+    type: text
+    name: Curated Approach to Mode...
+    frame:
+      x: 153.59
+      y: 108
+      width: 729.66
+      height: 170.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Curated Approach to Modern Design
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -0.768
+          lineHeight: 1.1
+      overflow: visible
+  - id: text2
+    type: text
+    name: We believe that space sh...
+    frame:
+      x: 153.59
+      y: 320.13
+      width: 656.69
+      height: 110.63
+    body:
+      paragraphs:
+        - runs:
+            - text: We believe that space shapes human experience. By stripping away the unnecessary, we create room for what truly matters in your visual storytelling.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text3
+    type: text
+    name: Our methodology bridges ...
+    frame:
+      x: 153.59
+      y: 463.14
+      width: 656.69
+      height: 73.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Our methodology bridges the gap between artistic expression and functional necessity.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.6
+      overflow: visible
+  - id: image1
+    type: image
+    frame:
+      x: 1036.8
+      y: 108
+      width: 729.61
+      height: 648
+    assetId: art-gallery
+    altText: Gallery
+    fit: cover
+    crop:
+      top: 0
+      right: 19.29
+      bottom: 0
+      left: 19.29
+  - id: text4
+    type: text
+    name: EXHIBIT 01
+    frame:
+      x: 153.59
+      y: 1002.97
+      width: 124.85
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EXHIBIT 01
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: "02"
+    frame:
+      x: 1740.88
+      y: 1002.97
+      width: 28.58
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  art-gallery:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/art-gallery.png

@@ -1,0 +1,684 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#EBE3D5"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 60.64
+      stops:
+        - offset: 0.4
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#8B7355"
+          opacity: 0.1
+  - id: shape2
+    type: shape
+    frame:
+      x: 57.59
+      y: 57.59
+      width: 1804.81
+      height: 964.81
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 7.5
+  - id: shape3
+    type: shape
+    frame:
+      x: 87.95
+      y: 87.95
+      width: 1744.09
+      height: 904.09
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 1.5
+  - id: shape4
+    type: shape
+    frame:
+      x: 90.95
+      y: 210.92
+      width: 1738.09
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: text1
+    type: text
+    name: CONCLUSION
+    frame:
+      x: 167.75
+      y: 136.53
+      width: 185.52
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CONCLUSION
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 2.88
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 812.3
+      y: 149.98
+      width: 57.59
+      height: 1.91
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: text2
+    type: text
+    name: ACME.CO
+    frame:
+      x: 889.08
+      y: 129.34
+      width: 185.7
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 2.88
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 1083.41
+      y: 149.98
+      width: 57.59
+      height: 1.91
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: text3
+    type: text
+    name: INQUIRIES
+    frame:
+      x: 1600.06
+      y: 136.53
+      width: 152.24
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: INQUIRIES
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 2.88
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 129.34
+      y: 252.31
+      width: 38.39
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 0.5
+  - id: shape8
+    type: shape
+    frame:
+      x: 140.86
+      y: 263.83
+      width: 15.36
+      height: 15.36
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: shape9
+    type: shape
+    frame:
+      x: 1752.27
+      y: 252.31
+      width: 38.39
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 0.5
+  - id: shape10
+    type: shape
+    frame:
+      x: 1763.78
+      y: 263.83
+      width: 15.36
+      height: 15.36
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: shape11
+    type: shape
+    frame:
+      x: 129.34
+      y: 810.03
+      width: 38.39
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 0.5
+  - id: shape12
+    type: shape
+    frame:
+      x: 140.86
+      y: 821.55
+      width: 15.36
+      height: 15.36
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: shape13
+    type: shape
+    frame:
+      x: 1752.27
+      y: 810.03
+      width: 38.39
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 0.5
+  - id: shape14
+    type: shape
+    frame:
+      x: 1763.78
+      y: 821.55
+      width: 15.36
+      height: 15.36
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: shape15
+    type: shape
+    frame:
+      x: 902.5
+      y: 214.02
+      width: 115
+      height: 115
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 1.5
+    rotationDeg: 45
+  - id: shape16
+    type: shape
+    frame:
+      x: 921.6
+      y: 233.11
+      width: 76.8
+      height: 76.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: text4
+    type: text
+    name: Awaiting Your Correspond...
+    frame:
+      x: 282.925
+      y: 405.91
+      width: 1354.14
+      height: 230.41
+    body:
+      paragraphs:
+        - runs:
+            - text: Awaiting Your Correspondence
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              italic: true
+              letterSpacingPt: -1.152
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: shape17
+    type: shape
+    frame:
+      x: 633.91
+      y: 695.83
+      width: 192
+      height: 1.91
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: text5
+    type: text
+    name: REACH OUT
+    frame:
+      x: 858.53
+      y: 679.5
+      width: 202.93
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: REACH OUT
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 3.456
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape18
+    type: shape
+    frame:
+      x: 1094.08
+      y: 695.83
+      width: 192
+      height: 1.91
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: text6
+    type: text
+    name: POSTMASTER
+    frame:
+      x: 515.445
+      y: 795.64
+      width: 178.94
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: POSTMASTER
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 1.92
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 499.95
+      y: 843.63
+      width: 209.94
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              italic: true
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: TELEGRAPH
+    frame:
+      x: 809.525
+      y: 795.64
+      width: 216.96
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: TELEGRAPH
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 1.92
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: +1 (800) 555-0199
+    frame:
+      x: 788.81
+      y: 843.63
+      width: 258.41
+      height: 88.19
+    body:
+      paragraphs:
+        - runs:
+            - text: +1 (800) 555-0199
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              italic: true
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: PARLOR
+    frame:
+      x: 1141.615
+      y: 795.64
+      width: 262.94
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: PARLOR
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 1.92
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: 123 Vintage Lane, NY
+    frame:
+      x: 1116.51
+      y: 843.63
+      width: 313.17
+      height: 88.19
+    body:
+      paragraphs:
+        - runs:
+            - text: 123 Vintage Lane, NY
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              italic: true
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape19
+    type: shape
+    frame:
+      x: 90.95
+      y: 886.81
+      width: 1738.09
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: shape20
+    type: shape
+    frame:
+      x: 543.17
+      y: 889.81
+      width: 3
+      height: 99.23
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: text12
+    type: text
+    name: END OF VOLUME
+    frame:
+      x: 221.14
+      y: 926.47
+      width: 191.83
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: END OF VOLUME
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 1.728
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape21
+    type: shape
+    frame:
+      x: 1373.83
+      y: 889.81
+      width: 3
+      height: 99.23
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: text13
+    type: text
+    name: Thank You for Your Disti...
+    frame:
+      x: 735.76
+      y: 922.14
+      width: 448.47
+      height: 71
+    body:
+      paragraphs:
+        - runs:
+            - text: Thank You for Your Distinguished Attention
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              italic: true
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text14
+    type: text
+    name: Pg. 04
+    frame:
+      x: 1570.34
+      y: 925.03
+      width: 65.17
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Pg. 04
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+          align: center
+          lineHeight: 1.5
+      overflow: visible

@@ -1,0 +1,485 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#000000"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 108
+      width: 1
+      height: 864
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5C0A2A"
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 230.39
+      y: 108
+      width: 119.8
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 3.072
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text2
+    type: text
+    name: COLLECTION 2026
+    frame:
+      x: 1535.66
+      y: 108
+      width: 244.65
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: COLLECTION 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 3.072
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text3
+    type: text
+    name: CHAPTER 02
+    frame:
+      x: 230.39
+      y: 270
+      width: 1344.05
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CHAPTER 02
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 200
+              color:
+                kind: rgb
+                value: "#5C0A2A"
+              letterSpacingPt: 3.072
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Market Penetration
+    frame:
+      x: 230.39
+      y: 325.42
+      width: 1344.05
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: Market Penetration
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 48
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+              letterSpacingPt: -0.96
+          lineHeight: 1
+      overflow: visible
+  - id: text5
+    type: text
+    name: 15%
+    frame:
+      x: 320.13
+      y: 592.19
+      width: 133.38
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: 15%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 230.39
+      y: 700.19
+      width: 268.8
+      height: 87
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5C0A2A"
+      opacity: 0.3
+  - id: shape3
+    type: shape
+    frame:
+      x: 230.39
+      y: 700.19
+      width: 268.8
+      height: 87
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5C0A2A"
+    opacity: 0.5
+  - id: text6
+    type: text
+    name: EUROPE
+    frame:
+      x: 330.22
+      y: 808.78
+      width: 73.34
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EUROPE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text7
+    type: text
+    name: 28%
+    frame:
+      x: 670.98
+      y: 516.79
+      width: 133.47
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: 28%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 588.8
+      y: 624.79
+      width: 268.8
+      height: 162.4
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5C0A2A"
+      opacity: 0.3
+  - id: shape5
+    type: shape
+    frame:
+      x: 588.8
+      y: 624.79
+      width: 268.8
+      height: 162.4
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5C0A2A"
+    opacity: 0.7
+  - id: text8
+    type: text
+    name: AMERICAS
+    frame:
+      x: 678.53
+      y: 808.78
+      width: 95.36
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: AMERICAS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text9
+    type: text
+    name: 42%
+    frame:
+      x: 1030.2
+      y: 435.59
+      width: 133.8
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: 42%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape6
+    type: shape
+    frame:
+      x: 947.19
+      y: 543.59
+      width: 268.8
+      height: 243.6
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5C0A2A"
+      opacity: 0.3
+  - id: shape7
+    type: shape
+    frame:
+      x: 947.19
+      y: 543.59
+      width: 268.8
+      height: 243.6
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5C0A2A"
+    opacity: 0.9
+  - id: text10
+    type: text
+    name: ASIA PACIFIC
+    frame:
+      x: 1024.8
+      y: 808.78
+      width: 127.66
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: ASIA PACIFIC
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text11
+    type: text
+    name: 15%
+    frame:
+      x: 1395.33
+      y: 592.19
+      width: 133.38
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: 15%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 1305.59
+      y: 700.19
+      width: 268.8
+      height: 87
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5C0A2A"
+      opacity: 0.3
+  - id: shape9
+    type: shape
+    frame:
+      x: 1305.59
+      y: 700.19
+      width: 268.8
+      height: 87
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5C0A2A"
+    opacity: 0.5
+  - id: text12
+    type: text
+    name: MIDDLE EAST
+    frame:
+      x: 1381.52
+      y: 808.78
+      width: 131.45
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: MIDDLE EAST
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text13
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 230.39
+      y: 951.84
+      width: 171.83
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 2.688
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: text14
+    type: text
+    name: "03"
+    frame:
+      x: 1748
+      y: 948.97
+      width: 21.46
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6

@@ -1,0 +1,498 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#050505"
+elements:
+  - id: shape2
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 162
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 161
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#222222"
+  - id: text1
+    type: text
+    name: SCENE_02 / ACME.CO
+    frame:
+      x: 153.59
+      y: 248.39
+      width: 292.99
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: SCENE_02 / ACME.CO
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: TAKE_2026
+    frame:
+      x: 1628.22
+      y: 248.39
+      width: 151.24
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: TAKE_2026
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: THE CORE
+    frame:
+      x: 153.59
+      y: 371.61
+      width: 645.18
+      height: 192
+    body:
+      paragraphs:
+        - runs:
+            - text: THE CORE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F0F0F0"
+              letterSpacingPt: -1.92
+          lineHeight: 1
+        - runs:
+            - text: CONFLICT
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#444444"
+              letterSpacingPt: -1.92
+          lineHeight: 1
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 153.59
+      y: 596
+      width: 2
+      height: 205.97
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+  - id: text4
+    type: text
+    name: In every great narrative...
+    frame:
+      x: 193.98
+      y: 596
+      width: 604.78
+      height: 110.63
+    body:
+      paragraphs:
+        - runs:
+            - text: In every great narrative, there is tension. Our market is currently defined by friction between legacy systems and modern expectations.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#999999"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text5
+    type: text
+    name: We resolve this by bring...
+    frame:
+      x: 193.98
+      y: 728.22
+      width: 604.78
+      height: 73.75
+    body:
+      paragraphs:
+        - runs:
+            - text: We resolve this by bringing cinematic clarity to complex operational challenges.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#999999"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 952.31
+      y: 341.98
+      width: 814.09
+      height: 489.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0A0A0A"
+    stroke:
+      color:
+        kind: rgb
+        value: "#222222"
+      widthPt: 0.5
+  - id: shape5
+    type: shape
+    frame:
+      x: 991.7
+      y: 381.38
+      width: 38.39
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#555555"
+  - id: shape6
+    type: shape
+    frame:
+      x: 991.7
+      y: 381.38
+      width: 2
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#555555"
+  - id: shape7
+    type: shape
+    frame:
+      x: 1688.63
+      y: 381.38
+      width: 38.39
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#555555"
+  - id: shape8
+    type: shape
+    frame:
+      x: 1725.02
+      y: 381.38
+      width: 2
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#555555"
+  - id: shape9
+    type: shape
+    frame:
+      x: 991.7
+      y: 790.22
+      width: 38.39
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#555555"
+  - id: shape10
+    type: shape
+    frame:
+      x: 991.7
+      y: 753.83
+      width: 2
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#555555"
+  - id: shape11
+    type: shape
+    frame:
+      x: 1725.02
+      y: 753.83
+      width: 2
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#555555"
+  - id: shape12
+    type: shape
+    frame:
+      x: 1688.63
+      y: 790.22
+      width: 38.39
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#555555"
+  - id: text6
+    type: text
+    name: "[ INT. OPERATIONS - DAY ..."
+    frame:
+      x: 1107.355
+      y: 522.02
+      width: 504.02
+      height: 131.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "[ INT. OPERATIONS - DAY ]"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 1.44
+          align: center
+          lineHeight: 1.5
+        - runs: []
+          align: center
+          lineHeight: 1.5
+          defaultRunStyle:
+            font:
+              kind: family
+              family: DM Mono
+            sizePt: 14.4
+            weight: 400
+            color:
+              kind: rgb
+              value: "#666666"
+            letterSpacingPt: 1.44
+        - runs:
+            - text: NO SIGNAL DETECTED
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#333333"
+              letterSpacingPt: 1.44
+          align: center
+          lineHeight: 2.25
+      overflow: visible
+  - id: shape13
+    type: shape
+    frame:
+      x: 1689.61
+      y: 540
+      width: 76.8
+      height: 76.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#333333"
+      widthPt: 0.5
+      dash: dash
+    opacity: 0.5
+  - id: shape14
+    type: shape
+    frame:
+      x: 1718.41
+      y: 577.89
+      width: 19.19
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#666666"
+    opacity: 0.5
+  - id: shape15
+    type: shape
+    frame:
+      x: 1727.5
+      y: 568.8
+      width: 1
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#666666"
+    opacity: 0.5
+  - id: shape17
+    type: shape
+    frame:
+      x: 0
+      y: 918
+      width: 1920
+      height: 162
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape16
+    type: shape
+    frame:
+      x: 0
+      y: 918
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#222222"
+  - id: text7
+    type: text
+    name: "DIR: EXAMPLE COMPANY, IN..."
+    frame:
+      x: 153.59
+      y: 987.98
+      width: 279.6
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "DIR: EXAMPLE COMPANY, INC."
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#444444"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: "[ CONFIDENTIAL ] | PAGE ..."
+    frame:
+      x: 1486.86
+      y: 987.98
+      width: 279.6
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "[ CONFIDENTIAL ] | PAGE 02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#444444"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible

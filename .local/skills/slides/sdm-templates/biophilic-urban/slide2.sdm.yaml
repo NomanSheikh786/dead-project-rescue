@@ -1,0 +1,305 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#000000"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: vertical-garden
+    altText: Vertical Garden Background
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 192
+      y: 108
+      width: 1536
+      height: 864
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.8
+  - id: text1
+    type: text
+    name: 🌱
+    frame:
+      x: 288
+      y: 165.5
+      width: 21.57
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 🌱
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#0F172A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: SUSTAINABLE APPROACH
+    frame:
+      x: 309.11
+      y: 166.94
+      width: 294.37
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: SUSTAINABLE APPROACH
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#6B8E6B"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 1479.89
+      y: 162
+      width: 152.11
+      height: 35.81
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 17.91
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#6B8E6B"
+      widthPt: 0.5
+  - id: text3
+    type: text
+    name: Core Principles
+    frame:
+      x: 1479.89
+      y: 162
+      width: 161.29
+      height: 35.81
+    body:
+      paragraphs:
+        - runs:
+            - text: Core Principles
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 9.6
+        bottom: 2.7
+        left: 9.6
+  - id: text4
+    type: text
+    name: Integrating Nature into ...
+    frame:
+      x: 288
+      y: 241
+      width: 1387.86
+      height: 149
+    body:
+      paragraphs:
+        - runs:
+            - text: Integrating Nature into Modern Infrastructure
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 33.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+              letterSpacingPt: -0.48
+          lineHeight: 1.1
+      overflow: visible
+  - id: text5
+    type: text
+    name: Ecological Synergy
+    frame:
+      x: 288
+      y: 368.91
+      width: 633.64
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Ecological Synergy
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text6
+    type: text
+    name: By blending organic elem...
+    frame:
+      x: 288
+      y: 433.69
+      width: 633.64
+      height: 176
+    body:
+      paragraphs:
+        - runs:
+            - text: By blending organic elements with structural design, we create spaces that breathe. Our approach prioritizes native plant species and passive cooling techniques to reduce energy consumption while improving air quality for all inhabitants.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+  - id: text7
+    type: text
+    name: Community Well-being
+    frame:
+      x: 998.39
+      y: 368.91
+      width: 633.66
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Community Well-being
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Access to green spaces h...
+    frame:
+      x: 998.39
+      y: 433.69
+      width: 633.66
+      height: 135.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Access to green spaces has been proven to lower stress, enhance cognitive function, and foster social connection. We design environments that act as natural sanctuaries within the urban grid, promoting health and vitality.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+  - id: shape3
+    type: shape
+    frame:
+      x: 288
+      y: 866.53
+      width: 1344
+      height: 1.08
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#6B8E6B"
+    opacity: 0.3
+  - id: text9
+    type: text
+    name: acme.co
+    frame:
+      x: 288
+      y: 889.2
+      width: 79.11
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: "02"
+    frame:
+      x: 1607.63
+      y: 889.2
+      width: 27.43
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#6B8E6B"
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  vertical-garden:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/vertical-garden.png

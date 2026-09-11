@@ -1,0 +1,303 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#000000"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 108
+      width: 1
+      height: 864
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5C0A2A"
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 230.39
+      y: 108
+      width: 119.8
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 3.072
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text2
+    type: text
+    name: COLLECTION 2026
+    frame:
+      x: 1535.66
+      y: 108
+      width: 244.65
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: COLLECTION 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 3.072
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text3
+    type: text
+    name: CHAPTER 01
+    frame:
+      x: 230.39
+      y: 270
+      width: 1344.05
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CHAPTER 01
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 200
+              color:
+                kind: rgb
+                value: "#5C0A2A"
+              letterSpacingPt: 3.072
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: The Olfactory Experience
+    frame:
+      x: 230.39
+      y: 325.42
+      width: 1344.05
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: The Olfactory Experience
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 48
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+              letterSpacingPt: -0.96
+          lineHeight: 1
+      overflow: visible
+  - id: text5
+    type: text
+    name: Top Notes
+    frame:
+      x: 230.39
+      y: 507.81
+      width: 384.05
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Top Notes
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Bergamot and bitter oran...
+    frame:
+      x: 230.39
+      y: 563.97
+      width: 384.05
+      height: 138.25
+    body:
+      paragraphs:
+        - runs:
+            - text: Bergamot and bitter orange provide an immediate, fleeting freshness that awakens the senses before dissolving into the deeper essence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.8
+      overflow: visible
+    opacity: 0.7
+  - id: text7
+    type: text
+    name: Heart Notes
+    frame:
+      x: 710.39
+      y: 507.81
+      width: 384.05
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Heart Notes
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Damask rose and midnight...
+    frame:
+      x: 710.39
+      y: 563.97
+      width: 384.05
+      height: 138.25
+    body:
+      paragraphs:
+        - runs:
+            - text: Damask rose and midnight jasmine intertwine to create a rich, floral core that beats with passion and undeniable intensity.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.8
+      overflow: visible
+    opacity: 0.7
+  - id: text9
+    type: text
+    name: Base Notes
+    frame:
+      x: 1190.39
+      y: 507.81
+      width: 384.05
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Base Notes
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Smoky oud, vetiver, and ...
+    frame:
+      x: 1190.39
+      y: 563.97
+      width: 407.09
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Smoky oud, vetiver, and dark amber linger on the skin, leaving a mysterious trail that endures long into the night.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.8
+      overflow: visible
+    opacity: 0.7
+  - id: text11
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 230.39
+      y: 951.84
+      width: 171.83
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 2.688
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: text12
+    type: text
+    name: "02"
+    frame:
+      x: 1747.64
+      y: 948.97
+      width: 21.82
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6

@@ -1,0 +1,517 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FDF8F0"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1344
+      y: -192
+      width: 768
+      height: 768
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B5E5A"
+    opacity: 0.03
+  - id: shape2
+    type: shape
+    frame:
+      x: -96
+      y: 600
+      width: 576
+      height: 576
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4654A"
+    opacity: 0.03
+  - id: shape3
+    type: shape
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 48
+      height: 48
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#C4654A"
+      widthPt: 1
+  - id: shape4
+    type: shape
+    frame:
+      x: 129.59
+      y: 79.2
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4654A"
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 182.38
+      y: 71.52
+      width: 125.19
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: OUR APPROACH
+    frame:
+      x: 1640.91
+      y: 74.39
+      width: 163.96
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: OUR APPROACH
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#C4654A"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Empowering Local Communi...
+    frame:
+      x: 115.19
+      y: 177.59
+      width: 1689.68
+      height: 95.05
+    body:
+      paragraphs:
+        - runs:
+            - text: Empowering Local Communities
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 115.19
+      y: 294.23
+      width: 115.19
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4654A"
+  - id: text4
+    type: text
+    name: We believe that sustaina...
+    frame:
+      x: 115.19
+      y: 362.03
+      width: 787.27
+      height: 184.75
+    body:
+      paragraphs:
+        - runs:
+            - text: We believe that sustainable change starts at the grassroots level. By partnering directly with local leaders, we ensure that resources are allocated where they are needed most, building resilience from within.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+          lineHeight: 1.7
+      overflow: visible
+    opacity: 0.85
+  - id: text5
+    type: text
+    name: Our methodology combines...
+    frame:
+      x: 115.19
+      y: 577.17
+      width: 834.51
+      height: 139.06
+    body:
+      paragraphs:
+        - runs:
+            - text: Our methodology combines rigorous data analysis with deep community empathy, allowing us to design interventions that are both scalable and culturally attuned.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+          lineHeight: 1.7
+      overflow: visible
+    opacity: 0.85
+  - id: shape6
+    type: shape
+    frame:
+      x: 1017.59
+      y: 362.03
+      width: 76.8
+      height: 76.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B5E5A"
+  - id: text6
+    type: text
+    name: "01"
+    frame:
+      x: 1017.565
+      y: 362.03
+      width: 76.85
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "01"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FDF8F0"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text7
+    type: text
+    name: Identify Needs
+    frame:
+      x: 1132.78
+      y: 362.03
+      width: 672.08
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Identify Needs
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Conduct thorough assessm...
+    frame:
+      x: 1132.78
+      y: 416.02
+      width: 672.08
+      height: 63.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Conduct thorough assessments in collaboration with community members to pinpoint critical gaps.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: shape7
+    type: shape
+    frame:
+      x: 1017.59
+      y: 522.58
+      width: 76.8
+      height: 76.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B5E5A"
+  - id: text9
+    type: text
+    name: "02"
+    frame:
+      x: 1017.565
+      y: 522.58
+      width: 76.85
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FDF8F0"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text10
+    type: text
+    name: Co-create Solutions
+    frame:
+      x: 1132.78
+      y: 522.58
+      width: 672.08
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Co-create Solutions
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Design programs that lev...
+    frame:
+      x: 1132.78
+      y: 576.56
+      width: 672.08
+      height: 63.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Design programs that leverage local knowledge and prioritize long-term self-sufficiency.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: shape8
+    type: shape
+    frame:
+      x: 1017.59
+      y: 683.13
+      width: 76.8
+      height: 76.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4654A"
+  - id: text12
+    type: text
+    name: "03"
+    frame:
+      x: 1017.565
+      y: 683.13
+      width: 76.85
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FDF8F0"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text13
+    type: text
+    name: Measure & Iterate
+    frame:
+      x: 1132.78
+      y: 683.13
+      width: 672.08
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Measure & Iterate
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: Establish rigorous track...
+    frame:
+      x: 1132.78
+      y: 737.11
+      width: 672.08
+      height: 63.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Establish rigorous tracking frameworks to measure impact and continuously refine our approach.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: shape9
+    type: shape
+    frame:
+      x: 115.19
+      y: 1035.81
+      width: 793.97
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B5E5A"
+    opacity: 0.2
+  - id: text15
+    type: text
+    name: "02"
+    frame:
+      x: 909.16
+      y: 1010.89
+      width: 107.82
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 19.2
+        bottom: 0
+        left: 19.2
+    opacity: 0.6
+  - id: shape10
+    type: shape
+    frame:
+      x: 1010.83
+      y: 1035.81
+      width: 793.98
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B5E5A"
+    opacity: 0.2

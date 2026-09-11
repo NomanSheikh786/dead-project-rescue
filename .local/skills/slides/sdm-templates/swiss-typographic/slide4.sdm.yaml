@@ -1,0 +1,369 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 960
+      y: 0
+      width: 1
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0E0E0"
+  - id: shape2
+    type: shape
+    frame:
+      x: 480
+      y: 0
+      width: 1
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0F0F0"
+  - id: shape3
+    type: shape
+    frame:
+      x: 1440
+      y: 0
+      width: 1
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0F0F0"
+  - id: shape4
+    type: shape
+    frame:
+      x: 0
+      y: 540
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0F0F0"
+  - id: shape5
+    type: shape
+    frame:
+      x: 1708.81
+      y: 856.81
+      width: 115.19
+      height: 115.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF0000"
+  - id: text1
+    type: text
+    name: NEXT STEPS / CONTACT
+    frame:
+      x: 96
+      y: 86.39
+      width: 259.05
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: NEXT STEPS / CONTACT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Let's Build
+    frame:
+      x: 550.35
+      y: 255.81
+      width: 819.31
+      height: 140.23
+    body:
+      paragraphs:
+        - runs:
+            - text: Let's Build
+              font:
+                kind: family
+                family: Inter
+              sizePt: 76.8
+              weight: 800
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: -3.072
+          align: center
+          lineHeight: 0.9
+      overflow: visible
+  - id: text3
+    type: text
+    name: The Future.
+    frame:
+      x: 513.53
+      y: 394.05
+      width: 892.92
+      height: 140.23
+    body:
+      paragraphs:
+        - runs:
+            - text: The Future.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 76.8
+              weight: 300
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: -3.072
+          align: center
+          lineHeight: 0.9
+      overflow: visible
+  - id: text4
+    type: text
+    name: Join us in revolutionizi...
+    frame:
+      x: 527.79
+      y: 597.08
+      width: 864.44
+      height: 73.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Join us in revolutionizing the industry standard. Reach out to discuss partnership opportunities.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape6
+    type: shape
+    frame:
+      x: 773.69
+      y: 714.02
+      width: 372.61
+      height: 61.17
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text5
+    type: text
+    name: HELLO@EXAMPLE.COM
+    frame:
+      x: 762.49
+      y: 714.02
+      width: 395.02
+      height: 63.17
+    body:
+      paragraphs:
+        - runs:
+            - text: HELLO@EXAMPLE.COM
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+  - id: text6
+    type: text
+    name: New York
+    frame:
+      x: 480
+      y: 823
+      width: 93.55
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: New York
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+        - runs:
+            - text: HQ
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+          lineHeight: 1.667
+      overflow: visible
+  - id: text7
+    type: text
+    name: London
+    frame:
+      x: 960
+      y: 823
+      width: 73.17
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: London
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+        - runs:
+            - text: EMEA
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+          lineHeight: 1.667
+      overflow: visible
+  - id: text8
+    type: text
+    name: Tokyo
+    frame:
+      x: 1440
+      y: 823
+      width: 59.71
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Tokyo
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+        - runs:
+            - text: APAC
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+          lineHeight: 1.667
+      overflow: visible
+  - id: text9
+    type: text
+    name: THANK YOU
+    frame:
+      x: 96
+      y: 1002.97
+      width: 112.69
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: THANK YOU
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: "04"
+    frame:
+      x: 1687.44
+      y: 910.8
+      width: 154.61
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 100
+              color:
+                kind: rgb
+                value: "#E0E0E0"
+          lineHeight: 1
+      overflow: visible

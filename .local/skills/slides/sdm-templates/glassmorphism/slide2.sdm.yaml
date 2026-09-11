@@ -1,0 +1,506 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: linearGradient
+  angleDeg: 135
+  stops:
+    - offset: 0
+      color:
+        kind: rgb
+        value: "#1E0B3D"
+    - offset: 0.5
+      color:
+        kind: rgb
+        value: "#3A1C71"
+    - offset: 1
+      color:
+        kind: rgb
+        value: "#4A54C4"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1344
+      y: -108
+      width: 768
+      height: 768
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#667EEA"
+      opacity: 0.3
+    opacity: 0.55
+  - id: shape2
+    type: shape
+    frame:
+      x: -96
+      y: 378
+      width: 864
+      height: 864
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F093FB"
+      opacity: 0.2
+    opacity: 0.55
+  - id: text1
+    type: text
+    name: WHY US
+    frame:
+      x: 134.39
+      y: 64.8
+      width: 1651.27
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: WHY US
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape3
+    type: shape
+    frame:
+      x: 134.39
+      y: 136.78
+      width: 796.81
+      height: 379.83
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 38.4
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.15
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.2
+  - id: text2
+    type: text
+    name: ⚡
+    frame:
+      x: 192.98
+      y: 215.38
+      width: 679.68
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: ⚡
+              font:
+                kind: family
+                family: Inter
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Lightning Fast
+    frame:
+      x: 192.98
+      y: 323.36
+      width: 679.68
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Lightning Fast
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.288
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Experience unparalleled ...
+    frame:
+      x: 192.98
+      y: 382.73
+      width: 720.46
+      height: 57.28
+    body:
+      paragraphs:
+        - runs:
+            - text: Experience unparalleled speeds with our optimized infrastructure. Zero latency ensures your workflow remains uninterrupted and seamless across all devices.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+  - id: shape4
+    type: shape
+    frame:
+      x: 988.8
+      y: 136.78
+      width: 796.81
+      height: 379.83
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 38.4
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.15
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.2
+  - id: text5
+    type: text
+    name: 🔒
+    frame:
+      x: 1047.39
+      y: 201.55
+      width: 679.68
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: 🔒
+              font:
+                kind: family
+                family: Inter
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Enterprise Security
+    frame:
+      x: 1047.39
+      y: 309.53
+      width: 679.68
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Enterprise Security
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.288
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Bank-grade encryption an...
+    frame:
+      x: 1047.39
+      y: 368.91
+      width: 679.68
+      height: 84.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Bank-grade encryption and advanced threat detection keep your data safe. We meet the highest compliance standards so you can operate with total peace of mind.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+  - id: shape5
+    type: shape
+    frame:
+      x: 134.39
+      y: 574.2
+      width: 796.81
+      height: 352.19
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 38.4
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.15
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.2
+  - id: text8
+    type: text
+    name: 🌍
+    frame:
+      x: 192.98
+      y: 638.97
+      width: 679.68
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: 🌍
+              font:
+                kind: family
+                family: Inter
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Global Scale
+    frame:
+      x: 192.98
+      y: 746.95
+      width: 679.68
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Global Scale
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.288
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Deploy anywhere in the w...
+    frame:
+      x: 192.98
+      y: 806.33
+      width: 720.46
+      height: 57.28
+    body:
+      paragraphs:
+        - runs:
+            - text: Deploy anywhere in the world instantly. Our globally distributed network guarantees high availability and localized performance for users everywhere.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+  - id: shape6
+    type: shape
+    frame:
+      x: 988.8
+      y: 574.2
+      width: 796.81
+      height: 352.19
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 38.4
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.15
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.2
+  - id: text11
+    type: text
+    name: 🎯
+    frame:
+      x: 1047.39
+      y: 638.97
+      width: 679.68
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: 🎯
+              font:
+                kind: family
+                family: Inter
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Precision Analytics
+    frame:
+      x: 1047.39
+      y: 746.95
+      width: 679.68
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Precision Analytics
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.288
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Gain deep insights with ...
+    frame:
+      x: 1047.39
+      y: 806.33
+      width: 720.46
+      height: 57.28
+    body:
+      paragraphs:
+        - runs:
+            - text: Gain deep insights with our powerful analytics engine. Turn complex data into actionable strategies with real-time tracking and comprehensive reporting.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+  - id: shape7
+    type: shape
+    frame:
+      x: 134.39
+      y: 969.58
+      width: 1651.22
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text14
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 134.39
+      y: 992.17
+      width: 288.08
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text15
+    type: text
+    name: "2"
+    frame:
+      x: 1776.23
+      y: 992.17
+      width: 11.43
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "2"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6

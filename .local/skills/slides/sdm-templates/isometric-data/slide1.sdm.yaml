@@ -1,0 +1,291 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0F172A"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0.0009
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.03
+        - offset: 0.0009
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape2
+    type: shape
+    frame:
+      x: 1152
+      y: 252
+      width: 576
+      height: 576
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#14B8A6"
+    opacity: 0.083
+  - id: image1
+    type: image
+    frame:
+      x: 921.6
+      y: 299.79
+      width: 960
+      height: 523.63
+    assetId: illust-isometric-data-nobg
+    altText: Isometric 3D Data Dashboard
+    fit: contain
+  - id: shape3
+    type: shape
+    frame:
+      x: 153.59
+      y: 311.23
+      width: 235.3
+      height: 35.81
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 17.91
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#14B8A6"
+      opacity: 0.1
+    stroke:
+      color:
+        kind: rgb
+        value: "#14B8A6"
+      widthPt: 0.5
+      opacity: 0.2
+  - id: shape4
+    type: shape
+    frame:
+      x: 173.78
+      y: 324.34
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#14B8A6"
+  - id: text1
+    type: text
+    name: PLATFORM OVERVIEW
+    frame:
+      x: 192.97
+      y: 317.63
+      width: 197.51
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: PLATFORM OVERVIEW
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#14B8A6"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: DataStack
+    frame:
+      x: 153.59
+      y: 379.44
+      width: 729.66
+      height: 128.72
+    body:
+      paragraphs:
+        - runs:
+            - text: DataStack
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 57.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -1.152
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: Analytics that speak for...
+    frame:
+      x: 153.59
+      y: 527.75
+      width: 672.05
+      height: 195.5
+    body:
+      paragraphs:
+        - runs:
+            - text: Analytics that speak for themselves. Empower your team with real-time insights and unparalleled data visualization.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#94A3B8"
+          lineHeight: 1.4
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 153.59
+      y: 764.44
+      width: 76.8
+      height: 4.31
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 2.15
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#14B8A6"
+  - id: text4
+    type: text
+    name: EXAMPLE COMPANY
+    frame:
+      x: 96
+      y: 43.19
+      width: 231.11
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#14B8A6"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: "2026"
+    frame:
+      x: 1781.33
+      y: 44.63
+      width: 47.72
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#94A3B8"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 96
+      y: 988.3
+      width: 1728
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text6
+    type: text
+    name: Example Deck
+    frame:
+      x: 96
+      y: 1010.89
+      width: 116.22
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#94A3B8"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 1518.56
+      y: 1010.89
+      width: 323.82
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#94A3B8"
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  illust-isometric-data-nobg:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/illust-isometric-data-nobg.png

@@ -1,0 +1,654 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F7F2"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1152
+      y: -162
+      width: 960
+      height: 960
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5B7C5A"
+    opacity: 0.1
+  - id: shape2
+    type: shape
+    frame:
+      x: -96
+      y: 144
+      width: 1152
+      height: 1152
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A962"
+    opacity: 0.08
+  - id: shape3
+    type: shape
+    frame:
+      x: 153.59
+      y: 135.58
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5B7C5A"
+      opacity: 0.2
+  - id: shape4
+    type: shape
+    frame:
+      x: 153.59
+      y: 64.8
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5B7C5A"
+  - id: shape5
+    type: shape
+    frame:
+      x: 172.8
+      y: 84
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A962"
+    opacity: 0.8
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 211.17
+      y: 66.7
+      width: 103.91
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#5B7C5A"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: SUSTAINABILITY REPORT 20...
+    frame:
+      x: 1425.34
+      y: 69.59
+      width: 361.58
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: SUSTAINABILITY REPORT 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#6B7C6A"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: OUR APPROACH
+    frame:
+      x: 153.59
+      y: 201.38
+      width: 599.1
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: OUR APPROACH
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#C4A962"
+              letterSpacingPt: 1.584
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Driving Real Impact
+    frame:
+      x: 153.59
+      y: 254.66
+      width: 599.1
+      height: 170.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Driving Real Impact
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: -0.768
+          lineHeight: 1.1
+      overflow: visible
+  - id: text5
+    type: text
+    name: We believe that environm...
+    frame:
+      x: 153.59
+      y: 466.78
+      width: 599.1
+      height: 195.86
+    body:
+      paragraphs:
+        - runs:
+            - text: We believe that environmental responsibility and operational excellence are not mutually exclusive. By embedding sustainable practices into our core business model, we create long-term value for both our stakeholders and the planet.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#4A5D4B"
+          lineHeight: 1.7
+      overflow: visible
+  - id: text6
+    type: text
+    name: Our holistic framework f...
+    frame:
+      x: 153.59
+      y: 695.03
+      width: 599.1
+      height: 117.52
+    body:
+      paragraphs:
+        - runs:
+            - text: "Our holistic framework focuses on three key pillars: emissions reduction, ethical sourcing, and community resilience."
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#4A5D4B"
+          lineHeight: 1.7
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 867.83
+      y: 276.83
+      width: 898.58
+      height: 179.61
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: shape7
+    type: shape
+    frame:
+      x: 867.83
+      y: 276.83
+      width: 7.67
+      height: 179.61
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5B7C5A"
+  - id: shape8
+    type: shape
+    frame:
+      x: 925.42
+      y: 328.23
+      width: 53.33
+      height: 76.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5B7C5A"
+      opacity: 0.1
+  - id: text7
+    type: text
+    name: "01"
+    frame:
+      x: 925.395
+      y: 328.23
+      width: 53.38
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "01"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#5B7C5A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text8
+    type: text
+    name: Emissions Reduction
+    frame:
+      x: 1017.14
+      y: 309.22
+      width: 691.72
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Emissions Reduction
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Targeting a 50% reductio...
+    frame:
+      x: 1017.14
+      y: 366.45
+      width: 691.72
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Targeting a 50% reduction in Scope 1 and 2 emissions by optimizing our energy grid and electrifying our fleet.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B7C6A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 867.83
+      y: 488.83
+      width: 898.58
+      height: 179.61
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: shape10
+    type: shape
+    frame:
+      x: 867.83
+      y: 488.83
+      width: 7.67
+      height: 179.61
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A962"
+  - id: shape11
+    type: shape
+    frame:
+      x: 925.42
+      y: 540.23
+      width: 56.78
+      height: 76.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A962"
+      opacity: 0.1
+  - id: text10
+    type: text
+    name: "02"
+    frame:
+      x: 925.395
+      y: 540.23
+      width: 56.83
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#C4A962"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text11
+    type: text
+    name: Ethical Sourcing
+    frame:
+      x: 1020.59
+      y: 521.22
+      width: 688.27
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Ethical Sourcing
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Transitioning to 100% ce...
+    frame:
+      x: 1020.59
+      y: 578.45
+      width: 688.27
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Transitioning to 100% certified organic and fair-trade materials across our entire supply chain network.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B7C6A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape12
+    type: shape
+    frame:
+      x: 867.83
+      y: 700.83
+      width: 898.58
+      height: 179.61
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: shape13
+    type: shape
+    frame:
+      x: 867.83
+      y: 700.83
+      width: 7.67
+      height: 179.61
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: shape14
+    type: shape
+    frame:
+      x: 925.42
+      y: 752.23
+      width: 56.36
+      height: 76.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      opacity: 0.1
+  - id: text13
+    type: text
+    name: "03"
+    frame:
+      x: 925.395
+      y: 752.23
+      width: 56.41
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text14
+    type: text
+    name: Circular Economy
+    frame:
+      x: 1020.17
+      y: 733.22
+      width: 688.69
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Circular Economy
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: Implementing closed-loop...
+    frame:
+      x: 1020.17
+      y: 790.45
+      width: 688.69
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Implementing closed-loop systems to eliminate manufacturing waste and promote product recyclability.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B7C6A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape15
+    type: shape
+    frame:
+      x: 153.59
+      y: 955.89
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5B7C5A"
+      opacity: 0.2
+  - id: text16
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 153.59
+      y: 989.28
+      width: 209.43
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A998A"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text17
+    type: text
+    name: "02"
+    frame:
+      x: 948.73
+      y: 989.28
+      width: 24.85
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#5B7C5A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text18
+    type: text
+    name: Confidential & Proprieta...
+    frame:
+      x: 1556.3
+      y: 989.28
+      width: 250.31
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential & Proprietary
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A998A"
+          lineHeight: 1.5
+      overflow: visible

@@ -1,0 +1,715 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#080808"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0.0009
+          color:
+            kind: rgb
+            value: "#E11D48"
+          opacity: 0.05
+        - offset: 0.0009
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: text1
+    type: text
+    name: EXAMPLE COMPANY
+    frame:
+      x: 76.8
+      y: 43.19
+      width: 271.18
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E11D48"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1778.27
+      y: 43.19
+      width: 68.99
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E11D48"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: TELEMETRY DATA
+    frame:
+      x: 80
+      y: 161.72
+      width: 808.83
+      height: 130.18
+    body:
+      paragraphs:
+        - runs:
+            - text: TELEMETRY DATA
+              font:
+                kind: family
+                family: Inter
+              sizePt: 43.2
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 76.8
+      y: 300
+      width: 288
+      height: 3.23
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E11D48"
+  - id: shape4
+    type: shape
+    frame:
+      x: 76.8
+      y: 345.59
+      width: 550.39
+      height: 326.28
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: shape3
+    type: shape
+    frame:
+      x: 76.8
+      y: 345.59
+      width: 550.39
+      height: 4
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E11D48"
+  - id: text4
+    type: text
+    name: TOP SPEED
+    frame:
+      x: 134.39
+      y: 407.19
+      width: 435.25
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: TOP SPEED
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+    rotationDeg: 0.02
+  - id: text5
+    type: text
+    name: "342"
+    frame:
+      x: 134.39
+      y: 454.7
+      width: 435.25
+      height: 107.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "342"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 52.8
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1
+      overflow: visible
+  - id: text6
+    type: text
+    name: KM/H
+    frame:
+      x: 134.39
+      y: 571.09
+      width: 435.25
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: KM/H
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E11D48"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 684.78
+      y: 345.59
+      width: 550.41
+      height: 326.28
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: shape5
+    type: shape
+    frame:
+      x: 684.78
+      y: 345.59
+      width: 550.41
+      height: 4
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text7
+    type: text
+    name: DOWNFORCE
+    frame:
+      x: 742.38
+      y: 407.19
+      width: 435.27
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: DOWNFORCE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text8
+    type: text
+    name: "8.5"
+    frame:
+      x: 742.38
+      y: 454.7
+      width: 435.27
+      height: 107.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "8.5"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 52.8
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1
+      overflow: visible
+  - id: text9
+    type: text
+    name: TONNES
+    frame:
+      x: 742.38
+      y: 571.09
+      width: 435.27
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: TONNES
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape8
+    type: shape
+    frame:
+      x: 1292.78
+      y: 345.59
+      width: 550.41
+      height: 326.28
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: shape7
+    type: shape
+    frame:
+      x: 1292.78
+      y: 345.59
+      width: 550.41
+      height: 4
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E11D48"
+  - id: text10
+    type: text
+    name: LATERAL G
+    frame:
+      x: 1350.38
+      y: 407.19
+      width: 435.27
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: LATERAL G
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text11
+    type: text
+    name: "6.2"
+    frame:
+      x: 1350.38
+      y: 454.7
+      width: 435.27
+      height: 107.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "6.2"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 52.8
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1
+      overflow: visible
+  - id: text12
+    type: text
+    name: PEAK
+    frame:
+      x: 1350.38
+      y: 571.09
+      width: 435.27
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: PEAK
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E11D48"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 76.8
+      y: 872.64
+      width: 96
+      height: 77.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E11D48"
+  - id: shape10
+    type: shape
+    frame:
+      x: 188.16
+      y: 833.77
+      width: 96
+      height: 116.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.08
+  - id: shape11
+    type: shape
+    frame:
+      x: 299.52
+      y: 862.92
+      width: 96
+      height: 87.47
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.08
+  - id: shape12
+    type: shape
+    frame:
+      x: 410.88
+      y: 794.89
+      width: 96
+      height: 155.5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.08
+  - id: shape13
+    type: shape
+    frame:
+      x: 522.23
+      y: 853.2
+      width: 96
+      height: 97.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E11D48"
+  - id: shape14
+    type: shape
+    frame:
+      x: 633.59
+      y: 775.45
+      width: 96
+      height: 174.94
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.08
+  - id: shape15
+    type: shape
+    frame:
+      x: 744.95
+      y: 756
+      width: 96
+      height: 194.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.08
+  - id: shape16
+    type: shape
+    frame:
+      x: 856.31
+      y: 804.61
+      width: 96
+      height: 145.78
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.08
+  - id: shape17
+    type: shape
+    frame:
+      x: 967.67
+      y: 785.17
+      width: 96
+      height: 165.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E11D48"
+  - id: shape18
+    type: shape
+    frame:
+      x: 1079.03
+      y: 833.77
+      width: 96
+      height: 116.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.08
+  - id: shape19
+    type: shape
+    frame:
+      x: 1190.39
+      y: 872.64
+      width: 96
+      height: 77.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.08
+  - id: shape20
+    type: shape
+    frame:
+      x: 1301.75
+      y: 892.08
+      width: 96
+      height: 58.31
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.08
+  - id: shape21
+    type: shape
+    frame:
+      x: 1413.11
+      y: 843.48
+      width: 96
+      height: 106.91
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E11D48"
+  - id: shape22
+    type: shape
+    frame:
+      x: 1524.47
+      y: 814.33
+      width: 96
+      height: 136.06
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.08
+  - id: shape23
+    type: shape
+    frame:
+      x: 1635.83
+      y: 824.05
+      width: 96
+      height: 126.34
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.08
+  - id: shape24
+    type: shape
+    frame:
+      x: 1747.19
+      y: 785.17
+      width: 96
+      height: 165.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.08
+  - id: text13
+    type: text
+    name: "03"
+    frame:
+      x: 76.8
+      y: 1035.38
+      width: 23.14
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text14
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 1526.23
+      y: 1035.38
+      width: 360.52
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5

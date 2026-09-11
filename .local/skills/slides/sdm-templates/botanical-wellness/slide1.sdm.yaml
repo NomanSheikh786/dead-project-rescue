@@ -1,0 +1,182 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#000000"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: photo-botanical
+    altText: Botanical background
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 270
+      width: 672
+      height: 540
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 28.8
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.85
+  - id: text1
+    type: text
+    name: EXAMPLE COMPANY
+    frame:
+      x: 230.39
+      y: 346.8
+      width: 194.18
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#52796F"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 729.61
+      y: 350.63
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#95D5B2"
+  - id: text2
+    type: text
+    name: Verdure
+    frame:
+      x: 230.39
+      y: 437.53
+      width: 518.46
+      height: 107.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Verdure
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B4332"
+              italic: true
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: Rooted in nature.
+    frame:
+      x: 230.39
+      y: 564.72
+      width: 518.46
+      height: 82.63
+    body:
+      paragraphs:
+        - runs:
+            - text: Rooted in nature.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#52796F"
+          lineHeight: 1.4
+        - runs:
+            - text: Growing with purpose.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#52796F"
+          lineHeight: 1.4
+      overflow: visible
+  - id: text4
+    type: text
+    name: "2026"
+    frame:
+      x: 230.39
+      y: 713.05
+      width: 37.25
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#52796F"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text5
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 1556.13
+      y: 1024.58
+      width: 324.71
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+assets:
+  photo-botanical:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/photo-botanical.png

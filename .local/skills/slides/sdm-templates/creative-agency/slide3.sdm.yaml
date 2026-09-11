@@ -1,0 +1,605 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFBF0"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: -96
+      y: 420
+      width: 768
+      height: 768
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF4D00"
+    opacity: 0.1
+  - id: shape2
+    type: shape
+    frame:
+      x: 1248
+      y: 162
+      width: 288
+      height: 288
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 38.4
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FF4D00"
+      widthPt: 1
+    rotationDeg: 15
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 104.27
+      height: 39.42
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 12.48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: DATA & INSIGHTS
+    frame:
+      x: 1628.95
+      y: 64.8
+      width: 197.65
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: DATA & INSIGHTS
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 1.296
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: THE RESULTS
+    frame:
+      x: 115.19
+      y: 188.61
+      width: 591.41
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: THE RESULTS
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FF4D00"
+              letterSpacingPt: 2.16
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Growth By
+    frame:
+      x: 115.19
+      y: 230.72
+      width: 591.41
+      height: 190.09
+    body:
+      paragraphs:
+        - runs:
+            - text: Growth By
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 43.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.1
+        - runs:
+            - text: The Numbers
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 43.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.1
+      overflow: visible
+  - id: text5
+    type: text
+    name: Our strategic approach d...
+    frame:
+      x: 115.19
+      y: 453.2
+      width: 591.41
+      height: 110.63
+    body:
+      paragraphs:
+        - runs:
+            - text: Our strategic approach delivered exceptional results across all key performance indicators during the initial launch phase.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 821.73
+      y: 188.61
+      width: 462.73
+      height: 370.09
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 28.8
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 0.5
+      opacity: 0.05
+  - id: text6
+    type: text
+    name: 245%
+    frame:
+      x: 880.33
+      y: 247.2
+      width: 345.6
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 245%
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 38.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FF4D00"
+          lineHeight: 1
+      overflow: visible
+  - id: text7
+    type: text
+    name: TRAFFIC INCREASE
+    frame:
+      x: 880.33
+      y: 334.8
+      width: 345.6
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: TRAFFIC INCREASE
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Organic acquisition grew...
+    frame:
+      x: 880.33
+      y: 374.39
+      width: 345.6
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Organic acquisition grew exponentially following the new campaign rollout.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1342.06
+      y: 188.61
+      width: 462.75
+      height: 370.09
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 28.8
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text9
+    type: text
+    name: 1.2M
+    frame:
+      x: 1399.66
+      y: 246.2
+      width: 347.61
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 1.2M
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 38.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FF4D00"
+          lineHeight: 1
+      overflow: visible
+  - id: text10
+    type: text
+    name: ACTIVE USERS
+    frame:
+      x: 1399.66
+      y: 333.8
+      width: 347.61
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ACTIVE USERS
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Monthly active users ret...
+    frame:
+      x: 1399.66
+      y: 373.39
+      width: 347.61
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Monthly active users retained beyond the 90-day threshold.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 821.73
+      y: 616.3
+      width: 462.73
+      height: 370.11
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 28.8
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 0.5
+      opacity: 0.05
+  - id: text12
+    type: text
+    name: 84%
+    frame:
+      x: 880.33
+      y: 674.89
+      width: 345.6
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 84%
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 38.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1
+      overflow: visible
+  - id: text13
+    type: text
+    name: CONVERSION RATE
+    frame:
+      x: 880.33
+      y: 762.48
+      width: 345.6
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CONVERSION RATE
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: Significantly higher con...
+    frame:
+      x: 880.33
+      y: 802.08
+      width: 345.6
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Significantly higher conversion compared to industry benchmark.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 1342.06
+      y: 616.3
+      width: 462.75
+      height: 370.11
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 28.8
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF4D00"
+  - id: text15
+    type: text
+    name: $4M
+    frame:
+      x: 1399.66
+      y: 673.89
+      width: 347.61
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: $4M
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 38.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1
+      overflow: visible
+  - id: text16
+    type: text
+    name: REVENUE GENERATED
+    frame:
+      x: 1399.66
+      y: 761.48
+      width: 347.61
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: REVENUE GENERATED
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text17
+    type: text
+    name: Direct revenue attribute...
+    frame:
+      x: 1399.66
+      y: 801.08
+      width: 347.61
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Direct revenue attributed to the redesigned funnel experience.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text18
+    type: text
+    name: EXAMPLE COMPANY, INC.
+    frame:
+      x: 115.19
+      y: 987.84
+      width: 265.78
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text19
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 409.28
+      y: 987.84
+      width: 149.64
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text20
+    type: text
+    name: "2026"
+    frame:
+      x: 606.47
+      y: 987.84
+      width: 55.21
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text21
+    type: text
+    name: "03"
+    frame:
+      x: 1779.7
+      y: 986.41
+      width: 27.16
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible

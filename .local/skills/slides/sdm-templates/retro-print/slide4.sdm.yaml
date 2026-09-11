@@ -1,0 +1,423 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F0E6"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 48
+      y: 27
+      width: 1824
+      height: 1026
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#1B2A4A"
+      widthPt: 0.5
+  - id: shape2
+    type: shape
+    frame:
+      x: 56.67
+      y: 36.63
+      width: 1806.66
+      height: 1006.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#1B2A4A"
+      widthPt: 0.5
+  - id: text1
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 153.59
+      y: 1001.53
+      width: 548.29
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.16
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+              letterSpacingPt: 2.448
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "04"
+    frame:
+      x: 1735.78
+      y: 1001.53
+      width: 33.68
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.16
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+              letterSpacingPt: 2.448
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: THE FUTURE AWAITS
+    frame:
+      x: 784.83
+      y: 150.69
+      width: 350.35
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: THE FUTURE AWAITS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#E8573A"
+              letterSpacingPt: 3.84
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Begin your journey with ...
+    frame:
+      x: 349.41
+      y: 211.88
+      width: 1221.17
+      height: 276.53
+    body:
+      paragraphs:
+        - runs:
+            - text: Begin your journey with Oracle.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 62.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+              letterSpacingPt: -0.624
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 770.22
+      y: 543.48
+      width: 153.59
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B2A4A"
+  - id: text5
+    type: text
+    name: ◆
+    frame:
+      x: 952.585
+      y: 529.59
+      width: 14.82
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ◆
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape4
+    type: shape
+    frame:
+      x: 996.17
+      y: 543.48
+      width: 153.59
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B2A4A"
+  - id: text6
+    type: text
+    name: Reach out to our princip...
+    frame:
+      x: 528.51
+      y: 612.39
+      width: 862.98
+      height: 73.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Reach out to our principal partners to schedule a private consultation and unlock the proprietary insights your business requires.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+    rotationDeg: 0.02
+  - id: shape5
+    type: shape
+    frame:
+      x: 334.78
+      y: 772.53
+      width: 1250.44
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B2A4A"
+      opacity: 0.2
+  - id: shape6
+    type: shape
+    frame:
+      x: 334.78
+      y: 928.3
+      width: 1250.44
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B2A4A"
+      opacity: 0.2
+  - id: text7
+    type: text
+    name: EMAIL
+    frame:
+      x: 494.25
+      y: 816.72
+      width: 68
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EMAIL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#E8573A"
+              letterSpacingPt: 1.536
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: inquiries@oracle-example...
+    frame:
+      x: 288.25
+      y: 850.55
+      width: 480
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: inquiries@oracle-example.com
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 836.91
+      y: 816.72
+      width: 1
+      height: 68.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B2A4A"
+      opacity: 0.2
+  - id: text9
+    type: text
+    name: OFFICE
+    frame:
+      x: 1031.75
+      y: 816.72
+      width: 77.61
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: OFFICE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#E8573A"
+              letterSpacingPt: 1.536
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: +1 (555) 019-8472
+    frame:
+      x: 946.02
+      y: 850.55
+      width: 249.07
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: +1 (555) 019-8472
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 1303.2
+      y: 816.72
+      width: 1
+      height: 68.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B2A4A"
+      opacity: 0.2
+  - id: text11
+    type: text
+    name: HEADQUARTERS
+    frame:
+      x: 1420.565
+      y: 816.72
+      width: 163.46
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: HEADQUARTERS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#E8573A"
+              letterSpacingPt: 1.536
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: New York, NY
+    frame:
+      x: 1419.365
+      y: 850.55
+      width: 165.88
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: New York, NY
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible

@@ -1,0 +1,328 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#141414"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1344
+      y: -242.67
+      width: 96
+      height: 1565.34
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2A2A2A"
+  - id: shape2
+    type: shape
+    frame:
+      x: 1248
+      y: -242.67
+      width: 864
+      height: 1565.34
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C84B31"
+    opacity: 0.9
+  - id: shape3
+    type: shape
+    frame:
+      x: 115.19
+      y: 89.27
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C84B31"
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 163.17
+      y: 86.39
+      width: 127.8
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1603.86
+      y: 86.39
+      width: 200.95
+      height: 43.58
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#141414"
+    stroke:
+      color:
+        kind: rgb
+        value: "#C84B31"
+      widthPt: 1
+  - id: text2
+    type: text
+    name: PERFORMANCE
+    frame:
+      x: 1603.86
+      y: 86.39
+      width: 201
+      height: 43.58
+    body:
+      paragraphs:
+        - runs:
+            - text: PERFORMANCE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 9.6
+        bottom: 2.7
+        left: 9.6
+  - id: text3
+    type: text
+    name: UNLEASH POTENTIAL
+    frame:
+      x: 115.19
+      y: 237.97
+      width: 1152.05
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: UNLEASH POTENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#C84B31"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: EXAMPLE
+    frame:
+      x: 115.19
+      y: 294.13
+      width: 1152.05
+      height: 179.52
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 105.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -4.224
+          lineHeight: 0.85
+      overflow: visible
+  - id: text5
+    type: text
+    name: DECK
+    frame:
+      x: 115.19
+      y: 473.64
+      width: 1152.05
+      height: 179.52
+    body:
+      paragraphs:
+        - runs:
+            - text: DECK
+              font:
+                kind: family
+                family: Inter
+              sizePt: 105.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -4.224
+          lineHeight: 0.85
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 115.19
+      y: 696.34
+      width: 153.59
+      height: 8.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C84B31"
+  - id: text6
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 115.19
+      y: 748.16
+      width: 864.05
+      height: 107.53
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 300
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+          lineHeight: 1.4
+      overflow: visible
+  - id: text7
+    type: text
+    name: EXAMPLE COMPANY, INC.
+    frame:
+      x: 115.19
+      y: 939.27
+      width: 252.12
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#888888"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: CONFIDENTIAL 2026
+    frame:
+      x: 115.19
+      y: 970.58
+      width: 237.85
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text9
+    type: text
+    name: TARGET ACHIEVED
+    frame:
+      x: 1483.45
+      y: 888.02
+      width: 321.36
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: TARGET ACHIEVED
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#C84B31"
+              letterSpacingPt: 0.96
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: 42:15 PR
+    frame:
+      x: 1470.31
+      y: 916.81
+      width: 334.5
+      height: 155
+    body:
+      paragraphs:
+        - runs:
+            - text: 42:15 PR
+              font:
+                kind: family
+                family: Inter
+              sizePt: 38.4
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.768
+          align: right
+          lineHeight: 1
+      overflow: visible

@@ -1,0 +1,395 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 162
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1C2541"
+  - id: text1
+    type: text
+    name: Core Objectives
+    frame:
+      x: 153.59
+      y: 45
+      width: 408.11
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: Core Objectives
+              font:
+                kind: family
+                family: Inter
+              sizePt: 24
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.24
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: POL-2026-001
+    frame:
+      x: 1628.25
+      y: 66.59
+      width: 151.21
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: POL-2026-001
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: 01. LIQUIDITY
+    frame:
+      x: 153.59
+      y: 248.39
+      width: 748.86
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: 01. LIQUIDITY
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Maintain Optimal Cash Le...
+    frame:
+      x: 153.59
+      y: 290.5
+      width: 748.86
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Maintain Optimal Cash Levels
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1C2541"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Ensure sufficient liquid...
+    frame:
+      x: 153.59
+      y: 358.53
+      width: 748.86
+      height: 101.39
+    body:
+      paragraphs:
+        - runs:
+            - text: Ensure sufficient liquid assets are available to meet all operating requirements, debt service obligations, and capital expenditures without incurring undue costs.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text6
+    type: text
+    name: 02. RISK MANAGEMENT
+    frame:
+      x: 153.59
+      y: 503.11
+      width: 748.86
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: 02. RISK MANAGEMENT
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Mitigate Financial Expos...
+    frame:
+      x: 153.59
+      y: 545.22
+      width: 748.86
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Mitigate Financial Exposure
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1C2541"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Protect the company's fi...
+    frame:
+      x: 153.59
+      y: 613.25
+      width: 748.86
+      height: 101.39
+    body:
+      paragraphs:
+        - runs:
+            - text: Protect the company's financial assets from market volatility, credit risk, and operational vulnerabilities through systematic identification and hedging strategies.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text9
+    type: text
+    name: 03. YIELD OPTIMIZATION
+    frame:
+      x: 1017.59
+      y: 248.39
+      width: 748.86
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: 03. YIELD OPTIMIZATION
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Maximize Return on Cash
+    frame:
+      x: 1017.59
+      y: 290.5
+      width: 748.86
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Maximize Return on Cash
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1C2541"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Generate appropriate ret...
+    frame:
+      x: 1017.59
+      y: 358.53
+      width: 841.42
+      height: 67.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Generate appropriate returns on excess cash balances within established risk parameters and liquidity constraints, prioritizing capital preservation.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text12
+    type: text
+    name: 04. COMPLIANCE
+    frame:
+      x: 1017.59
+      y: 469.31
+      width: 748.86
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: 04. COMPLIANCE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Regulatory Adherence
+    frame:
+      x: 1017.59
+      y: 511.42
+      width: 748.86
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Regulatory Adherence
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1C2541"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: Maintain strict complian...
+    frame:
+      x: 1017.59
+      y: 579.45
+      width: 748.86
+      height: 101.39
+    body:
+      paragraphs:
+        - runs:
+            - text: Maintain strict compliance with all applicable laws, regulations, and internal governance frameworks regarding financial reporting and capital allocation.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 0
+      y: 993.61
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0E0E0"
+  - id: text15
+    type: text
+    name: EXAMPLE COMPANY, INC.
+    frame:
+      x: 153.59
+      y: 1025.06
+      width: 217.94
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.16
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: "02"
+    frame:
+      x: 1746.83
+      y: 1025.06
+      width: 23.63
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.16
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible

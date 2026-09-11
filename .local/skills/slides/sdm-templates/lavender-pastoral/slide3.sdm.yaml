@@ -1,0 +1,465 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFCF5"
+elements:
+  - id: text1
+    type: text
+    name: BY THE NUMBERS
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 507.8
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: BY THE NUMBERS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#7A5A80"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: A Year of Growth
+    frame:
+      x: 115.19
+      y: 125.98
+      width: 604.8
+      height: 102.8
+    body:
+      paragraphs:
+        - runs:
+            - text: A Year of Growth
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 33.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A2040"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: ⚜
+    frame:
+      x: 1761.78
+      y: 178.78
+      width: 43.08
+      height: 48
+    body:
+      paragraphs:
+        - runs:
+            - text: ⚜
+              font:
+                kind: family
+                family: Inter
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7A5A80"
+          lineHeight: 1
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 421.59
+      width: 524.81
+      height: 366.11
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.5
+    stroke:
+      color:
+        kind: rgb
+        value: "#B4A082"
+      widthPt: 0.5
+      opacity: 0.3
+  - id: text4
+    type: text
+    name: 14k
+    frame:
+      x: 309.72
+      y: 476.59
+      width: 185.8
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: 14k
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A2040"
+          lineHeight: 1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 339.19
+      y: 604.98
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7A5A80"
+    opacity: 0.5
+  - id: text5
+    type: text
+    name: HECTARES TENDED
+    frame:
+      x: 254.06
+      y: 627.58
+      width: 247.05
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: HECTARES TENDED
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7A5A80"
+              letterSpacingPt: 1.056
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Expanded across the pris...
+    frame:
+      x: 154.555
+      y: 680.86
+      width: 446.08
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Expanded across the pristine valleys of the southern region.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A2040"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+    rotationDeg: 0.02
+  - id: shape3
+    type: shape
+    frame:
+      x: 1280
+      y: 421.59
+      width: 524.81
+      height: 366.11
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.5
+    stroke:
+      color:
+        kind: rgb
+        value: "#B4A082"
+      widthPt: 0.5
+      opacity: 0.3
+  - id: text7
+    type: text
+    name: 2.4m
+    frame:
+      x: 1440.97
+      y: 476.59
+      width: 215.91
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: 2.4m
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A2040"
+          lineHeight: 1
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1504
+      y: 604.98
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7A5A80"
+    opacity: 0.5
+  - id: text8
+    type: text
+    name: ARTISAN UNITS
+    frame:
+      x: 1442.04
+      y: 627.58
+      width: 200.72
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: ARTISAN UNITS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7A5A80"
+              letterSpacingPt: 1.056
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Carefully packaged and d...
+    frame:
+      x: 1319.365
+      y: 680.86
+      width: 446.08
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Carefully packaged and delivered to our global partners.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A2040"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+    rotationDeg: 0.02
+  - id: shape5
+    type: shape
+    frame:
+      x: 115.19
+      y: 939.33
+      width: 1689.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B4A082"
+      opacity: 0.4
+  - id: text10
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 964.8
+      width: 76.05
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7A5A80"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Page 3
+    frame:
+      x: 1742.25
+      y: 961.92
+      width: 64.92
+      height: 65
+    body:
+      paragraphs:
+        - runs:
+            - text: Page 3
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7A5A80"
+              italic: true
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 684.38
+      y: 402.53
+      width: 551.25
+      height: 404.25
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A2040"
+    stroke:
+      color:
+        kind: rgb
+        value: "#4A2040"
+      widthPt: 0.5
+  - id: text12
+    type: text
+    name: 89%
+    frame:
+      x: 852.9
+      y: 460.22
+      width: 265.25
+      height: 120.75
+    body:
+      paragraphs:
+        - runs:
+            - text: 89%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFCF5"
+          lineHeight: 1
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 919.57
+      y: 615.09
+      width: 80.85
+      height: 1.05
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFCF5"
+    opacity: 0.5
+  - id: text13
+    type: text
+    name: PURITY YIELD
+    frame:
+      x: 871.765
+      y: 638.65
+      width: 176.45
+      height: 33.6
+    body:
+      paragraphs:
+        - runs:
+            - text: PURITY YIELD
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFCF5"
+              letterSpacingPt: 1.056
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: Setting a new standard f...
+    frame:
+      x: 725.825
+      y: 694.68
+      width: 468.35
+      height: 54.6
+    body:
+      paragraphs:
+        - runs:
+            - text: Setting a new standard for organic essential extraction.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFCF5"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8

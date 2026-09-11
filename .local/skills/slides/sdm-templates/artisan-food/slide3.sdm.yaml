@@ -1,0 +1,388 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#111111"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: photo-food-bread
+    altText: Artisan food background
+    fit: cover
+    opacity: 0.15
+  - id: text1
+    type: text
+    name: THE NUMBERS
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 1689.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: THE NUMBERS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text2
+    type: text
+    name: Sourcing & Sustainabilit...
+    frame:
+      x: 115.19
+      y: 136.78
+      width: 1689.68
+      height: 75.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Sourcing & Sustainability
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 33.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+              letterSpacingPt: -0.336
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 232.3
+      width: 57.59
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A86A"
+    opacity: 0.8
+  - id: shape2
+    type: shape
+    frame:
+      x: 115.19
+      y: 504.95
+      width: 1
+      height: 194.97
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A86A"
+      opacity: 0.3
+  - id: text3
+    type: text
+    name: 100%
+    frame:
+      x: 154.58
+      y: 504.95
+      width: 440.66
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: 100%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 48
+              weight: 300
+              color:
+                kind: rgb
+                value: "#D4A86A"
+              italic: true
+          lineHeight: 1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Organic Grain
+    frame:
+      x: 154.58
+      y: 617.14
+      width: 440.66
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Organic Grain
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Sourced directly from lo...
+    frame:
+      x: 154.58
+      y: 671.13
+      width: 440.66
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Sourced directly from local farms.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape3
+    type: shape
+    frame:
+      x: 720
+      y: 504.95
+      width: 1
+      height: 194.97
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A86A"
+      opacity: 0.3
+  - id: text6
+    type: text
+    name: 48h
+    frame:
+      x: 759.39
+      y: 504.95
+      width: 440.66
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: 48h
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 48
+              weight: 300
+              color:
+                kind: rgb
+                value: "#D4A86A"
+              italic: true
+          lineHeight: 1
+      overflow: visible
+  - id: text7
+    type: text
+    name: Fermentation
+    frame:
+      x: 759.39
+      y: 617.14
+      width: 440.66
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Fermentation
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Cold fermented for optim...
+    frame:
+      x: 759.39
+      y: 671.13
+      width: 440.66
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Cold fermented for optimal flavor.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape4
+    type: shape
+    frame:
+      x: 1324.81
+      y: 504.95
+      width: 1
+      height: 194.97
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A86A"
+      opacity: 0.3
+  - id: text9
+    type: text
+    name: "0"
+    frame:
+      x: 1364.2
+      y: 504.95
+      width: 440.66
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: "0"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 48
+              weight: 300
+              color:
+                kind: rgb
+                value: "#D4A86A"
+              italic: true
+          lineHeight: 1
+      overflow: visible
+  - id: text10
+    type: text
+    name: Preservatives
+    frame:
+      x: 1364.2
+      y: 617.14
+      width: 440.66
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Preservatives
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Clean ingredients, natur...
+    frame:
+      x: 1364.2
+      y: 671.13
+      width: 440.66
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Clean ingredients, naturally.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text12
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 115.19
+      y: 970.58
+      width: 428.26
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text13
+    type: text
+    name: "03"
+    frame:
+      x: 1785.27
+      y: 970.58
+      width: 21.6
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+assets:
+  photo-food-bread:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/photo-food-bread.png

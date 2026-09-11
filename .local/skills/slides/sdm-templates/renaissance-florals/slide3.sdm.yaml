@@ -1,0 +1,466 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: image
+  assetId: dark-florals
+  fit: cover
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.95
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.85
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 142.21
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C5B9"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Market Presence
+    frame:
+      x: 1627.53
+      y: 86.39
+      width: 182.64
+      height: 71
+    body:
+      paragraphs:
+        - runs:
+            - text: Market Presence
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C5B9"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Global Reach
+    frame:
+      x: 115.19
+      y: 164.14
+      width: 1689.68
+      height: 67.2
+    body:
+      paragraphs:
+        - runs:
+            - text: Global Reach
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 33.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+              letterSpacingPt: -0.336
+          lineHeight: 1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 115.19
+      y: 296.14
+      width: 512
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4C5B9"
+  - id: text4
+    type: text
+    name: EUROPE
+    frame:
+      x: 115.19
+      y: 330.53
+      width: 512.05
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: EUROPE
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A89F96"
+              letterSpacingPt: 1.344
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: +42%
+    frame:
+      x: 115.19
+      y: 392.44
+      width: 512.05
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: +42%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          lineHeight: 1
+      overflow: visible
+  - id: text6
+    type: text
+    name: $12.4M
+    frame:
+      x: 115.19
+      y: 499.23
+      width: 512.05
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: $12.4M
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C5B9"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Flagship boutiques and h...
+    frame:
+      x: 115.19
+      y: 589.23
+      width: 575.34
+      height: 36.88
+    body:
+      paragraphs:
+        - runs:
+            - text: Flagship boutiques and heritage partnerships
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#A89F96"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 703.98
+      y: 296.14
+      width: 512.02
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4C5B9"
+  - id: text8
+    type: text
+    name: AMERICAS
+    frame:
+      x: 703.98
+      y: 330.53
+      width: 512.07
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: AMERICAS
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A89F96"
+              letterSpacingPt: 1.344
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: +38%
+    frame:
+      x: 703.98
+      y: 392.44
+      width: 512.07
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: +38%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          lineHeight: 1
+      overflow: visible
+  - id: text10
+    type: text
+    name: $18.2M
+    frame:
+      x: 703.98
+      y: 499.23
+      width: 512.07
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: $18.2M
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C5B9"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Rapid expansion in luxur...
+    frame:
+      x: 703.98
+      y: 589.23
+      width: 512.07
+      height: 36.88
+    body:
+      paragraphs:
+        - runs:
+            - text: Rapid expansion in luxury retail sectors
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#A89F96"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1292.8
+      y: 296.14
+      width: 512.02
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4C5B9"
+  - id: text12
+    type: text
+    name: ASIA PACIFIC
+    frame:
+      x: 1292.8
+      y: 330.53
+      width: 512.07
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: ASIA PACIFIC
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A89F96"
+              letterSpacingPt: 1.344
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: +64%
+    frame:
+      x: 1292.8
+      y: 392.44
+      width: 512.07
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: +64%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          lineHeight: 1
+      overflow: visible
+  - id: text14
+    type: text
+    name: $24.8M
+    frame:
+      x: 1292.8
+      y: 499.23
+      width: 512.07
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: $24.8M
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C5B9"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: Unprecedented demand in ...
+    frame:
+      x: 1292.8
+      y: 589.23
+      width: 512.07
+      height: 36.88
+    body:
+      paragraphs:
+        - runs:
+            - text: Unprecedented demand in emerging markets
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#A89F96"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text16
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 115.19
+      y: 964.81
+      width: 237.52
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A8179"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text17
+    type: text
+    name: "03"
+    frame:
+      x: 1778.36
+      y: 964.81
+      width: 29.5
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A8179"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  dark-florals:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/dark-florals.jpg

@@ -1,0 +1,549 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0A0A"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1030
+      y: -108
+      width: 1152
+      height: 1512
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#39FF14"
+    rotationDeg: 15
+    opacity: 0.9
+  - id: text1
+    type: text
+    name: // DATA_ANALYSIS
+    frame:
+      x: 96
+      y: 108
+      width: 362.74
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: // DATA_ANALYSIS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 800
+              color:
+                kind: rgb
+                value: "#39FF14"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: TECH
+    frame:
+      x: 96
+      y: 147.59
+      width: 362.74
+      height: 209.34
+    body:
+      paragraphs:
+        - runs:
+            - text: TECH
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -2.304
+          lineHeight: 0.9
+        - runs:
+            - text: SPECS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -2.304
+          lineHeight: 0.9
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 96
+      y: 432
+      width: 460.8
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text3
+    type: text
+    name: 85%
+    frame:
+      x: 96
+      y: 455.59
+      width: 460.85
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 85%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 38.4
+              weight: 900
+              color:
+                kind: rgb
+                value: "#39FF14"
+          lineHeight: 1
+      overflow: visible
+  - id: text4
+    type: text
+    name: ENERGY RETURN
+    frame:
+      x: 96
+      y: 543.19
+      width: 460.85
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ENERGY RETURN
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Proprietary foam compoun...
+    frame:
+      x: 96
+      y: 588.55
+      width: 460.85
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Proprietary foam compound maximizes rebound.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 595.19
+      y: 432
+      width: 460.81
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text6
+    type: text
+    name: 210g
+    frame:
+      x: 595.19
+      y: 455.59
+      width: 460.86
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "210"
+              sizePt: 38.4
+            - text: g
+              sizePt: 19.2
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Inter
+            weight: 900
+            color:
+              kind: rgb
+              value: "#FFFFFF"
+      overflow: visible
+  - id: text7
+    type: text
+    name: ULTRALIGHT MASS
+    frame:
+      x: 595.19
+      y: 543.19
+      width: 460.86
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ULTRALIGHT MASS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Stripped down upper redu...
+    frame:
+      x: 595.19
+      y: 588.55
+      width: 460.86
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Stripped down upper reduces fatigue.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 96
+      y: 657.66
+      width: 460.8
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text9
+    type: text
+    name: 4.2mm
+    frame:
+      x: 96
+      y: 681.25
+      width: 460.85
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "4.2"
+              sizePt: 38.4
+            - text: mm
+              sizePt: 19.2
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Inter
+            weight: 900
+            color:
+              kind: rgb
+              value: "#FFFFFF"
+      overflow: visible
+  - id: text10
+    type: text
+    name: DROP OFFSET
+    frame:
+      x: 96
+      y: 768.84
+      width: 460.85
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: DROP OFFSET
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Engineered for forefoot ...
+    frame:
+      x: 96
+      y: 814.2
+      width: 460.85
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Engineered for forefoot strikers.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 595.19
+      y: 657.66
+      width: 460.81
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#39FF14"
+  - id: text12
+    type: text
+    name: 100+
+    frame:
+      x: 595.19
+      y: 681.25
+      width: 460.86
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 100+
+              font:
+                kind: family
+                family: Inter
+              sizePt: 38.4
+              weight: 900
+              color:
+                kind: rgb
+                value: "#39FF14"
+          lineHeight: 1
+      overflow: visible
+  - id: text13
+    type: text
+    name: PROTOTYPES
+    frame:
+      x: 595.19
+      y: 768.84
+      width: 460.86
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: PROTOTYPES
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: Iterative design process...
+    frame:
+      x: 595.19
+      y: 814.2
+      width: 460.86
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Iterative design process for perfection.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 1459.2
+      y: 254.39
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0A0A0A"
+    opacity: 0.5
+  - id: shape7
+    type: shape
+    frame:
+      x: 1497.59
+      y: 216
+      width: 1
+      height: 76.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0A0A0A"
+    opacity: 0.5
+  - id: text15
+    type: text
+    name: "SYS.DIAGNOSTIC: OK"
+    frame:
+      x: 1500.74
+      y: 925.94
+      width: 323.26
+      height: 48.06
+    body:
+      paragraphs:
+        - runs:
+            - text: "SYS.DIAGNOSTIC: OK"
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 7.68
+              weight: 800
+              color:
+                kind: rgb
+                value: "#0A0A0A"
+              letterSpacingPt: 0.768
+          align: right
+          lineHeight: 1.5
+        - runs:
+            - text: "TENSION_CAL: [||||||||||] 100%"
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 7.68
+              weight: 800
+              color:
+                kind: rgb
+                value: "#0A0A0A"
+              letterSpacingPt: 0.768
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: "03"
+    frame:
+      x: 1790.98
+      y: 997.2
+      width: 35.07
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#0A0A0A"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text17
+    type: text
+    name: LIMITED DROP • 03.26
+    frame:
+      x: 96
+      y: 997.2
+      width: 451.87
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: LIMITED DROP • 03.26
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 4.8
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 536.5
+      y: 1010.59
+      width: 96
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#39FF14"

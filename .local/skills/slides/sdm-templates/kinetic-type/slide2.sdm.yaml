@@ -1,0 +1,254 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 76.8
+      y: 43.19
+      width: 83.68
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1799.34
+      y: 43.19
+      width: 48.91
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 76.8
+      y: 1013.78
+      width: 133.25
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#C41E3A"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: "02"
+    frame:
+      x: 1821.05
+      y: 1013.78
+      width: 25.21
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: MARKET OVERVIEW
+    frame:
+      x: 153.59
+      y: 246.73
+      width: 1612.86
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: MARKET OVERVIEW
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#C41E3A"
+              letterSpacingPt: 4.608
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: SHIFTING
+    frame:
+      x: 153.59
+      y: 302.89
+      width: 1612.86
+      height: 263.09
+    body:
+      paragraphs:
+        - runs:
+            - text: SHIFTING
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 76.8
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: -3.072
+          lineHeight: 0.85
+        - runs:
+            - text: DYNAMICS
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 76.8
+              weight: 900
+              color:
+                kind: rgb
+                value: "#C41E3A"
+              letterSpacingPt: -3.072
+          lineHeight: 0.85
+      overflow: visible
+  - id: text7
+    type: text
+    name: The Old Way
+    frame:
+      x: 153.59
+      y: 650.38
+      width: 748.86
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: The Old Way
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 19.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: -0.384
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Traditional approaches r...
+    frame:
+      x: 153.59
+      y: 729.58
+      width: 748.86
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Traditional approaches rely on fragmented systems, manual updates, and slow iteration cycles. This leads to massive inefficiencies and increased risk.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: -0.115
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text9
+    type: text
+    name: The New Standard
+    frame:
+      x: 1017.59
+      y: 650.38
+      width: 748.86
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: The New Standard
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 19.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#C41E3A"
+              letterSpacingPt: -0.384
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Integrated platforms ena...
+    frame:
+      x: 1017.59
+      y: 729.58
+      width: 748.86
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Integrated platforms enable real-time collaboration, automated pipelines, and rapid deployment. This is the foundation of the modern enterprise.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: -0.115
+          lineHeight: 1.5
+      overflow: visible

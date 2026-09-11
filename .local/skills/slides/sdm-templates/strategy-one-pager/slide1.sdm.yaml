@@ -1,0 +1,222 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 96
+      y: 54
+      width: 119.22
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 800
+              color:
+                kind: rgb
+                value: "#0A1628"
+              letterSpacingPt: -0.288
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Project:Example Deck
+    frame:
+      x: 1535.42
+      y: 54
+      width: 288.58
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "Project:"
+              color:
+                kind: rgb
+                value: "#A0AEC0"
+            - text: Example Deck
+              color:
+                kind: rgb
+                value: "#4A5568"
+          align: right
+          lineHeight: 1.5
+          defaultRunStyle:
+            font:
+              kind: family
+              family: DM Mono
+            sizePt: 8.64
+            weight: 400
+      overflow: visible
+  - id: text3
+    type: text
+    name: Date:Q4 2026
+    frame:
+      x: 1535.42
+      y: 90.72
+      width: 288.58
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "Date:"
+              color:
+                kind: rgb
+                value: "#A0AEC0"
+            - text: Q4 2026
+              color:
+                kind: rgb
+                value: "#4A5568"
+          align: right
+          lineHeight: 1.5
+          defaultRunStyle:
+            font:
+              kind: family
+              family: DM Mono
+            sizePt: 8.64
+            weight: 400
+      overflow: visible
+  - id: text4
+    type: text
+    name: Lead:Example Company, In...
+    frame:
+      x: 1535.42
+      y: 127.44
+      width: 288.58
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "Lead:"
+              color:
+                kind: rgb
+                value: "#A0AEC0"
+            - text: Example Company, Inc.
+              color:
+                kind: rgb
+                value: "#4A5568"
+          align: right
+          lineHeight: 1.5
+          defaultRunStyle:
+            font:
+              kind: family
+              family: DM Mono
+            sizePt: 8.64
+            weight: 400
+      overflow: visible
+  - id: text5
+    type: text
+    name: Status:Confidential
+    frame:
+      x: 1535.42
+      y: 164.16
+      width: 288.58
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "Status:"
+              color:
+                kind: rgb
+                value: "#A0AEC0"
+            - text: Confidential
+              color:
+                kind: rgb
+                value: "#4A5568"
+          align: right
+          lineHeight: 1.5
+          defaultRunStyle:
+            font:
+              kind: family
+              family: DM Mono
+            sizePt: 8.64
+            weight: 400
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 57.61
+      y: 624.45
+      width: 480
+      height: 54
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0A1628"
+    opacity: 0.1
+  - id: text6
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 96
+      y: 821.25
+      width: 960.05
+      height: 98.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 500
+              color:
+                kind: rgb
+                value: "#4A5568"
+          lineHeight: 1.4
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 1248
+      y: 917
+      width: 576
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E2E8F0"
+  - id: text7
+    type: text
+    name: Example Deck
+    frame:
+      x: 96
+      y: 602.86
+      width: 1728.05
+      height: 155.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Inter
+              sizePt: 76.8
+              weight: 900
+              color:
+                kind: rgb
+                value: "#0A1628"
+              letterSpacingPt: -3.072
+          lineHeight: 1
+      overflow: visible

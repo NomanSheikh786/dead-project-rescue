@@ -1,0 +1,318 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#E8E2D9"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1152
+      y: -54
+      width: 864
+      height: 864
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 388.8
+    fill:
+      kind: linearGradient
+      angleDeg: 135
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#FFDAB9"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#FFCBA4"
+  - id: shape2
+    type: shape
+    frame:
+      x: 96
+      y: 570
+      width: 672
+      height: 672
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: linearGradient
+      angleDeg: 135
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#E6E6FA"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#D8BFD8"
+  - id: shape3
+    type: shape
+    frame:
+      x: 1152
+      y: 216
+      width: 345.59
+      height: 345.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: linearGradient
+      angleDeg: 135
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#CFFFE5"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#98FF98"
+  - id: shape4
+    type: shape
+    frame:
+      x: 134.39
+      y: 64.8
+      width: 417.14
+      height: 66.94
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 33.47
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F4F0EA"
+  - id: text1
+    type: text
+    name: acme.co(by Example Compa...
+    frame:
+      x: 134.39
+      y: 64.8
+      width: 417.19
+      height: 68.94
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#5C544D"
+            - text: (by Example Company)
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#8E867E"
+          lineHeight: 1.5
+          defaultRunStyle:
+            font:
+              kind: family
+              family: DM Sans
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+  - id: shape5
+    type: shape
+    frame:
+      x: 1613.25
+      y: 64.8
+      width: 172.36
+      height: 66.94
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 33.47
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F4F0EA"
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1613.25
+      y: 64.8
+      width: 182.75
+      height: 68.94
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#8E867E"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+  - id: shape6
+    type: shape
+    frame:
+      x: 134.39
+      y: 319.92
+      width: 1344
+      height: 453.83
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 76.8
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F4F0EA"
+  - id: text3
+    type: text
+    name: Example Deck
+    frame:
+      x: 249.58
+      y: 406.31
+      width: 1113.68
+      height: 141.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 67.2
+              weight: 800
+              color:
+                kind: rgb
+                value: "#3D3833"
+              letterSpacingPt: -2.016
+          lineHeight: 1.05
+      overflow: visible
+  - id: text4
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 249.58
+      y: 579.83
+      width: 1056.05
+      height: 107.53
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 19.2
+              weight: 500
+              color:
+                kind: rgb
+                value: "#736A61"
+          lineHeight: 1.4
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 134.39
+      y: 961.92
+      width: 315.19
+      height: 53.28
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 26.64
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F4F0EA"
+  - id: text5
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 134.39
+      y: 961.92
+      width: 322.38
+      height: 53.28
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 10.56
+              weight: 700
+              color:
+                kind: rgb
+                value: "#8E867E"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 5.4
+        right: 19.2
+        bottom: 5.4
+        left: 19.2
+  - id: shape8
+    type: shape
+    frame:
+      x: 487.97
+      y: 961.92
+      width: 203.31
+      height: 53.28
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 26.64
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F4F0EA"
+  - id: text6
+    type: text
+    name: Confidential
+    frame:
+      x: 487.97
+      y: 961.92
+      width: 215.56
+      height: 53.28
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 10.56
+              weight: 700
+              color:
+                kind: rgb
+                value: "#8E867E"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 5.4
+        right: 19.2
+        bottom: 5.4
+        left: 19.2

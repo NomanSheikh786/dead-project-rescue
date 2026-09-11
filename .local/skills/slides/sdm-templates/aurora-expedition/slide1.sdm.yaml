@@ -1,0 +1,186 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#000000"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: photo-aurora
+    altText: Northern lights over snowy mountains
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 648
+      width: 1920
+      height: 432
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 0
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000014"
+          opacity: 0.5
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: text1
+    type: text
+    name: EXAMPLE COMPANY
+    frame:
+      x: 76.8
+      y: 43.19
+      width: 234.96
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1788.11
+      y: 43.19
+      width: 61.14
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text3
+    type: text
+    name: POLARIS
+    frame:
+      x: 528.26
+      y: 739.67
+      width: 894.18
+      height: 155.59
+    body:
+      paragraphs:
+        - runs:
+            - text: POLARIS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 76.8
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 15.36
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 921.59
+      y: 925.66
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.8
+  - id: text4
+    type: text
+    name: Navigate beyond the hori...
+    frame:
+      x: 746.87
+      y: 959.05
+      width: 426.25
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Navigate beyond the horizon.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.152
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text5
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 76.75
+      y: 1013.78
+      width: 1766.46
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.384
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+assets:
+  photo-aurora:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/photo-aurora.png

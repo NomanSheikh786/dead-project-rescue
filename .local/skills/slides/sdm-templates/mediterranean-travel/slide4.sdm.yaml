@@ -1,0 +1,264 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5EEE4"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: -96
+      y: -54
+      width: 2112
+      height: 1188
+    assetId: mediterranean-coast
+    altText: Mediterranean Coast
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C1E0F"
+      opacity: 0.75
+  - id: shape2
+    type: shape
+    frame:
+      x: 851.09
+      y: 306.47
+      width: 76.8
+      height: 1.08
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5EEE4"
+    opacity: 0.5
+  - id: text1
+    type: text
+    name: ☀
+    frame:
+      x: 947.055
+      y: 292.61
+      width: 25.88
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ☀
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5EEE4"
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 992.09
+      y: 306.47
+      width: 76.8
+      height: 1.08
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5EEE4"
+    opacity: 0.5
+  - id: text2
+    type: text
+    name: Begin Your Journey
+    frame:
+      x: 384.58
+      y: 353.8
+      width: 1150.82
+      height: 172.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Begin Your Journey
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5EEE4"
+              letterSpacingPt: -0.576
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Join us in discovering t...
+    frame:
+      x: 575.975
+      y: 548.19
+      width: 768.05
+      height: 88
+    body:
+      paragraphs:
+        - runs:
+            - text: Join us in discovering the finest coastal experiences. Let us curate your perfect Mediterranean escape.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F5EEE4"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+    rotationDeg: 0.02
+  - id: shape4
+    type: shape
+    frame:
+      x: 733.16
+      y: 698.98
+      width: 453.67
+      height: 88.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5EEE4"
+      opacity: 0.05
+    stroke:
+      color:
+        kind: rgb
+        value: "#F5EEE4"
+      widthPt: 0.5
+      opacity: 0.4
+  - id: text4
+    type: text
+    name: CONTACT OUR CONCIERGE
+    frame:
+      x: 733.135
+      y: 698.98
+      width: 453.72
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: CONTACT OUR CONCIERGE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#F5EEE4"
+              letterSpacingPt: 0.96
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 14.4
+        right: 38.4
+        bottom: 14.4
+        left: 38.4
+  - id: text5
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 990.38
+      width: 132.38
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#F5EEE4"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Curated Journeys
+    frame:
+      x: 115.19
+      y: 1021.69
+      width: 136.44
+      height: 53
+    body:
+      paragraphs:
+        - runs:
+            - text: Curated Journeys
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5EEE4"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text7
+    type: text
+    name: "04"
+    frame:
+      x: 1782.33
+      y: 1006.03
+      width: 24.53
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#F5EEE4"
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  mediterranean-coast:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/mediterranean-coast.png

@@ -1,0 +1,752 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0F172A"
+elements:
+  - id: text1
+    type: text
+    name: PLATFORM METRICS
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 1612.86
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: PLATFORM METRICS
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#14B8A6"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Growth & Performance
+    frame:
+      x: 153.59
+      y: 131.75
+      width: 1612.86
+      height: 75.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Growth & Performance
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 33.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.672
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 270.47
+      width: 512
+      height: 258.05
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.03
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.05
+  - id: text3
+    type: text
+    name: Active Users
+    frame:
+      x: 192.98
+      y: 314.66
+      width: 433.27
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Active Users
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#94A3B8"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: 1.2M
+    frame:
+      x: 192.98
+      y: 370.81
+      width: 202.5
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 1.2M
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 38.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1
+      overflow: visible
+  - id: text5
+    type: text
+    name: ↑ 34%
+    frame:
+      x: 360.63
+      y: 409.81
+      width: 75.8
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ↑ 34%
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#14B8A6"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text6
+    type: text
+    name: vs last month
+    frame:
+      x: 192.98
+      y: 458.41
+      width: 433.27
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: vs last month
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#94A3B8"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape2
+    type: shape
+    frame:
+      x: 703.98
+      y: 270.47
+      width: 512.02
+      height: 258.05
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.03
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.05
+  - id: text7
+    type: text
+    name: MRR
+    frame:
+      x: 743.38
+      y: 314.66
+      width: 433.28
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: MRR
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#94A3B8"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: $8.4M
+    frame:
+      x: 743.38
+      y: 370.81
+      width: 246.93
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: $8.4M
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 38.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1
+      overflow: visible
+  - id: text9
+    type: text
+    name: ↑ 22%
+    frame:
+      x: 981.44
+      y: 409.81
+      width: 74.1
+      height: 71
+    body:
+      paragraphs:
+        - runs:
+            - text: ↑ 22%
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#14B8A6"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text10
+    type: text
+    name: vs last month
+    frame:
+      x: 743.38
+      y: 458.41
+      width: 433.28
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: vs last month
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#94A3B8"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape3
+    type: shape
+    frame:
+      x: 1254.39
+      y: 270.47
+      width: 512.02
+      height: 258.05
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.03
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.05
+  - id: text11
+    type: text
+    name: Uptime
+    frame:
+      x: 1293.78
+      y: 314.66
+      width: 433.28
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Uptime
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#94A3B8"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: 99.97%
+    frame:
+      x: 1293.78
+      y: 370.81
+      width: 304
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 99.97%
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 38.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1
+      overflow: visible
+  - id: text13
+    type: text
+    name: ↑ 0.02%
+    frame:
+      x: 1572.92
+      y: 409.81
+      width: 100.34
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ↑ 0.02%
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#14B8A6"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text14
+    type: text
+    name: vs last month
+    frame:
+      x: 1293.78
+      y: 458.41
+      width: 433.28
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: vs last month
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#94A3B8"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text15
+    type: text
+    name: Trailing 12 Months Reven...
+    frame:
+      x: 153.59
+      y: 614.91
+      width: 1612.86
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Trailing 12 Months Revenue
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#94A3B8"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 153.59
+      y: 665.3
+      width: 1612.81
+      height: 328.31
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.02
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.03
+  - id: shape5
+    type: shape
+    frame:
+      x: 154.59
+      y: 747.88
+      width: 1610.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.03
+  - id: shape6
+    type: shape
+    frame:
+      x: 154.59
+      y: 829.45
+      width: 1610.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.03
+  - id: shape7
+    type: shape
+    frame:
+      x: 154.59
+      y: 911.03
+      width: 1610.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.03
+  - id: shape8
+    type: shape
+    frame:
+      x: 231.39
+      y: 877.45
+      width: 57.59
+      height: 71.97
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#14B8A6"
+    opacity: 0.6
+  - id: shape9
+    type: shape
+    frame:
+      x: 358.63
+      y: 841.45
+      width: 57.59
+      height: 107.97
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#14B8A6"
+    opacity: 0.6
+  - id: shape10
+    type: shape
+    frame:
+      x: 485.88
+      y: 853.45
+      width: 57.59
+      height: 95.97
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#14B8A6"
+    opacity: 0.6
+  - id: shape11
+    type: shape
+    frame:
+      x: 613.11
+      y: 805.47
+      width: 57.59
+      height: 143.95
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#14B8A6"
+    opacity: 0.6
+  - id: shape12
+    type: shape
+    frame:
+      x: 740.34
+      y: 817.47
+      width: 57.59
+      height: 131.95
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#14B8A6"
+    opacity: 0.6
+  - id: shape13
+    type: shape
+    frame:
+      x: 867.58
+      y: 769.47
+      width: 57.59
+      height: 179.95
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#14B8A6"
+    opacity: 0.6
+  - id: shape14
+    type: shape
+    frame:
+      x: 994.83
+      y: 781.47
+      width: 57.59
+      height: 167.95
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#14B8A6"
+    opacity: 0.6
+  - id: shape15
+    type: shape
+    frame:
+      x: 1122.06
+      y: 745.48
+      width: 57.59
+      height: 203.94
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#14B8A6"
+    opacity: 0.6
+  - id: shape16
+    type: shape
+    frame:
+      x: 1249.3
+      y: 757.48
+      width: 57.59
+      height: 191.94
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#14B8A6"
+    opacity: 0.6
+  - id: shape17
+    type: shape
+    frame:
+      x: 1376.53
+      y: 721.48
+      width: 57.59
+      height: 227.94
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#14B8A6"
+    opacity: 0.6
+  - id: shape18
+    type: shape
+    frame:
+      x: 1503.78
+      y: 733.48
+      width: 57.59
+      height: 215.94
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#14B8A6"
+    opacity: 0.6
+  - id: shape19
+    type: shape
+    frame:
+      x: 1631.02
+      y: 709.48
+      width: 57.59
+      height: 239.94
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#14B8A6"
+  - id: shape20
+    type: shape
+    frame:
+      x: 153.59
+      y: 988.3
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text16
+    type: text
+    name: "02"
+    frame:
+      x: 153.59
+      y: 1010.89
+      width: 24.47
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#94A3B8"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text17
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 1460.97
+      y: 1010.89
+      width: 323.82
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#94A3B8"
+          lineHeight: 1.5
+      overflow: visible

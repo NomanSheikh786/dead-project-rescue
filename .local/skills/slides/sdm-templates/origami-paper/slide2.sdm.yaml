@@ -1,0 +1,284 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FAF8F5"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1440
+      y: 216
+      width: 288
+      height: 480
+    geometry:
+      kind: preset
+      preset: triangle
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0EAE1"
+    rotationDeg: 45
+    opacity: 0.5
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 97.32
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#3D4F7C"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: OVERVIEW
+    frame:
+      x: 1651.39
+      y: 87.83
+      width: 122.07
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: OVERVIEW
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#C4786E"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: The Core Philosophy
+    frame:
+      x: 153.59
+      y: 244.78
+      width: 1612.86
+      height: 117.19
+    body:
+      paragraphs:
+        - runs:
+            - text: The Core Philosophy
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#3D4F7C"
+              letterSpacingPt: -0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 153.59
+      y: 446.36
+      width: 57.59
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4786E"
+  - id: text4
+    type: text
+    name: Precision & Intent
+    frame:
+      x: 153.59
+      y: 481.75
+      width: 691.25
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Precision & Intent
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#3D4F7C"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Every fold matters. We a...
+    frame:
+      x: 153.59
+      y: 546.53
+      width: 732.73
+      height: 147.5
+    body:
+      paragraphs:
+        - runs:
+            - text: Every fold matters. We approach our strategy with the same meticulous care as a master paper folder. By removing the unnecessary, we amplify the impact of what remains, ensuring each decision carries absolute weight and purpose.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#6B768B"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 998.39
+      y: 446.36
+      width: 57.59
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D4F7C"
+  - id: text6
+    type: text
+    name: Structural Integrity
+    frame:
+      x: 998.39
+      y: 481.75
+      width: 691.25
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Structural Integrity
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#3D4F7C"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: A foundation built on so...
+    frame:
+      x: 998.39
+      y: 546.53
+      width: 776.69
+      height: 147.5
+    body:
+      paragraphs:
+        - runs:
+            - text: A foundation built on solid principles can withstand tremendous pressure. Our methodologies emphasize resilience, scalability, and long-term viability over short-term gains, creating lasting, structural value for the future.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#6B768B"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text8
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 153.59
+      y: 956.89
+      width: 241.85
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8E99AF"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Confidential
+    frame:
+      x: 450.17
+      y: 956.89
+      width: 121.57
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8E99AF"
+              italic: true
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: "02"
+    frame:
+      x: 1744.64
+      y: 956.89
+      width: 24.82
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#3D4F7C"
+          lineHeight: 1.5
+      overflow: visible

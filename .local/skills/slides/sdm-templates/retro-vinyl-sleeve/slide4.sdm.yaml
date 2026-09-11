@@ -1,0 +1,269 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#1A1A1A"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 384
+      y: 162
+      width: 1152
+      height: 1152
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D3A052"
+  - id: shape2
+    type: shape
+    frame:
+      x: 801
+      y: 615
+      width: 318
+      height: 318
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: shape3
+    type: shape
+    frame:
+      x: 940.8
+      y: 692.1
+      width: 38.39
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D3A052"
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 155.27
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#B98638"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: B-SIDE
+    frame:
+      x: 1678.52
+      y: 86.39
+      width: 94.94
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: B-SIDE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#B98638"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: END OF PLAYBACK
+    frame:
+      x: 791.38
+      y: 195
+      width: 337.22
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: END OF PLAYBACK
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 3.456
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: LET'S
+    frame:
+      x: 577.63
+      y: 240
+      width: 764.72
+      height: 380.16
+    body:
+      paragraphs:
+        - runs:
+            - text: LET'S
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 105.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: -3.168
+          align: center
+          lineHeight: 0.9
+        - runs:
+            - text: SPIN IT
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 105.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: -3.168
+          align: center
+          lineHeight: 0.9
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 813.33
+      y: 738.5
+      width: 293.33
+      height: 70.94
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B98638"
+      widthPt: 1
+  - id: text5
+    type: text
+    name: CONTACT US
+    frame:
+      x: 813.305
+      y: 738.5
+      width: 293.38
+      height: 70.94
+    body:
+      paragraphs:
+        - runs:
+            - text: CONTACT US
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#B98638"
+              letterSpacingPt: 1.152
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+    rotationDeg: 0.02
+  - id: shape5
+    type: shape
+    frame:
+      x: 153.59
+      y: 941.22
+      width: 1612.81
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text6
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 153.59
+      y: 964.81
+      width: 141.74
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#B98638"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: "04"
+    frame:
+      x: 1741.42
+      y: 964.81
+      width: 27.03
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#B98638"
+          lineHeight: 1.5
+      overflow: visible

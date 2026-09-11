@@ -1,0 +1,330 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FBF7F0"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 38.39
+      y: 21.59
+      width: 1843.22
+      height: 1036.81
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+      widthPt: 4.5
+    opacity: 0.1
+  - id: shape2
+    type: shape
+    frame:
+      x: 53.75
+      y: 30.23
+      width: 1812.5
+      height: 1019.53
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+      widthPt: 0.5
+    opacity: 0.2
+  - id: shape3
+    type: shape
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 76.8
+      height: 76.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+      widthPt: 1.5
+  - id: shape4
+    type: shape
+    frame:
+      x: 129.58
+      y: 79.19
+      width: 48
+      height: 48
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+      widthPt: 0.5
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 220.78
+      y: 70.25
+      width: 121.97
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+              letterSpacingPt: 0.922
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: UNIVERSITY
+    frame:
+      x: 220.78
+      y: 110.2
+      width: 121.97
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: UNIVERSITY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: CS 301
+    frame:
+      x: 1710.09
+      y: 64.8
+      width: 94.72
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: CS 301
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+              letterSpacingPt: 0.576
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Fall 2026
+    frame:
+      x: 1710.09
+      y: 104.75
+      width: 94.72
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Fall 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+    rotationDeg: 0.02
+  - id: text5
+    type: text
+    name: DEPT. OF COMPUTER SCIENC...
+    frame:
+      x: 768.18
+      y: 341.3
+      width: 383.65
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: DEPT. OF COMPUTER SCIENCE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+              letterSpacingPt: 1.44
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: shape5
+    type: shape
+    frame:
+      x: 816
+      y: 402.48
+      width: 288
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+  - id: text6
+    type: text
+    name: Example Deck
+    frame:
+      x: 539.83
+      y: 446.67
+      width: 840.34
+      height: 139.27
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 62.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A2C25"
+              letterSpacingPt: -1.248
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 816
+      y: 627.13
+      width: 288
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+  - id: text7
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 383.975
+      y: 671.31
+      width: 1152.05
+      height: 120.25
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 21.12
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+              italic: true
+          align: center
+          lineHeight: 1.4
+      overflow: visible
+    opacity: 0.9
+    rotationDeg: 0.02
+  - id: text8
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 115.19
+      y: 989.28
+      width: 209.43
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text9
+    type: text
+    name: Confidential
+    frame:
+      x: 1696.16
+      y: 989.28
+      width: 121.71
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7

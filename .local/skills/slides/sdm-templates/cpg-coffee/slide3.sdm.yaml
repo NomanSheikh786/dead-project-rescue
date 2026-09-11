@@ -1,0 +1,587 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1056
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A0E08"
+  - id: shape2
+    type: shape
+    frame:
+      x: 1056
+      y: 0
+      width: 864
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5E6D3"
+  - id: shape3
+    type: shape
+    frame:
+      x: 480
+      y: -216
+      width: 1152
+      height: 1512
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#F5E6D3"
+      widthPt: 0.5
+      opacity: 0.15
+  - id: text1
+    type: text
+    name: EXAMPLE COMPANY
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 825.68
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text2
+    type: text
+    name: The Cold Brew
+    frame:
+      x: 115.19
+      y: 254.06
+      width: 825.68
+      height: 170.94
+    body:
+      paragraphs:
+        - runs:
+            - text: The Cold Brew
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+              italic: true
+          lineHeight: 1.1
+        - runs:
+            - text: Market is Surging
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+              italic: true
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: Consumer preference is s...
+    frame:
+      x: 115.19
+      y: 444.59
+      width: 672.05
+      height: 61.44
+    body:
+      paragraphs:
+        - runs:
+            - text: Consumer preference is shifting rapidly towards premium, ready-to-drink options that don't compromise on flavor or origin.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+  - id: text4
+    type: text
+    name: 85%
+    frame:
+      x: 115.19
+      y: 592.42
+      width: 184.57
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: "85"
+              sizePt: 48
+            - text: "%"
+              sizePt: 28.8
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            weight: 400
+            color:
+              kind: rgb
+              value: "#F5E6D3"
+      overflow: visible
+  - id: text5
+    type: text
+    name: YOY GROWTH
+    frame:
+      x: 115.19
+      y: 699.22
+      width: 132.57
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: YOY GROWTH
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text6
+    type: text
+    name: $2.4B
+    frame:
+      x: 343.7
+      y: 592.42
+      width: 254.75
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: $2.4
+              sizePt: 48
+            - text: B
+              sizePt: 28.8
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            weight: 400
+            color:
+              kind: rgb
+              value: "#F5E6D3"
+      overflow: visible
+  - id: text7
+    type: text
+    name: MARKET SIZE 2025
+    frame:
+      x: 343.7
+      y: 699.22
+      width: 203.75
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: MARKET SIZE 2025
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text8
+    type: text
+    name: 03 / DATA & METRICS
+    frame:
+      x: 115.19
+      y: 972
+      width: 825.68
+      height: 21.61
+    body:
+      paragraphs:
+        - runs:
+            - text: 03 / DATA & METRICS
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 7.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+              letterSpacingPt: 1.08
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: shape4
+    type: shape
+    frame:
+      x: 1171.19
+      y: 325.53
+      width: 633.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A0E08"
+      opacity: 0.2
+  - id: text9
+    type: text
+    name: Target Demographics
+    frame:
+      x: 1171.19
+      y: 246.33
+      width: 633.68
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: Target Demographics
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A0E08"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: MILLENNIALS
+    frame:
+      x: 1171.19
+      y: 380.53
+      width: 133.17
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: MILLENNIALS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A0E08"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: 45%
+    frame:
+      x: 1764.86
+      y: 380.53
+      width: 40
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: 45%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A0E08"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 1171.19
+      y: 422.64
+      width: 633.63
+      height: 8.63
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 4.32
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A0E08"
+      opacity: 0.1
+  - id: shape6
+    type: shape
+    frame:
+      x: 1171.19
+      y: 422.64
+      width: 285.13
+      height: 8.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A0E08"
+  - id: text12
+    type: text
+    name: GEN Z
+    frame:
+      x: 1171.19
+      y: 474.45
+      width: 59.92
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: GEN Z
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A0E08"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: 38%
+    frame:
+      x: 1764.89
+      y: 474.45
+      width: 39.97
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: 38%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A0E08"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 1171.19
+      y: 516.56
+      width: 633.63
+      height: 8.63
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 4.32
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A0E08"
+      opacity: 0.1
+  - id: shape8
+    type: shape
+    frame:
+      x: 1171.19
+      y: 516.56
+      width: 240.77
+      height: 8.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A0E08"
+  - id: text14
+    type: text
+    name: GEN X
+    frame:
+      x: 1171.19
+      y: 568.38
+      width: 57.82
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: GEN X
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A0E08"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: 17%
+    frame:
+      x: 1769.78
+      y: 568.38
+      width: 41.08
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: 17%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A0E08"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 1171.19
+      y: 610.48
+      width: 633.63
+      height: 8.63
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 4.32
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A0E08"
+      opacity: 0.1
+  - id: shape10
+    type: shape
+    frame:
+      x: 1171.19
+      y: 610.48
+      width: 107.7
+      height: 8.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A0E08"
+  - id: shape12
+    type: shape
+    frame:
+      x: 1171.19
+      y: 705.5
+      width: 633.63
+      height: 128.16
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A0E08"
+      opacity: 0.04
+  - id: shape11
+    type: shape
+    frame:
+      x: 1171.19
+      y: 705.5
+      width: 2
+      height: 128.16
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A0E08"
+  - id: text16
+    type: text
+    name: '"Dusk has identified a k...'
+    frame:
+      x: 1205.58
+      y: 737.89
+      width: 583.9
+      height: 97
+    body:
+      paragraphs:
+        - runs:
+            - text: '"Dusk has identified a key gap in the premium RTD segment, offering a craft experience with mass-market scalability."'
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A0E08"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible

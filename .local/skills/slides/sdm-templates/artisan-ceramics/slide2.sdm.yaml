@@ -1,0 +1,403 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F0E8"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 979.2
+      y: 742.78
+      width: 384
+      height: 216
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87A5E"
+  - id: shape2
+    type: shape
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B87A5E"
+      widthPt: 0.5
+    opacity: 0.8
+  - id: text1
+    type: text
+    name: OUR PROCESS
+    frame:
+      x: 191.97
+      y: 103.67
+      width: 170.91
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: OUR PROCESS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#B87A5E"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Crafting with Intent
+    frame:
+      x: 115.19
+      y: 230.38
+      width: 787.27
+      height: 75.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Crafting with Intent
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 33.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2A2520"
+              letterSpacingPt: -0.672
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: Every piece we create is...
+    frame:
+      x: 115.19
+      y: 347.48
+      width: 629.82
+      height: 110.63
+    body:
+      paragraphs:
+        - runs:
+            - text: Every piece we create is born from a deep respect for natural materials and traditional techniques. We embrace the unpredictable nature of the kiln.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2A2520"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.7
+  - id: text4
+    type: text
+    name: "01"
+    frame:
+      x: 115.19
+      y: 522.91
+      width: 27.08
+      height: 32.95
+    body:
+      paragraphs:
+        - runs:
+            - text: "01"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B87A5E"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 1.08
+        right: 0
+        bottom: 0
+        left: 0
+  - id: text5
+    type: text
+    name: Sourcing Clay
+    frame:
+      x: 176.61
+      y: 522.91
+      width: 380.74
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Sourcing Clay
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2A2520"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Locally harvested materi...
+    frame:
+      x: 176.61
+      y: 574.02
+      width: 392.17
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: Locally harvested materials from riverbeds.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2A2520"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text7
+    type: text
+    name: "02"
+    frame:
+      x: 115.19
+      y: 646
+      width: 27.08
+      height: 32.95
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B87A5E"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 1.08
+        right: 0
+        bottom: 0
+        left: 0
+  - id: text8
+    type: text
+    name: Wheel Throwing
+    frame:
+      x: 176.61
+      y: 646
+      width: 390.91
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Wheel Throwing
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2A2520"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Shaping forms with stead...
+    frame:
+      x: 176.61
+      y: 697.11
+      width: 402.64
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: Shaping forms with steady hands and focus.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2A2520"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text10
+    type: text
+    name: "03"
+    frame:
+      x: 115.19
+      y: 769.09
+      width: 27.08
+      height: 32.95
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B87A5E"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 1.08
+        right: 0
+        bottom: 0
+        left: 0
+  - id: text11
+    type: text
+    name: Wood Firing
+    frame:
+      x: 176.61
+      y: 769.09
+      width: 458.07
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Wood Firing
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2A2520"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: A 48-hour process that l...
+    frame:
+      x: 176.61
+      y: 820.2
+      width: 471.81
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: A 48-hour process that leaves unique ash deposits.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2A2520"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: image1
+    type: image
+    frame:
+      x: 1017.59
+      y: 230.38
+      width: 787.22
+      height: 648
+    assetId: pottery-studio
+    fit: cover
+  - id: shape3
+    type: shape
+    frame:
+      x: 115.19
+      y: 937.19
+      width: 1689.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87A5E"
+      opacity: 0.2
+  - id: text13
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 970.58
+      width: 69.94
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2A2520"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text14
+    type: text
+    name: "02"
+    frame:
+      x: 1786.38
+      y: 970.58
+      width: 21.49
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B87A5E"
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  pottery-studio:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/pottery-studio.png

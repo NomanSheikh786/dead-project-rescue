@@ -1,0 +1,272 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F0F2F5"
+elements:
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 95.83
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A2E"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: 2026 / Confidential
+    frame:
+      x: 1595.55
+      y: 64.8
+      width: 249.3
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 2026 / Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: "04"
+    frame:
+      x: 1775.39
+      y: 980.64
+      width: 32.47
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 240.5
+      width: 1689.63
+      height: 599
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 38.4
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A2E"
+  - id: text4
+    type: text
+    name: Let's build
+    frame:
+      x: 268.78
+      y: 348.5
+      width: 864.05
+      height: 255.44
+    body:
+      paragraphs:
+        - runs:
+            - text: Let's build
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 800
+              color:
+                kind: rgb
+                value: "#F0F2F5"
+              letterSpacingPt: -2.304
+          lineHeight: 1.1
+        - runs:
+            - text: the future.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 800
+              color:
+                kind: rgb
+                value: "#F0F2F5"
+              letterSpacingPt: -2.304
+          lineHeight: 1.1
+      overflow: visible
+  - id: text5
+    type: text
+    name: Ready to transform your ...
+    frame:
+      x: 268.78
+      y: 645.13
+      width: 864.05
+      height: 88.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Ready to transform your vision into reality? Our team is standing by to help you take the next step.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A0B0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 1192.77
+      y: 372.98
+      width: 458.45
+      height: 150.81
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0F2F5"
+  - id: text6
+    type: text
+    name: EMAIL US
+    frame:
+      x: 1269.56
+      y: 405.38
+      width: 304.91
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: EMAIL US
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#5A5A6E"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 1269.56
+      y: 439.56
+      width: 304.91
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A2E"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 1192.77
+      y: 556.19
+      width: 458.45
+      height: 150.81
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0F2F5"
+  - id: text8
+    type: text
+    name: CALL US
+    frame:
+      x: 1269.56
+      y: 588.58
+      width: 304.91
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CALL US
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#5A5A6E"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: +1 (555) 123-4567
+    frame:
+      x: 1269.56
+      y: 622.77
+      width: 363.15
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: +1 (555) 123-4567
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A2E"
+          lineHeight: 1.5
+      overflow: visible

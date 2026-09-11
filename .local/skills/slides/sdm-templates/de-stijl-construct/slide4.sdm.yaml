@@ -1,0 +1,337 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 576
+      height: 486
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A3B8C"
+  - id: shape2
+    type: shape
+    frame:
+      x: 604.8
+      y: 0
+      width: 643.19
+      height: 486
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text1
+    type: text
+    name: GET IN
+    frame:
+      x: 681.59
+      y: 139.33
+      width: 489.64
+      height: 209.34
+    body:
+      paragraphs:
+        - runs:
+            - text: GET IN
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: -2.88
+          lineHeight: 0.9
+        - runs:
+            - text: TOUCH
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: -2.88
+          lineHeight: 0.9
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 1276.8
+      y: 0
+      width: 643.19
+      height: 486
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D92E2E"
+  - id: shape4
+    type: shape
+    frame:
+      x: 0
+      y: 514.8
+      width: 576
+      height: 565.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text2
+    type: text
+    name: EMAIL
+    frame:
+      x: 76.8
+      y: 591.59
+      width: 422.46
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: EMAIL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 76.8
+      y: 635.75
+      width: 422.46
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 15.36
+              weight: 500
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: PHONE
+    frame:
+      x: 76.8
+      y: 739.42
+      width: 422.46
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: PHONE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: +1 (555) 123-4567
+    frame:
+      x: 76.8
+      y: 783.58
+      width: 422.46
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: +1 (555) 123-4567
+              font:
+                kind: family
+                family: Inter
+              sizePt: 15.36
+              weight: 500
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: "04"
+    frame:
+      x: 76.8
+      y: 968.63
+      width: 422.46
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 900
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 604.8
+      y: 514.8
+      width: 643.19
+      height: 565.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F2B807"
+  - id: shape6
+    type: shape
+    frame:
+      x: 1276.8
+      y: 514.8
+      width: 643.19
+      height: 565.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text7
+    type: text
+    name: ACME.CO
+    frame:
+      x: 1492.64
+      y: 878.41
+      width: 350.6
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 38.4
+              weight: 900
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: -1.92
+          lineHeight: 1
+      overflow: visible
+  - id: text8
+    type: text
+    name: CONSTRUCTING THE FUTURE
+    frame:
+      x: 1517.83
+      y: 974.39
+      width: 325.41
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CONSTRUCTING THE FUTURE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 576
+      y: 0
+      width: 28.8
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: shape8
+    type: shape
+    frame:
+      x: 1248
+      y: 0
+      width: 28.8
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: shape9
+    type: shape
+    frame:
+      x: 0
+      y: 486
+      width: 1920
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"

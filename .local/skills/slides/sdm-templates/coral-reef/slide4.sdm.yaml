@@ -1,0 +1,408 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: linearGradient
+  angleDeg: 180
+  stops:
+    - offset: 0
+      color:
+        kind: rgb
+        value: "#0A3D5C"
+    - offset: 1
+      color:
+        kind: rgb
+        value: "#051B2C"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 384
+      y: 216
+      width: 1152
+      height: 1152
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#6B9E8E"
+    opacity: 0.11
+  - id: shape2
+    type: shape
+    frame:
+      x: 864
+      y: 204
+      width: 768
+      height: 768
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 307.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4726E"
+    opacity: 0.083
+  - id: shape3
+    type: shape
+    frame:
+      x: 1440
+      y: -108
+      width: 576
+      height: 576
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4B896"
+    opacity: 0.083
+  - id: shape4
+    type: shape
+    frame:
+      x: 480
+      y: 378
+      width: 11.52
+      height: 11.52
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.15
+  - id: shape5
+    type: shape
+    frame:
+      x: 1232.64
+      y: 702
+      width: 15.36
+      height: 15.36
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.1
+  - id: shape6
+    type: shape
+    frame:
+      x: 1624.33
+      y: 486
+      width: 7.67
+      height: 7.67
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.2
+  - id: shape7
+    type: shape
+    frame:
+      x: 1430.41
+      y: 270
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.15
+  - id: shape8
+    type: shape
+    frame:
+      x: 576
+      y: 810
+      width: 5.75
+      height: 5.75
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.1
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 102.99
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#E8E0D0"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text2
+    type: text
+    name: Next Steps
+    frame:
+      x: 1688.94
+      y: 67.67
+      width: 119.41
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: Next Steps
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E0D0"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text3
+    type: text
+    name: DIVE IN TOGETHER
+    frame:
+      x: 838.33
+      y: 253.92
+      width: 243.33
+      height: 53
+    body:
+      paragraphs:
+        - runs:
+            - text: DIVE IN TOGETHER
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#C4B896"
+              letterSpacingPt: 2.592
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Ready to explore the dep...
+    frame:
+      x: 287.975
+      y: 312.23
+      width: 1344.05
+      height: 255.44
+    body:
+      paragraphs:
+        - runs:
+            - text: Ready to explore the depths?
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.576
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text5
+    type: text
+    name: Reach out to our team to...
+    frame:
+      x: 575.975
+      y: 608.86
+      width: 768.05
+      height: 94.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Reach out to our team to discover how we can build a resilient, thriving ecosystem for your business.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#E8E0D0"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.85
+  - id: shape9
+    type: shape
+    frame:
+      x: 632.75
+      y: 765.78
+      width: 299.67
+      height: 68.94
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 34.47
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.3
+  - id: text6
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 632.725
+      y: 765.78
+      width: 299.72
+      height: 68.94
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.576
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+  - id: shape10
+    type: shape
+    frame:
+      x: 990.02
+      y: 765.78
+      width: 297.22
+      height: 68.94
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 34.47
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#6B9E8E"
+  - id: text7
+    type: text
+    name: Book a Meeting
+    frame:
+      x: 987.27
+      y: 765.78
+      width: 302.73
+      height: 103
+    body:
+      paragraphs:
+        - runs:
+            - text: Book a Meeting
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#051B2C"
+              letterSpacingPt: 0.576
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+  - id: text8
+    type: text
+    name: "04"
+    frame:
+      x: 115.19
+      y: 989.28
+      width: 27.86
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E0D0"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text9
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 1665.22
+      y: 989.28
+      width: 149.64
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E0D0"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6

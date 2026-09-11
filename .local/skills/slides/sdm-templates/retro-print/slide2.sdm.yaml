@@ -1,0 +1,627 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F0E6"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 48
+      y: 27
+      width: 1824
+      height: 1026
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#1B2A4A"
+      widthPt: 0.5
+  - id: shape2
+    type: shape
+    frame:
+      x: 56.67
+      y: 36.63
+      width: 1806.66
+      height: 1006.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#1B2A4A"
+      widthPt: 0.5
+  - id: shape3
+    type: shape
+    frame:
+      x: 398.86
+      y: 186.69
+      width: 192
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B2A4A"
+  - id: text1
+    type: text
+    name: ◆
+    frame:
+      x: 600.45
+      y: 175.67
+      width: 11.86
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: ◆
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: OUR PRACTICE
+    frame:
+      x: 650.66
+      y: 129.59
+      width: 618.74
+      height: 117.19
+    body:
+      paragraphs:
+        - runs:
+            - text: OUR PRACTICE
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: ◆
+    frame:
+      x: 1307.73
+      y: 175.67
+      width: 11.86
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: ◆
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1329.14
+      y: 186.69
+      width: 192
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B2A4A"
+  - id: text4
+    type: text
+    name: WE SEE WHAT OTHERS CANNO...
+    frame:
+      x: 748.88
+      y: 237.59
+      width: 447.62
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: WE SEE WHAT OTHERS CANNOT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8573A"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape5
+    type: shape
+    frame:
+      x: 283.08
+      y: 351
+      width: 384
+      height: 486
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5F0E6"
+    stroke:
+      color:
+        kind: rgb
+        value: "#1B2A4A"
+      widthPt: 0.5
+  - id: shape6
+    type: shape
+    frame:
+      x: 299.44
+      y: 367.36
+      width: 351.28
+      height: 453.28
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#1B2A4A"
+      widthPt: 0.5
+  - id: text5
+    type: text
+    name: ◆
+    frame:
+      x: 456.585
+      y: 400.75
+      width: 36.97
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: ◆
+              font:
+                kind: family
+                family: Inter
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: STRATEGY
+    frame:
+      x: 372.63
+      y: 494.34
+      width: 204.9
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: STRATEGY
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+              letterSpacingPt: 0.864
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 446.28
+      y: 567.78
+      width: 57.59
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8573A"
+  - id: text7
+    type: text
+    name: Navigate complexity with...
+    frame:
+      x: 338.805
+      y: 601.17
+      width: 272.55
+      height: 112.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Navigate complexity with clarity. We chart paths through uncertain terrain to secure your advantage.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+  - id: text8
+    type: text
+    name: ✦
+    frame:
+      x: 705.47
+      y: 572.41
+      width: 24.19
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: ✦
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8573A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 768
+      y: 351
+      width: 384
+      height: 486
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B2A4A"
+      opacity: 0.05
+    stroke:
+      color:
+        kind: rgb
+        value: "#1B2A4A"
+      widthPt: 0.5
+  - id: shape9
+    type: shape
+    frame:
+      x: 784.36
+      y: 367.36
+      width: 351.28
+      height: 453.28
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#1B2A4A"
+      widthPt: 0.5
+  - id: text9
+    type: text
+    name: ★
+    frame:
+      x: 938.455
+      y: 400.75
+      width: 43.08
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: ★
+              font:
+                kind: family
+                family: Inter
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: DESIGN
+    frame:
+      x: 888.975
+      y: 494.34
+      width: 142.05
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: DESIGN
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+              letterSpacingPt: 0.864
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape10
+    type: shape
+    frame:
+      x: 931.2
+      y: 567.78
+      width: 57.59
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8573A"
+  - id: text11
+    type: text
+    name: Craft experiences that r...
+    frame:
+      x: 823.725
+      y: 601.17
+      width: 272.55
+      height: 112.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Craft experiences that resonate. We forge deep connections between your brand and the world.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+  - id: text12
+    type: text
+    name: ✦
+    frame:
+      x: 1190.39
+      y: 572.41
+      width: 24.19
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: ✦
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8573A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape11
+    type: shape
+    frame:
+      x: 1252.92
+      y: 351
+      width: 384
+      height: 486
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8573A"
+      opacity: 0.05
+    stroke:
+      color:
+        kind: rgb
+        value: "#1B2A4A"
+      widthPt: 0.5
+  - id: shape12
+    type: shape
+    frame:
+      x: 1269.28
+      y: 367.36
+      width: 351.28
+      height: 453.28
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#1B2A4A"
+      widthPt: 0.5
+  - id: text13
+    type: text
+    name: ◎
+    frame:
+      x: 1423.945
+      y: 400.75
+      width: 41.94
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: ◎
+              font:
+                kind: family
+                family: Inter
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: GROWTH
+    frame:
+      x: 1359.605
+      y: 494.34
+      width: 170.63
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: GROWTH
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+              letterSpacingPt: 0.864
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape13
+    type: shape
+    frame:
+      x: 1416.13
+      y: 567.78
+      width: 57.59
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8573A"
+  - id: text15
+    type: text
+    name: Scale with purpose and p...
+    frame:
+      x: 1308.645
+      y: 601.17
+      width: 272.55
+      height: 112.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Scale with purpose and precision. We plant the seeds of enduring prosperity and market dominance.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+  - id: text16
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 96
+      y: 992.17
+      width: 486.01
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.16
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+              letterSpacingPt: 1.632
+          lineHeight: 1.5
+      overflow: visible
+  - id: text17
+    type: text
+    name: "02"
+    frame:
+      x: 1784.67
+      y: 982.81
+      width: 46.38
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+              letterSpacingPt: 1.632
+          lineHeight: 1.5
+      overflow: visible

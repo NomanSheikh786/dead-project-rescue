@@ -1,0 +1,403 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0F1423"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0.0009
+          color:
+            kind: rgb
+            value: "#D4DEEB"
+          opacity: 0.05
+        - offset: 0.0009
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape2
+    type: shape
+    frame:
+      x: 384
+      y: 539.5
+      width: 1152
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      opacity: 0.15
+  - id: shape3
+    type: shape
+    frame:
+      x: 959.5
+      y: 216
+      width: 1
+      height: 648
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      opacity: 0.15
+  - id: shape4
+    type: shape
+    frame:
+      x: 576
+      y: 156
+      width: 768
+      height: 768
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      widthPt: 0.5
+      opacity: 0.2
+      dash: dash
+  - id: text1
+    type: text
+    name: "OBSERVATION: ACME.CO / T..."
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 444.54
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "OBSERVATION: ACME.CO / TRANSMISSION_END"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "EPOCH: 2026 / 04"
+    frame:
+      x: 1632.78
+      y: 64.8
+      width: 172.08
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "EPOCH: 2026 / 04"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 921.59
+      y: 298.63
+      width: 76.8
+      height: 76.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      widthPt: 1
+  - id: shape6
+    type: shape
+    frame:
+      x: 950.39
+      y: 327.42
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+  - id: text3
+    type: text
+    name: INITIATE CONTACT SEQUENC...
+    frame:
+      x: 705.67
+      y: 418.61
+      width: 508.65
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: INITIATE CONTACT SEQUENCE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+              letterSpacingPt: 3.84
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text4
+    type: text
+    name: AWAITING SIGNAL
+    frame:
+      x: 425.17
+      y: 479.8
+      width: 1069.65
+      height: 172.8
+    body:
+      paragraphs:
+        - runs:
+            - text: AWAITING SIGNAL
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+              letterSpacingPt: 1.152
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: COMM FREQ
+    frame:
+      x: 707.385
+      y: 706.59
+      width: 234.97
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: COMM FREQ
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+              letterSpacingPt: 0.768
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+    rotationDeg: 0.02
+  - id: shape7
+    type: shape
+    frame:
+      x: 707.41
+      y: 780.37
+      width: 234.92
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      opacity: 0.3
+  - id: text6
+    type: text
+    name: hello@example.com
+    frame:
+      x: 707.385
+      y: 740.42
+      width: 234.97
+      height: 40.95
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@example.com
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 2.7
+        left: 0
+    rotationDeg: 0.02
+  - id: text7
+    type: text
+    name: COORDINATES
+    frame:
+      x: 1019.105
+      y: 706.59
+      width: 193.52
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: COORDINATES
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+              letterSpacingPt: 0.768
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+    rotationDeg: 0.02
+  - id: shape8
+    type: shape
+    frame:
+      x: 1019.13
+      y: 780.37
+      width: 193.47
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      opacity: 0.3
+  - id: text8
+    type: text
+    name: acme.co/launch
+    frame:
+      x: 1019.105
+      y: 740.42
+      width: 193.52
+      height: 40.95
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co/launch
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 2.7
+        left: 0
+    rotationDeg: 0.02
+  - id: text9
+    type: text
+    name: PAGE 04
+    frame:
+      x: 115.19
+      y: 992.17
+      width: 79.84
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: PAGE 04
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text10
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 1417.75
+      y: 992.17
+      width: 387.11
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5

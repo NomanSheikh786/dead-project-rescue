@@ -1,0 +1,607 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0C080F"
+elements:
+  - id: text1
+    type: text
+    name: MARKET IMPACT
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 224.32
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: MARKET IMPACT
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9B8BB4"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: —
+    frame:
+      x: 343.58
+      y: 86.39
+      width: 15.41
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: —
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: STREAMING METRICS
+    frame:
+      x: 387.73
+      y: 86.39
+      width: 293.31
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: STREAMING METRICS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9B8BB4"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Vol. I
+    frame:
+      x: 1724.2
+      y: 86.39
+      width: 80.66
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Vol. I
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9B8BB4"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Global Streaming Growth
+    frame:
+      x: 115.165
+      y: 179.98
+      width: 1689.68
+      height: 75.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Global Streaming Growth
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 33.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+              letterSpacingPt: -0.336
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text6
+    type: text
+    name: 1.2B
+    frame:
+      x: 529.19
+      y: 595.66
+      width: 55.33
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 1.2B
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 480.03
+      y: 651.81
+      width: 153.59
+      height: 48.5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#9B8BB4"
+      opacity: 0.2
+  - id: shape1
+    type: shape
+    frame:
+      x: 480.03
+      y: 651.81
+      width: 153.59
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#9B8BB4"
+  - id: text7
+    type: text
+    name: "2021"
+    frame:
+      x: 533.8
+      y: 721.91
+      width: 52.11
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2021"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9B8BB4"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: 2.8B
+    frame:
+      x: 797.97
+      y: 530.86
+      width: 55.33
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 2.8B
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 748.81
+      y: 587.01
+      width: 153.59
+      height: 113.3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#9B8BB4"
+      opacity: 0.2
+  - id: shape3
+    type: shape
+    frame:
+      x: 748.81
+      y: 587.01
+      width: 153.59
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#9B8BB4"
+  - id: text9
+    type: text
+    name: "2022"
+    frame:
+      x: 802.58
+      y: 721.91
+      width: 52.11
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2022"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9B8BB4"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: 5.4B
+    frame:
+      x: 1066.75
+      y: 425.76
+      width: 55.33
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 5.4B
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 1017.59
+      y: 481.91
+      width: 153.59
+      height: 218.4
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#9B8BB4"
+      opacity: 0.2
+  - id: shape5
+    type: shape
+    frame:
+      x: 1017.59
+      y: 481.91
+      width: 153.59
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#9B8BB4"
+  - id: text11
+    type: text
+    name: "2023"
+    frame:
+      x: 1071.36
+      y: 721.91
+      width: 52.11
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2023"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9B8BB4"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: 8.9B
+    frame:
+      x: 1335.53
+      y: 284.16
+      width: 55.33
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 8.9B
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 1286.38
+      y: 340.31
+      width: 153.59
+      height: 360
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 0
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#C4A060"
+          opacity: 0.2
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#C4A060"
+  - id: text13
+    type: text
+    name: "2024"
+    frame:
+      x: 1340.14
+      y: 721.91
+      width: 52.11
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2024"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9B8BB4"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: +214%
+    frame:
+      x: 504.25
+      y: 815.5
+      width: 205.43
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: +214%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 28.8
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: YOY GROWTH
+    frame:
+      x: 528.745
+      y: 912.69
+      width: 156.43
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: YOY GROWTH
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9B8BB4"
+              letterSpacingPt: 0.864
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: 45M
+    frame:
+      x: 838.705
+      y: 815.5
+      width: 205.55
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: 45M
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 28.8
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text17
+    type: text
+    name: MONTHLY LISTENERS
+    frame:
+      x: 826
+      y: 912.69
+      width: 230.95
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: MONTHLY LISTENERS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9B8BB4"
+              letterSpacingPt: 0.864
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text18
+    type: text
+    name: "12"
+    frame:
+      x: 1197.805
+      y: 815.5
+      width: 193.46
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: "12"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 28.8
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text19
+    type: text
+    name: PLATINUM RECORDS
+    frame:
+      x: 1185.85
+      y: 912.69
+      width: 217.37
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: PLATINUM RECORDS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9B8BB4"
+              letterSpacingPt: 0.864
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text20
+    type: text
+    name: "03"
+    frame:
+      x: 115.19
+      y: 964.81
+      width: 30.93
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9B8BB4"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text21
+    type: text
+    name: acme.co
+    frame:
+      x: 1710.78
+      y: 964.81
+      width: 94.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9B8BB4"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible

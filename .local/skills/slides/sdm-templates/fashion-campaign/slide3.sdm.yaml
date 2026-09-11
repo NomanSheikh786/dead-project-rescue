@@ -1,0 +1,262 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#000000"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 960
+      y: 0
+      width: 960
+      height: 1080
+    assetId: fashion-studio
+    altText: Fashion Studio Detail
+    fit: cover
+    opacity: 0.6
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0.4
+          color:
+            kind: rgb
+            value: "#000000"
+        - offset: 0.7
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.5
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: text1
+    type: text
+    name: COLLECTION STATS
+    frame:
+      x: 153.59
+      y: 232.2
+      width: 652.86
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: COLLECTION STATS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 3.072
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "24"
+    frame:
+      x: 153.59
+      y: 320.03
+      width: 652.86
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: "24"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+          lineHeight: 1
+      overflow: visible
+  - id: text3
+    type: text
+    name: DISTINCT LOOKS
+    frame:
+      x: 153.59
+      y: 426.83
+      width: 652.86
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: DISTINCT LOOKS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#C0C0C0"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: "12"
+    frame:
+      x: 153.59
+      y: 517.55
+      width: 652.86
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: "12"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+          lineHeight: 1
+      overflow: visible
+  - id: text5
+    type: text
+    name: BESPOKE FABRICS
+    frame:
+      x: 153.59
+      y: 624.34
+      width: 652.86
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: BESPOKE FABRICS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#C0C0C0"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: "03"
+    frame:
+      x: 153.59
+      y: 715.06
+      width: 652.86
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+          lineHeight: 1
+      overflow: visible
+  - id: text7
+    type: text
+    name: GLOBAL SHOWROOMS
+    frame:
+      x: 153.59
+      y: 821.86
+      width: 652.86
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: GLOBAL SHOWROOMS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#C0C0C0"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: "03"
+    frame:
+      x: 153.59
+      y: 992.17
+      width: 32.07
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text9
+    type: text
+    name: acme.co
+    frame:
+      x: 1672.78
+      y: 992.17
+      width: 99.3
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+assets:
+  fashion-studio:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/fashion-studio.png

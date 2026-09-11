@@ -1,0 +1,211 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#081423"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: arctic-icebergs
+    altText: Arctic Icebergs
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#081423"
+          opacity: 0.92
+        - offset: 0.4
+          color:
+            kind: rgb
+            value: "#081423"
+          opacity: 0.7
+        - offset: 0.7
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: text1
+    type: text
+    name: ARCTIC RESEARCH STATION
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 386.09
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: ARCTIC RESEARCH STATION
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+              letterSpacingPt: 1.584
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text2
+    type: text
+    name: 71.7° N, 42.6° W
+    frame:
+      x: 668.25
+      y: 86.39
+      width: 330
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: 71.7° N, 42.6° W
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+              letterSpacingPt: 1.584
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: Example Deck
+    frame:
+      x: 153.59
+      y: 345.73
+      width: 864.05
+      height: 139.27
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 62.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+              letterSpacingPt: -0.624
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 153.59
+      y: 537
+      width: 153.59
+      height: 2.16
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C8DDE8"
+    opacity: 0.6
+  - id: text4
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 153.59
+      y: 593.16
+      width: 819.83
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 300
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text5
+    type: text
+    name: EXPEDITION LOG
+    frame:
+      x: 153.59
+      y: 967.69
+      width: 169.28
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EXPEDITION LOG
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text6
+    type: text
+    name: ACME.CO
+    frame:
+      x: 836.97
+      y: 967.69
+      width: 93.68
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+assets:
+  arctic-icebergs:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/arctic-icebergs.png

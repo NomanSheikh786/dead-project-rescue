@@ -1,0 +1,199 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0F0C0A"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 960
+      y: 0
+      width: 960
+      height: 1080
+    assetId: fine-dining
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 960
+      y: 0
+      width: 960
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#0F0C0A"
+        - offset: 0.3
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: text1
+    type: text
+    name: THE PHILOSOPHY
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 205.86
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: THE PHILOSOPHY
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.16
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8A07A"
+              letterSpacingPt: 2.04
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 347.73
+      y: 98.13
+      width: 497.08
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8A07A"
+      opacity: 0.3
+  - id: text2
+    type: text
+    name: Curating the finest ingr...
+    frame:
+      x: 115.19
+      y: 175.66
+      width: 729.68
+      height: 243.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Curating the finest ingredients from local purveyors.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 33.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+          lineHeight: 1.2
+      overflow: visible
+  - id: text3
+    type: text
+    name: Our approach to gastrono...
+    frame:
+      x: 115.19
+      y: 460.77
+      width: 672.05
+      height: 179.53
+    body:
+      paragraphs:
+        - runs:
+            - text: Our approach to gastronomy is rooted in simplicity and respect for the natural environment. We believe that true culinary excellence begins at the source, working intimately with farmers, foragers, and artisans.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#B8A07A"
+          lineHeight: 1.7
+      overflow: visible
+  - id: text4
+    type: text
+    name: Every dish tells a story...
+    frame:
+      x: 115.19
+      y: 672.69
+      width: 672.05
+      height: 107.72
+    body:
+      paragraphs:
+        - runs:
+            - text: Every dish tells a story of the seasons, presenting flavors that are both innovative and deeply familiar, designed to evoke emotion and memory.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#B8A07A"
+          lineHeight: 1.7
+      overflow: visible
+  - id: text5
+    type: text
+    name: ACME.CO
+    frame:
+      x: 115.19
+      y: 967.69
+      width: 100.72
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8A07A"
+              letterSpacingPt: 1.296
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text6
+    type: text
+    name: "02"
+    frame:
+      x: 818.91
+      y: 967.69
+      width: 29.96
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8A07A"
+              letterSpacingPt: 1.296
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+assets:
+  fine-dining:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/fine-dining.png

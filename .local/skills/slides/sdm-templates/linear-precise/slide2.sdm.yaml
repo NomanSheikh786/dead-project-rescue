@@ -1,0 +1,466 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0A0B"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 0
+      width: 1
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.03
+  - id: shape2
+    type: shape
+    frame:
+      x: 768
+      y: 0
+      width: 1
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.03
+  - id: shape3
+    type: shape
+    frame:
+      x: 153.59
+      y: 73.44
+      width: 11.52
+      height: 11.52
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8B7EC8"
+  - id: text1
+    type: text
+    name: acme.co — 2026
+    frame:
+      x: 184.3
+      y: 64.8
+      width: 156.36
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co — 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#8B7EC8"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: CONFIDENTIAL_REV_A
+    frame:
+      x: 1600.52
+      y: 67.67
+      width: 175.9
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL_REV_A
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Core Features
+    frame:
+      x: 153.59
+      y: 201.59
+      width: 560.94
+      height: 86.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Core Features
+              font:
+                kind: family
+                family: Inter
+              sizePt: 38.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#EDEDEF"
+              letterSpacingPt: -1.152
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Our platform is designed...
+    frame:
+      x: 153.59
+      y: 307.66
+      width: 499.24
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Our platform is designed to provide unparalleled performance and security for modern enterprises.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape4
+    type: shape
+    frame:
+      x: 767.97
+      y: 201.59
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.1
+  - id: text5
+    type: text
+    name: "01"
+    frame:
+      x: 767.945
+      y: 201.59
+      width: 57.64
+      height: 57.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "01"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8B7EC8"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text6
+    type: text
+    name: High Performance Archite...
+    frame:
+      x: 863.95
+      y: 201.59
+      width: 576.05
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: High Performance Architecture
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#EDEDEF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Built from the ground up...
+    frame:
+      x: 863.95
+      y: 255.58
+      width: 576.05
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Built from the ground up to ensure ultra-low latency and maximum throughput across all services.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 767.97
+      y: 356.36
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.1
+  - id: text8
+    type: text
+    name: "02"
+    frame:
+      x: 767.945
+      y: 356.36
+      width: 57.64
+      height: 57.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8B7EC8"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text9
+    type: text
+    name: End-to-End Encryption
+    frame:
+      x: 863.95
+      y: 356.36
+      width: 576.05
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: End-to-End Encryption
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#EDEDEF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Military-grade security ...
+    frame:
+      x: 863.95
+      y: 410.34
+      width: 576.05
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Military-grade security protocols applied to every data point, ensuring total privacy.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 767.97
+      y: 511.13
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.1
+  - id: text11
+    type: text
+    name: "03"
+    frame:
+      x: 767.945
+      y: 511.13
+      width: 57.64
+      height: 57.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8B7EC8"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text12
+    type: text
+    name: Global Scalability
+    frame:
+      x: 863.95
+      y: 511.13
+      width: 576.05
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Global Scalability
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#EDEDEF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Deploy anywhere in the w...
+    frame:
+      x: 863.95
+      y: 565.11
+      width: 576.05
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Deploy anywhere in the world with consistent reliability and minimal configuration overhead.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 153.59
+      y: 958.78
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+  - id: text14
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 153.59
+      y: 992.17
+      width: 193.58
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: SLIDE_02
+    frame:
+      x: 1692.67
+      y: 992.17
+      width: 78.21
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: SLIDE_02
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          lineHeight: 1.5
+      overflow: visible

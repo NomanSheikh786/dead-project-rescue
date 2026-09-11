@@ -1,0 +1,443 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0C0C0C"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 96
+      y: 0
+      width: 1728
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#D4AF37"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape2
+    type: shape
+    frame:
+      x: 96
+      y: 1078
+      width: 1728
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#D4AF37"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape3
+    type: shape
+    frame:
+      x: 96
+      y: 32.39
+      width: 1728
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#D4AF37"
+          opacity: 0.3
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape4
+    type: shape
+    frame:
+      x: 96
+      y: 1046.61
+      width: 1728
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#D4AF37"
+          opacity: 0.3
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape5
+    type: shape
+    frame:
+      x: 96
+      y: 32.39
+      width: 1
+      height: 1015.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#D4AF37"
+          opacity: 0.3
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape6
+    type: shape
+    frame:
+      x: 1823
+      y: 32.39
+      width: 1
+      height: 1015.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#D4AF37"
+          opacity: 0.3
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape7
+    type: shape
+    frame:
+      x: 540.56
+      y: 88.05
+      width: 153.59
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+  - id: text1
+    type: text
+    name: EXAMPLE COMPANY PRESENTS
+    frame:
+      x: 704.41
+      y: 75.59
+      width: 511.2
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY PRESENTS
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+              letterSpacingPt: 4.32
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 1225.84
+      y: 88.05
+      width: 153.59
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+  - id: text2
+    type: text
+    name: INTRODUCING
+    frame:
+      x: 153.565
+      y: 303.16
+      width: 1612.86
+      height: 45
+    body:
+      paragraphs:
+        - runs:
+            - text: INTRODUCING
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+              letterSpacingPt: 14.4
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: ◆
+    frame:
+      x: 874.335
+      y: 367.94
+      width: 44.35
+      height: 88
+    body:
+      paragraphs:
+        - runs:
+            - text: ◆
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: ◆
+    frame:
+      x: 937.815
+      y: 367.94
+      width: 44.35
+      height: 88
+    body:
+      paragraphs:
+        - runs:
+            - text: ◆
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: ◆
+    frame:
+      x: 1001.305
+      y: 367.94
+      width: 44.35
+      height: 88
+    body:
+      paragraphs:
+        - runs:
+            - text: ◆
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: EXAMPLE
+    frame:
+      x: 153.565
+      y: 465.13
+      width: 1612.86
+      height: 122
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 67.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 6.72
+          align: center
+          lineHeight: 0.9
+      overflow: visible
+  - id: text7
+    type: text
+    name: DECK
+    frame:
+      x: 153.565
+      y: 586.08
+      width: 1612.86
+      height: 102
+    body:
+      paragraphs:
+        - runs:
+            - text: DECK
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 33.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+              letterSpacingPt: 20.16
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 816
+      y: 713.88
+      width: 288
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+  - id: text8
+    type: text
+    name: A subtitle that captures...
+    frame:
+      x: 527.975
+      y: 742.88
+      width: 864.05
+      height: 36.88
+    body:
+      paragraphs:
+        - runs:
+            - text: A subtitle that captures your vision
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+              letterSpacingPt: 1.728
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.7
+  - id: text9
+    type: text
+    name: CONFIDENTIAL / MMXXVI
+    frame:
+      x: 153.565
+      y: 981.38
+      width: 1612.86
+      height: 25
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL / MMXXVI
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+              letterSpacingPt: 2.304
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5

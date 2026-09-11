@@ -1,0 +1,118 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 648
+    assetId: photo-architecture
+    altText: Brutalist concrete building
+    fit: cover
+  - id: text1
+    type: text
+    name: MONOLITH
+    frame:
+      x: 76.775
+      y: 783.61
+      width: 1766.46
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: MONOLITH
+              font:
+                kind: family
+                family: Inter
+              sizePt: 48
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 14.4
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: text2
+    type: text
+    name: Form follows function fo...
+    frame:
+      x: 76.775
+      y: 901.2
+      width: 1766.46
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Form follows function follows light.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              italic: true
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 76.8
+      y: 1027.45
+      width: 349.04
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.672
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: "2026"
+    frame:
+      x: 1804.63
+      y: 1027.45
+      width: 42.63
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.672
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  photo-architecture:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/photo-architecture.png

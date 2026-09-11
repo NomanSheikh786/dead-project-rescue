@@ -1,0 +1,486 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: image
+  assetId: desert-dunes
+  fit: cover
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 135
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#1E140A"
+          opacity: 0.85
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#1E140A"
+          opacity: 0.6
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 144.97
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+              letterSpacingPt: 1.344
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1710.25
+      y: 89.27
+      width: 62.21
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: PERFORMANCE METRICS
+    frame:
+      x: 153.59
+      y: 213.09
+      width: 1612.86
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: PERFORMANCE METRICS
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E2C792"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Year Over Year Growth
+    frame:
+      x: 153.59
+      y: 269.25
+      width: 1612.86
+      height: 86.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Year Over Year Growth
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 153.59
+      y: 795.52
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E2C792"
+      opacity: 0.3
+  - id: text5
+    type: text
+    name: $12M
+    frame:
+      x: 286.55
+      y: 482.33
+      width: 111.72
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: $12M
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 19.2
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: shape3
+    type: shape
+    frame:
+      x: 153.59
+      y: 561.53
+      width: 345.59
+      height: 162
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 4
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FDFBF7"
+      opacity: 0.1
+  - id: text6
+    type: text
+    name: Q1
+    frame:
+      x: 314.05
+      y: 745.13
+      width: 30.74
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q1
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E2C792"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: $18M
+    frame:
+      x: 708.19
+      y: 406.73
+      width: 112.25
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: $18M
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 19.2
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: shape4
+    type: shape
+    frame:
+      x: 575.98
+      y: 485.94
+      width: 345.61
+      height: 237.59
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 4
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FDFBF7"
+      opacity: 0.2
+  - id: text8
+    type: text
+    name: Q2
+    frame:
+      x: 733.88
+      y: 745.13
+      width: 29.86
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q2
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E2C792"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: $24M
+    frame:
+      x: 1125.25
+      y: 341.94
+      width: 111.93
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: $24M
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 19.2
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: shape5
+    type: shape
+    frame:
+      x: 998.39
+      y: 421.14
+      width: 345.61
+      height: 302.39
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 4
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FDFBF7"
+      opacity: 0.3
+  - id: text10
+    type: text
+    name: Q3
+    frame:
+      x: 1156.14
+      y: 745.13
+      width: 30.14
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q3
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E2C792"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: $36M
+    frame:
+      x: 1534.86
+      y: 251.94
+      width: 139.52
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: $36M
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E2C792"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 1420.8
+      y: 345.53
+      width: 345.61
+      height: 378
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 4
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E2C792"
+  - id: text12
+    type: text
+    name: Q4
+    frame:
+      x: 1578.03
+      y: 745.13
+      width: 31.18
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q4
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#E2C792"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: "* Revenue figures reflec..."
+    frame:
+      x: 153.59
+      y: 839.7
+      width: 768.05
+      height: 69.13
+    body:
+      paragraphs:
+        - runs:
+            - text: "* Revenue figures reflect consolidated global operations excluding newly acquired subsidiaries."
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text14
+    type: text
+    name: +200% Annual Increase
+    frame:
+      x: 1479.45
+      y: 839.7
+      width: 295.61
+      height: 82.13
+    body:
+      paragraphs:
+        - runs:
+            - text: +200% Annual Increase
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E2C792"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: Example Company, Inc. — ...
+    frame:
+      x: 153.59
+      y: 964.81
+      width: 378.23
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. — Confidential
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text16
+    type: text
+    name: "03"
+    frame:
+      x: 1742.03
+      y: 964.81
+      width: 27.43
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+assets:
+  desert-dunes:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/desert-dunes.jpg

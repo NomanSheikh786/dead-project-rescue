@@ -1,0 +1,439 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: linearGradient
+  angleDeg: 180
+  stops:
+    - offset: 0
+      color:
+        kind: rgb
+        value: "#1A2744"
+    - offset: 1
+      color:
+        kind: rgb
+        value: "#0D1A33"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 8.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#C5A044"
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#E8D08C"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#C5A044"
+  - id: shape2
+    type: shape
+    frame:
+      x: 0
+      y: 1071.38
+      width: 1920
+      height: 8.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#C5A044"
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#E8D08C"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#C5A044"
+  - id: shape3
+    type: shape
+    frame:
+      x: 57.59
+      y: 21.59
+      width: 1804.81
+      height: 1036.81
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#C5A044"
+      widthPt: 0.5
+      opacity: 0.3
+  - id: shape4
+    type: shape
+    frame:
+      x: 912
+      y: 204.38
+      width: 96
+      height: 96
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C5A044"
+  - id: text1
+    type: text
+    name: B
+    frame:
+      x: 911.975
+      y: 204.38
+      width: 96.05
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: B
+              font:
+                kind: family
+                family: Arial
+              sizePt: 28.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text2
+    type: text
+    name: SUMMARY & NEXT STEPS
+    frame:
+      x: 720.24
+      y: 343.56
+      width: 479.52
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: SUMMARY & NEXT STEPS
+              font:
+                kind: family
+                family: Arial
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C5A044"
+              letterSpacingPt: 3.456
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Moving Forward Together
+    frame:
+      x: 381.91
+      y: 399.72
+      width: 1156.18
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Moving Forward Together
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+          align: center
+          lineHeight: 1.2
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text4
+    type: text
+    name: The board is requested t...
+    frame:
+      x: 383.975
+      y: 535.8
+      width: 1152.05
+      height: 94.13
+    body:
+      paragraphs:
+        - runs:
+            - text: The board is requested to approve the strategic allocation of capital toward our Q4 expansion initiatives as outlined in Section III.
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.7
+    rotationDeg: 0.02
+  - id: shape5
+    type: shape
+    frame:
+      x: 556.8
+      y: 692.72
+      width: 384
+      height: 182.91
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.2
+    stroke:
+      color:
+        kind: rgb
+        value: "#C5A044"
+      widthPt: 0.5
+      opacity: 0.4
+  - id: text5
+    type: text
+    name: RESOLUTION 1
+    frame:
+      x: 596.19
+      y: 732.11
+      width: 305.27
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: RESOLUTION 1
+              font:
+                kind: family
+                family: Arial
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#C5A044"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Approve the M&A targetin...
+    frame:
+      x: 596.19
+      y: 771.7
+      width: 305.27
+      height: 64.53
+    body:
+      paragraphs:
+        - runs:
+            - text: Approve the M&A targeting framework.
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.4
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 979.19
+      y: 692.72
+      width: 384
+      height: 182.91
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.2
+    stroke:
+      color:
+        kind: rgb
+        value: "#C5A044"
+      widthPt: 0.5
+      opacity: 0.4
+  - id: text7
+    type: text
+    name: RESOLUTION 2
+    frame:
+      x: 1018.58
+      y: 732.11
+      width: 305.27
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: RESOLUTION 2
+              font:
+                kind: family
+                family: Arial
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#C5A044"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Authorize Series D fundi...
+    frame:
+      x: 1018.58
+      y: 771.7
+      width: 305.27
+      height: 64.53
+    body:
+      paragraphs:
+        - runs:
+            - text: Authorize Series D funding round prep.
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.4
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 134.39
+      y: 878.88
+      width: 1651.22
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C5A044"
+      opacity: 0.3
+  - id: text9
+    type: text
+    name: Johnathan Doe
+    frame:
+      x: 134.39
+      y: 901.47
+      width: 219.02
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Johnathan Doe
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Chief Executive Officer
+    frame:
+      x: 134.39
+      y: 941.42
+      width: 246.09
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Chief Executive Officer
+              font:
+                kind: family
+                family: Arial
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text11
+    type: text
+    name: j.doe@example.com
+    frame:
+      x: 134.39
+      y: 975.61
+      width: 219.02
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: j.doe@example.com
+              font:
+                kind: family
+                family: Arial
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C5A044"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text12
+    type: text
+    name: "04"
+    frame:
+      x: 1761.19
+      y: 975.61
+      width: 27.47
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Arial
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C5A044"
+          lineHeight: 1.5
+      overflow: visible

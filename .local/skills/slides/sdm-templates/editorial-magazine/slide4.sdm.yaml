@@ -1,0 +1,415 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F2ED"
+elements:
+  - id: text1
+    type: text
+    name: C
+    frame:
+      x: -38.39
+      y: -54
+      width: 594.49
+      height: 864
+    body:
+      paragraphs:
+        - runs:
+            - text: C
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 432
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+          lineHeight: 1
+      overflow: visible
+    opacity: 0.08
+    rotationDeg: 0.02
+  - id: text2
+    type: text
+    name: ACME.CO (BY EXAMPLE COMP...
+    frame:
+      x: 96
+      y: 54
+      width: 522.95
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO (BY EXAMPLE COMPANY)
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+              letterSpacingPt: 2.88
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: "2026"
+    frame:
+      x: 1753.55
+      y: 54
+      width: 77.5
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+              letterSpacingPt: 2.88
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 786.8
+      y: 213.39
+      width: 1
+      height: 766.98
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8C8C8C"
+      opacity: 0.4
+  - id: text4
+    type: text
+    name: GET IN TOUCH
+    frame:
+      x: 96
+      y: 360.42
+      width: 614.05
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: GET IN TOUCH
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#C45B28"
+              letterSpacingPt: 3.456
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: OFFICE
+    frame:
+      x: 96
+      y: 429.53
+      width: 614.05
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: OFFICE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: 100 Editorial Ave
+    frame:
+      x: 96
+      y: 463.36
+      width: 614.05
+      height: 88.38
+    body:
+      paragraphs:
+        - runs:
+            - text: 100 Editorial Ave
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+          lineHeight: 1.5
+        - runs:
+            - text: New York, NY 10012
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: DIRECT
+    frame:
+      x: 96
+      y: 592.92
+      width: 614.05
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: DIRECT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: hello@example.co
+    frame:
+      x: 96
+      y: 626.75
+      width: 614.05
+      height: 88.38
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@example.co
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+          lineHeight: 1.5
+        - runs:
+            - text: +1 (555) 000-0000
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: DIGITAL
+    frame:
+      x: 96
+      y: 756.31
+      width: 614.05
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: DIGITAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: www.example.co
+    frame:
+      x: 96
+      y: 790.14
+      width: 614.05
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: www.example.co
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+              underline: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Thank You.
+    frame:
+      x: 902.98
+      y: 373.7
+      width: 976.33
+      height: 313.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Thank You.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 86.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+              letterSpacingPt: -1.728
+          lineHeight: 0.9
+        - runs:
+            - text: Let's Build.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 86.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C45B28"
+              italic: true
+              letterSpacingPt: -1.728
+          lineHeight: 0.9
+      overflow: visible
+  - id: text12
+    type: text
+    name: We look forward to creat...
+    frame:
+      x: 902.98
+      y: 727.92
+      width: 829.35
+      height: 94.13
+    body:
+      paragraphs:
+        - runs:
+            - text: We look forward to creating exceptional experiences with your team.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+          lineHeight: 1.6
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text13
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 96
+      y: 1002.97
+      width: 574.79
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+              letterSpacingPt: 3.072
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: "04"
+    frame:
+      x: 1792.09
+      y: 1002.97
+      width: 34.96
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+              letterSpacingPt: 3.072
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 96
+      y: 104.39
+      width: 1728
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8C8C8C"
+      opacity: 0.4
+  - id: shape3
+    type: shape
+    frame:
+      x: 96
+      y: 980.38
+      width: 1728
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8C8C8C"
+      opacity: 0.4

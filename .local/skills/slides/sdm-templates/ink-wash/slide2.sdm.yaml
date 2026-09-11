@@ -1,0 +1,450 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F0E6"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: -96
+      y: -108
+      width: 960
+      height: 960
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+    opacity: 0.022
+  - id: shape2
+    type: shape
+    frame:
+      x: 1248
+      y: 108
+      width: 768
+      height: 864
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+    opacity: 0.033
+  - id: shape3
+    type: shape
+    frame:
+      x: 230.39
+      y: 108
+      width: 38.39
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D93829"
+    stroke:
+      color:
+        kind: rgb
+        value: "#F5F0E6"
+      widthPt: 1
+  - id: text1
+    type: text
+    name: 印
+    frame:
+      x: 241.34
+      y: 115.67
+      width: 16.52
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: 印
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 7.68
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F5F0E6"
+              letterSpacingPt: -0.768
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 90
+  - id: text2
+    type: text
+    name: PHILOSOPHY & APPROACH
+    frame:
+      x: 297.58
+      y: 112.8
+      width: 391.51
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: PHILOSOPHY & APPROACH
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 2.88
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text3
+    type: text
+    name: Finding clarity
+    frame:
+      x: 230.39
+      y: 270
+      width: 652.85
+      height: 186.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Finding clarity
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -0.768
+          lineHeight: 1.2
+        - runs:
+            - text: in the complex.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -0.768
+          lineHeight: 1.2
+      overflow: visible
+    opacity: 0.9
+  - id: text4
+    type: text
+    name: Like the ancient practic...
+    frame:
+      x: 230.39
+      y: 497.5
+      width: 652.85
+      height: 165.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Like the ancient practice of ink wash painting, our approach embraces both intention and spontaneity. We believe that true innovation emerges when structured methodology meets organic creative flow.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.8
+      overflow: visible
+    opacity: 0.65
+  - id: text5
+    type: text
+    name: By distilling complex ch...
+    frame:
+      x: 230.39
+      y: 695.83
+      width: 652.85
+      height: 124.45
+    body:
+      paragraphs:
+        - runs:
+            - text: By distilling complex challenges down to their essential elements, we create solutions that are both elegant and profoundly effective.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.8
+      overflow: visible
+    opacity: 0.65
+  - id: shape4
+    type: shape
+    frame:
+      x: 1036.78
+      y: 291.59
+      width: 2
+      height: 124.08
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+      opacity: 0.1
+  - id: text6
+    type: text
+    name: Intention
+    frame:
+      x: 1077.17
+      y: 291.59
+      width: 612.46
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Intention
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text7
+    type: text
+    name: Every mark serves a purp...
+    frame:
+      x: 1077.17
+      y: 354.23
+      width: 649.21
+      height: 61.44
+    body:
+      paragraphs:
+        - runs:
+            - text: Every mark serves a purpose. We begin with deep research to understand the core landscape before making our first move.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.6
+  - id: shape5
+    type: shape
+    frame:
+      x: 1036.78
+      y: 458.86
+      width: 2
+      height: 124.08
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D93829"
+  - id: text8
+    type: text
+    name: Execution
+    frame:
+      x: 1077.17
+      y: 458.86
+      width: 612.46
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Execution
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text9
+    type: text
+    name: Swift, decisive action b...
+    frame:
+      x: 1077.17
+      y: 521.5
+      width: 612.46
+      height: 61.44
+    body:
+      paragraphs:
+        - runs:
+            - text: Swift, decisive action based on rigorous preparation. True mastery looks effortless but requires immense discipline.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.6
+  - id: shape6
+    type: shape
+    frame:
+      x: 1036.78
+      y: 626.13
+      width: 2
+      height: 124.08
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+      opacity: 0.1
+  - id: text10
+    type: text
+    name: Reflection
+    frame:
+      x: 1077.17
+      y: 626.13
+      width: 612.46
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Reflection
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text11
+    type: text
+    name: We leave space for the s...
+    frame:
+      x: 1077.17
+      y: 688.77
+      width: 649.21
+      height: 61.44
+    body:
+      paragraphs:
+        - runs:
+            - text: We leave space for the solution to breathe, allowing the unspoken elements to communicate as powerfully as the spoken.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.6
+  - id: text12
+    type: text
+    name: acme.co
+    frame:
+      x: 230.39
+      y: 967.69
+      width: 81.13
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text13
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 388.27
+      y: 967.69
+      width: 238.72
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text14
+    type: text
+    name: "02"
+    frame:
+      x: 1664.89
+      y: 967.69
+      width: 27.77
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5

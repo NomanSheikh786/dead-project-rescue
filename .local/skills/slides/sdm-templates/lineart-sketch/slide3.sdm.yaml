@@ -1,0 +1,689 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FEFCF8"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 0
+      width: 3.83
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E54D2E"
+      opacity: 0.4
+  - id: shape2
+    type: shape
+    frame:
+      x: 163.19
+      y: 0
+      width: 1.91
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E54D2E"
+      opacity: 0.2
+  - id: text1
+    type: text
+    name: PERFORMANCE METRICS
+    frame:
+      x: 230.39
+      y: 64.8
+      width: 340.43
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: PERFORMANCE METRICS
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#333333"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Q3 2026
+    frame:
+      x: 1667.67
+      y: 64.8
+      width: 104.7
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Q3 2026
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E54D2E"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 230.39
+      y: 986.41
+      width: 416.01
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "EXAMPLE COMPANY, INC. / "
+              color:
+                kind: rgb
+                value: "#333333"
+            - text: CONFIDENTIAL
+              color:
+                kind: rgb
+                value: "#E54D2E"
+          lineHeight: 1.5
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Courier New
+            sizePt: 9.6
+            weight: 700
+      overflow: visible
+  - id: text4
+    type: text
+    name: SLIDE_03
+    frame:
+      x: 1676.95
+      y: 986.41
+      width: 95.49
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: SLIDE_03
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Growth Trajectory
+    frame:
+      x: 230.39
+      y: 215.8
+      width: 1536.05
+      height: 130
+    body:
+      paragraphs:
+        - runs:
+            - text: Growth Trajectory
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 43.2
+              weight: 800
+              color:
+                kind: rgb
+                value: "#333333"
+              letterSpacingPt: -0.96
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -1
+  - id: shape3
+    type: shape
+    frame:
+      x: 230.39
+      y: 351.16
+      width: 672
+      height: 4
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E54D2E"
+    rotationDeg: 1
+  - id: shape4
+    type: shape
+    frame:
+      x: 230.39
+      y: 441.66
+      width: 480
+      height: 271
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 135.5
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#333333"
+      widthPt: 1.5
+    rotationDeg: -2
+  - id: text6
+    type: text
+    name: User Growth
+    frame:
+      x: 269
+      y: 476.93
+      width: 397.05
+      height: 35
+    body:
+      paragraphs:
+        - runs:
+            - text: User Growth
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -2
+  - id: text7
+    type: text
+    name: +142%
+    frame:
+      x: 271.99
+      y: 522.55
+      width: 397.05
+      height: 117
+    body:
+      paragraphs:
+        - runs:
+            - text: +142%
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 38.4
+              weight: 800
+              color:
+                kind: rgb
+                value: "#E54D2E"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -2
+  - id: text8
+    type: text
+    name: MoM active users
+    frame:
+      x: 274.88
+      y: 648.28
+      width: 397.05
+      height: 29
+    body:
+      paragraphs:
+        - runs:
+            - text: MoM active users
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -2
+  - id: shape5
+    type: shape
+    frame:
+      x: 230.39
+      y: 755.77
+      width: 480
+      height: 271
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 15
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#333333"
+      widthPt: 1.5
+    rotationDeg: 1.5
+  - id: text9
+    type: text
+    name: Revenue
+    frame:
+      x: 274.06
+      y: 791.01
+      width: 397.05
+      height: 35
+    body:
+      paragraphs:
+        - runs:
+            - text: Revenue
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 1.5
+  - id: text10
+    type: text
+    name: $4.2M
+    frame:
+      x: 271.82
+      y: 836.66
+      width: 397.05
+      height: 117
+    body:
+      paragraphs:
+        - runs:
+            - text: $4.2M
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 38.4
+              weight: 800
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 1.5
+  - id: text11
+    type: text
+    name: ARR run rate
+    frame:
+      x: 269.65
+      y: 962.42
+      width: 397.05
+      height: 29
+    body:
+      paragraphs:
+        - runs:
+            - text: ARR run rate
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 1.5
+  - id: shape6
+    type: shape
+    frame:
+      x: 806.39
+      y: 1023.73
+      width: 960
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+  - id: shape7
+    type: shape
+    frame:
+      x: 806.39
+      y: 441.7
+      width: 3
+      height: 585.03
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+  - id: text12
+    type: text
+    name: 20k
+    frame:
+      x: 751.8
+      y: 936.73
+      width: 38.58
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 20k
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: 40k
+    frame:
+      x: 751.8
+      y: 762.13
+      width: 38.58
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 40k
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: 60k
+    frame:
+      x: 751.8
+      y: 587.52
+      width: 38.58
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 60k
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 809.39
+      y: 789.02
+      width: 957
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.2
+  - id: shape9
+    type: shape
+    frame:
+      x: 809.39
+      y: 614.41
+      width: 957
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.2
+  - id: shape10
+    type: shape
+    frame:
+      x: 847.68
+      y: 822.14
+      width: 77
+      height: 162
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E54D2E"
+      opacity: 0.1
+    stroke:
+      color:
+        kind: rgb
+        value: "#333333"
+      widthPt: 1.5
+    rotationDeg: -1
+  - id: text15
+    type: text
+    name: Jan
+    frame:
+      x: 871.39
+      y: 994.94
+      width: 36.63
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Jan
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape11
+    type: shape
+    frame:
+      x: 982.07
+      y: 746.34
+      width: 77
+      height: 238
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 3
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E54D2E"
+      opacity: 0.3
+    stroke:
+      color:
+        kind: rgb
+        value: "#333333"
+      widthPt: 1.5
+    rotationDeg: 2
+  - id: text16
+    type: text
+    name: Feb
+    frame:
+      x: 1003.58
+      y: 994.94
+      width: 37.03
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Feb
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape12
+    type: shape
+    frame:
+      x: 1116.46
+      y: 606.14
+      width: 77
+      height: 378
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E54D2E"
+      opacity: 0.6
+    stroke:
+      color:
+        kind: rgb
+        value: "#333333"
+      widthPt: 1.5
+    rotationDeg: -0.5
+  - id: text17
+    type: text
+    name: Mar
+    frame:
+      x: 1136.86
+      y: 994.94
+      width: 42.25
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Mar
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape13
+    type: shape
+    frame:
+      x: 1250.85
+      y: 498.14
+      width: 77
+      height: 486
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E54D2E"
+    stroke:
+      color:
+        kind: rgb
+        value: "#333333"
+      widthPt: 1.5
+    rotationDeg: 1
+  - id: text18
+    type: text
+    name: Peak!
+    frame:
+      x: 1261.98
+      y: 457.77
+      width: 64.05
+      height: 35
+    body:
+      paragraphs:
+        - runs:
+            - text: Peak!
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E54D2E"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -4
+  - id: text19
+    type: text
+    name: Apr
+    frame:
+      x: 1272.75
+      y: 994.94
+      width: 37.25
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Apr
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible

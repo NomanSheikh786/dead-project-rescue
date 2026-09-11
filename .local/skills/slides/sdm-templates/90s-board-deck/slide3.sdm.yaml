@@ -1,0 +1,755 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: linearGradient
+  angleDeg: 180
+  stops:
+    - offset: 0
+      color:
+        kind: rgb
+        value: "#1A2744"
+    - offset: 1
+      color:
+        kind: rgb
+        value: "#0D1A33"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 8.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#C5A044"
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#E8D08C"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#C5A044"
+  - id: shape2
+    type: shape
+    frame:
+      x: 0
+      y: 1071.38
+      width: 1920
+      height: 8.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#C5A044"
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#E8D08C"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#C5A044"
+  - id: shape3
+    type: shape
+    frame:
+      x: 57.59
+      y: 21.59
+      width: 1804.81
+      height: 1036.81
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#C5A044"
+      widthPt: 0.5
+      opacity: 0.3
+  - id: text1
+    type: text
+    name: Q3 FY26 PERFORMANCE
+    frame:
+      x: 134.39
+      y: 75.59
+      width: 702.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q3 FY26 PERFORMANCE
+              font:
+                kind: family
+                family: Arial
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C5A044"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Key Financial Metrics
+    frame:
+      x: 134.39
+      y: 115.19
+      width: 789.53
+      height: 75.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Key Financial Metrics
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 33.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1737.61
+      y: 108.34
+      width: 48
+      height: 48
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C5A044"
+  - id: text3
+    type: text
+    name: B
+    frame:
+      x: 1737.585
+      y: 108.34
+      width: 48.05
+      height: 48
+    body:
+      paragraphs:
+        - runs:
+            - text: B
+              font:
+                kind: family
+                family: Arial
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: shape5
+    type: shape
+    frame:
+      x: 134.39
+      y: 274.06
+      width: 1088.67
+      height: 594
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.2
+    stroke:
+      color:
+        kind: rgb
+        value: "#C5A044"
+      widthPt: 0.5
+      opacity: 0.2
+  - id: text4
+    type: text
+    name: REVENUE GROWTH (YOY)
+    frame:
+      x: 192.98
+      y: 332.66
+      width: 971.53
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: REVENUE GROWTH (YOY)
+              font:
+                kind: family
+                family: Arial
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#C5A044"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 192.98
+      y: 840.95
+      width: 971.48
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C5A044"
+      opacity: 0.5
+  - id: text5
+    type: text
+    name: $42M
+    frame:
+      x: 310.17
+      y: 583.2
+      width: 67.89
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: $42M
+              font:
+                kind: family
+                family: Arial
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape7
+    type: shape
+    frame:
+      x: 192.98
+      y: 628.56
+      width: 298.23
+      height: 162
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#C5A044"
+          opacity: 0.8
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#C5A044"
+          opacity: 0.2
+  - id: text6
+    type: text
+    name: Q1
+    frame:
+      x: 328.44
+      y: 801.36
+      width: 27.36
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q1
+              font:
+                kind: family
+                family: Arial
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text7
+    type: text
+    name: $56M
+    frame:
+      x: 646.8
+      y: 507.61
+      width: 67.89
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: $56M
+              font:
+                kind: family
+                family: Arial
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape8
+    type: shape
+    frame:
+      x: 529.61
+      y: 552.97
+      width: 298.23
+      height: 237.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#C5A044"
+          opacity: 0.8
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#C5A044"
+          opacity: 0.2
+  - id: text8
+    type: text
+    name: Q2
+    frame:
+      x: 665.06
+      y: 801.36
+      width: 27.36
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q2
+              font:
+                kind: family
+                family: Arial
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text9
+    type: text
+    name: $84M
+    frame:
+      x: 983.42
+      y: 399.61
+      width: 67.89
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: $84M
+              font:
+                kind: family
+                family: Arial
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 866.23
+      y: 444.97
+      width: 298.23
+      height: 345.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#C5A044"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#C5A044"
+          opacity: 0.4
+    stroke:
+      color:
+        kind: rgb
+        value: "#E8D08C"
+      widthPt: 0.5
+  - id: text10
+    type: text
+    name: Q3
+    frame:
+      x: 1001.69
+      y: 801.36
+      width: 27.36
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q3
+              font:
+                kind: family
+                family: Arial
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#C5A044"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape10
+    type: shape
+    frame:
+      x: 1299.86
+      y: 274.06
+      width: 485.75
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C5A044"
+  - id: text11
+    type: text
+    name: EBITDA MARGIN
+    frame:
+      x: 1299.86
+      y: 297.66
+      width: 485.8
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: EBITDA MARGIN
+              font:
+                kind: family
+                family: Arial
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text12
+    type: text
+    name: 24.5%
+    frame:
+      x: 1299.86
+      y: 326.45
+      width: 485.8
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 24.5%
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D08C"
+          lineHeight: 1
+      overflow: visible
+  - id: text13
+    type: text
+    name: +320 bps YoY
+    frame:
+      x: 1299.86
+      y: 414.05
+      width: 485.8
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: +320 bps YoY
+              font:
+                kind: family
+                family: Arial
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4CAF50"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape11
+    type: shape
+    frame:
+      x: 1299.86
+      y: 506.88
+      width: 485.75
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C5A044"
+      opacity: 0.3
+  - id: text14
+    type: text
+    name: CUSTOMER ACQUISITION COS...
+    frame:
+      x: 1299.86
+      y: 529.47
+      width: 485.8
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CUSTOMER ACQUISITION COST
+              font:
+                kind: family
+                family: Arial
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text15
+    type: text
+    name: $1,240
+    frame:
+      x: 1299.86
+      y: 558.27
+      width: 485.8
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: $1,240
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1
+      overflow: visible
+  - id: text16
+    type: text
+    name: -15% YoY
+    frame:
+      x: 1299.86
+      y: 626.66
+      width: 485.8
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: -15% YoY
+              font:
+                kind: family
+                family: Arial
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4CAF50"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape12
+    type: shape
+    frame:
+      x: 1299.86
+      y: 719.48
+      width: 485.75
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C5A044"
+      opacity: 0.3
+  - id: text17
+    type: text
+    name: LIFETIME VALUE
+    frame:
+      x: 1299.86
+      y: 742.08
+      width: 485.8
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: LIFETIME VALUE
+              font:
+                kind: family
+                family: Arial
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text18
+    type: text
+    name: $14,800
+    frame:
+      x: 1299.86
+      y: 770.88
+      width: 485.8
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: $14,800
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1
+      overflow: visible
+  - id: text19
+    type: text
+    name: +8% YoY
+    frame:
+      x: 1299.86
+      y: 839.27
+      width: 485.8
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: +8% YoY
+              font:
+                kind: family
+                family: Arial
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4CAF50"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape13
+    type: shape
+    frame:
+      x: 134.39
+      y: 953.02
+      width: 1651.22
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C5A044"
+      opacity: 0.3
+  - id: text20
+    type: text
+    name: Confidential and Proprie...
+    frame:
+      x: 134.39
+      y: 975.61
+      width: 303.36
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential and Proprietary
+              font:
+                kind: family
+                family: Arial
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text21
+    type: text
+    name: "03"
+    frame:
+      x: 1761.19
+      y: 975.61
+      width: 27.47
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Arial
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C5A044"
+          lineHeight: 1.5
+      overflow: visible

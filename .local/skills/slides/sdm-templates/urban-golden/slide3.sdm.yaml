@@ -1,0 +1,640 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#111111"
+elements:
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 107.16
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#D4AF37"
+              letterSpacingPt: -0.72
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 140.38
+      width: 76.8
+      height: 5.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+  - id: text2
+    type: text
+    name: Performance Metrics
+    frame:
+      x: 1243.08
+      y: 86.39
+      width: 631.22
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: "Performance "
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+            - text: Metrics
+              weight: 700
+              color:
+                kind: rgb
+                value: "#D4AF37"
+          lineHeight: 1.5
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Space Grotesk
+            sizePt: 28.8
+            letterSpacingPt: -0.576
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 115.19
+      y: 827.05
+      width: 1132.83
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+  - id: text3
+    type: text
+    name: 30%
+    frame:
+      x: 193.78
+      y: 652.47
+      width: 45.71
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 30%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#D4AF37"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 115.19
+      y: 692.06
+      width: 195.84
+      height: 113.39
+    geometry:
+      kind: path
+      viewBox:
+        width: 195.84
+        height: 113.39
+      path: M 0 113.39 L 0 9.6 A 9.6 9.6 0 0 1 9.6 0 L 186.24 0 A 9.6 9.6 0 0 1 195.84 9.6 L 195.84 113.39 Z
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#333333"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#333333"
+          opacity: 0.2
+  - id: text4
+    type: text
+    name: 45%
+    frame:
+      x: 428.22
+      y: 595.77
+      width: 45.32
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 45%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#D4AF37"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 349.42
+      y: 635.36
+      width: 195.86
+      height: 170.09
+    geometry:
+      kind: path
+      viewBox:
+        width: 195.86
+        height: 170.09
+      path: M 0 170.09 L 0 9.6 A 9.6 9.6 0 0 1 9.6 0 L 186.26 0 A 9.6 9.6 0 0 1 195.86 9.6 L 195.86 170.09 Z
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#333333"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#333333"
+          opacity: 0.2
+  - id: text5
+    type: text
+    name: 60%
+    frame:
+      x: 662.17
+      y: 539.06
+      width: 45.89
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 60%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#D4AF37"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 583.67
+      y: 578.66
+      width: 195.84
+      height: 226.8
+    geometry:
+      kind: path
+      viewBox:
+        width: 195.84
+        height: 226.8
+      path: M 0 226.8 L 0 9.6 A 9.6 9.6 0 0 1 9.6 0 L 186.24 0 A 9.6 9.6 0 0 1 195.84 9.6 L 195.84 226.8 Z
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#333333"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#333333"
+          opacity: 0.2
+  - id: text6
+    type: text
+    name: 85%
+    frame:
+      x: 897.05
+      y: 444.56
+      width: 45.63
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 85%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#D4AF37"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 817.91
+      y: 484.16
+      width: 195.86
+      height: 321.3
+    geometry:
+      kind: path
+      viewBox:
+        width: 195.86
+        height: 321.3
+      path: M 0 321.3 L 0 9.6 A 9.6 9.6 0 0 1 9.6 0 L 186.26 0 A 9.6 9.6 0 0 1 195.86 9.6 L 195.86 321.3 Z
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#333333"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#333333"
+          opacity: 0.2
+  - id: text7
+    type: text
+    name: 100%
+    frame:
+      x: 1126.03
+      y: 387.86
+      width: 58.14
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 100%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#D4AF37"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 1052.16
+      y: 427.45
+      width: 195.86
+      height: 378
+    geometry:
+      kind: path
+      viewBox:
+        width: 195.86
+        height: 378
+      path: M 0 378 L 0 9.6 A 9.6 9.6 0 0 1 9.6 0 L 186.26 0 A 9.6 9.6 0 0 1 195.86 9.6 L 195.86 378 Z
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#D4AF37"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#D4AF37"
+          opacity: 0.2
+  - id: text8
+    type: text
+    name: Q1
+    frame:
+      x: 134.38
+      y: 849.64
+      width: 26.91
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q1
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Q2
+    frame:
+      x: 392
+      y: 849.64
+      width: 27.47
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q2
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Q3
+    frame:
+      x: 653.17
+      y: 849.64
+      width: 26.49
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q3
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Q4
+    frame:
+      x: 914.38
+      y: 849.64
+      width: 26.89
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q4
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Q1 '27
+    frame:
+      x: 1175.97
+      y: 849.64
+      width: 63.01
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: Q1 '27
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 1324.81
+      y: 335.66
+      width: 480
+      height: 227.75
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: shape8
+    type: shape
+    frame:
+      x: 1324.81
+      y: 335.66
+      width: 9
+      height: 227.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+  - id: text13
+    type: text
+    name: REVENUE GROWTH
+    frame:
+      x: 1391.41
+      y: 393.25
+      width: 355.86
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: REVENUE GROWTH
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: +$2.4M
+    frame:
+      x: 1391.41
+      y: 438.61
+      width: 355.86
+      height: 67.2
+    body:
+      paragraphs:
+        - runs:
+            - text: +$2.4M
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 33.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1
+      overflow: visible
+  - id: shape11
+    type: shape
+    frame:
+      x: 1324.81
+      y: 595.8
+      width: 480
+      height: 227.75
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: shape10
+    type: shape
+    frame:
+      x: 1324.81
+      y: 595.8
+      width: 9
+      height: 227.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+  - id: text15
+    type: text
+    name: MARKET SHARE
+    frame:
+      x: 1391.41
+      y: 653.39
+      width: 355.86
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: MARKET SHARE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: 14.2%
+    frame:
+      x: 1391.41
+      y: 698.75
+      width: 355.86
+      height: 67.2
+    body:
+      paragraphs:
+        - runs:
+            - text: 14.2%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 33.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1
+      overflow: visible
+  - id: text17
+    type: text
+    name: 2026 / CONFIDENTIAL
+    frame:
+      x: 115.19
+      y: 964.81
+      width: 236.75
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 2026 / CONFIDENTIAL
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text18
+    type: text
+    name: "03"
+    frame:
+      x: 1780.8
+      y: 964.81
+      width: 27.07
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible

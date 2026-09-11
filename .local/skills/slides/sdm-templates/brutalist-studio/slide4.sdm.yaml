@@ -1,0 +1,230 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#121212"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: brutalist-golden
+    altText: Brutalist concrete architecture
+    fit: cover
+    opacity: 0.3
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#121212"
+      opacity: 0.7
+  - id: text1
+    type: text
+    name: INITIATE
+    frame:
+      x: 96
+      y: 86.39
+      width: 116.96
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: INITIATE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#C4A060"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: END OF TRANSMISSION
+    frame:
+      x: 1568.78
+      y: 86.39
+      width: 270.59
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: END OF TRANSMISSION
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: CONSTRUCT
+    frame:
+      x: 527.64
+      y: 296.53
+      width: 864.7
+      height: 309.19
+    body:
+      paragraphs:
+        - runs:
+            - text: CONSTRUCT
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 76.8
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -3.072
+          align: center
+          lineHeight: 1
+        - runs:
+            - text: WITH US
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 76.8
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -3.072
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 739.09
+      y: 668.5
+      width: 441.81
+      height: 92.38
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#121212"
+      opacity: 0.9
+    stroke:
+      color:
+        kind: rgb
+        value: "#C4A060"
+      widthPt: 1.5
+  - id: text4
+    type: text
+    name: studio@acme.co
+    frame:
+      x: 818.865
+      y: 695.09
+      width: 282.27
+      height: 45
+    body:
+      paragraphs:
+        - runs:
+            - text: studio@acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+              letterSpacingPt: 1.44
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 96
+      y: 942.22
+      width: 1728
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text5
+    type: text
+    name: acme.co
+    frame:
+      x: 96
+      y: 964.81
+      width: 80.64
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: "04"
+    frame:
+      x: 1797.78
+      y: 964.81
+      width: 29.27
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  brutalist-golden:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/brutalist-golden.png

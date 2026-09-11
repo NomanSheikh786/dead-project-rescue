@@ -1,0 +1,374 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#C84B31"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 729.8
+      y: -19.05
+      width: 38
+      height: 1118.1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2A2A2A"
+  - id: shape2
+    type: shape
+    frame:
+      x: 768
+      y: -19.05
+      width: 768
+      height: 1118.1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#141414"
+  - id: shape3
+    type: shape
+    frame:
+      x: 115.19
+      y: 89.27
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#141414"
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 163.17
+      y: 86.39
+      width: 127.8
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1633.92
+      y: 86.39
+      width: 170.89
+      height: 43.58
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 1
+  - id: text2
+    type: text
+    name: NEXT STEPS
+    frame:
+      x: 1633.92
+      y: 86.39
+      width: 170.94
+      height: 43.58
+    body:
+      paragraphs:
+        - runs:
+            - text: NEXT STEPS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 9.6
+        bottom: 2.7
+        left: 9.6
+  - id: text3
+    type: text
+    name: THE TIME IS NOW
+    frame:
+      x: 786.44
+      y: 221.97
+      width: 347.13
+      height: 88.19
+    body:
+      paragraphs:
+        - runs:
+            - text: THE TIME IS NOW
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#C84B31"
+              letterSpacingPt: 2.88
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: COMMIT
+    frame:
+      x: 479.305
+      y: 286.75
+      width: 961.38
+      height: 195.84
+    body:
+      paragraphs:
+        - runs:
+            - text: COMMIT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 115.2
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -4.608
+          align: center
+          lineHeight: 0.85
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text5
+    type: text
+    name: TODAY
+    frame:
+      x: 569.535
+      y: 482.59
+      width: 780.93
+      height: 195.84
+    body:
+      paragraphs:
+        - runs:
+            - text: TODAY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 115.2
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -4.608
+          align: center
+          lineHeight: 0.85
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 933.35
+      y: 752.83
+      width: 456.5
+      height: 86.38
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.2
+  - id: shape6
+    type: shape
+    frame:
+      x: 923.75
+      y: 743.23
+      width: 456.5
+      height: 86.38
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#141414"
+  - id: text6
+    type: text
+    name: START PROTOCOL
+    frame:
+      x: 923.725
+      y: 743.23
+      width: 456.55
+      height: 88.38
+    body:
+      paragraphs:
+        - runs:
+            - text: START PROTOCOL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.44
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: text7
+    type: text
+    name: EXAMPLE COMPANY, INC.
+    frame:
+      x: 115.19
+      y: 939.27
+      width: 252.12
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#141414"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: CONFIDENTIAL 2026
+    frame:
+      x: 115.19
+      y: 970.58
+      width: 237.85
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+    rotationDeg: 0.02
+  - id: text9
+    type: text
+    name: CONTACT
+    frame:
+      x: 1470.62
+      y: 921.63
+      width: 217.64
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CONTACT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#141414"
+              letterSpacingPt: 0.96
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: push@acme.co
+    frame:
+      x: 1470.62
+      y: 950.42
+      width: 217.64
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: push@acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.288
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: "04"
+    frame:
+      x: 1765.05
+      y: 936.02
+      width: 39.82
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 800
+              color:
+                kind: rgb
+                value: "#141414"
+          lineHeight: 1.5
+      overflow: visible

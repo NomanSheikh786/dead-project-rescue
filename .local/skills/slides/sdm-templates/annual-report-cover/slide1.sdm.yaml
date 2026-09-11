@@ -1,0 +1,164 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FDFDFD"
+elements:
+  - id: text1
+    type: text
+    name: "2026"
+    frame:
+      x: 973.42
+      y: 739.19
+      width: 1172.02
+      height: 384
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 240
+              weight: 700
+              color:
+                kind: rgb
+                value: "#ECECEC"
+              letterSpacingPt: -12
+          lineHeight: 0.8
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 142.55
+      width: 1689.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0E0E0"
+  - id: text2
+    type: text
+    name: ACME.CO
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 126.36
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 1569.86
+      y: 67.67
+      width: 235
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Example Deck
+    frame:
+      x: 115.19
+      y: 273.14
+      width: 1248.05
+      height: 141.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Inter
+              sizePt: 67.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: -2.016
+          lineHeight: 1.05
+      overflow: visible
+  - id: text5
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 115.19
+      y: 468.27
+      width: 960.05
+      height: 107.53
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.4
+      overflow: visible
+  - id: text6
+    type: text
+    name: CONFIDENTIAL INFORMATION
+    frame:
+      x: 115.19
+      y: 986.41
+      width: 1689.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL INFORMATION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#888888"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible

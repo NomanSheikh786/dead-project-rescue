@@ -1,0 +1,189 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: pottery-studio
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 1344
+      y: 0
+      width: 576
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5F0E8"
+      opacity: 0.92
+  - id: shape2
+    type: shape
+    frame:
+      x: 1401.59
+      y: 64.8
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B87A5E"
+      widthPt: 0.5
+    opacity: 0.8
+  - id: text1
+    type: text
+    name: HANDMADE
+    frame:
+      x: 1478.38
+      y: 82.08
+      width: 126.64
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: HANDMADE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#B87A5E"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Example Deck
+    frame:
+      x: 1401.59
+      y: 444.81
+      width: 460.86
+      height: 190.09
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2A2520"
+              letterSpacingPt: -0.864
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 1401.59
+      y: 667.3
+      width: 517.82
+      height: 73.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2A2520"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.7
+  - id: shape3
+    type: shape
+    frame:
+      x: 1401.59
+      y: 648
+      width: 460.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87A5E"
+    opacity: 0.4
+  - id: text4
+    type: text
+    name: EST. 2026
+    frame:
+      x: 1401.59
+      y: 955.45
+      width: 460.86
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EST. 2026
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B87A5E"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: acme.co
+    frame:
+      x: 1401.59
+      y: 992.17
+      width: 460.86
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2A2520"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+assets:
+  pottery-studio:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/pottery-studio.png

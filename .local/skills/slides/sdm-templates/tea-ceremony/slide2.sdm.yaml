@@ -1,0 +1,407 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F0E6"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 135
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.4
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 104.22
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 200
+              color:
+                kind: rgb
+                value: "#3B2F20"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: 一期一会
+    frame:
+      x: 1691.6
+      y: 193.83
+      width: 101.66
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: 一期一会
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 200
+              color:
+                kind: rgb
+                value: "#3B2F20"
+              letterSpacingPt: 2.7
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 90
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: The Art of Subtlety
+    frame:
+      x: 153.59
+      y: 270
+      width: 1612.85
+      height: 95.05
+    body:
+      paragraphs:
+        - runs:
+            - text: The Art of Subtlety
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#3B2F20"
+              letterSpacingPt: -0.432
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 153.59
+      y: 473.03
+      width: 486.39
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3B2F20"
+      opacity: 0.2
+  - id: text4
+    type: text
+    name: "01"
+    frame:
+      x: 153.59
+      y: 529.42
+      width: 26.94
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "01"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 200
+              color:
+                kind: rgb
+                value: "#3B2F20"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text5
+    type: text
+    name: Preparation
+    frame:
+      x: 435.36
+      y: 506.42
+      width: 242.68
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: Preparation
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#3B2F20"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Before the journey begin...
+    frame:
+      x: 153.59
+      y: 596.42
+      width: 546.57
+      height: 67.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Before the journey begins, the mind must clear. Every tool has its place, every breath a purpose.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 200
+              color:
+                kind: rgb
+                value: "#3B2F20"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+  - id: shape3
+    type: shape
+    frame:
+      x: 716.78
+      y: 473.03
+      width: 486.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3B2F20"
+      opacity: 0.2
+  - id: text7
+    type: text
+    name: "02"
+    frame:
+      x: 716.78
+      y: 529.42
+      width: 26.49
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 200
+              color:
+                kind: rgb
+                value: "#3B2F20"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text8
+    type: text
+    name: The Process
+    frame:
+      x: 995.8
+      y: 506.42
+      width: 247.06
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: The Process
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#3B2F20"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Deliberate actions witho...
+    frame:
+      x: 716.78
+      y: 596.42
+      width: 515
+      height: 105
+    body:
+      paragraphs:
+        - runs:
+            - text: Deliberate actions without rush. The water pours, the leaves bloom, time slows to the present.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 200
+              color:
+                kind: rgb
+                value: "#3B2F20"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+    rotationDeg: 0.02
+  - id: shape4
+    type: shape
+    frame:
+      x: 1279.98
+      y: 473.03
+      width: 486.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3B2F20"
+      opacity: 0.2
+  - id: text10
+    type: text
+    name: "03"
+    frame:
+      x: 1279.98
+      y: 529.42
+      width: 27.03
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 200
+              color:
+                kind: rgb
+                value: "#3B2F20"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text11
+    type: text
+    name: Reflection
+    frame:
+      x: 1591.75
+      y: 506.42
+      width: 209.69
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: Reflection
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#3B2F20"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: What remains is the esse...
+    frame:
+      x: 1279.98
+      y: 596.42
+      width: 515.65
+      height: 67.59
+    body:
+      paragraphs:
+        - runs:
+            - text: What remains is the essence. A moment shared, never to be repeated, fading gently.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 200
+              color:
+                kind: rgb
+                value: "#3B2F20"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+  - id: text13
+    type: text
+    name: "2026"
+    frame:
+      x: 153.59
+      y: 964.81
+      width: 56.36
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 200
+              color:
+                kind: rgb
+                value: "#3B2F20"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text14
+    type: text
+    name: "02"
+    frame:
+      x: 1741.05
+      y: 964.81
+      width: 29.41
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 200
+              color:
+                kind: rgb
+                value: "#3B2F20"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8

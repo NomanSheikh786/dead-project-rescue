@@ -1,0 +1,478 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1152
+      y: -162
+      width: 864
+      height: 864
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F4E8C1"
+  - id: shape2
+    type: shape
+    frame:
+      x: -192
+      y: 516
+      width: 672
+      height: 672
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#AED9E0"
+  - id: shape3
+    type: shape
+    frame:
+      x: 1055.8
+      y: 215.9
+      width: 154
+      height: 461
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 76.8
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFBCA6"
+    rotationDeg: 15
+  - id: shape4
+    type: shape
+    frame:
+      x: 1305.61
+      y: 579.61
+      width: 230.39
+      height: 230.39
+    geometry:
+      kind: path
+      viewBox:
+        width: 230.39
+        height: 230.39
+      path: M 0 230.39 L 0 115.2 A 115.2 115.2 0 0 1 115.2 0 L 115.19 0 A 115.2 115.2 0 0 1 230.39 115.2 L 230.39 230.39 Z
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C8B6FF"
+  - id: shape5
+    type: shape
+    frame:
+      x: 1689.61
+      y: 432
+      width: 76.8
+      height: 76.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#AED9E0"
+  - id: shape6
+    type: shape
+    frame:
+      x: 864
+      y: 879.61
+      width: 192
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 78.69
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#2D3748"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape7
+    type: shape
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 1612.8
+      height: 907.19
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 38.4
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.4
+  - id: shape8
+    type: shape
+    frame:
+      x: 230.39
+      y: 129.58
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 15.36
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2D3748"
+  - id: text1
+    type: text
+    name: a
+    frame:
+      x: 230.365
+      y: 129.58
+      width: 57.64
+      height: 57.59
+    body:
+      paragraphs:
+        - runs:
+            - text: a
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text2
+    type: text
+    name: acme.co
+    frame:
+      x: 307.17
+      y: 136.78
+      width: 118.24
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2D3748"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 1522.08
+      y: 135.34
+      width: 167.52
+      height: 46.05
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 23.03
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C8B6FF"
+  - id: text3
+    type: text
+    name: Get Started
+    frame:
+      x: 1522.08
+      y: 135.34
+      width: 170.87
+      height: 76.05
+    body:
+      paragraphs:
+        - runs:
+            - text: Get Started
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2D3748"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 4.32
+        right: 14.4
+        bottom: 4.32
+        left: 14.4
+  - id: shape10
+    type: shape
+    frame:
+      x: 786.83
+      y: 235.86
+      width: 346.33
+      height: 45.34
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 22.67
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2D3748"
+  - id: text4
+    type: text
+    name: JOIN THE REVOLUTION
+    frame:
+      x: 782.47
+      y: 235.86
+      width: 355.05
+      height: 81.34
+    body:
+      paragraphs:
+        - runs:
+            - text: JOIN THE REVOLUTION
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 14.4
+        bottom: 2.7
+        left: 14.4
+  - id: text5
+    type: text
+    name: Ready to build something...
+    frame:
+      x: 383.955
+      y: 313.59
+      width: 1152.05
+      height: 255.44
+    body:
+      paragraphs:
+        - runs:
+            - text: Ready to build something great?
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 57.6
+              weight: 800
+              color:
+                kind: rgb
+                value: "#1A202C"
+              letterSpacingPt: -0.96
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text6
+    type: text
+    name: Start your journey with ...
+    frame:
+      x: 451.15
+      y: 588.63
+      width: 1017.65
+      height: 107.53
+    body:
+      paragraphs:
+        - runs:
+            - text: Start your journey with us today and transform the way you interact with digital experiences.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A5568"
+          align: center
+          lineHeight: 1.4
+      overflow: visible
+  - id: shape11
+    type: shape
+    frame:
+      x: 603.75
+      y: 750.16
+      width: 323.38
+      height: 92.38
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 46.19
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFBCA6"
+  - id: text7
+    type: text
+    name: Sign Up Now
+    frame:
+      x: 601.18
+      y: 750.16
+      width: 328.53
+      height: 92.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Sign Up Now
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A202C"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: shape12
+    type: shape
+    frame:
+      x: 965.52
+      y: 750.16
+      width: 350.7
+      height: 92.38
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 46.19
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2D3748"
+      widthPt: 1.5
+  - id: text8
+    type: text
+    name: Contact Sales
+    frame:
+      x: 954.97
+      y: 750.16
+      width: 371.8
+      height: 92.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Contact Sales
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2D3748"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: shape13
+    type: shape
+    frame:
+      x: 230.39
+      y: 891.23
+      width: 1459.2
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2D3748"
+      opacity: 0.1
+  - id: text9
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 230.39
+      y: 915.83
+      width: 257.07
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#718096"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: "04"
+    frame:
+      x: 1658.27
+      y: 915.83
+      width: 31.38
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2D3748"
+          lineHeight: 1.5
+      overflow: visible

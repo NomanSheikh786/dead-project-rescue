@@ -1,0 +1,425 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#080C08"
+elements:
+  - id: text1
+    type: text
+    name: ⬡
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 18.02
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: ⬡
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#5A8A5A"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: BIODOME
+    frame:
+      x: 142.75
+      y: 64.8
+      width: 106.72
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: BIODOME
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#5A8A5A"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: SECTOR 7
+    frame:
+      x: 272.17
+      y: 66.23
+      width: 94.49
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: SECTOR 7
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text4
+    type: text
+    name: Cultivating the
+    frame:
+      x: 115.19
+      y: 337.81
+      width: 768.07
+      height: 190.09
+    body:
+      paragraphs:
+        - runs:
+            - text: Cultivating the
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+              letterSpacingPt: -0.96
+          lineHeight: 1.1
+        - runs:
+            - text: Next Generation
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+              letterSpacingPt: -0.96
+          lineHeight: 1.1
+      overflow: visible
+  - id: text5
+    type: text
+    name: Our closed-loop systems ...
+    frame:
+      x: 115.19
+      y: 571.09
+      width: 692.21
+      height: 260
+    body:
+      paragraphs:
+        - runs:
+            - text: Our closed-loop systems represent a fundamental shift in agricultural paradigms. By maintaining absolute control over environmental variables, we eliminate external dependencies and ensure predictable, high-yield growth cycles regardless of seasonal fluctuations.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.7
+  - id: text6
+    type: text
+    name: "01"
+    frame:
+      x: 1036.8
+      y: 310.31
+      width: 31.69
+      height: 131.77
+    body:
+      paragraphs:
+        - runs:
+            - text: "01"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5A8A5A"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 0
+        bottom: 0
+        left: 0
+  - id: text7
+    type: text
+    name: Climate Control
+    frame:
+      x: 1102.83
+      y: 310.31
+      width: 702.03
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Climate Control
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 17.28
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Automated regulation of ...
+    frame:
+      x: 1102.83
+      y: 372.95
+      width: 702.03
+      height: 69.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Automated regulation of temperature, humidity, and atmospheric composition.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text9
+    type: text
+    name: "02"
+    frame:
+      x: 1036.8
+      y: 496.08
+      width: 31.69
+      height: 131.77
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5A8A5A"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 0
+        bottom: 0
+        left: 0
+  - id: text10
+    type: text
+    name: Nutrient Delivery
+    frame:
+      x: 1102.83
+      y: 496.08
+      width: 702.03
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Nutrient Delivery
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 17.28
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Precision hydroponics re...
+    frame:
+      x: 1102.83
+      y: 558.72
+      width: 702.03
+      height: 69.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Precision hydroponics reducing water consumption by up to ninety percent.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text12
+    type: text
+    name: "03"
+    frame:
+      x: 1036.8
+      y: 681.84
+      width: 31.69
+      height: 131.77
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5A8A5A"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 0
+        bottom: 0
+        left: 0
+  - id: text13
+    type: text
+    name: Energy Harvesting
+    frame:
+      x: 1102.83
+      y: 681.84
+      width: 702.03
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Energy Harvesting
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 17.28
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: Solar-integrated geodesi...
+    frame:
+      x: 1102.83
+      y: 744.48
+      width: 702.03
+      height: 69.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Solar-integrated geodesic structures that power internal LED arrays.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text15
+    type: text
+    name: Sustainable Futures
+    frame:
+      x: 115.19
+      y: 946.81
+      width: 330
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Sustainable Futures
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5A8A5A"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 986.41
+      width: 218.8
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text17
+    type: text
+    name: "02"
+    frame:
+      x: 1781.78
+      y: 986.41
+      width: 27.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5

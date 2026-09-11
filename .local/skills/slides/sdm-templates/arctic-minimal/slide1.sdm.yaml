@@ -1,0 +1,193 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F0F4F8"
+elements:
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 905.48
+      y: 86.39
+      width: 109.03
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#94A3B8"
+              letterSpacingPt: 2.304
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 940.8
+      y: 333.81
+      width: 38.39
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3B82F6"
+  - id: text2
+    type: text
+    name: PRESENTATION TITLE
+    frame:
+      x: 583.385
+      y: 399.61
+      width: 753.24
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: PRESENTATION TITLE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#94A3B8"
+              letterSpacingPt: 1.728
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Example Deck
+    frame:
+      x: 583.385
+      y: 457.92
+      width: 753.24
+      height: 128.72
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#334155"
+              letterSpacingPt: -1.728
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 527.975
+      y: 649.44
+      width: 864.05
+      height: 98.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 200
+              color:
+                kind: rgb
+                value: "#64748B"
+          align: center
+          lineHeight: 1.8
+      overflow: visible
+  - id: text5
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 703.16
+      y: 970.58
+      width: 212.34
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#94A3B8"
+              letterSpacingPt: 0.768
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: "2026"
+    frame:
+      x: 983.73
+      y: 970.58
+      width: 48.78
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#94A3B8"
+              letterSpacingPt: 0.768
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Confidential
+    frame:
+      x: 1099.76
+      y: 970.58
+      width: 118.07
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#94A3B8"
+              letterSpacingPt: 0.768
+          align: center
+          lineHeight: 1.5
+      overflow: visible

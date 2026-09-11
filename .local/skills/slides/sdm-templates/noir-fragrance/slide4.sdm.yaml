@@ -1,0 +1,190 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#000000"
+elements:
+  - id: text1
+    type: text
+    name: E X P E R I E N C E
+    frame:
+      x: 821.09
+      y: 314.06
+      width: 312.19
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: E X P E R I E N C E
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+              letterSpacingPt: 3.84
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Discover the signature
+    frame:
+      x: 476.68
+      y: 380.28
+      width: 966.65
+      height: 213
+    body:
+      paragraphs:
+        - runs:
+            - text: Discover the signature
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C4A0"
+              italic: true
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 921.59
+      y: 529.06
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4C4A0"
+    opacity: 0.6
+  - id: text3
+    type: text
+    name: Reach out to arrange a p...
+    frame:
+      x: 575.975
+      y: 573.25
+      width: 768.05
+      height: 67.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Reach out to arrange a private viewing of our latest collection or to discuss bespoke collaborative opportunities.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape2
+    type: shape
+    frame:
+      x: 799.44
+      y: 705.64
+      width: 321.11
+      height: 60.3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4C4A0"
+      widthPt: 0.5
+      opacity: 0.4
+  - id: text4
+    type: text
+    name: CONTACT@ACME.CO
+    frame:
+      x: 799.44
+      y: 705.64
+      width: 321.16
+      height: 60.3
+    body:
+      paragraphs:
+        - runs:
+            - text: CONTACT@ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#D4C4A0"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+  - id: text5
+    type: text
+    name: ACME.CO
+    frame:
+      x: 153.59
+      y: 995.05
+      width: 85.41
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 300
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+              letterSpacingPt: 1.344
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: "04"
+    frame:
+      x: 1744.19
+      y: 992.17
+      width: 25.27
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#D4C4A0"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible

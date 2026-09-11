@@ -1,0 +1,330 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#080808"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: sneaker-float
+    altText: Floating Sneaker
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#080808"
+          opacity: 0.92
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#080808"
+          opacity: 0.85
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#080808"
+          opacity: 0.92
+  - id: shape2
+    type: shape
+    frame:
+      x: 833.36
+      y: 218
+      width: 253.27
+      height: 39.41
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.7
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#7AB87A"
+      widthPt: 0.5
+  - id: text1
+    type: text
+    name: JOIN THE MOVEMENT
+    frame:
+      x: 825.74
+      y: 218
+      width: 268.52
+      height: 39.41
+    body:
+      paragraphs:
+        - runs:
+            - text: JOIN THE MOVEMENT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.16
+              weight: 700
+              color:
+                kind: rgb
+                value: "#7AB87A"
+              letterSpacingPt: 0.816
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 3.24
+        right: 11.52
+        bottom: 3.24
+        left: 11.52
+  - id: text2
+    type: text
+    name: SECURE
+    frame:
+      x: 541.71
+      y: 322.2
+      width: 836.57
+      height: 278.47
+    body:
+      paragraphs:
+        - runs:
+            - text: SECURE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 76.8
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -2.304
+          align: center
+          lineHeight: 0.9
+        - runs:
+            - text: YOUR DROP
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 76.8
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -2.304
+          align: center
+          lineHeight: 0.9
+      overflow: visible
+  - id: text3
+    type: text
+    name: Early access opens next ...
+    frame:
+      x: 575.975
+      y: 631.06
+      width: 768.05
+      height: 88.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Early access opens next week. Register now to guarantee your spot in the queue.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+    rotationDeg: 0.02
+  - id: shape3
+    type: shape
+    frame:
+      x: 599.06
+      y: 782.23
+      width: 333.25
+      height: 79.75
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7AB87A"
+  - id: text4
+    type: text
+    name: REGISTER NOW
+    frame:
+      x: 589.04
+      y: 782.23
+      width: 353.3
+      height: 79.75
+    body:
+      paragraphs:
+        - runs:
+            - text: REGISTER NOW
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#080808"
+              letterSpacingPt: 0.576
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: shape4
+    type: shape
+    frame:
+      x: 970.7
+      y: 782.23
+      width: 350.22
+      height: 79.75
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.3
+  - id: text5
+    type: text
+    name: VIEW LOOKBOOK
+    frame:
+      x: 960.17
+      y: 782.23
+      width: 371.29
+      height: 79.75
+    body:
+      paragraphs:
+        - runs:
+            - text: VIEW LOOKBOOK
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.576
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: text6
+    type: text
+    name: acme.co
+    frame:
+      x: 115.165
+      y: 933.13
+      width: 94.1
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.528
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text7
+    type: text
+    name: "STYLE: EX-2026"
+    frame:
+      x: 907.49
+      y: 936
+      width: 169.47
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "STYLE: EX-2026"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#7AB87A"
+              letterSpacingPt: 0.528
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text8
+    type: text
+    name: "04"
+    frame:
+      x: 1774.2
+      y: 933.13
+      width: 31.64
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.528
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+assets:
+  sneaker-float:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/sneaker-float.png

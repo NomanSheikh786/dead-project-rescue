@@ -1,0 +1,348 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 378
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1C2541"
+  - id: text1
+    type: text
+    name: EXAMPLE COMPANY, INC.
+    frame:
+      x: 153.59
+      y: 64.8
+      width: 301.56
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text2
+    type: text
+    name: acme.co
+    frame:
+      x: 1674.19
+      y: 64.8
+      width: 92.27
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: Example Deck
+    frame:
+      x: 153.59
+      y: 218.16
+      width: 1612.86
+      height: 95.05
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Inter
+              sizePt: 43.2
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.864
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 153.59
+      y: 464.39
+      width: 1152.05
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 153.59
+      y: 780.98
+      width: 960
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0E0E0"
+  - id: text5
+    type: text
+    name: "PREPARED FOR:"
+    frame:
+      x: 153.59
+      y: 825.17
+      width: 403.25
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "PREPARED FOR:"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Internal Review Committe...
+    frame:
+      x: 153.59
+      y: 859
+      width: 403.25
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Internal Review Committee
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: "DATE:"
+    frame:
+      x: 710.39
+      y: 825.17
+      width: 403.25
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "DATE:"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Q4 2026
+    frame:
+      x: 710.39
+      y: 859
+      width: 403.25
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q4 2026
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: "CLASSIFICATION:"
+    frame:
+      x: 153.59
+      y: 930.98
+      width: 403.25
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "CLASSIFICATION:"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 153.59
+      y: 964.81
+      width: 403.25
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1C2541"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: "REFERENCE:"
+    frame:
+      x: 710.39
+      y: 930.98
+      width: 403.25
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "REFERENCE:"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: POL-2026-001
+    frame:
+      x: 710.39
+      y: 964.81
+      width: 403.25
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: POL-2026-001
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 1612.81
+      y: 301.2
+      width: 153.59
+      height: 153.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#1C2541"
+      widthPt: 1.5
+  - id: shape4
+    type: shape
+    frame:
+      x: 1627.2
+      y: 315.59
+      width: 124.8
+      height: 124.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#1C2541"
+      widthPt: 0.5
+    opacity: 0.5

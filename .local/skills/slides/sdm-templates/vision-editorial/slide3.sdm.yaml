@@ -1,0 +1,340 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0A0A"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 97.36
+      width: 38.39
+      height: 1.08
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A0A0"
+  - id: text1
+    type: text
+    name: BY THE NUMBERS
+    frame:
+      x: 172.77
+      y: 86.39
+      width: 199.6
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: BY THE NUMBERS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#C4A0A0"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: The Impact of Design
+    frame:
+      x: 638.59
+      y: 344.77
+      width: 642.82
+      height: 149
+    body:
+      paragraphs:
+        - runs:
+            - text: The Impact of Design
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 33.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: 85%
+    frame:
+      x: 421.59
+      y: 505.08
+      width: 253.66
+      height: 134.41
+    body:
+      paragraphs:
+        - runs:
+            - text: "85"
+              sizePt: 67.2
+            - text: "%"
+              sizePt: 38.4
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            weight: 400
+            color:
+              kind: rgb
+              value: "#C4A0A0"
+            italic: true
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 480
+      y: 661.08
+      width: 76.8
+      height: 1.08
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.3
+  - id: text4
+    type: text
+    name: Increase in brand recall...
+    frame:
+      x: 356.58
+      y: 683.75
+      width: 323.65
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Increase in brand recall through consistent visual language
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text5
+    type: text
+    name: 2.4x
+    frame:
+      x: 855
+      y: 505.08
+      width: 268.05
+      height: 134.41
+    body:
+      paragraphs:
+        - runs:
+            - text: "2.4"
+              sizePt: 67.2
+            - text: x
+              sizePt: 38.4
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            weight: 400
+            color:
+              kind: rgb
+              value: "#C4A0A0"
+            italic: true
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 921.59
+      y: 661.08
+      width: 76.8
+      height: 1.08
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.3
+  - id: text6
+    type: text
+    name: Higher engagement rates ...
+    frame:
+      x: 815.975
+      y: 683.75
+      width: 288.05
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Higher engagement rates on editorial-style content
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text7
+    type: text
+    name: 12m
+    frame:
+      x: 1313.73
+      y: 505.08
+      width: 224.75
+      height: 134.41
+    body:
+      paragraphs:
+        - runs:
+            - text: "12"
+              sizePt: 67.2
+            - text: m
+              sizePt: 38.4
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            weight: 400
+            color:
+              kind: rgb
+              value: "#C4A0A0"
+            italic: true
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1363.19
+      y: 661.08
+      width: 76.8
+      height: 1.08
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.3
+  - id: text8
+    type: text
+    name: Global audience reached ...
+    frame:
+      x: 1257.565
+      y: 683.75
+      width: 288.05
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Global audience reached in the past quarter alone
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text9
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 933.5
+      width: 130.28
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Beauty & Culture
+    frame:
+      x: 115.19
+      y: 967.69
+      width: 135.92
+      height: 53
+    body:
+      paragraphs:
+        - runs:
+            - text: Beauty & Culture
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A0A0"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: "03"
+    frame:
+      x: 1784.95
+      y: 964.81
+      width: 26.91
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A0A0"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible

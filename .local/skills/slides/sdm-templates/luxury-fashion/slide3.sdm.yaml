@@ -1,0 +1,664 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#111111"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 57.59
+      y: 32.39
+      width: 1804.81
+      height: 1015.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.1
+  - id: text1
+    type: text
+    name: COLLECTION STATS
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 503.61
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: COLLECTION STATS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 3.072
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: text2
+    type: text
+    name: Performance
+    frame:
+      x: 153.59
+      y: 120.22
+      width: 533.83
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Performance
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+              letterSpacingPt: 0.768
+          lineHeight: 1
+      overflow: visible
+  - id: text3
+    type: text
+    name: "03"
+    frame:
+      x: 1738
+      y: 173.98
+      width: 31.46
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: shape2
+    type: shape
+    frame:
+      x: 153.59
+      y: 283.41
+      width: 57.59
+      height: 0.5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.3
+  - id: text4
+    type: text
+    name: 42%
+    frame:
+      x: 153.59
+      y: 316.3
+      width: 690.77
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: 42%
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+          lineHeight: 0.9
+      overflow: visible
+  - id: text5
+    type: text
+    name: GROWTH YEAR OVER YEAR
+    frame:
+      x: 153.59
+      y: 413.48
+      width: 690.77
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: GROWTH YEAR OVER YEAR
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text6
+    type: text
+    name: Unprecedented expansion ...
+    frame:
+      x: 153.59
+      y: 471.8
+      width: 552.61
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Unprecedented expansion across major metropolitan centers, driven by bespoke capsule collections and exclusive VIP access tiers.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.8
+      overflow: visible
+    opacity: 0.4
+  - id: shape3
+    type: shape
+    frame:
+      x: 153.59
+      y: 705.61
+      width: 57.59
+      height: 0.5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.3
+  - id: text7
+    type: text
+    name: 1.2M
+    frame:
+      x: 153.59
+      y: 738.5
+      width: 690.77
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: 1.2M
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+          lineHeight: 0.9
+      overflow: visible
+  - id: text8
+    type: text
+    name: ACTIVE GLOBAL CLIENTELE
+    frame:
+      x: 153.59
+      y: 835.69
+      width: 690.77
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: ACTIVE GLOBAL CLIENTELE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: shape4
+    type: shape
+    frame:
+      x: 959.5
+      y: 283.41
+      width: 1
+      height: 610.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text9
+    type: text
+    name: '"Redefining the boundari...'
+    frame:
+      x: 1075.69
+      y: 283.41
+      width: 690.77
+      height: 69.13
+    body:
+      paragraphs:
+        - runs:
+            - text: '"Redefining the boundaries of modern elegance through uncompromising quality."'
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text10
+    type: text
+    name: PARIS
+    frame:
+      x: 1075.69
+      y: 395.72
+      width: 55.88
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: PARIS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text11
+    type: text
+    name: + 24%
+    frame:
+      x: 1710.11
+      y: 395.72
+      width: 59.73
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: + 24%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 1075.69
+      y: 429.55
+      width: 690.72
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: shape6
+    type: shape
+    frame:
+      x: 1075.69
+      y: 429.55
+      width: 552.56
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text12
+    type: text
+    name: MILAN
+    frame:
+      x: 1075.69
+      y: 462.94
+      width: 60
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: MILAN
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text13
+    type: text
+    name: + 18%
+    frame:
+      x: 1713.41
+      y: 462.94
+      width: 59.6
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: + 18%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 1075.69
+      y: 496.77
+      width: 690.72
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: shape8
+    type: shape
+    frame:
+      x: 1075.69
+      y: 496.77
+      width: 448.95
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text14
+    type: text
+    name: TOKYO
+    frame:
+      x: 1075.69
+      y: 530.16
+      width: 60.91
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: TOKYO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text15
+    type: text
+    name: + 31%
+    frame:
+      x: 1713.42
+      y: 530.16
+      width: 59.58
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: + 31%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 1075.69
+      y: 563.98
+      width: 690.72
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: shape10
+    type: shape
+    frame:
+      x: 1075.69
+      y: 563.98
+      width: 656.17
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text16
+    type: text
+    name: NEW YORK
+    frame:
+      x: 1075.69
+      y: 597.38
+      width: 100.13
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: NEW YORK
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text17
+    type: text
+    name: + 12%
+    frame:
+      x: 1713.55
+      y: 597.38
+      width: 59.44
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: + 12%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape11
+    type: shape
+    frame:
+      x: 1075.69
+      y: 631.2
+      width: 690.72
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: shape12
+    type: shape
+    frame:
+      x: 1075.69
+      y: 631.2
+      width: 310.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: shape13
+    type: shape
+    frame:
+      x: 153.59
+      y: 937.19
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text18
+    type: text
+    name: ACME.CO
+    frame:
+      x: 153.59
+      y: 970.58
+      width: 109.64
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: text19
+    type: text
+    name: Confidential
+    frame:
+      x: 1680.81
+      y: 970.58
+      width: 98.64
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4

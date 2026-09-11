@@ -1,0 +1,533 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: text1
+    type: text
+    name: "03"
+    frame:
+      x: 1528.34
+      y: 150
+      width: 307.52
+      height: 230.41
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 115.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E5E5E5"
+          lineHeight: 1
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text2
+    type: text
+    name: "[acme.co]"
+    frame:
+      x: 115.19
+      y: 99.19
+      width: 134.8
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "[acme.co]"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: "DATE: 2026"
+    frame:
+      x: 1689.69
+      y: 99.19
+      width: 115.18
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "DATE: 2026"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: METRICS // PERFORMANCE
+    frame:
+      x: 115.19
+      y: 220.14
+      width: 1689.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: METRICS // PERFORMANCE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Q3 GROWTH DATA
+    frame:
+      x: 115.19
+      y: 270.53
+      width: 1689.68
+      height: 95.05
+    body:
+      paragraphs:
+        - runs:
+            - text: Q3 GROWTH DATA
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 43.2
+              weight: 500
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: -0.864
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 451.97
+      width: 4
+      height: 135.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text6
+    type: text
+    name: ACTIVE USERS (YOY)
+    frame:
+      x: 157.58
+      y: 451.97
+      width: 633.5
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ACTIVE USERS (YOY)
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: +245%
+    frame:
+      x: 157.58
+      y: 491.56
+      width: 633.5
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: +245%
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 48
+              weight: 500
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 115.19
+      y: 641.56
+      width: 4
+      height: 135.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text8
+    type: text
+    name: SYSTEM LATENCY
+    frame:
+      x: 157.58
+      y: 641.56
+      width: 633.5
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: SYSTEM LATENCY
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: 14ms
+    frame:
+      x: 157.58
+      y: 681.16
+      width: 633.5
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: 14ms
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 48
+              weight: 500
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 960
+      y: 501.84
+      width: 844.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+    opacity: 0.3
+  - id: shape4
+    type: shape
+    frame:
+      x: 960
+      y: 738.44
+      width: 844.81
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape7
+    type: shape
+    frame:
+      x: 999.48
+      y: 648.44
+      width: 90
+      height: 90
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+    opacity: 0.35
+  - id: shape8
+    type: shape
+    frame:
+      x: 1168.43
+      y: 618.44
+      width: 90
+      height: 120
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+    opacity: 0.5
+  - id: shape9
+    type: shape
+    frame:
+      x: 1337.39
+      y: 593.44
+      width: 90
+      height: 145
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+    opacity: 0.65
+  - id: shape10
+    type: shape
+    frame:
+      x: 1506.36
+      y: 566.44
+      width: 90
+      height: 172
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+    opacity: 0.8
+  - id: shape11
+    type: shape
+    frame:
+      x: 1675.32
+      y: 538.44
+      width: 90
+      height: 200
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text10
+    type: text
+    name: MAY
+    frame:
+      x: 959.975
+      y: 751.23
+      width: 169
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: MAY
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: JUN
+    frame:
+      x: 1128.925
+      y: 751.23
+      width: 169.02
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: JUN
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: JUL
+    frame:
+      x: 1297.895
+      y: 751.23
+      width: 169
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: JUL
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: AUG
+    frame:
+      x: 1466.855
+      y: 751.23
+      width: 169.02
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: AUG
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: SEP
+    frame:
+      x: 1635.815
+      y: 751.23
+      width: 169.02
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: SEP
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: "COMPANY: Example Company..."
+    frame:
+      x: 115.19
+      y: 928.97
+      width: 336.75
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: "COMPANY: Example Company, Inc."
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+        - runs:
+            - text: "STATUS: Confidential"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 1689.63
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape6
+    type: shape
+    frame:
+      x: 115.19
+      y: 1013.2
+      width: 1689.63
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"

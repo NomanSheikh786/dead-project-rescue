@@ -1,0 +1,144 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0A0A"
+elements:
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 96
+      y: 54
+      width: 125.18
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.72
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1753.53
+      y: 54
+      width: 77.52
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Example Deck
+    frame:
+      x: 428.05
+      y: 544.33
+      width: 1063.91
+      height: 347
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 86.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+              letterSpacingPt: -1.728
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 383.975
+      y: 760.31
+      width: 1152.05
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 300
+              color:
+                kind: rgb
+                value: "#888888"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 971
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text5
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 726.67
+      y: 1008.02
+      width: 494.71
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible

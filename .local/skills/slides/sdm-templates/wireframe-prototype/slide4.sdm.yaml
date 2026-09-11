@@ -1,0 +1,389 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F9F9F9"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 76.8
+      y: 76.8
+      width: 1766.41
+      height: 926.41
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#333333"
+      widthPt: 1.5
+  - id: shape2
+    type: shape
+    frame:
+      x: 79.8
+      y: 141.6
+      width: 1760.41
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+  - id: shape3
+    type: shape
+    frame:
+      x: 118.19
+      y: 96.3
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#333333"
+      widthPt: 1
+  - id: shape4
+    type: shape
+    frame:
+      x: 166.17
+      y: 96.3
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#333333"
+      widthPt: 1
+  - id: shape5
+    type: shape
+    frame:
+      x: 214.16
+      y: 96.3
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#333333"
+      widthPt: 1
+  - id: text1
+    type: text
+    name: "[ acme.co ]"
+    frame:
+      x: 1659.48
+      y: 93.41
+      width: 146.64
+      height: 71
+    body:
+      paragraphs:
+        - runs:
+            - text: "[ acme.co ]"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#333333"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Ready to Build?
+    frame:
+      x: 570.14
+      y: 327.34
+      width: 779.71
+      height: 255
+    body:
+      paragraphs:
+        - runs:
+            - text: Ready to Build?
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 57.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#333333"
+              underline: true
+              letterSpacingPt: -1.152
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: Join the beta and start ...
+    frame:
+      x: 496.41
+      y: 475.66
+      width: 927.19
+      height: 105
+    body:
+      paragraphs:
+        - runs:
+            - text: Join the beta and start sketching your next big idea today.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape6
+    type: shape
+    frame:
+      x: 576
+      y: 592.3
+      width: 498.06
+      height: 98.16
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FAFAFA"
+    stroke:
+      color:
+        kind: rgb
+        value: "#999999"
+      widthPt: 1.5
+  - id: text4
+    type: text
+    name: Enter your email address...
+    frame:
+      x: 575.975
+      y: 592.3
+      width: 498.11
+      height: 98.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Enter your email address...
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 14.4
+        right: 19.2
+        bottom: 14.4
+        left: 19.2
+  - id: shape7
+    type: shape
+    frame:
+      x: 1093.25
+      y: 592.3
+      width: 250.75
+      height: 98.16
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+    stroke:
+      color:
+        kind: rgb
+        value: "#333333"
+      widthPt: 1.5
+  - id: text5
+    type: text
+    name: Get Started
+    frame:
+      x: 1085.7
+      y: 592.3
+      width: 265.85
+      height: 98.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Get Started
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 14.4
+        right: 28.8
+        bottom: 14.4
+        left: 28.8
+  - id: shape8
+    type: shape
+    frame:
+      x: 829.8
+      y: 762.44
+      width: 260.39
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#999999"
+  - id: text6
+    type: text
+    name: or view our documentatio...
+    frame:
+      x: 825.88
+      y: 733.64
+      width: 268.24
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: or view our documentation →
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 79.8
+      y: 946.2
+      width: 1760.41
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+  - id: text7
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 137.39
+      y: 960.3
+      width: 216.17
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: "2026"
+    frame:
+      x: 1672.42
+      y: 960.3
+      width: 51.99
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: "04"
+    frame:
+      x: 1757.75
+      y: 960.3
+      width: 26.91
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible

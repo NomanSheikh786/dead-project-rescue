@@ -1,0 +1,482 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#D3A052"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: -96
+      y: 216
+      width: 432
+      height: 432
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+      widthPt: 1
+    opacity: 0.2
+  - id: shape2
+    type: shape
+    frame:
+      x: -57.59
+      y: 237.59
+      width: 388.8
+      height: 388.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+      widthPt: 0.5
+      dash: dash
+    opacity: 0.3
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 155.27
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: TRACK 02
+    frame:
+      x: 1640.22
+      y: 86.39
+      width: 133.81
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: TRACK 02
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 714.07
+      y: 172.77
+      width: 4
+      height: 725.27
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text3
+    type: text
+    name: SALES
+    frame:
+      x: 153.59
+      y: 307.34
+      width: 483.74
+      height: 155.53
+    body:
+      paragraphs:
+        - runs:
+            - text: SALES
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 43.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -1.296
+          lineHeight: 0.9
+        - runs:
+            - text: VOLUME
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 43.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -1.296
+          lineHeight: 0.9
+      overflow: visible
+  - id: text4
+    type: text
+    name: Record-breaking growth a...
+    frame:
+      x: 153.59
+      y: 484.47
+      width: 512.76
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Record-breaking growth across all domestic and international territories. The analog resurgence is officially here.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: +145%
+    frame:
+      x: 153.59
+      y: 631.34
+      width: 483.74
+      height: 102.8
+    body:
+      paragraphs:
+        - runs:
+            - text: +145%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 33.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: YEAR OVER YEAR
+    frame:
+      x: 153.59
+      y: 737.53
+      width: 483.74
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: YEAR OVER YEAR
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Q1
+    frame:
+      x: 794.855
+      y: 625.75
+      width: 214.13
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q1
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 794.88
+      y: 665.34
+      width: 214.08
+      height: 211.09
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: shape5
+    type: shape
+    frame:
+      x: 816.28
+      y: 676.14
+      width: 171.27
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D3A052"
+  - id: text8
+    type: text
+    name: Q2
+    frame:
+      x: 1047.315
+      y: 520.2
+      width: 214.14
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q2
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 1047.34
+      y: 559.8
+      width: 214.09
+      height: 316.64
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: shape7
+    type: shape
+    frame:
+      x: 1068.75
+      y: 570.59
+      width: 171.28
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D3A052"
+  - id: text9
+    type: text
+    name: Q3
+    frame:
+      x: 1299.805
+      y: 379.47
+      width: 214.14
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q3
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 1299.83
+      y: 419.06
+      width: 214.09
+      height: 457.38
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: shape9
+    type: shape
+    frame:
+      x: 1321.23
+      y: 429.86
+      width: 171.28
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D3A052"
+  - id: text10
+    type: text
+    name: Q4
+    frame:
+      x: 1552.285
+      y: 238.73
+      width: 214.14
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q4
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape10
+    type: shape
+    frame:
+      x: 1552.31
+      y: 278.33
+      width: 214.09
+      height: 598.11
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: shape11
+    type: shape
+    frame:
+      x: 1573.72
+      y: 289.13
+      width: 171.28
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D3A052"
+  - id: shape12
+    type: shape
+    frame:
+      x: 153.59
+      y: 941.22
+      width: 1612.81
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text11
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 153.59
+      y: 964.81
+      width: 300
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: "03"
+    frame:
+      x: 1741.98
+      y: 964.81
+      width: 27.47
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible

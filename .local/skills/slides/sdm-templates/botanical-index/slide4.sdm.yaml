@@ -1,0 +1,375 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F4F1EA"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 76.8
+      y: 43.19
+      width: 1766.41
+      height: 993.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D1C7B7"
+      widthPt: 1
+  - id: text1
+    type: text
+    name: END OF REPORT
+    frame:
+      x: 136.39
+      y: 99.19
+      width: 154.72
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: END OF REPORT
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7D7461"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: FIG. 4
+    frame:
+      x: 1714.53
+      y: 99.19
+      width: 69.13
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: FIG. 4
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D1C7B7"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Join the
+    frame:
+      x: 608.92
+      y: 182.27
+      width: 702.18
+      height: 295.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Join the
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 67.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3531"
+              letterSpacingPt: -1.344
+          align: center
+          lineHeight: 1.1
+        - runs:
+            - text: Expedition
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 67.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A5D4E"
+              italic: true
+              letterSpacingPt: -1.344
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 902.41
+      y: 531.95
+      width: 115.19
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A5D4E"
+  - id: text4
+    type: text
+    name: We are currently accepti...
+    frame:
+      x: 575.975
+      y: 587.95
+      width: 768.05
+      height: 140.19
+    body:
+      paragraphs:
+        - runs:
+            - text: We are currently accepting new research partners for the upcoming collection season. Reach out to coordinate collaborative efforts.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#5C6661"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 772.83
+      y: 769.33
+      width: 374.34
+      height: 73.98
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F4F1EA"
+    stroke:
+      color:
+        kind: rgb
+        value: "#D1C7B7"
+      widthPt: 0.5
+  - id: text5
+    type: text
+    name: contact@example.com
+    frame:
+      x: 772.805
+      y: 769.33
+      width: 374.39
+      height: 73.98
+    body:
+      paragraphs:
+        - runs:
+            - text: contact@example.com
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3531"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: shape4
+    type: shape
+    frame:
+      x: 136.39
+      y: 926.01
+      width: 169.73
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1C7B7"
+  - id: text6
+    type: text
+    name: HEADQUARTERS
+    frame:
+      x: 136.39
+      y: 897.59
+      width: 169.78
+      height: 29.42
+    body:
+      paragraphs:
+        - runs:
+            - text: HEADQUARTERS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7D7461"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 2.7
+        left: 0
+  - id: text7
+    type: text
+    name: 123 BOTANICAL WAY
+    frame:
+      x: 136.39
+      y: 937.81
+      width: 179.97
+      height: 45
+    body:
+      paragraphs:
+        - runs:
+            - text: 123 BOTANICAL WAY
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3531"
+              letterSpacingPt: 0.384
+          lineHeight: 1.4
+        - runs:
+            - text: SAN FRANCISCO, CA
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3531"
+              letterSpacingPt: 0.384
+          lineHeight: 1.4
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 382.92
+      y: 926.01
+      width: 199.69
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1C7B7"
+  - id: text8
+    type: text
+    name: DIGITAL
+    frame:
+      x: 382.92
+      y: 897.59
+      width: 199.74
+      height: 29.42
+    body:
+      paragraphs:
+        - runs:
+            - text: DIGITAL
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7D7461"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 2.7
+        left: 0
+  - id: text9
+    type: text
+    name: "@EXAMPLE_CO"
+    frame:
+      x: 382.92
+      y: 937.81
+      width: 213.74
+      height: 45
+    body:
+      paragraphs:
+        - runs:
+            - text: "@EXAMPLE_CO"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3531"
+              letterSpacingPt: 0.384
+          lineHeight: 1.4
+        - runs:
+            - text: LINKEDIN.COM/EXAMPLE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3531"
+              letterSpacingPt: 0.384
+          lineHeight: 1.4
+      overflow: visible
+  - id: text10
+    type: text
+    name: Page 04
+    frame:
+      x: 1711.09
+      y: 954.89
+      width: 72.57
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Page 04
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7D7461"
+          lineHeight: 1.5
+      overflow: visible

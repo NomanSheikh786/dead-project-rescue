@@ -1,0 +1,347 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0A14"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: photo-aurora
+    altText: Aurora
+    fit: cover
+    opacity: 0.15
+  - id: text1
+    type: text
+    name: EXPEDITION ROUTES
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 1689.68
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EXPEDITION ROUTES
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape1
+    type: shape
+    frame:
+      x: 307.19
+      y: 293.02
+      width: 1
+      height: 655.97
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: shape2
+    type: shape
+    frame:
+      x: 303.36
+      y: 284.38
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text2
+    type: text
+    name: NORTHERN LIGHTS CHASE
+    frame:
+      x: 383.98
+      y: 271.42
+      width: 1420.88
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: NORTHERN LIGHTS CHASE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 383.98
+      y: 350.63
+      width: 288
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.3
+  - id: text3
+    type: text
+    name: 7 days — Advanced — Octo...
+    frame:
+      x: 383.98
+      y: 373.22
+      width: 1420.88
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 7 days — Advanced — October–March
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: shape4
+    type: shape
+    frame:
+      x: 303.36
+      y: 522.97
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text4
+    type: text
+    name: GLACIER TRAVERSE
+    frame:
+      x: 383.98
+      y: 510.02
+      width: 1420.88
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: GLACIER TRAVERSE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 383.98
+      y: 589.22
+      width: 288
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.3
+  - id: text5
+    type: text
+    name: 5 days — Moderate — June...
+    frame:
+      x: 383.98
+      y: 611.81
+      width: 1420.88
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 5 days — Moderate — June–September
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: shape6
+    type: shape
+    frame:
+      x: 303.36
+      y: 761.56
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text6
+    type: text
+    name: MIDNIGHT SUN TREK
+    frame:
+      x: 383.98
+      y: 748.61
+      width: 1420.88
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: MIDNIGHT SUN TREK
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 383.98
+      y: 827.81
+      width: 288
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.3
+  - id: text7
+    type: text
+    name: 10 days — Beginner — May...
+    frame:
+      x: 383.98
+      y: 850.41
+      width: 1420.88
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 10 days — Beginner — May–July
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text8
+    type: text
+    name: "02"
+    frame:
+      x: 115.19
+      y: 970.58
+      width: 23.5
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text9
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 1509.58
+      y: 970.58
+      width: 331.78
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+assets:
+  photo-aurora:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/photo-aurora.png

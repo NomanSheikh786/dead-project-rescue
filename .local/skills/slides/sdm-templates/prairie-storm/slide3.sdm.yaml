@@ -1,0 +1,412 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#19140F"
+elements:
+  - id: text1
+    type: text
+    name: 02 / MARKET DATA
+    frame:
+      x: 153.59
+      y: 108
+      width: 1612.86
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: 02 / MARKET DATA
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#B5A07A"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Performance Metrics
+    frame:
+      x: 153.59
+      y: 155.52
+      width: 1612.86
+      height: 75.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Performance Metrics
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 33.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+              letterSpacingPt: -0.336
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 863
+      width: 998.42
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B5A07A"
+      opacity: 0.3
+  - id: shape2
+    type: shape
+    frame:
+      x: 153.59
+      y: 648.47
+      width: 220.81
+      height: 164.14
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B5A07A"
+      opacity: 0.3
+  - id: text3
+    type: text
+    name: Q1
+    frame:
+      x: 250.83
+      y: 834.2
+      width: 31.38
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q1
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B5A07A"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 412.8
+      y: 566.39
+      width: 220.81
+      height: 246.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B5A07A"
+      opacity: 0.5
+  - id: text4
+    type: text
+    name: Q2
+    frame:
+      x: 508.09
+      y: 834.2
+      width: 30.27
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q2
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B5A07A"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 672
+      y: 456.95
+      width: 220.81
+      height: 355.66
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B5A07A"
+      opacity: 0.8
+  - id: text5
+    type: text
+    name: Q3
+    frame:
+      x: 767.22
+      y: 834.2
+      width: 30.43
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q3
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B5A07A"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 931.2
+      y: 315.83
+      width: 220.81
+      height: 496.78
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8DFD0"
+  - id: text6
+    type: text
+    name: Q4
+    frame:
+      x: 1026.14
+      y: 834.2
+      width: 30.97
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q4
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B5A07A"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: +42%
+    frame:
+      x: 1267.2
+      y: 376.56
+      width: 499.25
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: +42%
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+          lineHeight: 1
+      overflow: visible
+  - id: text8
+    type: text
+    name: YOY GROWTH
+    frame:
+      x: 1267.2
+      y: 483.36
+      width: 499.25
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: YOY GROWTH
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#B5A07A"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Sustained momentum in ke...
+    frame:
+      x: 1267.2
+      y: 528.72
+      width: 499.25
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Sustained momentum in key demographics.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#B5A07A"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text10
+    type: text
+    name: 18.5%
+    frame:
+      x: 1267.2
+      y: 622.31
+      width: 499.25
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: 18.5%
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+          lineHeight: 1
+      overflow: visible
+  - id: text11
+    type: text
+    name: MARGIN INCREASE
+    frame:
+      x: 1267.2
+      y: 729.11
+      width: 499.25
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: MARGIN INCREASE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#B5A07A"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Driven by operational ef...
+    frame:
+      x: 1267.2
+      y: 774.47
+      width: 499.25
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Driven by operational efficiencies.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#B5A07A"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text13
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 1013.78
+      width: 73.03
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B5A07A"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text14
+    type: text
+    name: "03"
+    frame:
+      x: 1744.16
+      y: 1013.78
+      width: 25.3
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B5A07A"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6

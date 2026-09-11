@@ -1,0 +1,361 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#000000"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 108
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8956A"
+      opacity: 0.15
+  - id: shape2
+    type: shape
+    frame:
+      x: 0
+      y: 971
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8956A"
+      opacity: 0.15
+  - id: text1
+    type: text
+    name: EXAMPLE COMPANY
+    frame:
+      x: 76.8
+      y: 115.19
+      width: 227.11
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 300
+              color:
+                kind: rgb
+                value: "#B8956A"
+              letterSpacingPt: 2.688
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: DISCOVER THE COLLECTION
+    frame:
+      x: 1595.16
+      y: 115.19
+      width: 262.99
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: DISCOVER THE COLLECTION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.344
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text3
+    type: text
+    name: BEGIN YOUR JOURNEY
+    frame:
+      x: 755.1
+      y: 297.2
+      width: 409.8
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: BEGIN YOUR JOURNEY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8956A"
+              letterSpacingPt: 4.8
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Timeless Elegance
+    frame:
+      x: 372.43
+      y: 358.39
+      width: 1175.12
+      height: 128.72
+    body:
+      paragraphs:
+        - runs:
+            - text: Timeless Elegance
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 2.88
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 921.59
+      y: 528.3
+      width: 76.8
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8956A"
+  - id: text5
+    type: text
+    name: GENERAL INQUIRIES
+    frame:
+      x: 646.535
+      y: 595.08
+      width: 234.07
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: GENERAL INQUIRIES
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+              letterSpacingPt: 0.768
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text6
+    type: text
+    name: contact@example.com
+    frame:
+      x: 635.54
+      y: 628.91
+      width: 256.07
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: contact@example.com
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.528
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 957.38
+      y: 606.23
+      width: 1
+      height: 43.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8956A"
+      opacity: 0.3
+  - id: text7
+    type: text
+    name: BOUTIQUE APPOINTMENTS
+    frame:
+      x: 1035.145
+      y: 595.08
+      width: 238.32
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: BOUTIQUE APPOINTMENTS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+              letterSpacingPt: 0.768
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text8
+    type: text
+    name: +1 (555) 123-4567
+    frame:
+      x: 1035.145
+      y: 628.91
+      width: 238.32
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: +1 (555) 123-4567
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.528
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 806.25
+      y: 725.39
+      width: 307.5
+      height: 60.3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8956A"
+      widthPt: 0.5
+  - id: text9
+    type: text
+    name: VIEW LOOKBOOK
+    frame:
+      x: 806.225
+      y: 725.39
+      width: 307.55
+      height: 60.3
+    body:
+      paragraphs:
+        - runs:
+            - text: VIEW LOOKBOOK
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8956A"
+              letterSpacingPt: 1.728
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+  - id: text10
+    type: text
+    name: EST. 2026
+    frame:
+      x: 76.8
+      y: 947.55
+      width: 85.94
+      height: 19.27
+    body:
+      paragraphs:
+        - runs:
+            - text: EST. 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 5.76
+              weight: 300
+              color:
+                kind: rgb
+                value: "#B8956A"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text11
+    type: text
+    name: "04"
+    frame:
+      x: 1824.23
+      y: 947.55
+      width: 22.02
+      height: 19.27
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 5.76
+              weight: 300
+              color:
+                kind: rgb
+                value: "#B8956A"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8

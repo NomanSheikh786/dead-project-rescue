@@ -1,0 +1,323 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#111111"
+elements:
+  - id: text1
+    type: text
+    name: "04"
+    frame:
+      x: 1447.38
+      y: 739.19
+      width: 587.07
+      height: 384
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 240
+              weight: 700
+              color:
+                kind: rgb
+                value: "#222222"
+              letterSpacingPt: -12
+          lineHeight: 0.8
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 142.55
+      width: 1689.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+  - id: text2
+    type: text
+    name: ACME.CO
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 126.36
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FDFDFD"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Summary
+    frame:
+      x: 1710.41
+      y: 67.67
+      width: 94.46
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Summary
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#888888"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Thank You.
+    frame:
+      x: 115.19
+      y: 305.55
+      width: 1152.05
+      height: 128.72
+    body:
+      paragraphs:
+        - runs:
+            - text: Thank You.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FDFDFD"
+              letterSpacingPt: -1.152
+          lineHeight: 1.1
+      overflow: visible
+  - id: text5
+    type: text
+    name: We appreciate your conti...
+    frame:
+      x: 115.19
+      y: 475.45
+      width: 864.05
+      height: 161.3
+    body:
+      paragraphs:
+        - runs:
+            - text: We appreciate your continued partnership and look forward to an even brighter future together.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#CCCCCC"
+          lineHeight: 1.4
+      overflow: visible
+  - id: text6
+    type: text
+    name: GENERAL INQUIRIES
+    frame:
+      x: 115.19
+      y: 744.75
+      width: 211.21
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: GENERAL INQUIRIES
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 115.19
+      y: 781.47
+      width: 199.25
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FDFDFD"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text8
+    type: text
+    name: INVESTOR RELATIONS
+    frame:
+      x: 391.19
+      y: 744.75
+      width: 254.49
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: INVESTOR RELATIONS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: investors@acme.co
+    frame:
+      x: 391.19
+      y: 781.47
+      width: 269.76
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: investors@acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FDFDFD"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: HEADQUARTERS
+    frame:
+      x: 722.42
+      y: 744.75
+      width: 234.57
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: HEADQUARTERS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: San Francisco, CA
+    frame:
+      x: 722.42
+      y: 781.47
+      width: 263.56
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: San Francisco, CA
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FDFDFD"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: CONFIDENTIAL INFORMATION
+    frame:
+      x: 115.19
+      y: 986.41
+      width: 347.52
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL INFORMATION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: "04"
+    frame:
+      x: 1775.98
+      y: 986.41
+      width: 30.88
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible

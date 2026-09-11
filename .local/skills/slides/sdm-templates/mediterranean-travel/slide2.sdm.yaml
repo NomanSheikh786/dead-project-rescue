@@ -1,0 +1,489 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5EEE4"
+elements:
+  - id: text1
+    type: text
+    name: ☀
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 20.71
+      height: 23.05
+    body:
+      paragraphs:
+        - runs:
+            - text: ☀
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0674A"
+          lineHeight: 1
+      overflow: visible
+  - id: text2
+    type: text
+    name: LA DOLCE VITA
+    frame:
+      x: 155.03
+      y: 64.8
+      width: 153.46
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: LA DOLCE VITA
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#A0674A"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 318.94
+      y: 75.78
+      width: 57.59
+      height: 1.08
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#A0674A"
+    opacity: 0.5
+  - id: text3
+    type: text
+    name: Curating the Perfect Iti...
+    frame:
+      x: 115.19
+      y: 98.64
+      width: 960.05
+      height: 232.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Curating the Perfect Itinerary
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+              letterSpacingPt: -0.384
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text4
+    type: text
+    name: Our philosophy focuses o...
+    frame:
+      x: 115.19
+      y: 393.81
+      width: 805.46
+      height: 174
+    body:
+      paragraphs:
+        - runs:
+            - text: Our philosophy focuses on the slow and mindful exploration of the coastal regions. We believe that true luxury lies in the authenticity of experience, blending world-class comfort with local charm.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.9
+  - id: shape2
+    type: shape
+    frame:
+      x: 115.19
+      y: 609
+      width: 805.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#A0674A"
+      opacity: 0.2
+  - id: text5
+    type: text
+    name: "01"
+    frame:
+      x: 115.19
+      y: 631.59
+      width: 48.3
+      height: 97.55
+    body:
+      paragraphs:
+        - runs:
+            - text: "01"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0674A"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Immersive Experiences
+    frame:
+      x: 192.23
+      y: 631.59
+      width: 728.41
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Immersive Experiences
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+              letterSpacingPt: 0.23
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Connecting deeply with l...
+    frame:
+      x: 192.23
+      y: 671.55
+      width: 728.41
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Connecting deeply with local artisans, chefs, and historians to reveal the hidden soul of the coast.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape3
+    type: shape
+    frame:
+      x: 115.19
+      y: 750.73
+      width: 805.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#A0674A"
+      opacity: 0.2
+  - id: text8
+    type: text
+    name: "02"
+    frame:
+      x: 115.19
+      y: 773.33
+      width: 51.72
+      height: 97.55
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0674A"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Sustainable Travel
+    frame:
+      x: 195.66
+      y: 773.33
+      width: 724.99
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Sustainable Travel
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+              letterSpacingPt: 0.23
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Preserving the beauty of...
+    frame:
+      x: 195.66
+      y: 813.28
+      width: 724.99
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Preserving the beauty of our destinations through thoughtful, low-impact journey planning.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape4
+    type: shape
+    frame:
+      x: 115.19
+      y: 892.47
+      width: 805.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#A0674A"
+      opacity: 0.2
+  - id: text11
+    type: text
+    name: "03"
+    frame:
+      x: 115.19
+      y: 915.06
+      width: 53.18
+      height: 97.55
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0674A"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Bespoke Comfort
+    frame:
+      x: 197.11
+      y: 915.06
+      width: 723.53
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Bespoke Comfort
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+              letterSpacingPt: 0.23
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Tailoring every accommod...
+    frame:
+      x: 197.11
+      y: 955.02
+      width: 723.53
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Tailoring every accommodation and transport detail to your personal definition of luxury.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape5
+    type: shape
+    frame:
+      x: 997.39
+      y: 393.81
+      width: 807.42
+      height: 621.39
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8DEC8"
+    stroke:
+      color:
+        kind: rgb
+        value: "#A0674A"
+      widthPt: 0.5
+      opacity: 0.1
+  - id: shape6
+    type: shape
+    frame:
+      x: 1036.78
+      y: 433.2
+      width: 728.64
+      height: 542.61
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#A0674A"
+      widthPt: 0.5
+    opacity: 0.3
+  - id: text14
+    type: text
+    name: '"To travel is to discove...'
+    frame:
+      x: 948.59
+      y: 524.05
+      width: 905.03
+      height: 362.92
+    body:
+      paragraphs:
+        - runs:
+            - text: '"To travel is to discover that everyone is wrong about other countries."'
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0674A"
+              italic: true
+          align: center
+          lineHeight: 1.2
+      overflow: visible
+      insetsPt:
+        top: 38.4
+        right: 38.4
+        bottom: 38.4
+        left: 38.4
+  - id: text15
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 1021.69
+      width: 76.99
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: "02"
+    frame:
+      x: 1783.02
+      y: 1021.69
+      width: 24.85
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#A0674A"
+          lineHeight: 1.5
+      overflow: visible

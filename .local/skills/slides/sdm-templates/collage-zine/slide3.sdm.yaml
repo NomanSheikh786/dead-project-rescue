@@ -1,0 +1,517 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFDE7"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1430
+      y: 878
+      width: 300
+      height: 170
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF1744"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 2
+    rotationDeg: 4
+  - id: shape2
+    type: shape
+    frame:
+      x: 1660
+      y: 150
+      width: 192
+      height: 192
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 3
+      dash: dash
+  - id: shape3
+    type: shape
+    frame:
+      x: 115.14
+      y: 64.69
+      width: 271
+      height: 65
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+    rotationDeg: -3
+  - id: text1
+    type: text
+    name: THE METRICS
+    frame:
+      x: 115.14
+      y: 64.69
+      width: 287.31
+      height: 65
+    body:
+      paragraphs:
+        - runs:
+            - text: THE METRICS
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFDE7"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 5.4
+        right: 19.2
+        bottom: 5.4
+        left: 19.2
+    rotationDeg: -3
+  - id: shape4
+    type: shape
+    frame:
+      x: 1543.59
+      y: 64.59
+      width: 261
+      height: 44
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFDE7"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1
+    rotationDeg: 2
+  - id: text2
+    type: text
+    name: DATA DUMP // 2026
+    frame:
+      x: 1543.59
+      y: 64.59
+      width: 269.62
+      height: 70
+    body:
+      paragraphs:
+        - runs:
+            - text: DATA DUMP // 2026
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 9.6
+        bottom: 2.7
+        left: 9.6
+    rotationDeg: 2
+  - id: text3
+    type: text
+    name: 98%
+    frame:
+      x: 115.67
+      y: 354.66
+      width: 676.05
+      height: 123
+    body:
+      paragraphs:
+        - runs:
+            - text: 98%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 76.8
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FF1744"
+          lineHeight: 0.8
+      overflow: visible
+    rotationDeg: 1
+  - id: shape5
+    type: shape
+    frame:
+      x: 114.17
+      y: 485.66
+      width: 366
+      height: 54
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+    rotationDeg: 1
+  - id: text4
+    type: text
+    name: MARKET PENETRATION
+    frame:
+      x: 114.17
+      y: 485.66
+      width: 388.01
+      height: 54
+    body:
+      paragraphs:
+        - runs:
+            - text: MARKET PENETRATION
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 9.6
+        bottom: 2.7
+        left: 9.6
+    rotationDeg: 1
+  - id: text5
+    type: text
+    name: $4.2M
+    frame:
+      x: 191.24
+      y: 596.45
+      width: 599.05
+      height: 94
+    body:
+      paragraphs:
+        - runs:
+            - text: $4.2M
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 0.8
+      overflow: visible
+    rotationDeg: -2
+  - id: text6
+    type: text
+    name: REVENUE (Q3)
+    frame:
+      x: 193.51
+      y: 695.99
+      width: 178.13
+      height: 44
+    body:
+      paragraphs:
+        - runs:
+            - text: REVENUE (Q3)
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 2.7
+        left: 0
+    rotationDeg: -2
+  - id: shape6
+    type: shape
+    frame:
+      x: 959.8
+      y: 577.48
+      width: 154
+      height: 245
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+    rotationDeg: -1
+  - id: text7
+    type: text
+    name: Q1
+    frame:
+      x: 957.445
+      y: 545.46
+      width: 154.05
+      height: 45
+    body:
+      paragraphs:
+        - runs:
+            - text: Q1
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -1
+  - id: shape7
+    type: shape
+    frame:
+      x: 1151.78
+      y: 455.35
+      width: 154
+      height: 367
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1.5
+    rotationDeg: 2
+  - id: text8
+    type: text
+    name: Q2
+    frame:
+      x: 1161.425
+      y: 426.29
+      width: 148.05
+      height: 45
+    body:
+      paragraphs:
+        - runs:
+            - text: Q2
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 2
+  - id: shape8
+    type: shape
+    frame:
+      x: 1343.77
+      y: 302.45
+      width: 154
+      height: 520
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF1744"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 2
+    rotationDeg: -1.5
+  - id: text9
+    type: text
+    name: Q3
+    frame:
+      x: 1333.785
+      y: 274.72
+      width: 146.05
+      height: 45
+    body:
+      paragraphs:
+        - runs:
+            - text: Q3
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -1.5
+  - id: shape10
+    type: shape
+    frame:
+      x: 1535.75
+      y: 522.5
+      width: 154
+      height: 300
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+    rotationDeg: 1
+  - id: text13
+    type: text
+    name: Q4
+    frame:
+      x: 1535.75
+      y: 490.5
+      width: 154.05
+      height: 45
+    body:
+      paragraphs:
+        - runs:
+            - text: Q4
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 1
+  - id: shape9
+    type: shape
+    frame:
+      x: 1040
+      y: 232
+      width: 273
+      height: 45
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+    rotationDeg: -18
+  - id: text10
+    type: text
+    name: RECORD BREAKING!
+    frame:
+      x: 1040
+      y: 232
+      width: 273.05
+      height: 47
+    body:
+      paragraphs:
+        - runs:
+            - text: RECORD BREAKING!
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFDE7"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 9.6
+        bottom: 2.7
+        left: 9.6
+    rotationDeg: -18
+  - id: text11
+    type: text
+    name: "* SOURCED FROM INTERNAL ..."
+    frame:
+      x: 115.19
+      y: 986.41
+      width: 347.33
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "* SOURCED FROM INTERNAL CHAOS"
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: "03"
+    frame:
+      x: 1751.83
+      y: 957.59
+      width: 53.03
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible

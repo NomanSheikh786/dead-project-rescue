@@ -1,0 +1,407 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0A0A"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: photo-racecar
+    altText: Racecar background
+    fit: cover
+    opacity: 0.15
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 135
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#0A0A0A"
+          opacity: 0.9
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#0A0A0A"
+          opacity: 0.4
+    opacity: 0.15
+  - id: shape2
+    type: shape
+    frame:
+      x: 958.99
+      y: 162
+      width: 1
+      height: 378
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E11D48"
+  - id: shape3
+    type: shape
+    frame:
+      x: 115.19
+      y: 539
+      width: 844.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E11D48"
+  - id: text1
+    type: text
+    name: 3.2s
+    frame:
+      x: 192.09
+      y: 245.13
+      width: 690.05
+      height: 154.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "3.2"
+              sizePt: 76.8
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+            - text: s
+              sizePt: 38.4
+              color:
+                kind: rgb
+                value: "#E11D48"
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Inter
+            weight: 900
+            letterSpacingPt: -3.072
+      overflow: visible
+  - id: text2
+    type: text
+    name: 0-100 KM/H
+    frame:
+      x: 191.98
+      y: 420.81
+      width: 690.25
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 0-100 KM/H
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: shape4
+    type: shape
+    frame:
+      x: 959.98
+      y: 539
+      width: 844.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E11D48"
+  - id: text3
+    type: text
+    name: 847HP
+    frame:
+      x: 1036.88
+      y: 245.13
+      width: 691.05
+      height: 154.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "847"
+              sizePt: 76.8
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+            - text: HP
+              sizePt: 38.4
+              color:
+                kind: rgb
+                value: "#E11D48"
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Inter
+            weight: 900
+            letterSpacingPt: -3.072
+      overflow: visible
+  - id: text4
+    type: text
+    name: PEAK POWER
+    frame:
+      x: 1036.78
+      y: 420.81
+      width: 691.25
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: PEAK POWER
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: shape5
+    type: shape
+    frame:
+      x: 958.99
+      y: 540
+      width: 1
+      height: 378
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E11D48"
+  - id: text5
+    type: text
+    name: 1,200KG
+    frame:
+      x: 192.09
+      y: 623.63
+      width: 690.05
+      height: 154.59
+    body:
+      paragraphs:
+        - runs:
+            - text: 1,200
+              sizePt: 76.8
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+            - text: KG
+              sizePt: 38.4
+              color:
+                kind: rgb
+                value: "#E11D48"
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Inter
+            weight: 900
+            letterSpacingPt: -3.072
+      overflow: visible
+  - id: text6
+    type: text
+    name: DRY WEIGHT
+    frame:
+      x: 191.98
+      y: 799.31
+      width: 690.25
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: DRY WEIGHT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text7
+    type: text
+    name: 342KM/H
+    frame:
+      x: 1036.88
+      y: 623.63
+      width: 691.05
+      height: 154.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "342"
+              sizePt: 76.8
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+            - text: KM/H
+              sizePt: 38.4
+              color:
+                kind: rgb
+                value: "#E11D48"
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Inter
+            weight: 900
+            letterSpacingPt: -3.072
+      overflow: visible
+  - id: text8
+    type: text
+    name: TOP SPEED
+    frame:
+      x: 1036.78
+      y: 799.31
+      width: 691.25
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: TOP SPEED
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text9
+    type: text
+    name: PERFORMANCE DATA
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 350.17
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: PERFORMANCE DATA
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#E11D48"
+              letterSpacingPt: 3.84
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: "02"
+    frame:
+      x: 1778.77
+      y: 64.8
+      width: 26.1
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.3
+  - id: text11
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 115.19
+      y: 1013.78
+      width: 388.78
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.3
+  - id: shape6
+    type: shape
+    frame:
+      x: 0
+      y: 540
+      width: 1920
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E11D48"
+assets:
+  photo-racecar:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/photo-racecar.png

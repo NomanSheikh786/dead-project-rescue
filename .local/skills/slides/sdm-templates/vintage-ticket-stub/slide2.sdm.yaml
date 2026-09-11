@@ -1,0 +1,718 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#EBE3D5"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 96
+      y: 108
+      width: 1728
+      height: 864
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 38.4
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F9F6F0"
+  - id: shape2
+    type: shape
+    frame:
+      x: 192
+      y: 252
+      width: 1049
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3539"
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 192
+      y: 172.8
+      width: 210.78
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 19.2
+              weight: 800
+              color:
+                kind: rgb
+                value: "#BA3B31"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "CLASS: FIRST"
+    frame:
+      x: 580.97
+      y: 184.31
+      width: 221.18
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "CLASS: FIRST"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3539"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: TICKET N° 08492026
+    frame:
+      x: 992.25
+      y: 184.31
+      width: 263.73
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: TICKET N° 08492026
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3539"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: PASSENGER MANIFEST / OBJ...
+    frame:
+      x: 192
+      y: 298.19
+      width: 1049.05
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: PASSENGER MANIFEST / OBJECTIVES
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#6B7280"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: OUR CORE STRATEGY
+    frame:
+      x: 192
+      y: 354.34
+      width: 1049.05
+      height: 86.47
+    body:
+      paragraphs:
+        - runs:
+            - text: OUR CORE STRATEGY
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 38.4
+              weight: 900
+              color:
+                kind: rgb
+                value: "#2C3539"
+              letterSpacingPt: -0.768
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 192
+      y: 492.8
+      width: 3
+      height: 166.3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#BA3B31"
+  - id: text6
+    type: text
+    name: 01. Discovery
+    frame:
+      x: 223.8
+      y: 492.8
+      width: 454.35
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 01. Discovery
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#BA3B31"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Uncovering the fundament...
+    frame:
+      x: 223.8
+      y: 538.16
+      width: 454.35
+      height: 122.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Uncovering the fundamental truths about our target audience and market position.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A5568"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 192
+      y: 686.09
+      width: 3
+      height: 166.3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3539"
+  - id: text8
+    type: text
+    name: 02. Alignment
+    frame:
+      x: 223.8
+      y: 686.09
+      width: 454.35
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 02. Alignment
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3539"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Ensuring all internal st...
+    frame:
+      x: 223.8
+      y: 731.45
+      width: 454.35
+      height: 122.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Ensuring all internal stakeholders share a unified vision for the upcoming launch.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A5568"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 754.89
+      y: 492.8
+      width: 3
+      height: 166.3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3539"
+  - id: text10
+    type: text
+    name: 03. Execution
+    frame:
+      x: 786.69
+      y: 492.8
+      width: 454.36
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 03. Execution
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3539"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Rapid prototyping and de...
+    frame:
+      x: 786.69
+      y: 538.16
+      width: 454.36
+      height: 122.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Rapid prototyping and deployment of our minimal viable product to early adopters.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A5568"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 754.89
+      y: 686.09
+      width: 3
+      height: 166.3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3539"
+  - id: text12
+    type: text
+    name: 04. Scale
+    frame:
+      x: 786.69
+      y: 686.09
+      width: 454.36
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 04. Scale
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3539"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Expanding our infrastruc...
+    frame:
+      x: 786.69
+      y: 731.45
+      width: 454.36
+      height: 122.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Expanding our infrastructure and team to meet the demands of a growing user base.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A5568"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 192
+      y: 852.39
+      width: 1049
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3539"
+  - id: text14
+    type: text
+    name: DATE
+    frame:
+      x: 192
+      y: 887.78
+      width: 69.18
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: DATE
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B7280"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: "2026"
+    frame:
+      x: 192
+      y: 919.09
+      width: 78.18
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3539"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: PAGE
+    frame:
+      x: 457.28
+      y: 887.78
+      width: 55.08
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: PAGE
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B7280"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text17
+    type: text
+    name: "02"
+    frame:
+      x: 457.28
+      y: 919.09
+      width: 49.08
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3539"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text18
+    type: text
+    name: SECTION
+    frame:
+      x: 702.47
+      y: 887.78
+      width: 138.28
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: SECTION
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B7280"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text19
+    type: text
+    name: STRATEGY
+    frame:
+      x: 702.47
+      y: 919.09
+      width: 154.28
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: STRATEGY
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3539"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text20
+    type: text
+    name: STATUS
+    frame:
+      x: 1036.86
+      y: 887.78
+      width: 204.19
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: STATUS
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B7280"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text21
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 1036.86
+      y: 919.09
+      width: 216.44
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#BA3B31"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 1344
+      y: 108
+      width: 480
+      height: 864
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#BA3B31"
+  - id: text22
+    type: text
+    name: ACME.CO
+    frame:
+      x: 1614.09
+      y: 172.8
+      width: 161.5
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 800
+              color:
+                kind: rgb
+                value: "#F9F6F0"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text23
+    type: text
+    name: TICKET N° 08492026
+    frame:
+      x: 1524.61
+      y: 226.78
+      width: 256.36
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: TICKET N° 08492026
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F9F6F0"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text24
+    type: text
+    name: EXAMPLE COMPANY, INC.
+    frame:
+      x: 1401.565
+      y: 881.28
+      width: 364.86
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#F9F6F0"
+              letterSpacingPt: 0.864
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 1337
+      y: 108
+      width: 7
+      height: 864
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3539"
+  - id: shape10
+    type: shape
+    frame:
+      x: 1308.2
+      y: 79.2
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#EBE3D5"
+  - id: shape11
+    type: shape
+    frame:
+      x: 1308.2
+      y: 943.2
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#EBE3D5"

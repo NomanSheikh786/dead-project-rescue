@@ -1,0 +1,273 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#000000"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: photo-ocean-aerial
+    altText: Ocean Aerial
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 60.64
+      stops:
+        - offset: 0.3
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.7
+  - id: text1
+    type: text
+    name: EXAMPLE COMPANY
+    frame:
+      x: 76.8
+      y: 43.19
+      width: 234.96
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1788.11
+      y: 43.19
+      width: 61.14
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: THE HORIZON
+    frame:
+      x: 467.145
+      y: 281.5
+      width: 985.71
+      height: 255.44
+    body:
+      paragraphs:
+        - runs:
+            - text: THE HORIZON
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 8.64
+          align: center
+          lineHeight: 1.1
+        - runs:
+            - text: AWAITS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 8.64
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 935
+      y: 578.13
+      width: 50
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.8
+  - id: text4
+    type: text
+    name: READY TO DIVE IN?
+    frame:
+      x: 767.12
+      y: 622.31
+      width: 385.74
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: READY TO DIVE IN?
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 2.88
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: shape3
+    type: shape
+    frame:
+      x: 728.89
+      y: 730.3
+      width: 462.22
+      height: 73.98
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.4
+  - id: text5
+    type: text
+    name: EXAMPLE.COM/BOUNDLESS
+    frame:
+      x: 715
+      y: 730.3
+      width: 490.01
+      height: 73.98
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE.COM/BOUNDLESS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: text6
+    type: text
+    name: "04"
+    frame:
+      x: 76.8
+      y: 1013.78
+      width: 23.21
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text7
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 1543.83
+      y: 1013.78
+      width: 317.4
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+assets:
+  photo-ocean-aerial:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/photo-ocean-aerial.png

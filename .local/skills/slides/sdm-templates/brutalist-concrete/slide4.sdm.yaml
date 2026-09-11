@@ -1,0 +1,264 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#1A1A1A"
+elements:
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 96
+      y: 64.8
+      width: 104.05
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E5E5E5"
+              letterSpacingPt: -0.23
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: 04 / 04
+    frame:
+      x: 1755.48
+      y: 64.8
+      width: 68.57
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: 04 / 04
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.16
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: LET'S
+    frame:
+      x: 96
+      y: 237.86
+      width: 1728.05
+      height: 416.7
+    body:
+      paragraphs:
+        - runs:
+            - text: LET'S
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 76.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E5E5E5"
+              letterSpacingPt: -3.072
+          lineHeight: 0.9
+        - runs:
+            - text: BUILD
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 76.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E5E5E5"
+              letterSpacingPt: -3.072
+          lineHeight: 0.9
+        - runs:
+            - text: THE FUTURE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 76.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E5E5E5"
+              letterSpacingPt: -3.072
+          lineHeight: 0.9
+      overflow: visible
+  - id: text4
+    type: text
+    name: CONTACT
+    frame:
+      x: 96
+      y: 695.75
+      width: 206.24
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: CONTACT
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 96
+      y: 732.47
+      width: 206.24
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E5E5E5"
+              letterSpacingPt: -0.288
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: OFFICE
+    frame:
+      x: 398.19
+      y: 695.75
+      width: 248.11
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: OFFICE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: 123 Concrete Blvd.
+    frame:
+      x: 398.19
+      y: 732.47
+      width: 278.78
+      height: 88.38
+    body:
+      paragraphs:
+        - runs:
+            - text: 123 Concrete Blvd.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E5E5E5"
+              letterSpacingPt: -0.288
+          lineHeight: 1.5
+        - runs:
+            - text: New York, NY
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E5E5E5"
+              letterSpacingPt: -0.288
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 96
+      y: 957.34
+      width: 1728
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+  - id: text8
+    type: text
+    name: © 2026 EXAMPLE COMPANY, ...
+    frame:
+      x: 96
+      y: 990.73
+      width: 290.56
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: © 2026 EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.16
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 1706.55
+      y: 990.73
+      width: 124.55
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.16
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible

@@ -1,0 +1,881 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0A0A"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 38.39
+      y: 21.59
+      width: 1843.22
+      height: 1036.81
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4AF37"
+      widthPt: 0.5
+    opacity: 0.8
+  - id: shape2
+    type: shape
+    frame:
+      x: 57.59
+      y: 32.39
+      width: 1804.81
+      height: 1015.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4AF37"
+      widthPt: 1
+  - id: shape5
+    type: shape
+    frame:
+      x: 38.39
+      y: 21.59
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0A0A0A"
+  - id: shape3
+    type: shape
+    frame:
+      x: 93.98
+      y: 21.59
+      width: 2
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+  - id: shape4
+    type: shape
+    frame:
+      x: 38.39
+      y: 77.18
+      width: 57.59
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+  - id: shape8
+    type: shape
+    frame:
+      x: 1824.02
+      y: 21.59
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0A0A0A"
+  - id: shape6
+    type: shape
+    frame:
+      x: 1824.02
+      y: 77.18
+      width: 57.59
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+  - id: shape7
+    type: shape
+    frame:
+      x: 1824.02
+      y: 21.59
+      width: 2
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+  - id: shape11
+    type: shape
+    frame:
+      x: 38.39
+      y: 1000.81
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0A0A0A"
+  - id: shape9
+    type: shape
+    frame:
+      x: 38.39
+      y: 1000.81
+      width: 57.59
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+  - id: shape10
+    type: shape
+    frame:
+      x: 93.98
+      y: 1000.81
+      width: 2
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+  - id: shape14
+    type: shape
+    frame:
+      x: 1824.02
+      y: 1000.81
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0A0A0A"
+  - id: shape12
+    type: shape
+    frame:
+      x: 1824.02
+      y: 1000.81
+      width: 57.59
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+  - id: shape13
+    type: shape
+    frame:
+      x: 1824.02
+      y: 1000.81
+      width: 2
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+  - id: shape15
+    type: shape
+    frame:
+      x: 362.58
+      y: 163.27
+      width: 19
+      height: 19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+    rotationDeg: 45
+  - id: shape16
+    type: shape
+    frame:
+      x: 381.67
+      y: 172.27
+      width: 288
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+  - id: text1
+    type: text
+    name: OUR PILLARS
+    frame:
+      x: 708.06
+      y: 129.58
+      width: 534.14
+      height: 88
+    body:
+      paragraphs:
+        - runs:
+            - text: OUR PILLARS
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 28.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#D4AF37"
+              letterSpacingPt: 5.76
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape17
+    type: shape
+    frame:
+      x: 1250.31
+      y: 172.27
+      width: 288
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+  - id: shape18
+    type: shape
+    frame:
+      x: 1538.41
+      y: 163.27
+      width: 19
+      height: 19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+    rotationDeg: 45
+  - id: text2
+    type: text
+    name: ◆
+    frame:
+      x: 415.225
+      y: 282.26
+      width: 59.11
+      height: 117
+    body:
+      paragraphs:
+        - runs:
+            - text: ◆
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Excellence
+    frame:
+      x: 287.79
+      y: 411.55
+      width: 314
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: Excellence
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+              letterSpacingPt: 2.4
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape19
+    type: shape
+    frame:
+      x: 406.39
+      y: 515.94
+      width: 76.8
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+  - id: text4
+    type: text
+    name: Upholding the highest st...
+    frame:
+      x: 230.355
+      y: 550.33
+      width: 428.88
+      height: 248.91
+    body:
+      paragraphs:
+        - runs:
+            - text: Upholding the highest standards in every endeavor.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          align: center
+          lineHeight: 1.8
+        - runs:
+            - text: Relentless pursuit of quality and precision.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          align: center
+          lineHeight: 1.8
+        - runs:
+            - text: Delivering unparalleled results consistently.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          align: center
+          lineHeight: 1.8
+      overflow: visible
+    opacity: 0.9
+  - id: shape20
+    type: shape
+    frame:
+      x: 697.39
+      y: 302.16
+      width: 10
+      height: 10
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+    rotationDeg: 45
+  - id: shape21
+    type: shape
+    frame:
+      x: 701.89
+      y: 322.75
+      width: 1
+      height: 650.47
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+  - id: shape22
+    type: shape
+    frame:
+      x: 697.39
+      y: 983.81
+      width: 10
+      height: 10
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+    rotationDeg: 45
+  - id: shape23
+    type: shape
+    frame:
+      x: 892.84
+      y: 340.77
+      width: 19.19
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4AF37"
+      widthPt: 0.5
+  - id: shape24
+    type: shape
+    frame:
+      x: 921.63
+      y: 321.56
+      width: 19.19
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4AF37"
+      widthPt: 0.5
+  - id: shape25
+    type: shape
+    frame:
+      x: 950.41
+      y: 302.36
+      width: 19.19
+      height: 76.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4AF37"
+      widthPt: 0.5
+  - id: shape26
+    type: shape
+    frame:
+      x: 979.19
+      y: 321.56
+      width: 19.19
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4AF37"
+      widthPt: 0.5
+  - id: shape27
+    type: shape
+    frame:
+      x: 1007.97
+      y: 340.77
+      width: 19.19
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4AF37"
+      widthPt: 0.5
+  - id: text5
+    type: text
+    name: Innovation
+    frame:
+      x: 804.5
+      y: 411.55
+      width: 311
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: Innovation
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+              letterSpacingPt: 2.4
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape28
+    type: shape
+    frame:
+      x: 921.59
+      y: 515.94
+      width: 76.8
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+  - id: text6
+    type: text
+    name: Pioneering solutions for...
+    frame:
+      x: 745.555
+      y: 550.33
+      width: 428.89
+      height: 250
+    body:
+      paragraphs:
+        - runs:
+            - text: Pioneering solutions for tomorrow's challenges.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          align: center
+          lineHeight: 1.8
+        - runs:
+            - text: Embracing bold ideas and creative thinking.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          align: center
+          lineHeight: 1.8
+        - runs:
+            - text: Transforming industries through vision.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          align: center
+          lineHeight: 1.8
+      overflow: visible
+    opacity: 0.9
+  - id: shape29
+    type: shape
+    frame:
+      x: 1212.61
+      y: 302.16
+      width: 10
+      height: 10
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+    rotationDeg: 45
+  - id: shape30
+    type: shape
+    frame:
+      x: 1217.11
+      y: 322.75
+      width: 1
+      height: 650.47
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+  - id: shape31
+    type: shape
+    frame:
+      x: 1212.61
+      y: 983.81
+      width: 10
+      height: 10
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+    rotationDeg: 45
+  - id: shape32
+    type: shape
+    frame:
+      x: 1436.81
+      y: 321.55
+      width: 76.8
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4AF37"
+      widthPt: 0.5
+  - id: shape33
+    type: shape
+    frame:
+      x: 1456
+      y: 302.36
+      width: 38.39
+      height: 76.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4AF37"
+      widthPt: 0.5
+  - id: shape34
+    type: shape
+    frame:
+      x: 1465.7
+      y: 331.25
+      width: 19
+      height: 19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+    rotationDeg: 45
+  - id: text7
+    type: text
+    name: Integrity
+    frame:
+      x: 1336.71
+      y: 411.55
+      width: 277
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: Integrity
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+              letterSpacingPt: 2.4
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape35
+    type: shape
+    frame:
+      x: 1436.81
+      y: 515.94
+      width: 76.8
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+  - id: text8
+    type: text
+    name: Operating with unwaverin...
+    frame:
+      x: 1260.775
+      y: 550.33
+      width: 428.88
+      height: 248.91
+    body:
+      paragraphs:
+        - runs:
+            - text: Operating with unwavering ethical principles.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          align: center
+          lineHeight: 1.8
+        - runs:
+            - text: Building trust through absolute transparency.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          align: center
+          lineHeight: 1.8
+        - runs:
+            - text: Commitment to honorable practices always.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          align: center
+          lineHeight: 1.8
+      overflow: visible
+    opacity: 0.9
+  - id: text9
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 153.59
+      y: 1013.78
+      width: 459.06
+      height: 25
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text10
+    type: text
+    name: "02"
+    frame:
+      x: 1741.05
+      y: 1013.78
+      width: 29
+      height: 25
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7

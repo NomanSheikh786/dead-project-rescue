@@ -1,0 +1,645 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FBF7F0"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 38.39
+      y: 21.59
+      width: 1843.22
+      height: 1036.81
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+      widthPt: 4.5
+    opacity: 0.1
+  - id: shape2
+    type: shape
+    frame:
+      x: 53.75
+      y: 30.23
+      width: 1812.5
+      height: 1019.53
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+      widthPt: 0.5
+    opacity: 0.2
+  - id: shape3
+    type: shape
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 76.8
+      height: 76.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+      widthPt: 1.5
+  - id: shape4
+    type: shape
+    frame:
+      x: 129.58
+      y: 79.19
+      width: 48
+      height: 48
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+      widthPt: 0.5
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 220.78
+      y: 70.25
+      width: 121.97
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+              letterSpacingPt: 0.922
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: UNIVERSITY
+    frame:
+      x: 220.78
+      y: 110.2
+      width: 121.97
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: UNIVERSITY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: CS 301
+    frame:
+      x: 1710.09
+      y: 64.8
+      width: 94.72
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: CS 301
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+              letterSpacingPt: 0.576
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Fall 2026
+    frame:
+      x: 1710.09
+      y: 104.75
+      width: 94.72
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Fall 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+    rotationDeg: 0.02
+  - id: text5
+    type: text
+    name: Performance Metrics
+    frame:
+      x: 115.19
+      y: 184.78
+      width: 747.89
+      height: 75.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Performance Metrics
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 33.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A2C25"
+              letterSpacingPt: -0.672
+          lineHeight: 1.1
+      overflow: visible
+  - id: text6
+    type: text
+    name: Comparative analysis of ...
+    frame:
+      x: 115.19
+      y: 269.5
+      width: 705.56
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Comparative analysis of execution times across datasets
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+    rotationDeg: 0.02
+  - id: text7
+    type: text
+    name: "Fig. 1: Execution Time (..."
+    frame:
+      x: 1598.06
+      y: 278.14
+      width: 206.76
+      height: 53
+    body:
+      paragraphs:
+        - runs:
+            - text: "Fig. 1: Execution Time (ms)"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+              italic: true
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape5
+    type: shape
+    frame:
+      x: 115.19
+      y: 943.09
+      width: 1689.63
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+      opacity: 0.8
+  - id: shape6
+    type: shape
+    frame:
+      x: 115.19
+      y: 495.2
+      width: 1689.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+      opacity: 0.2
+  - id: shape7
+    type: shape
+    frame:
+      x: 115.19
+      y: 644.17
+      width: 1689.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+      opacity: 0.2
+  - id: shape8
+    type: shape
+    frame:
+      x: 115.19
+      y: 793.13
+      width: 1689.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+      opacity: 0.2
+  - id: shape9
+    type: shape
+    frame:
+      x: 188.14
+      y: 768.91
+      width: 218.88
+      height: 174.18
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+      opacity: 0.2
+    stroke:
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+      widthPt: 0.5
+  - id: text8
+    type: text
+    name: "35"
+    frame:
+      x: 283.19
+      y: 726.35
+      width: 31.82
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "35"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A2C25"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Control
+    frame:
+      x: 260.61
+      y: 950.5
+      width: 84
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Control
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A2C25"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape10
+    type: shape
+    frame:
+      x: 629.75
+      y: 619.61
+      width: 218.88
+      height: 323.48
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+      opacity: 0.5
+    stroke:
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+      widthPt: 0.5
+  - id: text10
+    type: text
+    name: "65"
+    frame:
+      x: 724.77
+      y: 577.05
+      width: 31.89
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "65"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A2C25"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Test A
+    frame:
+      x: 707.34
+      y: 950.5
+      width: 75.91
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Test A
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A2C25"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape11
+    type: shape
+    frame:
+      x: 1071.36
+      y: 719.14
+      width: 218.88
+      height: 223.95
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+      opacity: 0.3
+    stroke:
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+      widthPt: 0.5
+  - id: text12
+    type: text
+    name: "45"
+    frame:
+      x: 1166.06
+      y: 676.58
+      width: 32.5
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "45"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A2C25"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Test B
+    frame:
+      x: 1149.5
+      y: 950.5
+      width: 74.59
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Test B
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A2C25"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape12
+    type: shape
+    frame:
+      x: 1512.97
+      y: 495.2
+      width: 218.88
+      height: 447.89
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+      opacity: 0.9
+    stroke:
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+      widthPt: 0.5
+  - id: text14
+    type: text
+    name: "90"
+    frame:
+      x: 1607.44
+      y: 452.64
+      width: 31.99
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "90"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A2C25"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: Optimized
+    frame:
+      x: 1571.05
+      y: 950.5
+      width: 102.77
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Optimized
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A2C25"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 115.19
+      y: 989.28
+      width: 209.43
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text17
+    type: text
+    name: Confidential
+    frame:
+      x: 1634.47
+      y: 989.28
+      width: 121.71
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text18
+    type: text
+    name: "03"
+    frame:
+      x: 1781.52
+      y: 989.28
+      width: 26.35
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7

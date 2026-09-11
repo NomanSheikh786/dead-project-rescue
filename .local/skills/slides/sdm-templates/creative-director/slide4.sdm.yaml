@@ -1,0 +1,257 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: creative-flatlay
+    altText: Creative Workspace
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 768
+      y: 216
+      width: 864
+      height: 648
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    rotationDeg: 2
+  - id: text1
+    type: text
+    name: "04"
+    frame:
+      x: 1155.66
+      y: 200.3
+      width: 470.69
+      height: 346
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 172.8
+              weight: 800
+              color:
+                kind: rgb
+                value: "#F0F0F0"
+          lineHeight: 1
+      overflow: visible
+    rotationDeg: 2
+  - id: shape2
+    type: shape
+    frame:
+      x: 853.36
+      y: 286.27
+      width: 15
+      height: 15
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4786E"
+    rotationDeg: 2
+  - id: text2
+    type: text
+    name: NEXT STEPS
+    frame:
+      x: 887.83
+      y: 284.02
+      width: 136.01
+      height: 53
+    body:
+      paragraphs:
+        - runs:
+            - text: NEXT STEPS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 1.296
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 2
+  - id: text3
+    type: text
+    name: Let's talk.
+    frame:
+      x: 848.46
+      y: 398.94
+      width: 710.05
+      height: 86
+    body:
+      paragraphs:
+        - runs:
+            - text: Let's talk.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 38.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -0.768
+          lineHeight: 1.1
+      overflow: visible
+    rotationDeg: 2
+  - id: text4
+    type: text
+    name: Ready to elevate your br...
+    frame:
+      x: 844.82
+      y: 504.51
+      width: 725
+      height: 81
+    body:
+      paragraphs:
+        - runs:
+            - text: Ready to elevate your brand's narrative? Reach out to start the conversation.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 2
+  - id: shape3
+    type: shape
+    frame:
+      x: 840
+      y: 620.68
+      width: 262
+      height: 92
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+    rotationDeg: 2
+  - id: text5
+    type: text
+    name: CONTACT US
+    frame:
+      x: 840
+      y: 620.68
+      width: 277.77
+      height: 94
+    body:
+      paragraphs:
+        - runs:
+            - text: CONTACT US
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 14.4
+        right: 28.8
+        bottom: 14.4
+        left: 28.8
+    rotationDeg: 2
+  - id: shape4
+    type: shape
+    frame:
+      x: 838.15
+      y: 735.69
+      width: 710
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E5E5E5"
+    rotationDeg: 2
+  - id: text6
+    type: text
+    name: acme.co
+    frame:
+      x: 836.75
+      y: 747.14
+      width: 79.05
+      height: 29
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 2
+  - id: text7
+    type: text
+    name: Page 04
+    frame:
+      x: 1470.69
+      y: 769.23
+      width: 79.92
+      height: 29
+    body:
+      paragraphs:
+        - runs:
+            - text: Page 04
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 2
+assets:
+  creative-flatlay:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/creative-flatlay.png

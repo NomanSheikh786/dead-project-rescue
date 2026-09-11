@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "DeadProject Rescue"
+description = "A developer tool that analyzes aging JavaScript and TypeScript repositories, scores migration risk, and produces a conservative modernization plan before any changes are applied."
+version = "1.0.0"
+id = "artifacts/deadproject-rescue"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21037
+
+[services.development]
+run = "pnpm --filter @workspace/deadproject-rescue run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/deadproject-rescue", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/deadproject-rescue/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21037"
+BASE_PATH = "/"

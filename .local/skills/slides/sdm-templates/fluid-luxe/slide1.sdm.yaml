@@ -1,0 +1,208 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#08060C"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: fluid-gold
+    altText: Fluid gold and navy art
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0.58
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.65
+          color:
+            kind: rgb
+            value: "#08060C"
+          opacity: 0.9
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#08060C"
+          opacity: 0.95
+  - id: text1
+    type: text
+    name: MAISON
+    frame:
+      x: 1267.2
+      y: 321.2
+      width: 537.66
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: MAISON
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4B896"
+              letterSpacingPt: 3.072
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: COLLECTION PRIVÉE
+    frame:
+      x: 1267.2
+      y: 355.03
+      width: 537.66
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: COLLECTION PRIVÉE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+              letterSpacingPt: 1.344
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape2
+    type: shape
+    frame:
+      x: 1267.2
+      y: 418.38
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4B896"
+    opacity: 0.5
+  - id: text3
+    type: text
+    name: Example Deck
+    frame:
+      x: 1267.2
+      y: 462.56
+      width: 537.66
+      height: 190.09
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4B896"
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 1267.2
+      y: 685.05
+      width: 537.66
+      height: 73.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.9
+  - id: text5
+    type: text
+    name: ACME.CO
+    frame:
+      x: 1728.48
+      y: 966.98
+      width: 80.96
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4B896"
+              letterSpacingPt: 1.008
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: MMXXVI
+    frame:
+      x: 1743.42
+      y: 997.94
+      width: 65.44
+      height: 19.27
+    body:
+      paragraphs:
+        - runs:
+            - text: MMXXVI
+              font:
+                kind: family
+                family: Inter
+              sizePt: 5.76
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+assets:
+  fluid-gold:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/fluid-gold.png

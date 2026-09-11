@@ -1,0 +1,1157 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0D0D12"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 576
+      height: 1080
+    geometry:
+      kind: path
+      viewBox:
+        width: 576
+        height: 1080
+      path: M 0 0 L 576 0 L 345.6 1080 L 0 1080 Z
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#15151C"
+  - id: shape2
+    type: shape
+    frame:
+      x: 1248
+      y: 216
+      width: 384
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D5AF1"
+    opacity: 0.5
+  - id: shape3
+    type: shape
+    frame:
+      x: 1631
+      y: 216
+      width: 1
+      height: 108
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D5AF1"
+    opacity: 0.5
+  - id: shape4
+    type: shape
+    frame:
+      x: 57.59
+      y: 32.39
+      width: 96
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D5AF1"
+  - id: shape5
+    type: shape
+    frame:
+      x: 57.59
+      y: 32.39
+      width: 2
+      height: 54
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D5AF1"
+  - id: shape6
+    type: shape
+    frame:
+      x: 1860.41
+      y: 993.61
+      width: 2
+      height: 54
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8B1A2B"
+  - id: shape7
+    type: shape
+    frame:
+      x: 1766.41
+      y: 1045.61
+      width: 96
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8B1A2B"
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 145.64
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 13.44
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.344
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 278.58
+      y: 74.16
+      width: 2
+      height: 21.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A4A5A"
+  - id: text2
+    type: text
+    name: "[ SYS.ONLINE ]"
+    frame:
+      x: 309.38
+      y: 71.98
+      width: 280
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "[ SYS.ONLINE ]"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8B1A2B"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 1507.38
+      y: 80.14
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D5AF1"
+  - id: text3
+    type: text
+    name: 2026 // CONFIDENTIAL
+    frame:
+      x: 1536.16
+      y: 70.55
+      width: 268.71
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 2026 // CONFIDENTIAL
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A8A9E"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape10
+    type: shape
+    frame:
+      x: 192
+      y: 191.5
+      width: 129.05
+      height: 36.7
+    geometry:
+      kind: path
+      viewBox:
+        width: 129.05
+        height: 36.7
+      path: M 12.91 0 L 129.05 0 L 116.15 36.7 L 0 36.7 Z
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8B1A2B"
+  - id: text4
+    type: text
+    name: METRICS
+    frame:
+      x: 192
+      y: 191.5
+      width: 139.1
+      height: 38.7
+    body:
+      paragraphs:
+        - runs:
+            - text: METRICS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.296
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 9.6
+        bottom: 2.7
+        left: 9.6
+  - id: text5
+    type: text
+    name: TELEMETRY DATA
+    frame:
+      x: 340.23
+      y: 195.45
+      width: 241.56
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: TELEMETRY DATA
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A8A9E"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: LIVE TELEMETRY
+    frame:
+      x: 192
+      y: 249.8
+      width: 678.94
+      height: 117.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "LIVE "
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+            - text: TELEMETRY
+              color:
+                kind: rgb
+                value: "#8B1A2B"
+          lineHeight: 1.5
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Space Grotesk
+            sizePt: 38.4
+            weight: 700
+            letterSpacingPt: -0.768
+      overflow: visible
+  - id: shape11
+    type: shape
+    frame:
+      x: 192
+      y: 375.78
+      width: 153.59
+      height: 4
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D5AF1"
+  - id: text7
+    type: text
+    name: PEAK CCU
+    frame:
+      x: 1418.12
+      y: 279.36
+      width: 115.74
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: PEAK CCU
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A8A9E"
+              letterSpacingPt: 0.768
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: 2.4M
+    frame:
+      x: 1407.12
+      y: 307.78
+      width: 126.74
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: 2.4M
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 24
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape12
+    type: shape
+    frame:
+      x: 1572.25
+      y: 307.97
+      width: 1
+      height: 43.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A4A5A"
+  - id: text9
+    type: text
+    name: AVG PING
+    frame:
+      x: 1611.64
+      y: 279.36
+      width: 116.41
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: AVG PING
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A8A9E"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: 12ms
+    frame:
+      x: 1611.64
+      y: 307.78
+      width: 123.39
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: 12ms
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 24
+              weight: 700
+              color:
+                kind: rgb
+                value: "#3D5AF1"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape13
+    type: shape
+    frame:
+      x: 192
+      y: 444.56
+      width: 1037.47
+      height: 624.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#15151C"
+      opacity: 0.7
+    stroke:
+      color:
+        kind: rgb
+        value: "#4A4A5A"
+      widthPt: 0.5
+  - id: shape14
+    type: shape
+    frame:
+      x: 400.09
+      y: 445.56
+      width: 1
+      height: 622.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A4A5A"
+      opacity: 0.2
+  - id: shape15
+    type: shape
+    frame:
+      x: 607.19
+      y: 445.56
+      width: 1
+      height: 622.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A4A5A"
+      opacity: 0.2
+  - id: shape16
+    type: shape
+    frame:
+      x: 814.28
+      y: 445.56
+      width: 1
+      height: 622.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A4A5A"
+      opacity: 0.2
+  - id: shape17
+    type: shape
+    frame:
+      x: 1021.38
+      y: 445.56
+      width: 1
+      height: 622.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A4A5A"
+      opacity: 0.2
+  - id: shape18
+    type: shape
+    frame:
+      x: 193
+      y: 601.22
+      width: 1035.47
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A4A5A"
+      opacity: 0.2
+  - id: shape19
+    type: shape
+    frame:
+      x: 193
+      y: 756.88
+      width: 1035.47
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A4A5A"
+      opacity: 0.2
+  - id: shape20
+    type: shape
+    frame:
+      x: 193
+      y: 912.53
+      width: 1035.47
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A4A5A"
+      opacity: 0.2
+  - id: shape22
+    type: shape
+    frame:
+      x: 1267.86
+      y: 444.56
+      width: 460.14
+      height: 193.81
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#15151C"
+  - id: shape21
+    type: shape
+    frame:
+      x: 1267.86
+      y: 444.56
+      width: 2
+      height: 193.81
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D5AF1"
+  - id: text11
+    type: text
+    name: SERVER UPTIME
+    frame:
+      x: 1308.25
+      y: 482.95
+      width: 381.41
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: SERVER UPTIME
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A8A9E"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: 99.99%
+    frame:
+      x: 1308.25
+      y: 516.78
+      width: 381.41
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: 99.99%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 19.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape23
+    type: shape
+    frame:
+      x: 1308.25
+      y: 595.98
+      width: 381.36
+      height: 4
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2A2A3A"
+  - id: shape24
+    type: shape
+    frame:
+      x: 1308.25
+      y: 595.98
+      width: 362.28
+      height: 4
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D5AF1"
+  - id: shape26
+    type: shape
+    frame:
+      x: 1267.86
+      y: 659.97
+      width: 460.14
+      height: 193.81
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#15151C"
+  - id: shape25
+    type: shape
+    frame:
+      x: 1267.86
+      y: 659.97
+      width: 2
+      height: 193.81
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8B1A2B"
+  - id: text13
+    type: text
+    name: MATCHMAKING SPEED
+    frame:
+      x: 1308.25
+      y: 698.36
+      width: 381.41
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: MATCHMAKING SPEED
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A8A9E"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: < 2s
+    frame:
+      x: 1308.25
+      y: 732.19
+      width: 381.41
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: < 2s
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 19.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape27
+    type: shape
+    frame:
+      x: 1308.25
+      y: 811.39
+      width: 381.36
+      height: 4
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2A2A3A"
+  - id: shape28
+    type: shape
+    frame:
+      x: 1308.25
+      y: 811.39
+      width: 305.08
+      height: 4
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8B1A2B"
+  - id: shape30
+    type: shape
+    frame:
+      x: 1267.86
+      y: 875.38
+      width: 460.14
+      height: 193.81
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#15151C"
+  - id: shape29
+    type: shape
+    frame:
+      x: 1267.86
+      y: 875.38
+      width: 2
+      height: 193.81
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D5AF1"
+  - id: text15
+    type: text
+    name: PLAYER RETENTION
+    frame:
+      x: 1308.25
+      y: 913.77
+      width: 381.41
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: PLAYER RETENTION
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A8A9E"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: 84%
+    frame:
+      x: 1308.25
+      y: 947.59
+      width: 381.41
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: 84%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 19.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape31
+    type: shape
+    frame:
+      x: 1308.25
+      y: 1026.8
+      width: 381.36
+      height: 4
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2A2A3A"
+  - id: shape32
+    type: shape
+    frame:
+      x: 1308.25
+      y: 1026.8
+      width: 320.33
+      height: 4
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D5AF1"
+  - id: shape34
+    type: shape
+    frame:
+      x: 250.59
+      y: 697.5
+      width: 153.34
+      height: 291.5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D5AF1"
+    opacity: 0.8
+  - id: shape33
+    type: shape
+    frame:
+      x: 250.59
+      y: 697.5
+      width: 153.34
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text17
+    type: text
+    name: Q1
+    frame:
+      x: 250.565
+      y: 995.47
+      width: 153.39
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Q1
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A8A9E"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape36
+    type: shape
+    frame:
+      x: 442.33
+      y: 576.05
+      width: 153.34
+      height: 412.95
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8B1A2B"
+    opacity: 0.8
+  - id: shape35
+    type: shape
+    frame:
+      x: 442.33
+      y: 576.05
+      width: 153.34
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text18
+    type: text
+    name: Q2
+    frame:
+      x: 442.305
+      y: 995.47
+      width: 153.39
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Q2
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A8A9E"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape38
+    type: shape
+    frame:
+      x: 634.06
+      y: 770.38
+      width: 153.34
+      height: 218.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D5AF1"
+    opacity: 0.8
+  - id: shape37
+    type: shape
+    frame:
+      x: 634.06
+      y: 770.38
+      width: 153.34
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text19
+    type: text
+    name: Q3
+    frame:
+      x: 634.035
+      y: 995.47
+      width: 153.39
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Q3
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A8A9E"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape40
+    type: shape
+    frame:
+      x: 825.8
+      y: 551.75
+      width: 153.34
+      height: 437.25
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8B1A2B"
+    opacity: 0.8
+  - id: shape39
+    type: shape
+    frame:
+      x: 825.8
+      y: 551.75
+      width: 153.34
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text20
+    type: text
+    name: Q4
+    frame:
+      x: 825.775
+      y: 995.47
+      width: 153.39
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Q4
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A8A9E"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape42
+    type: shape
+    frame:
+      x: 1017.53
+      y: 648.92
+      width: 153.34
+      height: 340.08
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D5AF1"
+    opacity: 0.8
+  - id: shape41
+    type: shape
+    frame:
+      x: 1017.53
+      y: 648.92
+      width: 153.34
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text21
+    type: text
+    name: Q5
+    frame:
+      x: 1017.505
+      y: 995.47
+      width: 153.39
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Q5
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A8A9E"
+          align: center
+          lineHeight: 1.5
+      overflow: visible

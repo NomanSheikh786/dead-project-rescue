@@ -1,0 +1,169 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#000000"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 958.98
+      y: 249.34
+      width: 2
+      height: 108
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF2D78"
+  - id: text1
+    type: text
+    name: Discover Nova.
+    frame:
+      x: 320.51
+      y: 400.53
+      width: 1278.98
+      height: 385
+    body:
+      paragraphs:
+        - runs:
+            - text: Discover Nova.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 96
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: text2
+    type: text
+    name: JOIN THE MOVEMENT
+    frame:
+      x: 704.33
+      y: 635.72
+      width: 511.32
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: JOIN THE MOVEMENT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 6.912
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape2
+    type: shape
+    frame:
+      x: 800.55
+      y: 756.67
+      width: 318.88
+      height: 73.98
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FF2D78"
+      widthPt: 0.5
+  - id: text3
+    type: text
+    name: CONTACT US
+    frame:
+      x: 800.53
+      y: 763.67
+      width: 318.93
+      height: 73.98
+    body:
+      paragraphs:
+        - runs:
+            - text: CONTACT US
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FF2D78"
+              letterSpacingPt: 1.92
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: text4
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 115.19
+      y: 1013.78
+      width: 544.63
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL © 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text5
+    type: text
+    name: "04"
+    frame:
+      x: 1779.02
+      y: 1013.78
+      width: 28.82
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7

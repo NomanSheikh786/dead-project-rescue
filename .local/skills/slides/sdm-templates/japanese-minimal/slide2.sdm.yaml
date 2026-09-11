@@ -1,0 +1,416 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FAF8F5"
+elements:
+  - id: text1
+    type: text
+    name: 原則 — Principles
+    frame:
+      x: 1637.91
+      y: 64.8
+      width: 198.86
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: 原則 — Principles
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#A0978D"
+              letterSpacingPt: 1.296
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 230.39
+      y: 162
+      width: 2
+      height: 756
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C53D43"
+  - id: shape2
+    type: shape
+    frame:
+      x: 460.8
+      y: 369.6
+      width: 1056
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.08
+  - id: text2
+    type: text
+    name: ○
+    frame:
+      x: 460.8
+      y: 228
+      width: 16.8
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ○
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C53D43"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text3
+    type: text
+    name: Simplicity
+    frame:
+      x: 506.34
+      y: 200
+      width: 217.32
+      height: 65.34
+    body:
+      paragraphs:
+        - runs:
+            - text: Simplicity
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 21.12
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+              letterSpacingPt: 0.422
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Strip away the non-essen...
+    frame:
+      x: 508.8
+      y: 279.53
+      width: 768.05
+      height: 67.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Strip away the non-essential. Find clarity in the minimal, allowing what remains to speak with greater force.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#8C8478"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 460.8
+      y: 578.6
+      width: 1056
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.08
+  - id: text5
+    type: text
+    name: ○
+    frame:
+      x: 460.8
+      y: 437
+      width: 16.8
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ○
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C53D43"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text6
+    type: text
+    name: Harmony
+    frame:
+      x: 506.34
+      y: 409
+      width: 184.33
+      height: 65.34
+    body:
+      paragraphs:
+        - runs:
+            - text: Harmony
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 21.12
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+              letterSpacingPt: 0.422
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Balance disparate elemen...
+    frame:
+      x: 508.8
+      y: 488.53
+      width: 768.05
+      height: 67.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Balance disparate elements to create a unified whole, where every part supports the underlying purpose.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#8C8478"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 460.8
+      y: 787.6
+      width: 1056
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.08
+  - id: text8
+    type: text
+    name: ○
+    frame:
+      x: 460.8
+      y: 646
+      width: 16.8
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ○
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C53D43"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text9
+    type: text
+    name: Intention
+    frame:
+      x: 506.34
+      y: 618
+      width: 210.41
+      height: 65.34
+    body:
+      paragraphs:
+        - runs:
+            - text: Intention
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 21.12
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+              letterSpacingPt: 0.422
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Every choice must have a...
+    frame:
+      x: 508.8
+      y: 697.53
+      width: 768.05
+      height: 67.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Every choice must have a deliberate purpose. Nothing is left to chance in the pursuit of perfection.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#8C8478"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text11
+    type: text
+    name: ○
+    frame:
+      x: 460.8
+      y: 855
+      width: 16.8
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ○
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C53D43"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text12
+    type: text
+    name: Craft
+    frame:
+      x: 506.34
+      y: 827
+      width: 133.14
+      height: 65.34
+    body:
+      paragraphs:
+        - runs:
+            - text: Craft
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 21.12
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+              letterSpacingPt: 0.422
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Honor the process. Pay d...
+    frame:
+      x: 508.8
+      y: 906.53
+      width: 768.05
+      height: 67.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Honor the process. Pay deep attention to the smallest details, for they are the foundation of quality.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#8C8478"
+          lineHeight: 1.6
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text14
+    type: text
+    name: "02"
+    frame:
+      x: 230.39
+      y: 1004.39
+      width: 23.66
+      height: 21.61
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.2
+              weight: 300
+              color:
+                kind: rgb
+                value: "#C4BCB2"
+              letterSpacingPt: 0.72
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 1528.19
+      y: 1004.39
+      width: 310.88
+      height: 21.61
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.2
+              weight: 300
+              color:
+                kind: rgb
+                value: "#C4BCB2"
+              letterSpacingPt: 0.36
+          lineHeight: 1.5
+      overflow: visible

@@ -1,0 +1,434 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#141414"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 230.19
+      y: -242.67
+      width: 58
+      height: 1565.34
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2A2A2A"
+  - id: shape2
+    type: shape
+    frame:
+      x: -192
+      y: -242.67
+      width: 480
+      height: 1565.34
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C84B31"
+    opacity: 0.9
+  - id: shape3
+    type: shape
+    frame:
+      x: 403.19
+      y: 89.27
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C84B31"
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 451.17
+      y: 86.39
+      width: 127.8
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1541.39
+      y: 86.39
+      width: 263.42
+      height: 43.58
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#141414"
+    stroke:
+      color:
+        kind: rgb
+        value: "#C84B31"
+      widthPt: 1
+  - id: text2
+    type: text
+    name: TRAINING PROTOCOL
+    frame:
+      x: 1541.39
+      y: 86.39
+      width: 263.47
+      height: 43.58
+    body:
+      paragraphs:
+        - runs:
+            - text: TRAINING PROTOCOL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 9.6
+        bottom: 2.7
+        left: 9.6
+  - id: text3
+    type: text
+    name: CORE PHILOSOPHY
+    frame:
+      x: 403.19
+      y: 194.77
+      width: 1401.68
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: CORE PHILOSOPHY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#C84B31"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: ENGINEERED FOR
+    frame:
+      x: 403.19
+      y: 240.13
+      width: 1401.68
+      height: 192
+    body:
+      paragraphs:
+        - runs:
+            - text: ENGINEERED FOR
+              font:
+                kind: family
+                family: Inter
+              sizePt: 48
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.96
+          lineHeight: 1
+        - runs:
+            - text: ENDURANCE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 48
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.96
+          lineHeight: 1
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 403.19
+      y: 496.91
+      width: 76.8
+      height: 5.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C84B31"
+  - id: text5
+    type: text
+    name: ADAPTATION PHASE
+    frame:
+      x: 403.19
+      y: 523.89
+      width: 416.05
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: ADAPTATION PHASE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Initial physical respons...
+    frame:
+      x: 403.19
+      y: 591.92
+      width: 416.05
+      height: 172.81
+    body:
+      paragraphs:
+        - runs:
+            - text: Initial physical response to targeted stress. Neuromuscular pathways are forged while the central nervous system learns efficient movement patterns.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 895.98
+      y: 496.91
+      width: 76.8
+      height: 5.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2A2A2A"
+  - id: text7
+    type: text
+    name: HYPERTROPHY
+    frame:
+      x: 895.98
+      y: 523.89
+      width: 416.07
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: HYPERTROPHY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Muscular expansion throu...
+    frame:
+      x: 895.98
+      y: 591.92
+      width: 416.07
+      height: 172.81
+    body:
+      paragraphs:
+        - runs:
+            - text: Muscular expansion through progressive overload. Volume and intensity scale non-linearly to force cellular synthesis and density upgrades.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 1388.8
+      y: 496.91
+      width: 76.8
+      height: 5.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text9
+    type: text
+    name: PEAK OUTPUT
+    frame:
+      x: 1388.8
+      y: 523.89
+      width: 416.07
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: PEAK OUTPUT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Tapering volume while ma...
+    frame:
+      x: 1388.8
+      y: 591.92
+      width: 428.55
+      height: 174.25
+    body:
+      paragraphs:
+        - runs:
+            - text: Tapering volume while maintaining intensity allows the body to dissipate fatigue, resulting in maximum force generation capability.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: EXAMPLE COMPANY, INC.
+    frame:
+      x: 403.19
+      y: 939.27
+      width: 252.12
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#888888"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: CONFIDENTIAL 2026
+    frame:
+      x: 403.19
+      y: 970.58
+      width: 237.85
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text13
+    type: text
+    name: "02"
+    frame:
+      x: 1766.52
+      y: 950.42
+      width: 38.35
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 800
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible

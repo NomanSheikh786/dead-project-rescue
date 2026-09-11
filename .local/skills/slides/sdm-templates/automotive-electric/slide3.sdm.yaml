@@ -1,0 +1,493 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#08080C"
+elements:
+  - id: text1
+    type: text
+    name: PERFORMANCE METRICS
+    frame:
+      x: 115.19
+      y: 129.59
+      width: 393.44
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: PERFORMANCE METRICS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A8B4"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: /
+    frame:
+      x: 494.09
+      y: 129.59
+      width: 18.49
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: /
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A90D9"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Q3 DATA
+    frame:
+      x: 541.33
+      y: 129.59
+      width: 136.79
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Q3 DATA
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A8B4"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Setting New Benchmarks
+    frame:
+      x: 115.19
+      y: 185.75
+      width: 938.42
+      height: 86.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Setting New Benchmarks
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 38.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.768
+          lineHeight: 1.1
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 302.61
+      width: 153.59
+      height: 2.16
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A90D9"
+  - id: text5
+    type: text
+    name: ACCELERATION (0-60 MPH)
+    frame:
+      x: 115.19
+      y: 486
+      width: 393.13
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACCELERATION (0-60 MPH)
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: 2.8s
+    frame:
+      x: 1202.69
+      y: 486
+      width: 64.55
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 2.8s
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A90D9"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 115.19
+      y: 531.36
+      width: 1152
+      height: 10.8
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.4
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A24"
+  - id: shape3
+    type: shape
+    frame:
+      x: 115.19
+      y: 531.36
+      width: 1094.39
+      height: 10.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A90D9"
+  - id: text7
+    type: text
+    name: EPA ESTIMATED RANGE
+    frame:
+      x: 115.19
+      y: 585.34
+      width: 324.77
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: EPA ESTIMATED RANGE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: 412 MILES
+    frame:
+      x: 1122.08
+      y: 585.34
+      width: 153.87
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 412 MILES
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A90D9"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 115.19
+      y: 630.7
+      width: 1152
+      height: 10.8
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.4
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A24"
+  - id: shape5
+    type: shape
+    frame:
+      x: 115.19
+      y: 630.7
+      width: 1013.75
+      height: 10.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A90D9"
+  - id: text9
+    type: text
+    name: PEAK POWER OUTPUT
+    frame:
+      x: 115.19
+      y: 684.69
+      width: 308.03
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: PEAK POWER OUTPUT
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: 1020 HP
+    frame:
+      x: 1154.33
+      y: 684.69
+      width: 119.68
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 1020 HP
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A90D9"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 115.19
+      y: 730.05
+      width: 1152
+      height: 10.8
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.4
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A24"
+  - id: shape7
+    type: shape
+    frame:
+      x: 115.19
+      y: 730.05
+      width: 1152
+      height: 10.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A90D9"
+  - id: shape9
+    type: shape
+    frame:
+      x: 1382.42
+      y: 486
+      width: 422.39
+      height: 350.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A24"
+  - id: shape8
+    type: shape
+    frame:
+      x: 1382.42
+      y: 486
+      width: 7
+      height: 350.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A90D9"
+  - id: text11
+    type: text
+    name: +42%
+    frame:
+      x: 1447.02
+      y: 543.59
+      width: 300.25
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: +42%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 28.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Improvement in thermal e...
+    frame:
+      x: 1447.02
+      y: 640.78
+      width: 300.25
+      height: 138.25
+    body:
+      paragraphs:
+        - runs:
+            - text: Improvement in thermal efficiency compared to previous generation architecture.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A8B4"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 1008.02
+      width: 94.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A8B4"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: "03"
+    frame:
+      x: 944.64
+      y: 1008.02
+      width: 34.77
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A8B4"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 1620.58
+      y: 1008.02
+      width: 195.34
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A8B4"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible

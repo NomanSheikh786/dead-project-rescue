@@ -1,0 +1,206 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#121216"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: coworking-skyline
+    altText: Workspace Skyline
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0.4
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.6
+          color:
+            kind: rgb
+            value: "#121216"
+          opacity: 0.85
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#121216"
+          opacity: 0.98
+  - id: text1
+    type: text
+    name: WORKSPACE & INTERIORS
+    frame:
+      x: 1209.59
+      y: 309.92
+      width: 276.16
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: WORKSPACE & INTERIORS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Project Brief
+    frame:
+      x: 1666.73
+      y: 309.92
+      width: 118.76
+      height: 48.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Project Brief
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Example Deck
+    frame:
+      x: 1209.59
+      y: 397.75
+      width: 556.86
+      height: 213.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 48
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -1.44
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 1209.59
+      y: 652.13
+      width: 556.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text4
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 1209.59
+      y: 696.31
+      width: 556.86
+      height: 73.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text5
+    type: text
+    name: acme.co
+    frame:
+      x: 1680.92
+      y: 952.58
+      width: 85.53
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: "2026"
+    frame:
+      x: 1723.39
+      y: 992.17
+      width: 49.07
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  coworking-skyline:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/coworking-skyline.png

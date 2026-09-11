@@ -1,0 +1,222 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#000000"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: eye-macro
+    altText: Vision Editorial Background
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.8
+        - offset: 0.45
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.3
+        - offset: 0.6
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape2
+    type: shape
+    frame:
+      x: 115.19
+      y: 100.23
+      width: 38.39
+      height: 1.08
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A0A0"
+  - id: text1
+    type: text
+    name: THE VISION ISSUE
+    frame:
+      x: 172.77
+      y: 89.27
+      width: 207.45
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: THE VISION ISSUE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#C4A0A0"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: NO. 01
+    frame:
+      x: 789.3
+      y: 86.39
+      width: 66.18
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: NO. 01
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A0A0"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 115.19
+      y: 346.88
+      width: 3.83
+      height: 354.95
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A0A0"
+    opacity: 0.6
+  - id: text3
+    type: text
+    name: Example Deck
+    frame:
+      x: 157.41
+      y: 346.88
+      width: 672.05
+      height: 255.44
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 157.41
+      y: 632.7
+      width: 672.05
+      height: 69.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text5
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 933.5
+      width: 729.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Beauty & Culture
+    frame:
+      x: 115.19
+      y: 967.69
+      width: 729.68
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Beauty & Culture
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A0A0"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  eye-macro:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/eye-macro.png

@@ -1,0 +1,292 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#1A3A2A"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: greenhouse-interior
+    altText: Greenhouse interior
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#1A3A2A"
+          opacity: 0.95
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#1A3A2A"
+          opacity: 0.8
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: text1
+    type: text
+    name: 🌿 NEXT STEPS
+    frame:
+      x: 153.59
+      y: 270
+      width: 203.27
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 🌿 NEXT STEPS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#F5F0E8"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text2
+    type: text
+    name: Let's Cultivate
+    frame:
+      x: 153.59
+      y: 331.19
+      width: 714.66
+      height: 350.28
+    body:
+      paragraphs:
+        - runs:
+            - text: Let's Cultivate
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 52.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5F0E8"
+              italic: true
+          lineHeight: 1.1
+        - runs:
+            - text: Your Future
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 52.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5F0E8"
+              italic: true
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: Ready to plant the seeds...
+    frame:
+      x: 153.59
+      y: 595.86
+      width: 712.37
+      height: 122.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Ready to plant the seeds of innovation? Connect with our botanical strategy team to design a bespoke ecosystem for your organization.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F5F0E8"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+    rotationDeg: 0.02
+  - id: shape2
+    type: shape
+    frame:
+      x: 153.59
+      y: 770.8
+      width: 960
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5F0E8"
+      opacity: 0.3
+  - id: text4
+    type: text
+    name: INQUIRIES
+    frame:
+      x: 153.59
+      y: 814.98
+      width: 170.13
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: INQUIRIES
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5F0E8"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text5
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 153.59
+      y: 848.81
+      width: 170.13
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#F5F0E8"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: LOCATION
+    frame:
+      x: 400.47
+      y: 814.98
+      width: 244.05
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: LOCATION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5F0E8"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text7
+    type: text
+    name: The Conservatory, NY
+    frame:
+      x: 400.47
+      y: 848.81
+      width: 274.21
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: The Conservatory, NY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#F5F0E8"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: acme.co
+    frame:
+      x: 76.8
+      y: 1021.69
+      width: 75.75
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F5F0E8"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text9
+    type: text
+    name: "04"
+    frame:
+      x: 1819.75
+      y: 1021.69
+      width: 26.5
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F5F0E8"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+assets:
+  greenhouse-interior:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/greenhouse-interior.png

@@ -1,0 +1,649 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FEFCF8"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 0
+      width: 3.83
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E54D2E"
+      opacity: 0.4
+  - id: shape2
+    type: shape
+    frame:
+      x: 163.19
+      y: 0
+      width: 1.91
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E54D2E"
+      opacity: 0.2
+  - id: text1
+    type: text
+    name: LAUNCHPAD
+    frame:
+      x: 230.39
+      y: 64.8
+      width: 153.35
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: LAUNCHPAD
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#888888"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 230.39
+      y: 980.64
+      width: 416.01
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "EXAMPLE COMPANY, INC. / "
+              color:
+                kind: rgb
+                value: "#666666"
+            - text: CONFIDENTIAL
+              color:
+                kind: rgb
+                value: "#E54D2E"
+          lineHeight: 1.5
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Courier New
+            sizePt: 9.6
+            weight: 700
+      overflow: visible
+  - id: text3
+    type: text
+    name: "02"
+    frame:
+      x: 1737.08
+      y: 980.64
+      width: 32.36
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Progress
+    frame:
+      x: 287.79
+      y: 194.49
+      width: 552.05
+      height: 117
+    body:
+      paragraphs:
+        - runs:
+            - text: Progress
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 57.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1
+      overflow: visible
+    rotationDeg: -1
+  - id: shape3
+    type: shape
+    frame:
+      x: 268.68
+      y: 314.16
+      width: 541
+      height: 6
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E54D2E"
+    rotationDeg: 1
+    opacity: 0.8
+  - id: shape4
+    type: shape
+    frame:
+      x: 320.99
+      y: 380
+      width: 48
+      height: 48
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FEFCF8"
+    stroke:
+      color:
+        kind: rgb
+        value: "#333333"
+      widthPt: 1.5
+    rotationDeg: 1
+  - id: text5
+    type: text
+    name: ✓
+    frame:
+      x: 324.9
+      y: 357.23
+      width: 48.05
+      height: 88
+    body:
+      paragraphs:
+        - runs:
+            - text: ✓
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 28.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E54D2E"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -4
+  - id: text6
+    type: text
+    name: Market Research
+    frame:
+      x: 407.56
+      y: 371.41
+      width: 435.89
+      height: 73
+    body:
+      paragraphs:
+        - runs:
+            - text: Market Research
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -1
+  - id: shape5
+    type: shape
+    frame:
+      x: 399.6
+      y: 399.29
+      width: 420
+      height: 4
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+      opacity: 0.6
+    rotationDeg: -2
+  - id: shape6
+    type: shape
+    frame:
+      x: 323.19
+      y: 471.99
+      width: 48
+      height: 48
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FEFCF8"
+    stroke:
+      color:
+        kind: rgb
+        value: "#333333"
+      widthPt: 1.5
+    rotationDeg: -2
+  - id: text7
+    type: text
+    name: ✓
+    frame:
+      x: 326.9
+      y: 449.02
+      width: 48.05
+      height: 88
+    body:
+      paragraphs:
+        - runs:
+            - text: ✓
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 28.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E54D2E"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -7
+  - id: text8
+    type: text
+    name: MVP Development
+    frame:
+      x: 409.33
+      y: 463.04
+      width: 442.05
+      height: 73
+    body:
+      paragraphs:
+        - runs:
+            - text: MVP Development
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -1
+  - id: shape7
+    type: shape
+    frame:
+      x: 400.58
+      y: 490.92
+      width: 464
+      height: 4
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+      opacity: 0.6
+    rotationDeg: -2
+  - id: shape8
+    type: shape
+    frame:
+      x: 325.39
+      y: 564
+      width: 48
+      height: 48
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FEFCF8"
+    stroke:
+      color:
+        kind: rgb
+        value: "#333333"
+      widthPt: 1.5
+    rotationDeg: 1
+  - id: text9
+    type: text
+    name: ✓
+    frame:
+      x: 329.3
+      y: 541.23
+      width: 48.05
+      height: 88
+    body:
+      paragraphs:
+        - runs:
+            - text: ✓
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 28.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E54D2E"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -4
+  - id: text10
+    type: text
+    name: Beta Launch
+    frame:
+      x: 411.63
+      y: 556.29
+      width: 320.69
+      height: 73
+    body:
+      paragraphs:
+        - runs:
+            - text: Beta Launch
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -1
+  - id: shape9
+    type: shape
+    frame:
+      x: 405.67
+      y: 584.18
+      width: 315
+      height: 4
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+      opacity: 0.6
+    rotationDeg: -2
+  - id: shape10
+    type: shape
+    frame:
+      x: 327.59
+      y: 656
+      width: 48
+      height: 48
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FEFCF8"
+    stroke:
+      color:
+        kind: rgb
+        value: "#333333"
+      widthPt: 1.5
+    rotationDeg: -2
+  - id: text11
+    type: text
+    name: ✓
+    frame:
+      x: 331.3
+      y: 633.03
+      width: 48.05
+      height: 88
+    body:
+      paragraphs:
+        - runs:
+            - text: ✓
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 28.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E54D2E"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -7
+  - id: text12
+    type: text
+    name: Seed Funding
+    frame:
+      x: 413.83
+      y: 648.07
+      width: 349.5
+      height: 73
+    body:
+      paragraphs:
+        - runs:
+            - text: Seed Funding
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -1
+  - id: shape11
+    type: shape
+    frame:
+      x: 407.46
+      y: 676.04
+      width: 342.06
+      height: 3.83
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+      opacity: 0.6
+  - id: text13
+    type: text
+    name: ★
+    frame:
+      x: 764.46
+      y: 617.34
+      width: 52.05
+      height: 88
+    body:
+      paragraphs:
+        - runs:
+            - text: ★
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E54D2E"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 19
+  - id: shape12
+    type: shape
+    frame:
+      x: 329.78
+      y: 748
+      width: 48
+      height: 48
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FEFCF8"
+    stroke:
+      color:
+        kind: rgb
+        value: "#333333"
+      widthPt: 1.5
+    rotationDeg: 1
+  - id: text14
+    type: text
+    name: Series A
+    frame:
+      x: 416
+      y: 741.2
+      width: 234.3
+      height: 73
+    body:
+      paragraphs:
+        - runs:
+            - text: Series A
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 24
+              weight: 700
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -1
+  - id: shape13
+    type: shape
+    frame:
+      x: 406.5
+      y: 718.71
+      width: 215
+      height: 101
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 50.5
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#E54D2E"
+      widthPt: 1.5
+    rotationDeg: -3
+  - id: text15
+    type: text
+    name: →
+    frame:
+      x: 224.32
+      y: 730.84
+      width: 48.05
+      height: 88
+    body:
+      paragraphs:
+        - runs:
+            - text: →
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 28.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E54D2E"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 14
+  - id: shape14
+    type: shape
+    frame:
+      x: 331.98
+      y: 840
+      width: 48
+      height: 48
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FEFCF8"
+    stroke:
+      color:
+        kind: rgb
+        value: "#333333"
+      widthPt: 1.5
+    rotationDeg: -2
+  - id: text16
+    type: text
+    name: International Expansion
+    frame:
+      x: 418.21
+      y: 829.95
+      width: 666.31
+      height: 73
+    body:
+      paragraphs:
+        - runs:
+            - text: International Expansion
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 24
+              weight: 700
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -1

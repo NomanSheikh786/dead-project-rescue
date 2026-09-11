@@ -1,0 +1,394 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#1A1216"
+elements:
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 110.44
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text2
+    type: text
+    name: BY THE NUMBERS
+    frame:
+      x: 1583.22
+      y: 66.23
+      width: 234.94
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: BY THE NUMBERS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+              letterSpacingPt: 3.072
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape1
+    type: shape
+    frame:
+      x: 859.22
+      y: 300.19
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0E8DC"
+      opacity: 0.4
+  - id: shape2
+    type: shape
+    frame:
+      x: 955
+      y: 295.69
+      width: 10
+      height: 10
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#F0E8DC"
+      widthPt: 0.5
+      opacity: 0.8
+    rotationDeg: 45
+  - id: shape3
+    type: shape
+    frame:
+      x: 983.98
+      y: 300.19
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0E8DC"
+      opacity: 0.4
+  - id: text3
+    type: text
+    name: "18"
+    frame:
+      x: 544.9
+      y: 370.28
+      width: 154.11
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: "18"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+              italic: true
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: text4
+    type: text
+    name: YEARS AGED
+    frame:
+      x: 546.32
+      y: 507.08
+      width: 151.27
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: YEARS AGED
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+              letterSpacingPt: 1.728
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text5
+    type: text
+    name: "250"
+    frame:
+      x: 834.9
+      y: 370.28
+      width: 231.07
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: "250"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+              italic: true
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: text6
+    type: text
+    name: CASKS PRODUCED
+    frame:
+      x: 810.445
+      y: 507.08
+      width: 280
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: CASKS PRODUCED
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+              letterSpacingPt: 1.728
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text7
+    type: text
+    name: "3"
+    frame:
+      x: 1249.53
+      y: 370.28
+      width: 77.93
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: "3"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+              italic: true
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: text8
+    type: text
+    name: GOLD MEDALS
+    frame:
+      x: 1202.71
+      y: 507.08
+      width: 171.54
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: GOLD MEDALS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+              letterSpacingPt: 1.728
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: shape4
+    type: shape
+    frame:
+      x: 384
+      y: 641
+      width: 1152
+      height: 145.98
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#F0E8DC"
+      widthPt: 0.5
+      opacity: 0.15
+  - id: text9
+    type: text
+    name: Limited Reserve Allocati...
+    frame:
+      x: 428.19
+      y: 685.19
+      width: 462.57
+      height: 117
+    body:
+      paragraphs:
+        - runs:
+            - text: Limited Reserve Allocation
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: "Domestic: 45%"
+    frame:
+      x: 1202.89
+      y: 699.59
+      width: 147.31
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "Domestic: "
+            - text: 45%
+          lineHeight: 1.5
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Inter
+            sizePt: 9.6
+            weight: 400
+            color:
+              kind: rgb
+              value: "#F0E8DC"
+      overflow: visible
+  - id: text11
+    type: text
+    name: "Export: 55%"
+    frame:
+      x: 1380.2
+      y: 699.59
+      width: 132.99
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "Export: "
+            - text: 55%
+          lineHeight: 1.5
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Inter
+            sizePt: 9.6
+            weight: 400
+            color:
+              kind: rgb
+              value: "#F0E8DC"
+      overflow: visible
+  - id: text12
+    type: text
+    name: EXAMPLE COMPANY, INC.
+    frame:
+      x: 115.19
+      y: 992.17
+      width: 239.79
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text13
+    type: text
+    name: "03"
+    frame:
+      x: 1782.56
+      y: 992.17
+      width: 25.3
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5

@@ -1,0 +1,341 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#2D3436"
+elements:
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 96.78
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E2D5"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1711.13
+      y: 86.39
+      width: 62.33
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E2D5"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: CHAPTER 2
+    frame:
+      x: 153.5
+      y: 164.23
+      width: 1613.05
+      height: 45
+    body:
+      paragraphs:
+        - runs:
+            - text: CHAPTER 2
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E2D5"
+              letterSpacingPt: 2.88
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -0.5
+    opacity: 0.9
+  - id: text4
+    type: text
+    name: Core Principles
+    frame:
+      x: 153.5
+      y: 218.12
+      width: 1613.05
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: Core Principles
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E8E2D5"
+              letterSpacingPt: -0.96
+          lineHeight: 1
+      overflow: visible
+    rotationDeg: 0.2
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 330.43
+      width: 864
+      height: 3
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8E2D5"
+    rotationDeg: -0.5
+    opacity: 0.7
+  - id: text5
+    type: text
+    name: 01. SIMPLICITY
+    frame:
+      x: 154.4
+      y: 419.94
+      width: 461.05
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: 01. SIMPLICITY
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 24
+              weight: 600
+              color:
+                kind: rgb
+                value: "#E8E2D5"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.5
+  - id: text6
+    type: text
+    name: Strip away the unnecessa...
+    frame:
+      x: 153.09
+      y: 513.69
+      width: 534.49
+      height: 186
+    body:
+      paragraphs:
+        - runs:
+            - text: Strip away the unnecessary. In an increasingly noisy world, clarity is the ultimate competitive advantage.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E2D5"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.5
+    opacity: 0.85
+  - id: text7
+    type: text
+    name: 02. UTILITY
+    frame:
+      x: 728.96
+      y: 419.94
+      width: 461.05
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: 02. UTILITY
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 24
+              weight: 600
+              color:
+                kind: rgb
+                value: "#E8E2D5"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -0.3
+  - id: text8
+    type: text
+    name: Form follows function. D...
+    frame:
+      x: 729.75
+      y: 513.69
+      width: 461.05
+      height: 186
+    body:
+      paragraphs:
+        - runs:
+            - text: Form follows function. Design is not just how it looks and feels, design is how it works under pressure.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E2D5"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -0.3
+    opacity: 0.85
+  - id: text9
+    type: text
+    name: 03. DURABILITY
+    frame:
+      x: 1305.86
+      y: 419.94
+      width: 461.05
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: 03. DURABILITY
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 24
+              weight: 600
+              color:
+                kind: rgb
+                value: "#E8E2D5"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.2
+  - id: text10
+    type: text
+    name: Build things that last. ...
+    frame:
+      x: 1305.34
+      y: 513.69
+      width: 534.49
+      height: 186
+    body:
+      paragraphs:
+        - runs:
+            - text: Build things that last. Temporary solutions yield temporary results. Invest in robust foundational layers.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E2D5"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.2
+    opacity: 0.85
+  - id: shape3
+    type: shape
+    frame:
+      x: 0
+      y: 1026
+      width: 1920
+      height: 10.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#222728"
+  - id: shape2
+    type: shape
+    frame:
+      x: 0
+      y: 1026
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3F484B"
+  - id: text11
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 153.82
+      y: 964.71
+      width: 426.47
+      height: 29
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E2D5"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -0.5
+    opacity: 0.6
+  - id: text12
+    type: text
+    name: Page 02
+    frame:
+      x: 1685.81
+      y: 964.81
+      width: 80.64
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Page 02
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E2D5"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6

@@ -1,0 +1,290 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A1628"
+elements:
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 96
+      y: 54
+      width: 119.22
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.288
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: partnerships@acme.co
+    frame:
+      x: 1383.11
+      y: 54
+      width: 207.24
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: partnerships@acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0AEC0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: +1 (555) 019-2834
+    frame:
+      x: 1647.89
+      y: 54
+      width: 186.73
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: +1 (555) 019-2834
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0AEC0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 576
+      y: 437.47
+      width: 768
+      height: 108
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.05
+  - id: text4
+    type: text
+    name: The future belongs to th...
+    frame:
+      x: 451.17
+      y: 565.27
+      width: 1017.65
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: The future belongs to those who prepare for it today. Let's create something extraordinary together.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E2E8F0"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 633.17
+      y: 733.75
+      width: 277.48
+      height: 79.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text5
+    type: text
+    name: Initiate Project
+    frame:
+      x: 615.99
+      y: 733.75
+      width: 311.83
+      height: 79.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Initiate Project
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#0A1628"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 28.8
+        bottom: 10.8
+        left: 28.8
+  - id: shape3
+    type: shape
+    frame:
+      x: 949.05
+      y: 733.75
+      width: 337.77
+      height: 79.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+  - id: text6
+    type: text
+    name: Download Full Deck
+    frame:
+      x: 949.025
+      y: 733.75
+      width: 337.82
+      height: 79.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Download Full Deck
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 28.8
+        bottom: 10.8
+        left: 28.8
+  - id: shape4
+    type: shape
+    frame:
+      x: 96
+      y: 977.48
+      width: 1728
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text7
+    type: text
+    name: Thank You / Example Deck
+    frame:
+      x: 96
+      y: 1000.08
+      width: 380
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Thank You / Example Deck
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0AEC0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: "04"
+    frame:
+      x: 1803.28
+      y: 1000.08
+      width: 24.77
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Ready to Build.
+    frame:
+      x: 538.26
+      y: 417.67
+      width: 843.48
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: Ready to Build.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -2.304
+          align: center
+          lineHeight: 1
+      overflow: visible
+    rotationDeg: 0.02

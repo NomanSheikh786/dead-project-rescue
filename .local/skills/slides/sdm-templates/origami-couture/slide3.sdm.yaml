@@ -1,0 +1,365 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 384
+      y: 144
+      width: 1152
+      height: 1152
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#F0F0F0"
+      widthPt: 1.5
+  - id: shape2
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 153.59
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0A0A0A"
+  - id: text1
+    type: text
+    name: ISSUE 01
+    frame:
+      x: 30.8
+      y: 77.88
+      width: 94.81
+      height: 48
+    body:
+      paragraphs:
+        - runs:
+            - text: ISSUE 01
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 270
+  - id: text2
+    type: text
+    name: By the Numbers
+    frame:
+      x: 288
+      y: 108
+      width: 441.64
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: By the Numbers
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 28.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#0A0A0A"
+              letterSpacingPt: -0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 288
+      y: 324
+      width: 576
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0A0A0A"
+  - id: text3
+    type: text
+    name: 84%
+    frame:
+      x: 288
+      y: 358.39
+      width: 576.05
+      height: 155.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "84"
+              sizePt: 76.8
+              color:
+                kind: rgb
+                value: "#0A0A0A"
+            - text: "%"
+              sizePt: 48
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Space Grotesk
+            weight: 800
+            letterSpacingPt: -3.84
+      overflow: visible
+  - id: text4
+    type: text
+    name: Increase in brand engage...
+    frame:
+      x: 288
+      y: 522.78
+      width: 576.05
+      height: 69.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Increase in brand engagement across all digital touchpoints over the last quarter.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 979.19
+      y: 324
+      width: 576
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0A0A0A"
+  - id: text5
+    type: text
+    name: 2.5x
+    frame:
+      x: 979.19
+      y: 358.39
+      width: 576.05
+      height: 155.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "2.5"
+              sizePt: 76.8
+              color:
+                kind: rgb
+                value: "#0A0A0A"
+            - text: x
+              sizePt: 48
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Space Grotesk
+            weight: 800
+            letterSpacingPt: -3.84
+      overflow: visible
+  - id: text6
+    type: text
+    name: Multiplier effect on use...
+    frame:
+      x: 979.19
+      y: 522.78
+      width: 576.05
+      height: 69.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Multiplier effect on user retention when implementing editorial-led design systems.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 288
+      y: 750.28
+      width: 576
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0E0E0"
+  - id: text7
+    type: text
+    name: 10k+
+    frame:
+      x: 288
+      y: 784.67
+      width: 576.05
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: 10k+
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#0A0A0A"
+              letterSpacingPt: -1.92
+          lineHeight: 1
+      overflow: visible
+  - id: text8
+    type: text
+    name: Active monthly subscribe...
+    frame:
+      x: 288
+      y: 891.47
+      width: 576.05
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Active monthly subscribers
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 979.19
+      y: 750.28
+      width: 576
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0E0E0"
+  - id: text9
+    type: text
+    name: $4.2M
+    frame:
+      x: 979.19
+      y: 784.67
+      width: 576.05
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: $4.2M
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#0A0A0A"
+              letterSpacingPt: -1.92
+          lineHeight: 1
+      overflow: visible
+  - id: text10
+    type: text
+    name: Revenue generated in 202...
+    frame:
+      x: 979.19
+      y: 891.47
+      width: 576.05
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Revenue generated in 2024
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: "03"
+    frame:
+      x: 1776.92
+      y: 986.41
+      width: 30.94
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#0A0A0A"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible

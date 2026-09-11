@@ -1,0 +1,239 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#080808"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: sneaker-float
+    altText: Floating Sneaker
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#080808"
+          opacity: 0.92
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#080808"
+          opacity: 0.5
+        - offset: 0.65
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape2
+    type: shape
+    frame:
+      x: 115.19
+      y: 153.59
+      width: 149.89
+      height: 39.41
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.7
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#7AB87A"
+      widthPt: 0.5
+  - id: text1
+    type: text
+    name: NEW DROP
+    frame:
+      x: 115.19
+      y: 153.59
+      width: 149.94
+      height: 39.41
+    body:
+      paragraphs:
+        - runs:
+            - text: NEW DROP
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.16
+              weight: 700
+              color:
+                kind: rgb
+                value: "#7AB87A"
+              letterSpacingPt: 0.816
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 3.24
+        right: 11.52
+        bottom: 3.24
+        left: 11.52
+  - id: text2
+    type: text
+    name: SS/26 COLLECTION
+    frame:
+      x: 293.88
+      y: 161.06
+      width: 194.38
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: SS/26 COLLECTION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.16
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.816
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: EXAMPLE DECK
+    frame:
+      x: 115.19
+      y: 357.8
+      width: 825.68
+      height: 243.91
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE DECK
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 67.2
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -2.016
+          lineHeight: 0.9
+      overflow: visible
+  - id: text4
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 115.19
+      y: 632.09
+      width: 768.05
+      height: 88.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text5
+    type: text
+    name: "COLORWAY: ARCTIC WHITE"
+    frame:
+      x: 115.19
+      y: 826.47
+      width: 825.68
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "COLORWAY: ARCTIC WHITE"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7AB87A"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: "STYLE: EX-2026"
+    frame:
+      x: 115.19
+      y: 863.19
+      width: 825.68
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "STYLE: EX-2026"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7AB87A"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 894.72
+      width: 825.68
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.528
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+assets:
+  sneaker-float:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/sneaker-float.png

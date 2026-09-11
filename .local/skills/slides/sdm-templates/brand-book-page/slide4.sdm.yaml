@@ -1,0 +1,287 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: text1
+    type: text
+    name: BRAND GUIDELINES / 2026
+    frame:
+      x: 1461.05
+      y: 86.39
+      width: 314.28
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: BRAND GUIDELINES / 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 0.96
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Let's build something re...
+    frame:
+      x: 383.975
+      y: 222.45
+      width: 1152.05
+      height: 213.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Let's build something remarkable.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -1.44
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: For brand assets, detail...
+    frame:
+      x: 383.975
+      y: 476.83
+      width: 1152.05
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: For brand assets, detailed guidelines, and press inquiries, please reach out to our communications team.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 637.25
+      y: 645.31
+      width: 334.8
+      height: 94.16
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 4
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A2530"
+  - id: text4
+    type: text
+    name: Download Brand Kit
+    frame:
+      x: 627.18
+      y: 645.31
+      width: 354.94
+      height: 94.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Download Brand Kit
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 14.4
+        right: 28.8
+        bottom: 14.4
+        left: 28.8
+  - id: shape2
+    type: shape
+    frame:
+      x: 1010.44
+      y: 645.31
+      width: 272.31
+      height: 94.16
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 4
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#E5E5E5"
+      widthPt: 0.5
+  - id: text5
+    type: text
+    name: Contact Team
+    frame:
+      x: 1002.24
+      y: 645.31
+      width: 288.7
+      height: 94.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Contact Team
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 14.4
+        right: 28.8
+        bottom: 14.4
+        left: 28.8
+  - id: text6
+    type: text
+    name: press@acme.co
+    frame:
+      x: 610.855
+      y: 825.86
+      width: 164.71
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: press@acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: +1 (555) 123-4567
+    frame:
+      x: 845.84
+      y: 825.86
+      width: 228.3
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: +1 (555) 123-4567
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: acme.co/brand
+    frame:
+      x: 1144.425
+      y: 825.86
+      width: 164.71
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co/brand
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: acme.co — Example Compan...
+    frame:
+      x: 153.565
+      y: 964.81
+      width: 320.27
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co — Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: "04"
+    frame:
+      x: 1740.945
+      y: 964.81
+      width: 25.49
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible

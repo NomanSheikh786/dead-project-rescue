@@ -1,0 +1,411 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FCFAF8"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 218.39
+      width: 486.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E5E5E5"
+  - id: text1
+    type: text
+    name: 78%
+    frame:
+      x: 153.59
+      y: 262.58
+      width: 486.46
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: 78%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1
+      overflow: visible
+  - id: text2
+    type: text
+    name: Increase in engagement
+    frame:
+      x: 153.59
+      y: 399.38
+      width: 486.46
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Increase in engagement
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 716.8
+      y: 218.39
+      width: 486.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E5E5E5"
+  - id: text3
+    type: text
+    name: 1.2M
+    frame:
+      x: 716.8
+      y: 262.58
+      width: 486.46
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: 1.2M
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Visitors annually
+    frame:
+      x: 716.8
+      y: 399.38
+      width: 486.46
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Visitors annually
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 1280
+      y: 218.39
+      width: 486.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E5E5E5"
+  - id: text5
+    type: text
+    name: 45+
+    frame:
+      x: 1280
+      y: 262.58
+      width: 486.46
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: 45+
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1
+      overflow: visible
+  - id: text6
+    type: text
+    name: Exhibitions hosted
+    frame:
+      x: 1280
+      y: 399.38
+      width: 486.46
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Exhibitions hosted
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 153.59
+      y: 837.56
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E5E5E5"
+  - id: shape5
+    type: shape
+    frame:
+      x: 153.59
+      y: 710.48
+      width: 144
+      height: 105.48
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+    opacity: 0.1
+  - id: shape6
+    type: shape
+    frame:
+      x: 316.78
+      y: 665.27
+      width: 144.02
+      height: 150.7
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+    opacity: 0.1
+  - id: shape7
+    type: shape
+    frame:
+      x: 479.98
+      y: 755.69
+      width: 144
+      height: 60.28
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+    opacity: 0.1
+  - id: shape8
+    type: shape
+    frame:
+      x: 643.17
+      y: 620.06
+      width: 144.02
+      height: 195.91
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+    opacity: 0.1
+  - id: shape9
+    type: shape
+    frame:
+      x: 806.38
+      y: 574.84
+      width: 144.02
+      height: 241.13
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+    opacity: 0.1
+  - id: shape10
+    type: shape
+    frame:
+      x: 969.58
+      y: 680.34
+      width: 144.02
+      height: 135.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+    opacity: 0.1
+  - id: shape11
+    type: shape
+    frame:
+      x: 1132.78
+      y: 544.7
+      width: 144.02
+      height: 271.27
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: shape12
+    type: shape
+    frame:
+      x: 1295.98
+      y: 635.13
+      width: 144.02
+      height: 180.84
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+    opacity: 0.1
+  - id: shape13
+    type: shape
+    frame:
+      x: 1459.19
+      y: 589.92
+      width: 144.02
+      height: 226.05
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+    opacity: 0.1
+  - id: shape14
+    type: shape
+    frame:
+      x: 1622.39
+      y: 695.41
+      width: 144.02
+      height: 120.56
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+    opacity: 0.1
+  - id: text7
+    type: text
+    name: METRICS & IMPACT
+    frame:
+      x: 153.59
+      y: 1002.97
+      width: 218.59
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: METRICS & IMPACT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: "03"
+    frame:
+      x: 1740.7
+      y: 1002.97
+      width: 28.75
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible

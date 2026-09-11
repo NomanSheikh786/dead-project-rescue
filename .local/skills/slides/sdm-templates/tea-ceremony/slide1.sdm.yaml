@@ -1,0 +1,175 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#1A1A1A"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: tea-ceremony
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#F5F0E6"
+          opacity: 0.9
+        - offset: 0.2
+          color:
+            kind: rgb
+            value: "#F5F0E6"
+          opacity: 0.9
+        - offset: 0.45
+          color:
+            kind: rgb
+            value: "#F5F0E6"
+          opacity: 0.75
+        - offset: 0.55
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 104.22
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 200
+              color:
+                kind: rgb
+                value: "#3B2F20"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: 一期一会
+    frame:
+      x: 731.6
+      y: 193.83
+      width: 101.66
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: 一期一会
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 200
+              color:
+                kind: rgb
+                value: "#3B2F20"
+              letterSpacingPt: 2.7
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 90
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: Example Deck
+    frame:
+      x: 153.59
+      y: 362.83
+      width: 652.86
+      height: 255.44
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#3B2F20"
+              letterSpacingPt: -1.152
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 153.59
+      y: 659.45
+      width: 652.86
+      height: 94.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 100
+              color:
+                kind: rgb
+                value: "#3B2F20"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.9
+  - id: text5
+    type: text
+    name: "2026"
+    frame:
+      x: 153.59
+      y: 964.81
+      width: 652.86
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 200
+              color:
+                kind: rgb
+                value: "#3B2F20"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+assets:
+  tea-ceremony:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/tea-ceremony.png

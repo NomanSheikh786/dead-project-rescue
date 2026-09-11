@@ -1,0 +1,327 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F0E6"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 135
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.4
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 104.22
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 200
+              color:
+                kind: rgb
+                value: "#3B2F20"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: 一期一会
+    frame:
+      x: 1691.6
+      y: 193.83
+      width: 101.66
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: 一期一会
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 200
+              color:
+                kind: rgb
+                value: "#3B2F20"
+              letterSpacingPt: 2.7
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 90
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: Measured
+    frame:
+      x: 153.59
+      y: 270
+      width: 645.16
+      height: 170.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Measured
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#3B2F20"
+              letterSpacingPt: -0.384
+          lineHeight: 1.1
+        - runs:
+            - text: Impact
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#3B2F20"
+              letterSpacingPt: -0.384
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Precision is quiet. The ...
+    frame:
+      x: 153.59
+      y: 482.13
+      width: 645.16
+      height: 110.63
+    body:
+      paragraphs:
+        - runs:
+            - text: Precision is quiet. The numbers speak for themselves without needing to shout. Growth is organic, rooted in deeply considered actions.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 200
+              color:
+                kind: rgb
+                value: "#3B2F20"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+  - id: text5
+    type: text
+    name: 73%
+    frame:
+      x: 1234.56
+      y: 327.44
+      width: 279.68
+      height: 155.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "73"
+              sizePt: 76.8
+            - text: "%"
+              sizePt: 38.4
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            weight: 400
+            color:
+              kind: rgb
+              value: "#3B2F20"
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 1234.56
+      y: 491.83
+      width: 188.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3B2F20"
+      opacity: 0.2
+  - id: text6
+    type: text
+    name: Clarity Achieved
+    frame:
+      x: 1234.56
+      y: 491.83
+      width: 188.68
+      height: 43.48
+    body:
+      paragraphs:
+        - runs:
+            - text: Clarity Achieved
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 200
+              color:
+                kind: rgb
+                value: "#3B2F20"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 5.4
+        right: 0
+        bottom: 0
+        left: 0
+    opacity: 0.6
+  - id: text7
+    type: text
+    name: 2.4x
+    frame:
+      x: 1538.38
+      y: 327.44
+      width: 300.07
+      height: 155.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "2.4"
+              sizePt: 76.8
+            - text: x
+              sizePt: 38.4
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            weight: 400
+            color:
+              kind: rgb
+              value: "#3B2F20"
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 1538.38
+      y: 491.83
+      width: 228.02
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3B2F20"
+      opacity: 0.2
+  - id: text8
+    type: text
+    name: Harmonic Resonance
+    frame:
+      x: 1538.38
+      y: 491.83
+      width: 228.07
+      height: 43.48
+    body:
+      paragraphs:
+        - runs:
+            - text: Harmonic Resonance
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 200
+              color:
+                kind: rgb
+                value: "#3B2F20"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 5.4
+        right: 0
+        bottom: 0
+        left: 0
+    opacity: 0.6
+  - id: text9
+    type: text
+    name: "2026"
+    frame:
+      x: 153.59
+      y: 964.81
+      width: 56.36
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 200
+              color:
+                kind: rgb
+                value: "#3B2F20"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text10
+    type: text
+    name: "03"
+    frame:
+      x: 1741.5
+      y: 964.81
+      width: 28.96
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 200
+              color:
+                kind: rgb
+                value: "#3B2F20"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8

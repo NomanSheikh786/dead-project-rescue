@@ -1,0 +1,368 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1152
+      y: -216
+      width: 960
+      height: 960
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2A7B7B"
+      widthPt: 1.5
+    opacity: 0.2
+  - id: text1
+    type: text
+    name: 01. OUR APPROACH
+    frame:
+      x: 153.59
+      y: 108
+      width: 681.8
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 01. OUR APPROACH
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2A7B7B"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Systemic Solutions
+    frame:
+      x: 153.59
+      y: 153.36
+      width: 722.71
+      height: 86.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Systemic Solutions
+              font:
+                kind: family
+                family: Inter
+              sizePt: 38.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A2E"
+              letterSpacingPt: -0.768
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 153.59
+      y: 324.22
+      width: 486.41
+      height: 391.89
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F8F9FA"
+  - id: shape3
+    type: shape
+    frame:
+      x: 211.19
+      y: 367.41
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2A7B7B"
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: Patient-Centric Care
+    frame:
+      x: 211.19
+      y: 457.39
+      width: 393.55
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Patient-Centric Care
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A2E"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Our methodology places t...
+    frame:
+      x: 211.19
+      y: 525.42
+      width: 393.55
+      height: 147.5
+    body:
+      paragraphs:
+        - runs:
+            - text: Our methodology places the patient at the core, ensuring personalized treatment plans and enhanced overall outcomes.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A68"
+          lineHeight: 1.6
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape4
+    type: shape
+    frame:
+      x: 716.8
+      y: 324.22
+      width: 486.41
+      height: 391.89
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F8F9FA"
+  - id: shape5
+    type: shape
+    frame:
+      x: 774.39
+      y: 367.41
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2A7B7B"
+    opacity: 0.8
+  - id: text5
+    type: text
+    name: Data Integration
+    frame:
+      x: 774.39
+      y: 457.39
+      width: 371.27
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Data Integration
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A2E"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Seamlessly connecting fr...
+    frame:
+      x: 774.39
+      y: 525.42
+      width: 371.27
+      height: 147.5
+    body:
+      paragraphs:
+        - runs:
+            - text: Seamlessly connecting fragmented health records into a singular, comprehensive longitudinal patient timeline.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A68"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 1280
+      y: 324.22
+      width: 486.41
+      height: 391.89
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F8F9FA"
+  - id: shape7
+    type: shape
+    frame:
+      x: 1337.59
+      y: 367.41
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2A7B7B"
+    opacity: 0.8
+  - id: text7
+    type: text
+    name: Proactive Analytics
+    frame:
+      x: 1337.59
+      y: 457.39
+      width: 371.27
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Proactive Analytics
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A2E"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Leveraging advanced algo...
+    frame:
+      x: 1337.59
+      y: 525.42
+      width: 371.27
+      height: 147.5
+    body:
+      paragraphs:
+        - runs:
+            - text: Leveraging advanced algorithms to predict health risks and intervene before acute incidents occur.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A68"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 0
+      y: 972
+      width: 1920
+      height: 108
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2A7B7B"
+  - id: text9
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 1011.59
+      width: 85.53
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: "02"
+    frame:
+      x: 1742.19
+      y: 1011.59
+      width: 27.27
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8

@@ -1,0 +1,284 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#1B5E5A"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: -192
+      y: -192
+      width: 960
+      height: 960
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FDF8F0"
+    opacity: 0.05
+  - id: shape2
+    type: shape
+    frame:
+      x: 1344
+      y: 600
+      width: 768
+      height: 768
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4654A"
+    opacity: 0.1
+  - id: shape3
+    type: shape
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 48
+      height: 48
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#C4654A"
+      widthPt: 1
+  - id: shape4
+    type: shape
+    frame:
+      x: 129.59
+      y: 79.2
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4654A"
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 182.38
+      y: 71.52
+      width: 125.19
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FDF8F0"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: GET INVOLVED
+    frame:
+      x: 1653.86
+      y: 74.39
+      width: 160.06
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: GET INVOLVED
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#C4654A"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: PARTNER WITH US
+    frame:
+      x: 820
+      y: 177.59
+      width: 279.98
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: PARTNER WITH US
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#C4654A"
+              letterSpacingPt: 1.728
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Together, we can build a...
+    frame:
+      x: 287.975
+      y: 244.55
+      width: 1344.05
+      height: 443.53
+    body:
+      paragraphs:
+        - runs:
+            - text: Together, we can build a better tomorrow.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 67.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FDF8F0"
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text5
+    type: text
+    name: Your support enables us ...
+    frame:
+      x: 451.17
+      y: 731.27
+      width: 1017.65
+      height: 100.28
+    body:
+      paragraphs:
+        - runs:
+            - text: Your support enables us to expand our reach and deepen our impact. Join our network of advocates, donors, and volunteers.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 15.36
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDF8F0"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.85
+  - id: shape5
+    type: shape
+    frame:
+      x: 591.97
+      y: 894.34
+      width: 324.2
+      height: 79.75
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 4
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4654A"
+  - id: text6
+    type: text
+    name: DONATE NOW
+    frame:
+      x: 591.945
+      y: 894.34
+      width: 324.25
+      height: 79.75
+    body:
+      paragraphs:
+        - runs:
+            - text: DONATE NOW
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FDF8F0"
+              letterSpacingPt: 0.576
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: shape6
+    type: shape
+    frame:
+      x: 973.77
+      y: 894.34
+      width: 354.27
+      height: 79.75
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 4
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FDF8F0"
+      widthPt: 0.5
+  - id: text7
+    type: text
+    name: CONTACT TEAM
+    frame:
+      x: 973.745
+      y: 894.34
+      width: 354.32
+      height: 79.75
+    body:
+      paragraphs:
+        - runs:
+            - text: CONTACT TEAM
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FDF8F0"
+              letterSpacingPt: 0.576
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4

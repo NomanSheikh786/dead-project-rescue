@@ -1,0 +1,220 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A1432"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: underwater-dancer
+    altText: Underwater Dancer
+    fit: cover
+    opacity: 0.6
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 60.64
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#0A1432"
+          opacity: 0.4
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#0A1432"
+          opacity: 0.9
+  - id: text1
+    type: text
+    name: THE NEXT HORIZON
+    frame:
+      x: 813.02
+      y: 310.42
+      width: 293.97
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: THE NEXT HORIZON
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#9AA8C8"
+              letterSpacingPt: 2.88
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Dive in with us.
+    frame:
+      x: 595.52
+      y: 382.41
+      width: 728.94
+      height: 234.14
+    body:
+      paragraphs:
+        - runs:
+            - text: Dive in with us.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 52.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E4F0"
+              italic: true
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: Ready to explore the dep...
+    frame:
+      x: 361.08
+      y: 563.33
+      width: 1197.84
+      height: 88
+    body:
+      paragraphs:
+        - runs:
+            - text: Ready to explore the depths of your brand's potential? Let's chart a course together.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 100
+              color:
+                kind: rgb
+                value: "#E8E4F0"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+    rotationDeg: 0.02
+  - id: shape2
+    type: shape
+    frame:
+      x: 794.3
+      y: 692.7
+      width: 331.41
+      height: 76.88
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 38.44
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0A1432"
+      opacity: 0.3
+    stroke:
+      color:
+        kind: rgb
+        value: "#9AA8C8"
+      widthPt: 0.5
+      opacity: 0.5
+  - id: text4
+    type: text
+    name: GET IN TOUCH
+    frame:
+      x: 794.275
+      y: 692.7
+      width: 331.46
+      height: 76.88
+    body:
+      paragraphs:
+        - runs:
+            - text: GET IN TOUCH
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#E8E4F0"
+              letterSpacingPt: 1.056
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: text5
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 943.2
+      width: 90.14
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#E8E4F0"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: "04"
+    frame:
+      x: 1745.67
+      y: 943.2
+      width: 26.78
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#9AA8C8"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  underwater-dancer:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/underwater-dancer.png

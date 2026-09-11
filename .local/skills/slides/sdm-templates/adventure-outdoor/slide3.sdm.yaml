@@ -1,0 +1,657 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0F0C08"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: autumn-road
+    fit: cover
+    opacity: 0.2
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 60.64
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#0F0C08"
+          opacity: 0.8
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#0F0C08"
+  - id: shape2
+    type: shape
+    frame:
+      x: 1728.02
+      y: 86.39
+      width: 76.8
+      height: 76.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#C4A060"
+      widthPt: 0.5
+      opacity: 0.3
+  - id: text1
+    type: text
+    name: N
+    frame:
+      x: 1762.94
+      y: 91.22
+      width: 8.97
+      height: 19.27
+    body:
+      paragraphs:
+        - runs:
+            - text: N
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 5.76
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: S
+    frame:
+      x: 1762.94
+      y: 141.09
+      width: 8.97
+      height: 19.27
+    body:
+      paragraphs:
+        - runs:
+            - text: S
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 5.76
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: W
+    frame:
+      x: 1734.77
+      y: 116.14
+      width: 12.97
+      height: 19.27
+    body:
+      paragraphs:
+        - runs:
+            - text: W
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 5.76
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: E
+    frame:
+      x: 1791.14
+      y: 116.14
+      width: 8.97
+      height: 19.27
+    body:
+      paragraphs:
+        - runs:
+            - text: E
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 5.76
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 1747.41
+      y: 124.28
+      width: 38
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A060"
+      opacity: 0.3
+    rotationDeg: 45
+  - id: shape4
+    type: shape
+    frame:
+      x: 1747.4
+      y: 124.28
+      width: 38
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A060"
+      opacity: 0.3
+    rotationDeg: -45
+  - id: shape5
+    type: shape
+    frame:
+      x: 153.59
+      y: 446.38
+      width: 883.22
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0E8DA"
+      opacity: 0.1
+  - id: shape6
+    type: shape
+    frame:
+      x: 153.59
+      y: 575.98
+      width: 883.22
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0E8DA"
+      opacity: 0.1
+  - id: shape7
+    type: shape
+    frame:
+      x: 153.59
+      y: 705.58
+      width: 883.22
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0E8DA"
+      opacity: 0.1
+  - id: text5
+    type: text
+    name: METRICS & TOPOGRAPHY
+    frame:
+      x: 153.59
+      y: 129.59
+      width: 335.48
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: METRICS & TOPOGRAPHY
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#C4A060"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 490.52
+      y: 143.48
+      width: 57.59
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A060"
+    opacity: 0.5
+  - id: text6
+    type: text
+    name: Q1
+    frame:
+      x: 220.03
+      y: 766.06
+      width: 24.77
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Q1
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text7
+    type: text
+    name: Q2
+    frame:
+      x: 402.42
+      y: 766.06
+      width: 24.77
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Q2
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text8
+    type: text
+    name: Q3
+    frame:
+      x: 584.83
+      y: 766.06
+      width: 24.77
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Q3
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text9
+    type: text
+    name: Q4
+    frame:
+      x: 767.23
+      y: 766.06
+      width: 24.77
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Q4
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text10
+    type: text
+    name: Q1'
+    frame:
+      x: 944.47
+      y: 766.06
+      width: 31.13
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Q1'
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text11
+    type: text
+    name: 14,000ft
+    frame:
+      x: 1190.41
+      y: 383.02
+      width: 576.05
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: 14,000
+              sizePt: 48
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+            - text: ft
+              sizePt: 28.8
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Space Grotesk
+            weight: 700
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 1190.41
+      y: 489.81
+      width: 2
+      height: 63.38
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A060"
+  - id: text12
+    type: text
+    name: Elevation gained in our ...
+    frame:
+      x: 1190.41
+      y: 489.81
+      width: 576.05
+      height: 63.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Elevation gained in our core metrics across the rugged landscape of our market sector.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 14.4
+    opacity: 0.7
+  - id: text13
+    type: text
+    name: 2.4x
+    frame:
+      x: 1190.41
+      y: 617.98
+      width: 576.05
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2.4"
+              sizePt: 38.4
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+            - text: x
+              sizePt: 24
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Space Grotesk
+            weight: 700
+      overflow: visible
+  - id: shape10
+    type: shape
+    frame:
+      x: 1190.41
+      y: 705.58
+      width: 2
+      height: 63.38
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0E8DA"
+      opacity: 0.3
+  - id: text14
+    type: text
+    name: Multiplier of expedition...
+    frame:
+      x: 1190.41
+      y: 705.58
+      width: 576.05
+      height: 63.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Multiplier of expedition distance compared to previous fiscal milestones.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 14.4
+    opacity: 0.7
+  - id: shape11
+    type: shape
+    frame:
+      x: 194
+      y: 585.58
+      width: 76.8
+      height: 120
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A060"
+      opacity: 0.35
+  - id: shape12
+    type: shape
+    frame:
+      x: 376.4
+      y: 540.58
+      width: 76.8
+      height: 165
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A060"
+      opacity: 0.45
+  - id: shape13
+    type: shape
+    frame:
+      x: 558.8
+      y: 485.58
+      width: 76.8
+      height: 220
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A060"
+      opacity: 0.55
+  - id: shape14
+    type: shape
+    frame:
+      x: 741.2
+      y: 415.58
+      width: 76.8
+      height: 290
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A060"
+      opacity: 0.7
+  - id: shape15
+    type: shape
+    frame:
+      x: 921.63
+      y: 330.58
+      width: 76.8
+      height: 375
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A060"
+      opacity: 0.9
+  - id: text15
+    type: text
+    name: FIELD GUIDE — 2024
+    frame:
+      x: 153.59
+      y: 989.28
+      width: 186.52
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: FIELD GUIDE — 2024
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text16
+    type: text
+    name: "03"
+    frame:
+      x: 1743.38
+      y: 986.41
+      width: 27.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  autumn-road:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/autumn-road.png

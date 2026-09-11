@@ -1,0 +1,554 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FBF7F0"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 38.39
+      y: 21.59
+      width: 1843.22
+      height: 1036.81
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+      widthPt: 4.5
+    opacity: 0.1
+  - id: shape2
+    type: shape
+    frame:
+      x: 53.75
+      y: 30.23
+      width: 1812.5
+      height: 1019.53
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+      widthPt: 0.5
+    opacity: 0.2
+  - id: shape3
+    type: shape
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 76.8
+      height: 76.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+      widthPt: 1.5
+  - id: shape4
+    type: shape
+    frame:
+      x: 129.58
+      y: 79.19
+      width: 48
+      height: 48
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+      widthPt: 0.5
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 220.78
+      y: 70.25
+      width: 121.97
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+              letterSpacingPt: 0.922
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: UNIVERSITY
+    frame:
+      x: 220.78
+      y: 110.2
+      width: 121.97
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: UNIVERSITY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: CS 301
+    frame:
+      x: 1710.09
+      y: 64.8
+      width: 94.72
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: CS 301
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+              letterSpacingPt: 0.576
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Fall 2026
+    frame:
+      x: 1710.09
+      y: 104.75
+      width: 94.72
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Fall 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+    rotationDeg: 0.02
+  - id: text5
+    type: text
+    name: CHAPTER 01
+    frame:
+      x: 115.19
+      y: 227.98
+      width: 675.89
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CHAPTER 01
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text6
+    type: text
+    name: Theoretical Frameworks
+    frame:
+      x: 115.19
+      y: 278.38
+      width: 675.89
+      height: 190.09
+    body:
+      paragraphs:
+        - runs:
+            - text: Theoretical Frameworks
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A2C25"
+              letterSpacingPt: -0.864
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 115.19
+      y: 500.86
+      width: 153.59
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+  - id: text7
+    type: text
+    name: The foundation of our ap...
+    frame:
+      x: 115.19
+      y: 545.05
+      width: 716.44
+      height: 121.77
+    body:
+      paragraphs:
+        - runs:
+            - text: The foundation of our approach relies on established computational models, integrating classical algorithms with modern heuristic paradigms.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 12.48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.9
+  - id: shape6
+    type: shape
+    frame:
+      x: 906.22
+      y: 227.98
+      width: 1
+      height: 696.5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2D4A3E"
+      opacity: 0.2
+  - id: text8
+    type: text
+    name: "01."
+    frame:
+      x: 984.02
+      y: 378.06
+      width: 39.44
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "01."
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Cognitive Load
+    frame:
+      x: 1050.8
+      y: 375.91
+      width: 754.07
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Cognitive Load
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A2C25"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Evaluating how memory st...
+    frame:
+      x: 1050.8
+      y: 424.48
+      width: 754.07
+      height: 63.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Evaluating how memory structures impact the processing of complex logical operations.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text11
+    type: text
+    name: "02."
+    frame:
+      x: 984.02
+      y: 522.41
+      width: 39.18
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "02."
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Algorithmic Efficiency
+    frame:
+      x: 1054.53
+      y: 520.25
+      width: 750.33
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Algorithmic Efficiency
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A2C25"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Minimizing time complexi...
+    frame:
+      x: 1054.53
+      y: 568.83
+      width: 750.33
+      height: 63.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Minimizing time complexity without sacrificing the accuracy of data retrieval methods.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text14
+    type: text
+    name: "03."
+    frame:
+      x: 984.02
+      y: 666.75
+      width: 39.49
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "03."
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: Heuristic Optimization
+    frame:
+      x: 1053.84
+      y: 664.59
+      width: 751.02
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Heuristic Optimization
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A2C25"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: Employing approximate so...
+    frame:
+      x: 1053.84
+      y: 713.17
+      width: 751.02
+      height: 63.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Employing approximate solutions where absolute precision is computationally expensive.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text17
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 115.19
+      y: 989.28
+      width: 209.43
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text18
+    type: text
+    name: Confidential
+    frame:
+      x: 1634.61
+      y: 989.28
+      width: 121.71
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text19
+    type: text
+    name: "02"
+    frame:
+      x: 1781.66
+      y: 989.28
+      width: 26.21
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D4A3E"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7

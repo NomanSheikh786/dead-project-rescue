@@ -1,0 +1,514 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#080808"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: sneaker-float
+    altText: Floating Sneaker
+    fit: cover
+    opacity: 0.2
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#080808"
+          opacity: 0.9
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#080808"
+          opacity: 0.95
+  - id: shape2
+    type: shape
+    frame:
+      x: 115.19
+      y: 115.19
+      width: 250.95
+      height: 39.41
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.7
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#7AB87A"
+      widthPt: 0.5
+  - id: text1
+    type: text
+    name: 03 / MARKET IMPACT
+    frame:
+      x: 115.19
+      y: 115.19
+      width: 266.06
+      height: 39.41
+    body:
+      paragraphs:
+        - runs:
+            - text: 03 / MARKET IMPACT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.16
+              weight: 700
+              color:
+                kind: rgb
+                value: "#7AB87A"
+              letterSpacingPt: 0.816
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 3.24
+        right: 11.52
+        bottom: 3.24
+        left: 11.52
+  - id: text2
+    type: text
+    name: GLOBAL REACH
+    frame:
+      x: 115.19
+      y: 240.98
+      width: 1689.68
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: GLOBAL REACH
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 48
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -1.44
+          lineHeight: 1
+      overflow: visible
+  - id: text3
+    type: text
+    name: Our projected growth met...
+    frame:
+      x: 115.19
+      y: 358.58
+      width: 768.05
+      height: 69.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Our projected growth metrics across key metropolitan hubs for the upcoming Q4 drop.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape3
+    type: shape
+    frame:
+      x: 115.19
+      y: 891.09
+      width: 1689.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text4
+    type: text
+    name: 2.4M
+    frame:
+      x: 207.16
+      y: 451.19
+      width: 101.58
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: 2.4M
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 19.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 215.03
+      y: 570.89
+      width: 76.8
+      height: 229.5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.15
+  - id: text5
+    type: text
+    name: TOKYO
+    frame:
+      x: 223.2
+      y: 821.98
+      width: 68.49
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: TOKYO
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text6
+    type: text
+    name: 1.8M
+    frame:
+      x: 563.86
+      y: 451.19
+      width: 101.75
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: 1.8M
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 19.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 568.31
+      y: 638.39
+      width: 76.8
+      height: 162
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.15
+  - id: text7
+    type: text
+    name: LONDON
+    frame:
+      x: 570.45
+      y: 821.98
+      width: 81.58
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: LONDON
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text8
+    type: text
+    name: 3.1M
+    frame:
+      x: 918
+      y: 451.19
+      width: 102.05
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: 3.1M
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 19.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 921.61
+      y: 543.89
+      width: 76.8
+      height: 256.5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7AB87A"
+  - id: text9
+    type: text
+    name: NEW YORK
+    frame:
+      x: 911.66
+      y: 821.98
+      width: 108.71
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: NEW YORK
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text10
+    type: text
+    name: 1.2M
+    frame:
+      x: 1270.55
+      y: 451.19
+      width: 101.52
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: 1.2M
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 19.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 1274.89
+      y: 678.89
+      width: 76.8
+      height: 121.5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.15
+  - id: text11
+    type: text
+    name: PARIS
+    frame:
+      x: 1283.06
+      y: 821.98
+      width: 64.12
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: PARIS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text12
+    type: text
+    name: 2.1M
+    frame:
+      x: 1624.83
+      y: 451.19
+      width: 101.52
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: 2.1M
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 19.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 1628.17
+      y: 597.89
+      width: 76.8
+      height: 202.5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.15
+  - id: text13
+    type: text
+    name: SEOUL
+    frame:
+      x: 1636.34
+      y: 821.98
+      width: 68.49
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: SEOUL
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text14
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 933.13
+      width: 94.1
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.528
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text15
+    type: text
+    name: "03"
+    frame:
+      x: 1775.83
+      y: 933.13
+      width: 32.03
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.528
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+assets:
+  sneaker-float:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/sneaker-float.png

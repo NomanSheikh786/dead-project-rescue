@@ -1,0 +1,280 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#111111"
+elements:
+  - id: text1
+    type: text
+    name: Next Steps
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 133.86
+      height: 32.27
+    body:
+      paragraphs:
+        - runs:
+            - text: Next Steps
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#AAAAAA"
+          lineHeight: 1.4
+      overflow: visible
+  - id: text2
+    type: text
+    name: LET'S
+    frame:
+      x: 191.98
+      y: 378
+      width: 1041.94
+      height: 186.31
+    body:
+      paragraphs:
+        - runs:
+            - text: LET'S
+              font:
+                kind: family
+                family: Inter
+              sizePt: 115.2
+              weight: 200
+              color:
+                kind: rgb
+                value: "#888888"
+              letterSpacingPt: -5.76
+          lineHeight: 0.8
+      overflow: visible
+  - id: text3
+    type: text
+    name: CONNECT
+    frame:
+      x: 153.59
+      y: 562.31
+      width: 1080.33
+      height: 186.31
+    body:
+      paragraphs:
+        - runs:
+            - text: CONNECT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 115.2
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -6.912
+          lineHeight: 0.8
+      overflow: visible
+  - id: text4
+    type: text
+    name: Email
+    frame:
+      x: 153.59
+      y: 789.48
+      width: 167.61
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Email
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 153.59
+      y: 829.44
+      width: 167.61
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#CCCCCC"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Phone
+    frame:
+      x: 397.95
+      y: 789.48
+      width: 199.5
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Phone
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: +1 (555) 123-4567
+    frame:
+      x: 397.95
+      y: 829.44
+      width: 237.61
+      height: 71
+    body:
+      paragraphs:
+        - runs:
+            - text: +1 (555) 123-4567
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#CCCCCC"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Office
+    frame:
+      x: 674.2
+      y: 789.48
+      width: 191.08
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Office
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: 100 Market St, SF
+    frame:
+      x: 674.2
+      y: 829.44
+      width: 227.57
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 100 Market St, SF
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#CCCCCC"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: "04"
+    frame:
+      x: 153.59
+      y: 992.17
+      width: 25.13
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: ACME.CO / 2026
+    frame:
+      x: 1659.03
+      y: 992.17
+      width: 154.58
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO / 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 1672.73
+      y: 86.39
+      width: 132.13
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible

@@ -1,0 +1,216 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F7F3EE"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1152
+      y: 486
+      width: 768
+      height: 594
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 297
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8DFD3"
+  - id: shape2
+    type: shape
+    frame:
+      x: 1478.41
+      y: 129.59
+      width: 153.59
+      height: 153.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#C4B8A8"
+      widthPt: 0.5
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 75.59
+      width: 94.93
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#8B7E6E"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1717.25
+      y: 79.91
+      width: 55.21
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B5A898"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: PRESENTATION TITLE
+    frame:
+      x: 153.59
+      y: 405.31
+      width: 1056.05
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: PRESENTATION TITLE
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B5A898"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Example Deck
+    frame:
+      x: 153.59
+      y: 452.83
+      width: 1056.05
+      height: 107.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 52.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#3D3832"
+          lineHeight: 1
+      overflow: visible
+  - id: text5
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 153.59
+      y: 585.42
+      width: 768.05
+      height: 99.91
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8B7E6E"
+          lineHeight: 1.7
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 153.59
+      y: 990.94
+      width: 115.19
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4B8A8"
+  - id: text6
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 326.38
+      y: 978.48
+      width: 233.02
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B5A898"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Confidential
+    frame:
+      x: 603.75
+      y: 978.48
+      width: 110.97
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B5A898"
+          lineHeight: 1.5
+      overflow: visible

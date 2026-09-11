@@ -1,0 +1,566 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F0E6"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1056
+      y: -108
+      width: 576
+      height: 432
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8A0BF"
+    opacity: 0.85
+  - id: shape2
+    type: shape
+    frame:
+      x: 672
+      y: 492
+      width: 480
+      height: 480
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#DAC070"
+    opacity: 0.85
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 115.19
+      y: 66.8
+      width: 121.39
+      height: 36
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 900
+              color:
+                kind: rgb
+                value: "#1A3636"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: BY EXAMPLE COMPANY
+    frame:
+      x: 255.72
+      y: 66.8
+      width: 304.4
+      height: 71
+    body:
+      paragraphs:
+        - runs:
+            - text: BY EXAMPLE COMPANY
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A3636"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: shape3
+    type: shape
+    frame:
+      x: 1718.28
+      y: 64.8
+      width: 86.53
+      height: 39.58
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.79
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A3636"
+  - id: text3
+    type: text
+    name: "03"
+    frame:
+      x: 1718.28
+      y: 64.8
+      width: 91.77
+      height: 41.58
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F5F0E6"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 14.4
+        bottom: 2.7
+        left: 14.4
+  - id: text4
+    type: text
+    name: BY THE
+    frame:
+      x: 111.36
+      y: 164.86
+      width: 536.83
+      height: 209.34
+    body:
+      paragraphs:
+        - runs:
+            - text: BY THE
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 57.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#5B8FB9"
+              letterSpacingPt: -2.304
+          lineHeight: 0.9
+        - runs:
+            - text: NUMBERS
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 57.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#5B8FB9"
+              letterSpacingPt: -2.304
+          lineHeight: 0.9
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text5
+    type: text
+    name: BY THE
+    frame:
+      x: 120.94
+      y: 172.41
+      width: 536.83
+      height: 209.34
+    body:
+      paragraphs:
+        - runs:
+            - text: BY THE
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 57.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#E8A0BF"
+              letterSpacingPt: -2.304
+          lineHeight: 0.9
+        - runs:
+            - text: NUMBERS
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 57.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#E8A0BF"
+              letterSpacingPt: -2.304
+          lineHeight: 0.9
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text6
+    type: text
+    name: BY THE
+    frame:
+      x: 115.19
+      y: 169.17
+      width: 1689.68
+      height: 209.34
+    body:
+      paragraphs:
+        - runs:
+            - text: BY THE
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 57.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#1A3636"
+              letterSpacingPt: -2.304
+          lineHeight: 0.9
+        - runs:
+            - text: NUMBERS
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 57.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#1A3636"
+              letterSpacingPt: -2.304
+          lineHeight: 0.9
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 130.55
+      y: 575.42
+      width: 512
+      height: 279.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5B8FB9"
+  - id: shape5
+    type: shape
+    frame:
+      x: 115.19
+      y: 560.06
+      width: 512
+      height: 279.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5F0E6"
+    stroke:
+      color:
+        kind: rgb
+        value: "#1A3636"
+      widthPt: 2.5
+  - id: text7
+    type: text
+    name: 85%
+    frame:
+      x: 158.58
+      y: 608.25
+      width: 425.27
+      height: 86.41
+    body:
+      paragraphs:
+        - runs:
+            - text: 85%
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 43.2
+              weight: 900
+              color:
+                kind: rgb
+                value: "#1A3636"
+              letterSpacingPt: -2.16
+          lineHeight: 1
+      overflow: visible
+  - id: text8
+    type: text
+    name: Increase in total print ...
+    frame:
+      x: 158.58
+      y: 716.25
+      width: 425.27
+      height: 77.25
+    body:
+      paragraphs:
+        - runs:
+            - text: Increase in total print volume year over year.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A3636"
+          lineHeight: 1.4
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 719.34
+      y: 575.42
+      width: 512.02
+      height: 279.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8A0BF"
+  - id: shape7
+    type: shape
+    frame:
+      x: 703.98
+      y: 560.06
+      width: 512.02
+      height: 279.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5F0E6"
+    stroke:
+      color:
+        kind: rgb
+        value: "#1A3636"
+      widthPt: 2.5
+  - id: text9
+    type: text
+    name: 12M
+    frame:
+      x: 747.38
+      y: 608.25
+      width: 425.28
+      height: 86.41
+    body:
+      paragraphs:
+        - runs:
+            - text: 12M
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 43.2
+              weight: 900
+              color:
+                kind: rgb
+                value: "#1A3636"
+              letterSpacingPt: -2.16
+          lineHeight: 1
+      overflow: visible
+  - id: text10
+    type: text
+    name: Impressions generated ac...
+    frame:
+      x: 747.38
+      y: 716.25
+      width: 425.28
+      height: 77.25
+    body:
+      paragraphs:
+        - runs:
+            - text: Impressions generated across our active campaigns.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A3636"
+          lineHeight: 1.4
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 1308.16
+      y: 575.42
+      width: 512.02
+      height: 279.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#DAC070"
+  - id: shape9
+    type: shape
+    frame:
+      x: 1292.8
+      y: 560.06
+      width: 512.02
+      height: 279.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5F0E6"
+    stroke:
+      color:
+        kind: rgb
+        value: "#1A3636"
+      widthPt: 2.5
+  - id: text11
+    type: text
+    name: 4.2x
+    frame:
+      x: 1336.19
+      y: 608.25
+      width: 425.28
+      height: 86.41
+    body:
+      paragraphs:
+        - runs:
+            - text: 4.2x
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 43.2
+              weight: 900
+              color:
+                kind: rgb
+                value: "#1A3636"
+              letterSpacingPt: -2.16
+          lineHeight: 1
+      overflow: visible
+  - id: text12
+    type: text
+    name: Return on investment for...
+    frame:
+      x: 1336.19
+      y: 716.25
+      width: 425.28
+      height: 77.25
+    body:
+      paragraphs:
+        - runs:
+            - text: Return on investment for primary brand partners.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A3636"
+          lineHeight: 1.4
+      overflow: visible
+  - id: shape10
+    type: shape
+    frame:
+      x: 115.19
+      y: 926.08
+      width: 1689.63
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A3636"
+  - id: text13
+    type: text
+    name: DATA COMPILED Q4 2025
+    frame:
+      x: 115.19
+      y: 980.64
+      width: 300.2
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: DATA COMPILED Q4 2025
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A3636"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 1523.04
+      y: 950.67
+      width: 281.77
+      height: 32.27
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A3636"
+          align: right
+          lineHeight: 1.4
+      overflow: visible
+    opacity: 0.8
+  - id: text15
+    type: text
+    name: EXAMPLE COMPANY, INC.
+    frame:
+      x: 1514.58
+      y: 982.94
+      width: 290.23
+      height: 66.27
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A3636"
+          align: right
+          lineHeight: 1.4
+      overflow: visible
+    opacity: 0.8

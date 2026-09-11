@@ -1,0 +1,452 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: image
+  assetId: ocean-aerial
+  fit: cover
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 192
+      y: 162
+      width: 1536
+      height: 756
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 38.4
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.85
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 307.19
+      y: 226.8
+      width: 160.84
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A365D"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1551.86
+      y: 226.8
+      width: 68
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A5568"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Metrics Overview
+    frame:
+      x: 307.19
+      y: 313.17
+      width: 1305.68
+      height: 86.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Metrics Overview
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C5282"
+              letterSpacingPt: -0.768
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: A clear view of our glob...
+    frame:
+      x: 307.19
+      y: 419.23
+      width: 1305.68
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: A clear view of our global impact and continued market expansion.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A5568"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 307.19
+      y: 505.61
+      width: 409.61
+      height: 289.27
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 28.8
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.6
+    stroke:
+      color:
+        kind: rgb
+        value: "#3182CE"
+      widthPt: 0.5
+      opacity: 0.2
+  - id: text5
+    type: text
+    name: ACTIVE USERS
+    frame:
+      x: 365.78
+      y: 564.2
+      width: 292.47
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACTIVE USERS
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#4A5568"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: 2.4M
+    frame:
+      x: 365.78
+      y: 598.77
+      width: 292.47
+      height: 86.41
+    body:
+      paragraphs:
+        - runs:
+            - text: 2.4M
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#3182CE"
+          lineHeight: 1
+      overflow: visible
+  - id: text7
+    type: text
+    name: +14%
+    frame:
+      x: 365.78
+      y: 695.97
+      width: 292.47
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: +14%
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#38A169"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 755.19
+      y: 505.61
+      width: 409.63
+      height: 289.27
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 28.8
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.6
+    stroke:
+      color:
+        kind: rgb
+        value: "#3182CE"
+      widthPt: 0.5
+      opacity: 0.2
+  - id: text8
+    type: text
+    name: RETENTION RATE
+    frame:
+      x: 813.78
+      y: 564.2
+      width: 292.49
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: RETENTION RATE
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#4A5568"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: 94%
+    frame:
+      x: 813.78
+      y: 598.77
+      width: 292.49
+      height: 86.41
+    body:
+      paragraphs:
+        - runs:
+            - text: 94%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2B6CB0"
+          lineHeight: 1
+      overflow: visible
+  - id: text10
+    type: text
+    name: +5%
+    frame:
+      x: 813.78
+      y: 695.97
+      width: 292.49
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: +5%
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#38A169"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1203.2
+      y: 505.61
+      width: 409.61
+      height: 289.27
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 28.8
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.6
+    stroke:
+      color:
+        kind: rgb
+        value: "#3182CE"
+      widthPt: 0.5
+      opacity: 0.2
+  - id: text11
+    type: text
+    name: GLOBAL REACH
+    frame:
+      x: 1261.8
+      y: 564.2
+      width: 292.47
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: GLOBAL REACH
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#4A5568"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: "48"
+    frame:
+      x: 1261.8
+      y: 598.77
+      width: 292.47
+      height: 86.41
+    body:
+      paragraphs:
+        - runs:
+            - text: "48"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C5282"
+          lineHeight: 1
+      overflow: visible
+  - id: text13
+    type: text
+    name: Countries
+    frame:
+      x: 1261.8
+      y: 695.97
+      width: 292.47
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Countries
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#38A169"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 307.19
+      y: 838.06
+      width: 1305.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C5282"
+      opacity: 0.2
+  - id: text14
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 307.19
+      y: 871.45
+      width: 214.26
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2C5282"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: "03"
+    frame:
+      x: 1584.44
+      y: 871.45
+      width: 31.43
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#718096"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  ocean-aerial:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/ocean-aerial.jpg

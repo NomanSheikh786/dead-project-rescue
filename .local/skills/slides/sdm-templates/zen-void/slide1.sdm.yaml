@@ -1,0 +1,109 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FAF8F5"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: zen-garden
+    altText: Zen Garden
+    fit: cover
+  - id: text2
+    type: text
+    name: Example Deck
+    frame:
+      x: 96
+      y: 132
+      width: 1000
+      height: 130
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 43.2
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -0.864
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 96
+      y: 262
+      width: 720
+      height: 80
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 12.48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.75
+  - id: shape1
+    type: shape
+    frame:
+      x: 96
+      y: 986.41
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 1751.02
+      y: 992.17
+      width: 73.03
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+assets:
+  zen-garden:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/zen-garden.png

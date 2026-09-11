@@ -1,0 +1,763 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F7F4EF"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 76.8
+      y: 79.91
+      width: 1766.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 76.8
+      y: 43.19
+      width: 86.91
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: '"All the Ideas That Are ...'
+    frame:
+      x: 792.42
+      y: 43.19
+      width: 332.17
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: '"All the Ideas That Are Fit to Print"'
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: VOL. MMXXVI
+    frame:
+      x: 1716.75
+      y: 43.19
+      width: 134.09
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: VOL. MMXXVI
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 76.8
+      y: 209.29
+      width: 1766.41
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: text4
+    type: text
+    name: BY THE NUMBERS
+    frame:
+      x: 76.775
+      y: 91.7
+      width: 1766.46
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: BY THE NUMBERS
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: -0.96
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 76.8
+      y: 217.69
+      width: 1766.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: shape4
+    type: shape
+    frame:
+      x: 76.8
+      y: 602.49
+      width: 844.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: text5
+    type: text
+    name: Q1 REVENUE GROWTH
+    frame:
+      x: 76.8
+      y: 383.61
+      width: 844.85
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q1 REVENUE GROWTH
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: +142%
+    frame:
+      x: 76.8
+      y: 423.2
+      width: 844.85
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: +142%
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 57.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1
+      overflow: visible
+  - id: text7
+    type: text
+    name: Exceeding initial street...
+    frame:
+      x: 76.8
+      y: 549.2
+      width: 844.85
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Exceeding initial street estimates
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#444444"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 76.8
+      y: 865.55
+      width: 844.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: text8
+    type: text
+    name: NEW USER ACQUISITION
+    frame:
+      x: 76.8
+      y: 646.67
+      width: 844.85
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: NEW USER ACQUISITION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: 2.4M
+    frame:
+      x: 76.8
+      y: 686.27
+      width: 844.85
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: 2.4M
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 57.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1
+      overflow: visible
+  - id: text10
+    type: text
+    name: Active accounts across a...
+    frame:
+      x: 76.8
+      y: 812.27
+      width: 844.85
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Active accounts across all regions
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#444444"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 998.39
+      y: 371.69
+      width: 844.81
+      height: 506.78
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+    stroke:
+      color:
+        kind: rgb
+        value: "#111111"
+      widthPt: 1
+  - id: shape7
+    type: shape
+    frame:
+      x: 1057.98
+      y: 510.48
+      width: 725.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#444444"
+  - id: text11
+    type: text
+    name: QUARTERLY PROJECTIONS
+    frame:
+      x: 1057.98
+      y: 431.28
+      width: 725.68
+      height: 80.2
+    body:
+      paragraphs:
+        - runs:
+            - text: QUARTERLY PROJECTIONS
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F7F4EF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 10.8
+        left: 0
+  - id: text12
+    type: text
+    name: Q1
+    frame:
+      x: 1057.98
+      y: 543.88
+      width: 181.46
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q1
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F7F4EF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 1258.58
+      y: 556.48
+      width: 360.72
+      height: 16.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#444444"
+  - id: shape9
+    type: shape
+    frame:
+      x: 1258.58
+      y: 556.48
+      width: 144.28
+      height: 16.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F7F4EF"
+  - id: text13
+    type: text
+    name: $4.2M
+    frame:
+      x: 1638.43
+      y: 543.88
+      width: 145.18
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: $4.2M
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F7F4EF"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: Q2
+    frame:
+      x: 1057.98
+      y: 594.27
+      width: 181.46
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q2
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F7F4EF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape10
+    type: shape
+    frame:
+      x: 1258.58
+      y: 606.88
+      width: 360.72
+      height: 16.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#444444"
+  - id: shape11
+    type: shape
+    frame:
+      x: 1258.58
+      y: 606.88
+      width: 234.45
+      height: 16.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F7F4EF"
+  - id: text15
+    type: text
+    name: $6.8M
+    frame:
+      x: 1638.43
+      y: 594.27
+      width: 145.18
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: $6.8M
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F7F4EF"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: Q3
+    frame:
+      x: 1057.98
+      y: 644.66
+      width: 181.46
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q3
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F7F4EF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape12
+    type: shape
+    frame:
+      x: 1258.58
+      y: 657.27
+      width: 360.72
+      height: 16.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#444444"
+  - id: shape13
+    type: shape
+    frame:
+      x: 1258.58
+      y: 657.27
+      width: 306.61
+      height: 16.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F7F4EF"
+  - id: text17
+    type: text
+    name: $9.1M
+    frame:
+      x: 1638.43
+      y: 644.66
+      width: 145.18
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: $9.1M
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F7F4EF"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text18
+    type: text
+    name: Q4 (Est.)
+    frame:
+      x: 1057.98
+      y: 695.05
+      width: 181.46
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q4 (Est.)
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F7F4EF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape14
+    type: shape
+    frame:
+      x: 1258.58
+      y: 707.66
+      width: 360.72
+      height: 16.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#444444"
+  - id: shape15
+    type: shape
+    frame:
+      x: 1258.58
+      y: 707.66
+      width: 360.72
+      height: 16.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F7F4EF"
+  - id: text19
+    type: text
+    name: $12.5M
+    frame:
+      x: 1638.43
+      y: 695.05
+      width: 145.18
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: $12.5M
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F7F4EF"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text20
+    type: text
+    name: "*Projections based on cu..."
+    frame:
+      x: 1057.98
+      y: 767.03
+      width: 725.68
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: "*Projections based on current market trends and assumption of successful Series B funding round."
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F7F4EF"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: shape16
+    type: shape
+    frame:
+      x: 76.8
+      y: 988.3
+      width: 1766.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: text21
+    type: text
+    name: FINANCIAL SECTION
+    frame:
+      x: 76.8
+      y: 1010.89
+      width: 178.05
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: FINANCIAL SECTION
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text22
+    type: text
+    name: PAGE 3
+    frame:
+      x: 1781.63
+      y: 1010.89
+      width: 65.33
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: PAGE 3
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible

@@ -1,0 +1,452 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#08060C"
+elements:
+  - id: text1
+    type: text
+    name: CHAPTER II
+    frame:
+      x: 153.59
+      y: 153.59
+      width: 154.91
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CHAPTER II
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4B896"
+              letterSpacingPt: 3.072
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: THE METRICS
+    frame:
+      x: 153.59
+      y: 187.42
+      width: 146.14
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: THE METRICS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+              letterSpacingPt: 1.344
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+    rotationDeg: 0.02
+  - id: shape1
+    type: shape
+    frame:
+      x: 998.41
+      y: 169.78
+      width: 768
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4B896"
+    opacity: 0.3
+  - id: text3
+    type: text
+    name: Measured Elegance
+    frame:
+      x: 153.59
+      y: 421.25
+      width: 748.86
+      height: 71.11
+    body:
+      paragraphs:
+        - runs:
+            - text: Measured Elegance
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4B896"
+          lineHeight: 1.2
+      overflow: visible
+  - id: text4
+    type: text
+    name: Our growth trajectory is...
+    frame:
+      x: 153.59
+      y: 522.75
+      width: 713.54
+      height: 114.05
+    body:
+      paragraphs:
+        - runs:
+            - text: Our growth trajectory is a testament to the resonance of our design philosophy. By maintaining a steadfast commitment to quality, we have cultivated a discerning and loyal clientele.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+          lineHeight: 1.8
+      overflow: visible
+    opacity: 0.9
+  - id: text5
+    type: text
+    name: $4.2M
+    frame:
+      x: 153.59
+      y: 701.58
+      width: 159.49
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: $4.2M
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4B896"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: ANNUAL REVENUE
+    frame:
+      x: 153.59
+      y: 778.97
+      width: 159.49
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: ANNUAL REVENUE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+              letterSpacingPt: 1.008
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text7
+    type: text
+    name: 315%
+    frame:
+      x: 380.8
+      y: 701.58
+      width: 143.46
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: 315%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4B896"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: YOY GROWTH
+    frame:
+      x: 380.8
+      y: 778.97
+      width: 112.46
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: YOY GROWTH
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+              letterSpacingPt: 1.008
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape2
+    type: shape
+    frame:
+      x: 1017.59
+      y: 925.41
+      width: 748.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4B896"
+      opacity: 0.3
+  - id: shape3
+    type: shape
+    frame:
+      x: 1017.59
+      y: 700.06
+      width: 76.8
+      height: 162
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4B896"
+      opacity: 0.15
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4B896"
+      widthPt: 0.5
+      opacity: 0.3
+  - id: text9
+    type: text
+    name: Q1
+    frame:
+      x: 1046.77
+      y: 883.66
+      width: 22.49
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Q1
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+              letterSpacingPt: 0.672
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape4
+    type: shape
+    frame:
+      x: 1241.59
+      y: 624.47
+      width: 76.8
+      height: 237.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4B896"
+      opacity: 0.15
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4B896"
+      widthPt: 0.5
+      opacity: 0.3
+  - id: text10
+    type: text
+    name: Q2
+    frame:
+      x: 1269.41
+      y: 883.66
+      width: 21.22
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Q2
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+              letterSpacingPt: 0.672
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape5
+    type: shape
+    frame:
+      x: 1465.61
+      y: 484.06
+      width: 76.8
+      height: 378
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4B896"
+      opacity: 0.15
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4B896"
+      widthPt: 0.5
+      opacity: 0.3
+  - id: text11
+    type: text
+    name: Q3
+    frame:
+      x: 1493.38
+      y: 883.66
+      width: 21.32
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Q3
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+              letterSpacingPt: 0.672
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape6
+    type: shape
+    frame:
+      x: 1689.61
+      y: 376.06
+      width: 76.8
+      height: 486
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4B896"
+  - id: text12
+    type: text
+    name: Q4
+    frame:
+      x: 1717.17
+      y: 883.66
+      width: 21.71
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Q4
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+              letterSpacingPt: 0.672
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text13
+    type: text
+    name: ACME.CO
+    frame:
+      x: 153.59
+      y: 995.05
+      width: 80.96
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4B896"
+              letterSpacingPt: 1.008
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: "03"
+    frame:
+      x: 1741.08
+      y: 992.17
+      width: 28.38
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5

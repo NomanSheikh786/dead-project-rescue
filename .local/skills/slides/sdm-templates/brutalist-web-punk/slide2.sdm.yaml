@@ -1,0 +1,699 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#D9D9D9"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 57.59
+      y: 57.59
+      width: 1843.22
+      height: 1003.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF3B00"
+  - id: shape2
+    type: shape
+    frame:
+      x: 38.39
+      y: 38.39
+      width: 1843.22
+      height: 1003.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 3.5
+  - id: shape3
+    type: shape
+    frame:
+      x: 45.39
+      y: 45.39
+      width: 1829.22
+      height: 54
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape4
+    type: shape
+    frame:
+      x: 64.58
+      y: 60.88
+      width: 23.03
+      height: 23.03
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF3B00"
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+  - id: shape5
+    type: shape
+    frame:
+      x: 97.2
+      y: 60.88
+      width: 23.03
+      height: 23.03
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D9D9D9"
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+  - id: shape6
+    type: shape
+    frame:
+      x: 129.83
+      y: 60.88
+      width: 23.03
+      height: 23.03
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+  - id: text1
+    type: text
+    name: C:\SYSTEM\ACME\ABOUT.HTM...
+    frame:
+      x: 842.97
+      y: 57.98
+      width: 319.86
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: C:\SYSTEM\ACME\ABOUT.HTML
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "[X]"
+    frame:
+      x: 1820.88
+      y: 57.98
+      width: 36.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "[X]"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 45.39
+      y: 99.39
+      width: 1829.22
+      height: 64.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D9D9D9"
+  - id: shape7
+    type: shape
+    frame:
+      x: 45.39
+      y: 159.19
+      width: 1829.22
+      height: 5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text3
+    type: text
+    name: BACK
+    frame:
+      x: 64.58
+      y: 112
+      width: 62.33
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: BACK
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: FWD
+    frame:
+      x: 139.05
+      y: 112
+      width: 54.52
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: FWD
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 199.7
+      y: 110.39
+      width: 1655.72
+      height: 37.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1.5
+  - id: text5
+    type: text
+    name: HTTP://WWW.ACME.CO/MISSI...
+    frame:
+      x: 199.7
+      y: 110.39
+      width: 1655.77
+      height: 37.8
+    body:
+      paragraphs:
+        - runs:
+            - text: HTTP://WWW.ACME.CO/MISSION
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 0
+        right: 9.6
+        bottom: 0
+        left: 9.6
+  - id: shape10
+    type: shape
+    frame:
+      x: 118.34
+      y: 237.14
+      width: 892.81
+      height: 755.23
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape11
+    type: shape
+    frame:
+      x: 102.98
+      y: 221.78
+      width: 892.81
+      height: 755.23
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 3.5
+  - id: text6
+    type: text
+    name: CORE
+    frame:
+      x: 167.58
+      y: 286.38
+      width: 763.68
+      height: 192
+    body:
+      paragraphs:
+        - runs:
+            - text: CORE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 48
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1
+        - runs:
+            - text: MANIFEST0
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 48
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1
+      overflow: visible
+  - id: shape12
+    type: shape
+    frame:
+      x: 167.58
+      y: 499.97
+      width: 763.63
+      height: 7.67
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text7
+    type: text
+    name: We exist to break the mo...
+    frame:
+      x: 167.58
+      y: 540.03
+      width: 809.5
+      height: 140.19
+    body:
+      paragraphs:
+        - runs:
+            - text: We exist to break the mold. The standard patterns are dead, long live the chaotic good. We build things that scale infinitely and break standard conventions.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text8
+    type: text
+    name: Our approach is brutal b...
+    frame:
+      x: 167.58
+      y: 699.81
+      width: 809.5
+      height: 94.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Our approach is brutal but effective. No fluff, just pure performance wrapped in undeniable style.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.6
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape13
+    type: shape
+    frame:
+      x: 1068.75
+      y: 237.14
+      width: 763.63
+      height: 193.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape14
+    type: shape
+    frame:
+      x: 1053.39
+      y: 221.78
+      width: 763.63
+      height: 193.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF3B00"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 3.5
+  - id: text9
+    type: text
+    name: "> INITIATIVE 01"
+    frame:
+      x: 1098.78
+      y: 267.17
+      width: 672.89
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: "> INITIATIVE 01"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Disrupt the established ...
+    frame:
+      x: 1098.78
+      y: 335.58
+      width: 713.26
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Disrupt the established paradigms of enterprise software.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape15
+    type: shape
+    frame:
+      x: 1068.75
+      y: 469.28
+      width: 763.63
+      height: 228.31
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape16
+    type: shape
+    frame:
+      x: 1053.39
+      y: 453.92
+      width: 763.63
+      height: 228.31
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D9D9D9"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 3.5
+  - id: text11
+    type: text
+    name: "> INITIATIVE 02"
+    frame:
+      x: 1098.78
+      y: 499.31
+      width: 672.89
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: "> INITIATIVE 02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Maximize throughput whil...
+    frame:
+      x: 1098.78
+      y: 567.72
+      width: 672.89
+      height: 69.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Maximize throughput while maintaining uncompromising aesthetics.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape17
+    type: shape
+    frame:
+      x: 1068.75
+      y: 735.99
+      width: 763.63
+      height: 193.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF3B00"
+  - id: shape18
+    type: shape
+    frame:
+      x: 1053.39
+      y: 720.63
+      width: 763.63
+      height: 193.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 3.5
+  - id: text13
+    type: text
+    name: "> INITIATIVE 03"
+    frame:
+      x: 1098.78
+      y: 766.02
+      width: 672.89
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: "> INITIATIVE 03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FF3B00"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: Scale global operations ...
+    frame:
+      x: 1098.78
+      y: 834.42
+      width: 672.89
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Scale global operations without losing our edge.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape19
+    type: shape
+    frame:
+      x: 1584.5
+      y: 947.05
+      width: 251.72
+      height: 68.38
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1.5
+  - id: text15
+    type: text
+    name: PAGE 02 / 04
+    frame:
+      x: 1584.5
+      y: 947.05
+      width: 251.77
+      height: 68.38
+    body:
+      paragraphs:
+        - runs:
+            - text: PAGE 02 / 04
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 4.8
+        right: 9.6
+        bottom: 4.8
+        left: 9.6

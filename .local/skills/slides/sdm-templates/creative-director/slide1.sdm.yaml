@@ -1,0 +1,189 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: creative-flatlay
+    altText: Creative Workspace
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 960.21
+      y: 243
+      width: 806
+      height: 594
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    rotationDeg: -2
+  - id: text1
+    type: text
+    name: "01"
+    frame:
+      x: 1291
+      y: 215.19
+      width: 460.05
+      height: 346
+    body:
+      paragraphs:
+        - runs:
+            - text: "01"
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 172.8
+              weight: 800
+              color:
+                kind: rgb
+                value: "#F0F0F0"
+          lineHeight: 1
+      overflow: visible
+    rotationDeg: -2
+  - id: shape2
+    type: shape
+    frame:
+      x: 1029.95
+      y: 336.51
+      width: 15
+      height: 15
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4786E"
+    rotationDeg: -2
+  - id: text2
+    type: text
+    name: CREATIVE BRIEF
+    frame:
+      x: 1064.43
+      y: 327.04
+      width: 178.24
+      height: 53
+    body:
+      paragraphs:
+        - runs:
+            - text: CREATIVE BRIEF
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 1.296
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -2
+  - id: text3
+    type: text
+    name: Example Deck
+    frame:
+      x: 1035.61
+      y: 461.07
+      width: 653.05
+      height: 97
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 43.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -0.864
+          lineHeight: 1.1
+      overflow: visible
+    rotationDeg: -2
+  - id: text4
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 1039.56
+      y: 578.78
+      width: 610.61
+      height: 81
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -2
+  - id: shape3
+    type: shape
+    frame:
+      x: 1042.62
+      y: 708.71
+      width: 653
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E5E5E5"
+    rotationDeg: -2
+  - id: text5
+    type: text
+    name: acme.co
+    frame:
+      x: 1043.89
+      y: 731.18
+      width: 653.05
+      height: 29
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -2
+assets:
+  creative-flatlay:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/creative-flatlay.png

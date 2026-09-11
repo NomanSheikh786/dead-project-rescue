@@ -1,0 +1,314 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#D4C4A8"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: desert-mirror
+    altText: Desert Mirror Installation
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 192
+      y: 108
+      width: 776
+      height: 864
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.5
+  - id: text1
+    type: text
+    name: THE MIRAGE EFFECT
+    frame:
+      x: 345.59
+      y: 261.59
+      width: 1228.86
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: THE MIRAGE EFFECT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C4A8"
+              letterSpacingPt: 2.88
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Reflecting the Horizon
+    frame:
+      x: 345.59
+      y: 309.11
+      width: 566.46
+      height: 149.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Reflecting the Horizon
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 33.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.672
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: By utilizing expansive, ...
+    frame:
+      x: 345.59
+      y: 500.14
+      width: 566.46
+      height: 184.38
+    body:
+      paragraphs:
+        - runs:
+            - text: By utilizing expansive, highly reflective surfaces in arid environments, we create an illusion of infinite space that challenges perception. The boundary between earth and sky begins to dissolve completely.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.9
+  - id: shape2
+    type: shape
+    frame:
+      x: 345.59
+      y: 728.91
+      width: 7.67
+      height: 7.67
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4C4A8"
+  - id: text4
+    type: text
+    name: Seamless Integration
+    frame:
+      x: 372.45
+      y: 716.91
+      width: 230.47
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Seamless Integration
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 345.59
+      y: 782.19
+      width: 7.67
+      height: 7.67
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4C4A8"
+  - id: text5
+    type: text
+    name: Thermal Regulation
+    frame:
+      x: 372.45
+      y: 770.19
+      width: 213.48
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Thermal Regulation
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape4
+    type: shape
+    frame:
+      x: 345.59
+      y: 835.47
+      width: 7.67
+      height: 7.67
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4C4A8"
+  - id: text6
+    type: text
+    name: Optical Expansion
+    frame:
+      x: 372.45
+      y: 823.47
+      width: 197.68
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Optical Expansion
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape5
+    type: shape
+    frame:
+      x: 1008
+      y: 366.13
+      width: 566.41
+      height: 432
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.5
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4C4A8"
+      widthPt: 0.5
+      opacity: 0.3
+  - id: text7
+    type: text
+    name: '"The desert is no longer...'
+    frame:
+      x: 1038.8
+      y: 509.56
+      width: 504.8
+      height: 147.13
+    body:
+      paragraphs:
+        - runs:
+            - text: '"The desert is no longer an empty void, but a canvas of continuous reflection."'
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 17.28
+              weight: 300
+              color:
+                kind: rgb
+                value: "#D4C4A8"
+              italic: true
+          align: center
+          lineHeight: 1.4
+      overflow: visible
+  - id: text8
+    type: text
+    name: acme.co
+    frame:
+      x: 345.59
+      y: 905.78
+      width: 75.94
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C4A8"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: "02"
+    frame:
+      x: 1551.45
+      y: 905.78
+      width: 26
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C4A8"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  desert-mirror:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/desert-mirror.png

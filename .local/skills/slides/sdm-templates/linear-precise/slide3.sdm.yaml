@@ -1,0 +1,670 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0A0B"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 0
+      width: 1
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.03
+  - id: shape2
+    type: shape
+    frame:
+      x: 768
+      y: 0
+      width: 1
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.03
+  - id: shape3
+    type: shape
+    frame:
+      x: 153.59
+      y: 73.44
+      width: 11.52
+      height: 11.52
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8B7EC8"
+  - id: text1
+    type: text
+    name: acme.co — 2026
+    frame:
+      x: 184.3
+      y: 64.8
+      width: 156.36
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co — 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#8B7EC8"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: CONFIDENTIAL_REV_A
+    frame:
+      x: 1600.52
+      y: 67.67
+      width: 175.9
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL_REV_A
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Key Metrics
+    frame:
+      x: 153.59
+      y: 179.98
+      width: 1612.86
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: Key Metrics
+              font:
+                kind: family
+                family: Inter
+              sizePt: 28.8
+              weight: 500
+              color:
+                kind: rgb
+                value: "#EDEDEF"
+              letterSpacingPt: -0.576
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Q3_2025_PERFORMANCE_DATA
+    frame:
+      x: 153.59
+      y: 277.17
+      width: 1612.86
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q3_2025_PERFORMANCE_DATA
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 153.59
+      y: 370.77
+      width: 512
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8B7EC8"
+  - id: text5
+    type: text
+    name: 01_ACTIVE_USERS
+    frame:
+      x: 153.59
+      y: 393.36
+      width: 512.05
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: 01_ACTIVE_USERS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: 2.4M
+    frame:
+      x: 153.59
+      y: 427.19
+      width: 512.05
+      height: 117.19
+    body:
+      paragraphs:
+        - runs:
+            - text: 2.4M
+              font:
+                kind: family
+                family: Inter
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#EDEDEF"
+              letterSpacingPt: -1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: +14.2% YoY
+    frame:
+      x: 153.59
+      y: 553.17
+      width: 512.05
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: +14.2% YoY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4CAF50"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 703.98
+      y: 370.77
+      width: 512.02
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text8
+    type: text
+    name: 02_ARR_GROWTH
+    frame:
+      x: 703.98
+      y: 393.36
+      width: 512.07
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: 02_ARR_GROWTH
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: $84M
+    frame:
+      x: 703.98
+      y: 427.19
+      width: 512.07
+      height: 117.19
+    body:
+      paragraphs:
+        - runs:
+            - text: $84M
+              font:
+                kind: family
+                family: Inter
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#EDEDEF"
+              letterSpacingPt: -1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: +22.4% YoY
+    frame:
+      x: 703.98
+      y: 553.17
+      width: 512.07
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: +22.4% YoY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4CAF50"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 1254.39
+      y: 370.77
+      width: 512.02
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text11
+    type: text
+    name: 03_RETENTION
+    frame:
+      x: 1254.39
+      y: 393.36
+      width: 512.07
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: 03_RETENTION
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: 98.2%
+    frame:
+      x: 1254.39
+      y: 427.19
+      width: 512.07
+      height: 117.19
+    body:
+      paragraphs:
+        - runs:
+            - text: 98.2%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#EDEDEF"
+              letterSpacingPt: -1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Industry leading
+    frame:
+      x: 1254.39
+      y: 553.17
+      width: 512.07
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Industry leading
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 153.59
+      y: 646.77
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+  - id: text14
+    type: text
+    name: Quarterly Progression
+    frame:
+      x: 153.59
+      y: 690.95
+      width: 768.05
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Quarterly Progression
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#EDEDEF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 153.59
+      y: 844.31
+      width: 177.61
+      height: 64.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8B7EC8"
+      opacity: 0.2
+  - id: shape9
+    type: shape
+    frame:
+      x: 350.39
+      y: 820.02
+      width: 177.61
+      height: 89.09
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8B7EC8"
+      opacity: 0.4
+  - id: shape10
+    type: shape
+    frame:
+      x: 547.19
+      y: 795.72
+      width: 177.61
+      height: 113.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8B7EC8"
+      opacity: 0.6
+  - id: shape11
+    type: shape
+    frame:
+      x: 743.98
+      y: 747.11
+      width: 177.61
+      height: 162
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8B7EC8"
+  - id: text15
+    type: text
+    name: Q4 24
+    frame:
+      x: 153.59
+      y: 919.91
+      width: 177.61
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Q4 24
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: Q1 25
+    frame:
+      x: 350.39
+      y: 919.91
+      width: 177.61
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Q1 25
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text17
+    type: text
+    name: Q2 25
+    frame:
+      x: 547.19
+      y: 919.91
+      width: 177.61
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Q2 25
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text18
+    type: text
+    name: Q3 25
+    frame:
+      x: 743.98
+      y: 919.91
+      width: 177.61
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Q3 25
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text19
+    type: text
+    name: Our metrics indicate a s...
+    frame:
+      x: 998.39
+      y: 790.3
+      width: 863
+      height: 69.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Our metrics indicate a strong upward trajectory, fueled by strategic enterprise partnerships and rigorous operational optimization.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#EDEDEF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape12
+    type: shape
+    frame:
+      x: 153.59
+      y: 958.78
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+  - id: text20
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 153.59
+      y: 992.17
+      width: 193.58
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text21
+    type: text
+    name: SLIDE_03
+    frame:
+      x: 1692.67
+      y: 992.17
+      width: 78.21
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: SLIDE_03
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          lineHeight: 1.5
+      overflow: visible

@@ -1,0 +1,437 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#081423"
+elements:
+  - id: text1
+    type: text
+    name: ARCTIC RESEARCH STATION
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 386.09
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: ARCTIC RESEARCH STATION
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+              letterSpacingPt: 1.584
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text2
+    type: text
+    name: CORE FINDINGS
+    frame:
+      x: 1560.56
+      y: 86.39
+      width: 205.89
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: CORE FINDINGS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+              letterSpacingPt: 1.584
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: Glacial Retreat Metrics
+    frame:
+      x: 153.565
+      y: 301.02
+      width: 1612.86
+      height: 75.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Glacial Retreat Metrics
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 33.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+              letterSpacingPt: -0.336
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 482.92
+      width: 480
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C8DDE8"
+      opacity: 0.2
+  - id: shape2
+    type: shape
+    frame:
+      x: 153.59
+      y: 783.76
+      width: 480
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C8DDE8"
+      opacity: 0.2
+  - id: text4
+    type: text
+    name: "42.5"
+    frame:
+      x: 299.13
+      y: 527.11
+      width: 267.97
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: "42.5"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+          lineHeight: 1
+      overflow: visible
+  - id: text5
+    type: text
+    name: METERS
+    frame:
+      x: 357.33
+      y: 653.11
+      width: 86.58
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: METERS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text6
+    type: text
+    name: ANNUAL RECESSION
+    frame:
+      x: 268.94
+      y: 706.02
+      width: 249.35
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ANNUAL RECESSION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: shape3
+    type: shape
+    frame:
+      x: 720
+      y: 482.92
+      width: 480
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C8DDE8"
+      opacity: 0.2
+  - id: shape4
+    type: shape
+    frame:
+      x: 720
+      y: 783.76
+      width: 480
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C8DDE8"
+      opacity: 0.2
+  - id: text7
+    type: text
+    name: "1.2"
+    frame:
+      x: 896.58
+      y: 527.11
+      width: 190.88
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: "1.2"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+          lineHeight: 1
+      overflow: visible
+  - id: text8
+    type: text
+    name: METERS/YR
+    frame:
+      x: 905.59
+      y: 653.11
+      width: 124.85
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: METERS/YR
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text9
+    type: text
+    name: ICE THICKNESS LOSS
+    frame:
+      x: 830.58
+      y: 706.02
+      width: 274.42
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ICE THICKNESS LOSS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: shape5
+    type: shape
+    frame:
+      x: 1286.41
+      y: 482.92
+      width: 480
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C8DDE8"
+      opacity: 0.2
+  - id: shape6
+    type: shape
+    frame:
+      x: 1286.41
+      y: 783.76
+      width: 480
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C8DDE8"
+      opacity: 0.2
+  - id: text10
+    type: text
+    name: "8.4"
+    frame:
+      x: 1453.48
+      y: 527.11
+      width: 190.88
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: "8.4"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+          lineHeight: 1
+      overflow: visible
+  - id: text11
+    type: text
+    name: PERCENT
+    frame:
+      x: 1484.09
+      y: 653.11
+      width: 94.68
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: PERCENT
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text12
+    type: text
+    name: ALBEDO REDUCTION
+    frame:
+      x: 1401.22
+      y: 706.02
+      width: 250.43
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ALBEDO REDUCTION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text13
+    type: text
+    name: EXPEDITION LOG
+    frame:
+      x: 153.59
+      y: 967.69
+      width: 169.28
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EXPEDITION LOG
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text14
+    type: text
+    name: "03"
+    frame:
+      x: 1742.22
+      y: 967.69
+      width: 28.24
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6

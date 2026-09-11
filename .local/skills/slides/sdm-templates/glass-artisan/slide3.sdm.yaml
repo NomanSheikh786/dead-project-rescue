@@ -1,0 +1,713 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0A0F"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 129.59
+      width: 96
+      height: 2.16
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+  - id: text1
+    type: text
+    name: MEASURING EXCELLENCE
+    frame:
+      x: 153.59
+      y: 164.14
+      width: 661.21
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: MEASURING EXCELLENCE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4A84B"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Global Distribution
+    frame:
+      x: 153.59
+      y: 206.25
+      width: 787.51
+      height: 86.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Global Distribution
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: 2.4M
+    frame:
+      x: 289.52
+      y: 388.13
+      width: 126.66
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: 2.4M
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 230.39
+      y: 481.72
+      width: 218.88
+      height: 367.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 0
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#D4A84B"
+          opacity: 0.1
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#D4A84B"
+          opacity: 0.6
+  - id: shape2
+    type: shape
+    frame:
+      x: 230.39
+      y: 481.72
+      width: 218.88
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+  - id: shape3
+    type: shape
+    frame:
+      x: 448.27
+      y: 481.72
+      width: 1
+      height: 367.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+      opacity: 0.3
+  - id: shape4
+    type: shape
+    frame:
+      x: 230.39
+      y: 481.72
+      width: 1
+      height: 367.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+      opacity: 0.3
+  - id: shape6
+    type: shape
+    frame:
+      x: 253.08
+      y: 483.72
+      width: 2
+      height: 365.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text4
+    type: text
+    name: NORTH AMERICA
+    frame:
+      x: 261.25
+      y: 881.3
+      width: 176.62
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: NORTH AMERICA
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text5
+    type: text
+    name: 1.8M
+    frame:
+      x: 704.97
+      y: 474.52
+      width: 126.68
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: 1.8M
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape10
+    type: shape
+    frame:
+      x: 643.84
+      y: 568.11
+      width: 218.88
+      height: 280.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 0
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#D4A84B"
+          opacity: 0.1
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#D4A84B"
+          opacity: 0.6
+  - id: shape7
+    type: shape
+    frame:
+      x: 643.84
+      y: 568.11
+      width: 218.88
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+  - id: shape8
+    type: shape
+    frame:
+      x: 861.72
+      y: 568.11
+      width: 1
+      height: 280.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+      opacity: 0.3
+  - id: shape9
+    type: shape
+    frame:
+      x: 643.84
+      y: 568.11
+      width: 1
+      height: 280.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+      opacity: 0.3
+  - id: shape11
+    type: shape
+    frame:
+      x: 666.53
+      y: 570.11
+      width: 2
+      height: 278.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text6
+    type: text
+    name: EUROPE
+    frame:
+      x: 717.02
+      y: 881.3
+      width: 81.58
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EUROPE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text7
+    type: text
+    name: 1.2M
+    frame:
+      x: 1119.39
+      y: 560.92
+      width: 126.71
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: 1.2M
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape15
+    type: shape
+    frame:
+      x: 1057.28
+      y: 654.52
+      width: 218.88
+      height: 194.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 0
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#D4A84B"
+          opacity: 0.1
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#D4A84B"
+          opacity: 0.6
+  - id: shape12
+    type: shape
+    frame:
+      x: 1057.28
+      y: 654.52
+      width: 218.88
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+  - id: shape13
+    type: shape
+    frame:
+      x: 1275.16
+      y: 654.52
+      width: 1
+      height: 194.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+      opacity: 0.3
+  - id: shape14
+    type: shape
+    frame:
+      x: 1057.28
+      y: 654.52
+      width: 1
+      height: 194.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+      opacity: 0.3
+  - id: shape16
+    type: shape
+    frame:
+      x: 1079.97
+      y: 656.52
+      width: 2
+      height: 192.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text8
+    type: text
+    name: ASIA PACIFIC
+    frame:
+      x: 1094.19
+      y: 881.3
+      width: 180
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: ASIA PACIFIC
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text9
+    type: text
+    name: 0.8M
+    frame:
+      x: 1526.33
+      y: 625.72
+      width: 126.72
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: 0.8M
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape20
+    type: shape
+    frame:
+      x: 1470.73
+      y: 719.31
+      width: 218.88
+      height: 129.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 0
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#D4A84B"
+          opacity: 0.1
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#D4A84B"
+          opacity: 0.6
+  - id: shape17
+    type: shape
+    frame:
+      x: 1470.73
+      y: 719.31
+      width: 218.88
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+  - id: shape18
+    type: shape
+    frame:
+      x: 1688.61
+      y: 719.31
+      width: 1
+      height: 129.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+      opacity: 0.3
+  - id: shape19
+    type: shape
+    frame:
+      x: 1470.73
+      y: 719.31
+      width: 1
+      height: 129.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+      opacity: 0.3
+  - id: shape21
+    type: shape
+    frame:
+      x: 1493.42
+      y: 721.31
+      width: 2
+      height: 127.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text10
+    type: text
+    name: MIDDLE EAST
+    frame:
+      x: 1513.69
+      y: 881.3
+      width: 141
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: MIDDLE EAST
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text11
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 1013.78
+      width: 75.32
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4A84B"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: "03"
+    frame:
+      x: 1744.89
+      y: 1013.78
+      width: 25.57
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4A84B"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape22
+    type: shape
+    frame:
+      x: 153.59
+      y: 906.22
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+      opacity: 0.2
+  - id: shape23
+    type: shape
+    frame:
+      x: 153.59
+      y: 504.23
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0ECE4"
+      opacity: 0.1
+  - id: shape24
+    type: shape
+    frame:
+      x: 153.59
+      y: 652.95
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0ECE4"
+      opacity: 0.1
+  - id: shape25
+    type: shape
+    frame:
+      x: 153.59
+      y: 801.67
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0ECE4"
+      opacity: 0.1

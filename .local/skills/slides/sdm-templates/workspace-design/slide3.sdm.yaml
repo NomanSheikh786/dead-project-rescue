@@ -1,0 +1,549 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#121216"
+elements:
+  - id: text1
+    type: text
+    name: PROJECT BRIEF — METRICS
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 297.32
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: PROJECT BRIEF — METRICS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Performance Impact
+    frame:
+      x: 153.59
+      y: 216
+      width: 1612.85
+      height: 86.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Performance Impact
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 38.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -1.152
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: Quantifiable improvement...
+    frame:
+      x: 153.59
+      y: 322.06
+      width: 768.05
+      height: 73.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Quantifiable improvements in employee well-being, operational efficiency, and overall productivity post-implementation.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text4
+    type: text
+    name: +34%
+    frame:
+      x: 153.59
+      y: 669.48
+      width: 188.78
+      height: 67.2
+    body:
+      paragraphs:
+        - runs:
+            - text: +34%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 33.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.672
+          lineHeight: 1
+      overflow: visible
+  - id: text5
+    type: text
+    name: PRODUCTIVITY INCREASE
+    frame:
+      x: 153.59
+      y: 747.48
+      width: 270.42
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: PRODUCTIVITY INCREASE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 805.8
+      width: 345.59
+      height: 144.2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.08
+  - id: shape3
+    type: shape
+    frame:
+      x: 153.59
+      y: 805.8
+      width: 345.59
+      height: 144.2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 0
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.2
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.05
+  - id: shape2
+    type: shape
+    frame:
+      x: 153.59
+      y: 805.8
+      width: 345.59
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.4
+  - id: text6
+    type: text
+    name: 85%
+    frame:
+      x: 575.98
+      y: 453.38
+      width: 150.94
+      height: 67.2
+    body:
+      paragraphs:
+        - runs:
+            - text: 85%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 33.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.672
+          lineHeight: 1
+      overflow: visible
+  - id: text7
+    type: text
+    name: SPACE UTILIZATION
+    frame:
+      x: 575.98
+      y: 531.38
+      width: 207.5
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: SPACE UTILIZATION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 575.98
+      y: 589.7
+      width: 345.61
+      height: 360.3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.08
+  - id: shape6
+    type: shape
+    frame:
+      x: 575.98
+      y: 589.7
+      width: 345.61
+      height: 360.3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 0
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.2
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.05
+  - id: shape5
+    type: shape
+    frame:
+      x: 575.98
+      y: 589.7
+      width: 345.61
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.4
+  - id: text8
+    type: text
+    name: 92%
+    frame:
+      x: 998.39
+      y: 423.68
+      width: 151
+      height: 67.2
+    body:
+      paragraphs:
+        - runs:
+            - text: 92%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 33.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.672
+          lineHeight: 1
+      overflow: visible
+  - id: text9
+    type: text
+    name: EMPLOYEE RETENTION
+    frame:
+      x: 998.39
+      y: 501.68
+      width: 238.91
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EMPLOYEE RETENTION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 998.39
+      y: 560
+      width: 345.59
+      height: 390
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.08
+  - id: shape9
+    type: shape
+    frame:
+      x: 998.39
+      y: 560
+      width: 345.59
+      height: 390
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 0
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.2
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.05
+  - id: shape8
+    type: shape
+    frame:
+      x: 998.39
+      y: 560
+      width: 345.59
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.4
+  - id: text10
+    type: text
+    name: +40%
+    frame:
+      x: 1420.78
+      y: 644.08
+      width: 189.13
+      height: 67.2
+    body:
+      paragraphs:
+        - runs:
+            - text: +40%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 33.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.672
+          lineHeight: 1
+      overflow: visible
+  - id: text11
+    type: text
+    name: ENERGY EFFICIENCY
+    frame:
+      x: 1420.78
+      y: 722.08
+      width: 215.96
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: ENERGY EFFICIENCY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape10
+    type: shape
+    frame:
+      x: 1420.78
+      y: 780.4
+      width: 345.61
+      height: 169.6
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.08
+  - id: shape12
+    type: shape
+    frame:
+      x: 1420.78
+      y: 780.4
+      width: 345.61
+      height: 169.6
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 0
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.2
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.05
+  - id: shape11
+    type: shape
+    frame:
+      x: 1420.78
+      y: 780.4
+      width: 345.61
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.4
+  - id: shape13
+    type: shape
+    frame:
+      x: 153.59
+      y: 950
+      width: 1612.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.15
+  - id: text12
+    type: text
+    name: "03"
+    frame:
+      x: 153.59
+      y: 989.28
+      width: 25.57
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: acme.co
+    frame:
+      x: 1680.92
+      y: 986.41
+      width: 85.53
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible

@@ -1,0 +1,367 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 76.8
+      y: 43.19
+      width: 83.68
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1799.34
+      y: 43.19
+      width: 48.91
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 76.8
+      y: 1013.78
+      width: 133.25
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#C41E3A"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: "03"
+    frame:
+      x: 1820.88
+      y: 1013.78
+      width: 25.38
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: KEY METRICS
+    frame:
+      x: 153.59
+      y: 237.47
+      width: 1612.86
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: KEY METRICS
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#C41E3A"
+              letterSpacingPt: 4.608
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: 400%
+    frame:
+      x: 153.59
+      y: 348.47
+      width: 1451.16
+      height: 405.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "400"
+              color:
+                kind: rgb
+                value: "#000000"
+            - text: "%"
+              color:
+                kind: rgb
+                value: "#C41E3A"
+          lineHeight: 0.75
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Space Grotesk
+            sizePt: 240
+            weight: 900
+            letterSpacingPt: -14.4
+      overflow: visible
+  - id: text7
+    type: text
+    name: YOY GROWTH
+    frame:
+      x: 153.59
+      y: 773.25
+      width: 1317.16
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: YOY GROWTH
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 19.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 1470.7
+      y: 473.59
+      width: 295.7
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text8
+    type: text
+    name: $2.4M
+    frame:
+      x: 1470.7
+      y: 336.81
+      width: 295.75
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: $2.4M
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 28.8
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: -0.576
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text9
+    type: text
+    name: ANNUAL RECURRING REV
+    frame:
+      x: 1470.7
+      y: 423.2
+      width: 295.75
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ANNUAL RECURRING REV
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+    rotationDeg: 0.02
+  - id: shape2
+    type: shape
+    frame:
+      x: 1470.7
+      y: 656.56
+      width: 295.7
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text10
+    type: text
+    name: 120k
+    frame:
+      x: 1470.7
+      y: 519.78
+      width: 295.75
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: 120k
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 28.8
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: -0.576
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text11
+    type: text
+    name: ACTIVE USERS
+    frame:
+      x: 1470.7
+      y: 606.17
+      width: 295.75
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ACTIVE USERS
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+    rotationDeg: 0.02
+  - id: shape3
+    type: shape
+    frame:
+      x: 1470.7
+      y: 839.53
+      width: 295.7
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C41E3A"
+  - id: text12
+    type: text
+    name: 98%
+    frame:
+      x: 1470.7
+      y: 702.75
+      width: 295.75
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: 98%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 28.8
+              weight: 900
+              color:
+                kind: rgb
+                value: "#C41E3A"
+              letterSpacingPt: -0.576
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text13
+    type: text
+    name: RETENTION RATE
+    frame:
+      x: 1470.7
+      y: 789.14
+      width: 295.75
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: RETENTION RATE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#C41E3A"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible

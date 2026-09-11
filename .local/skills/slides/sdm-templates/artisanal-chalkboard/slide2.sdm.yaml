@@ -1,0 +1,409 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#1A251D"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 138.24
+      width: 1689.63
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      opacity: 0.3
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 135.03
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: THE VISION
+    frame:
+      x: 1663.02
+      y: 64.8
+      width: 146.11
+      height: 71
+    body:
+      paragraphs:
+        - runs:
+            - text: THE VISION
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Crafting the Future
+    frame:
+      x: 115.19
+      y: 282.84
+      width: 787.27
+      height: 255.44
+    body:
+      paragraphs:
+        - runs:
+            - text: Crafting the Future
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+              letterSpacingPt: 0.96
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Our approach blends trad...
+    frame:
+      x: 115.19
+      y: 568.67
+      width: 787.27
+      height: 247.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Our approach blends traditional techniques with modern innovation to deliver exceptional quality. We believe in taking the time to build things right.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.85
+  - id: shape2
+    type: shape
+    frame:
+      x: 1017.7
+      y: 256.62
+      width: 787
+      height: 584
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      widthPt: 1
+      opacity: 0.3
+      dash: dash
+    rotationDeg: 1
+  - id: text5
+    type: text
+    name: "1."
+    frame:
+      x: 1094.57
+      y: 378.55
+      width: 49.05
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: "1."
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 24
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -2
+    opacity: 0.6
+  - id: text6
+    type: text
+    name: Sourcing
+    frame:
+      x: 1164.14
+      y: 378.55
+      width: 352.16
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Sourcing
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Selecting the finest raw...
+    frame:
+      x: 1164.14
+      y: 435.78
+      width: 362.72
+      height: 71
+    body:
+      paragraphs:
+        - runs:
+            - text: Selecting the finest raw materials
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text8
+    type: text
+    name: "2."
+    frame:
+      x: 1094.43
+      y: 502.73
+      width: 94.62
+      height: 145
+    body:
+      paragraphs:
+        - runs:
+            - text: "2."
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 24
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 3
+    opacity: 0.6
+  - id: text9
+    type: text
+    name: Refining
+    frame:
+      x: 1170.86
+      y: 502.73
+      width: 291.61
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Refining
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Perfecting through itera...
+    frame:
+      x: 1170.86
+      y: 559.97
+      width: 300.37
+      height: 71
+    body:
+      paragraphs:
+        - runs:
+            - text: Perfecting through iteration
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text11
+    type: text
+    name: "3."
+    frame:
+      x: 1094.59
+      y: 626.92
+      width: 49.05
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: "3."
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 24
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -2
+    opacity: 0.6
+  - id: text12
+    type: text
+    name: Delivering
+    frame:
+      x: 1169.19
+      y: 626.92
+      width: 283.78
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Delivering
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Hand-crafted to your doo...
+    frame:
+      x: 1169.19
+      y: 684.16
+      width: 292.3
+      height: 71
+    body:
+      paragraphs:
+        - runs:
+            - text: Hand-crafted to your door
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape3
+    type: shape
+    frame:
+      x: 115.19
+      y: 957.05
+      width: 1689.63
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      opacity: 0.3
+  - id: text14
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 115.19
+      y: 980.64
+      width: 252.03
+      height: 71
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: "02"
+    frame:
+      x: 1772.94
+      y: 986.41
+      width: 34.93
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7

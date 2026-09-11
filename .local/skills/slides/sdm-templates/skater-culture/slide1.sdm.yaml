@@ -1,0 +1,233 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0805"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: skater-sunset
+    altText: Skater at sunset
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0.45
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#0A0805"
+          opacity: 0.85
+  - id: text1
+    type: text
+    name: MADE FOR THE CULTURE
+    frame:
+      x: 115.19
+      y: 694.83
+      width: 258.3
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: MADE FOR THE CULTURE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#C4865A"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: ISSUE 26
+    frame:
+      x: 373.83
+      y: 694.83
+      width: 110
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: ISSUE 26
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text3
+    type: text
+    name: EXAMPLE DECK
+    frame:
+      x: 115.19
+      y: 747.34
+      width: 1044.57
+      height: 122.95
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE DECK
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 67.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+              letterSpacingPt: -1.344
+          lineHeight: 0.9
+      overflow: visible
+  - id: text4
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 115.19
+      y: 895.69
+      width: 768.05
+      height: 69.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+    rotationDeg: 0.02
+  - id: text5
+    type: text
+    name: EXPLORE
+    frame:
+      x: 1674.75
+      y: 776.92
+      width: 108.38
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: EXPLORE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#C4865A"
+              underline: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: ↗
+    frame:
+      x: 1780.67
+      y: 772.61
+      width: 24.19
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: ↗
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4865A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: NO RULES
+    frame:
+      x: 1694.22
+      y: 902.19
+      width: 117.28
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: NO RULES
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text8
+    type: text
+    name: acme.co
+    frame:
+      x: 1726.73
+      y: 936.02
+      width: 78.13
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#C4865A"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+assets:
+  skater-sunset:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/skater-sunset.png

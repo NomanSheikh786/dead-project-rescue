@@ -1,0 +1,453 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#EFEBE3"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 768
+      y: 918
+      width: 864
+      height: 324
+    geometry:
+      kind: path
+      viewBox:
+        width: 864
+        height: 324
+      path: M 0 324 L 0 324 A 324 324 0 0 1 324 0 L 540 0 A 324 324 0 0 1 864 324 L 864 324 Z
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#638C80"
+    opacity: 0.15
+  - id: shape2
+    type: shape
+    frame:
+      x: 1728
+      y: 216
+      width: 288
+      height: 288
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E3A881"
+    opacity: 0.4
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 130.08
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3531"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: METRICS
+    frame:
+      x: 1676.77
+      y: 86.39
+      width: 142.1
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: METRICS
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#8E9791"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Performance by the numbe...
+    frame:
+      x: 115.19
+      y: 207.34
+      width: 1193.25
+      height: 86.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Performance by the numbers
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3531"
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 115.19
+      y: 324.2
+      width: 96
+      height: 4.31
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D48B6A"
+  - id: text4
+    type: text
+    name: Consistent quarter-over-...
+    frame:
+      x: 1228.76
+      y: 207.58
+      width: 576.05
+      height: 122.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Consistent quarter-over-quarter growth demonstrating product-market fit and operational efficiency.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5B645E"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 200
+      y: 755
+      width: 1520
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3531"
+      opacity: 0.15
+  - id: shape5
+    type: shape
+    frame:
+      x: 238.1
+      y: 631.13
+      width: 140
+      height: 123.87
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#638C80"
+  - id: shape6
+    type: shape
+    frame:
+      x: 682.7
+      y: 595
+      width: 140
+      height: 160
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#638C80"
+  - id: shape7
+    type: shape
+    frame:
+      x: 1120.8
+      y: 507.26
+      width: 140
+      height: 247.74
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E3A881"
+  - id: shape8
+    type: shape
+    frame:
+      x: 1562.4
+      y: 435
+      width: 140
+      height: 320
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D48B6A"
+  - id: text5
+    type: text
+    name: 2.4M
+    frame:
+      x: 257.34
+      y: 569.13
+      width: 101.52
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: 2.4M
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#638C80"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Q1
+    frame:
+      x: 282.28
+      y: 779.95
+      width: 36.63
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Q1
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2C3531"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: 3.1M
+    frame:
+      x: 701.86
+      y: 533
+      width: 101.69
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: 3.1M
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#638C80"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Q2
+    frame:
+      x: 721.2
+      y: 779.95
+      width: 36.02
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Q2
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2C3531"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: 4.8M
+    frame:
+      x: 1139.78
+      y: 445.26
+      width: 102.1
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: 4.8M
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E3A881"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Q3
+    frame:
+      x: 1162.56
+      y: 779.95
+      width: 36.53
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Q3
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2C3531"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: 6.2M
+    frame:
+      x: 1581.73
+      y: 373
+      width: 101.41
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: 6.2M
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D48B6A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Q4
+    frame:
+      x: 1603.72
+      y: 779.95
+      width: 37.46
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Q4
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2C3531"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: EXAMPLE COMPANY, INC. — ...
+    frame:
+      x: 115.19
+      y: 967.69
+      width: 426.69
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. — CONFIDENTIAL
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#8E9791"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: "03"
+    frame:
+      x: 1782.59
+      y: 967.69
+      width: 24.27
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2C3531"
+          lineHeight: 1.5
+      overflow: visible

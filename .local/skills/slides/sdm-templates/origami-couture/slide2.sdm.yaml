@@ -1,0 +1,246 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1152
+      y: 108
+      width: 960
+      height: 864
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0A0A0A"
+    rotationDeg: 15
+    opacity: 0.03
+  - id: text1
+    type: text
+    name: VISION
+    frame:
+      x: 288
+      y: 216
+      width: 822.41
+      height: 345.61
+    body:
+      paragraphs:
+        - runs:
+            - text: VISION
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 115.2
+              weight: 800
+              color:
+                kind: rgb
+                value: "#0A0A0A"
+              letterSpacingPt: 4.8
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.03
+    rotationDeg: 0.02
+  - id: shape2
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 153.59
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0A0A0A"
+  - id: text2
+    type: text
+    name: ISSUE 01
+    frame:
+      x: 30.8
+      y: 77.88
+      width: 94.81
+      height: 48
+    body:
+      paragraphs:
+        - runs:
+            - text: ISSUE 01
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 270
+  - id: text3
+    type: text
+    name: The New Standard
+    frame:
+      x: 288
+      y: 108
+      width: 831.03
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: The New Standard
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#0A0A0A"
+              letterSpacingPt: -1.92
+          lineHeight: 0.9
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape3
+    type: shape
+    frame:
+      x: 288
+      y: 226.78
+      width: 115.19
+      height: 4.31
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0A0A0A"
+  - id: text4
+    type: text
+    name: Defining Excellence
+    frame:
+      x: 288
+      y: 378
+      width: 662.46
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Defining Excellence
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#0A0A0A"
+              letterSpacingPt: -0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: We believe that true lux...
+    frame:
+      x: 288
+      y: 451.44
+      width: 662.46
+      height: 135.19
+    body:
+      paragraphs:
+        - runs:
+            - text: We believe that true luxury lies in the details. Every interaction, every pixel, and every word is crafted with intention. By stripping away the unnecessary, we reveal the core essence of what matters most to our audience.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text6
+    type: text
+    name: Uncompromising Quality
+    frame:
+      x: 1065.59
+      y: 378
+      width: 662.46
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Uncompromising Quality
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#0A0A0A"
+              letterSpacingPt: -0.48
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text7
+    type: text
+    name: Our approach blends time...
+    frame:
+      x: 1065.59
+      y: 451.44
+      width: 745.59
+      height: 135.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Our approach blends timeless editorial design with modern digital sensibilities. The result is an experience that feels both familiar and entirely new, establishing a profound connection with users across every touchpoint.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.6
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text8
+    type: text
+    name: "02"
+    frame:
+      x: 1777.14
+      y: 986.41
+      width: 30.72
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#0A0A0A"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible

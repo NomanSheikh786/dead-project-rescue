@@ -1,0 +1,318 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FAFAFA"
+elements:
+  - id: text1
+    type: text
+    name: EXECUTIVE SUMMARY
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 239.7
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EXECUTIVE SUMMARY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 700
+              color:
+                kind: rgb
+                value: "#0D4F4F"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Elevating the standard o...
+    frame:
+      x: 115.19
+      y: 152.63
+      width: 777.56
+      height: 170.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Elevating the standard of living.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#0D4F4F"
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: We focus on integrating ...
+    frame:
+      x: 115.19
+      y: 353.95
+      width: 652.86
+      height: 110.63
+    body:
+      paragraphs:
+        - runs:
+            - text: We focus on integrating world-class amenities with breathtaking natural landscapes to create unparalleled experiences.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.6
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape1
+    type: shape
+    frame:
+      x: 883.19
+      y: 385.78
+      width: 3
+      height: 94.33
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0D4F4F"
+  - id: text4
+    type: text
+    name: Curated Locations
+    frame:
+      x: 924.58
+      y: 385.78
+      width: 880.25
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Curated Locations
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#0D4F4F"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Hand-picked private isla...
+    frame:
+      x: 924.58
+      y: 448.42
+      width: 880.25
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Hand-picked private islands and pristine coastal properties.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 883.19
+      y: 523.3
+      width: 3
+      height: 94.33
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0D4F4F"
+  - id: text6
+    type: text
+    name: Sustainable Luxury
+    frame:
+      x: 924.58
+      y: 523.3
+      width: 880.25
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Sustainable Luxury
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#0D4F4F"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Eco-friendly materials a...
+    frame:
+      x: 924.58
+      y: 585.94
+      width: 880.25
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Eco-friendly materials and renewable energy sources seamlessly integrated.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 883.19
+      y: 660.81
+      width: 3
+      height: 94.33
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0D4F4F"
+  - id: text8
+    type: text
+    name: Bespoke Architecture
+    frame:
+      x: 924.58
+      y: 660.81
+      width: 880.25
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Bespoke Architecture
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#0D4F4F"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Award-winning designers ...
+    frame:
+      x: 924.58
+      y: 723.45
+      width: 880.25
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Award-winning designers creating homes that complement nature.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 0
+      y: 988.3
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0D4F4F"
+      opacity: 0.1
+  - id: text10
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 1021.69
+      width: 76.99
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#0D4F4F"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Page 2
+    frame:
+      x: 1757.56
+      y: 1021.69
+      width: 50.16
+      height: 53
+    body:
+      paragraphs:
+        - runs:
+            - text: Page 2
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible

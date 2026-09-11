@@ -1,0 +1,581 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0F0C08"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: autumn-road
+    fit: cover
+    opacity: 0.3
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0.4
+          color:
+            kind: rgb
+            value: "#0F0C08"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#0F0C08"
+          opacity: 0.7
+  - id: shape2
+    type: shape
+    frame:
+      x: 1728.02
+      y: 86.39
+      width: 76.8
+      height: 76.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#C4A060"
+      widthPt: 0.5
+      opacity: 0.3
+  - id: text1
+    type: text
+    name: N
+    frame:
+      x: 1762.94
+      y: 91.22
+      width: 8.97
+      height: 19.27
+    body:
+      paragraphs:
+        - runs:
+            - text: N
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 5.76
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: S
+    frame:
+      x: 1762.94
+      y: 141.09
+      width: 8.97
+      height: 19.27
+    body:
+      paragraphs:
+        - runs:
+            - text: S
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 5.76
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: W
+    frame:
+      x: 1734.77
+      y: 116.14
+      width: 12.97
+      height: 19.27
+    body:
+      paragraphs:
+        - runs:
+            - text: W
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 5.76
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: E
+    frame:
+      x: 1791.14
+      y: 116.14
+      width: 8.97
+      height: 19.27
+    body:
+      paragraphs:
+        - runs:
+            - text: E
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 5.76
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 1747.41
+      y: 124.28
+      width: 38
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A060"
+      opacity: 0.3
+    rotationDeg: 45
+  - id: shape4
+    type: shape
+    frame:
+      x: 1747.4
+      y: 124.28
+      width: 38
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A060"
+      opacity: 0.3
+    rotationDeg: -45
+  - id: text5
+    type: text
+    name: CHAPTER I
+    frame:
+      x: 153.59
+      y: 129.59
+      width: 142.88
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CHAPTER I
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#C4A060"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 319.09
+      y: 143.48
+      width: 57.59
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A060"
+    opacity: 0.5
+  - id: text6
+    type: text
+    name: Navigating Uncharted Ter...
+    frame:
+      x: 153.59
+      y: 223.19
+      width: 672.05
+      height: 285.14
+    body:
+      paragraphs:
+        - runs:
+            - text: Navigating Uncharted Territories.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 43.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+              letterSpacingPt: -0.864
+          lineHeight: 1.1
+      overflow: visible
+  - id: text7
+    type: text
+    name: Our methodology combines...
+    frame:
+      x: 153.59
+      y: 551.52
+      width: 672.05
+      height: 121.77
+    body:
+      paragraphs:
+        - runs:
+            - text: Our methodology combines rugged exploration with precision planning. We don't just find paths; we forge them, leaving a trail for others to follow.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 12.48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+  - id: shape6
+    type: shape
+    frame:
+      x: 940.78
+      y: 391.64
+      width: 825.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A060"
+      opacity: 0.2
+  - id: text8
+    type: text
+    name: "01"
+    frame:
+      x: 940.78
+      y: 244.78
+      width: 31.69
+      height: 114.47
+    body:
+      paragraphs:
+        - runs:
+            - text: "01"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 0
+        bottom: 0
+        left: 0
+  - id: text9
+    type: text
+    name: Terrain Assessment
+    frame:
+      x: 1006.81
+      y: 244.78
+      width: 759.64
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: Terrain Assessment
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 15.36
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Analyzing the landscape ...
+    frame:
+      x: 1006.81
+      y: 301.66
+      width: 759.64
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Analyzing the landscape to identify optimal routes and potential hazards before we set out.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: shape7
+    type: shape
+    frame:
+      x: 940.78
+      y: 582.69
+      width: 825.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A060"
+      opacity: 0.2
+  - id: text11
+    type: text
+    name: "02"
+    frame:
+      x: 940.78
+      y: 435.83
+      width: 31.69
+      height: 114.47
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 0
+        bottom: 0
+        left: 0
+  - id: text12
+    type: text
+    name: Resource Allocation
+    frame:
+      x: 1006.81
+      y: 435.83
+      width: 759.64
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: Resource Allocation
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 15.36
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Equipping our expedition...
+    frame:
+      x: 1006.81
+      y: 492.7
+      width: 759.64
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Equipping our expedition with the right gear, ensuring every pound carries its weight.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: shape8
+    type: shape
+    frame:
+      x: 940.78
+      y: 744.94
+      width: 825.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A060"
+      opacity: 0.2
+  - id: text14
+    type: text
+    name: "03"
+    frame:
+      x: 940.78
+      y: 626.88
+      width: 31.69
+      height: 85.67
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 0
+        bottom: 0
+        left: 0
+  - id: text15
+    type: text
+    name: Forward Momentum
+    frame:
+      x: 1006.81
+      y: 626.88
+      width: 751.41
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: Forward Momentum
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 15.36
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: Executing the plan with ...
+    frame:
+      x: 1006.81
+      y: 683.75
+      width: 844.28
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Executing the plan with relentless drive, adapting to changing conditions on the fly.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text17
+    type: text
+    name: FIELD GUIDE — 2024
+    frame:
+      x: 153.59
+      y: 989.28
+      width: 186.52
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: FIELD GUIDE — 2024
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text18
+    type: text
+    name: "02"
+    frame:
+      x: 1743.38
+      y: 986.41
+      width: 27.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  autumn-road:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/autumn-road.png

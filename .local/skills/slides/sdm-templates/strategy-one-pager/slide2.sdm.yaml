@@ -1,0 +1,477 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 76.81
+      y: 70.19
+      width: 230.39
+      height: 32.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0A1628"
+    opacity: 0.1
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 1728.69
+      y: 54
+      width: 95.36
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 800
+              color:
+                kind: rgb
+                value: "#0A1628"
+              letterSpacingPt: -0.23
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Our approach focuses on ...
+    frame:
+      x: 96
+      y: 207.59
+      width: 757.46
+      height: 140.23
+    body:
+      paragraphs:
+        - runs:
+            - text: Our approach focuses on combining rigorous analytical research with bold creative execution to deliver unprecedented results.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 15.36
+              weight: 500
+              color:
+                kind: rgb
+                value: "#4A5568"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 96
+      y: 389.02
+      width: 757.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E2E8F0"
+  - id: text3
+    type: text
+    name: "01"
+    frame:
+      x: 96
+      y: 433.2
+      width: 31.69
+      height: 114.48
+    body:
+      paragraphs:
+        - runs:
+            - text: "01"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#A0AEC0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Market Penetration
+    frame:
+      x: 162.03
+      y: 433.2
+      width: 691.43
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Market Penetration
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 700
+              color:
+                kind: rgb
+                value: "#0A1628"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Expanding our footprint ...
+    frame:
+      x: 162.03
+      y: 484.31
+      width: 691.43
+      height: 63.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Expanding our footprint in emerging markets by leveraging local partnerships and adaptive product positioning.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A5568"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: "02"
+    frame:
+      x: 96
+      y: 580.08
+      width: 31.69
+      height: 114.48
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#A0AEC0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Product Innovation
+    frame:
+      x: 162.03
+      y: 580.08
+      width: 691.43
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Product Innovation
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 700
+              color:
+                kind: rgb
+                value: "#0A1628"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Developing next-generati...
+    frame:
+      x: 162.03
+      y: 631.19
+      width: 691.43
+      height: 63.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Developing next-generation solutions that anticipate user needs before they become apparent in the mainstream market.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A5568"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: "03"
+    frame:
+      x: 96
+      y: 726.95
+      width: 31.69
+      height: 114.48
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#A0AEC0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Operational Excellence
+    frame:
+      x: 162.03
+      y: 726.95
+      width: 691.43
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Operational Excellence
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 700
+              color:
+                kind: rgb
+                value: "#0A1628"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Streamlining internal pr...
+    frame:
+      x: 162.03
+      y: 778.06
+      width: 691.43
+      height: 63.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Streamlining internal processes to maximize efficiency, reduce overhead, and accelerate time-to-market for new initiatives.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A5568"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 949.41
+      y: 207.59
+      width: 874.59
+      height: 745.91
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F7FAFC"
+    stroke:
+      color:
+        kind: rgb
+        value: "#E2E8F0"
+      widthPt: 0.5
+  - id: text12
+    type: text
+    name: STRATEGIC IMPERATIVES
+    frame:
+      x: 1008
+      y: 251.78
+      width: 757.46
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: STRATEGIC IMPERATIVES
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#718096"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: '"We must pivot from reac...'
+    frame:
+      x: 1008
+      y: 312.97
+      width: 757.46
+      height: 186.31
+    body:
+      paragraphs:
+        - runs:
+            - text: '"We must pivot from reactive problem-solving to proactive value creation to secure our market position for the next decade."'
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 800
+              color:
+                kind: rgb
+                value: "#0A1628"
+              letterSpacingPt: -0.384
+          lineHeight: 1.2
+      overflow: visible
+  - id: text14
+    type: text
+    name: Jane Doe
+    frame:
+      x: 1008
+      y: 849.04
+      width: 757.46
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Jane Doe
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#0A1628"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: Chief Strategy Officer
+    frame:
+      x: 1008
+      y: 883.6
+      width: 757.46
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Chief Strategy Officer
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#718096"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 96
+      y: 977.48
+      width: 1728
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E2E8F0"
+  - id: text16
+    type: text
+    name: Strategy Overview / Exam...
+    frame:
+      x: 96
+      y: 1000.08
+      width: 480
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Strategy Overview / Example Deck
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0AEC0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text17
+    type: text
+    name: "02"
+    frame:
+      x: 1803.28
+      y: 1000.08
+      width: 24.77
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#0A1628"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text18
+    type: text
+    name: Core Strategy
+    frame:
+      x: 96
+      y: 54
+      width: 493.79
+      height: 67.2
+    body:
+      paragraphs:
+        - runs:
+            - text: Core Strategy
+              font:
+                kind: family
+                family: Inter
+              sizePt: 33.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#0A1628"
+              letterSpacingPt: -1.008
+          lineHeight: 1
+      overflow: visible

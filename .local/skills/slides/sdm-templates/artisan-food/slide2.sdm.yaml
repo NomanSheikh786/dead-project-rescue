@@ -1,0 +1,466 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#2A1F14"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 432
+    assetId: photo-food-bread
+    altText: Artisan food process
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 432
+      width: 1920
+      height: 648
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2A1F14"
+  - id: text1
+    type: text
+    name: The Process
+    frame:
+      x: 153.565
+      y: 496.8
+      width: 1612.86
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: The Process
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+              italic: true
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 345.59
+      y: 717.58
+      width: 1228.81
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A86A"
+  - id: shape3
+    type: shape
+    frame:
+      x: 297.58
+      y: 669.58
+      width: 96
+      height: 96
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A86A"
+  - id: text2
+    type: text
+    name: "01"
+    frame:
+      x: 297.555
+      y: 669.58
+      width: 96.05
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: "01"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2A1F14"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text3
+    type: text
+    name: Mill
+    frame:
+      x: 315.58
+      y: 797.97
+      width: 68.03
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Mill
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Stone-ground heritage wh...
+    frame:
+      x: 213.04
+      y: 866
+      width: 265.06
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Stone-ground heritage wheat
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape4
+    type: shape
+    frame:
+      x: 707.19
+      y: 669.58
+      width: 96
+      height: 96
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A86A"
+  - id: text5
+    type: text
+    name: "02"
+    frame:
+      x: 707.165
+      y: 669.58
+      width: 96.05
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2A1F14"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text6
+    type: text
+    name: Ferment
+    frame:
+      x: 688.83
+      y: 797.97
+      width: 146.75
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Ferment
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: 72-hour natural levain
+    frame:
+      x: 650.31
+      y: 866
+      width: 209.75
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: 72-hour natural levain
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape5
+    type: shape
+    frame:
+      x: 1116.81
+      y: 669.58
+      width: 96
+      height: 96
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A86A"
+  - id: text8
+    type: text
+    name: "03"
+    frame:
+      x: 1116.785
+      y: 669.58
+      width: 96.05
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2A1F14"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text9
+    type: text
+    name: Shape
+    frame:
+      x: 1117.94
+      y: 797.97
+      width: 105.78
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Shape
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Hand-formed with intenti...
+    frame:
+      x: 1040.99
+      y: 866
+      width: 247.62
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Hand-formed with intention
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape6
+    type: shape
+    frame:
+      x: 1526.42
+      y: 669.58
+      width: 96
+      height: 96
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A86A"
+  - id: text11
+    type: text
+    name: "04"
+    frame:
+      x: 1526.395
+      y: 669.58
+      width: 96.05
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2A1F14"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text12
+    type: text
+    name: Bake
+    frame:
+      x: 1537.3
+      y: 797.97
+      width: 85.3
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Bake
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Wood-fired at 450°F
+    frame:
+      x: 1476.32
+      y: 866
+      width: 196.21
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Wood-fired at 450°F
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text14
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 153.59
+      y: 1013.78
+      width: 428.26
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text15
+    type: text
+    name: "02"
+    frame:
+      x: 1741.98
+      y: 1008.02
+      width: 27.47
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+assets:
+  photo-food-bread:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/photo-food-bread.png

@@ -1,0 +1,251 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: linearGradient
+  angleDeg: 90
+  stops:
+    - offset: 0
+      color:
+        kind: rgb
+        value: "#190F08"
+      opacity: 0.95
+    - offset: 1
+      color:
+        kind: rgb
+        value: "#190F08"
+      opacity: 0.85
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: coffee-roasting
+    fit: cover
+  - id: shape3
+    type: shape
+    frame:
+      x: 778
+      y: 247
+      width: 364
+      height: 58
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#190F08"
+      opacity: 0.5
+  - id: text1
+    type: text
+    name: Lot No. 2026
+    frame:
+      x: 1680.45
+      y: 86.39
+      width: 124.36
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Lot No. 2026
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E8D4"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text2
+    type: text
+    name: JOIN THE JOURNEY
+    frame:
+      x: 803.71
+      y: 259.25
+      width: 312.57
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: JOIN THE JOURNEY
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B87333"
+              letterSpacingPt: 2.304
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Taste the Origin
+    frame:
+      x: 369.38
+      y: 337
+      width: 1181.25
+      height: 149.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Taste the Origin
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 67.2
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F5E8D4"
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 902.41
+      y: 528.03
+      width: 115.19
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87333"
+  - id: text4
+    type: text
+    name: Experience the careful c...
+    frame:
+      x: 552.93
+      y: 584.03
+      width: 814.13
+      height: 92.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Experience the careful craft of our small-batch roasting process. Order your sample kit today.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E8D4"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+    rotationDeg: 0.02
+  - id: shape2
+    type: shape
+    frame:
+      x: 771.36
+      y: 740.98
+      width: 377.27
+      height: 76.88
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B87333"
+      widthPt: 0.5
+  - id: text5
+    type: text
+    name: REQUEST SAMPLES
+    frame:
+      x: 760.02
+      y: 740.98
+      width: 399.96
+      height: 76.88
+    body:
+      paragraphs:
+        - runs:
+            - text: REQUEST SAMPLES
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E8D4"
+              letterSpacingPt: 1.056
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: text6
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 115.19
+      y: 964.81
+      width: 149.72
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E8D4"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text7
+    type: text
+    name: "04"
+    frame:
+      x: 1781.78
+      y: 964.81
+      width: 27.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E8D4"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+assets:
+  coffee-roasting:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/coffee-roasting.png

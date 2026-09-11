@@ -1,0 +1,278 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#D4C4A8"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: desert-mirror
+    altText: Desert Mirror Installation
+    fit: cover
+  - id: shape2
+    type: shape
+    frame:
+      x: 1056
+      y: 0
+      width: 864
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.5
+  - id: shape1
+    type: shape
+    frame:
+      x: 1056
+      y: 0
+      width: 1
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.15
+  - id: text1
+    type: text
+    name: JOIN THE EXPEDITION
+    frame:
+      x: 1210.59
+      y: 237.13
+      width: 555.86
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: JOIN THE EXPEDITION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C4A8"
+              letterSpacingPt: 2.88
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: See Beyond
+    frame:
+      x: 1210.59
+      y: 284.64
+      width: 555.86
+      height: 170.94
+    body:
+      paragraphs:
+        - runs:
+            - text: See Beyond
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 38.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.768
+          lineHeight: 1.1
+        - runs:
+            - text: The Sand.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 38.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.768
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: CONTACT
+    frame:
+      x: 1210.59
+      y: 496.77
+      width: 555.86
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CONTACT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C4A8"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 1210.59
+      y: 525.19
+      width: 555.86
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: OFFICE
+    frame:
+      x: 1210.59
+      y: 592.14
+      width: 555.86
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: OFFICE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C4A8"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: 100 Mirage Way
+    frame:
+      x: 1210.59
+      y: 620.56
+      width: 555.86
+      height: 69.13
+    body:
+      paragraphs:
+        - runs:
+            - text: 100 Mirage Way
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+        - runs:
+            - text: Los Angeles, CA
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 1210.59
+      y: 754.48
+      width: 326.25
+      height: 88.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4C4A8"
+      widthPt: 0.5
+  - id: text7
+    type: text
+    name: EXPLORE THE SITE
+    frame:
+      x: 1269.19
+      y: 784.28
+      width: 234.96
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: EXPLORE THE SITE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C4A8"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: "04"
+    frame:
+      x: 153.59
+      y: 1015.78
+      width: 26.35
+      height: 25
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C4A8"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  desert-mirror:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/desert-mirror.png

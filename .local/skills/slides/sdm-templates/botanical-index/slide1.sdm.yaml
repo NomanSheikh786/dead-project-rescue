@@ -1,0 +1,379 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F4F1EA"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 76.8
+      y: 43.19
+      width: 1766.41
+      height: 993.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D1C7B7"
+      widthPt: 1
+  - id: shape2
+    type: shape
+    frame:
+      x: 606.52
+      y: 45.19
+      width: 1
+      height: 989.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1C7B7"
+  - id: text1
+    type: text
+    name: SPECIMEN
+    frame:
+      x: 136.39
+      y: 99.19
+      width: 412.58
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: SPECIMEN
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7D7461"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: acme.co
+    frame:
+      x: 136.39
+      y: 135.91
+      width: 412.58
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3531"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 136.39
+      y: 720.11
+      width: 412.53
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1C7B7"
+  - id: text3
+    type: text
+    name: COLLECTION YEAR
+    frame:
+      x: 136.39
+      y: 691.69
+      width: 412.58
+      height: 29.42
+    body:
+      paragraphs:
+        - runs:
+            - text: COLLECTION YEAR
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7D7461"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 2.7
+        left: 0
+  - id: text4
+    type: text
+    name: "2026"
+    frame:
+      x: 136.39
+      y: 731.91
+      width: 412.58
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3531"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 136.39
+      y: 827.28
+      width: 412.53
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1C7B7"
+  - id: text5
+    type: text
+    name: CLASSIFICATION
+    frame:
+      x: 136.39
+      y: 798.86
+      width: 412.58
+      height: 29.42
+    body:
+      paragraphs:
+        - runs:
+            - text: CLASSIFICATION
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7D7461"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 2.7
+        left: 0
+  - id: text6
+    type: text
+    name: Confidential
+    frame:
+      x: 136.39
+      y: 839.08
+      width: 412.58
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3531"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 136.39
+      y: 934.45
+      width: 412.53
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1C7B7"
+  - id: text7
+    type: text
+    name: INSTITUTION
+    frame:
+      x: 136.39
+      y: 906.03
+      width: 412.58
+      height: 29.42
+    body:
+      paragraphs:
+        - runs:
+            - text: INSTITUTION
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7D7461"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 2.7
+        left: 0
+  - id: text8
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 136.39
+      y: 946.25
+      width: 412.58
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3531"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: FIG. 1
+    frame:
+      x: 1736.11
+      y: 77.58
+      width: 56.6
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: FIG. 1
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D1C7B7"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Example
+    frame:
+      x: 703.52
+      y: 280.8
+      width: 1041.72
+      height: 339.91
+    body:
+      paragraphs:
+        - runs:
+            - text: Example
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 76.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3531"
+              letterSpacingPt: -1.536
+          lineHeight: 1.1
+        - runs:
+            - text: Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 76.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A5D4E"
+              italic: true
+              letterSpacingPt: -1.536
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 703.52
+      y: 661.89
+      width: 76.8
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A5D4E"
+  - id: text11
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 703.52
+      y: 707.08
+      width: 768.05
+      height: 94.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#5C6661"
+          lineHeight: 1.6
+      overflow: visible

@@ -1,0 +1,293 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1056
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A0E08"
+  - id: shape2
+    type: shape
+    frame:
+      x: 1056
+      y: 0
+      width: 864
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5E6D3"
+  - id: shape3
+    type: shape
+    frame:
+      x: -192
+      y: 432
+      width: 768
+      height: 864
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#F5E6D3"
+      widthPt: 0.5
+      opacity: 0.1
+  - id: text1
+    type: text
+    name: EXAMPLE COMPANY
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 825.68
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text2
+    type: text
+    name: Taste the
+    frame:
+      x: 115.19
+      y: 240.88
+      width: 825.68
+      height: 268.81
+    body:
+      paragraphs:
+        - runs:
+            - text: Taste the
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 67.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+              italic: true
+              letterSpacingPt: -1.344
+          lineHeight: 1
+        - runs:
+            - text: Difference.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 67.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+              italic: true
+              letterSpacingPt: -1.344
+          lineHeight: 1
+      overflow: visible
+  - id: text3
+    type: text
+    name: We're redefining the dai...
+    frame:
+      x: 115.19
+      y: 531.28
+      width: 672.05
+      height: 73.75
+    body:
+      paragraphs:
+        - runs:
+            - text: We're redefining the daily ritual. Join us in bringing craft cold brew to every corner of the country.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+  - id: shape4
+    type: shape
+    frame:
+      x: 115.19
+      y: 659.03
+      width: 243.95
+      height: 69.11
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5E6D3"
+  - id: text4
+    type: text
+    name: INVEST NOW
+    frame:
+      x: 115.165
+      y: 659.03
+      width: 244
+      height: 71.11
+    body:
+      paragraphs:
+        - runs:
+            - text: INVEST NOW
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A0E08"
+              letterSpacingPt: 0.864
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 14.4
+        bottom: 10.8
+        left: 14.4
+  - id: text5
+    type: text
+    name: Dusk Brew Co.
+    frame:
+      x: 115.19
+      y: 910.69
+      width: 294.26
+      height: 84.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Dusk Brew Co.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+              letterSpacingPt: 0.432
+          lineHeight: 1.6
+        - runs:
+            - text: 123 Roaster Way, Portland, OR
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+          lineHeight: 1.6
+        - runs:
+            - text: partners@duskbrew.com
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+  - id: text6
+    type: text
+    name: 04 / CONTACT
+    frame:
+      x: 814.33
+      y: 972
+      width: 130.34
+      height: 45
+    body:
+      paragraphs:
+        - runs:
+            - text: 04 / CONTACT
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 7.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+              letterSpacingPt: 1.08
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: text7
+    type: text
+    name: END
+    frame:
+      x: 1109.05
+      y: 280.8
+      width: 757.96
+      height: 520.39
+    body:
+      paragraphs:
+        - runs:
+            - text: END
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 172.8
+              weight: 900
+              color:
+                kind: rgb
+                value: "#1A0E08"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.03
+  - id: image1
+    type: image
+    frame:
+      x: 1113.59
+      y: 135
+      width: 633.63
+      height: 810
+    assetId: product-coffee
+    altText: Dusk Brew Co. Cold Brew Bottle
+    fit: contain
+assets:
+  product-coffee:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/product-coffee.png

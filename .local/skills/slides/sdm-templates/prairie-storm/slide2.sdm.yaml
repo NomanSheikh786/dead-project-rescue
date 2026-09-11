@@ -1,0 +1,294 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#19140F"
+elements:
+  - id: text1
+    type: text
+    name: 01 / STRATEGY OVERVIEW
+    frame:
+      x: 153.59
+      y: 108
+      width: 729.16
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: 01 / STRATEGY OVERVIEW
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#B5A07A"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Weathering the market sh...
+    frame:
+      x: 153.59
+      y: 155.52
+      width: 729.16
+      height: 190.09
+    body:
+      paragraphs:
+        - runs:
+            - text: Weathering the market shifts
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+              letterSpacingPt: -0.432
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 388.8
+      width: 76.8
+      height: 2.16
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B5A07A"
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: To thrive in volatile co...
+    frame:
+      x: 153.59
+      y: 434.14
+      width: 780
+      height: 178
+    body:
+      paragraphs:
+        - runs:
+            - text: To thrive in volatile conditions, we must anchor our approach in resilience. We are shifting from short-term reactivity to long-term structural integrity.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#B5A07A"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 959.5
+      y: 108
+      width: 1
+      height: 864
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B5A07A"
+      opacity: 0.2
+  - id: text4
+    type: text
+    name: Strategic Depth
+    frame:
+      x: 1037.3
+      y: 296.97
+      width: 729.16
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Strategic Depth
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Deepening our core compe...
+    frame:
+      x: 1037.3
+      y: 359.61
+      width: 729.16
+      height: 63.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Deepening our core competencies rather than expanding horizontally into unproven markets.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#B5A07A"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text6
+    type: text
+    name: Resource Allocation
+    frame:
+      x: 1037.3
+      y: 476.98
+      width: 729.16
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Resource Allocation
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Conserving capital for h...
+    frame:
+      x: 1037.3
+      y: 539.63
+      width: 729.16
+      height: 63.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Conserving capital for high-impact, defensible initiatives that guarantee return on investment.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#B5A07A"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text8
+    type: text
+    name: Market Positioning
+    frame:
+      x: 1037.3
+      y: 657
+      width: 729.16
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Market Positioning
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Securing premium positio...
+    frame:
+      x: 1037.3
+      y: 719.64
+      width: 729.16
+      height: 63.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Securing premium positioning to offset volume fluctuations through higher margin capture.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#B5A07A"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text10
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 1013.78
+      width: 73.03
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B5A07A"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text11
+    type: text
+    name: "02"
+    frame:
+      x: 1744.27
+      y: 1013.78
+      width: 25.19
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B5A07A"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6

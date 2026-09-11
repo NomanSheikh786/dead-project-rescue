@@ -1,0 +1,443 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#080C08"
+elements:
+  - id: text1
+    type: text
+    name: ⬡
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 18.02
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: ⬡
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#5A8A5A"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: BIODOME
+    frame:
+      x: 142.75
+      y: 64.8
+      width: 106.72
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: BIODOME
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#5A8A5A"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: SYSTEM METRICS
+    frame:
+      x: 272.17
+      y: 66.23
+      width: 175.24
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: SYSTEM METRICS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text4
+    type: text
+    name: Operational Efficiency
+    frame:
+      x: 115.19
+      y: 293.53
+      width: 1689.68
+      height: 102.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Operational Efficiency
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 33.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+              letterSpacingPt: -0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Comparing traditional ag...
+    frame:
+      x: 115.19
+      y: 415.92
+      width: 960.05
+      height: 82.63
+    body:
+      paragraphs:
+        - runs:
+            - text: Comparing traditional agriculture metrics against our enclosed geodesic systems over a 12-month continuous cycle.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 582.94
+      width: 512
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5A8A5A"
+  - id: text6
+    type: text
+    name: 94%
+    frame:
+      x: 115.19
+      y: 627.13
+      width: 512.05
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: 94%
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5A8A5A"
+          lineHeight: 1
+      overflow: visible
+  - id: text7
+    type: text
+    name: Water Retention
+    frame:
+      x: 115.19
+      y: 744.72
+      width: 512.05
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: Water Retention
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 15.36
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Recycled through condens...
+    frame:
+      x: 115.19
+      y: 801.59
+      width: 512.05
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Recycled through condensation capture
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: shape2
+    type: shape
+    frame:
+      x: 703.98
+      y: 582.94
+      width: 512.02
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5A8A5A"
+  - id: text9
+    type: text
+    name: 3.2x
+    frame:
+      x: 703.98
+      y: 627.13
+      width: 512.07
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: 3.2x
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5A8A5A"
+          lineHeight: 1
+      overflow: visible
+  - id: text10
+    type: text
+    name: Yield Multiplier
+    frame:
+      x: 703.98
+      y: 744.72
+      width: 512.07
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: Yield Multiplier
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 15.36
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Compared to traditional ...
+    frame:
+      x: 703.98
+      y: 801.59
+      width: 512.07
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Compared to traditional open-field farming
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: shape3
+    type: shape
+    frame:
+      x: 1292.8
+      y: 582.94
+      width: 512.02
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5A8A5A"
+  - id: text12
+    type: text
+    name: -78%
+    frame:
+      x: 1292.8
+      y: 627.13
+      width: 512.07
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: -78%
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5A8A5A"
+          lineHeight: 1
+      overflow: visible
+  - id: text13
+    type: text
+    name: Carbon Footprint
+    frame:
+      x: 1292.8
+      y: 744.72
+      width: 512.07
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: Carbon Footprint
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 15.36
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: Reduction in transport a...
+    frame:
+      x: 1292.8
+      y: 801.59
+      width: 512.07
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Reduction in transport and supply chain emissions
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text15
+    type: text
+    name: Sustainable Futures
+    frame:
+      x: 115.19
+      y: 946.81
+      width: 330
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Sustainable Futures
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5A8A5A"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 986.41
+      width: 218.8
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text17
+    type: text
+    name: "03"
+    frame:
+      x: 1781.78
+      y: 986.41
+      width: 27.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5

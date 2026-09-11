@@ -1,0 +1,229 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#000000"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: photo-racecar
+    altText: F1 racecar at night
+    fit: cover
+    opacity: 0.25
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 60.64
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.85
+          color:
+            kind: rgb
+            value: "#000000"
+  - id: text1
+    type: text
+    name: EXAMPLE COMPANY
+    frame:
+      x: 76.8
+      y: 43.19
+      width: 271.18
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E11D48"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1778.27
+      y: 43.19
+      width: 68.99
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E11D48"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: JOIN THE GRID
+    frame:
+      x: 791.49
+      y: 310.21
+      width: 337.02
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: JOIN THE GRID
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#E11D48"
+              letterSpacingPt: 5.76
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: ACCELERATE
+    frame:
+      x: 112.965
+      y: 366.45
+      width: 1694.05
+      height: 230.31
+    body:
+      paragraphs:
+        - runs:
+            - text: ACCELERATE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 134.4
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -5.376
+          align: center
+          lineHeight: 0.85
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 722.99
+      y: 680.32
+      width: 474
+      height: 90.37
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E11D48"
+  - id: text5
+    type: text
+    name: PARTNER WITH US
+    frame:
+      x: 810.34
+      y: 708.23
+      width: 299.29
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: PARTNER WITH US
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 2.304
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: "04"
+    frame:
+      x: 76.8
+      y: 1035.38
+      width: 23.14
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text7
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 1526.23
+      y: 1035.38
+      width: 360.52
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+assets:
+  photo-racecar:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/photo-racecar.png

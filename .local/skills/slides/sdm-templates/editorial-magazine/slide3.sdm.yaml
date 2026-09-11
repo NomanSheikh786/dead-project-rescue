@@ -1,0 +1,625 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F2ED"
+elements:
+  - id: text1
+    type: text
+    name: D
+    frame:
+      x: 1333.72
+      y: -54
+      width: 624.72
+      height: 864
+    body:
+      paragraphs:
+        - runs:
+            - text: D
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 432
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+          lineHeight: 1
+      overflow: visible
+    opacity: 0.08
+    rotationDeg: 0.02
+  - id: text2
+    type: text
+    name: ACME.CO (BY EXAMPLE COMP...
+    frame:
+      x: 96
+      y: 54
+      width: 522.95
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO (BY EXAMPLE COMPANY)
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+              letterSpacingPt: 2.88
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: "2026"
+    frame:
+      x: 1753.55
+      y: 54
+      width: 77.5
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+              letterSpacingPt: 2.88
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: THE METRICS
+    frame:
+      x: 96
+      y: 191.78
+      width: 629.41
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: THE METRICS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#C45B28"
+              letterSpacingPt: 3.456
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Growth in Numbers
+    frame:
+      x: 96
+      y: 250.09
+      width: 629.41
+      height: 192
+    body:
+      paragraphs:
+        - runs:
+            - text: "Growth in "
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+            - text: Numbers
+              color:
+                kind: rgb
+                value: "#C45B28"
+              italic: true
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            sizePt: 48
+            weight: 400
+            letterSpacingPt: -0.96
+      overflow: visible
+  - id: text6
+    type: text
+    name: A quantitative look at o...
+    frame:
+      x: 96
+      y: 474.48
+      width: 600.46
+      height: 110.63
+    body:
+      paragraphs:
+        - runs:
+            - text: A quantitative look at our year-over-year performance, highlighting key areas of expansion and market penetration across global sectors.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 802.16
+      y: 170.19
+      width: 1
+      height: 810.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8C8C8C"
+      opacity: 0.4
+  - id: text7
+    type: text
+    name: 245%
+    frame:
+      x: 879.95
+      y: 256.92
+      width: 433.68
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: "245"
+              sizePt: 48
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+            - text: "%"
+              sizePt: 28.8
+              color:
+                kind: rgb
+                value: "#C45B28"
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            weight: 400
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 879.95
+      y: 363.72
+      width: 433.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8C8C8C"
+      opacity: 0.2
+  - id: text8
+    type: text
+    name: REVENUE GROWTH
+    frame:
+      x: 879.95
+      y: 363.72
+      width: 433.68
+      height: 40.59
+    body:
+      paragraphs:
+        - runs:
+            - text: REVENUE GROWTH
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 5.4
+        right: 0
+        bottom: 0
+        left: 0
+  - id: text9
+    type: text
+    name: Consistent upward trajec...
+    frame:
+      x: 879.95
+      y: 415.11
+      width: 433.68
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Consistent upward trajectory over the last four quarters.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: 1.2M
+    frame:
+      x: 1390.38
+      y: 256.92
+      width: 433.68
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: "1.2"
+              sizePt: 48
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+            - text: M
+              sizePt: 28.8
+              color:
+                kind: rgb
+                value: "#C45B28"
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            weight: 400
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 1390.38
+      y: 363.72
+      width: 433.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8C8C8C"
+      opacity: 0.2
+  - id: text11
+    type: text
+    name: ACTIVE USERS
+    frame:
+      x: 1390.38
+      y: 363.72
+      width: 433.68
+      height: 40.59
+    body:
+      paragraphs:
+        - runs:
+            - text: ACTIVE USERS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 5.4
+        right: 0
+        bottom: 0
+        left: 0
+  - id: text12
+    type: text
+    name: Monthly active engagemen...
+    frame:
+      x: 1390.38
+      y: 415.11
+      width: 433.68
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Monthly active engagement across all primary platforms.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: 89k
+    frame:
+      x: 879.95
+      y: 683.61
+      width: 433.68
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: "89"
+              sizePt: 48
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+            - text: k
+              sizePt: 28.8
+              color:
+                kind: rgb
+                value: "#C45B28"
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            weight: 400
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 879.95
+      y: 790.41
+      width: 433.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8C8C8C"
+      opacity: 0.2
+  - id: text14
+    type: text
+    name: ENTERPRISE CLIENTS
+    frame:
+      x: 879.95
+      y: 790.41
+      width: 433.68
+      height: 40.59
+    body:
+      paragraphs:
+        - runs:
+            - text: ENTERPRISE CLIENTS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 5.4
+        right: 0
+        bottom: 0
+        left: 0
+  - id: text15
+    type: text
+    name: B2B integration and long...
+    frame:
+      x: 879.95
+      y: 841.8
+      width: 459.7
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: B2B integration and long-term contract renewals.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: 98%
+    frame:
+      x: 1390.38
+      y: 683.61
+      width: 433.68
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: "98"
+              sizePt: 48
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+            - text: "%"
+              sizePt: 28.8
+              color:
+                kind: rgb
+                value: "#C45B28"
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            weight: 400
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 1390.38
+      y: 790.41
+      width: 433.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8C8C8C"
+      opacity: 0.2
+  - id: text17
+    type: text
+    name: RETENTION RATE
+    frame:
+      x: 1390.38
+      y: 790.41
+      width: 433.68
+      height: 40.59
+    body:
+      paragraphs:
+        - runs:
+            - text: RETENTION RATE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 5.4
+        right: 0
+        bottom: 0
+        left: 0
+  - id: text18
+    type: text
+    name: Industry-leading custome...
+    frame:
+      x: 1390.38
+      y: 841.8
+      width: 433.68
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Industry-leading customer loyalty and satisfaction scores.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text19
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 96
+      y: 1002.97
+      width: 574.79
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+              letterSpacingPt: 3.072
+          lineHeight: 1.5
+      overflow: visible
+  - id: text20
+    type: text
+    name: "03"
+    frame:
+      x: 1792.53
+      y: 1002.97
+      width: 35.52
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+              letterSpacingPt: 3.072
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 96
+      y: 104.39
+      width: 1728
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8C8C8C"
+      opacity: 0.4
+  - id: shape7
+    type: shape
+    frame:
+      x: 96
+      y: 980.38
+      width: 1728
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8C8C8C"
+      opacity: 0.4

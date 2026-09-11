@@ -1,0 +1,446 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: linearGradient
+  angleDeg: 180
+  stops:
+    - offset: 0
+      color:
+        kind: rgb
+        value: "#0A3D5C"
+    - offset: 1
+      color:
+        kind: rgb
+        value: "#051B2C"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: -192
+      y: -108
+      width: 864
+      height: 864
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 345.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4726E"
+    opacity: 0.11
+  - id: shape2
+    type: shape
+    frame:
+      x: 960
+      y: 186
+      width: 1056
+      height: 1056
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#6B9E8E"
+    opacity: 0.083
+  - id: shape3
+    type: shape
+    frame:
+      x: 1152
+      y: 432
+      width: 576
+      height: 576
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 172.8
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4B896"
+    opacity: 0.11
+  - id: shape4
+    type: shape
+    frame:
+      x: 192
+      y: 648
+      width: 480
+      height: 480
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4726E"
+    opacity: 0.138
+  - id: shape5
+    type: shape
+    frame:
+      x: 1152
+      y: 162
+      width: 384
+      height: 384
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 172.8
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#6B9E8E"
+    opacity: 0.11
+  - id: shape6
+    type: shape
+    frame:
+      x: 384
+      y: 270
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.15
+  - id: shape7
+    type: shape
+    frame:
+      x: 422.39
+      y: 162
+      width: 5.75
+      height: 5.75
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.2
+  - id: shape8
+    type: shape
+    frame:
+      x: 345.59
+      y: 324
+      width: 7.67
+      height: 7.67
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.1
+  - id: shape9
+    type: shape
+    frame:
+      x: 1428.48
+      y: 702
+      width: 11.52
+      height: 11.52
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.15
+  - id: shape10
+    type: shape
+    frame:
+      x: 1374.73
+      y: 594
+      width: 7.67
+      height: 7.67
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.1
+  - id: shape11
+    type: shape
+    frame:
+      x: 1488.02
+      y: 648
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.2
+  - id: shape12
+    type: shape
+    frame:
+      x: 192
+      y: 486
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.15
+  - id: shape13
+    type: shape
+    frame:
+      x: 768
+      y: 864
+      width: 7.67
+      height: 7.67
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.1
+  - id: shape14
+    type: shape
+    frame:
+      x: 1718.41
+      y: 216
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.15
+  - id: shape15
+    type: shape
+    frame:
+      x: 1050.25
+      y: 810
+      width: 5.75
+      height: 5.75
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.2
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 102.99
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#E8E0D0"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1750.19
+      y: 67.67
+      width: 60.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E0D0"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text3
+    type: text
+    name: DEEP EXPLORATION
+    frame:
+      x: 833.77
+      y: 368.31
+      width: 252.46
+      height: 53
+    body:
+      paragraphs:
+        - runs:
+            - text: DEEP EXPLORATION
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#6B9E8E"
+              letterSpacingPt: 2.592
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Example Deck
+    frame:
+      x: 481.36
+      y: 426.63
+      width: 957.26
+      height: 160.39
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.72
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text5
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 527.975
+      y: 628.2
+      width: 864.05
+      height: 94.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#E8E0D0"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.85
+    rotationDeg: 0.02
+  - id: shape16
+    type: shape
+    frame:
+      x: 115.19
+      y: 1001.73
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8E0D0"
+    opacity: 0.5
+  - id: text6
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 230.38
+      y: 989.28
+      width: 233.02
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E0D0"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text7
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 1665.22
+      y: 989.28
+      width: 149.64
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E0D0"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6

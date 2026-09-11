@@ -1,0 +1,440 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: image
+  assetId: mountain-dramatic
+  fit: cover
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 0
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.9
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.4
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.1
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 96
+      y: 54
+      width: 136.32
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Our Approach
+    frame:
+      x: 1697.95
+      y: 56.88
+      width: 141.69
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Our Approach
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text3
+    type: text
+    name: Reaching the Summit
+    frame:
+      x: 96
+      y: 174.95
+      width: 816.05
+      height: 86.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Reaching the Summit
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 38.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.768
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 96
+      y: 291.81
+      width: 115.19
+      height: 5.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text4
+    type: text
+    name: Our strategy is built on...
+    frame:
+      x: 96
+      y: 329.59
+      width: 816.05
+      height: 174.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Our strategy is built on resilience, forward planning, and flawless execution. We navigate complex terrain to deliver unparalleled results for our partners, scaling every obstacle.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: shape4
+    type: shape
+    frame:
+      x: 1008
+      y: 266.5
+      width: 816
+      height: 159.69
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+  - id: shape3
+    type: shape
+    frame:
+      x: 1008
+      y: 266.5
+      width: 5
+      height: 159.69
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text5
+    type: text
+    name: Preparation
+    frame:
+      x: 1051.39
+      y: 298.89
+      width: 734.27
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Preparation
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Rigorous planning and as...
+    frame:
+      x: 1051.39
+      y: 361.53
+      width: 778.33
+      height: 32.27
+    body:
+      paragraphs:
+        - runs:
+            - text: Rigorous planning and assessment before every major initiative.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.4
+      overflow: visible
+    opacity: 0.7
+  - id: shape6
+    type: shape
+    frame:
+      x: 1008
+      y: 469.38
+      width: 816
+      height: 159.69
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+  - id: shape5
+    type: shape
+    frame:
+      x: 1008
+      y: 469.38
+      width: 5
+      height: 159.69
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text7
+    type: text
+    name: Adaptability
+    frame:
+      x: 1051.39
+      y: 501.77
+      width: 734.27
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Adaptability
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Dynamic pivoting to meet...
+    frame:
+      x: 1051.39
+      y: 564.41
+      width: 778.33
+      height: 32.27
+    body:
+      paragraphs:
+        - runs:
+            - text: Dynamic pivoting to meet unexpected challenges in the market.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.4
+      overflow: visible
+    opacity: 0.7
+  - id: shape8
+    type: shape
+    frame:
+      x: 1008
+      y: 672.25
+      width: 816
+      height: 159.69
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+  - id: shape7
+    type: shape
+    frame:
+      x: 1008
+      y: 672.25
+      width: 5
+      height: 159.69
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text9
+    type: text
+    name: Endurance
+    frame:
+      x: 1051.39
+      y: 704.64
+      width: 734.27
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Endurance
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Long-term vision securin...
+    frame:
+      x: 1051.39
+      y: 767.28
+      width: 734.27
+      height: 32.27
+    body:
+      paragraphs:
+        - runs:
+            - text: Long-term vision securing sustainable growth and impact.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.4
+      overflow: visible
+    opacity: 0.7
+  - id: shape9
+    type: shape
+    frame:
+      x: 96
+      y: 977.48
+      width: 1728
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text11
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 96
+      y: 1000.08
+      width: 358.47
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text12
+    type: text
+    name: "02"
+    frame:
+      x: 1802.52
+      y: 1000.08
+      width: 24.53
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+assets:
+  mountain-dramatic:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/mountain-dramatic.jpg

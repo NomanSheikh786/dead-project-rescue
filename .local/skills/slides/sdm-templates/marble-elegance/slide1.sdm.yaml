@@ -1,0 +1,169 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F9F8F6"
+elements:
+  - id: shape2
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 768
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: image
+      assetId: marble-texture
+      fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 767
+      y: 0
+      width: 1
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.1
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 921.59
+      y: 64.8
+      width: 108.47
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1718.98
+      y: 64.8
+      width: 52.47
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Example
+    frame:
+      x: 921.59
+      y: 324.5
+      width: 844.86
+      height: 295.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Example
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 67.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2A29"
+              letterSpacingPt: -0.672
+          lineHeight: 1.1
+        - runs:
+            - text: Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 67.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2A29"
+              letterSpacingPt: -0.672
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 921.59
+      y: 663.38
+      width: 768.05
+      height: 94.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text5
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 921.59
+      y: 989.28
+      width: 356.8
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  marble-texture:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/marble-texture.jpg

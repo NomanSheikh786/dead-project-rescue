@@ -1,0 +1,416 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#C4A872"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1110
+      y: 54
+      width: 972
+      height: 972
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#18130E"
+  - id: shape2
+    type: shape
+    frame:
+      x: 1137
+      y: 81
+      width: 918
+      height: 918
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.05
+  - id: shape3
+    type: shape
+    frame:
+      x: 1191
+      y: 135
+      width: 810
+      height: 810
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.03
+  - id: shape4
+    type: shape
+    frame:
+      x: 1245
+      y: 189
+      width: 702
+      height: 702
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 1
+      opacity: 0.04
+  - id: shape5
+    type: shape
+    frame:
+      x: 1299
+      y: 243
+      width: 594
+      height: 594
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.03
+  - id: shape6
+    type: shape
+    frame:
+      x: 1353
+      y: 297
+      width: 486
+      height: 486
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.05
+  - id: shape7
+    type: shape
+    frame:
+      x: 1407
+      y: 351
+      width: 378
+      height: 378
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.03
+  - id: shape8
+    type: shape
+    frame:
+      x: 1461
+      y: 405
+      width: 270
+      height: 270
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8B3A3A"
+  - id: shape9
+    type: shape
+    frame:
+      x: 1585.2
+      y: 529.2
+      width: 21.59
+      height: 21.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A872"
+  - id: text1
+    type: text
+    name: SIDE A
+    frame:
+      x: 1557.14
+      y: 476.56
+      width: 77.77
+      height: 24.3
+    body:
+      paragraphs:
+        - runs:
+            - text: SIDE A
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.1
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E6D2"
+              letterSpacingPt: 1.62
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text2
+    type: text
+    name: 33 ⅓ RPM
+    frame:
+      x: 1563.77
+      y: 587.23
+      width: 64.5
+      height: 18.19
+    body:
+      paragraphs:
+        - runs:
+            - text: 33 ⅓ RPM
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 5.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E6D2"
+              letterSpacingPt: 0.54
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: shape10
+    type: shape
+    frame:
+      x: 153.59
+      y: 99.78
+      width: 57.59
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8B3A3A"
+  - id: text3
+    type: text
+    name: CAT. NO. 2026-001
+    frame:
+      x: 249.58
+      y: 86.39
+      width: 330
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CAT. NO. 2026-001
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#8B3A3A"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: STEREO
+    frame:
+      x: 816.05
+      y: 86.39
+      width: 96.41
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: STEREO
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text5
+    type: text
+    name: PRESENTATION TITLE
+    frame:
+      x: 153.59
+      y: 379.83
+      width: 748.86
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: PRESENTATION TITLE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text6
+    type: text
+    name: Example Deck
+    frame:
+      x: 153.59
+      y: 441.02
+      width: 748.86
+      height: 105.67
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+              letterSpacingPt: -1.728
+          lineHeight: 0.9
+      overflow: visible
+  - id: text7
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 153.59
+      y: 577.08
+      width: 748.86
+      height: 92.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.85
+  - id: text8
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 959.05
+      width: 112.91
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 648.56
+      y: 933.86
+      width: 330
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text10
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 754.95
+      y: 970.58
+      width: 156.35
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5

@@ -1,0 +1,288 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#050505"
+elements:
+  - id: shape2
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 146.91
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 145.91
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#222222"
+  - id: text1
+    type: text
+    name: SCENE_01 / ACME.CO
+    frame:
+      x: 153.59
+      y: 233.3
+      width: 292.99
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: SCENE_01 / ACME.CO
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: TAKE_2026
+    frame:
+      x: 1628.22
+      y: 233.3
+      width: 151.24
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: TAKE_2026
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: EXAMPLE
+    frame:
+      x: 153.59
+      y: 262.09
+      width: 1612.86
+      height: 414.72
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 115.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F0F0F0"
+              letterSpacingPt: -5.76
+          lineHeight: 0.9
+        - runs:
+            - text: DECK
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 115.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#444444"
+              letterSpacingPt: -5.76
+          lineHeight: 0.9
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 172.78
+      y: 720
+      width: 2
+      height: 103.69
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+  - id: text4
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 172.78
+      y: 720
+      width: 862.98
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 300
+              color:
+                kind: rgb
+                value: "#999999"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 19.2
+  - id: shape4
+    type: shape
+    frame:
+      x: 1555.2
+      y: 540
+      width: 76.8
+      height: 76.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#333333"
+      widthPt: 0.5
+  - id: shape5
+    type: shape
+    frame:
+      x: 1584
+      y: 577.89
+      width: 19.19
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#666666"
+  - id: shape6
+    type: shape
+    frame:
+      x: 1593.09
+      y: 568.8
+      width: 1
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#666666"
+  - id: shape8
+    type: shape
+    frame:
+      x: 0
+      y: 933.11
+      width: 1920
+      height: 146.89
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape7
+    type: shape
+    frame:
+      x: 0
+      y: 933.11
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#222222"
+  - id: text5
+    type: text
+    name: "DIR: EXAMPLE COMPANY, IN..."
+    frame:
+      x: 153.59
+      y: 987.98
+      width: 279.6
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "DIR: EXAMPLE COMPANY, INC."
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#444444"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text6
+    type: text
+    name: "[ CONFIDENTIAL ]"
+    frame:
+      x: 1594.38
+      y: 987.98
+      width: 172.08
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "[ CONFIDENTIAL ]"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#444444"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible

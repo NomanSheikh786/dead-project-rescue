@@ -1,0 +1,423 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F7F2"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1152
+      y: -162
+      width: 960
+      height: 960
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5B7C5A"
+    opacity: 0.1
+  - id: shape2
+    type: shape
+    frame:
+      x: -96
+      y: 144
+      width: 1152
+      height: 1152
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A962"
+    opacity: 0.08
+  - id: shape3
+    type: shape
+    frame:
+      x: 153.59
+      y: 140.36
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5B7C5A"
+      opacity: 0.2
+  - id: shape4
+    type: shape
+    frame:
+      x: 153.59
+      y: 67.19
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5B7C5A"
+  - id: shape5
+    type: shape
+    frame:
+      x: 172.8
+      y: 86.39
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A962"
+    opacity: 0.8
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 211.17
+      y: 69.09
+      width: 103.91
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#5B7C5A"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: SUSTAINABILITY REPORT 20...
+    frame:
+      x: 1191.52
+      y: 71.98
+      width: 361.58
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: SUSTAINABILITY REPORT 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#6B7C6A"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 1590.17
+      y: 64.8
+      width: 176.23
+      height: 43.17
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 21.59
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5B7C5A"
+  - id: text3
+    type: text
+    name: Annual Edition
+    frame:
+      x: 1590.17
+      y: 64.8
+      width: 186.86
+      height: 45.17
+    body:
+      paragraphs:
+        - runs:
+            - text: Annual Edition
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#F5F7F2"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 4.32
+        right: 14.4
+        bottom: 4.32
+        left: 14.4
+  - id: text4
+    type: text
+    name: ENVIRONMENTAL IMPACT
+    frame:
+      x: 153.59
+      y: 341.2
+      width: 788.83
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: ENVIRONMENTAL IMPACT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#C4A962"
+              letterSpacingPt: 1.584
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Example Deck
+    frame:
+      x: 153.59
+      y: 405.28
+      width: 788.83
+      height: 295.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 67.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: -1.344
+          lineHeight: 1.1
+      overflow: visible
+  - id: text6
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 153.59
+      y: 744.16
+      width: 712.37
+      height: 100.28
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 15.36
+              weight: 300
+              color:
+                kind: rgb
+                value: "#4A5D4B"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 1038.38
+      y: 227.75
+      width: 1
+      height: 728.14
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5B7C5A"
+      opacity: 0.2
+  - id: shape8
+    type: shape
+    frame:
+      x: 1135.38
+      y: 456.13
+      width: 631.03
+      height: 271.39
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: shape9
+    type: shape
+    frame:
+      x: 1135.38
+      y: 456.13
+      width: 7.67
+      height: 271.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5B7C5A"
+  - id: text7
+    type: text
+    name: KEY COMMITMENT
+    frame:
+      x: 1192.97
+      y: 499.31
+      width: 515.89
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: KEY COMMITMENT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#8A998A"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Net Zero by 2030
+    frame:
+      x: 1192.97
+      y: 536.03
+      width: 546.84
+      height: 71.11
+    body:
+      paragraphs:
+        - runs:
+            - text: Net Zero by 2030
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5B7C5A"
+          lineHeight: 1.2
+      overflow: visible
+  - id: text9
+    type: text
+    name: Accelerating our transit...
+    frame:
+      x: 1192.97
+      y: 626.73
+      width: 579.65
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Accelerating our transition to renewable energy and circular economy practices across all global operations.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B7C6A"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape10
+    type: shape
+    frame:
+      x: 153.59
+      y: 955.89
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5B7C5A"
+      opacity: 0.2
+  - id: text10
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 153.59
+      y: 989.28
+      width: 209.43
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A998A"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Confidential & Proprieta...
+    frame:
+      x: 1556.3
+      y: 989.28
+      width: 250.31
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential & Proprietary
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A998A"
+          lineHeight: 1.5
+      overflow: visible

@@ -1,0 +1,249 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#08060C"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: fluid-gold
+    altText: Fluid gold and navy art
+    fit: cover
+    opacity: 0.4
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 60.64
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#08060C"
+          opacity: 0.6
+        - offset: 0.7
+          color:
+            kind: rgb
+            value: "#08060C"
+          opacity: 0.95
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#08060C"
+  - id: text1
+    type: text
+    name: THE INVITATION
+    frame:
+      x: 850.48
+      y: 254.22
+      width: 219.03
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: THE INVITATION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4B896"
+              letterSpacingPt: 3.072
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Join the
+    frame:
+      x: 711.51
+      y: 320.44
+      width: 496.97
+      height: 213.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Join the
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4B896"
+          align: center
+          lineHeight: 1.1
+        - runs:
+            - text: Collection
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4B896"
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 902.41
+      y: 574.81
+      width: 115.19
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4B896"
+    opacity: 0.5
+  - id: text3
+    type: text
+    name: Discover a new standard ...
+    frame:
+      x: 479.975
+      y: 629.81
+      width: 960.05
+      height: 73.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Discover a new standard of refined living. We invite you to experience the subtle luxury of our private collection.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.9
+  - id: shape3
+    type: shape
+    frame:
+      x: 832.06
+      y: 768.36
+      width: 255.88
+      height: 57.41
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4B896"
+      opacity: 0.05
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4B896"
+      widthPt: 0.5
+  - id: text4
+    type: text
+    name: INQUIRE NOW
+    frame:
+      x: 832.035
+      y: 768.36
+      width: 255.93
+      height: 57.41
+    body:
+      paragraphs:
+        - runs:
+            - text: INQUIRE NOW
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4B896"
+              letterSpacingPt: 1.536
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+  - id: text5
+    type: text
+    name: ACME.CO
+    frame:
+      x: 153.59
+      y: 995.05
+      width: 80.96
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4B896"
+              letterSpacingPt: 1.008
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: "04"
+    frame:
+      x: 1740.64
+      y: 992.17
+      width: 28.82
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+assets:
+  fluid-gold:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/fluid-gold.png

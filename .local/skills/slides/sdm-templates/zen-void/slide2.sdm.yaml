@@ -1,0 +1,333 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FAF8F5"
+elements:
+  - id: text1
+    type: text
+    name: 01. The Approach
+    frame:
+      x: 192
+      y: 162
+      width: 1536.05
+      height: 102.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 01. The Approach
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 33.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -0.672
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 192
+      y: 284.39
+      width: 1536
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8A8578"
+    opacity: 0.3
+  - id: text2
+    type: text
+    name: We focus on reduction. B...
+    frame:
+      x: 192
+      y: 378
+      width: 768.05
+      height: 186.25
+    body:
+      paragraphs:
+        - runs:
+            - text: We focus on reduction. By stripping away the non-essential, we reveal the core truth of the product. The remaining elements are given room to breathe and purpose to serve.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text3
+    type: text
+    name: This philosophy extends ...
+    frame:
+      x: 192
+      y: 605.44
+      width: 768.05
+      height: 110.63
+    body:
+      paragraphs:
+        - runs:
+            - text: This philosophy extends across our entire design system, creating experiences that are both calm and highly functional. Emptiness is not a lack of content, but a presence of space.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#8A8578"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 1056
+      y: 389.52
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text4
+    type: text
+    name: Clarity
+    frame:
+      x: 1103.98
+      y: 378
+      width: 365.05
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Clarity
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Removing noise to amplif...
+    frame:
+      x: 1103.98
+      y: 426.58
+      width: 410.17
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Removing noise to amplify the signal.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#8A8578"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 1056
+      y: 502.17
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text6
+    type: text
+    name: Intention
+    frame:
+      x: 1103.98
+      y: 490.66
+      width: 442
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Intention
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Every element must serve...
+    frame:
+      x: 1103.98
+      y: 539.23
+      width: 496.63
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Every element must serve a distinct purpose.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#8A8578"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1056
+      y: 614.83
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text8
+    type: text
+    name: Space
+    frame:
+      x: 1103.98
+      y: 603.31
+      width: 455.33
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Space
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Allowing concepts the ro...
+    frame:
+      x: 1103.98
+      y: 651.89
+      width: 511.61
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Allowing concepts the room they need to land.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#8A8578"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 96
+      y: 986.41
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text10
+    type: text
+    name: "02"
+    frame:
+      x: 143.98
+      y: 989.28
+      width: 25.19
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: acme.co
+    frame:
+      x: 1751.02
+      y: 992.17
+      width: 73.03
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8

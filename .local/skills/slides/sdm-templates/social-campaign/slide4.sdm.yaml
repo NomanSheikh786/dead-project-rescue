@@ -1,0 +1,226 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#5B2C6F"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 384
+      y: -36
+      width: 1152
+      height: 1152
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8634A"
+    opacity: 0.15
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 105.28
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 800
+              color:
+                kind: rgb
+                value: "#E8634A"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Let's Build
+    frame:
+      x: 612.56
+      y: 242.47
+      width: 694.9
+      height: 566.25
+    body:
+      paragraphs:
+        - runs:
+            - text: Let's Build
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 67.2
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+              letterSpacingPt: -2.016
+          align: center
+          lineHeight: 1.05
+        - runs:
+            - text: The Future
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 67.2
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+              letterSpacingPt: -2.016
+          align: center
+          lineHeight: 1.05
+      overflow: visible
+  - id: text3
+    type: text
+    name: Join us in reshaping the...
+    frame:
+      x: 527.975
+      y: 567.91
+      width: 864.05
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Join us in reshaping the digital landscape. Contact our partnerships team to get started.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+    rotationDeg: 0.02
+  - id: shape2
+    type: shape
+    frame:
+      x: 756.69
+      y: 756.77
+      width: 425.81
+      height: 90.38
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 45.19
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFF8F0"
+  - id: shape3
+    type: shape
+    frame:
+      x: 747.09
+      y: 747.17
+      width: 425.81
+      height: 90.38
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 45.19
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8634A"
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFF8F0"
+      widthPt: 1
+  - id: text4
+    type: text
+    name: PARTNER WITH US
+    frame:
+      x: 742.99
+      y: 726.67
+      width: 434.02
+      height: 131.38
+    body:
+      paragraphs:
+        - runs:
+            - text: PARTNER WITH US
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+              letterSpacingPt: 0.72
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+    rotationDeg: 0.02
+  - id: text5
+    type: text
+    name: HI@ACME.CO
+    frame:
+      x: 153.59
+      y: 964.81
+      width: 138.5
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: HI@ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text6
+    type: text
+    name: "04"
+    frame:
+      x: 1734.95
+      y: 959.05
+      width: 31.5
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+          lineHeight: 1.5
+      overflow: visible

@@ -1,0 +1,261 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#05050A"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: iridescent-bubbles
+    altText: Iridescent bubbles
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#05050A"
+          opacity: 0.92
+  - id: text1
+    type: text
+    name: DROP 001
+    frame:
+      x: 115.19
+      y: 570.45
+      width: 119.57
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: DROP 001
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#B8A9D4"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: LIMITED EDITION
+    frame:
+      x: 266.33
+      y: 570.45
+      width: 182.11
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: LIMITED EDITION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8A9D4"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: shape2
+    type: shape
+    frame:
+      x: 476.47
+      y: 565.88
+      width: 168.78
+      height: 35.09
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 17.55
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.3
+  - id: text3
+    type: text
+    name: COMING SOON
+    frame:
+      x: 500.5
+      y: 573.34
+      width: 120.77
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: COMING SOON
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Example
+    frame:
+      x: 115.19
+      y: 633.36
+      width: 595.39
+      height: 278.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Example
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 76.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -1.92
+          lineHeight: 0.9
+        - runs:
+            - text: Deck
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 76.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -1.92
+          lineHeight: 0.9
+      overflow: visible
+  - id: text5
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 1344.02
+      y: 778.09
+      width: 460.85
+      height: 133.73
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 5.4
+        left: 0
+    opacity: 0.7
+  - id: shape3
+    type: shape
+    frame:
+      x: 115.19
+      y: 953.02
+      width: 1689.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8A9D4"
+      opacity: 0.2
+  - id: text6
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 986.41
+      width: 78.82
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: ©2026
+    frame:
+      x: 1739.86
+      y: 986.41
+      width: 65
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ©2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8A9D4"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+assets:
+  iridescent-bubbles:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/iridescent-bubbles.png

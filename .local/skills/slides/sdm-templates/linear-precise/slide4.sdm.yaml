@@ -1,0 +1,393 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0A0B"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 0
+      width: 1
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.03
+  - id: shape2
+    type: shape
+    frame:
+      x: 768
+      y: 0
+      width: 1
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.03
+  - id: shape3
+    type: shape
+    frame:
+      x: 153.59
+      y: 73.44
+      width: 11.52
+      height: 11.52
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8B7EC8"
+  - id: text1
+    type: text
+    name: acme.co — 2026
+    frame:
+      x: 184.3
+      y: 64.8
+      width: 156.36
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co — 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#8B7EC8"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: CONFIDENTIAL_REV_A
+    frame:
+      x: 1600.52
+      y: 67.67
+      width: 175.9
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL_REV_A
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Let's build the future.
+    frame:
+      x: 416.59
+      y: 245.81
+      width: 1086.83
+      height: 107.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Let's build the future.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 48
+              weight: 500
+              color:
+                kind: rgb
+                value: "#EDEDEF"
+              letterSpacingPt: -1.44
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Join us in redefining st...
+    frame:
+      x: 564.46
+      y: 383.8
+      width: 791.09
+      height: 131.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Join us in redefining standard industry practices and accelerating the next generation of enterprise architecture.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape4
+    type: shape
+    frame:
+      x: 660.16
+      y: 578.16
+      width: 253.77
+      height: 63.17
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 3.84
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#EDEDEF"
+  - id: text5
+    type: text
+    name: Partner with us
+    frame:
+      x: 644.45
+      y: 578.16
+      width: 285.19
+      height: 63.17
+    body:
+      paragraphs:
+        - runs:
+            - text: Partner with us
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#0A0A0B"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+  - id: shape5
+    type: shape
+    frame:
+      x: 952.31
+      y: 578.16
+      width: 307.53
+      height: 63.17
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 3.84
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.2
+  - id: text6
+    type: text
+    name: View Documentation
+    frame:
+      x: 952.285
+      y: 578.16
+      width: 307.58
+      height: 63.17
+    body:
+      paragraphs:
+        - runs:
+            - text: View Documentation
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#EDEDEF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+  - id: text7
+    type: text
+    name: EMAIL
+    frame:
+      x: 812.56
+      y: 749.33
+      width: 52.14
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EMAIL
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: partners@acme.co
+    frame:
+      x: 746.28
+      y: 777.75
+      width: 184.71
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: partners@acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#EDEDEF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: HQ
+    frame:
+      x: 1073.97
+      y: 749.33
+      width: 21.49
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: HQ
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: San Francisco, CA
+    frame:
+      x: 991.47
+      y: 777.75
+      width: 186.51
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: San Francisco, CA
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#EDEDEF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 153.59
+      y: 958.78
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+  - id: text11
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 153.59
+      y: 992.17
+      width: 193.58
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: SLIDE_04
+    frame:
+      x: 1692.67
+      y: 992.17
+      width: 78.21
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: SLIDE_04
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          lineHeight: 1.5
+      overflow: visible

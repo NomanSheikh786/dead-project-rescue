@@ -1,0 +1,309 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F4F1ED"
+elements:
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 96
+      y: 64.8
+      width: 107.16
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C2C2A"
+              letterSpacingPt: -0.72
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "02"
+    frame:
+      x: 1800.97
+      y: 71.98
+      width: 27.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7A7874"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 96
+      y: 321.11
+      width: 57.59
+      height: 2.16
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1C9BE"
+  - id: text3
+    type: text
+    name: Finding balance in a cha...
+    frame:
+      x: 96
+      y: 366.45
+      width: 1152.05
+      height: 170.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Finding balance in a chaotic market.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 38.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A1A19"
+              letterSpacingPt: -1.152
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 96
+      y: 658.5
+      width: 499.2
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1C9BE"
+  - id: text4
+    type: text
+    name: 01. THE PROBLEM
+    frame:
+      x: 96
+      y: 621.78
+      width: 499.25
+      height: 37.72
+    body:
+      paragraphs:
+        - runs:
+            - text: 01. THE PROBLEM
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7A7874"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 5.4
+        left: 0
+  - id: text5
+    type: text
+    name: Teams are overwhelmed by...
+    frame:
+      x: 96
+      y: 681.09
+      width: 499.25
+      height: 138.25
+    body:
+      paragraphs:
+        - runs:
+            - text: Teams are overwhelmed by noise, constant notifications, and scattered information across multiple platforms, leading to cognitive fatigue.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5A5854"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 710.39
+      y: 658.5
+      width: 499.22
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1C9BE"
+  - id: text6
+    type: text
+    name: 02. THE APPROACH
+    frame:
+      x: 710.39
+      y: 621.78
+      width: 499.27
+      height: 37.72
+    body:
+      paragraphs:
+        - runs:
+            - text: 02. THE APPROACH
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7A7874"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 5.4
+        left: 0
+  - id: text7
+    type: text
+    name: We introduced mindful wo...
+    frame:
+      x: 710.39
+      y: 681.09
+      width: 499.27
+      height: 138.25
+    body:
+      paragraphs:
+        - runs:
+            - text: We introduced mindful workflows, limiting interruptions and organizing data thoughtfully to restore focus and drive meaningful progress.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5A5854"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1324.8
+      y: 658.5
+      width: 499.2
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1C9BE"
+  - id: text8
+    type: text
+    name: 03. THE OUTCOME
+    frame:
+      x: 1324.8
+      y: 621.78
+      width: 499.25
+      height: 37.72
+    body:
+      paragraphs:
+        - runs:
+            - text: 03. THE OUTCOME
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7A7874"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 5.4
+        left: 0
+  - id: text9
+    type: text
+    name: A serene, productive env...
+    frame:
+      x: 1324.8
+      y: 681.09
+      width: 499.25
+      height: 138.25
+    body:
+      paragraphs:
+        - runs:
+            - text: A serene, productive environment where deep work happens naturally, creativity flourishes, and team burnout is significantly reduced.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5A5854"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: MARKET ANALYSIS
+    frame:
+      x: 96
+      y: 989.28
+      width: 203.77
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: MARKET ANALYSIS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A39E96"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible

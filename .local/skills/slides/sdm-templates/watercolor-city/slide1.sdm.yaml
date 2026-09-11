@@ -1,0 +1,168 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#000000"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: illust-watercolor-city
+    altText: Watercolor City
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0.6
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.5
+  - id: text1
+    type: text
+    name: EXAMPLE COMPANY
+    frame:
+      x: 96
+      y: 54
+      width: 232.74
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1769.36
+      y: 54
+      width: 60.69
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: Horizon
+    frame:
+      x: 96
+      y: 687.64
+      width: 871.49
+      height: 207.36
+    body:
+      paragraphs:
+        - runs:
+            - text: Horizon
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 115.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FDFDFD"
+              italic: true
+              letterSpacingPt: -2.304
+          lineHeight: 0.9
+      overflow: visible
+  - id: text4
+    type: text
+    name: Where vision meets the s...
+    frame:
+      x: 96
+      y: 916.59
+      width: 526.71
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Where vision meets the skyline.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFDFD"
+              letterSpacingPt: 0.72
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text5
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 96
+      y: 1002.97
+      width: 331.78
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFDFD"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+assets:
+  illust-watercolor-city:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/illust-watercolor-city.png

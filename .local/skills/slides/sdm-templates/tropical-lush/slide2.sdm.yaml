@@ -1,0 +1,292 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: image
+  assetId: forest-canopy
+  fit: cover
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#0A120D"
+          opacity: 0.95
+        - offset: 0.6
+          color:
+            kind: rgb
+            value: "#0A120D"
+          opacity: 0.85
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#0A120D"
+          opacity: 0.3
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 117.75
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#8EAF96"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "02"
+    frame:
+      x: 1734.11
+      y: 86.39
+      width: 35.35
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#8EAF96"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Sustainable Growth
+    frame:
+      x: 153.59
+      y: 201.58
+      width: 773.44
+      height: 86.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Sustainable Growth
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Our core philosophy cent...
+    frame:
+      x: 153.59
+      y: 329.23
+      width: 729.66
+      height: 147.5
+    body:
+      paragraphs:
+        - runs:
+            - text: Our core philosophy centers around nurturing an environment where innovation thrives naturally, much like a well-tended ecosystem. We believe in sustainable practices that promote long-term vitality.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#D1E0D5"
+          lineHeight: 1.6
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape2
+    type: shape
+    frame:
+      x: 153.59
+      y: 520.17
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8EAF96"
+  - id: text5
+    type: text
+    name: Organic scaling methodol...
+    frame:
+      x: 182.38
+      y: 509.13
+      width: 340.98
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Organic scaling methodologies
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F4F7F5"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 153.59
+      y: 573.45
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8EAF96"
+  - id: text6
+    type: text
+    name: Symbiotic partnership mo...
+    frame:
+      x: 182.38
+      y: 562.41
+      width: 328.34
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Symbiotic partnership models
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F4F7F5"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape4
+    type: shape
+    frame:
+      x: 153.59
+      y: 626.73
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8EAF96"
+  - id: text7
+    type: text
+    name: Renewable resource alloc...
+    frame:
+      x: 182.38
+      y: 615.69
+      width: 337.67
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Renewable resource allocation
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F4F7F5"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text8
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 153.59
+      y: 967.69
+      width: 300
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8EAF96"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: 2026 / Confidential
+    frame:
+      x: 1593.11
+      y: 967.69
+      width: 206.47
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: 2026 / Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8EAF96"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  forest-canopy:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/forest-canopy.jpg

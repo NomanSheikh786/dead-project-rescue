@@ -1,0 +1,552 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F0E6"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 576
+      y: 216
+      width: 768
+      height: 768
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+    opacity: 0.028
+  - id: shape2
+    type: shape
+    frame:
+      x: -192
+      y: 36
+      width: 1152
+      height: 1152
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+    opacity: 0.017
+  - id: shape3
+    type: shape
+    frame:
+      x: 1152
+      y: -54
+      width: 576
+      height: 576
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 259.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D93829"
+    opacity: 0.017
+  - id: shape4
+    type: shape
+    frame:
+      x: 230.39
+      y: 108
+      width: 38.39
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D93829"
+    stroke:
+      color:
+        kind: rgb
+        value: "#F5F0E6"
+      widthPt: 1
+  - id: text1
+    type: text
+    name: 印
+    frame:
+      x: 241.34
+      y: 115.67
+      width: 16.52
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: 印
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 7.68
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F5F0E6"
+              letterSpacingPt: -0.768
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 90
+  - id: text2
+    type: text
+    name: IMPACT & SCALE
+    frame:
+      x: 297.58
+      y: 112.8
+      width: 265.03
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: IMPACT & SCALE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 2.88
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text3
+    type: text
+    name: The resonance of our wor...
+    frame:
+      x: 230.39
+      y: 237.59
+      width: 1459.24
+      height: 161.28
+    body:
+      paragraphs:
+        - runs:
+            - text: The resonance of our work across
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 33.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -0.672
+          lineHeight: 1.2
+        - runs:
+            - text: the global landscape.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 33.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -0.672
+          lineHeight: 1.2
+      overflow: visible
+    opacity: 0.9
+  - id: shape5
+    type: shape
+    frame:
+      x: 192
+      y: 446.88
+      width: 153.59
+      height: 153.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+      opacity: 0.06
+    opacity: 0.55
+  - id: shape6
+    type: shape
+    frame:
+      x: 710.41
+      y: 446.88
+      width: 192
+      height: 172.8
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 76.8
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+      opacity: 0.04
+    opacity: 0.55
+  - id: shape7
+    type: shape
+    frame:
+      x: 1209.59
+      y: 466.08
+      width: 211.19
+      height: 192
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 96
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D93829"
+      opacity: 0.05
+    opacity: 0.55
+  - id: text4
+    type: text
+    name: acme.co
+    frame:
+      x: 230.39
+      y: 967.69
+      width: 81.13
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text5
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 388.27
+      y: 967.69
+      width: 238.72
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text6
+    type: text
+    name: "03"
+    frame:
+      x: 1665.02
+      y: 967.69
+      width: 27.64
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text7
+    type: text
+    name: 42%
+    frame:
+      x: 230.39
+      y: 485.27
+      width: 422.44
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: "42"
+              sizePt: 48
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+            - text: "%"
+              sizePt: 24
+              color:
+                kind: rgb
+                value: "#D93829"
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            weight: 400
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 230.39
+      y: 602.86
+      width: 76.8
+      height: 2.88
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D93829"
+  - id: text8
+    type: text
+    name: Market Expansion
+    frame:
+      x: 230.39
+      y: 627.33
+      width: 422.44
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Market Expansion
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text9
+    type: text
+    name: Organic growth observed ...
+    frame:
+      x: 230.39
+      y: 669.81
+      width: 422.44
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Organic growth observed across all secondary markets in Q3.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text10
+    type: text
+    name: 8.5x
+    frame:
+      x: 748.8
+      y: 485.27
+      width: 422.44
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: "8.5"
+              sizePt: 48
+            - text: x
+              sizePt: 24
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            weight: 400
+            color:
+              kind: rgb
+              value: "#1A1A1A"
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 748.8
+      y: 602.86
+      width: 76.8
+      height: 2.88
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+      opacity: 0.2
+  - id: text11
+    type: text
+    name: Velocity Multiplier
+    frame:
+      x: 748.8
+      y: 627.33
+      width: 422.44
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Velocity Multiplier
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text12
+    type: text
+    name: Accelerated delivery cyc...
+    frame:
+      x: 748.8
+      y: 669.81
+      width: 422.44
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Accelerated delivery cycles due to refined methodologies.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text13
+    type: text
+    name: 140k
+    frame:
+      x: 1267.19
+      y: 485.27
+      width: 422.44
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: "140"
+              sizePt: 48
+            - text: k
+              sizePt: 24
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            weight: 400
+            color:
+              kind: rgb
+              value: "#1A1A1A"
+      overflow: visible
+  - id: shape10
+    type: shape
+    frame:
+      x: 1267.19
+      y: 602.86
+      width: 76.8
+      height: 2.88
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+      opacity: 0.2
+  - id: text14
+    type: text
+    name: Global Impressions
+    frame:
+      x: 1267.19
+      y: 627.33
+      width: 422.44
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Global Impressions
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text15
+    type: text
+    name: Subtle but powerful reac...
+    frame:
+      x: 1267.19
+      y: 669.81
+      width: 422.44
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Subtle but powerful reach across targeted demographic segments.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5

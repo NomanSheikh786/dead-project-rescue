@@ -1,0 +1,240 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0D0A08"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: molten-glass
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 60.64
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#0A0805"
+          opacity: 0.95
+  - id: text1
+    type: text
+    name: NEXT
+    frame:
+      x: 96
+      y: 654
+      width: 1377.86
+      height: 480
+    body:
+      paragraphs:
+        - runs:
+            - text: NEXT
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 240
+              weight: 800
+              color:
+                kind: rgb
+                value: "#E8A84C"
+              letterSpacingPt: 12
+          lineHeight: 1
+      overflow: visible
+    opacity: 0.05
+    rotationDeg: 0.02
+  - id: text2
+    type: text
+    name: LET'S BEGIN
+    frame:
+      x: 845.97
+      y: 259.23
+      width: 228.1
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: LET'S BEGIN
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#C4652A"
+              letterSpacingPt: 3.456
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Forge Ahead.
+    frame:
+      x: 443.35
+      y: 336.98
+      width: 1033.3
+      height: 170.95
+    body:
+      paragraphs:
+        - runs:
+            - text: Forge Ahead.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 76.8
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E8A84C"
+              letterSpacingPt: -1.536
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text4
+    type: text
+    name: Join us in crafting the ...
+    frame:
+      x: 474.35
+      y: 549.13
+      width: 971.31
+      height: 100.28
+    body:
+      paragraphs:
+        - runs:
+            - text: Join us in crafting the next generation of masterpieces. The crucible awaits your boldest ideas.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 15.36
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+    rotationDeg: 0.02
+  - id: shape2
+    type: shape
+    frame:
+      x: 737.09
+      y: 712.2
+      width: 445.81
+      height: 79.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8A84C"
+      opacity: 0.05
+    stroke:
+      color:
+        kind: rgb
+        value: "#E8A84C"
+      widthPt: 0.5
+  - id: text5
+    type: text
+    name: CONTACT THE STUDIO
+    frame:
+      x: 737.09
+      y: 712.2
+      width: 472.61
+      height: 79.75
+    body:
+      paragraphs:
+        - runs:
+            - text: CONTACT THE STUDIO
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8A84C"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: text6
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 964.81
+      width: 87.36
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4652A"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: "04"
+    frame:
+      x: 1777.94
+      y: 964.81
+      width: 30.93
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4652A"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  molten-glass:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/molten-glass.png

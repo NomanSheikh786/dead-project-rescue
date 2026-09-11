@@ -1,0 +1,281 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: creative-flatlay
+    altText: Creative Workspace
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 230.39
+      y: 162
+      width: 1248
+      height: 756
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    rotationDeg: 1.5
+  - id: text1
+    type: text
+    name: "02"
+    frame:
+      x: 1016.68
+      y: 149.99
+      width: 460.05
+      height: 346
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 172.8
+              weight: 800
+              color:
+                kind: rgb
+                value: "#F0F0F0"
+          lineHeight: 1
+      overflow: visible
+    rotationDeg: 1.5
+  - id: shape2
+    type: shape
+    frame:
+      x: 315.1
+      y: 230.23
+      width: 15
+      height: 15
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4786E"
+    rotationDeg: 1.5
+  - id: text2
+    type: text
+    name: OUR APPROACH
+    frame:
+      x: 349.36
+      y: 227.65
+      width: 169.05
+      height: 26
+    body:
+      paragraphs:
+        - runs:
+            - text: OUR APPROACH
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 1.296
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 1.5
+  - id: text3
+    type: text
+    name: A cohesive strategy for ...
+    frame:
+      x: 311.37
+      y: 304.87
+      width: 1001.69
+      height: 148
+    body:
+      paragraphs:
+        - runs:
+            - text: A cohesive strategy for modern brands
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 33.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -0.672
+          lineHeight: 1.1
+      overflow: visible
+    rotationDeg: 1.5
+  - id: text4
+    type: text
+    name: Discovery & Research
+    frame:
+      x: 307.73
+      y: 491.44
+      width: 509.05
+      height: 42
+    body:
+      paragraphs:
+        - runs:
+            - text: Discovery & Research
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 13.44
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 1.5
+  - id: text5
+    type: text
+    name: We immerse ourselves in ...
+    frame:
+      x: 305.46
+      y: 547.95
+      width: 524.32
+      height: 103
+    body:
+      paragraphs:
+        - runs:
+            - text: We immerse ourselves in your world to uncover the core truths that define your brand and audience.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.6
+      overflow: visible
+    rotationDeg: 1.5
+  - id: text6
+    type: text
+    name: Creative Execution
+    frame:
+      x: 893.13
+      y: 506.77
+      width: 509.05
+      height: 42
+    body:
+      paragraphs:
+        - runs:
+            - text: Creative Execution
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 13.44
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 1.5
+  - id: text7
+    type: text
+    name: Translating strategy int...
+    frame:
+      x: 891.3
+      y: 562.88
+      width: 590.11
+      height: 103
+    body:
+      paragraphs:
+        - runs:
+            - text: Translating strategy into striking visual narratives that command attention and drive engagement.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.6
+      overflow: visible
+    rotationDeg: 1.5
+  - id: shape3
+    type: shape
+    frame:
+      x: 300.84
+      y: 789.73
+      width: 1094
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E5E5E5"
+    rotationDeg: 1.5
+  - id: text8
+    type: text
+    name: acme.co
+    frame:
+      x: 299.74
+      y: 798.91
+      width: 79.05
+      height: 29
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 1.5
+  - id: text9
+    type: text
+    name: Page 02
+    frame:
+      x: 1318.11
+      y: 825.54
+      width: 80.61
+      height: 29
+    body:
+      paragraphs:
+        - runs:
+            - text: Page 02
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 1.5
+assets:
+  creative-flatlay:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/creative-flatlay.png

@@ -1,0 +1,419 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F7F3EE"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: -96
+      y: 270
+      width: 384
+      height: 432
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8DFD3"
+  - id: shape2
+    type: shape
+    frame:
+      x: 1632
+      y: 630
+      width: 288
+      height: 288
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#C4B8A8"
+      widthPt: 0.5
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 75.59
+      width: 94.93
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#8B7E6E"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: CONCLUSION
+    frame:
+      x: 1639.72
+      y: 79.91
+      width: 134.34
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: CONCLUSION
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B5A898"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: GET IN TOUCH
+    frame:
+      x: 876.71
+      y: 254.81
+      width: 166.57
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: GET IN TOUCH
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B5A898"
+              letterSpacingPt: 1.728
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Let's build something be...
+    frame:
+      x: 383.975
+      y: 313.13
+      width: 1152.05
+      height: 190.09
+    body:
+      paragraphs:
+        - runs:
+            - text: Let's build something beautiful together.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 43.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#3D3832"
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text5
+    type: text
+    name: We are currently accepti...
+    frame:
+      x: 502.05
+      y: 546.41
+      width: 915.89
+      height: 88
+    body:
+      paragraphs:
+        - runs:
+            - text: We are currently accepting new partnerships for the upcoming quarter. Reach out to discuss how we can elevate your brand.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8B7E6E"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 384
+      y: 697.2
+      width: 1152
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4B8A8"
+  - id: shape4
+    type: shape
+    frame:
+      x: 384
+      y: 832.81
+      width: 1152
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4B8A8"
+  - id: text6
+    type: text
+    name: EMAIL
+    frame:
+      x: 600.75
+      y: 730.59
+      width: 63.39
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: EMAIL
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.16
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B5A898"
+              letterSpacingPt: 0.816
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 548.665
+      y: 765.86
+      width: 167.57
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#3D3832"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 793
+      y: 730.59
+      width: 1
+      height: 43.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8DFD3"
+  - id: text8
+    type: text
+    name: PHONE
+    frame:
+      x: 934.79
+      y: 730.59
+      width: 65.65
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: PHONE
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.16
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B5A898"
+              letterSpacingPt: 0.816
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: +1 (555) 123-4567
+    frame:
+      x: 867.87
+      y: 765.86
+      width: 199.5
+      height: 71
+    body:
+      paragraphs:
+        - runs:
+            - text: +1 (555) 123-4567
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#3D3832"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 1141.22
+      y: 730.59
+      width: 1
+      height: 43.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8DFD3"
+  - id: text10
+    type: text
+    name: OFFICE
+    frame:
+      x: 1259.31
+      y: 730.59
+      width: 71.71
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: OFFICE
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.16
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B5A898"
+              letterSpacingPt: 0.816
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Stockholm, SE
+    frame:
+      x: 1216.71
+      y: 765.86
+      width: 156.89
+      height: 71
+    body:
+      paragraphs:
+        - runs:
+            - text: Stockholm, SE
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#3D3832"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 153.59
+      y: 990.94
+      width: 115.19
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4B8A8"
+  - id: text12
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 326.38
+      y: 978.48
+      width: 233.02
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B5A898"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: "04"
+    frame:
+      x: 1744.06
+      y: 978.48
+      width: 24.39
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B5A898"
+          lineHeight: 1.5
+      overflow: visible

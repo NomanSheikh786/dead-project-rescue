@@ -1,0 +1,983 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0D0D0D"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: -960
+      y: -540
+      width: 3840
+      height: 2160
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 135
+      stops:
+        - offset: 0.35
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.45
+          color:
+            kind: rgb
+            value: "#1A1A1A"
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#2A2A2A"
+        - offset: 0.55
+          color:
+            kind: rgb
+            value: "#1A1A1A"
+        - offset: 0.65
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape2
+    type: shape
+    frame:
+      x: -430.65
+      y: 10.65
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape3
+    type: shape
+    frame:
+      x: -457.8
+      y: 37.79
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape4
+    type: shape
+    frame:
+      x: -484.95
+      y: 64.94
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape5
+    type: shape
+    frame:
+      x: -512.09
+      y: 92.09
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape6
+    type: shape
+    frame:
+      x: -539.24
+      y: 119.23
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape7
+    type: shape
+    frame:
+      x: -566.39
+      y: 146.38
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape8
+    type: shape
+    frame:
+      x: -593.53
+      y: 173.53
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape9
+    type: shape
+    frame:
+      x: -620.68
+      y: 200.67
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape10
+    type: shape
+    frame:
+      x: -647.82
+      y: 227.82
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape11
+    type: shape
+    frame:
+      x: -674.97
+      y: 254.96
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape12
+    type: shape
+    frame:
+      x: -702.12
+      y: 282.11
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape13
+    type: shape
+    frame:
+      x: -729.26
+      y: 309.26
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape14
+    type: shape
+    frame:
+      x: -756.41
+      y: 336.4
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape15
+    type: shape
+    frame:
+      x: -783.56
+      y: 363.55
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape16
+    type: shape
+    frame:
+      x: -810.7
+      y: 390.7
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape17
+    type: shape
+    frame:
+      x: -837.85
+      y: 417.84
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape18
+    type: shape
+    frame:
+      x: -864.99
+      y: 444.99
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape19
+    type: shape
+    frame:
+      x: -892.14
+      y: 472.13
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape20
+    type: shape
+    frame:
+      x: -919.29
+      y: 499.28
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape21
+    type: shape
+    frame:
+      x: -946.43
+      y: 526.43
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape22
+    type: shape
+    frame:
+      x: -973.58
+      y: 553.57
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape23
+    type: shape
+    frame:
+      x: -1000.73
+      y: 580.72
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape24
+    type: shape
+    frame:
+      x: -1027.87
+      y: 607.87
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape25
+    type: shape
+    frame:
+      x: -1055.02
+      y: 635.01
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape26
+    type: shape
+    frame:
+      x: -1082.16
+      y: 662.16
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape27
+    type: shape
+    frame:
+      x: -1109.31
+      y: 689.31
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape28
+    type: shape
+    frame:
+      x: -1136.46
+      y: 716.45
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape29
+    type: shape
+    frame:
+      x: -1163.6
+      y: 743.6
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape30
+    type: shape
+    frame:
+      x: -1190.75
+      y: 770.74
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape31
+    type: shape
+    frame:
+      x: -1217.9
+      y: 797.89
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape32
+    type: shape
+    frame:
+      x: -1245.04
+      y: 825.04
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape33
+    type: shape
+    frame:
+      x: -1272.19
+      y: 852.18
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape34
+    type: shape
+    frame:
+      x: -1299.33
+      y: 879.33
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape35
+    type: shape
+    frame:
+      x: -1326.48
+      y: 906.48
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape36
+    type: shape
+    frame:
+      x: -1353.63
+      y: 933.62
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape37
+    type: shape
+    frame:
+      x: -1380.77
+      y: 960.77
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape38
+    type: shape
+    frame:
+      x: -1407.92
+      y: 987.91
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape39
+    type: shape
+    frame:
+      x: -1435.07
+      y: 1015.06
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape40
+    type: shape
+    frame:
+      x: -1462.21
+      y: 1042.21
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape41
+    type: shape
+    frame:
+      x: -1489.36
+      y: 1069.35
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape42
+    type: shape
+    frame:
+      x: 1456.01
+      y: 86.42
+      width: 349
+      height: 70
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4C36A"
+      widthPt: 1.5
+    rotationDeg: 4
+    opacity: 0.85
+  - id: text1
+    type: text
+    name: CASE FILE NO. 2026
+    frame:
+      x: 1456.01
+      y: 86.42
+      width: 349.05
+      height: 70
+    body:
+      paragraphs:
+        - runs:
+            - text: CASE FILE NO. 2026
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 600
+              color:
+                kind: rgb
+                value: "#D4C36A"
+              letterSpacingPt: 1.584
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 14.4
+        bottom: 8.1
+        left: 14.4
+    rotationDeg: 4
+    opacity: 0.85
+  - id: text2
+    type: text
+    name: "REF: ACME-01-A"
+    frame:
+      x: 153.59
+      y: 108
+      width: 274.62
+      height: 95.28
+    body:
+      paragraphs:
+        - runs:
+            - text: "REF: ACME-01-A"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#808080"
+              letterSpacingPt: 1.296
+          lineHeight: 1.8
+        - runs:
+            - text: "DATE: UNKNOWN"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#808080"
+              letterSpacingPt: 1.296
+          lineHeight: 1.8
+        - runs:
+            - text: "STATUS: CONFIDENTIAL"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#808080"
+              letterSpacingPt: 1.296
+          lineHeight: 1.8
+      overflow: visible
+  - id: text3
+    type: text
+    name: acme.co
+    frame:
+      x: 1507.93
+      y: 897.86
+      width: 258.47
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C36A"
+              italic: true
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: EXAMPLE COMPANY, INC.
+    frame:
+      x: 1492.42
+      y: 948.97
+      width: 273.98
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 1.536
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape43
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 60.64
+      stops:
+        - offset: 0.3
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.9
+  - id: text5
+    type: text
+    name: A PRESENTATION BY
+    frame:
+      x: 153.59
+      y: 603.03
+      width: 1229.49
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: A PRESENTATION BY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+              letterSpacingPt: 3.84
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Example Deck
+    frame:
+      x: 144
+      y: 664.22
+      width: 1239.08
+      height: 155.52
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 86.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0E0E0"
+              italic: true
+          lineHeight: 0.9
+      overflow: visible
+  - id: shape44
+    type: shape
+    frame:
+      x: 153.59
+      y: 852.13
+      width: 5
+      height: 98.28
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4C36A"
+  - id: text7
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 153.59
+      y: 852.13
+      width: 864.05
+      height: 100.28
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 15.36
+              weight: 300
+              color:
+                kind: rgb
+                value: "#B0B0B0"
+          lineHeight: 1.6
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 19.2

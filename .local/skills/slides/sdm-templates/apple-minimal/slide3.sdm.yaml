@@ -1,0 +1,407 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: text1
+    type: text
+    name: acme.co (by Example Comp...
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 367.46
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "acme.co "
+              color:
+                kind: rgb
+                value: "#666666"
+            - text: (by Example Company)
+              color:
+                kind: rgb
+                value: "#999999"
+          lineHeight: 1.5
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Inter
+            sizePt: 11.52
+            weight: 400
+            letterSpacingPt: -0.115
+      overflow: visible
+  - id: text2
+    type: text
+    name: Metrics & Performance
+    frame:
+      x: 1554.44
+      y: 64.8
+      width: 298.27
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Metrics & Performance
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Growth Metrics
+    frame:
+      x: 115.19
+      y: 120.95
+      width: 1689.68
+      height: 95.05
+    body:
+      paragraphs:
+        - runs:
+            - text: "Growth "
+              color:
+                kind: rgb
+                value: "#000000"
+            - text: Metrics
+              color:
+                kind: rgb
+                value: "#007AFF"
+          lineHeight: 1.1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Inter
+            sizePt: 43.2
+            weight: 200
+            letterSpacingPt: -1.728
+      overflow: visible
+  - id: text4
+    type: text
+    name: Key performance indicato...
+    frame:
+      x: 115.19
+      y: 226.8
+      width: 1152.05
+      height: 50
+    body:
+      paragraphs:
+        - runs:
+            - text: Key performance indicators over the last quarter.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 300
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: -0.173
+          lineHeight: 1.4
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 339.97
+      width: 512
+      height: 432
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 28.8
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5F5F7"
+  - id: text5
+    type: text
+    name: Active Users
+    frame:
+      x: 191.98
+      y: 448.69
+      width: 358.46
+      height: 45
+    body:
+      paragraphs:
+        - runs:
+            - text: Active Users
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: 2.4M
+    frame:
+      x: 191.98
+      y: 502.67
+      width: 358.46
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: 2.4M
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 200
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: -2.304
+          lineHeight: 1
+      overflow: visible
+  - id: text7
+    type: text
+    name: +124% Year over Year
+    frame:
+      x: 191.98
+      y: 628.67
+      width: 358.46
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: +124% Year over Year
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#007AFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 703.98
+      y: 339.97
+      width: 512.02
+      height: 432
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 28.8
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5F5F7"
+  - id: text8
+    type: text
+    name: Revenue
+    frame:
+      x: 780.78
+      y: 448.69
+      width: 358.47
+      height: 45
+    body:
+      paragraphs:
+        - runs:
+            - text: Revenue
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: $18M
+    frame:
+      x: 780.78
+      y: 502.67
+      width: 358.47
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: $18M
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 200
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: -2.304
+          lineHeight: 1
+      overflow: visible
+  - id: text10
+    type: text
+    name: +85% Quarter over Quarte...
+    frame:
+      x: 780.78
+      y: 628.67
+      width: 358.47
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: +85% Quarter over Quarter
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#007AFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 1292.8
+      y: 339.97
+      width: 512.02
+      height: 432
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 28.8
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text11
+    type: text
+    name: Retention
+    frame:
+      x: 1369.59
+      y: 448.69
+      width: 358.47
+      height: 45
+    body:
+      paragraphs:
+        - runs:
+            - text: Retention
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#999999"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: 94%
+    frame:
+      x: 1369.59
+      y: 502.67
+      width: 358.47
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: 94%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -2.304
+          lineHeight: 1
+      overflow: visible
+  - id: text13
+    type: text
+    name: Industry leading metric
+    frame:
+      x: 1369.59
+      y: 628.67
+      width: 358.47
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Industry leading metric
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text14
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 115.19
+      y: 986.41
+      width: 374.52
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.192
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: "03"
+    frame:
+      x: 1780.84
+      y: 986.41
+      width: 28
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+          lineHeight: 1.5
+      overflow: visible

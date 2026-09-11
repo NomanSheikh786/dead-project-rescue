@@ -1,0 +1,2579 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#C4724E"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 76.8
+      y: 43.19
+      width: 1766.41
+      height: 993.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 1
+  - id: shape2
+    type: shape
+    frame:
+      x: 86.39
+      y: 54
+      width: 1747.22
+      height: 972
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+      opacity: 0.4
+  - id: shape3
+    type: shape
+    frame:
+      x: -0.1
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape4
+    type: shape
+    frame:
+      x: -0.1
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape5
+    type: shape
+    frame:
+      x: 47.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape6
+    type: shape
+    frame:
+      x: 47.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape7
+    type: shape
+    frame:
+      x: 95.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape8
+    type: shape
+    frame:
+      x: 95.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape9
+    type: shape
+    frame:
+      x: 143.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape10
+    type: shape
+    frame:
+      x: 143.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape11
+    type: shape
+    frame:
+      x: 191.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape12
+    type: shape
+    frame:
+      x: 191.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape13
+    type: shape
+    frame:
+      x: 239.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape14
+    type: shape
+    frame:
+      x: 239.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape15
+    type: shape
+    frame:
+      x: 287.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape16
+    type: shape
+    frame:
+      x: 287.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape17
+    type: shape
+    frame:
+      x: 335.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape18
+    type: shape
+    frame:
+      x: 335.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape19
+    type: shape
+    frame:
+      x: 383.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape20
+    type: shape
+    frame:
+      x: 383.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape21
+    type: shape
+    frame:
+      x: 431.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape22
+    type: shape
+    frame:
+      x: 431.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape23
+    type: shape
+    frame:
+      x: 479.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape24
+    type: shape
+    frame:
+      x: 479.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape25
+    type: shape
+    frame:
+      x: 527.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape26
+    type: shape
+    frame:
+      x: 527.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape27
+    type: shape
+    frame:
+      x: 575.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape28
+    type: shape
+    frame:
+      x: 575.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape29
+    type: shape
+    frame:
+      x: 623.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape30
+    type: shape
+    frame:
+      x: 623.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape31
+    type: shape
+    frame:
+      x: 671.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape32
+    type: shape
+    frame:
+      x: 671.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape33
+    type: shape
+    frame:
+      x: 719.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape34
+    type: shape
+    frame:
+      x: 719.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape35
+    type: shape
+    frame:
+      x: 767.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape36
+    type: shape
+    frame:
+      x: 767.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape37
+    type: shape
+    frame:
+      x: 815.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape38
+    type: shape
+    frame:
+      x: 815.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape39
+    type: shape
+    frame:
+      x: 863.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape40
+    type: shape
+    frame:
+      x: 863.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape41
+    type: shape
+    frame:
+      x: 911.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape42
+    type: shape
+    frame:
+      x: 911.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape43
+    type: shape
+    frame:
+      x: 959.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape44
+    type: shape
+    frame:
+      x: 959.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape45
+    type: shape
+    frame:
+      x: 1007.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape46
+    type: shape
+    frame:
+      x: 1007.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape47
+    type: shape
+    frame:
+      x: 1055.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape48
+    type: shape
+    frame:
+      x: 1055.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape49
+    type: shape
+    frame:
+      x: 1103.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape50
+    type: shape
+    frame:
+      x: 1103.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape51
+    type: shape
+    frame:
+      x: 1151.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape52
+    type: shape
+    frame:
+      x: 1151.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape53
+    type: shape
+    frame:
+      x: 1199.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape54
+    type: shape
+    frame:
+      x: 1199.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape55
+    type: shape
+    frame:
+      x: 1247.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape56
+    type: shape
+    frame:
+      x: 1247.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape57
+    type: shape
+    frame:
+      x: 1295.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape58
+    type: shape
+    frame:
+      x: 1295.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape59
+    type: shape
+    frame:
+      x: 1343.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape60
+    type: shape
+    frame:
+      x: 1343.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape61
+    type: shape
+    frame:
+      x: 1391.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape62
+    type: shape
+    frame:
+      x: 1391.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape63
+    type: shape
+    frame:
+      x: 1439.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape64
+    type: shape
+    frame:
+      x: 1439.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape65
+    type: shape
+    frame:
+      x: 1487.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape66
+    type: shape
+    frame:
+      x: 1487.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape67
+    type: shape
+    frame:
+      x: 1535.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape68
+    type: shape
+    frame:
+      x: 1535.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape69
+    type: shape
+    frame:
+      x: 1583.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape70
+    type: shape
+    frame:
+      x: 1583.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape71
+    type: shape
+    frame:
+      x: 1631.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape72
+    type: shape
+    frame:
+      x: 1631.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape73
+    type: shape
+    frame:
+      x: 1679.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape74
+    type: shape
+    frame:
+      x: 1679.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape75
+    type: shape
+    frame:
+      x: 1727.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape76
+    type: shape
+    frame:
+      x: 1727.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape77
+    type: shape
+    frame:
+      x: 1775.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape78
+    type: shape
+    frame:
+      x: 1775.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape79
+    type: shape
+    frame:
+      x: 1823.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape80
+    type: shape
+    frame:
+      x: 1823.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape81
+    type: shape
+    frame:
+      x: 1871.9
+      y: 21.49
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape82
+    type: shape
+    frame:
+      x: 1871.9
+      y: 1029.51
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape83
+    type: shape
+    frame:
+      x: 38.29
+      y: -0.1
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape84
+    type: shape
+    frame:
+      x: 1852.71
+      y: -0.1
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape85
+    type: shape
+    frame:
+      x: 38.29
+      y: 53.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape86
+    type: shape
+    frame:
+      x: 1852.71
+      y: 53.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape87
+    type: shape
+    frame:
+      x: 38.29
+      y: 107.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape88
+    type: shape
+    frame:
+      x: 1852.71
+      y: 107.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape89
+    type: shape
+    frame:
+      x: 38.29
+      y: 161.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape90
+    type: shape
+    frame:
+      x: 1852.71
+      y: 161.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape91
+    type: shape
+    frame:
+      x: 38.29
+      y: 215.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape92
+    type: shape
+    frame:
+      x: 1852.71
+      y: 215.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape93
+    type: shape
+    frame:
+      x: 38.29
+      y: 269.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape94
+    type: shape
+    frame:
+      x: 1852.71
+      y: 269.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape95
+    type: shape
+    frame:
+      x: 38.29
+      y: 323.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape96
+    type: shape
+    frame:
+      x: 1852.71
+      y: 323.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape97
+    type: shape
+    frame:
+      x: 38.29
+      y: 377.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape98
+    type: shape
+    frame:
+      x: 1852.71
+      y: 377.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape99
+    type: shape
+    frame:
+      x: 38.29
+      y: 431.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape100
+    type: shape
+    frame:
+      x: 1852.71
+      y: 431.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape101
+    type: shape
+    frame:
+      x: 38.29
+      y: 485.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape102
+    type: shape
+    frame:
+      x: 1852.71
+      y: 485.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape103
+    type: shape
+    frame:
+      x: 38.29
+      y: 539.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape104
+    type: shape
+    frame:
+      x: 1852.71
+      y: 539.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape105
+    type: shape
+    frame:
+      x: 38.29
+      y: 593.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape106
+    type: shape
+    frame:
+      x: 1852.71
+      y: 593.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape107
+    type: shape
+    frame:
+      x: 38.29
+      y: 647.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape108
+    type: shape
+    frame:
+      x: 1852.71
+      y: 647.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape109
+    type: shape
+    frame:
+      x: 38.29
+      y: 701.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape110
+    type: shape
+    frame:
+      x: 1852.71
+      y: 701.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape111
+    type: shape
+    frame:
+      x: 38.29
+      y: 755.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape112
+    type: shape
+    frame:
+      x: 1852.71
+      y: 755.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape113
+    type: shape
+    frame:
+      x: 38.29
+      y: 809.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape114
+    type: shape
+    frame:
+      x: 1852.71
+      y: 809.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape115
+    type: shape
+    frame:
+      x: 38.29
+      y: 863.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape116
+    type: shape
+    frame:
+      x: 1852.71
+      y: 863.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape117
+    type: shape
+    frame:
+      x: 38.29
+      y: 917.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape118
+    type: shape
+    frame:
+      x: 1852.71
+      y: 917.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape119
+    type: shape
+    frame:
+      x: 38.29
+      y: 971.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape120
+    type: shape
+    frame:
+      x: 1852.71
+      y: 971.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape121
+    type: shape
+    frame:
+      x: 38.29
+      y: 1025.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape122
+    type: shape
+    frame:
+      x: 1852.71
+      y: 1025.9
+      width: 29
+      height: 29
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+    opacity: 0.6
+  - id: shape123
+    type: shape
+    frame:
+      x: 844.99
+      y: 162.2
+      width: 230
+      height: 230
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+  - id: shape124
+    type: shape
+    frame:
+      x: 882.99
+      y: 200.18
+      width: 154
+      height: 154
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#1E3054"
+      widthPt: 0.5
+    rotationDeg: 90
+  - id: shape125
+    type: shape
+    frame:
+      x: 883
+      y: 764.2
+      width: 154
+      height: 154
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8860B"
+      widthPt: 0.5
+    rotationDeg: 45
+  - id: shape126
+    type: shape
+    frame:
+      x: 921.5
+      y: 802.69
+      width: 77
+      height: 77
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#1E3054"
+      widthPt: 0.5
+    rotationDeg: 90
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 889.335
+      y: 255.58
+      width: 141.32
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1E3054"
+              letterSpacingPt: 2.304
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Example Deck
+    frame:
+      x: 546.32
+      y: 408.19
+      width: 827.35
+      height: 128.72
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1E3054"
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape127
+    type: shape
+    frame:
+      x: 835.22
+      y: 587.19
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8860B"
+  - id: shape128
+    type: shape
+    frame:
+      x: 950.5
+      y: 578.19
+      width: 19
+      height: 19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1E3054"
+    rotationDeg: 45
+  - id: shape129
+    type: shape
+    frame:
+      x: 1007.98
+      y: 587.19
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8860B"
+  - id: text3
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 527.975
+      y: 640.47
+      width: 864.05
+      height: 100.28
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1E3054"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.9
+  - id: text4
+    type: text
+    name: EXAMPLE COMPANY, INC.
+    frame:
+      x: 654.97
+      y: 967.69
+      width: 288.81
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1E3054"
+              letterSpacingPt: 1.296
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape130
+    type: shape
+    frame:
+      x: 1012.17
+      y: 975.64
+      width: 10
+      height: 10
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8860B"
+    rotationDeg: 45
+  - id: text5
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 1094
+      y: 967.69
+      width: 167.6
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1E3054"
+              letterSpacingPt: 1.296
+          align: center
+          lineHeight: 1.5
+      overflow: visible

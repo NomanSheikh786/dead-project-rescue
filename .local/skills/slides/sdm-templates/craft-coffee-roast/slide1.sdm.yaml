@@ -1,0 +1,232 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: linearGradient
+  angleDeg: 90
+  stops:
+    - offset: 0
+      color:
+        kind: rgb
+        value: "#190F08"
+      opacity: 0.9
+    - offset: 0.5
+      color:
+        kind: rgb
+        value: "#190F08"
+      opacity: 0.5
+    - offset: 0.65
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: coffee-roasting
+    fit: cover
+  - id: shape2
+    type: shape
+    frame:
+      x: 91.19
+      y: 74.39
+      width: 235
+      height: 53
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#190F08"
+      opacity: 0.5
+  - id: text1
+    type: text
+    name: SINGLE ORIGIN
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 240
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: SINGLE ORIGIN
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B87333"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Lot No. 2026
+    frame:
+      x: 854.83
+      y: 86.39
+      width: 124.36
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Lot No. 2026
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E8D4"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text3
+    type: text
+    name: Example Deck
+    frame:
+      x: 115.19
+      y: 309.58
+      width: 864.05
+      height: 128.72
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F5E8D4"
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 479.48
+      width: 76.8
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87333"
+  - id: text4
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 115.19
+      y: 524.67
+      width: 672.05
+      height: 88.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E8D4"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text5
+    type: text
+    name: "ALTITUDE: 1,800m"
+    frame:
+      x: 115.19
+      y: 919.83
+      width: 864.05
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "ALTITUDE: 1,800m"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E8D4"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text6
+    type: text
+    name: "ROAST PROFILE: MEDIUM"
+    frame:
+      x: 115.19
+      y: 964.81
+      width: 864.05
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "ROAST PROFILE: MEDIUM"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E8D4"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+    rotationDeg: 0.02
+  - id: text7
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 1009.81
+      width: 80.64
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E8D4"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+assets:
+  coffee-roasting:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/coffee-roasting.png

@@ -1,0 +1,343 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0F1423"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0.0009
+          color:
+            kind: rgb
+            value: "#D4DEEB"
+          opacity: 0.05
+        - offset: 0.0009
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape2
+    type: shape
+    frame:
+      x: 0
+      y: 162
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      opacity: 0.2
+  - id: shape3
+    type: shape
+    frame:
+      x: 0
+      y: 918
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      opacity: 0.2
+  - id: text1
+    type: text
+    name: "OBSERVATION: ACME.CO / S..."
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 433.13
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "OBSERVATION: ACME.CO / SYSTEM_ANALYSIS"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "EPOCH: 2026 / 02"
+    frame:
+      x: 1632.78
+      y: 64.8
+      width: 172.08
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "EPOCH: 2026 / 02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: SECTOR 2 / MISSION PARAM...
+    frame:
+      x: 115.19
+      y: 319.75
+      width: 1689.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: SECTOR 2 / MISSION PARAMETERS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+              letterSpacingPt: 2.88
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text4
+    type: text
+    name: SYSTEM OBJECTIVES
+    frame:
+      x: 115.19
+      y: 370.14
+      width: 1689.68
+      height: 129.61
+    body:
+      paragraphs:
+        - runs:
+            - text: SYSTEM OBJECTIVES
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: 01. Orbital Trajectory
+    frame:
+      x: 115.19
+      y: 564.53
+      width: 486.46
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: 01. Orbital Trajectory
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Identify and map the pri...
+    frame:
+      x: 115.19
+      y: 623.91
+      width: 486.46
+      height: 179.53
+    body:
+      paragraphs:
+        - runs:
+            - text: Identify and map the primary vectors for market expansion. This requires precise calculation of entry velocity and constant monitoring of atmospheric resistance from competitors.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+          lineHeight: 1.7
+      overflow: visible
+    opacity: 0.7
+  - id: text7
+    type: text
+    name: 02. Payload Delivery
+    frame:
+      x: 716.78
+      y: 564.53
+      width: 486.47
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: 02. Payload Delivery
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Ensure all essential fea...
+    frame:
+      x: 716.78
+      y: 623.91
+      width: 486.47
+      height: 179.53
+    body:
+      paragraphs:
+        - runs:
+            - text: Ensure all essential features are developed and deployed without critical failure. Focus on stabilizing the core architecture before engaging secondary thrusters.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+          lineHeight: 1.7
+      overflow: visible
+    opacity: 0.7
+  - id: text9
+    type: text
+    name: 03. Deep Space Comm
+    frame:
+      x: 1318.39
+      y: 564.53
+      width: 486.47
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: 03. Deep Space Comm
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Establish a reliable fee...
+    frame:
+      x: 1318.39
+      y: 623.91
+      width: 486.47
+      height: 179.53
+    body:
+      paragraphs:
+        - runs:
+            - text: Establish a reliable feedback loop with the initial user base. Latency in communication can lead to significant drift from the optimal product-market fit.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+          lineHeight: 1.7
+      overflow: visible
+    opacity: 0.7
+  - id: text11
+    type: text
+    name: PAGE 02
+    frame:
+      x: 115.19
+      y: 992.17
+      width: 79.84
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: PAGE 02
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text12
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 1417.75
+      y: 992.17
+      width: 387.11
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5

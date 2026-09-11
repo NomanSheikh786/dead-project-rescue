@@ -1,0 +1,429 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F0E8"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B87A5E"
+      widthPt: 0.5
+    opacity: 0.8
+  - id: text1
+    type: text
+    name: IMPACT & SCALE
+    frame:
+      x: 191.97
+      y: 103.67
+      width: 217.5
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: IMPACT & SCALE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#B87A5E"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Growth & Production
+    frame:
+      x: 644.5
+      y: 230.38
+      width: 631
+      height: 149
+    body:
+      paragraphs:
+        - runs:
+            - text: Growth & Production
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 33.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2A2520"
+              letterSpacingPt: -0.672
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: Scaling traditional craf...
+    frame:
+      x: 575.975
+      y: 325.89
+      width: 768.05
+      height: 73.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Scaling traditional craftsmanship without compromising the soul of the work.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2A2520"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.7
+    rotationDeg: 0.02
+  - id: shape2
+    type: shape
+    frame:
+      x: 115.19
+      y: 863.03
+      width: 1689.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87A5E"
+      opacity: 0.4
+  - id: text4
+    type: text
+    name: 30k
+    frame:
+      x: 334.45
+      y: 693.78
+      width: 45.52
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 30k
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#B87A5E"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: shape3
+    type: shape
+    frame:
+      x: 191.98
+      y: 749.94
+      width: 326.41
+      height: 113.09
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87A5E"
+      opacity: 0.3
+  - id: text5
+    type: text
+    name: 45k
+    frame:
+      x: 737.66
+      y: 637.23
+      width: 45.52
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 45k
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#B87A5E"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: shape4
+    type: shape
+    frame:
+      x: 595.19
+      y: 693.39
+      width: 326.42
+      height: 169.64
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87A5E"
+      opacity: 0.3
+  - id: text6
+    type: text
+    name: 65k
+    frame:
+      x: 1140.88
+      y: 561.83
+      width: 45.52
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 65k
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#B87A5E"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: shape5
+    type: shape
+    frame:
+      x: 998.41
+      y: 617.98
+      width: 326.41
+      height: 245.05
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87A5E"
+      opacity: 0.3
+  - id: text7
+    type: text
+    name: 100k
+    frame:
+      x: 1537.16
+      y: 486.03
+      width: 61.35
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 100k
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#B87A5E"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 1401.61
+      y: 542.19
+      width: 326.41
+      height: 320.84
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87A5E"
+  - id: text8
+    type: text
+    name: "2023"
+    frame:
+      x: 331.44
+      y: 886.63
+      width: 47.49
+      height: 27
+    body:
+      paragraphs:
+        - runs:
+            - text: "2023"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2A2520"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text9
+    type: text
+    name: "2024"
+    frame:
+      x: 734.66
+      y: 886.63
+      width: 47.49
+      height: 27
+    body:
+      paragraphs:
+        - runs:
+            - text: "2024"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2A2520"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text10
+    type: text
+    name: "2025"
+    frame:
+      x: 1137.87
+      y: 886.63
+      width: 47.49
+      height: 27
+    body:
+      paragraphs:
+        - runs:
+            - text: "2025"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2A2520"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text11
+    type: text
+    name: "2026"
+    frame:
+      x: 1541.07
+      y: 886.63
+      width: 47.49
+      height: 27
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2A2520"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: shape7
+    type: shape
+    frame:
+      x: 115.19
+      y: 937.19
+      width: 1689.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87A5E"
+      opacity: 0.2
+  - id: text12
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 970.58
+      width: 69.94
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2A2520"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text13
+    type: text
+    name: "03"
+    frame:
+      x: 1786.38
+      y: 970.58
+      width: 21.49
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B87A5E"
+          lineHeight: 1.5
+      overflow: visible

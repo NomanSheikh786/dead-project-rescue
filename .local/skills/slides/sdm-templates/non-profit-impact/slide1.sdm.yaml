@@ -1,0 +1,493 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FDF8F0"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1344
+      y: -192
+      width: 768
+      height: 768
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B5E5A"
+    opacity: 0.03
+  - id: shape2
+    type: shape
+    frame:
+      x: -96
+      y: 600
+      width: 576
+      height: 576
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4654A"
+    opacity: 0.03
+  - id: shape3
+    type: shape
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 48
+      height: 48
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#C4654A"
+      widthPt: 1
+  - id: shape4
+    type: shape
+    frame:
+      x: 129.59
+      y: 79.2
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4654A"
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 182.38
+      y: 71.52
+      width: 125.19
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: ANNUAL REPORT 2026
+    frame:
+      x: 1572.28
+      y: 74.39
+      width: 246.53
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ANNUAL REPORT 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#C4654A"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: GLOBAL INITIATIVE
+    frame:
+      x: 115.19
+      y: 329.08
+      width: 1113.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: GLOBAL INITIATIVE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#C4654A"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Example Deck
+    frame:
+      x: 115.19
+      y: 379.47
+      width: 1113.68
+      height: 149.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 67.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+          lineHeight: 1.1
+      overflow: visible
+  - id: text5
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 115.19
+      y: 559.7
+      width: 864.05
+      height: 149.42
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence. Empowering communities for a better tomorrow.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 15.36
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.85
+  - id: text6
+    type: text
+    name: PRESENTED BY
+    frame:
+      x: 115.19
+      y: 771.92
+      width: 257.88
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: PRESENTED BY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text7
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 115.19
+      y: 803.23
+      width: 257.88
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 449.81
+      y: 783.27
+      width: 1
+      height: 43.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B5E5A"
+    opacity: 0.2
+  - id: text8
+    type: text
+    name: DATE
+    frame:
+      x: 527.61
+      y: 771.92
+      width: 194.16
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: DATE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text9
+    type: text
+    name: October 24, 2026
+    frame:
+      x: 527.61
+      y: 803.23
+      width: 218.16
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: October 24, 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 1305.61
+      y: 372.23
+      width: 422.39
+      height: 422.39
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#1B5E5A"
+      widthPt: 0.5
+      opacity: 0.2
+  - id: shape7
+    type: shape
+    frame:
+      x: 1334.41
+      y: 401.03
+      width: 364.8
+      height: 364.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B5E5A"
+  - id: text10
+    type: text
+    name: 1.2M
+    frame:
+      x: 1403.25
+      y: 472.2
+      width: 227.11
+      height: 86.41
+    body:
+      paragraphs:
+        - runs:
+            - text: 1.2M
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FDF8F0"
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: text11
+    type: text
+    name: LIVES REACHED
+    frame:
+      x: 1422.36
+      y: 569.41
+      width: 188.88
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: LIVES REACHED
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FDF8F0"
+              letterSpacingPt: 0.528
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: shape8
+    type: shape
+    frame:
+      x: 1488
+      y: 622.69
+      width: 57.59
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4654A"
+  - id: text12
+    type: text
+    name: Across 42 countries in o...
+    frame:
+      x: 1354.97
+      y: 646.28
+      width: 323.67
+      height: 50.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Across 42 countries in our mission to provide sustainable access.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDF8F0"
+          align: center
+          lineHeight: 1.4
+      overflow: visible
+    opacity: 0.8
+  - id: shape9
+    type: shape
+    frame:
+      x: 1498.61
+      y: 354.05
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4654A"
+  - id: shape10
+    type: shape
+    frame:
+      x: 115.19
+      y: 1014.2
+      width: 732.56
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B5E5A"
+    opacity: 0.2
+  - id: text13
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 847.75
+      y: 989.28
+      width: 238
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 19.2
+        bottom: 0
+        left: 19.2
+    opacity: 0.6
+  - id: shape11
+    type: shape
+    frame:
+      x: 1072.23
+      y: 1014.2
+      width: 732.58
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B5E5A"
+    opacity: 0.2

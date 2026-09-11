@@ -1,0 +1,253 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1056
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A0E08"
+  - id: shape2
+    type: shape
+    frame:
+      x: 1056
+      y: 0
+      width: 864
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5E6D3"
+  - id: text1
+    type: text
+    name: DUSK
+    frame:
+      x: 230.88
+      y: 108
+      width: 1650.3
+      height: 864
+    body:
+      paragraphs:
+        - runs:
+            - text: DUSK
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 288
+              weight: 900
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.02
+    rotationDeg: 0.02
+  - id: shape3
+    type: shape
+    frame:
+      x: 480
+      y: -216
+      width: 1152
+      height: 1512
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#F5E6D3"
+      widthPt: 0.5
+      opacity: 0.15
+  - id: shape4
+    type: shape
+    frame:
+      x: 672
+      y: 108
+      width: 768
+      height: 864
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 345.6
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#1A0E08"
+      widthPt: 0.5
+      opacity: 0.08
+  - id: text2
+    type: text
+    name: EXAMPLE COMPANY
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 825.68
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+    rotationDeg: 0.02
+  - id: text3
+    type: text
+    name: EST. 2026 / CONFIDENTIAL
+    frame:
+      x: 115.19
+      y: 972
+      width: 825.68
+      height: 21.61
+    body:
+      paragraphs:
+        - runs:
+            - text: EST. 2026 / CONFIDENTIAL
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 7.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+              letterSpacingPt: 1.08
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: text4
+    type: text
+    name: Dusk
+    frame:
+      x: 105.59
+      y: 351.97
+      width: 825.68
+      height: 326.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Dusk
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 96
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+              italic: true
+              letterSpacingPt: -3.84
+          lineHeight: 0.85
+        - runs:
+            - text: Brew Co.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 86.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+              italic: true
+              letterSpacingPt: -3.84
+          lineHeight: 0.944
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 1171.19
+      y: 773.31
+      width: 38.39
+      height: 1.5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A0E08"
+    opacity: 0.8
+  - id: text5
+    type: text
+    name: CRAFTED COLD.
+    frame:
+      x: 1171.19
+      y: 796.41
+      width: 193.91
+      height: 67.59
+    body:
+      paragraphs:
+        - runs:
+            - text: CRAFTED COLD.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A0E08"
+              letterSpacingPt: 0.528
+          lineHeight: 1.6
+        - runs:
+            - text: BREWED BOLD.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A0E08"
+              letterSpacingPt: 0.528
+          lineHeight: 1.6
+      overflow: visible
+  - id: image1
+    type: image
+    frame:
+      x: 720
+      y: 108
+      width: 672
+      height: 864
+    assetId: product-coffee
+    altText: Dusk Brew Co. Cold Brew Bottle
+    fit: contain
+    rotationDeg: 2
+assets:
+  product-coffee:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/product-coffee.png

@@ -1,0 +1,346 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F0E8"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 96
+      y: 54
+      width: 1728
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8960C"
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 96
+      y: 76.59
+      width: 107.36
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2C1810"
+              letterSpacingPt: 0.528
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "02"
+    frame:
+      x: 1799.59
+      y: 78.03
+      width: 27.46
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C1810"
+              letterSpacingPt: 0.192
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Executive Summary
+    frame:
+      x: 96
+      y: 151.47
+      width: 1728.05
+      height: 95.05
+    body:
+      paragraphs:
+        - runs:
+            - text: Executive Summary
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1810"
+              letterSpacingPt: -0.432
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 96
+      y: 268.11
+      width: 57.59
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8960C"
+  - id: text4
+    type: text
+    name: We are revolutionizing t...
+    frame:
+      x: 96
+      y: 313.3
+      width: 796.35
+      height: 198.56
+    body:
+      paragraphs:
+        - runs:
+            - text: We are revolutionizing the industry by combining traditional craftsmanship with modern innovation. Our approach ensures sustainable growth while maintaining the highest quality standards.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 15.36
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C1810"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.9
+  - id: text5
+    type: text
+    name: Through a combination of...
+    frame:
+      x: 96
+      y: 542.25
+      width: 844.13
+      height: 165.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Through a combination of strategic partnerships and relentless dedication to excellence, we have established a foundation that supports unprecedented scale. This framework allows us to address market demands efficiently while anticipating future trends.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1810"
+          lineHeight: 1.8
+      overflow: visible
+    opacity: 0.7
+  - id: shape3
+    type: shape
+    frame:
+      x: 969.09
+      y: 313.3
+      width: 1
+      height: 621
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8960C"
+      opacity: 0.3
+  - id: text6
+    type: text
+    name: Strategic Vision
+    frame:
+      x: 1027.69
+      y: 313.3
+      width: 796.36
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Strategic Vision
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2C1810"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Aligning long-term goals...
+    frame:
+      x: 1027.69
+      y: 375.94
+      width: 796.36
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Aligning long-term goals with actionable immediate steps.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C1810"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text8
+    type: text
+    name: Market Leadership
+    frame:
+      x: 1027.69
+      y: 440.02
+      width: 796.36
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Market Leadership
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2C1810"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Capturing significant ma...
+    frame:
+      x: 1027.69
+      y: 502.66
+      width: 796.36
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Capturing significant market share through innovative solutions.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C1810"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text10
+    type: text
+    name: Operational Excellence
+    frame:
+      x: 1027.69
+      y: 566.73
+      width: 796.36
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Operational Excellence
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2C1810"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Streamlining processes t...
+    frame:
+      x: 1027.69
+      y: 629.38
+      width: 796.36
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Streamlining processes to maximize efficiency and reduce overhead.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C1810"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text12
+    type: text
+    name: EXAMPLE COMPANY, INC. • ...
+    frame:
+      x: 96
+      y: 977.48
+      width: 452.21
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. • CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1810"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape4
+    type: shape
+    frame:
+      x: 96
+      y: 1025
+      width: 1728
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8960C"

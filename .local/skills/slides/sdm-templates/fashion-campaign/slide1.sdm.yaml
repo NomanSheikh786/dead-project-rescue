@@ -1,0 +1,186 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#000000"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: fashion-studio
+    altText: Fashion Studio
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.85
+        - offset: 0.35
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.6
+        - offset: 0.68
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: text1
+    type: text
+    name: CAMPAIGN SS/26
+    frame:
+      x: 153.59
+      y: 246.58
+      width: 748.86
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CAMPAIGN SS/26
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 3.072
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Example Deck
+    frame:
+      x: 153.59
+      y: 302
+      width: 748.86
+      height: 295.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 67.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+              letterSpacingPt: 1.344
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 153.59
+      y: 640.88
+      width: 672.05
+      height: 88
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 100
+              color:
+                kind: rgb
+                value: "#C0C0C0"
+              letterSpacingPt: 0.269
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 153.59
+      y: 822.84
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.5
+  - id: text4
+    type: text
+    name: LOOK BOOK
+    frame:
+      x: 268.78
+      y: 813.27
+      width: 146.74
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: LOOK BOOK
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 3.36
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 992.17
+      width: 99.3
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+assets:
+  fashion-studio:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/fashion-studio.png

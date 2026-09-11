@@ -1,0 +1,190 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: linearGradient
+  angleDeg: 180
+  stops:
+    - offset: 0
+      color:
+        kind: rgb
+        value: "#05050F"
+      opacity: 0.6
+    - offset: 0.4
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: bioluminescent-waves
+    altText: Bioluminescent Waves
+    fit: cover
+  - id: text1
+    type: text
+    name: PHOSPHORESCENCE
+    frame:
+      x: 115.19
+      y: 176.88
+      width: 239.22
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: PHOSPHORESCENCE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#4A7A8C"
+              letterSpacingPt: 2.688
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Chapter I
+    frame:
+      x: 392.75
+      y: 174
+      width: 82.18
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: Chapter I
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A7A8C"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: Example Deck
+    frame:
+      x: 115.19
+      y: 232.39
+      width: 864.05
+      height: 139.27
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 62.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D0E8F0"
+              letterSpacingPt: -0.624
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 394.05
+      width: 288
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D0E8F0"
+    opacity: 0.4
+  - id: text4
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 115.19
+      y: 427.44
+      width: 640
+      height: 140
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#D0E8F0"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.85
+  - id: text5
+    type: text
+    name: acme.co
+    frame:
+      x: 1720.36
+      y: 54
+      width: 84.5
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D0E8F0"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text6
+    type: text
+    name: After Dark
+    frame:
+      x: 1734.41
+      y: 88.19
+      width: 73.44
+      height: 48.03
+    body:
+      paragraphs:
+        - runs:
+            - text: After Dark
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A7A8C"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+assets:
+  bioluminescent-waves:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/bioluminescent-waves.png

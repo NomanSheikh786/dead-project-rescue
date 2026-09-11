@@ -1,0 +1,240 @@
+openapi: 3.1.0
+info:
+  # Do not change the title, if the title changes, the import paths will be broken
+  title: Api
+  version: 0.1.0
+  description: API specification
+servers:
+  - url: /api
+    description: Base API path
+tags:
+  - name: health
+    description: Health operations
+  - name: analysis
+    description: Repository analysis operations
+paths:
+  /healthz:
+    get:
+      operationId: healthCheck
+      tags: [health]
+      summary: Health check
+      description: Returns server health status
+      responses:
+        "200":
+          description: Healthy
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/HealthStatus"
+  /analysis:
+    post:
+      operationId: analyzeRepository
+      tags: [analysis]
+      summary: Analyze a public GitHub repository
+      description: Inspects repository metadata and package manifests without executing repository code.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AnalysisInput"
+      responses:
+        "200":
+          description: Repository analysis report
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AnalysisReport"
+        "400":
+          description: Invalid repository URL
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "404":
+          description: Repository or manifest not found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "502":
+          description: Upstream GitHub or npm registry failure
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+components:
+  schemas:
+    HealthStatus:
+      type: object
+      properties:
+        status:
+          type: string
+      required:
+        - status
+    AnalysisInput:
+      type: object
+      properties:
+        repositoryUrl:
+          type: string
+          format: uri
+          minLength: 1
+      required:
+        - repositoryUrl
+    RepositorySummary:
+      type: object
+      properties:
+        url:
+          type: string
+        owner:
+          type: string
+        name:
+          type: string
+        defaultBranch:
+          type: string
+        stars:
+          type: integer
+        forks:
+          type: integer
+        openIssues:
+          type: integer
+        lastUpdated:
+          type: string
+        ageYears:
+          type: number
+        license:
+          type: ["string", "null"]
+      required: [url, owner, name, defaultBranch, stars, forks, openIssues, lastUpdated, ageYears, license]
+    StackInfo:
+      type: object
+      properties:
+        runtime:
+          type: string
+        packageManager:
+          type: string
+        frameworks:
+          type: array
+          items:
+            type: string
+        language:
+          type: string
+        currentNode:
+          type: string
+        recommendedNode:
+          type: string
+      required: [runtime, packageManager, frameworks, language, currentNode, recommendedNode]
+    DependencyFinding:
+      type: object
+      properties:
+        name:
+          type: string
+        current:
+          type: string
+        recommended:
+          type: string
+        kind:
+          type: string
+          enum: [dependency, devDependency]
+        risk:
+          type: string
+          enum: [LOW, MEDIUM, HIGH, CRITICAL]
+        action:
+          type: string
+        deprecated:
+          type: boolean
+        reason:
+          type: string
+      required: [name, current, recommended, kind, risk, action, deprecated, reason]
+    ScoreBreakdown:
+      type: object
+      properties:
+        dependencies:
+          type: integer
+        security:
+          type: integer
+        buildHealth:
+          type: integer
+        frameworkFreshness:
+          type: integer
+        nodeCompatibility:
+          type: integer
+      required: [dependencies, security, buildHealth, frameworkFreshness, nodeCompatibility]
+    HealthScore:
+      type: object
+      properties:
+        current:
+          type: integer
+        projected:
+          type: integer
+        breakdown:
+          $ref: "#/components/schemas/ScoreBreakdown"
+      required: [current, projected, breakdown]
+    MigrationStage:
+      type: object
+      properties:
+        name:
+          type: string
+        status:
+          type: string
+          enum: [ready, review, blocked]
+        detail:
+          type: string
+      required: [name, status, detail]
+    ValidationStatus:
+      type: object
+      properties:
+        name:
+          type: string
+        status:
+          type: string
+          enum: [not_run, safe_to_run, blocked]
+        detail:
+          type: string
+      required: [name, status, detail]
+    AnalysisReport:
+      type: object
+      properties:
+        repository:
+          $ref: "#/components/schemas/RepositorySummary"
+        stack:
+          $ref: "#/components/schemas/StackInfo"
+        health:
+          $ref: "#/components/schemas/HealthScore"
+        dependencies:
+          type: array
+          items:
+            $ref: "#/components/schemas/DependencyFinding"
+        counts:
+          type: object
+          properties:
+            outdated:
+              type: integer
+            deprecated:
+              type: integer
+            security:
+              type: integer
+            migrationRisks:
+              type: integer
+          required: [outdated, deprecated, security, migrationRisks]
+        migrationConfidence:
+          type: integer
+        migrationStages:
+          type: array
+          items:
+            $ref: "#/components/schemas/MigrationStage"
+        validations:
+          type: array
+          items:
+            $ref: "#/components/schemas/ValidationStatus"
+        notes:
+          type: array
+          items:
+            type: string
+      required: [repository, stack, health, dependencies, counts, migrationConfidence, migrationStages, validations, notes]
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: string
+      required: [error]
+

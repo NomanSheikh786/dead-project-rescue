@@ -1,0 +1,173 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1152
+      y: -216
+      width: 960
+      height: 960
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2A7B7B"
+      widthPt: 1.5
+    opacity: 0.2
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 131.46
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2A7B7B"
+              letterSpacingPt: 0.72
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Example Deck
+    frame:
+      x: 153.59
+      y: 338.64
+      width: 1612.86
+      height: 149.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Inter
+              sizePt: 67.2
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A2E"
+              letterSpacingPt: -1.344
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 153.59
+      y: 579.89
+      width: 76.8
+      height: 3.23
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2A7B7B"
+  - id: text3
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 268.78
+      y: 529.67
+      width: 1152.05
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A68"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 0
+      y: 972
+      width: 1920
+      height: 108
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2A7B7B"
+  - id: text4
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 153.59
+      y: 1011.59
+      width: 400
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Confidential • 2026
+    frame:
+      x: 1586.67
+      y: 1011.59
+      width: 202
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential • 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8

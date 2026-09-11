@@ -1,0 +1,435 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F4F0E6"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: -192
+      y: -162
+      width: 960
+      height: 960
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#008080"
+    opacity: 0.8
+  - id: shape2
+    type: shape
+    frame:
+      x: 1248
+      y: 204
+      width: 768
+      height: 768
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF6B5B"
+    opacity: 0.8
+  - id: shape3
+    type: shape
+    frame:
+      x: 1248
+      y: 264.02
+      width: 729.59
+      height: 729.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#1A2A3A"
+      widthPt: 3.5
+    opacity: 0.315
+  - id: text1
+    type: text
+    name: CORE
+    frame:
+      x: 147.84
+      y: 216.92
+      width: 299.03
+      height: 105.67
+    body:
+      paragraphs:
+        - runs:
+            - text: CORE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FF6B5B"
+              letterSpacingPt: -0.96
+          lineHeight: 0.9
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text2
+    type: text
+    name: CONCEPT
+    frame:
+      x: 161.27
+      y: 365.7
+      width: 521.91
+      height: 105.67
+    body:
+      paragraphs:
+        - runs:
+            - text: CONCEPT
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#008080"
+              letterSpacingPt: -0.96
+          lineHeight: 0.9
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text3
+    type: text
+    name: ACME.CO
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 167.8
+      height: 38.39
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A2A3A"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text4
+    type: text
+    name: VOL. 1 — 2026
+    frame:
+      x: 1561.8
+      y: 86.39
+      width: 204.66
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: VOL. 1 — 2026
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A2A3A"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: CORE
+    frame:
+      x: 153.59
+      y: 211.17
+      width: 729.66
+      height: 105.67
+    body:
+      paragraphs:
+        - runs:
+            - text: CORE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#1A2A3A"
+              letterSpacingPt: -0.96
+          lineHeight: 0.9
+      overflow: visible
+  - id: text6
+    type: text
+    name: CONCEPT
+    frame:
+      x: 153.59
+      y: 358.03
+      width: 729.66
+      height: 105.67
+    body:
+      paragraphs:
+        - runs:
+            - text: CONCEPT
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#1A2A3A"
+              letterSpacingPt: -0.96
+          lineHeight: 0.9
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 153.59
+      y: 526.5
+      width: 7
+      height: 145.13
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF6B5B"
+  - id: text7
+    type: text
+    name: The risograph technique ...
+    frame:
+      x: 189.39
+      y: 526.5
+      width: 693.86
+      height: 147.13
+    body:
+      paragraphs:
+        - runs:
+            - text: The risograph technique relies on spot colors layered over each other, creating a unique, tactile feel.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A2A3A"
+          lineHeight: 1.4
+      overflow: visible
+  - id: text8
+    type: text
+    name: Our approach brings the ...
+    frame:
+      x: 1036.8
+      y: 232.77
+      width: 729.66
+      height: 163.25
+    body:
+      paragraphs:
+        - runs:
+            - text: "Our approach brings the charm of printmaking into the digital space. We embrace the imperfections: misregistration, overprinting, and high-contrast color palettes."
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A2A3A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: By utilizing a stark bac...
+    frame:
+      x: 1036.8
+      y: 437.2
+      width: 819.85
+      height: 122.94
+    body:
+      paragraphs:
+        - runs:
+            - text: By utilizing a stark background paired with punchy, saturated spot colors like bright teal and vibrant coral, the resulting composition feels lively and unexpected.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A2A3A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: TACTILE TEXTURES
+    frame:
+      x: 1036.8
+      y: 644.52
+      width: 729.66
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: TACTILE TEXTURES
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A2A3A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: SPOT COLORS
+    frame:
+      x: 1036.8
+      y: 700.67
+      width: 729.66
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: SPOT COLORS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A2A3A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: MISREGISTRATION
+    frame:
+      x: 1036.8
+      y: 756.83
+      width: 729.66
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: MISREGISTRATION
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A2A3A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: EXAMPLE COMPANY, INC.
+    frame:
+      x: 153.59
+      y: 959.05
+      width: 307.67
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A2A3A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: 02 // CONTENT
+    frame:
+      x: 1324.94
+      y: 948.25
+      width: 190.49
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 02 // CONTENT
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A2A3A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 1542.98
+      y: 937.45
+      width: 223.42
+      height: 56.16
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A2A3A"
+  - id: text15
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 1542.98
+      y: 937.45
+      width: 236.88
+      height: 58.16
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F4F0E6"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 5.4
+        right: 14.4
+        bottom: 5.4
+        left: 14.4

@@ -1,0 +1,337 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0A0A"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 192
+      y: 108
+      width: 153.59
+      height: 153.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#39FF14"
+      widthPt: 1
+    opacity: 0.3
+  - id: shape2
+    type: shape
+    frame:
+      x: 254.39
+      y: 170.39
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#39FF14"
+    opacity: 0.3
+  - id: shape3
+    type: shape
+    frame:
+      x: -192
+      y: 162
+      width: 2304
+      height: 756
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#39FF14"
+    rotationDeg: -5
+  - id: text1
+    type: text
+    name: JOIN THE WAITLIST // JOI...
+    frame:
+      x: -95.53
+      y: 170
+      width: 1964.11
+      height: 45
+    body:
+      paragraphs:
+        - runs:
+            - text: JOIN THE WAITLIST // JOIN THE WAITLIST // JOIN THE WAITLIST // JOIN THE WAITLIST //
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 900
+              color:
+                kind: rgb
+                value: "#0A0A0A"
+              letterSpacingPt: 2.88
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -5
+    opacity: 0.5
+  - id: text2
+    type: text
+    name: DON'T MISS OUT // DON'T ...
+    frame:
+      x: -95.61
+      y: 871.5
+      width: 2019.35
+      height: 45
+    body:
+      paragraphs:
+        - runs:
+            - text: DON'T MISS OUT // DON'T MISS OUT // DON'T MISS OUT // DON'T MISS OUT // DON'T MISS OUT //
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 900
+              color:
+                kind: rgb
+                value: "#0A0A0A"
+              letterSpacingPt: 2.88
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -5
+    opacity: 0.5
+  - id: text3
+    type: text
+    name: "RELEASE: 03.26.24 @ 10:0..."
+    frame:
+      x: 96
+      y: 998
+      width: 430
+      height: 26.5
+    body:
+      paragraphs:
+        - runs:
+            - text: "RELEASE: 03.26.24 @ 10:00AM EST"
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: "LOCATION: VELO-SNKRS.COM"
+    frame:
+      x: 96
+      y: 1029.4
+      width: 361.53
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "LOCATION: VELO-SNKRS.COM"
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text5
+    type: text
+    name: "04"
+    frame:
+      x: 1790.39
+      y: 997.2
+      width: 35.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: // ACCESS_GRANTED
+    frame:
+      x: 720.89
+      y: 250.03
+      width: 478.21
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: // ACCESS_GRANTED
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 800
+              color:
+                kind: rgb
+                value: "#0A0A0A"
+              letterSpacingPt: 4.32
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: SECURE
+    frame:
+      x: 378.445
+      y: 314.81
+      width: 1163.11
+      height: 370.63
+    body:
+      paragraphs:
+        - runs:
+            - text: SECURE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 115.2
+              weight: 900
+              color:
+                kind: rgb
+                value: "#0A0A0A"
+              letterSpacingPt: -4.608
+          align: center
+          lineHeight: 0.8
+        - runs:
+            - text: YOUR PAIR
+              font:
+                kind: family
+                family: Inter
+              sizePt: 115.2
+              weight: 900
+              color:
+                kind: rgb
+                value: "#0A0A0A"
+              letterSpacingPt: -4.608
+          align: center
+          lineHeight: 0.8
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 582.8
+      y: 748.22
+      width: 354.72
+      height: 81.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0A0A0A"
+    stroke:
+      color:
+        kind: rgb
+        value: "#0A0A0A"
+      widthPt: 1
+  - id: text8
+    type: text
+    name: ENTER RAFFLE
+    frame:
+      x: 572.13
+      y: 748.22
+      width: 376.06
+      height: 81.75
+    body:
+      paragraphs:
+        - runs:
+            - text: ENTER RAFFLE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 900
+              color:
+                kind: rgb
+                value: "#39FF14"
+              letterSpacingPt: 1.152
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: shape5
+    type: shape
+    frame:
+      x: 975.91
+      y: 748.22
+      width: 361.3
+      height: 81.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#0A0A0A"
+      widthPt: 1
+  - id: text9
+    type: text
+    name: VIEW GALLERY
+    frame:
+      x: 975.885
+      y: 748.22
+      width: 361.35
+      height: 81.75
+    body:
+      paragraphs:
+        - runs:
+            - text: VIEW GALLERY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 900
+              color:
+                kind: rgb
+                value: "#0A0A0A"
+              letterSpacingPt: 1.152
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4

@@ -1,0 +1,246 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#1C2541"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 883.2
+      y: 164.97
+      width: 153.59
+      height: 153.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 1
+      opacity: 0.2
+  - id: shape2
+    type: shape
+    frame:
+      x: 912
+      y: 193.77
+      width: 96
+      height: 96
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text1
+    type: text
+    name: Ready for Review
+    frame:
+      x: 631.64
+      y: 383.36
+      width: 656.7
+      height: 117.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Ready for Review
+              font:
+                kind: family
+                family: Inter
+              sizePt: 38.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.768
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: The updated treasury pol...
+    frame:
+      x: 540.38
+      y: 530.94
+      width: 839.27
+      height: 131.56
+    body:
+      paragraphs:
+        - runs:
+            - text: The updated treasury policy draft requires final authorization from the board of directors before implementation in Q4.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+    rotationDeg: 0.02
+  - id: shape3
+    type: shape
+    frame:
+      x: 568.66
+      y: 746.89
+      width: 395.39
+      height: 81.75
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text3
+    type: text
+    name: Acknowledge Receipt
+    frame:
+      x: 556.77
+      y: 746.89
+      width: 419.17
+      height: 81.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Acknowledge Receipt
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1C2541"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: shape4
+    type: shape
+    frame:
+      x: 1002.44
+      y: 746.89
+      width: 348.89
+      height: 81.75
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 1
+      opacity: 0.3
+  - id: text4
+    type: text
+    name: Request Revision
+    frame:
+      x: 991.95
+      y: 746.89
+      width: 369.88
+      height: 81.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Request Revision
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: shape5
+    type: shape
+    frame:
+      x: 0
+      y: 993.61
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text5
+    type: text
+    name: EXAMPLE COMPANY, INC.
+    frame:
+      x: 153.59
+      y: 1025.06
+      width: 217.94
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.16
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text6
+    type: text
+    name: "04"
+    frame:
+      x: 1746.83
+      y: 1025.06
+      width: 23.63
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.16
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5

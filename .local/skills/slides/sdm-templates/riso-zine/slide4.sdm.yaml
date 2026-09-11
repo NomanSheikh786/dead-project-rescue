@@ -1,0 +1,312 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#1A2A3A"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 96
+      y: 54
+      width: 1728
+      height: 972
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF6B5B"
+    opacity: 0.315
+  - id: shape2
+    type: shape
+    frame:
+      x: 134.39
+      y: 32.39
+      width: 1728
+      height: 972
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#008080"
+    opacity: 0.28
+  - id: text1
+    type: text
+    name: LET'S TALK
+    frame:
+      x: 295.89
+      y: 244.3
+      width: 1340.23
+      height: 207.36
+    body:
+      paragraphs:
+        - runs:
+            - text: LET'S TALK
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 115.2
+              weight: 900
+              color:
+                kind: rgb
+                value: "#1A2A3A"
+              letterSpacingPt: -2.88
+          align: center
+          lineHeight: 0.9
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text2
+    type: text
+    name: ACME.CO
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 167.8
+      height: 38.39
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F4F0E6"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text3
+    type: text
+    name: VOL. 1 — 2026
+    frame:
+      x: 1561.8
+      y: 86.39
+      width: 204.66
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: VOL. 1 — 2026
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F4F0E6"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: LET'S TALK
+    frame:
+      x: 289.89
+      y: 232.78
+      width: 1340.23
+      height: 207.36
+    body:
+      paragraphs:
+        - runs:
+            - text: LET'S TALK
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 115.2
+              weight: 900
+              color:
+                kind: rgb
+                value: "#F4F0E6"
+              letterSpacingPt: -2.88
+          align: center
+          lineHeight: 0.9
+      overflow: visible
+  - id: text5
+    type: text
+    name: Ready to bring some tact...
+    frame:
+      x: 479.975
+      y: 483.33
+      width: 960.05
+      height: 121.78
+    body:
+      paragraphs:
+        - runs:
+            - text: Ready to bring some tactical, imperfect beauty to your next big project?
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 23.04
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F4F0E6"
+          align: center
+          lineHeight: 1.3
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape3
+    type: shape
+    frame:
+      x: 756.83
+      y: 683.27
+      width: 437.06
+      height: 109.03
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF6B5B"
+  - id: shape4
+    type: shape
+    frame:
+      x: 741.47
+      y: 667.91
+      width: 437.06
+      height: 109.03
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F4F0E6"
+    stroke:
+      color:
+        kind: rgb
+        value: "#1A2A3A"
+      widthPt: 3.5
+  - id: text6
+    type: text
+    name: HELLO@ACME.CO
+    frame:
+      x: 728.33
+      y: 667.91
+      width: 463.34
+      height: 109.03
+    body:
+      paragraphs:
+        - runs:
+            - text: HELLO@ACME.CO
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 17.28
+              weight: 800
+              color:
+                kind: rgb
+                value: "#1A2A3A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: text7
+    type: text
+    name: EXAMPLE COMPANY, INC.
+    frame:
+      x: 153.59
+      y: 959.05
+      width: 307.67
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F4F0E6"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: 04 // CONTACT
+    frame:
+      x: 1324.94
+      y: 948.25
+      width: 190.49
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 04 // CONTACT
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F4F0E6"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 1542.98
+      y: 937.45
+      width: 223.42
+      height: 56.16
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F4F0E6"
+  - id: text9
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 1542.98
+      y: 937.45
+      width: 236.88
+      height: 58.16
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A2A3A"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 5.4
+        right: 14.4
+        bottom: 5.4
+        left: 14.4

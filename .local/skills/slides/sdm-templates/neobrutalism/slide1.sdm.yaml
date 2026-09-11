@@ -1,0 +1,459 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#E8FF8B"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1234.81
+      y: 114
+      width: 537.59
+      height: 537.59
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 38.4
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape2
+    type: shape
+    frame:
+      x: 1228.81
+      y: 108
+      width: 537.59
+      height: 537.59
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 38.4
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF90E8"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1.5
+  - id: shape3
+    type: shape
+    frame:
+      x: 1310.61
+      y: 725.02
+      width: 230.39
+      height: 230.39
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape4
+    type: shape
+    frame:
+      x: 1305.61
+      y: 720.02
+      width: 230.39
+      height: 230.39
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#90C8FF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1.5
+  - id: shape5
+    type: shape
+    frame:
+      x: 118.19
+      y: 67.8
+      width: 160.19
+      height: 53.5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape6
+    type: shape
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 160.19
+      height: 53.5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1.5
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 160.24
+      height: 53.5
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E8FF8B"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 3.24
+        right: 14.4
+        bottom: 3.24
+        left: 14.4
+  - id: shape7
+    type: shape
+    frame:
+      x: 1712.88
+      y: 74.27
+      width: 94.94
+      height: 40.55
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape8
+    type: shape
+    frame:
+      x: 1709.88
+      y: 71.27
+      width: 94.94
+      height: 40.55
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1.5
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1709.88
+      y: 71.27
+      width: 94.99
+      height: 40.55
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.16
+        right: 11.52
+        bottom: 2.16
+        left: 11.52
+  - id: shape9
+    type: shape
+    frame:
+      x: 118.19
+      y: 344.09
+      width: 246.17
+      height: 43.42
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape10
+    type: shape
+    frame:
+      x: 115.19
+      y: 341.09
+      width: 246.17
+      height: 43.42
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1.5
+  - id: text3
+    type: text
+    name: PRESENTATION TITLE
+    frame:
+      x: 115.19
+      y: 341.09
+      width: 260.99
+      height: 43.42
+    body:
+      paragraphs:
+        - runs:
+            - text: PRESENTATION TITLE
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.16
+        right: 11.52
+        bottom: 2.16
+        left: 11.52
+  - id: text4
+    type: text
+    name: Example
+    frame:
+      x: 115.19
+      y: 406.11
+      width: 1056.05
+      height: 120.27
+    body:
+      paragraphs:
+        - runs:
+            - text: Example
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 67.2
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 0.88
+      overflow: visible
+  - id: text5
+    type: text
+    name: Deck
+    frame:
+      x: 115.19
+      y: 524.38
+      width: 1056.05
+      height: 120.27
+    body:
+      paragraphs:
+        - runs:
+            - text: Deck
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 67.2
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 0.88
+      overflow: visible
+  - id: text6
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 115.19
+      y: 669.64
+      width: 729.64
+      height: 88.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape11
+    type: shape
+    frame:
+      x: 117.19
+      y: 980.81
+      width: 234.22
+      height: 36.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape12
+    type: shape
+    frame:
+      x: 115.19
+      y: 978.81
+      width: 234.22
+      height: 36.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1
+  - id: text7
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 115.19
+      y: 978.81
+      width: 234.27
+      height: 36.39
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 1.62
+        right: 9.6
+        bottom: 1.62
+        left: 9.6
+  - id: shape13
+    type: shape
+    frame:
+      x: 389.8
+      y: 980.81
+      width: 144.05
+      height: 36.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape14
+    type: shape
+    frame:
+      x: 387.8
+      y: 978.81
+      width: 144.05
+      height: 36.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1
+  - id: text8
+    type: text
+    name: Confidential
+    frame:
+      x: 387.8
+      y: 978.81
+      width: 152.75
+      height: 36.39
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 1.62
+        right: 9.6
+        bottom: 1.62
+        left: 9.6

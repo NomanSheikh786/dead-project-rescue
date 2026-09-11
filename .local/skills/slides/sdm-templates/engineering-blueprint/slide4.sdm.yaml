@@ -1,0 +1,591 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0F2537"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 38.39
+      y: 21.59
+      width: 1843.22
+      height: 1036.81
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#7DD3FC"
+      widthPt: 1.5
+  - id: shape2
+    type: shape
+    frame:
+      x: 60.58
+      y: 35.39
+      width: 1798.84
+      height: 1009.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#7DD3FC"
+      widthPt: 0.5
+      opacity: 0.5
+      dash: dash
+  - id: shape3
+    type: shape
+    frame:
+      x: 192
+      y: 108
+      width: 38.39
+      height: 1.08
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7DD3FC"
+  - id: shape4
+    type: shape
+    frame:
+      x: 210.23
+      y: 172.8
+      width: 1.91
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7DD3FC"
+  - id: shape5
+    type: shape
+    frame:
+      x: 1689.61
+      y: 970.92
+      width: 38.39
+      height: 1.08
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7DD3FC"
+  - id: shape6
+    type: shape
+    frame:
+      x: 1707.86
+      y: 868.81
+      width: 1.91
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7DD3FC"
+  - id: text1
+    type: text
+    name: "|"
+    frame:
+      x: 674.32
+      y: 43.19
+      width: 9.27
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "|"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7DD3FC"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 702.73
+      y: 54.2
+      width: 192
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7DD3FC"
+  - id: text2
+    type: text
+    name: FINAL SPEC
+    frame:
+      x: 913.91
+      y: 43.19
+      width: 92.22
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: FINAL SPEC
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7DD3FC"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 1025.27
+      y: 54.2
+      width: 192
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7DD3FC"
+  - id: text3
+    type: text
+    name: "|"
+    frame:
+      x: 1236.46
+      y: 43.19
+      width: 9.27
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "|"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7DD3FC"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: "[ acme.co ]"
+    frame:
+      x: 288
+      y: 216
+      width: 222.77
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "[ acme.co ]"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7DD3FC"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: IMPLEMENTATION PHASE
+    frame:
+      x: 288
+      y: 255.59
+      width: 250.31
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: IMPLEMENTATION PHASE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0F2FE"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text6
+    type: text
+    name: ACTION REQUIRED
+    frame:
+      x: 1454.87
+      y: 216
+      width: 177.13
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: ACTION REQUIRED
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0F2FE"
+              letterSpacingPt: 0.96
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text7
+    type: text
+    name: "PRIORITY: HIGH"
+    frame:
+      x: 1464.9
+      y: 244.42
+      width: 167.1
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "PRIORITY: HIGH"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0F2FE"
+              letterSpacingPt: 0.96
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+    rotationDeg: 0.02
+  - id: text8
+    type: text
+    name: INITIATE BUILD
+    frame:
+      x: 533.47
+      y: 372.05
+      width: 853.06
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: INITIATE BUILD
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.96
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: text9
+    type: text
+    name: The blueprint is finaliz...
+    frame:
+      x: 575.975
+      y: 519.64
+      width: 768.05
+      height: 73.75
+    body:
+      paragraphs:
+        - runs:
+            - text: The blueprint is finalized. Proceed to deployment phase according to the defined specifications.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0F2FE"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+    rotationDeg: 0.02
+  - id: shape9
+    type: shape
+    frame:
+      x: 796.45
+      y: 636.58
+      width: 327.08
+      height: 88.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7DD3FC"
+      opacity: 0.1
+    stroke:
+      color:
+        kind: rgb
+        value: "#7DD3FC"
+      widthPt: 0.5
+  - id: text10
+    type: text
+    name: DEPLOY_SYSTEM
+    frame:
+      x: 843.53
+      y: 666.38
+      width: 197.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: DEPLOY_SYSTEM
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: →
+    frame:
+      x: 1048.835
+      y: 666.38
+      width: 16.13
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: →
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7DD3FC"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape10
+    type: shape
+    frame:
+      x: 288
+      y: 818.38
+      width: 1344
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7DD3FC"
+      opacity: 0.3
+  - id: text12
+    type: text
+    name: "DRAWN BY: Example Compan..."
+    frame:
+      x: 288
+      y: 840.97
+      width: 285.74
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "DRAWN BY: Example Company, Inc."
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0F2FE"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text13
+    type: text
+    name: "DATE: 2026"
+    frame:
+      x: 1001.47
+      y: 840.97
+      width: 92.22
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "DATE: 2026"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0F2FE"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text14
+    type: text
+    name: "SHEET: 04/04"
+    frame:
+      x: 1521.41
+      y: 840.97
+      width: 117.28
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "SHEET: 04/04"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0F2FE"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape11
+    type: shape
+    frame:
+      x: 1555.2
+      y: 950.42
+      width: 288
+      height: 86.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#7DD3FC"
+      widthPt: 0.5
+  - id: shape12
+    type: shape
+    frame:
+      x: 1556.2
+      y: 993.11
+      width: 286
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7DD3FC"
+  - id: text15
+    type: text
+    name: "APPR: _________"
+    frame:
+      x: 1556.2
+      y: 951.42
+      width: 286.05
+      height: 42.69
+    body:
+      paragraphs:
+        - runs:
+            - text: "APPR: _________"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0F2FE"
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 4.8
+  - id: text16
+    type: text
+    name: "SCALE: 1:1"
+    frame:
+      x: 1556.2
+      y: 994.11
+      width: 286.05
+      height: 41.7
+    body:
+      paragraphs:
+        - runs:
+            - text: "SCALE: 1:1"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0F2FE"
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 4.8

@@ -1,0 +1,512 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5EEE4"
+elements:
+  - id: text1
+    type: text
+    name: ☀
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 20.71
+      height: 23.05
+    body:
+      paragraphs:
+        - runs:
+            - text: ☀
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0674A"
+          lineHeight: 1
+      overflow: visible
+  - id: text2
+    type: text
+    name: LA DOLCE VITA
+    frame:
+      x: 155.03
+      y: 64.8
+      width: 153.46
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: LA DOLCE VITA
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#A0674A"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 318.94
+      y: 75.78
+      width: 57.59
+      height: 1.08
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#A0674A"
+    opacity: 0.5
+  - id: text3
+    type: text
+    name: Seasonal Destinations
+    frame:
+      x: 115.19
+      y: 98.64
+      width: 879.6
+      height: 117.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Seasonal Destinations
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+              letterSpacingPt: -0.384
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text4
+    type: text
+    name: Analyzing the flow of tr...
+    frame:
+      x: 1157.56
+      y: 150.45
+      width: 647.25
+      height: 63.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Analyzing the flow of travelers across our most coveted coastal retreats during the peak summer months.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape2
+    type: shape
+    frame:
+      x: 115.19
+      y: 879.91
+      width: 1689.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#A0674A"
+      opacity: 0.3
+  - id: text5
+    type: text
+    name: 85%
+    frame:
+      x: 228.53
+      y: 443.42
+      width: 111.57
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: 85%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape3
+    type: shape
+    frame:
+      x: 115.19
+      y: 537.02
+      width: 307.2
+      height: 321.3
+    geometry:
+      kind: path
+      viewBox:
+        width: 307.2
+        height: 321.3
+      path: M 0 321.3 L 0 9.6 A 9.6 9.6 0 0 1 9.6 0 L 297.6 0 A 9.6 9.6 0 0 1 307.2 9.6 L 307.2 321.3 Z
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C1E0F"
+  - id: text6
+    type: text
+    name: 65%
+    frame:
+      x: 574.2
+      y: 519.03
+      width: 111.43
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: 65%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape4
+    type: shape
+    frame:
+      x: 460.78
+      y: 612.63
+      width: 307.22
+      height: 245.69
+    geometry:
+      kind: path
+      viewBox:
+        width: 307.22
+        height: 245.69
+      path: M 0 245.69 L 0 9.6 A 9.6 9.6 0 0 1 9.6 0 L 297.62 0 A 9.6 9.6 0 0 1 307.22 9.6 L 307.22 245.69 Z
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#A0674A"
+  - id: text7
+    type: text
+    name: 45%
+    frame:
+      x: 920.36
+      y: 594.63
+      width: 111.32
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: 45%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape5
+    type: shape
+    frame:
+      x: 806.39
+      y: 688.22
+      width: 307.2
+      height: 170.09
+    geometry:
+      kind: path
+      viewBox:
+        width: 307.2
+        height: 170.09
+      path: M 0 170.09 L 0 9.6 A 9.6 9.6 0 0 1 9.6 0 L 297.6 0 A 9.6 9.6 0 0 1 307.2 9.6 L 307.2 170.09 Z
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#A0674A"
+      opacity: 0.6
+  - id: text8
+    type: text
+    name: 95%
+    frame:
+      x: 1265.59
+      y: 405.63
+      width: 111.03
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: 95%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 1151.98
+      y: 499.22
+      width: 307.22
+      height: 359.09
+    geometry:
+      kind: path
+      viewBox:
+        width: 307.22
+        height: 359.09
+      path: M 0 359.09 L 0 9.6 A 9.6 9.6 0 0 1 9.6 0 L 297.62 0 A 9.6 9.6 0 0 1 307.22 9.6 L 307.22 359.09 Z
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8DEC8"
+    stroke:
+      color:
+        kind: rgb
+        value: "#A0674A"
+      widthPt: 0.5
+  - id: text9
+    type: text
+    name: 55%
+    frame:
+      x: 1613.47
+      y: 556.83
+      width: 111.52
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: 55%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape7
+    type: shape
+    frame:
+      x: 1497.59
+      y: 650.42
+      width: 307.22
+      height: 207.89
+    geometry:
+      kind: path
+      viewBox:
+        width: 307.22
+        height: 207.89
+      path: M 0 207.89 L 0 9.6 A 9.6 9.6 0 0 1 9.6 0 L 297.62 0 A 9.6 9.6 0 0 1 307.22 9.6 L 307.22 207.89 Z
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C1E0F"
+      opacity: 0.4
+  - id: text10
+    type: text
+    name: Amalfi Coast
+    frame:
+      x: 115.165
+      y: 902.5
+      width: 307.25
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Amalfi Coast
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+              letterSpacingPt: 0.48
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Santorini
+    frame:
+      x: 460.755
+      y: 902.5
+      width: 307.27
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Santorini
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+              letterSpacingPt: 0.48
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Cinque Terre
+    frame:
+      x: 806.365
+      y: 902.5
+      width: 307.25
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Cinque Terre
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+              letterSpacingPt: 0.48
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Mallorca
+    frame:
+      x: 1151.955
+      y: 902.5
+      width: 307.27
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Mallorca
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+              letterSpacingPt: 0.48
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: Corsica
+    frame:
+      x: 1497.565
+      y: 902.5
+      width: 307.27
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Corsica
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+              letterSpacingPt: 0.48
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 1021.69
+      width: 76.99
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: "03"
+    frame:
+      x: 1782.83
+      y: 1021.69
+      width: 24.03
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#A0674A"
+          lineHeight: 1.5
+      overflow: visible

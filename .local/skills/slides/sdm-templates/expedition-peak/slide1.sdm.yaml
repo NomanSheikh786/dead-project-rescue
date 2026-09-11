@@ -1,0 +1,189 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: image
+  assetId: mountain-dramatic
+  fit: cover
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 0
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.9
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.4
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.1
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 96
+      y: 54
+      width: 136.32
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1776.81
+      y: 56.88
+      width: 52.24
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text3
+    type: text
+    name: Example Deck
+    frame:
+      x: 96
+      y: 329.58
+      width: 1728.05
+      height: 155.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 76.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -1.536
+          lineHeight: 1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 96
+      y: 526.36
+      width: 192
+      height: 5.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text4
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 96
+      y: 574.94
+      width: 960.05
+      height: 107.53
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 19.2
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.4
+      overflow: visible
+    opacity: 0.9
+  - id: shape3
+    type: shape
+    frame:
+      x: 96
+      y: 977.48
+      width: 1728
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text5
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 1485.88
+      y: 1000.08
+      width: 358.47
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+assets:
+  mountain-dramatic:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/mountain-dramatic.jpg

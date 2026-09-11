@@ -1,0 +1,281 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#081423"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: arctic-icebergs
+    altText: Arctic Icebergs
+    fit: cover
+    opacity: 0.3
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#081423"
+          opacity: 0.95
+        - offset: 0.6
+          color:
+            kind: rgb
+            value: "#081423"
+          opacity: 0.85
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: text1
+    type: text
+    name: ARCTIC RESEARCH STATION
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 386.09
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: ARCTIC RESEARCH STATION
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+              letterSpacingPt: 1.584
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text2
+    type: text
+    name: RESEARCH METHODOLOGY
+    frame:
+      x: 1449.72
+      y: 86.39
+      width: 355.88
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: RESEARCH METHODOLOGY
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+              letterSpacingPt: 1.584
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: The Science of Cold
+    frame:
+      x: 153.59
+      y: 237.06
+      width: 864.05
+      height: 95.05
+    body:
+      paragraphs:
+        - runs:
+            - text: The Science of Cold
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+              letterSpacingPt: -0.432
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 153.59
+      y: 375.3
+      width: 115.19
+      height: 2.16
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C8DDE8"
+    opacity: 0.6
+  - id: text4
+    type: text
+    name: Our methodology involves...
+    frame:
+      x: 153.59
+      y: 420.64
+      width: 864.05
+      height: 198.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Our methodology involves deep core sampling across multiple glacial sites. We measure isotopic variations to understand historical climate shifts and current acceleration patterns.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 15.36
+              weight: 300
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.9
+  - id: text5
+    type: text
+    name: Deep core isotopic extra...
+    frame:
+      x: 182.39
+      y: 660.39
+      width: 835.25
+      height: 50.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Deep core isotopic extraction protocols
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+          lineHeight: 1.8
+      overflow: visible
+    opacity: 0.8
+  - id: text6
+    type: text
+    name: Satellite topography map...
+    frame:
+      x: 182.39
+      y: 730.36
+      width: 835.25
+      height: 50.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Satellite topography mapping analysis
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+          lineHeight: 1.8
+      overflow: visible
+    opacity: 0.8
+  - id: text7
+    type: text
+    name: Subglacial water pressur...
+    frame:
+      x: 182.39
+      y: 800.33
+      width: 835.25
+      height: 50.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Subglacial water pressure monitoring
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+          lineHeight: 1.8
+      overflow: visible
+    opacity: 0.8
+  - id: text8
+    type: text
+    name: EXPEDITION LOG
+    frame:
+      x: 153.59
+      y: 967.69
+      width: 169.28
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EXPEDITION LOG
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text9
+    type: text
+    name: "02"
+    frame:
+      x: 1742.22
+      y: 967.69
+      width: 28.24
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C8DDE8"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+assets:
+  arctic-icebergs:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/arctic-icebergs.png

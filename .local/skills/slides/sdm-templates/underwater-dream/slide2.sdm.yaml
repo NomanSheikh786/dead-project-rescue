@@ -1,0 +1,292 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A1432"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: underwater-dancer
+    altText: Underwater Dancer
+    fit: cover
+    opacity: 0.5
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 119.36
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#0A1432"
+          opacity: 0.85
+        - offset: 0.6
+          color:
+            kind: rgb
+            value: "#0A1432"
+          opacity: 0.7
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#0A1432"
+          opacity: 0.4
+  - id: text1
+    type: text
+    name: BENEATH THE SURFACE
+    frame:
+      x: 153.59
+      y: 108
+      width: 265.67
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: BENEATH THE SURFACE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#9AA8C8"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 442.56
+      y: 119.02
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#9AA8C8"
+    opacity: 0.7
+  - id: text2
+    type: text
+    name: Discovering New Depths
+    frame:
+      x: 153.59
+      y: 217.42
+      width: 729.66
+      height: 170.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Discovering New Depths
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E4F0"
+              italic: true
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 153.59
+      y: 429.55
+      width: 38.39
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#9AA8C8"
+  - id: text3
+    type: text
+    name: We explore the uncharted...
+    frame:
+      x: 153.59
+      y: 474.73
+      width: 729.66
+      height: 165.94
+    body:
+      paragraphs:
+        - runs:
+            - text: We explore the uncharted territories of design, diving deep into the fluid concepts that shape our reality. By understanding the currents that drive innovation, we create experiences that are both profound and beautiful.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#E8E4F0"
+          lineHeight: 1.8
+      overflow: visible
+    opacity: 0.8
+  - id: text4
+    type: text
+    name: Immersive Experiences
+    frame:
+      x: 1036.8
+      y: 282.22
+      width: 729.66
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Immersive Experiences
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E4F0"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Our approach immerses th...
+    frame:
+      x: 1036.8
+      y: 355.66
+      width: 729.66
+      height: 61.44
+    body:
+      paragraphs:
+        - runs:
+            - text: Our approach immerses the audience, wrapping them in a cohesive aesthetic that feels natural and inevitable, much like the ocean itself.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#E8E4F0"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.7
+  - id: text6
+    type: text
+    name: Fluid Mechanics
+    frame:
+      x: 1036.8
+      y: 460.28
+      width: 729.66
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Fluid Mechanics
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E4F0"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Systems are designed to ...
+    frame:
+      x: 1036.8
+      y: 533.72
+      width: 729.66
+      height: 61.44
+    body:
+      paragraphs:
+        - runs:
+            - text: Systems are designed to adapt and flow, responding gracefully to the changing tides of technology and user needs.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#E8E4F0"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.7
+  - id: text8
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 943.2
+      width: 90.14
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#E8E4F0"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: "02"
+    frame:
+      x: 1745.91
+      y: 943.2
+      width: 26.55
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#9AA8C8"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  underwater-dancer:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/underwater-dancer.png

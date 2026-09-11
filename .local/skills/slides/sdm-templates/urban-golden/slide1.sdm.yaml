@@ -1,0 +1,191 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#111111"
+elements:
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 729.68
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#D4AF37"
+              letterSpacingPt: -0.72
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 140.38
+      width: 76.8
+      height: 5.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+  - id: text2
+    type: text
+    name: Example
+    frame:
+      x: 115.19
+      y: 350.16
+      width: 729.68
+      height: 268.81
+    body:
+      paragraphs:
+        - runs:
+            - text: Example
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 67.2
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -2.688
+          lineHeight: 1
+        - runs:
+            - text: Deck
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 67.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#D4AF37"
+              letterSpacingPt: -2.688
+          lineHeight: 1
+      overflow: visible
+  - id: text3
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 115.19
+      y: 662.16
+      width: 712.37
+      height: 100.28
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text4
+    type: text
+    name: 2026 / CONFIDENTIAL
+    frame:
+      x: 115.19
+      y: 964.81
+      width: 236.75
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 2026 / CONFIDENTIAL
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 631.97
+      y: 964.81
+      width: 290
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 960
+      y: 0
+      width: 960
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: image
+      assetId: city-golden-hour
+      fit: cover
+  - id: shape3
+    type: shape
+    frame:
+      x: 960
+      y: 0
+      width: 960
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#111111"
+        - offset: 0.2
+          color:
+            kind: rgb
+            value: "#111111"
+          opacity: 0
+assets:
+  city-golden-hour:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/city-golden-hour.jpg

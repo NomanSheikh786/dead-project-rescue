@@ -1,0 +1,533 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#D4C4A8"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: desert-mirror
+    altText: Desert Mirror Installation
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 216
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.4
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: text1
+    type: text
+    name: ENVIRONMENTAL IMPACT
+    frame:
+      x: 153.59
+      y: 53.64
+      width: 1612.86
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: ENVIRONMENTAL IMPACT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C4A8"
+              letterSpacingPt: 2.88
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Key Metrics & Data
+    frame:
+      x: 153.59
+      y: 90.36
+      width: 1612.86
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: Key Metrics & Data
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 24
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 153.59
+      y: 270
+      width: 512
+      height: 648
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.5
+  - id: shape2
+    type: shape
+    frame:
+      x: 153.59
+      y: 270
+      width: 512
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: shape3
+    type: shape
+    frame:
+      x: 153.59
+      y: 270
+      width: 1
+      height: 648
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text3
+    type: text
+    name: 84%
+    frame:
+      x: 231.39
+      y: 347.8
+      width: 357.46
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: 84%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 48
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 231.39
+      y: 465.39
+      width: 76.8
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4C4A8"
+  - id: text4
+    type: text
+    name: ALBEDO EFFECT
+    frame:
+      x: 231.39
+      y: 499.78
+      width: 357.46
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: ALBEDO EFFECT
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C4A8"
+              letterSpacingPt: 0.72
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Increase in solar radiat...
+    frame:
+      x: 231.39
+      y: 754.81
+      width: 357.46
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: Increase in solar radiation reflected back into the atmosphere compared to standard desert sand.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: shape8
+    type: shape
+    frame:
+      x: 703.98
+      y: 270
+      width: 512.02
+      height: 648
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.5
+  - id: shape6
+    type: shape
+    frame:
+      x: 703.98
+      y: 270
+      width: 512.02
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: shape7
+    type: shape
+    frame:
+      x: 703.98
+      y: 270
+      width: 1
+      height: 648
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text6
+    type: text
+    name: -12°C
+    frame:
+      x: 781.78
+      y: 347.8
+      width: 357.47
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: -12°C
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 48
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 781.78
+      y: 465.39
+      width: 76.8
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4C4A8"
+  - id: text7
+    type: text
+    name: SURFACE COOLING
+    frame:
+      x: 781.78
+      y: 499.78
+      width: 357.47
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: SURFACE COOLING
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C4A8"
+              letterSpacingPt: 0.72
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Reduction in localized g...
+    frame:
+      x: 781.78
+      y: 754.81
+      width: 357.47
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: Reduction in localized ground temperature underneath the installation structures.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: shape12
+    type: shape
+    frame:
+      x: 1254.39
+      y: 270
+      width: 512
+      height: 648
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.5
+  - id: shape10
+    type: shape
+    frame:
+      x: 1254.39
+      y: 270
+      width: 512
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: shape11
+    type: shape
+    frame:
+      x: 1254.39
+      y: 270
+      width: 1
+      height: 648
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text9
+    type: text
+    name: 1.2M
+    frame:
+      x: 1332.19
+      y: 347.8
+      width: 357.46
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: 1.2M
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 48
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1
+      overflow: visible
+  - id: shape13
+    type: shape
+    frame:
+      x: 1332.19
+      y: 465.39
+      width: 76.8
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4C4A8"
+  - id: text10
+    type: text
+    name: SQ METERS
+    frame:
+      x: 1332.19
+      y: 499.78
+      width: 357.46
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: SQ METERS
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C4A8"
+              letterSpacingPt: 0.72
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Total area covered by th...
+    frame:
+      x: 1332.19
+      y: 754.81
+      width: 357.46
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: Total area covered by the mirage array in the inaugural test site deployment.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text12
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 1013.78
+      width: 75.94
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C4A8"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: "03"
+    frame:
+      x: 1743.44
+      y: 1013.78
+      width: 26.02
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C4A8"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  desert-mirror:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/desert-mirror.png

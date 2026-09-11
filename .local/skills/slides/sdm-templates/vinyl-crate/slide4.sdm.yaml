@@ -1,0 +1,302 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#18130E"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 312
+      y: -108
+      width: 1296
+      height: 1296
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#C4A872"
+      widthPt: 0.5
+      opacity: 0.05
+  - id: shape2
+    type: shape
+    frame:
+      x: 420
+      y: 0
+      width: 1080
+      height: 1080
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#C4A872"
+      widthPt: 0.5
+      opacity: 0.08
+  - id: shape3
+    type: shape
+    frame:
+      x: 528
+      y: 108
+      width: 864
+      height: 864
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#C4A872"
+      widthPt: 0.5
+      opacity: 0.05
+  - id: shape4
+    type: shape
+    frame:
+      x: 636
+      y: 216
+      width: 648
+      height: 648
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#C4A872"
+      widthPt: 1
+      opacity: 0.03
+  - id: shape5
+    type: shape
+    frame:
+      x: 744
+      y: 324
+      width: 432
+      height: 432
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8B3A3A"
+  - id: shape6
+    type: shape
+    frame:
+      x: 153.59
+      y: 99.78
+      width: 57.59
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8B3A3A"
+  - id: text1
+    type: text
+    name: OUTRO
+    frame:
+      x: 249.58
+      y: 86.39
+      width: 81.02
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: OUTRO
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#8B3A3A"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: STEREO
+    frame:
+      x: 1680.05
+      y: 86.39
+      width: 96.41
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: STEREO
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#C4A872"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: Ready to Drop the Needle...
+    frame:
+      x: 156.05
+      y: 340.58
+      width: 1607.89
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: Ready to Drop the Needle?
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F0E6D2"
+              letterSpacingPt: -1.152
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Join us in redefining th...
+    frame:
+      x: 575.975
+      y: 498.97
+      width: 768.05
+      height: 92.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Join us in redefining the tactile experience for the next generation of sound.
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A872"
+              italic: true
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.85
+    rotationDeg: 0.02
+  - id: shape7
+    type: shape
+    frame:
+      x: 730
+      y: 655.91
+      width: 460
+      height: 77.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A872"
+  - id: text5
+    type: text
+    name: GET IN TOUCH
+    frame:
+      x: 730
+      y: 655.91
+      width: 460
+      height: 80
+    body:
+      paragraphs:
+        - runs:
+            - text: GET IN TOUCH
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#18130E"
+              letterSpacingPt: 1.728
+          align: center
+          lineHeight: 1.5
+      verticalAlign: middle
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: text6
+    type: text
+    name: PAGE 04
+    frame:
+      x: 153.59
+      y: 964.81
+      width: 99.72
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: PAGE 04
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A872"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text7
+    type: text
+    name: acme.co
+    frame:
+      x: 1653.55
+      y: 959.05
+      width: 112.91
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#C4A872"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible

@@ -1,0 +1,261 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#2A2520"
+  opacity: 0.4
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: pottery-studio
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 480
+      y: 195.36
+      width: 960
+      height: 689.27
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5F0E8"
+  - id: shape2
+    type: shape
+    frame:
+      x: 921.59
+      y: 281.75
+      width: 76.8
+      height: 76.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B87A5E"
+      widthPt: 0.5
+  - id: shape3
+    type: shape
+    frame:
+      x: 940.8
+      y: 300.95
+      width: 38.39
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87A5E"
+    opacity: 0.8
+  - id: text1
+    type: text
+    name: Join Our Studio
+    frame:
+      x: 696.06
+      y: 401.73
+      width: 527.89
+      height: 170.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Join Our Studio
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2A2520"
+              letterSpacingPt: -0.768
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text2
+    type: text
+    name: Experience the tactile j...
+    frame:
+      x: 575.975
+      y: 518.59
+      width: 768.05
+      height: 73.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Experience the tactile joy of creation. Connect with us to start your journey in clay.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2A2520"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.7
+    rotationDeg: 0.02
+  - id: shape4
+    type: shape
+    frame:
+      x: 750
+      y: 657.14
+      width: 420
+      height: 71.98
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87A5E"
+  - id: text3
+    type: text
+    name: GET IN TOUCH
+    frame:
+      x: 750
+      y: 657.14
+      width: 420
+      height: 73.98
+    body:
+      paragraphs:
+        - runs:
+            - text: GET IN TOUCH
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: text4
+    type: text
+    name: studio@acme.co
+    frame:
+      x: 757.205
+      y: 772.31
+      width: 157.19
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: studio@acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2A2520"
+              letterSpacingPt: 0.432
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text5
+    type: text
+    name: +1 (555) 123-4567
+    frame:
+      x: 966.22
+      y: 772.31
+      width: 202.3
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: +1 (555) 123-4567
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2A2520"
+              letterSpacingPt: 0.432
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text6
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 992.17
+      width: 69.94
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text7
+    type: text
+    name: "04"
+    frame:
+      x: 1786.38
+      y: 992.17
+      width: 21.49
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  pottery-studio:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/pottery-studio.png

@@ -1,0 +1,409 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0C080F"
+elements:
+  - id: text1
+    type: text
+    name: THE ROSTER
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 162.79
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: THE ROSTER
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9B8BB4"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: —
+    frame:
+      x: 297.52
+      y: 86.39
+      width: 15.41
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: —
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: ARTIST DEVELOPMENT
+    frame:
+      x: 341.67
+      y: 86.39
+      width: 310.57
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ARTIST DEVELOPMENT
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9B8BB4"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Vol. I
+    frame:
+      x: 1724.2
+      y: 86.39
+      width: 80.66
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Vol. I
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9B8BB4"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Cultivating the next gen...
+    frame:
+      x: 115.19
+      y: 201.58
+      width: 692.21
+      height: 382.14
+    body:
+      paragraphs:
+        - runs:
+            - text: Cultivating the next generation of sound.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+              letterSpacingPt: -0.432
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 519.11
+      width: 76.8
+      height: 2.16
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A060"
+  - id: text6
+    type: text
+    name: Our approach to A&R focu...
+    frame:
+      x: 115.19
+      y: 564.45
+      width: 692.21
+      height: 131.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Our approach to A&R focuses on long-term career building rather than fleeting viral moments.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9B8BB4"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text7
+    type: text
+    name: "01"
+    frame:
+      x: 940.78
+      y: 349.05
+      width: 31.71
+      height: 118.3
+    body:
+      paragraphs:
+        - runs:
+            - text: "01"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Global Reach
+    frame:
+      x: 1006.83
+      y: 343.66
+      width: 537.64
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: Global Reach
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Connecting local scenes ...
+    frame:
+      x: 1006.83
+      y: 412.06
+      width: 537.64
+      height: 57.28
+    body:
+      paragraphs:
+        - runs:
+            - text: Connecting local scenes to worldwide audiences through strategic partnerships.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9B8BB4"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text10
+    type: text
+    name: "02"
+    frame:
+      x: 940.78
+      y: 526.73
+      width: 31.71
+      height: 118.3
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Creative Freedom
+    frame:
+      x: 1006.83
+      y: 521.34
+      width: 537.64
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: Creative Freedom
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Providing the resources ...
+    frame:
+      x: 1006.83
+      y: 589.75
+      width: 537.64
+      height: 57.28
+    body:
+      paragraphs:
+        - runs:
+            - text: Providing the resources and space for artists to realize their vision without compromise.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9B8BB4"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text13
+    type: text
+    name: "03"
+    frame:
+      x: 940.78
+      y: 704.42
+      width: 31.71
+      height: 118.3
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: Catalog Legacy
+    frame:
+      x: 1006.83
+      y: 699.03
+      width: 537.64
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: Catalog Legacy
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: Building enduring bodies...
+    frame:
+      x: 1006.83
+      y: 767.44
+      width: 537.64
+      height: 57.28
+    body:
+      paragraphs:
+        - runs:
+            - text: Building enduring bodies of work that stand the test of time and shifting trends.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9B8BB4"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text16
+    type: text
+    name: "02"
+    frame:
+      x: 115.19
+      y: 964.81
+      width: 30.93
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9B8BB4"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text17
+    type: text
+    name: acme.co
+    frame:
+      x: 1710.78
+      y: 964.81
+      width: 94.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9B8BB4"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible

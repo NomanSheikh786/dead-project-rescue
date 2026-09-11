@@ -1,0 +1,506 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#050505"
+elements:
+  - id: shape2
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 162
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 161
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#222222"
+  - id: text1
+    type: text
+    name: SCENE_03 / ACME.CO
+    frame:
+      x: 153.59
+      y: 248.39
+      width: 292.99
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: SCENE_03 / ACME.CO
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: TAKE_2026
+    frame:
+      x: 1628.22
+      y: 248.39
+      width: 151.24
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: TAKE_2026
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: PERFORMANCE METRICS
+    frame:
+      x: 153.59
+      y: 320.38
+      width: 1612.86
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "PERFORMANCE "
+              color:
+                kind: rgb
+                value: "#F0F0F0"
+            - text: METRICS
+              color:
+                kind: rgb
+                value: "#444444"
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Space Grotesk
+            sizePt: 28.8
+            weight: 700
+            letterSpacingPt: -0.576
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 153.59
+      y: 442.77
+      width: 1
+      height: 388.84
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#222222"
+  - id: text4
+    type: text
+    name: "REC: 00:01:24:15"
+    frame:
+      x: 192.98
+      y: 442.77
+      width: 447.07
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "REC: 00:01:24:15"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: 84%
+    frame:
+      x: 192.98
+      y: 576.75
+      width: 447.07
+      height: 122.95
+    body:
+      paragraphs:
+        - runs:
+            - text: "84"
+              sizePt: 67.2
+              color:
+                kind: rgb
+                value: "#E0E0E0"
+            - text: "%"
+              sizePt: 38.4
+              color:
+                kind: rgb
+                value: "#444444"
+          lineHeight: 0.9
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Space Grotesk
+            weight: 700
+            letterSpacingPt: -3.36
+      overflow: visible
+  - id: text6
+    type: text
+    name: Increase in scene engage...
+    frame:
+      x: 192.98
+      y: 719.3
+      width: 447.07
+      height: 69.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Increase in scene engagement across all measured cohorts.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 716.8
+      y: 442.77
+      width: 1
+      height: 388.84
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#222222"
+  - id: text7
+    type: text
+    name: "ISO: 800"
+    frame:
+      x: 756.19
+      y: 442.77
+      width: 447.07
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "ISO: 800"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: 2.5x
+    frame:
+      x: 756.19
+      y: 576.75
+      width: 447.07
+      height: 122.95
+    body:
+      paragraphs:
+        - runs:
+            - text: "2.5"
+              sizePt: 67.2
+              color:
+                kind: rgb
+                value: "#E0E0E0"
+            - text: x
+              sizePt: 38.4
+              color:
+                kind: rgb
+                value: "#444444"
+          lineHeight: 0.9
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Space Grotesk
+            weight: 700
+            letterSpacingPt: -3.36
+      overflow: visible
+  - id: text9
+    type: text
+    name: Faster render times for ...
+    frame:
+      x: 756.19
+      y: 719.3
+      width: 447.07
+      height: 69.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Faster render times for complex data pipelines.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 1280
+      y: 442.77
+      width: 1
+      height: 388.84
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#222222"
+  - id: text10
+    type: text
+    name: "FPS: 23.976"
+    frame:
+      x: 1319.39
+      y: 442.77
+      width: 447.07
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "FPS: 23.976"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: 12k
+    frame:
+      x: 1319.39
+      y: 576.75
+      width: 447.07
+      height: 122.95
+    body:
+      paragraphs:
+        - runs:
+            - text: "12"
+              sizePt: 67.2
+              color:
+                kind: rgb
+                value: "#E0E0E0"
+            - text: k
+              sizePt: 38.4
+              color:
+                kind: rgb
+                value: "#444444"
+          lineHeight: 0.9
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Space Grotesk
+            weight: 700
+            letterSpacingPt: -3.36
+      overflow: visible
+  - id: text12
+    type: text
+    name: Frames processed daily w...
+    frame:
+      x: 1319.39
+      y: 719.3
+      width: 447.07
+      height: 69.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Frames processed daily with zero dropped frames.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 0
+      y: 351
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.03
+  - id: shape7
+    type: shape
+    frame:
+      x: 0
+      y: 540
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.03
+  - id: shape8
+    type: shape
+    frame:
+      x: 0
+      y: 729
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.03
+  - id: shape10
+    type: shape
+    frame:
+      x: 0
+      y: 918
+      width: 1920
+      height: 162
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape9
+    type: shape
+    frame:
+      x: 0
+      y: 918
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#222222"
+  - id: text13
+    type: text
+    name: "DIR: EXAMPLE COMPANY, IN..."
+    frame:
+      x: 153.59
+      y: 987.98
+      width: 279.6
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "DIR: EXAMPLE COMPANY, INC."
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#444444"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: "[ CONFIDENTIAL ] | PAGE ..."
+    frame:
+      x: 1486.86
+      y: 987.98
+      width: 279.6
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "[ CONFIDENTIAL ] | PAGE 03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#444444"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible

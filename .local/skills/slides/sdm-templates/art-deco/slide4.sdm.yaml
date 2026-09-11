@@ -1,0 +1,477 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0C0C0C"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 96
+      y: 0
+      width: 1728
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#D4AF37"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape2
+    type: shape
+    frame:
+      x: 96
+      y: 1078
+      width: 1728
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#D4AF37"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape3
+    type: shape
+    frame:
+      x: 96
+      y: 32.39
+      width: 1728
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#D4AF37"
+          opacity: 0.3
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape4
+    type: shape
+    frame:
+      x: 96
+      y: 1046.61
+      width: 1728
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#D4AF37"
+          opacity: 0.3
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape5
+    type: shape
+    frame:
+      x: 96
+      y: 32.39
+      width: 1
+      height: 1015.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#D4AF37"
+          opacity: 0.3
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape6
+    type: shape
+    frame:
+      x: 1823
+      y: 32.39
+      width: 1
+      height: 1015.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#D4AF37"
+          opacity: 0.3
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape7
+    type: shape
+    frame:
+      x: 795.34
+      y: 223.97
+      width: 115.19
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+  - id: text1
+    type: text
+    name: ◆
+    frame:
+      x: 948.895
+      y: 202.88
+      width: 22.21
+      height: 45
+    body:
+      paragraphs:
+        - runs:
+            - text: ◆
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 1009.47
+      y: 223.97
+      width: 115.19
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+  - id: text2
+    type: text
+    name: JOIN THE
+    frame:
+      x: 499.01
+      y: 289.25
+      width: 922
+      height: 213
+    body:
+      paragraphs:
+        - runs:
+            - text: JOIN THE
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 9.6
+          align: center
+          lineHeight: 1.1
+        - runs:
+            - text: AVANT-GARDE
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 9.6
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 844.8
+      y: 543.63
+      width: 230.39
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+  - id: text3
+    type: text
+    name: Step into the future of ...
+    frame:
+      x: 479.975
+      y: 588.81
+      width: 960.05
+      height: 131
+    body:
+      paragraphs:
+        - runs:
+            - text: Step into the future of luxury and precision. Contact our partnership team to schedule a private viewing of our latest collection.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.672
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+  - id: text4
+    type: text
+    name: INQUIRIES
+    frame:
+      x: 636.085
+      y: 739.61
+      width: 254.28
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: INQUIRIES
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+              letterSpacingPt: 1.728
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text5
+    type: text
+    name: hello@example.com
+    frame:
+      x: 633.73
+      y: 776.33
+      width: 259
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@example.com
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.152
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape10
+    type: shape
+    frame:
+      x: 967.14
+      y: 739.61
+      width: 1
+      height: 43.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4AF37"
+      opacity: 0.3
+  - id: text6
+    type: text
+    name: DIRECT
+    frame:
+      x: 1044.915
+      y: 739.61
+      width: 239
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: DIRECT
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+              letterSpacingPt: 1.728
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text7
+    type: text
+    name: +1 (800) 555-0199
+    frame:
+      x: 1022.08
+      y: 776.33
+      width: 284.65
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: +1 (800) 555-0199
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.152
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: THANK YOU
+    frame:
+      x: 149.83
+      y: 981.38
+      width: 132.05
+      height: 25
+    body:
+      paragraphs:
+        - runs:
+            - text: THANK YOU
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+              letterSpacingPt: 2.304
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text9
+    type: text
+    name: "04"
+    frame:
+      x: 1735.37
+      y: 981.38
+      width: 33
+      height: 25
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4AF37"
+              letterSpacingPt: 2.304
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5

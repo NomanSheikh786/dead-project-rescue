@@ -1,0 +1,354 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#D3A052"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1476
+      y: 702
+      width: 540
+      height: 540
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+    opacity: 0.1
+  - id: shape2
+    type: shape
+    frame:
+      x: 1665
+      y: 891
+      width: 162
+      height: 162
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D3A052"
+    opacity: 0.1
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 155.27
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: TRACK 01
+    frame:
+      x: 1644.06
+      y: 86.39
+      width: 129.73
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: TRACK 01
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: THE SOUND OF
+    frame:
+      x: 153.59
+      y: 194.38
+      width: 1612.86
+      height: 174.78
+    body:
+      paragraphs:
+        - runs:
+            - text: THE SOUND OF
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -1.44
+          lineHeight: 0.9
+        - runs:
+            - text: TOMORROW
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -1.44
+          lineHeight: 0.9
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 153.59
+      y: 431.94
+      width: 768
+      height: 4
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text4
+    type: text
+    name: HIGH FIDELITY
+    frame:
+      x: 153.59
+      y: 468.33
+      width: 768.05
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: HIGH FIDELITY
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 17.28
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: We are pushing the bound...
+    frame:
+      x: 153.59
+      y: 541.77
+      width: 768.05
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: We are pushing the boundaries of what is possible in the modern audio landscape. By leveraging analog warmth with digital precision, the results are nothing short of revolutionary.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 998.39
+      y: 431.94
+      width: 768.02
+      height: 4
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text6
+    type: text
+    name: STEREO SCOPE
+    frame:
+      x: 998.39
+      y: 468.33
+      width: 768.07
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: STEREO SCOPE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 17.28
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Our proprietary masterin...
+    frame:
+      x: 998.39
+      y: 541.77
+      width: 768.07
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Our proprietary mastering process ensures every frequency is captured exactly as the artist intended. From the deepest bass to the most shimmering highs.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 153.59
+      y: 710.25
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: shape6
+    type: shape
+    frame:
+      x: 172.8
+      y: 729.45
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D3A052"
+  - id: text8
+    type: text
+    name: 33 ⅓ RPM RECORDING
+    frame:
+      x: 249.58
+      y: 721.77
+      width: 298.1
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 33 ⅓ RPM RECORDING
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 153.59
+      y: 941.22
+      width: 1612.81
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text9
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 153.59
+      y: 964.81
+      width: 300
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: "02"
+    frame:
+      x: 1742.19
+      y: 964.81
+      width: 27.27
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible

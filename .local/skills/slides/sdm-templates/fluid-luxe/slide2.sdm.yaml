@@ -1,0 +1,217 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#08060C"
+elements:
+  - id: text1
+    type: text
+    name: CHAPTER I
+    frame:
+      x: 153.59
+      y: 153.59
+      width: 144.03
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CHAPTER I
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4B896"
+              letterSpacingPt: 3.072
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: THE VISION
+    frame:
+      x: 153.59
+      y: 187.42
+      width: 135.88
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: THE VISION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+              letterSpacingPt: 1.344
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+    rotationDeg: 0.02
+  - id: shape1
+    type: shape
+    frame:
+      x: 998.41
+      y: 169.78
+      width: 768
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4B896"
+    opacity: 0.3
+  - id: text3
+    type: text
+    name: Redefining the
+    frame:
+      x: 153.59
+      y: 293.97
+      width: 729.66
+      height: 161.28
+    body:
+      paragraphs:
+        - runs:
+            - text: Redefining the
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 33.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4B896"
+          lineHeight: 1.2
+        - runs:
+            - text: Modern Aesthetic
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 33.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4B896"
+          lineHeight: 1.2
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 153.59
+      y: 498.44
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4B896"
+    opacity: 0.5
+  - id: text4
+    type: text
+    name: We believe that true lux...
+    frame:
+      x: 1036.8
+      y: 310.16
+      width: 773.44
+      height: 207.42
+    body:
+      paragraphs:
+        - runs:
+            - text: We believe that true luxury lies in the absence of the unnecessary. By stripping away the superfluous, we reveal the essential beauty of form, material, and space. Our approach is rooted in an unwavering commitment to craftsmanship and a deep appreciation for the subtle interplay of light and shadow.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+          lineHeight: 1.8
+      overflow: visible
+    opacity: 0.9
+  - id: text5
+    type: text
+    name: Every detail is consider...
+    frame:
+      x: 1036.8
+      y: 560.77
+      width: 819.85
+      height: 165.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Every detail is considered, every curve is deliberate. The result is an experience that feels both timeless and entirely new, a sanctuary of calm in an otherwise chaotic world. This is the essence of our philosophy, the guiding principle behind everything we create.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+          lineHeight: 1.8
+      overflow: visible
+    opacity: 0.9
+  - id: text6
+    type: text
+    name: ACME.CO
+    frame:
+      x: 153.59
+      y: 995.05
+      width: 80.96
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4B896"
+              letterSpacingPt: 1.008
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: "02"
+    frame:
+      x: 1741.2
+      y: 992.17
+      width: 28.25
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5

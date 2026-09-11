@@ -1,0 +1,308 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#3D4F7C"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 768
+      y: 156
+      width: 384
+      height: 384
+    geometry:
+      kind: preset
+      preset: triangle
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FAF8F5"
+    opacity: 0.15
+  - id: shape2
+    type: shape
+    frame:
+      x: 576
+      y: 348
+      width: 384
+      height: 384
+    geometry:
+      kind: preset
+      preset: triangle
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4786E"
+    rotationDeg: 180
+    opacity: 0.15
+  - id: shape3
+    type: shape
+    frame:
+      x: 960
+      y: 348
+      width: 384
+      height: 384
+    geometry:
+      kind: preset
+      preset: triangle
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0EAE1"
+    rotationDeg: 180
+    opacity: 0.15
+  - id: shape4
+    type: shape
+    frame:
+      x: 768
+      y: 540
+      width: 384
+      height: 384
+    geometry:
+      kind: preset
+      preset: triangle
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B3685F"
+    opacity: 0.15
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 97.32
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FAF8F5"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text2
+    type: text
+    name: NEXT STEPS
+    frame:
+      x: 1634.89
+      y: 87.83
+      width: 140.3
+      height: 53
+    body:
+      paragraphs:
+        - runs:
+            - text: NEXT STEPS
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#C4786E"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 902.41
+      y: 281.39
+      width: 115.19
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4786E"
+  - id: text3
+    type: text
+    name: Unfold the future.
+    frame:
+      x: 358.16
+      y: 337.39
+      width: 1203.66
+      height: 149.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Unfold the future.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 67.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FAF8F5"
+              letterSpacingPt: -2.688
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Reach out to our team to...
+    frame:
+      x: 499.93
+      y: 528.42
+      width: 920.15
+      height: 149.28
+    body:
+      paragraphs:
+        - runs:
+            - text: Reach out to our team to discover how we can transform your complex challenges into elegant, structured solutions.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 15.36
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FAF8F5"
+              letterSpacingPt: 0.154
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.7
+    rotationDeg: 0.02
+  - id: shape6
+    type: shape
+    frame:
+      x: 808.97
+      y: 702.3
+      width: 302.05
+      height: 88.39
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 44.2
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FAF8F5"
+      widthPt: 0.5
+      opacity: 0.4
+  - id: text5
+    type: text
+    name: CONTACT US
+    frame:
+      x: 799.88
+      y: 702.3
+      width: 320.23
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: CONTACT US
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FAF8F5"
+              letterSpacingPt: 1.44
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 14.4
+        right: 38.4
+        bottom: 14.4
+        left: 38.4
+  - id: text6
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 153.59
+      y: 956.89
+      width: 154.26
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FAF8F5"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text7
+    type: text
+    name: +1 (800) 555-0199
+    frame:
+      x: 375.88
+      y: 956.89
+      width: 213.25
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: +1 (800) 555-0199
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FAF8F5"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text8
+    type: text
+    name: "04"
+    frame:
+      x: 1743.73
+      y: 956.89
+      width: 24.72
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FAF8F5"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8

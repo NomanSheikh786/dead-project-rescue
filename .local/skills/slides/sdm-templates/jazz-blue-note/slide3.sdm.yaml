@@ -1,0 +1,650 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F4F0EA"
+elements:
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 96
+      y: 58.41
+      width: 113.21
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1C2A43"
+              letterSpacingPt: -0.288
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Q3 METRICS
+    frame:
+      x: 737.08
+      y: 36.8
+      width: 356.5
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: "Q3 "
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+            - text: METRICS
+              color:
+                kind: rgb
+                value: "#D4A373"
+          lineHeight: 1.5
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Space Grotesk
+            sizePt: 28.8
+            weight: 700
+            letterSpacingPt: -0.576
+      overflow: visible
+  - id: text3
+    type: text
+    name: STEREO / CONFIDENTIAL
+    frame:
+      x: 1582.23
+      y: 65.59
+      width: 241.82
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: STEREO / CONFIDENTIAL
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 1112.41
+      y: 216
+      width: 2
+      height: 702
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1C2A43"
+  - id: text4
+    type: text
+    name: GROWTH TRAJECTORY
+    frame:
+      x: 96
+      y: 216
+      width: 920.46
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: GROWTH TRAJECTORY
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1C2A43"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: 24M
+    frame:
+      x: 172.5
+      y: 693
+      width: 54.33
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 24M
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1C2A43"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Q1
+    frame:
+      x: 185.13
+      y: 889.2
+      width: 27.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q1
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: 36M
+    frame:
+      x: 412.06
+      y: 622
+      width: 54.61
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 36M
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1C2A43"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Q2
+    frame:
+      x: 424.83
+      y: 889.2
+      width: 27.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q2
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: 52M
+    frame:
+      x: 652.22
+      y: 526
+      width: 54.69
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 52M
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1C2A43"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Q3
+    frame:
+      x: 664.53
+      y: 889.2
+      width: 27.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q3
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: 84M
+    frame:
+      x: 891.36
+      y: 336
+      width: 53.83
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 84M
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#D4A373"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Q4
+    frame:
+      x: 904.23
+      y: 889.2
+      width: 27.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q4
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: +250%
+    frame:
+      x: 1210.41
+      y: 248.45
+      width: 613.64
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: +250%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1C2A43"
+              letterSpacingPt: -1.728
+          lineHeight: 1
+      overflow: visible
+  - id: text14
+    type: text
+    name: YEAR OVER YEAR GROWTH
+    frame:
+      x: 1210.41
+      y: 374.45
+      width: 613.64
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: YEAR OVER YEAR GROWTH
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#D4A373"
+              letterSpacingPt: 0.72
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: Our strategic initiative...
+    frame:
+      x: 1210.41
+      y: 460.83
+      width: 650.46
+      height: 174.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Our strategic initiatives have successfully penetrated new markets, driving unprecedented adoption and retention rates across all key demographics.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: 1Market expansion in APA...
+    frame:
+      x: 1210.41
+      y: 698.36
+      width: 711.41
+      height: 48
+    body:
+      paragraphs:
+        - runs:
+            - text: "1"
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1C2A43"
+              letterSpacingPt: 7.2
+            - text: Market expansion in APAC
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.8
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Space Grotesk
+      overflow: visible
+      verticalAlign: middle
+  - id: text17
+    type: text
+    name: 2Product line extension
+    frame:
+      x: 1210.41
+      y: 767.95
+      width: 613.64
+      height: 48
+    body:
+      paragraphs:
+        - runs:
+            - text: "2"
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1C2A43"
+              letterSpacingPt: 7.2
+            - text: Product line extension
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.8
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Space Grotesk
+      overflow: visible
+      verticalAlign: middle
+  - id: text18
+    type: text
+    name: 3Strategic acquisitions
+    frame:
+      x: 1210.41
+      y: 837.55
+      width: 613.64
+      height: 48
+    body:
+      paragraphs:
+        - runs:
+            - text: "3"
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1C2A43"
+              letterSpacingPt: 7.2
+            - text: Strategic acquisitions
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.8
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Space Grotesk
+      overflow: visible
+      verticalAlign: middle
+  - id: text19
+    type: text
+    name: PAGE 03
+    frame:
+      x: 96
+      y: 1011.59
+      width: 99.72
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: PAGE 03
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 1718.47
+      y: 1016.41
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1C2A43"
+  - id: shape3
+    type: shape
+    frame:
+      x: 1747.25
+      y: 1016.41
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1C2A43"
+  - id: shape4
+    type: shape
+    frame:
+      x: 1776.03
+      y: 1016.41
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A373"
+  - id: shape5
+    type: shape
+    frame:
+      x: 1804.81
+      y: 1016.41
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1C2A43"
+  - id: shape6
+    type: shape
+    frame:
+      x: 1056
+      y: -54
+      width: 480
+      height: 480
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4A373"
+      widthPt: 1
+    opacity: 0.3
+  - id: shape7
+    type: shape
+    frame:
+      x: 0
+      y: 160
+      width: 1920
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1C2A43"
+  - id: shape8
+    type: shape
+    frame:
+      x: 139.67
+      y: 737
+      width: 120
+      height: 143
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1C2A43"
+  - id: shape9
+    type: shape
+    frame:
+      x: 379.37
+      y: 666
+      width: 120
+      height: 214
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1C2A43"
+  - id: shape10
+    type: shape
+    frame:
+      x: 619.57
+      y: 570
+      width: 120
+      height: 310
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1C2A43"
+  - id: shape11
+    type: shape
+    frame:
+      x: 858.28
+      y: 380
+      width: 120
+      height: 500
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A373"
+  - id: shape12
+    type: shape
+    frame:
+      x: 96
+      y: 878
+      width: 920.46
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1C2A43"

@@ -1,0 +1,637 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0F1423"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0.0009
+          color:
+            kind: rgb
+            value: "#D4DEEB"
+          opacity: 0.05
+        - offset: 0.0009
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape2
+    type: shape
+    frame:
+      x: 912
+      y: 246
+      width: 480
+      height: 480
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      widthPt: 0.5
+      opacity: 0.4
+      dash: dash
+  - id: shape3
+    type: shape
+    frame:
+      x: 1008
+      y: 342
+      width: 288
+      height: 288
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      widthPt: 0.5
+      opacity: 0.2
+  - id: text1
+    type: text
+    name: "OBSERVATION: ACME.CO / T..."
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 421.73
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "OBSERVATION: ACME.CO / TELEMETRY_DATA"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "EPOCH: 2026 / 03"
+    frame:
+      x: 1632.78
+      y: 64.8
+      width: 172.08
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "EPOCH: 2026 / 03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: SECTOR 3 / METRICS
+    frame:
+      x: 115.19
+      y: 249.55
+      width: 514.61
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: SECTOR 3 / METRICS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+              letterSpacingPt: 2.88
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text4
+    type: text
+    name: SIGNAL STRENGTH
+    frame:
+      x: 115.19
+      y: 299.94
+      width: 514.61
+      height: 190.09
+    body:
+      paragraphs:
+        - runs:
+            - text: SIGNAL STRENGTH
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+              letterSpacingPt: 0.864
+          lineHeight: 1.1
+      overflow: visible
+  - id: text5
+    type: text
+    name: Our sensors indicate a m...
+    frame:
+      x: 115.19
+      y: 533.22
+      width: 514.61
+      height: 179.53
+    body:
+      paragraphs:
+        - runs:
+            - text: Our sensors indicate a massive spike in engagement metrics. The anomaly was detected in Q3 and has maintained a stable high-altitude trajectory since initial contact.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+          lineHeight: 1.7
+      overflow: visible
+    opacity: 0.7
+  - id: shape4
+    type: shape
+    frame:
+      x: 115.19
+      y: 755.94
+      width: 2
+      height: 117.7
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      opacity: 0.3
+  - id: text6
+    type: text
+    name: +428%
+    frame:
+      x: 155.58
+      y: 755.94
+      width: 474.22
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: +428%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: VELOCITY INCREASE
+    frame:
+      x: 155.58
+      y: 847.72
+      width: 474.22
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: VELOCITY INCREASE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: shape5
+    type: shape
+    frame:
+      x: 706.55
+      y: 830.59
+      width: 1098.27
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      opacity: 0.3
+  - id: shape6
+    type: shape
+    frame:
+      x: 706.55
+      y: 291.59
+      width: 1
+      height: 540
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      opacity: 0.3
+  - id: shape8
+    type: shape
+    frame:
+      x: 706.55
+      y: 695.59
+      width: 1098.27
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      opacity: 0.1
+  - id: shape7
+    type: shape
+    frame:
+      x: 706.55
+      y: 695.59
+      width: 1098.27
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      opacity: 0.2
+  - id: shape10
+    type: shape
+    frame:
+      x: 706.55
+      y: 560.59
+      width: 1098.27
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      opacity: 0.1
+  - id: shape9
+    type: shape
+    frame:
+      x: 706.55
+      y: 560.59
+      width: 1098.27
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      opacity: 0.2
+  - id: shape12
+    type: shape
+    frame:
+      x: 706.55
+      y: 425.59
+      width: 1098.27
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      opacity: 0.1
+  - id: shape11
+    type: shape
+    frame:
+      x: 706.55
+      y: 425.59
+      width: 1098.27
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      opacity: 0.2
+  - id: shape13
+    type: shape
+    frame:
+      x: 816.36
+      y: 749.59
+      width: 76.8
+      height: 81
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      opacity: 0.2
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      widthPt: 0.5
+      opacity: 0.5
+  - id: shape14
+    type: shape
+    frame:
+      x: 1036.02
+      y: 695.59
+      width: 76.8
+      height: 135
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      opacity: 0.2
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      widthPt: 0.5
+      opacity: 0.5
+  - id: shape15
+    type: shape
+    frame:
+      x: 1255.67
+      y: 587.59
+      width: 76.8
+      height: 243
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      opacity: 0.4
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      widthPt: 0.5
+      opacity: 0.8
+  - id: shape16
+    type: shape
+    frame:
+      x: 1475.33
+      y: 371.59
+      width: 76.8
+      height: 459
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      opacity: 0.8
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      widthPt: 0.5
+  - id: text8
+    type: text
+    name: T-03
+    frame:
+      x: 827.34
+      y: 851.75
+      width: 40.93
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: T-03
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text9
+    type: text
+    name: T-02
+    frame:
+      x: 1047
+      y: 851.75
+      width: 40.93
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: T-02
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text10
+    type: text
+    name: T-01
+    frame:
+      x: 1266.66
+      y: 851.75
+      width: 40.93
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: T-01
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text11
+    type: text
+    name: T-00
+    frame:
+      x: 1486.31
+      y: 851.75
+      width: 40.93
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: T-00
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: shape17
+    type: shape
+    frame:
+      x: 1478.1
+      y: 353.4
+      width: 38.39
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      widthPt: 0.5
+  - id: shape18
+    type: shape
+    frame:
+      x: 1492.5
+      y: 367.8
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+  - id: text12
+    type: text
+    name: PAGE 03
+    frame:
+      x: 115.19
+      y: 992.17
+      width: 79.84
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: PAGE 03
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text13
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 1417.75
+      y: 992.17
+      width: 387.11
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5

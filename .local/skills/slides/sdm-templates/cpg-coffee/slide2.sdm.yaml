@@ -1,0 +1,515 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#1A1410"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1248
+      y: -108
+      width: 768
+      height: 768
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#F5E6D3"
+      widthPt: 0.5
+      opacity: 0.05
+  - id: text1
+    type: text
+    name: From Bean to Bottle
+    frame:
+      x: 115.19
+      y: 129.58
+      width: 1689.68
+      height: 160.39
+    body:
+      paragraphs:
+        - runs:
+            - text: From Bean to Bottle
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 52.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+              italic: true
+              letterSpacingPt: -1.056
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 115.19
+      y: 309.56
+      width: 115.19
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87333"
+  - id: shape3
+    type: shape
+    frame:
+      x: 211.19
+      y: 673.17
+      width: 1497.63
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5E6D3"
+      opacity: 0.3
+  - id: shape4
+    type: shape
+    frame:
+      x: 268.78
+      y: 546.22
+      width: 115.19
+      height: 115.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1410"
+    stroke:
+      color:
+        kind: rgb
+        value: "#F5E6D3"
+      widthPt: 1
+  - id: text2
+    type: text
+    name: "01"
+    frame:
+      x: 268.755
+      y: 546.22
+      width: 115.24
+      height: 115.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "01"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 600
+              color:
+                kind: rgb
+                value: "#B87333"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text3
+    type: text
+    name: Source
+    frame:
+      x: 246.81
+      y: 693.8
+      width: 159.14
+      height: 65.34
+    body:
+      paragraphs:
+        - runs:
+            - text: Source
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 21.12
+              weight: 500
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+              letterSpacingPt: 0.422
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Single-origin beans from...
+    frame:
+      x: 145.93
+      y: 773.33
+      width: 360.89
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Single-origin beans from Guatemala
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: shape5
+    type: shape
+    frame:
+      x: 691.2
+      y: 546.22
+      width: 115.19
+      height: 115.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1410"
+    stroke:
+      color:
+        kind: rgb
+        value: "#F5E6D3"
+      widthPt: 1
+  - id: text5
+    type: text
+    name: "02"
+    frame:
+      x: 691.175
+      y: 546.22
+      width: 115.24
+      height: 115.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 600
+              color:
+                kind: rgb
+                value: "#B87333"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text6
+    type: text
+    name: Roast
+    frame:
+      x: 682.29
+      y: 693.8
+      width: 133
+      height: 65.34
+    body:
+      paragraphs:
+        - runs:
+            - text: Roast
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 21.12
+              weight: 500
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+              letterSpacingPt: 0.422
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Small-batch artisan roas...
+    frame:
+      x: 600.46
+      y: 773.33
+      width: 296.65
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Small-batch artisan roasting
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: shape6
+    type: shape
+    frame:
+      x: 1113.61
+      y: 546.22
+      width: 115.19
+      height: 115.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1410"
+    stroke:
+      color:
+        kind: rgb
+        value: "#F5E6D3"
+      widthPt: 1
+  - id: text8
+    type: text
+    name: "03"
+    frame:
+      x: 1113.585
+      y: 546.22
+      width: 115.24
+      height: 115.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 600
+              color:
+                kind: rgb
+                value: "#B87333"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text9
+    type: text
+    name: Brew
+    frame:
+      x: 1116.9
+      y: 693.8
+      width: 108.59
+      height: 65.34
+    body:
+      paragraphs:
+        - runs:
+            - text: Brew
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 21.12
+              weight: 500
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+              letterSpacingPt: 0.422
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Cold-brewed for 18 hours
+    frame:
+      x: 1035.65
+      y: 773.33
+      width: 271.13
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Cold-brewed for 18 hours
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: shape7
+    type: shape
+    frame:
+      x: 1536.03
+      y: 546.22
+      width: 115.19
+      height: 115.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1410"
+    stroke:
+      color:
+        kind: rgb
+        value: "#F5E6D3"
+      widthPt: 1
+  - id: text11
+    type: text
+    name: "04"
+    frame:
+      x: 1536.005
+      y: 546.22
+      width: 115.24
+      height: 115.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 600
+              color:
+                kind: rgb
+                value: "#B87333"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text12
+    type: text
+    name: Bottle
+    frame:
+      x: 1519.56
+      y: 693.8
+      width: 148.13
+      height: 65.34
+    body:
+      paragraphs:
+        - runs:
+            - text: Bottle
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 21.12
+              weight: 500
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+              letterSpacingPt: 0.422
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Hand-packed and sealed
+    frame:
+      x: 1474.48
+      y: 773.33
+      width: 238.27
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Hand-packed and sealed
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text14
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 115.19
+      y: 990.73
+      width: 423.74
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.16
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E6D3"
+              letterSpacingPt: 0.816
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text15
+    type: text
+    name: "02"
+    frame:
+      x: 1780.2
+      y: 980.64
+      width: 31.66
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B87333"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: image1
+    type: image
+    frame:
+      x: 1642.81
+      y: 64.8
+      width: 162
+      height: 162
+    assetId: product-coffee
+    altText: Product Reference
+    fit: contain
+    rotationDeg: 5
+    opacity: 0.9
+assets:
+  product-coffee:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/product-coffee.png

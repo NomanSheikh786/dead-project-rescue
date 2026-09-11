@@ -1,0 +1,208 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0A0B"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 0
+      width: 1
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.03
+  - id: shape2
+    type: shape
+    frame:
+      x: 768
+      y: 0
+      width: 1
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.03
+  - id: shape3
+    type: shape
+    frame:
+      x: 153.59
+      y: 73.44
+      width: 11.52
+      height: 11.52
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8B7EC8"
+  - id: text1
+    type: text
+    name: acme.co — 2026
+    frame:
+      x: 184.3
+      y: 64.8
+      width: 156.36
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co — 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#8B7EC8"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: CONFIDENTIAL_REV_A
+    frame:
+      x: 1600.52
+      y: 67.67
+      width: 175.9
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL_REV_A
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Example Deck
+    frame:
+      x: 153.59
+      y: 392.86
+      width: 1612.86
+      height: 128.72
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#EDEDEF"
+              letterSpacingPt: -1.728
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 153.59
+      y: 551.97
+      width: 960.05
+      height: 107.53
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+              letterSpacingPt: -0.192
+          lineHeight: 1.4
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 153.59
+      y: 958.78
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+  - id: text5
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 153.59
+      y: 992.17
+      width: 193.58
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: SLIDE_01
+    frame:
+      x: 1692.67
+      y: 992.17
+      width: 78.21
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: SLIDE_01
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B76"
+          lineHeight: 1.5
+      overflow: visible

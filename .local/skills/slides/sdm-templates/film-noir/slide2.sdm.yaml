@@ -1,0 +1,1312 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0D0D0D"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: -960
+      y: -540
+      width: 3840
+      height: 2160
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 135
+      stops:
+        - offset: 0.35
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.45
+          color:
+            kind: rgb
+            value: "#1A1A1A"
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#2A2A2A"
+        - offset: 0.55
+          color:
+            kind: rgb
+            value: "#1A1A1A"
+        - offset: 0.65
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape2
+    type: shape
+    frame:
+      x: -430.65
+      y: 10.65
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape3
+    type: shape
+    frame:
+      x: -457.8
+      y: 37.79
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape4
+    type: shape
+    frame:
+      x: -484.95
+      y: 64.94
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape5
+    type: shape
+    frame:
+      x: -512.09
+      y: 92.09
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape6
+    type: shape
+    frame:
+      x: -539.24
+      y: 119.23
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape7
+    type: shape
+    frame:
+      x: -566.39
+      y: 146.38
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape8
+    type: shape
+    frame:
+      x: -593.53
+      y: 173.53
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape9
+    type: shape
+    frame:
+      x: -620.68
+      y: 200.67
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape10
+    type: shape
+    frame:
+      x: -647.82
+      y: 227.82
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape11
+    type: shape
+    frame:
+      x: -674.97
+      y: 254.96
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape12
+    type: shape
+    frame:
+      x: -702.12
+      y: 282.11
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape13
+    type: shape
+    frame:
+      x: -729.26
+      y: 309.26
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape14
+    type: shape
+    frame:
+      x: -756.41
+      y: 336.4
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape15
+    type: shape
+    frame:
+      x: -783.56
+      y: 363.55
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape16
+    type: shape
+    frame:
+      x: -810.7
+      y: 390.7
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape17
+    type: shape
+    frame:
+      x: -837.85
+      y: 417.84
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape18
+    type: shape
+    frame:
+      x: -864.99
+      y: 444.99
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape19
+    type: shape
+    frame:
+      x: -892.14
+      y: 472.13
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape20
+    type: shape
+    frame:
+      x: -919.29
+      y: 499.28
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape21
+    type: shape
+    frame:
+      x: -946.43
+      y: 526.43
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape22
+    type: shape
+    frame:
+      x: -973.58
+      y: 553.57
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape23
+    type: shape
+    frame:
+      x: -1000.73
+      y: 580.72
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape24
+    type: shape
+    frame:
+      x: -1027.87
+      y: 607.87
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape25
+    type: shape
+    frame:
+      x: -1055.02
+      y: 635.01
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape26
+    type: shape
+    frame:
+      x: -1082.16
+      y: 662.16
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape27
+    type: shape
+    frame:
+      x: -1109.31
+      y: 689.31
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape28
+    type: shape
+    frame:
+      x: -1136.46
+      y: 716.45
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape29
+    type: shape
+    frame:
+      x: -1163.6
+      y: 743.6
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape30
+    type: shape
+    frame:
+      x: -1190.75
+      y: 770.74
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape31
+    type: shape
+    frame:
+      x: -1217.9
+      y: 797.89
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape32
+    type: shape
+    frame:
+      x: -1245.04
+      y: 825.04
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape33
+    type: shape
+    frame:
+      x: -1272.19
+      y: 852.18
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape34
+    type: shape
+    frame:
+      x: -1299.33
+      y: 879.33
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape35
+    type: shape
+    frame:
+      x: -1326.48
+      y: 906.48
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape36
+    type: shape
+    frame:
+      x: -1353.63
+      y: 933.62
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape37
+    type: shape
+    frame:
+      x: -1380.77
+      y: 960.77
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape38
+    type: shape
+    frame:
+      x: -1407.92
+      y: 987.91
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape39
+    type: shape
+    frame:
+      x: -1435.07
+      y: 1015.06
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape40
+    type: shape
+    frame:
+      x: -1462.21
+      y: 1042.21
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: shape41
+    type: shape
+    frame:
+      x: -1489.36
+      y: 1069.35
+      width: 3840
+      height: 0.01
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.75
+    rotationDeg: 45
+  - id: text1
+    type: text
+    name: SECTION 01 / THE MOTIVE
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 907.46
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: SECTION 01 / THE MOTIVE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C36A"
+              letterSpacingPt: 3.84
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Uncovering the Truth
+    frame:
+      x: 153.59
+      y: 136.78
+      width: 1019.62
+      height: 86.41
+    body:
+      paragraphs:
+        - runs:
+            - text: Uncovering the Truth
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0E0E0"
+              italic: true
+          lineHeight: 1
+      overflow: visible
+  - id: shape42
+    type: shape
+    frame:
+      x: 153.59
+      y: 324
+      width: 3
+      height: 92.13
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4C36A"
+  - id: text3
+    type: text
+    name: The evidence points to a...
+    frame:
+      x: 153.59
+      y: 324
+      width: 862.98
+      height: 94.13
+    body:
+      paragraphs:
+        - runs:
+            - text: The evidence points to a single undeniable conclusion. We must connect the dots before time runs out.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#B0B0B0"
+          lineHeight: 1.6
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 14.4
+  - id: shape43
+    type: shape
+    frame:
+      x: 153.59
+      y: 459.31
+      width: 78.75
+      height: 41.58
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4C36A"
+      widthPt: 0.5
+    opacity: 0.8
+  - id: text4
+    type: text
+    name: EXH-A
+    frame:
+      x: 153.59
+      y: 459.31
+      width: 83.53
+      height: 41.58
+    body:
+      paragraphs:
+        - runs:
+            - text: EXH-A
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C36A"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 4.8
+        bottom: 2.7
+        left: 4.8
+    opacity: 0.8
+  - id: text5
+    type: text
+    name: Initial Findings show a ...
+    frame:
+      x: 261.14
+      y: 459.31
+      width: 660.5
+      height: 71.28
+    body:
+      paragraphs:
+        - runs:
+            - text: Initial Findings show a pattern of irregular activities in the primary sector.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 1.08
+        right: 0
+        bottom: 0
+        left: 0
+  - id: shape44
+    type: shape
+    frame:
+      x: 153.59
+      y: 562.98
+      width: 78.75
+      height: 41.58
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4C36A"
+      widthPt: 0.5
+    opacity: 0.8
+  - id: text6
+    type: text
+    name: EXH-B
+    frame:
+      x: 153.59
+      y: 562.98
+      width: 83.53
+      height: 41.58
+    body:
+      paragraphs:
+        - runs:
+            - text: EXH-B
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C36A"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 4.8
+        bottom: 2.7
+        left: 4.8
+    opacity: 0.8
+  - id: text7
+    type: text
+    name: Witness Testimony corrob...
+    frame:
+      x: 261.14
+      y: 562.98
+      width: 660.5
+      height: 71.28
+    body:
+      paragraphs:
+        - runs:
+            - text: Witness Testimony corroborates the timeline established during the preliminary review.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 1.08
+        right: 0
+        bottom: 0
+        left: 0
+  - id: shape45
+    type: shape
+    frame:
+      x: 153.59
+      y: 666.66
+      width: 78.75
+      height: 41.58
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4C36A"
+      widthPt: 0.5
+    opacity: 0.8
+  - id: text8
+    type: text
+    name: EXH-C
+    frame:
+      x: 153.59
+      y: 666.66
+      width: 83.53
+      height: 41.58
+    body:
+      paragraphs:
+        - runs:
+            - text: EXH-C
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C36A"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 4.8
+        bottom: 2.7
+        left: 4.8
+    opacity: 0.8
+  - id: text9
+    type: text
+    name: Forensic Analysis confir...
+    frame:
+      x: 261.14
+      y: 666.66
+      width: 660.5
+      height: 71.28
+    body:
+      paragraphs:
+        - runs:
+            - text: Forensic Analysis confirms the presence of undocumented variables.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 1.08
+        right: 0
+        bottom: 0
+        left: 0
+  - id: shape46
+    type: shape
+    frame:
+      x: 1094.39
+      y: 324
+      width: 672
+      height: 486
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E6E2D3"
+    rotationDeg: -2
+  - id: shape47
+    type: shape
+    frame:
+      x: 1431.34
+      y: 404.28
+      width: 290
+      height: 75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#8B0000"
+      widthPt: 2.5
+    rotationDeg: 13
+    opacity: 0.7
+  - id: text10
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 1431.34
+      y: 404.28
+      width: 290.05
+      height: 75
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#8B0000"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 5.4
+        right: 9.6
+        bottom: 5.4
+        left: 9.6
+    rotationDeg: 13
+    opacity: 0.7
+  - id: text11
+    type: text
+    name: DEPARTMENT OF RECORDS
+    frame:
+      x: 1145.79
+      y: 388.05
+      width: 218.03
+      height: 25
+    body:
+      paragraphs:
+        - runs:
+            - text: DEPARTMENT OF RECORDS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -2
+  - id: text12
+    type: text
+    name: "DATE: 11/24"
+    frame:
+      x: 1601.4
+      y: 373.77
+      width: 104.49
+      height: 25
+    body:
+      paragraphs:
+        - runs:
+            - text: "DATE: 11/24"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -2
+  - id: text13
+    type: text
+    name: "Subject: Project Overvie..."
+    frame:
+      x: 1148.18
+      y: 440.32
+      width: 557.05
+      height: 43
+    body:
+      paragraphs:
+        - runs:
+            - text: "Subject: Project Overview"
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#222222"
+          lineHeight: 1.8
+      overflow: visible
+    rotationDeg: -2
+  - id: text14
+    type: text
+    name: The following details re...
+    frame:
+      x: 1152.37
+      y: 497.65
+      width: 573.76
+      height: 166
+    body:
+      paragraphs:
+        - runs:
+            - text: The following details represent a comprehensive summary of our recent operations. All personnel are advised to treat this information with the utmost discretion.
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#222222"
+          lineHeight: 1.8
+      overflow: visible
+    rotationDeg: -2
+  - id: shape48
+    type: shape
+    frame:
+      x: 1156.35
+      y: 685.23
+      width: 557
+      height: 19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+    rotationDeg: -2
+    opacity: 0.8
+  - id: shape49
+    type: shape
+    frame:
+      x: 1158.12
+      y: 727.93
+      width: 445
+      height: 19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+    rotationDeg: -2
+    opacity: 0.8
+  - id: shape50
+    type: shape
+    frame:
+      x: 1158.99
+      y: 756.93
+      width: 501
+      height: 19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+    rotationDeg: -2
+    opacity: 0.8
+  - id: text15
+    type: text
+    name: CONFIDENTIAL REPORT
+    frame:
+      x: 153.59
+      y: 1010.89
+      width: 243.5
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL REPORT
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: "02"
+    frame:
+      x: 1742.22
+      y: 1010.89
+      width: 28.24
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C36A"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape51
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 60.64
+      stops:
+        - offset: 0.3
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.9

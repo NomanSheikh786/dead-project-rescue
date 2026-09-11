@@ -1,0 +1,257 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: linearGradient
+  angleDeg: 0
+  stops:
+    - offset: 0
+      color:
+        kind: rgb
+        value: "#19140F"
+      opacity: 0.95
+    - offset: 0.5
+      color:
+        kind: rgb
+        value: "#19140F"
+      opacity: 0.8
+    - offset: 1
+      color:
+        kind: rgb
+        value: "#19140F"
+      opacity: 0.6
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: -48
+      y: -27
+      width: 2016
+      height: 1134
+    assetId: stormy-wheat-field
+    altText: Stormy Wheat Field
+    fit: cover
+  - id: shape3
+    type: shape
+    frame:
+      x: 0
+      y: 540
+      width: 1920
+      height: 280
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#19140F"
+          opacity: 0
+        - offset: 0.3
+          color:
+            kind: rgb
+            value: "#19140F"
+          opacity: 0.5
+        - offset: 0.75
+          color:
+            kind: rgb
+            value: "#19140F"
+          opacity: 0.5
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#19140F"
+          opacity: 0
+  - id: text1
+    type: text
+    name: THE PATH FORWARD
+    frame:
+      x: 807.98
+      y: 247.16
+      width: 304.03
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: THE PATH FORWARD
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#B5A07A"
+              letterSpacingPt: 2.88
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Let's build resilience t...
+    frame:
+      x: 204.91
+      y: 308.34
+      width: 1510.17
+      height: 213.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Let's build resilience together.
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+              letterSpacingPt: -0.48
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 883.2
+      y: 562.72
+      width: 153.59
+      height: 2.16
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B5A07A"
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: Reach out to our strateg...
+    frame:
+      x: 575.975
+      y: 618.88
+      width: 768.05
+      height: 88
+    body:
+      paragraphs:
+        - runs:
+            - text: Reach out to our strategy team to begin adapting your approach for the upcoming market cycles.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#B5A07A"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 829.36
+      y: 769.67
+      width: 261.27
+      height: 63.17
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B5A07A"
+      opacity: 0.1
+    stroke:
+      color:
+        kind: rgb
+        value: "#B5A07A"
+      widthPt: 0.5
+  - id: text4
+    type: text
+    name: CONTACT US
+    frame:
+      x: 829.335
+      y: 769.67
+      width: 261.32
+      height: 63.17
+    body:
+      paragraphs:
+        - runs:
+            - text: CONTACT US
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+              letterSpacingPt: 0.96
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+  - id: text5
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 1013.78
+      width: 73.03
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B5A07A"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text6
+    type: text
+    name: "04"
+    frame:
+      x: 1743.72
+      y: 1013.78
+      width: 24.74
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B5A07A"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+assets:
+  stormy-wheat-field:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/stormy-wheat-field.png

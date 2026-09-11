@@ -1,0 +1,480 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#1A2332"
+elements:
+  - id: text1
+    type: text
+    name: EXPERIMENTAL RESULTS
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 341.4
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: EXPERIMENTAL RESULTS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+              letterSpacingPt: 1.584
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: acme.co
+    frame:
+      x: 1671.17
+      y: 86.39
+      width: 95.24
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.528
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Performance Metrics
+    frame:
+      x: 153.59
+      y: 172.06
+      width: 1612.86
+      height: 90.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Performance Metrics
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.384
+          lineHeight: 1.15
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 281.97
+      width: 76.8
+      height: 5.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A90E2"
+  - id: text4
+    type: text
+    name: The empirical data demon...
+    frame:
+      x: 153.59
+      y: 592.94
+      width: 798.29
+      height: 131
+    body:
+      paragraphs:
+        - runs:
+            - text: The empirical data demonstrates a clear advantage over conventional baseline models. Significant efficiency gains were observed across all three test environments.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 153.59
+      y: 754.33
+      width: 2
+      height: 115.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A90E2"
+  - id: text5
+    type: text
+    name: 87%
+    frame:
+      x: 184.39
+      y: 754.33
+      width: 305.27
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: 87%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 28.8
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text6
+    type: text
+    name: THROUGHPUT INCREASE
+    frame:
+      x: 184.39
+      y: 840.72
+      width: 305.27
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: THROUGHPUT INCREASE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 528
+      y: 754.33
+      width: 2
+      height: 115.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A90E2"
+  - id: text7
+    type: text
+    name: 1.2s
+    frame:
+      x: 558.8
+      y: 754.33
+      width: 305.27
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: 1.2s
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 28.8
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: AVERAGE LATENCY
+    frame:
+      x: 558.8
+      y: 840.72
+      width: 305.27
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: AVERAGE LATENCY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: 45%
+    frame:
+      x: 1039.3
+      y: 622.56
+      width: 55.79
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 45%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1017.59
+      y: 667.92
+      width: 96
+      height: 162
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8E9EBB"
+      opacity: 0.2
+  - id: text10
+    type: text
+    name: Trial 1
+    frame:
+      x: 1039.59
+      y: 840.72
+      width: 61.97
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: Trial 1
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: 62%
+    frame:
+      x: 1346.7
+      y: 546.97
+      width: 55.41
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 62%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 1324.81
+      y: 592.33
+      width: 96
+      height: 237.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8E9EBB"
+      opacity: 0.4
+  - id: text12
+    type: text
+    name: Trial 2
+    frame:
+      x: 1344.86
+      y: 840.72
+      width: 66.63
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: Trial 2
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: 91%
+    frame:
+      x: 1656.2
+      y: 406.56
+      width: 54.66
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 91%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 1632.02
+      y: 451.92
+      width: 96
+      height: 378
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A90E2"
+  - id: text14
+    type: text
+    name: Trial 3
+    frame:
+      x: 1652
+      y: 840.72
+      width: 66.79
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: Trial 3
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 153.59
+      y: 934.3
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8E9EBB"
+      opacity: 0.2
+  - id: text15
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 153.59
+      y: 967.69
+      width: 209.43
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: Page 3
+    frame:
+      x: 1704.31
+      y: 967.69
+      width: 65.87
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Page 3
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible

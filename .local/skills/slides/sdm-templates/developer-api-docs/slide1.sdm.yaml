@@ -1,0 +1,885 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#1A1B26"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 421.39
+      y: 0
+      width: 1
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+  - id: shape2
+    type: shape
+    frame:
+      x: 57.59
+      y: 56.88
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7AA2F7"
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 105.58
+      y: 54
+      width: 95.83
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: GETTING STARTED
+    frame:
+      x: 57.59
+      y: 153.36
+      width: 306.25
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: GETTING STARTED
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#565F89"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Authentication
+    frame:
+      x: 57.59
+      y: 200.88
+      width: 306.25
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Authentication
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C0CAF5"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text4
+    type: text
+    name: Pagination
+    frame:
+      x: 57.59
+      y: 245.86
+      width: 306.25
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Pagination
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C0CAF5"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text5
+    type: text
+    name: Errors
+    frame:
+      x: 57.59
+      y: 290.84
+      width: 306.25
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Errors
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C0CAF5"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text6
+    type: text
+    name: RESOURCES
+    frame:
+      x: 57.59
+      y: 362.83
+      width: 306.25
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: RESOURCES
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#565F89"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Example Deck
+    frame:
+      x: 57.59
+      y: 410.34
+      width: 306.25
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#7AA2F7"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Users
+    frame:
+      x: 57.59
+      y: 455.33
+      width: 306.25
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Users
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C0CAF5"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text9
+    type: text
+    name: Workspaces
+    frame:
+      x: 57.59
+      y: 500.31
+      width: 306.25
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Workspaces
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C0CAF5"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text10
+    type: text
+    name: v2.0.0 • 2026
+    frame:
+      x: 57.59
+      y: 1002.97
+      width: 306.25
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: v2.0.0 • 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#565F89"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: API REFERENCE
+    frame:
+      x: 537.58
+      y: 86.39
+      width: 1267.28
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: API REFERENCE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#7AA2F7"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Example Deck
+    frame:
+      x: 537.58
+      y: 136.78
+      width: 1267.28
+      height: 129.61
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Inter
+              sizePt: 43.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 537.58
+      y: 287.98
+      width: 768.05
+      height: 88
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9AA5CE"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 537.58
+      y: 438.78
+      width: 380.5
+      height: 79.75
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#9ECE6A"
+      opacity: 0.1
+    stroke:
+      color:
+        kind: rgb
+        value: "#9ECE6A"
+      widthPt: 0.5
+      opacity: 0.2
+  - id: text14
+    type: text
+    name: GET
+    frame:
+      x: 576.97
+      y: 462.81
+      width: 43.05
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: GET
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 700
+              color:
+                kind: rgb
+                value: "#9ECE6A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: /api/v2/resources
+    frame:
+      x: 643.77
+      y: 461.38
+      width: 234.97
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: /api/v2/resources
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 537.58
+      y: 607.08
+      width: 595.22
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text16
+    type: text
+    name: Request Example
+    frame:
+      x: 537.58
+      y: 561.72
+      width: 595.27
+      height: 46.36
+    body:
+      paragraphs:
+        - runs:
+            - text: Request Example
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 5.4
+        left: 0
+  - id: shape5
+    type: shape
+    frame:
+      x: 537.58
+      y: 640.47
+      width: 595.22
+      height: 148.16
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#16161E"
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.05
+  - id: text17
+    type: text
+    name: curl -X GET \
+    frame:
+      x: 576.97
+      y: 668.47
+      width: 516.49
+      height: 30.72
+    body:
+      paragraphs:
+        - runs:
+            - text: "curl "
+              color:
+                kind: rgb
+                value: "#7AA2F7"
+            - text: -X GET
+              color:
+                kind: rgb
+                value: "#C0CAF5"
+            - text: " \\"
+              color:
+                kind: rgb
+                value: "#7AA2F7"
+          lineHeight: 1.6
+          defaultRunStyle:
+            font:
+              kind: family
+              family: DM Mono
+            sizePt: 9.6
+            weight: 400
+      overflow: visible
+  - id: text18
+    type: text
+    name: '"https://api.acme.co/v2/...'
+    frame:
+      x: 576.97
+      y: 699.19
+      width: 516.49
+      height: 30.72
+    body:
+      paragraphs:
+        - runs:
+            - text: '"https://api.acme.co/v2/resources" '
+              color:
+                kind: rgb
+                value: "#E0AF68"
+            - text: \
+              color:
+                kind: rgb
+                value: "#C0CAF5"
+          lineHeight: 1.6
+          defaultRunStyle:
+            font:
+              kind: family
+              family: DM Mono
+            sizePt: 9.6
+            weight: 400
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 19.2
+  - id: text19
+    type: text
+    name: '-H "Authorization: Beare...'
+    frame:
+      x: 576.97
+      y: 729.91
+      width: 516.49
+      height: 30.72
+    body:
+      paragraphs:
+        - runs:
+            - text: "-H "
+              color:
+                kind: rgb
+                value: "#C0CAF5"
+            - text: '"Authorization: Bearer YOUR_API_KEY"'
+              color:
+                kind: rgb
+                value: "#9ECE6A"
+          lineHeight: 1.6
+          defaultRunStyle:
+            font:
+              kind: family
+              family: DM Mono
+            sizePt: 9.6
+            weight: 400
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 19.2
+  - id: shape6
+    type: shape
+    frame:
+      x: 1209.59
+      y: 607.08
+      width: 595.22
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text20
+    type: text
+    name: Response
+    frame:
+      x: 1209.59
+      y: 561.72
+      width: 116.41
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Response
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 1721.55
+      y: 573.23
+      width: 11.52
+      height: 11.52
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#9ECE6A"
+  - id: text21
+    type: text
+    name: 200 OK
+    frame:
+      x: 1742.66
+      y: 566.03
+      width: 65.94
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: 200 OK
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9ECE6A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 1209.59
+      y: 640.47
+      width: 595.22
+      height: 240.31
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#16161E"
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.05
+  - id: text22
+    type: text
+    name: "{"
+    frame:
+      x: 1248.98
+      y: 668.47
+      width: 516.49
+      height: 30.72
+    body:
+      paragraphs:
+        - runs:
+            - text: "{"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C0CAF5"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text23
+    type: text
+    name: '"id": "res_12345",'
+    frame:
+      x: 1248.98
+      y: 699.19
+      width: 516.49
+      height: 30.72
+    body:
+      paragraphs:
+        - runs:
+            - text: '"id"'
+              color:
+                kind: rgb
+                value: "#7AA2F7"
+            - text: ": "
+              color:
+                kind: rgb
+                value: "#C0CAF5"
+            - text: '"res_12345"'
+              color:
+                kind: rgb
+                value: "#E0AF68"
+            - text: ","
+              color:
+                kind: rgb
+                value: "#C0CAF5"
+          lineHeight: 1.6
+          defaultRunStyle:
+            font:
+              kind: family
+              family: DM Mono
+            sizePt: 9.6
+            weight: 400
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 19.2
+  - id: text24
+    type: text
+    name: '"object": "resource",'
+    frame:
+      x: 1248.98
+      y: 729.91
+      width: 516.49
+      height: 30.72
+    body:
+      paragraphs:
+        - runs:
+            - text: '"object"'
+              color:
+                kind: rgb
+                value: "#7AA2F7"
+            - text: ": "
+              color:
+                kind: rgb
+                value: "#C0CAF5"
+            - text: '"resource"'
+              color:
+                kind: rgb
+                value: "#E0AF68"
+            - text: ","
+              color:
+                kind: rgb
+                value: "#C0CAF5"
+          lineHeight: 1.6
+          defaultRunStyle:
+            font:
+              kind: family
+              family: DM Mono
+            sizePt: 9.6
+            weight: 400
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 19.2
+  - id: text25
+    type: text
+    name: '"created_at": 1689345200...'
+    frame:
+      x: 1248.98
+      y: 760.63
+      width: 516.49
+      height: 30.72
+    body:
+      paragraphs:
+        - runs:
+            - text: '"created_at"'
+              color:
+                kind: rgb
+                value: "#7AA2F7"
+            - text: ": "
+              color:
+                kind: rgb
+                value: "#C0CAF5"
+            - text: "1689345200"
+              color:
+                kind: rgb
+                value: "#FF9E64"
+            - text: ","
+              color:
+                kind: rgb
+                value: "#C0CAF5"
+          lineHeight: 1.6
+          defaultRunStyle:
+            font:
+              kind: family
+              family: DM Mono
+            sizePt: 9.6
+            weight: 400
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 19.2
+  - id: text26
+    type: text
+    name: '"status": "active"'
+    frame:
+      x: 1248.98
+      y: 791.34
+      width: 516.49
+      height: 30.72
+    body:
+      paragraphs:
+        - runs:
+            - text: '"status"'
+              color:
+                kind: rgb
+                value: "#7AA2F7"
+            - text: ": "
+              color:
+                kind: rgb
+                value: "#C0CAF5"
+            - text: '"active"'
+              color:
+                kind: rgb
+                value: "#E0AF68"
+          lineHeight: 1.6
+          defaultRunStyle:
+            font:
+              kind: family
+              family: DM Mono
+            sizePt: 9.6
+            weight: 400
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 19.2
+  - id: text27
+    type: text
+    name: "}"
+    frame:
+      x: 1248.98
+      y: 822.06
+      width: 516.49
+      height: 30.72
+    body:
+      paragraphs:
+        - runs:
+            - text: "}"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C0CAF5"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text28
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 1504.86
+      y: 967.69
+      width: 300
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#565F89"
+          align: right
+          lineHeight: 1.5
+      overflow: visible

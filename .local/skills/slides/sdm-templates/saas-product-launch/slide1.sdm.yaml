@@ -1,0 +1,643 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0C0F1A"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1152
+      y: -216
+      width: 960
+      height: 960
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4F7FFF"
+    opacity: 0.028
+  - id: shape2
+    type: shape
+    frame:
+      x: -288
+      y: 252
+      width: 1152
+      height: 1152
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7C6BF0"
+    opacity: 0.028
+  - id: shape3
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0.0009
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.03
+        - offset: 0.0009
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+    opacity: 0.5
+  - id: shape4
+    type: shape
+    frame:
+      x: 96
+      y: 54
+      width: 38.39
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 7.68
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4F7FFF"
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 153.58
+      y: 55.91
+      width: 93.86
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.23
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1776.58
+      y: 54
+      width: 52.47
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text3
+    type: text
+    name: EXAMPLE COMPANY, INC.
+    frame:
+      x: 96
+      y: 1000.08
+      width: 250.35
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: shape5
+    type: shape
+    frame:
+      x: 1536
+      y: 810
+      width: 480
+      height: 162
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#131726"
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.1
+    rotationDeg: -5
+    opacity: 0.8
+  - id: shape6
+    type: shape
+    frame:
+      x: 1574.32
+      y: 865.48
+      width: 38
+      height: 38
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7C6BF0"
+    rotationDeg: -5
+    opacity: 0.8
+  - id: shape7
+    type: shape
+    frame:
+      x: 1631.19
+      y: 863.26
+      width: 192
+      height: 19
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 3.84
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+    rotationDeg: -5
+    opacity: 0.8
+  - id: shape8
+    type: shape
+    frame:
+      x: 1577.01
+      y: 908.96
+      width: 288
+      height: 6
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 3
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+    rotationDeg: -5
+    opacity: 0.8
+  - id: shape9
+    type: shape
+    frame:
+      x: 1579.27
+      y: 933.8
+      width: 230
+      height: 6
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 3
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+    rotationDeg: -5
+    opacity: 0.8
+  - id: shape10
+    type: shape
+    frame:
+      x: 842.08
+      y: 230
+      width: 235.84
+      height: 43.73
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 21.87
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7C6BF0"
+      opacity: 0.15
+    stroke:
+      color:
+        kind: rgb
+        value: "#7C6BF0"
+      widthPt: 0.5
+      opacity: 0.3
+  - id: text4
+    type: text
+    name: 🚀 Introducing v2.0
+    frame:
+      x: 827.48
+      y: 230
+      width: 265.04
+      height: 43.73
+    body:
+      paragraphs:
+        - runs:
+            - text: 🚀 Introducing v2.0
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#7C6BF0"
+              letterSpacingPt: 0.48
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 3.24
+        right: 11.52
+        bottom: 3.24
+        left: 11.52
+  - id: text5
+    type: text
+    name: Example Deck
+    frame:
+      x: 547.635
+      y: 316.92
+      width: 824.74
+      height: 139.27
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Inter
+              sizePt: 62.4
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -1.872
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text6
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 431.975
+      y: 475.78
+      width: 1056.05
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape11
+    type: shape
+    frame:
+      x: 654.19
+      y: 645.27
+      width: 296.59
+      height: 66.94
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4F7FFF"
+  - id: text7
+    type: text
+    name: Get Started Free
+    frame:
+      x: 635.84
+      y: 645.27
+      width: 333.31
+      height: 68.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Get Started Free
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+  - id: shape12
+    type: shape
+    frame:
+      x: 989.17
+      y: 644.27
+      width: 276.63
+      height: 68.94
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.2
+  - id: text8
+    type: text
+    name: Read the Docs
+    frame:
+      x: 980.84
+      y: 644.27
+      width: 293.28
+      height: 68.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Read the Docs
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+  - id: shape13
+    type: shape
+    frame:
+      x: 641.22
+      y: 799.59
+      width: 156.33
+      height: 50.39
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 7.68
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+    opacity: 0.8
+  - id: text9
+    type: text
+    name: ⚡
+    frame:
+      x: 669.995
+      y: 810.39
+      width: 13.53
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ⚡
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.64
+  - id: text10
+    type: text
+    name: API First
+    frame:
+      x: 685.83
+      y: 810.39
+      width: 90.17
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: API First
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.64
+  - id: shape14
+    type: shape
+    frame:
+      x: 826.34
+      y: 799.59
+      width: 208.5
+      height: 50.39
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 7.68
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+    opacity: 0.8
+  - id: text11
+    type: text
+    name: 🟢
+    frame:
+      x: 850.12
+      y: 810.39
+      width: 21.57
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 🟢
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.64
+  - id: text12
+    type: text
+    name: 99.9% Uptime
+    frame:
+      x: 872.33
+      y: 810.39
+      width: 137.64
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 99.9% Uptime
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.64
+  - id: shape15
+    type: shape
+    frame:
+      x: 1063.64
+      y: 799.59
+      width: 215.14
+      height: 50.39
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 7.68
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+    opacity: 0.8
+  - id: text13
+    type: text
+    name: 🛡️
+    frame:
+      x: 1076.92
+      y: 810.39
+      width: 42.57
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 🛡️
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.64
+  - id: text14
+    type: text
+    name: SOC2 Certified
+    frame:
+      x: 1105.09
+      y: 810.39
+      width: 153.36
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: SOC2 Certified
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.64
+    rotationDeg: 0.02

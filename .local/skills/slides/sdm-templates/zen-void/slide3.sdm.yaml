@@ -1,0 +1,412 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FAF8F5"
+elements:
+  - id: text1
+    type: text
+    name: 02. The Metrics
+    frame:
+      x: 192
+      y: 162
+      width: 1536.05
+      height: 102.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 02. The Metrics
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 33.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -0.672
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 192
+      y: 284.39
+      width: 1536
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8A8578"
+    opacity: 0.3
+  - id: text2
+    type: text
+    name: 84%
+    frame:
+      x: 252.05
+      y: 435.63
+      width: 133.35
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: 84%
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 192
+      y: 543.61
+      width: 230.39
+      height: 216
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#EAE6DF"
+  - id: shape3
+    type: shape
+    frame:
+      x: 192
+      y: 578.17
+      width: 230.39
+      height: 181.44
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text3
+    type: text
+    name: RETENTION
+    frame:
+      x: 248.41
+      y: 781.2
+      width: 117.63
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: RETENTION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A8578"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: 62%
+    frame:
+      x: 688.86
+      y: 435.63
+      width: 133.13
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: 62%
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 627.2
+      y: 543.61
+      width: 230.39
+      height: 216
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#EAE6DF"
+  - id: shape5
+    type: shape
+    frame:
+      x: 627.2
+      y: 625.7
+      width: 230.39
+      height: 133.91
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text5
+    type: text
+    name: ENGAGEMENT
+    frame:
+      x: 670.58
+      y: 781.2
+      width: 143.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ENGAGEMENT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A8578"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: 91%
+    frame:
+      x: 1131.38
+      y: 435.63
+      width: 133.5
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: 91%
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 1062.41
+      y: 543.61
+      width: 230.39
+      height: 216
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#EAE6DF"
+  - id: shape7
+    type: shape
+    frame:
+      x: 1062.41
+      y: 563.06
+      width: 230.39
+      height: 196.55
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text7
+    type: text
+    name: ADOPTION
+    frame:
+      x: 1123.42
+      y: 781.2
+      width: 108.41
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ADOPTION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A8578"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: 45%
+    frame:
+      x: 1557.91
+      y: 435.63
+      width: 133.83
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: 45%
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 1497.61
+      y: 543.61
+      width: 230.39
+      height: 216
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#EAE6DF"
+  - id: shape9
+    type: shape
+    frame:
+      x: 1497.61
+      y: 662.42
+      width: 230.39
+      height: 97.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text9
+    type: text
+    name: GROWTH
+    frame:
+      x: 1566.47
+      y: 781.2
+      width: 92.71
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: GROWTH
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A8578"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape10
+    type: shape
+    frame:
+      x: 96
+      y: 986.41
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text10
+    type: text
+    name: "03"
+    frame:
+      x: 143.98
+      y: 989.28
+      width: 25.3
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: acme.co
+    frame:
+      x: 1751.02
+      y: 992.17
+      width: 73.03
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8

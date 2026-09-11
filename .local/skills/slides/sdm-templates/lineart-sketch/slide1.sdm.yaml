@@ -1,0 +1,304 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FEFCF8"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 0
+      width: 3.83
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E54D2E"
+      opacity: 0.4
+  - id: shape2
+    type: shape
+    frame:
+      x: 163.19
+      y: 0
+      width: 1.91
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E54D2E"
+      opacity: 0.2
+  - id: text1
+    type: text
+    name: EXAMPLE COMPANY
+    frame:
+      x: 230.39
+      y: 64.8
+      width: 272.38
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#333333"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1707.77
+      y: 64.8
+      width: 62.68
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E54D2E"
+          lineHeight: 1.5
+      overflow: visible
+  - id: image1
+    type: image
+    frame:
+      x: 916.8
+      y: 124.2
+      width: 950.4
+      height: 831.6
+    assetId: illust-lineart-rocket-nobg
+    altText: Hand-drawn sketch of a rocket launching from a laptop
+    fit: contain
+    rotationDeg: 2
+  - id: text3
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 230.39
+      y: 986.41
+      width: 416.01
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "EXAMPLE COMPANY, INC. / "
+              color:
+                kind: rgb
+                value: "#333333"
+            - text: CONFIDENTIAL
+              color:
+                kind: rgb
+                value: "#E54D2E"
+          lineHeight: 1.5
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Courier New
+            sizePt: 9.6
+            weight: 700
+      overflow: visible
+  - id: text4
+    type: text
+    name: SLIDE_01
+    frame:
+      x: 1676.95
+      y: 986.41
+      width: 95.49
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: SLIDE_01
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 172.8
+      y: 248.41
+      width: 192
+      height: 192
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#E54D2E"
+      widthPt: 2.5
+      opacity: 0.6
+    rotationDeg: -15
+  - id: text5
+    type: text
+    name: Launchpad
+    frame:
+      x: 230.52
+      y: 270
+      width: 1000.69
+      height: 192
+    body:
+      paragraphs:
+        - runs:
+            - text: Launchpad
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 96
+              weight: 800
+              color:
+                kind: rgb
+                value: "#333333"
+              letterSpacingPt: -1.92
+          lineHeight: 1
+      overflow: visible
+    rotationDeg: -1
+  - id: shape4
+    type: shape
+    frame:
+      x: 249.71
+      y: 447.8
+      width: 944
+      height: 9
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E54D2E"
+    rotationDeg: 1
+    opacity: 0.8
+  - id: text6
+    type: text
+    name: "*"
+    frame:
+      x: 1217.83
+      y: 291.49
+      width: 69.05
+      height: 173
+    body:
+      paragraphs:
+        - runs:
+            - text: "*"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E54D2E"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 15
+  - id: text7
+    type: text
+    name: Every great idea starts ...
+    frame:
+      x: 268.78
+      y: 526.64
+      width: 779.06
+      height: 127
+    body:
+      paragraphs:
+        - runs:
+            - text: Every great idea starts with a sketch.
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 21.12
+              weight: 600
+              color:
+                kind: rgb
+                value: "#444444"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 1
+  - id: shape5
+    type: shape
+    frame:
+      x: 268.94
+      y: 761.33
+      width: 314
+      height: 79
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 39.5
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#E54D2E"
+      widthPt: 1.5
+    rotationDeg: -2
+  - id: text8
+    type: text
+    name: EXPLORE DECK
+    frame:
+      x: 268.94
+      y: 761.33
+      width: 332.89
+      height: 79
+    body:
+      paragraphs:
+        - runs:
+            - text: EXPLORE DECK
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E54D2E"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+    rotationDeg: -2
+assets:
+  illust-lineart-rocket-nobg:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/illust-lineart-rocket-nobg.png

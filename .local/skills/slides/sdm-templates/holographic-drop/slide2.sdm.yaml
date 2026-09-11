@@ -1,0 +1,391 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#05050A"
+elements:
+  - id: text1
+    type: text
+    name: "02"
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 32.52
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#B8A9D4"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 183.05
+      y: 77.25
+      width: 38.39
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8A9D4"
+      opacity: 0.3
+  - id: text2
+    type: text
+    name: THE CONCEPT
+    frame:
+      x: 259.83
+      y: 64.8
+      width: 144.38
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: THE CONCEPT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8A9D4"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text3
+    type: text
+    name: Immersive
+    frame:
+      x: 115.19
+      y: 177.11
+      width: 787.27
+      height: 288
+    body:
+      paragraphs:
+        - runs:
+            - text: Immersive
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.96
+          lineHeight: 1
+        - runs:
+            - text: Digital
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.96
+          lineHeight: 1
+        - runs:
+            - text: Experiences
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.96
+          lineHeight: 1
+      overflow: visible
+  - id: text4
+    type: text
+    name: We are redefining the bo...
+    frame:
+      x: 115.19
+      y: 508.3
+      width: 672.05
+      height: 260
+    body:
+      paragraphs:
+        - runs:
+            - text: We are redefining the boundaries between physical and digital spaces. By blending cutting-edge holographic projection with generative AI, we create environments that respond to human emotion and intent in real-time.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.7
+  - id: shape2
+    type: shape
+    frame:
+      x: 1017.59
+      y: 358.81
+      width: 2
+      height: 108.7
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8A9D4"
+      opacity: 0.2
+  - id: text5
+    type: text
+    name: Sensory Integration
+    frame:
+      x: 1057.98
+      y: 358.81
+      width: 746.88
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Sensory Integration
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Haptic feedback combined...
+    frame:
+      x: 1057.98
+      y: 409.92
+      width: 480.05
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Haptic feedback combined with spatial audio creates a full-body experience.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8A9D4"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape3
+    type: shape
+    frame:
+      x: 1017.59
+      y: 510.7
+      width: 2
+      height: 108.7
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8A9D4"
+      opacity: 0.2
+  - id: text7
+    type: text
+    name: Generative Environments
+    frame:
+      x: 1057.98
+      y: 510.7
+      width: 746.88
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Generative Environments
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Spaces that evolve and a...
+    frame:
+      x: 1057.98
+      y: 561.81
+      width: 480.05
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Spaces that evolve and adapt based on user interactions and biometric data.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8A9D4"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape4
+    type: shape
+    frame:
+      x: 1017.59
+      y: 662.59
+      width: 2
+      height: 108.7
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8A9D4"
+      opacity: 0.2
+  - id: text9
+    type: text
+    name: Seamless Connectivity
+    frame:
+      x: 1057.98
+      y: 662.59
+      width: 746.88
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Seamless Connectivity
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: No headsets required. Th...
+    frame:
+      x: 1057.98
+      y: 713.7
+      width: 480.05
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: No headsets required. The environment itself becomes the interface.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8A9D4"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape5
+    type: shape
+    frame:
+      x: 115.19
+      y: 953.02
+      width: 1689.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8A9D4"
+      opacity: 0.2
+  - id: text11
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 986.41
+      width: 78.82
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: "02"
+    frame:
+      x: 1781
+      y: 986.41
+      width: 26.86
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8A9D4"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7

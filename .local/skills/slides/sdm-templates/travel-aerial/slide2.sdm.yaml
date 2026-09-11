@@ -1,0 +1,350 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0D1117"
+elements:
+  - id: text1
+    type: text
+    name: DESTINATIONS
+    frame:
+      x: 76.8
+      y: 43.19
+      width: 197.5
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: DESTINATIONS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text2
+    type: text
+    name: "02"
+    frame:
+      x: 1811.7
+      y: 43.19
+      width: 35.55
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text3
+    type: text
+    name: ICELAND
+    frame:
+      x: 76.8
+      y: 310.3
+      width: 594.71
+      height: 105.67
+    body:
+      paragraphs:
+        - runs:
+            - text: ICELAND
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 5.76
+          lineHeight: 0.9
+      overflow: visible
+  - id: text4
+    type: text
+    name: 64.1466°N
+    frame:
+      x: 1691.25
+      y: 339.83
+      width: 151.96
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 64.1466°N
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.152
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text5
+    type: text
+    name: Land of fire and ice
+    frame:
+      x: 1611.36
+      y: 379.78
+      width: 231.84
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Land of fire and ice
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: shape1
+    type: shape
+    frame:
+      x: 76.8
+      y: 435.56
+      width: 1766.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text6
+    type: text
+    name: PATAGONIA
+    frame:
+      x: 76.8
+      y: 479.75
+      width: 783.43
+      height: 105.67
+    body:
+      paragraphs:
+        - runs:
+            - text: PATAGONIA
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 5.76
+          lineHeight: 0.9
+      overflow: visible
+  - id: text7
+    type: text
+    name: 48.8566°S
+    frame:
+      x: 1691.25
+      y: 509.28
+      width: 151.96
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 48.8566°S
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.152
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text8
+    type: text
+    name: The end of the world
+    frame:
+      x: 1609.25
+      y: 549.23
+      width: 233.95
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: The end of the world
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: shape2
+    type: shape
+    frame:
+      x: 76.8
+      y: 605.02
+      width: 1766.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text9
+    type: text
+    name: BALI
+    frame:
+      x: 76.8
+      y: 649.2
+      width: 327.92
+      height: 105.67
+    body:
+      paragraphs:
+        - runs:
+            - text: BALI
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 5.76
+          lineHeight: 0.9
+      overflow: visible
+  - id: text10
+    type: text
+    name: 8.3405°S
+    frame:
+      x: 1708.95
+      y: 678.73
+      width: 134.25
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 8.3405°S
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.152
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text11
+    type: text
+    name: Island of the gods
+    frame:
+      x: 1641.1
+      y: 718.69
+      width: 202.11
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Island of the gods
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: shape3
+    type: shape
+    frame:
+      x: 76.8
+      y: 774.47
+      width: 1766.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text12
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 76.8
+      y: 1013.78
+      width: 317.4
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5

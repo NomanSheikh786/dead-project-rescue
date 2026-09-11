@@ -1,0 +1,263 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5EDE0"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1152
+      y: -108
+      width: 864
+      height: 648
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 324
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D2B48C"
+    opacity: 0.6
+  - id: shape2
+    type: shape
+    frame:
+      x: -192
+      y: 186
+      width: 1056
+      height: 1056
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 422.4
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#A0522D"
+    opacity: 0.8
+  - id: shape3
+    type: shape
+    frame:
+      x: 288
+      y: 216
+      width: 230.39
+      height: 230.39
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B85C38"
+    opacity: 0.9
+  - id: shape4
+    type: shape
+    frame:
+      x: 1152
+      y: 810
+      width: 384
+      height: 162
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 81
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D2B48C"
+      opacity: 0.4
+    rotationDeg: -15
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 120.72
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 700
+              color:
+                kind: rgb
+                value: "#8B4513"
+              letterSpacingPt: 0.672
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: STUDIO EDITION
+    frame:
+      x: 1620.5
+      y: 92.14
+      width: 154.72
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: STUDIO EDITION
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#A0522D"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: ARTISANAL COLLECTION
+    frame:
+      x: 757.11
+      y: 356.97
+      width: 913.3
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ARTISANAL COLLECTION
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#A0522D"
+              letterSpacingPt: 3.456
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Example Deck
+    frame:
+      x: 729.48
+      y: 423.92
+      width: 940.93
+      height: 318.39
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 72
+              weight: 600
+              color:
+                kind: rgb
+                value: "#4A2F1D"
+              italic: true
+          align: right
+          lineHeight: 1.1
+      overflow: visible
+  - id: text5
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 806.36
+      y: 625.5
+      width: 864.05
+      height: 100.28
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B4423"
+          align: right
+          lineHeight: 1.6
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape5
+    type: shape
+    frame:
+      x: 153.59
+      y: 954.03
+      width: 112.7
+      height: 39.58
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.79
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B85C38"
+  - id: text6
+    type: text
+    name: "2026"
+    frame:
+      x: 153.59
+      y: 954.03
+      width: 119.52
+      height: 41.58
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 14.4
+        bottom: 2.7
+        left: 14.4
+  - id: text7
+    type: text
+    name: Crafted with care
+    frame:
+      x: 304.69
+      y: 959.42
+      width: 176.06
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: Crafted with care
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8B4513"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible

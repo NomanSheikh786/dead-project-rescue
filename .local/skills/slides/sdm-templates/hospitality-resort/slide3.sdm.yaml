@@ -1,0 +1,313 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#111111"
+elements:
+  - id: text1
+    type: text
+    name: 02 / PERFORMANCE & GROWT...
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 1612.86
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: 02 / PERFORMANCE & GROWTH
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A265"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 131.02
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A265"
+  - id: text2
+    type: text
+    name: Elevating the Global Sta...
+    frame:
+      x: 450.45
+      y: 321.61
+      width: 1019.08
+      height: 170.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Elevating the Global Standard
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D5B8"
+              italic: true
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: 98%
+    frame:
+      x: 339.02
+      y: 514.08
+      width: 217.5
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: "98"
+              sizePt: 57.6
+            - text: "%"
+              sizePt: 28.8
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Georgia
+            weight: 400
+            color:
+              kind: rgb
+              value: "#C4A265"
+            italic: true
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 230.39
+      y: 661.67
+      width: 422.39
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A265"
+      opacity: 0.3
+  - id: text4
+    type: text
+    name: Guest satisfaction rate ...
+    frame:
+      x: 230.365
+      y: 695.06
+      width: 422.44
+      height: 61.44
+    body:
+      paragraphs:
+        - runs:
+            - text: Guest satisfaction rate across all global premium properties.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+  - id: text5
+    type: text
+    name: "12"
+    frame:
+      x: 886.72
+      y: 514.08
+      width: 155.43
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: "12"
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D5B8"
+              italic: true
+          lineHeight: 1
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 748.81
+      y: 661.67
+      width: 422.39
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8D5B8"
+      opacity: 0.2
+  - id: text6
+    type: text
+    name: New luxury destinations ...
+    frame:
+      x: 748.785
+      y: 695.06
+      width: 422.44
+      height: 61.44
+    body:
+      paragraphs:
+        - runs:
+            - text: New luxury destinations scheduled to open by Q4 2026.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+  - id: text7
+    type: text
+    name: 4.5x
+    frame:
+      x: 1367.86
+      y: 514.08
+      width: 234.43
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: "4.5"
+              sizePt: 57.6
+            - text: x
+              sizePt: 28.8
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Georgia
+            weight: 400
+            color:
+              kind: rgb
+              value: "#C4A265"
+            italic: true
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1267.22
+      y: 661.67
+      width: 422.39
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A265"
+      opacity: 0.3
+  - id: text8
+    type: text
+    name: Increase in direct premi...
+    frame:
+      x: 1267.195
+      y: 695.06
+      width: 422.44
+      height: 61.44
+    body:
+      paragraphs:
+        - runs:
+            - text: Increase in direct premium bookings and loyalty signups year-over-year.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+  - id: text9
+    type: text
+    name: ACME.CO
+    frame:
+      x: 153.59
+      y: 967.69
+      width: 93.68
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D5B8"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text10
+    type: text
+    name: "03"
+    frame:
+      x: 1742.22
+      y: 967.69
+      width: 28.24
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D5B8"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6

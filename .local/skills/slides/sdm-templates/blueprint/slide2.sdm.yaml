@@ -1,0 +1,1204 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#1B3A5C"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0.0009
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.05
+        - offset: 0.0009
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape2
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0.0009
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.1
+        - offset: 0.0009
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape3
+    type: shape
+    frame:
+      x: 57.59
+      y: 32.39
+      width: 1804.81
+      height: 1015.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.3
+  - id: shape4
+    type: shape
+    frame:
+      x: 76.8
+      y: 43.19
+      width: 1766.41
+      height: 993.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 1
+      opacity: 0.5
+  - id: text1
+    type: text
+    name: TECHNICAL SPECIFICATIONS
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 1163.34
+      height: 117.19
+    body:
+      paragraphs:
+        - runs:
+            - text: TECHNICAL SPECIFICATIONS
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 38.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E0F2FE"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "DOCUMENT REF: T-SPEC-001"
+    frame:
+      x: 153.59
+      y: 212.38
+      width: 1129.47
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "DOCUMENT REF: T-SPEC-001"
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#BAE6FD"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 1540.55
+      y: 86.49
+      width: 226
+      height: 89
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#EF4444"
+      widthPt: 2.5
+    rotationDeg: 15
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: REV 2.0
+    frame:
+      x: 1540.55
+      y: 86.49
+      width: 254.97
+      height: 89
+    body:
+      paragraphs:
+        - runs:
+            - text: REV 2.0
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 19.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#EF4444"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 5.4
+        right: 9.6
+        bottom: 5.4
+        left: 9.6
+    rotationDeg: 15
+    opacity: 0.8
+  - id: text4
+    type: text
+    name: Max Load
+    frame:
+      x: 153.59
+      y: 270
+      width: 151.43
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: Max Load
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#BAE6FD"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 319.75
+      y: 305.41
+      width: 69.05
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.3
+  - id: text5
+    type: text
+    name: 10,000 concurrent
+    frame:
+      x: 407.98
+      y: 270
+      width: 314.66
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: 10,000 concurrent
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 15.36
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Response Time
+    frame:
+      x: 806.39
+      y: 270
+      width: 240.2
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: Response Time
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#BAE6FD"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 1058.06
+      y: 305.41
+      width: 115.45
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.3
+  - id: text7
+    type: text
+    name: 12ms avg
+    frame:
+      x: 1192.7
+      y: 270
+      width: 151.35
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: 12ms avg
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 15.36
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Bandwidth
+    frame:
+      x: 153.59
+      y: 392.88
+      width: 163.6
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: Bandwidth
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#BAE6FD"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 336.33
+      y: 428.28
+      width: 217.78
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.3
+  - id: text9
+    type: text
+    name: 40Gbps
+    frame:
+      x: 573.3
+      y: 392.88
+      width: 117.96
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: 40Gbps
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 15.36
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Storage
+    frame:
+      x: 806.39
+      y: 392.88
+      width: 130.25
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: Storage
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#BAE6FD"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 945.78
+      y: 428.28
+      width: 319.88
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.3
+  - id: text11
+    type: text
+    name: 2PB
+    frame:
+      x: 1284.84
+      y: 392.88
+      width: 62.76
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: 2PB
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 15.36
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Availability
+    frame:
+      x: 153.59
+      y: 515.75
+      width: 179.5
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: Availability
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#BAE6FD"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape10
+    type: shape
+    frame:
+      x: 340.23
+      y: 551.16
+      width: 214.64
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.3
+  - id: text13
+    type: text
+    name: 99.99%
+    frame:
+      x: 574.06
+      y: 515.75
+      width: 124.22
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: 99.99%
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 15.36
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: Encryption
+    frame:
+      x: 806.39
+      y: 515.75
+      width: 175.97
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: Encryption
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#BAE6FD"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape11
+    type: shape
+    frame:
+      x: 990.5
+      y: 551.16
+      width: 204.67
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.3
+  - id: text15
+    type: text
+    name: AES-256
+    frame:
+      x: 1214.36
+      y: 515.75
+      width: 141.69
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: AES-256
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 15.36
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: Regions
+    frame:
+      x: 153.59
+      y: 638.63
+      width: 121.22
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: Regions
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#BAE6FD"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape12
+    type: shape
+    frame:
+      x: 293.95
+      y: 674.03
+      width: 235.52
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.3
+  - id: text17
+    type: text
+    name: 24 global
+    frame:
+      x: 548.66
+      y: 638.63
+      width: 166.52
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: 24 global
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 15.36
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text18
+    type: text
+    name: Compliance
+    frame:
+      x: 806.39
+      y: 638.63
+      width: 180.88
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: Compliance
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#BAE6FD"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape13
+    type: shape
+    frame:
+      x: 1006.41
+      y: 674.03
+      width: 63.73
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.3
+  - id: text19
+    type: text
+    name: SOC2, ISO27001
+    frame:
+      x: 1089.33
+      y: 638.63
+      width: 262.37
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: SOC2, ISO27001
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 15.36
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape14
+    type: shape
+    frame:
+      x: 153.59
+      y: 802.81
+      width: 115.19
+      height: 115.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.5
+  - id: text20
+    type: text
+    name: N
+    frame:
+      x: 204
+      y: 821.11
+      width: 14.41
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: N
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape15
+    type: shape
+    frame:
+      x: 202.19
+      y: 855.3
+      width: 18
+      height: 38
+    geometry:
+      kind: preset
+      preset: triangle
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: shape16
+    type: shape
+    frame:
+      x: 191.98
+      y: 898.69
+      width: 38.39
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.5
+  - id: shape19
+    type: shape
+    frame:
+      x: 1171.2
+      y: 833.44
+      width: 672
+      height: 203.38
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B3A5C"
+      opacity: 0.9
+  - id: shape17
+    type: shape
+    frame:
+      x: 1171.2
+      y: 833.44
+      width: 672
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.5
+  - id: shape18
+    type: shape
+    frame:
+      x: 1171.2
+      y: 833.44
+      width: 2
+      height: 203.38
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.5
+  - id: shape20
+    type: shape
+    frame:
+      x: 1173.2
+      y: 900.94
+      width: 670
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.5
+  - id: shape21
+    type: shape
+    frame:
+      x: 1842.2
+      y: 835.44
+      width: 1
+      height: 65.5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.5
+  - id: text21
+    type: text
+    name: "PROJECT:"
+    frame:
+      x: 1182.8
+      y: 840.83
+      width: 649.86
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: "PROJECT:"
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#BAE6FD"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text22
+    type: text
+    name: CORE PLATFORM UPGRADE
+    frame:
+      x: 1182.8
+      y: 860.98
+      width: 649.86
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: CORE PLATFORM UPGRADE
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape22
+    type: shape
+    frame:
+      x: 1173.2
+      y: 964.57
+      width: 670
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.5
+  - id: shape23
+    type: shape
+    frame:
+      x: 1612.14
+      y: 901.94
+      width: 1
+      height: 62.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.5
+  - id: text23
+    type: text
+    name: "CLIENT:"
+    frame:
+      x: 1182.8
+      y: 907.33
+      width: 419.8
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: "CLIENT:"
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#BAE6FD"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text24
+    type: text
+    name: EXAMPLE COMPANY, INC.
+    frame:
+      x: 1182.8
+      y: 927.48
+      width: 419.8
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape24
+    type: shape
+    frame:
+      x: 1842.2
+      y: 901.94
+      width: 1
+      height: 62.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.5
+  - id: text25
+    type: text
+    name: "DATE:"
+    frame:
+      x: 1622.73
+      y: 907.33
+      width: 209.93
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: "DATE:"
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#BAE6FD"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text26
+    type: text
+    name: 2025-05-15
+    frame:
+      x: 1622.73
+      y: 927.48
+      width: 209.93
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: 2025-05-15
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape25
+    type: shape
+    frame:
+      x: 1395.53
+      y: 965.56
+      width: 1
+      height: 71.25
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.5
+  - id: text27
+    type: text
+    name: "DRAWN BY:"
+    frame:
+      x: 1182.8
+      y: 970.95
+      width: 203.19
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: "DRAWN BY:"
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#BAE6FD"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text28
+    type: text
+    name: ENG DEPT
+    frame:
+      x: 1182.8
+      y: 991.11
+      width: 203.19
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: ENG DEPT
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape26
+    type: shape
+    frame:
+      x: 1618.87
+      y: 965.56
+      width: 1
+      height: 71.25
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.5
+  - id: text29
+    type: text
+    name: "CHK BY:"
+    frame:
+      x: 1406.13
+      y: 970.95
+      width: 203.21
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: "CHK BY:"
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#BAE6FD"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text30
+    type: text
+    name: LEAD ARCH
+    frame:
+      x: 1406.13
+      y: 991.11
+      width: 203.21
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: LEAD ARCH
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape27
+    type: shape
+    frame:
+      x: 1842.21
+      y: 965.56
+      width: 1
+      height: 71.25
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.5
+  - id: text31
+    type: text
+    name: "PAGE:"
+    frame:
+      x: 1629.47
+      y: 970.95
+      width: 203.19
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: "PAGE:"
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#BAE6FD"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text32
+    type: text
+    name: "02"
+    frame:
+      x: 1629.47
+      y: 991.11
+      width: 203.19
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 13.44
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text33
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 96
+      y: 1046.17
+      width: 402.44
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#BAE6FD"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible

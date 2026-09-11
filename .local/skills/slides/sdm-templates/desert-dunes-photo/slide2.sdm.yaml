@@ -1,0 +1,290 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: image
+  assetId: desert-dunes
+  fit: cover
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 135
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#1E140A"
+          opacity: 0.8
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#1E140A"
+          opacity: 0.3
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 144.97
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+              letterSpacingPt: 1.344
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1710.25
+      y: 89.27
+      width: 62.21
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: Strategic Imperatives
+    frame:
+      x: 153.59
+      y: 213.09
+      width: 1612.86
+      height: 95.05
+    body:
+      paragraphs:
+        - runs:
+            - text: Strategic Imperatives
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: 01. MARKET EXPANSION
+    frame:
+      x: 153.59
+      y: 372.92
+      width: 460.86
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 01. MARKET EXPANSION
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E2C792"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Establishing a robust pr...
+    frame:
+      x: 153.59
+      y: 429.08
+      width: 517.82
+      height: 217
+    body:
+      paragraphs:
+        - runs:
+            - text: Establishing a robust presence in emerging markets by leveraging our adaptive supply chain and forging strategic local partnerships to ensure sustainable growth.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.9
+  - id: text6
+    type: text
+    name: 02. DIGITAL INNOVATION
+    frame:
+      x: 729.59
+      y: 372.92
+      width: 460.86
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 02. DIGITAL INNOVATION
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E2C792"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Accelerating our technol...
+    frame:
+      x: 729.59
+      y: 429.08
+      width: 460.86
+      height: 217
+    body:
+      paragraphs:
+        - runs:
+            - text: Accelerating our technological roadmap to deliver frictionless user experiences, driven by AI-powered insights and an agile development methodology.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.9
+  - id: text8
+    type: text
+    name: 03. OPERATIONAL EXCELLEN...
+    frame:
+      x: 1305.59
+      y: 372.92
+      width: 460.86
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 03. OPERATIONAL EXCELLENCE
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E2C792"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Optimizing core processe...
+    frame:
+      x: 1305.59
+      y: 429.08
+      width: 517.82
+      height: 217
+    body:
+      paragraphs:
+        - runs:
+            - text: Optimizing core processes to reduce overhead while simultaneously increasing output quality and maintaining our commitment to environmental sustainability.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.9
+  - id: text10
+    type: text
+    name: Example Company, Inc. — ...
+    frame:
+      x: 153.59
+      y: 964.81
+      width: 378.23
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. — Confidential
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text11
+    type: text
+    name: "02"
+    frame:
+      x: 1742.47
+      y: 964.81
+      width: 26.99
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+assets:
+  desert-dunes:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/desert-dunes.jpg

@@ -1,0 +1,393 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#111111"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 960
+      y: 0
+      width: 960
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: image
+      assetId: resort-pool
+      fit: cover
+    opacity: 0.4
+  - id: shape2
+    type: shape
+    frame:
+      x: 960
+      y: 0
+      width: 960
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#111111"
+        - offset: 0.4
+          color:
+            kind: rgb
+            value: "#111111"
+          opacity: 0.8
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: text1
+    type: text
+    name: 01 / CURATED EXPERIENCES
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 1612.86
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: 01 / CURATED EXPERIENCES
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A265"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 153.59
+      y: 131.02
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A265"
+  - id: text2
+    type: text
+    name: The Art of Exceptional H...
+    frame:
+      x: 153.59
+      y: 224.56
+      width: 1078.71
+      height: 190.09
+    body:
+      paragraphs:
+        - runs:
+            - text: The Art of Exceptional Hospitality
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D5B8"
+              italic: true
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: We believe that true lux...
+    frame:
+      x: 153.59
+      y: 457.84
+      width: 814.13
+      height: 110.63
+    body:
+      paragraphs:
+        - runs:
+            - text: We believe that true luxury lies in the details. Every touchpoint is meticulously designed to create an environment where guests feel anticipated, understood, and genuinely cared for.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+          lineHeight: 1.6
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text4
+    type: text
+    name: "01"
+    frame:
+      x: 153.59
+      y: 611.66
+      width: 39.71
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "01"
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A265"
+              italic: true
+          lineHeight: 1
+      overflow: visible
+  - id: text5
+    type: text
+    name: Immersive Design
+    frame:
+      x: 228.64
+      y: 611.66
+      width: 713.86
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Immersive Design
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D5B8"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Architecture that blends...
+    frame:
+      x: 228.64
+      y: 651.97
+      width: 850.22
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Architecture that blends seamlessly with the natural landscape, offering a sense of place.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text7
+    type: text
+    name: "02"
+    frame:
+      x: 153.59
+      y: 710.28
+      width: 39.71
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A265"
+              italic: true
+          lineHeight: 1
+      overflow: visible
+  - id: text8
+    type: text
+    name: Bespoke Wellness
+    frame:
+      x: 228.64
+      y: 710.28
+      width: 582.07
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Bespoke Wellness
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D5B8"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Holistic treatments tail...
+    frame:
+      x: 228.64
+      y: 750.59
+      width: 693.25
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Holistic treatments tailored to individual rhythms and rejuvenation needs.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text10
+    type: text
+    name: "03"
+    frame:
+      x: 153.59
+      y: 808.91
+      width: 39.71
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A265"
+              italic: true
+          lineHeight: 1
+      overflow: visible
+  - id: text11
+    type: text
+    name: Culinary Mastery
+    frame:
+      x: 228.64
+      y: 808.91
+      width: 718.44
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Culinary Mastery
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D5B8"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Locally sourced ingredie...
+    frame:
+      x: 228.64
+      y: 849.22
+      width: 807.24
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Locally sourced ingredients transformed into world-class, memorable dining experiences.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text13
+    type: text
+    name: ACME.CO
+    frame:
+      x: 153.59
+      y: 967.69
+      width: 93.68
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D5B8"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text14
+    type: text
+    name: "02"
+    frame:
+      x: 1742.22
+      y: 967.69
+      width: 28.24
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D5B8"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+assets:
+  resort-pool:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/resort-pool.png

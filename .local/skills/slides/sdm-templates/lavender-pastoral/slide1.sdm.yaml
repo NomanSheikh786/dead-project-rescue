@@ -1,0 +1,200 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: lavender-provence
+    altText: Lavender Provence
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 528
+      y: 243
+      width: 864
+      height: 594
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFCF5"
+      opacity: 0.88
+    stroke:
+      color:
+        kind: rgb
+        value: "#B4A082"
+      widthPt: 0.5
+      opacity: 0.3
+  - id: text1
+    type: text
+    name: ⚜
+    frame:
+      x: 947.08
+      y: 298
+      width: 25.88
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ⚜
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7A5A80"
+          lineHeight: 1
+      overflow: visible
+  - id: text2
+    type: text
+    name: PROVENCE
+    frame:
+      x: 899.89
+      y: 342.98
+      width: 127.47
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: PROVENCE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#7A5A80"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Example Deck
+    frame:
+      x: 667.35
+      y: 409.2
+      width: 585.31
+      height: 95.05
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A2040"
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 623.975
+      y: 525.84
+      width: 672.05
+      height: 73.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#7A5A80"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape2
+    type: shape
+    frame:
+      x: 816
+      y: 678.3
+      width: 288
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7A5A80"
+    opacity: 0.3
+  - id: text5
+    type: text
+    name: Été 2026
+    frame:
+      x: 605.8
+      y: 750.31
+      width: 81.08
+      height: 65
+    body:
+      paragraphs:
+        - runs:
+            - text: Été 2026
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7A5A80"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: acme.co
+    frame:
+      x: 1231.22
+      y: 756.08
+      width: 83.03
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#7A5A80"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  lavender-provence:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/lavender-provence.png

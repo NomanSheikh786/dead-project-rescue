@@ -1,0 +1,178 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: text1
+    type: text
+    name: BUILD
+    frame:
+      x: 626.115
+      y: 246.58
+      width: 667.75
+      height: 230.41
+    body:
+      paragraphs:
+        - runs:
+            - text: BUILD
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 11.52
+          align: center
+          lineHeight: 1
+        - runs:
+            - text: WITH US
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 11.52
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 883.2
+      y: 541.77
+      width: 153.59
+      height: 4
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text2
+    type: text
+    name: Contact our structural e...
+    frame:
+      x: 575.975
+      y: 588.95
+      width: 768.05
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Contact our structural engineering team to begin the initial consultation.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              italic: true
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 720.23
+      y: 757.44
+      width: 479.53
+      height: 75.98
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1
+  - id: text3
+    type: text
+    name: STUDIO@MONOLITH.COM
+    frame:
+      x: 720.23
+      y: 757.44
+      width: 479.58
+      height: 75.98
+    body:
+      paragraphs:
+        - runs:
+            - text: STUDIO@MONOLITH.COM
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: text4
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 76.8
+      y: 1027.45
+      width: 349.04
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.672
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: "04"
+    frame:
+      x: 1823.34
+      y: 1027.45
+      width: 21.91
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.672
+          lineHeight: 1.5
+      overflow: visible

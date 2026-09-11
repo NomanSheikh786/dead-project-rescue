@@ -1,0 +1,1252 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: linearGradient
+  angleDeg: 180
+  stops:
+    - offset: 0
+      color:
+        kind: rgb
+        value: "#1A2744"
+    - offset: 1
+      color:
+        kind: rgb
+        value: "#0D1A33"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 8.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#C5A044"
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#E8D08C"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#C5A044"
+  - id: shape2
+    type: shape
+    frame:
+      x: 0
+      y: 1071.38
+      width: 1920
+      height: 8.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#C5A044"
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#E8D08C"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#C5A044"
+  - id: shape3
+    type: shape
+    frame:
+      x: 57.59
+      y: 21.59
+      width: 1804.81
+      height: 1036.81
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#C5A044"
+      widthPt: 0.5
+      opacity: 0.3
+  - id: text1
+    type: text
+    name: Financial Summary — FY20...
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 1000.88
+      height: 102.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Financial Summary — FY2026
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 33.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1708.81
+      y: 129.59
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C5A044"
+  - id: text2
+    type: text
+    name: B
+    frame:
+      x: 1708.785
+      y: 129.59
+      width: 57.64
+      height: 57.59
+    body:
+      paragraphs:
+        - runs:
+            - text: B
+              font:
+                kind: family
+                family: Arial
+              sizePt: 17.28
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: shape5
+    type: shape
+    frame:
+      x: 153.59
+      y: 230.38
+      width: 1612.81
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#C5A044"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape6
+    type: shape
+    frame:
+      x: 230.39
+      y: 371.63
+      width: 1459.22
+      height: 569.13
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0D1A33"
+      opacity: 0.5
+    stroke:
+      color:
+        kind: rgb
+        value: "#C5A044"
+      widthPt: 1
+      opacity: 0.5
+  - id: shape7
+    type: shape
+    frame:
+      x: 289.98
+      y: 500.05
+      width: 1340.03
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C5A044"
+  - id: text3
+    type: text
+    name: Metric
+    frame:
+      x: 289.98
+      y: 406.02
+      width: 335.05
+      height: 96.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Metric
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C5A044"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 9.6
+        bottom: 10.8
+        left: 9.6
+  - id: text4
+    type: text
+    name: Q1
+    frame:
+      x: 624.93
+      y: 406.02
+      width: 201.05
+      height: 96.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Q1
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E8D08C"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 9.6
+        bottom: 10.8
+        left: 9.6
+  - id: text5
+    type: text
+    name: Q2
+    frame:
+      x: 825.93
+      y: 406.02
+      width: 201.05
+      height: 96.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Q2
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E8D08C"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 9.6
+        bottom: 10.8
+        left: 9.6
+  - id: text6
+    type: text
+    name: Q3
+    frame:
+      x: 1026.93
+      y: 406.02
+      width: 201.05
+      height: 96.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Q3
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E8D08C"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 9.6
+        bottom: 10.8
+        left: 9.6
+  - id: text7
+    type: text
+    name: Q4
+    frame:
+      x: 1227.93
+      y: 406.02
+      width: 201.05
+      height: 96.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Q4
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E8D08C"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 9.6
+        bottom: 10.8
+        left: 9.6
+  - id: shape8
+    type: shape
+    frame:
+      x: 1428.98
+      y: 406.02
+      width: 201.03
+      height: 96.03
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C5A044"
+      opacity: 0.15
+  - id: text8
+    type: text
+    name: YTD
+    frame:
+      x: 1428.93
+      y: 406.02
+      width: 201.08
+      height: 96.03
+    body:
+      paragraphs:
+        - runs:
+            - text: YTD
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 9.6
+        bottom: 10.8
+        left: 9.6
+  - id: shape9
+    type: shape
+    frame:
+      x: 289.98
+      y: 602.63
+      width: 1340.03
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C5A044"
+      opacity: 0.3
+  - id: text9
+    type: text
+    name: Revenue
+    frame:
+      x: 289.98
+      y: 502.05
+      width: 335.05
+      height: 101.58
+    body:
+      paragraphs:
+        - runs:
+            - text: Revenue
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 13.5
+        right: 9.6
+        bottom: 13.5
+        left: 9.6
+  - id: text10
+    type: text
+    name: $12.4M
+    frame:
+      x: 624.93
+      y: 502.05
+      width: 201.05
+      height: 101.58
+    body:
+      paragraphs:
+        - runs:
+            - text: $12.4M
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 13.5
+        right: 9.6
+        bottom: 13.5
+        left: 9.6
+    opacity: 0.9
+  - id: text11
+    type: text
+    name: $14.1M
+    frame:
+      x: 825.93
+      y: 502.05
+      width: 201.05
+      height: 101.58
+    body:
+      paragraphs:
+        - runs:
+            - text: $14.1M
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 13.5
+        right: 9.6
+        bottom: 13.5
+        left: 9.6
+    opacity: 0.9
+  - id: text12
+    type: text
+    name: $15.8M
+    frame:
+      x: 1026.93
+      y: 502.05
+      width: 201.05
+      height: 101.58
+    body:
+      paragraphs:
+        - runs:
+            - text: $15.8M
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 13.5
+        right: 9.6
+        bottom: 13.5
+        left: 9.6
+    opacity: 0.9
+  - id: text13
+    type: text
+    name: $18.2M
+    frame:
+      x: 1227.93
+      y: 502.05
+      width: 201.05
+      height: 101.58
+    body:
+      paragraphs:
+        - runs:
+            - text: $18.2M
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 13.5
+        right: 9.6
+        bottom: 13.5
+        left: 9.6
+    opacity: 0.9
+  - id: shape10
+    type: shape
+    frame:
+      x: 1428.98
+      y: 502.05
+      width: 201.03
+      height: 101.58
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C5A044"
+      opacity: 0.05
+  - id: text14
+    type: text
+    name: $60.5M
+    frame:
+      x: 1428.93
+      y: 502.05
+      width: 201.08
+      height: 101.58
+    body:
+      paragraphs:
+        - runs:
+            - text: $60.5M
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 700
+              color:
+                kind: rgb
+                value: "#C5A044"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 13.5
+        right: 9.6
+        bottom: 13.5
+        left: 9.6
+  - id: shape11
+    type: shape
+    frame:
+      x: 289.98
+      y: 703.71
+      width: 1340.03
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C5A044"
+      opacity: 0.3
+  - id: text15
+    type: text
+    name: EBITDA
+    frame:
+      x: 289.98
+      y: 603.63
+      width: 335.05
+      height: 101.08
+    body:
+      paragraphs:
+        - runs:
+            - text: EBITDA
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 13.5
+        right: 9.6
+        bottom: 13.5
+        left: 9.6
+  - id: text16
+    type: text
+    name: $2.1M
+    frame:
+      x: 624.93
+      y: 603.63
+      width: 201.05
+      height: 101.08
+    body:
+      paragraphs:
+        - runs:
+            - text: $2.1M
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 13.5
+        right: 9.6
+        bottom: 13.5
+        left: 9.6
+    opacity: 0.9
+  - id: text17
+    type: text
+    name: $2.8M
+    frame:
+      x: 825.93
+      y: 603.63
+      width: 201.05
+      height: 101.08
+    body:
+      paragraphs:
+        - runs:
+            - text: $2.8M
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 13.5
+        right: 9.6
+        bottom: 13.5
+        left: 9.6
+    opacity: 0.9
+  - id: text18
+    type: text
+    name: $3.5M
+    frame:
+      x: 1026.93
+      y: 603.63
+      width: 201.05
+      height: 101.08
+    body:
+      paragraphs:
+        - runs:
+            - text: $3.5M
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 13.5
+        right: 9.6
+        bottom: 13.5
+        left: 9.6
+    opacity: 0.9
+  - id: text19
+    type: text
+    name: $4.6M
+    frame:
+      x: 1227.93
+      y: 603.63
+      width: 201.05
+      height: 101.08
+    body:
+      paragraphs:
+        - runs:
+            - text: $4.6M
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 13.5
+        right: 9.6
+        bottom: 13.5
+        left: 9.6
+    opacity: 0.9
+  - id: shape12
+    type: shape
+    frame:
+      x: 1428.98
+      y: 603.63
+      width: 201.03
+      height: 101.08
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C5A044"
+      opacity: 0.05
+  - id: text20
+    type: text
+    name: $13.0M
+    frame:
+      x: 1428.93
+      y: 603.63
+      width: 201.08
+      height: 101.08
+    body:
+      paragraphs:
+        - runs:
+            - text: $13.0M
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 700
+              color:
+                kind: rgb
+                value: "#C5A044"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 13.5
+        right: 9.6
+        bottom: 13.5
+        left: 9.6
+  - id: shape13
+    type: shape
+    frame:
+      x: 289.98
+      y: 804.78
+      width: 1340.03
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C5A044"
+      opacity: 0.3
+  - id: text21
+    type: text
+    name: Net Income
+    frame:
+      x: 289.98
+      y: 704.7
+      width: 335.05
+      height: 101.08
+    body:
+      paragraphs:
+        - runs:
+            - text: Net Income
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 13.5
+        right: 9.6
+        bottom: 13.5
+        left: 9.6
+  - id: text22
+    type: text
+    name: $1.5M
+    frame:
+      x: 624.93
+      y: 704.7
+      width: 201.05
+      height: 101.08
+    body:
+      paragraphs:
+        - runs:
+            - text: $1.5M
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 13.5
+        right: 9.6
+        bottom: 13.5
+        left: 9.6
+    opacity: 0.9
+  - id: text23
+    type: text
+    name: $2.0M
+    frame:
+      x: 825.93
+      y: 704.7
+      width: 201.05
+      height: 101.08
+    body:
+      paragraphs:
+        - runs:
+            - text: $2.0M
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 13.5
+        right: 9.6
+        bottom: 13.5
+        left: 9.6
+    opacity: 0.9
+  - id: text24
+    type: text
+    name: $2.5M
+    frame:
+      x: 1026.93
+      y: 704.7
+      width: 201.05
+      height: 101.08
+    body:
+      paragraphs:
+        - runs:
+            - text: $2.5M
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 13.5
+        right: 9.6
+        bottom: 13.5
+        left: 9.6
+    opacity: 0.9
+  - id: text25
+    type: text
+    name: $3.3M
+    frame:
+      x: 1227.93
+      y: 704.7
+      width: 201.05
+      height: 101.08
+    body:
+      paragraphs:
+        - runs:
+            - text: $3.3M
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 13.5
+        right: 9.6
+        bottom: 13.5
+        left: 9.6
+    opacity: 0.9
+  - id: shape14
+    type: shape
+    frame:
+      x: 1428.98
+      y: 704.7
+      width: 201.03
+      height: 101.08
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C5A044"
+      opacity: 0.05
+  - id: text26
+    type: text
+    name: $9.3M
+    frame:
+      x: 1428.93
+      y: 704.7
+      width: 201.08
+      height: 101.08
+    body:
+      paragraphs:
+        - runs:
+            - text: $9.3M
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 700
+              color:
+                kind: rgb
+                value: "#C5A044"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 13.5
+        right: 9.6
+        bottom: 13.5
+        left: 9.6
+  - id: text27
+    type: text
+    name: Headcount
+    frame:
+      x: 289.98
+      y: 805.78
+      width: 335.05
+      height: 100.58
+    body:
+      paragraphs:
+        - runs:
+            - text: Headcount
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 13.5
+        right: 9.6
+        bottom: 13.5
+        left: 9.6
+  - id: text28
+    type: text
+    name: "142"
+    frame:
+      x: 624.93
+      y: 805.78
+      width: 201.05
+      height: 100.58
+    body:
+      paragraphs:
+        - runs:
+            - text: "142"
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 13.5
+        right: 9.6
+        bottom: 13.5
+        left: 9.6
+    opacity: 0.9
+  - id: text29
+    type: text
+    name: "158"
+    frame:
+      x: 825.93
+      y: 805.78
+      width: 201.05
+      height: 100.58
+    body:
+      paragraphs:
+        - runs:
+            - text: "158"
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 13.5
+        right: 9.6
+        bottom: 13.5
+        left: 9.6
+    opacity: 0.9
+  - id: text30
+    type: text
+    name: "185"
+    frame:
+      x: 1026.93
+      y: 805.78
+      width: 201.05
+      height: 100.58
+    body:
+      paragraphs:
+        - runs:
+            - text: "185"
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 13.5
+        right: 9.6
+        bottom: 13.5
+        left: 9.6
+    opacity: 0.9
+  - id: text31
+    type: text
+    name: "210"
+    frame:
+      x: 1227.93
+      y: 805.78
+      width: 201.05
+      height: 100.58
+    body:
+      paragraphs:
+        - runs:
+            - text: "210"
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 13.5
+        right: 9.6
+        bottom: 13.5
+        left: 9.6
+    opacity: 0.9
+  - id: shape15
+    type: shape
+    frame:
+      x: 1428.98
+      y: 805.78
+      width: 201.03
+      height: 100.58
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C5A044"
+      opacity: 0.05
+  - id: text32
+    type: text
+    name: "210"
+    frame:
+      x: 1428.93
+      y: 805.78
+      width: 201.08
+      height: 100.58
+    body:
+      paragraphs:
+        - runs:
+            - text: "210"
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 700
+              color:
+                kind: rgb
+                value: "#C5A044"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 13.5
+        right: 9.6
+        bottom: 13.5
+        left: 9.6
+  - id: shape16
+    type: shape
+    frame:
+      x: 153.59
+      y: 990.83
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C5A044"
+      opacity: 0.3
+  - id: text33
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 153.59
+      y: 1008.02
+      width: 601.04
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential — Board of Directors
+              font:
+                kind: family
+                family: Arial
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text34
+    type: text
+    name: Page 2
+    frame:
+      x: 1701.64
+      y: 1008.02
+      width: 68.71
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Page 2
+              font:
+                kind: family
+                family: Arial
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5

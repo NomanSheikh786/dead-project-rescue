@@ -1,0 +1,229 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5EEE4"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: mediterranean-coast
+    altText: Mediterranean Coast
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 60.64
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#F5EEE4"
+          opacity: 0.92
+        - offset: 0.4
+          color:
+            kind: rgb
+            value: "#F5EEE4"
+          opacity: 0.6
+        - offset: 0.7
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: text1
+    type: text
+    name: ☀
+    frame:
+      x: 115.19
+      y: 598.02
+      width: 20.71
+      height: 23.05
+    body:
+      paragraphs:
+        - runs:
+            - text: ☀
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0674A"
+          lineHeight: 1
+      overflow: visible
+  - id: text2
+    type: text
+    name: LA DOLCE VITA
+    frame:
+      x: 155.03
+      y: 598.02
+      width: 153.46
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: LA DOLCE VITA
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#A0674A"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 318.94
+      y: 609
+      width: 57.59
+      height: 1.08
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#A0674A"
+    opacity: 0.5
+  - id: text3
+    type: text
+    name: Summer 2026
+    frame:
+      x: 395.72
+      y: 598.02
+      width: 111.36
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Summer 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0674A"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Example Deck
+    frame:
+      x: 115.19
+      y: 642.66
+      width: 960.05
+      height: 128.72
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+              letterSpacingPt: -1.152
+          lineHeight: 1.1
+      overflow: visible
+  - id: text5
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 115.19
+      y: 801.77
+      width: 672.05
+      height: 82.63
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text6
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 957.97
+      width: 960.05
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Curated Journeys
+    frame:
+      x: 115.19
+      y: 989.28
+      width: 960.05
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Curated Journeys
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0674A"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  mediterranean-coast:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/mediterranean-coast.png

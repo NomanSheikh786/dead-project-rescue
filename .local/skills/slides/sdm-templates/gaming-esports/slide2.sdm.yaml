@@ -1,0 +1,767 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0D0D12"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 576
+      height: 1080
+    geometry:
+      kind: path
+      viewBox:
+        width: 576
+        height: 1080
+      path: M 0 0 L 576 0 L 345.6 1080 L 0 1080 Z
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#15151C"
+  - id: shape2
+    type: shape
+    frame:
+      x: 1248
+      y: 216
+      width: 384
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D5AF1"
+    opacity: 0.5
+  - id: shape3
+    type: shape
+    frame:
+      x: 1631
+      y: 216
+      width: 1
+      height: 108
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D5AF1"
+    opacity: 0.5
+  - id: shape4
+    type: shape
+    frame:
+      x: 57.59
+      y: 32.39
+      width: 96
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D5AF1"
+  - id: shape5
+    type: shape
+    frame:
+      x: 57.59
+      y: 32.39
+      width: 2
+      height: 54
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D5AF1"
+  - id: shape6
+    type: shape
+    frame:
+      x: 1860.41
+      y: 993.61
+      width: 2
+      height: 54
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8B1A2B"
+  - id: shape7
+    type: shape
+    frame:
+      x: 1766.41
+      y: 1045.61
+      width: 96
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8B1A2B"
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 145.64
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 13.44
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.344
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 278.58
+      y: 74.16
+      width: 2
+      height: 21.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A4A5A"
+  - id: text2
+    type: text
+    name: "[ SYS.ONLINE ]"
+    frame:
+      x: 309.38
+      y: 71.98
+      width: 280
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "[ SYS.ONLINE ]"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8B1A2B"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 1507.38
+      y: 80.14
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D5AF1"
+  - id: text3
+    type: text
+    name: 2026 // CONFIDENTIAL
+    frame:
+      x: 1536.16
+      y: 70.55
+      width: 268.71
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 2026 // CONFIDENTIAL
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A8A9E"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape10
+    type: shape
+    frame:
+      x: 192
+      y: 213.09
+      width: 154.94
+      height: 36.7
+    geometry:
+      kind: path
+      viewBox:
+        width: 154.94
+        height: 36.7
+      path: M 15.49 0 L 154.94 0 L 139.45 36.7 L 0 36.7 Z
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D5AF1"
+  - id: text4
+    type: text
+    name: MODULE 02
+    frame:
+      x: 192
+      y: 213.09
+      width: 174.15
+      height: 38.7
+    body:
+      paragraphs:
+        - runs:
+            - text: MODULE 02
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.296
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 9.6
+        bottom: 2.7
+        left: 9.6
+  - id: text5
+    type: text
+    name: CORE MECHANICS
+    frame:
+      x: 366.13
+      y: 217.05
+      width: 241.56
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CORE MECHANICS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A8A9E"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: STRATEGIC OVERVIEW
+    frame:
+      x: 192
+      y: 271.39
+      width: 1536.05
+      height: 117.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "STRATEGIC "
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+            - text: OVERVIEW
+              color:
+                kind: rgb
+                value: "#3D5AF1"
+          lineHeight: 1.5
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Space Grotesk
+            sizePt: 38.4
+            weight: 700
+            letterSpacingPt: -0.768
+      overflow: visible
+  - id: shape11
+    type: shape
+    frame:
+      x: 192
+      y: 397.38
+      width: 153.59
+      height: 4
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8B1A2B"
+  - id: text7
+    type: text
+    name: Our approach leverages c...
+    frame:
+      x: 192
+      y: 466.17
+      width: 710.46
+      height: 147.5
+    body:
+      paragraphs:
+        - runs:
+            - text: Our approach leverages cross-platform synchronization to maximize engagement. We establish dominance through coordinated multi-channel deployments.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A0B5"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape13
+    type: shape
+    frame:
+      x: 192
+      y: 640
+      width: 710.41
+      height: 106.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#15151C"
+      opacity: 0.7
+  - id: shape12
+    type: shape
+    frame:
+      x: 192
+      y: 640
+      width: 2
+      height: 106.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D5AF1"
+  - id: text8
+    type: text
+    name: "01"
+    frame:
+      x: 232.39
+      y: 661.59
+      width: 39.75
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "01"
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#3D5AF1"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: GLOBAL SYNC
+    frame:
+      x: 302.48
+      y: 661.59
+      width: 383.35
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: GLOBAL SYNC
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.528
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Real-time updates across...
+    frame:
+      x: 302.48
+      y: 698.67
+      width: 383.35
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Real-time updates across all regions.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A8A9E"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape15
+    type: shape
+    frame:
+      x: 192
+      y: 770
+      width: 710.41
+      height: 106.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#15151C"
+      opacity: 0.7
+  - id: shape14
+    type: shape
+    frame:
+      x: 192
+      y: 770
+      width: 2
+      height: 106.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8B1A2B"
+  - id: text11
+    type: text
+    name: "02"
+    frame:
+      x: 232.39
+      y: 791.59
+      width: 39.83
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#8B1A2B"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: RAPID DEPLOY
+    frame:
+      x: 306.56
+      y: 791.59
+      width: 341.91
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: RAPID DEPLOY
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.528
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Automated patch delivery...
+    frame:
+      x: 306.56
+      y: 828.67
+      width: 341.91
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Automated patch delivery systems.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A8A9E"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape17
+    type: shape
+    frame:
+      x: 192
+      y: 900
+      width: 710.41
+      height: 106.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#15151C"
+      opacity: 0.7
+  - id: shape16
+    type: shape
+    frame:
+      x: 192
+      y: 900
+      width: 2
+      height: 106.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A4A5A"
+  - id: text14
+    type: text
+    name: "03"
+    frame:
+      x: 232.39
+      y: 921.59
+      width: 39.24
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#4A4A5A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: SECURE COMM
+    frame:
+      x: 306.97
+      y: 921.59
+      width: 321.19
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: SECURE COMM
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.528
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: Encrypted peer-to-peer r...
+    frame:
+      x: 306.97
+      y: 958.67
+      width: 321.19
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Encrypted peer-to-peer routing.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A8A9E"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape18
+    type: shape
+    frame:
+      x: 1055.98
+      y: 487.77
+      width: 710.41
+      height: 574.03
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#3D5AF1"
+      widthPt: 0.5
+    opacity: 0.3
+  - id: shape19
+    type: shape
+    frame:
+      x: 1017.59
+      y: 466.17
+      width: 710.41
+      height: 574.03
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#15151C"
+    stroke:
+      color:
+        kind: rgb
+        value: "#4A4A5A"
+      widthPt: 0.5
+  - id: shape20
+    type: shape
+    frame:
+      x: 1296
+      y: 645.8
+      width: 153.59
+      height: 153.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D5AF1"
+      opacity: 0.1
+    stroke:
+      color:
+        kind: rgb
+        value: "#3D5AF1"
+      widthPt: 1
+  - id: shape21
+    type: shape
+    frame:
+      x: 1334.39
+      y: 684.19
+      width: 76.8
+      height: 76.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D5AF1"
+  - id: text17
+    type: text
+    name: "SYSTEM STATUS: OPTIMAL"
+    frame:
+      x: 1204.94
+      y: 831.78
+      width: 335.69
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "SYSTEM STATUS: "
+              color:
+                kind: rgb
+                value: "#8A8A9E"
+            - text: OPTIMAL
+              color:
+                kind: rgb
+                value: "#3D5AF1"
+          align: center
+          lineHeight: 1.5
+          defaultRunStyle:
+            font:
+              kind: family
+              family: DM Mono
+            sizePt: 9.6
+            weight: 400
+            letterSpacingPt: 1.44
+      overflow: visible
+  - id: shape22
+    type: shape
+    frame:
+      x: 0
+      y: 1040.2
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05

@@ -1,0 +1,296 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F0E8"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1056
+      height: 1080
+    assetId: photo-furniture
+    altText: High-end furniture product
+    fit: cover
+  - id: text1
+    type: text
+    name: "02"
+    frame:
+      x: 76.8
+      y: 54
+      width: 27.05
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: shape1
+    type: shape
+    frame:
+      x: 1056
+      y: 0
+      width: 864
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5F0E8"
+  - id: text2
+    type: text
+    name: "DESIGN: STUDIO EXAMPLE"
+    frame:
+      x: 1171.19
+      y: 355.59
+      width: 633.68
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: "DESIGN: STUDIO EXAMPLE"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2C2520"
+              letterSpacingPt: 1.344
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text3
+    type: text
+    name: The Forma Lounge
+    frame:
+      x: 1171.19
+      y: 397.34
+      width: 633.68
+      height: 65.34
+    body:
+      paragraphs:
+        - runs:
+            - text: The Forma Lounge
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2520"
+              letterSpacingPt: -0.288
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 1171.19
+      y: 503.88
+      width: 57.59
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C47D5A"
+  - id: text4
+    type: text
+    name: "Dimensions: 84 × 36 × 32..."
+    frame:
+      x: 1171.19
+      y: 549.06
+      width: 633.68
+      height: 29.64
+    body:
+      paragraphs:
+        - runs:
+            - text: "Dimensions:"
+              weight: 500
+            - text: " 84 × 36 × 32 in"
+              weight: 300
+          lineHeight: 1.6
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Inter
+            sizePt: 8.64
+            color:
+              kind: rgb
+              value: "#2C2520"
+      overflow: visible
+    opacity: 0.8
+  - id: text5
+    type: text
+    name: "Materials: Italian leath..."
+    frame:
+      x: 1171.19
+      y: 598.3
+      width: 633.68
+      height: 29.64
+    body:
+      paragraphs:
+        - runs:
+            - text: "Materials:"
+              weight: 500
+            - text: " Italian leather, walnut frame"
+              weight: 300
+          lineHeight: 1.6
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Inter
+            sizePt: 8.64
+            color:
+              kind: rgb
+              value: "#2C2520"
+      overflow: visible
+    opacity: 0.8
+  - id: text6
+    type: text
+    name: "Weight: 65 lbs"
+    frame:
+      x: 1171.19
+      y: 647.53
+      width: 633.68
+      height: 29.64
+    body:
+      paragraphs:
+        - runs:
+            - text: "Weight:"
+              weight: 500
+            - text: " 65 lbs"
+              weight: 300
+          lineHeight: 1.6
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Inter
+            sizePt: 8.64
+            color:
+              kind: rgb
+              value: "#2C2520"
+      overflow: visible
+    opacity: 0.8
+  - id: text7
+    type: text
+    name: "Lead Time: 8-10 weeks"
+    frame:
+      x: 1171.19
+      y: 696.77
+      width: 633.68
+      height: 29.64
+    body:
+      paragraphs:
+        - runs:
+            - text: "Lead Time:"
+              weight: 500
+            - text: " 8-10 weeks"
+              weight: 300
+          lineHeight: 1.6
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Inter
+            sizePt: 8.64
+            color:
+              kind: rgb
+              value: "#2C2520"
+      overflow: visible
+    opacity: 0.8
+  - id: text8
+    type: text
+    name: $4,800
+    frame:
+      x: 1171.19
+      y: 839.25
+      width: 633.68
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: $4,800
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2C2520"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 1171.19
+      y: 983.25
+      width: 633.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C2520"
+      opacity: 0.1
+  - id: text9
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 1171.19
+      y: 983.25
+      width: 633.68
+      height: 42.75
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2520"
+              letterSpacingPt: 0.672
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 0
+        bottom: 0
+        left: 0
+    opacity: 0.5
+assets:
+  photo-furniture:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/photo-furniture.png

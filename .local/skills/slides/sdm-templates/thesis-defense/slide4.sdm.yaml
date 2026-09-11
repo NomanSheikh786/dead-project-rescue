@@ -1,0 +1,316 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#1A2332"
+elements:
+  - id: text1
+    type: text
+    name: CONCLUSION
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 173.94
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: CONCLUSION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+              letterSpacingPt: 1.584
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: acme.co
+    frame:
+      x: 1671.17
+      y: 86.39
+      width: 95.24
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.528
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 921.59
+      y: 249.81
+      width: 76.8
+      height: 5.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A90E2"
+  - id: text3
+    type: text
+    name: Questions & Discussion
+    frame:
+      x: 263.99
+      y: 298.75
+      width: 1392.01
+      height: 134.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Questions & Discussion
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.576
+          align: center
+          lineHeight: 1.15
+      overflow: visible
+  - id: text4
+    type: text
+    name: Thank you to the committ...
+    frame:
+      x: 383.975
+      y: 463.61
+      width: 1152.05
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Thank you to the committee, my advisors, and all contributors who made this research possible.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 300
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape2
+    type: shape
+    frame:
+      x: 524.77
+      y: 675.28
+      width: 870.45
+      height: 138.06
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8E9EBB"
+      opacity: 0.05
+    stroke:
+      color:
+        kind: rgb
+        value: "#8E9EBB"
+      widthPt: 0.5
+      opacity: 0.2
+  - id: text5
+    type: text
+    name: CONTACT
+    frame:
+      x: 621.745
+      y: 708.67
+      width: 268.64
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: CONTACT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+              letterSpacingPt: 0.864
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: jane.doe@university.edu
+    frame:
+      x: 607.25
+      y: 745.39
+      width: 297.64
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: jane.doe@university.edu
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 967.16
+      y: 708.67
+      width: 1
+      height: 71.28
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8E9EBB"
+      opacity: 0.2
+  - id: text7
+    type: text
+    name: PUBLICATIONS
+    frame:
+      x: 1044.925
+      y: 708.67
+      width: 253.32
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: PUBLICATIONS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+              letterSpacingPt: 0.864
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: acme.co/jane-research
+    frame:
+      x: 1031.43
+      y: 745.39
+      width: 280.32
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co/jane-research
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 153.59
+      y: 934.3
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8E9EBB"
+      opacity: 0.2
+  - id: text9
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 153.59
+      y: 967.69
+      width: 209.43
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Page 4
+    frame:
+      x: 1703.83
+      y: 967.69
+      width: 66.39
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Page 4
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible

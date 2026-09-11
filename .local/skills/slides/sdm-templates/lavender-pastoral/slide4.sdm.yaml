@@ -1,0 +1,376 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#4A2040"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: lavender-provence
+    altText: Background
+    fit: cover
+    opacity: 0.15
+  - id: shape1
+    type: shape
+    frame:
+      x: 480
+      y: 188.92
+      width: 960
+      height: 702.16
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFCF5"
+    stroke:
+      color:
+        kind: rgb
+        value: "#B4A082"
+      widthPt: 0.5
+      opacity: 0.5
+  - id: text1
+    type: text
+    name: ⚜
+    frame:
+      x: 938.48
+      y: 276.31
+      width: 43.08
+      height: 48
+    body:
+      paragraphs:
+        - runs:
+            - text: ⚜
+              font:
+                kind: family
+                family: Inter
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7A5A80"
+          lineHeight: 1
+      overflow: visible
+  - id: text2
+    type: text
+    name: Savor the Essence
+    frame:
+      x: 593.37
+      y: 356.7
+      width: 733.27
+      height: 170.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Savor the Essence
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A2040"
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: Join us in bringing the ...
+    frame:
+      x: 671.975
+      y: 462.77
+      width: 576.05
+      height: 73.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Join us in bringing the unparalleled beauty of Provence to the rest of the world.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7A5A80"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape2
+    type: shape
+    frame:
+      x: 638.69
+      y: 579.7
+      width: 321.23
+      height: 63.17
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A2040"
+    stroke:
+      color:
+        kind: rgb
+        value: "#4A2040"
+      widthPt: 0.5
+  - id: text4
+    type: text
+    name: PARTNER WITH US
+    frame:
+      x: 638.69
+      y: 579.7
+      width: 340.56
+      height: 63.17
+    body:
+      paragraphs:
+        - runs:
+            - text: PARTNER WITH US
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFCF5"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+  - id: shape3
+    type: shape
+    frame:
+      x: 998.31
+      y: 579.7
+      width: 283
+      height: 63.17
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#4A2040"
+      widthPt: 0.5
+  - id: text5
+    type: text
+    name: VIEW CATALOG
+    frame:
+      x: 998.31
+      y: 579.7
+      width: 300.03
+      height: 63.17
+    body:
+      paragraphs:
+        - runs:
+            - text: VIEW CATALOG
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A2040"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+  - id: shape4
+    type: shape
+    frame:
+      x: 596.19
+      y: 707.66
+      width: 727.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B4A082"
+      opacity: 0.4
+  - id: text6
+    type: text
+    name: Email
+    frame:
+      x: 596.19
+      y: 751.84
+      width: 157.97
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Email
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#4A2040"
+          lineHeight: 1.5
+        - runs:
+            - text: bonjour@acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A2040"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Phone
+    frame:
+      x: 873.77
+      y: 751.84
+      width: 176.72
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Phone
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#4A2040"
+          align: center
+          lineHeight: 1.5
+        - runs:
+            - text: +33 1 23 45 67 89
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A2040"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Address
+    frame:
+      x: 1161.13
+      y: 751.84
+      width: 162.68
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Address
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#4A2040"
+          align: right
+          lineHeight: 1.5
+        - runs:
+            - text: Valensole, France
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A2040"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 1005.13
+      width: 76.05
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFCF5"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text10
+    type: text
+    name: Page 4
+    frame:
+      x: 1741.61
+      y: 1005.13
+      width: 66
+      height: 65
+    body:
+      paragraphs:
+        - runs:
+            - text: Page 4
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFCF5"
+              italic: true
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+assets:
+  lavender-provence:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/lavender-provence.png

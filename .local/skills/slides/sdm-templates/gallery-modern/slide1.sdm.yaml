@@ -1,0 +1,194 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FCFAF8"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: art-gallery
+    altText: Art Gallery
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0.55
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.7
+          color:
+            kind: rgb
+            value: "#FCFAF8"
+          opacity: 0.95
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#FCFAF8"
+          opacity: 0.98
+  - id: text1
+    type: text
+    name: CONTEMPORARY EXHIBITION
+    frame:
+      x: 153.59
+      y: 810.02
+      width: 851.03
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CONTEMPORARY EXHIBITION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Example Deck
+    frame:
+      x: 153.59
+      y: 854.64
+      width: 851.03
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -1.152
+          lineHeight: 1
+      overflow: visible
+  - id: text3
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 153.59
+      y: 991.44
+      width: 956.22
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Gallery III
+    frame:
+      x: 1670
+      y: 897.14
+      width: 96.41
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Gallery III
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 0.432
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Opening Reception
+    frame:
+      x: 1585.75
+      y: 933.86
+      width: 180.66
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Opening Reception
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.432
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text6
+    type: text
+    name: acme.co
+    frame:
+      x: 1692.54
+      y: 1002.97
+      width: 73.86
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 0.768
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  art-gallery:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/art-gallery.png

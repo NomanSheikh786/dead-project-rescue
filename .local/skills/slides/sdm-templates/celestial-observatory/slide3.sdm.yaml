@@ -1,0 +1,892 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: linearGradient
+  angleDeg: 143.47
+  stops:
+    - offset: 0
+      color:
+        kind: rgb
+        value: "#152243"
+    - offset: 0.6
+      color:
+        kind: rgb
+        value: "#0B1026"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 384
+      y: 0
+      width: 1
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+  - id: shape2
+    type: shape
+    frame:
+      x: 0
+      y: 216
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+  - id: shape3
+    type: shape
+    frame:
+      x: 0
+      y: 863
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+  - id: shape4
+    type: shape
+    frame:
+      x: 1152
+      y: 216
+      width: 1
+      height: 648
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+  - id: text1
+    type: text
+    name: MAGNITUDE LOG
+    frame:
+      x: 1695.7
+      y: 43.19
+      width: 147.5
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: MAGNITUDE LOG
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C5A0"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text2
+    type: text
+    name: FREQ 1420.40 MHz
+    frame:
+      x: 1686.85
+      y: 66.22
+      width: 156.35
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: FREQ 1420.40 MHz
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C5A0"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text3
+    type: text
+    name: 87%
+    frame:
+      x: 480
+      y: 359.61
+      width: 184.71
+      height: 77.06
+    body:
+      paragraphs:
+        - runs:
+            - text: "87"
+              sizePt: 48
+            - text: "%"
+              sizePt: 28.8
+          lineHeight: 0.8
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            weight: 400
+            color:
+              kind: rgb
+              value: "#D4C5A0"
+      overflow: visible
+  - id: text4
+    type: text
+    name: TRAJECTORY ALIGNMENT
+    frame:
+      x: 640.45
+      y: 371.17
+      width: 287.35
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: TRAJECTORY ALIGNMENT
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+    rotationDeg: 0.02
+  - id: text5
+    type: text
+    name: Increase in targeted acq...
+    frame:
+      x: 640.45
+      y: 402.48
+      width: 295.96
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: Increase in targeted acquisitions.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+    rotationDeg: 0.02
+  - id: text6
+    type: text
+    name: 3.2x
+    frame:
+      x: 480
+      y: 501.47
+      width: 193.44
+      height: 77.06
+    body:
+      paragraphs:
+        - runs:
+            - text: "3.2"
+              sizePt: 48
+            - text: x
+              sizePt: 28.8
+          lineHeight: 0.8
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            weight: 400
+            color:
+              kind: rgb
+              value: "#FFFFFF"
+      overflow: visible
+  - id: text7
+    type: text
+    name: SIGNAL AMPLIFICATION
+    frame:
+      x: 652.19
+      y: 513.03
+      width: 321.82
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: SIGNAL AMPLIFICATION
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+    rotationDeg: 0.02
+  - id: text8
+    type: text
+    name: Multiplication of core r...
+    frame:
+      x: 652.19
+      y: 544.34
+      width: 331.48
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: Multiplication of core retention rates.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+    rotationDeg: 0.02
+  - id: text9
+    type: text
+    name: 14k
+    frame:
+      x: 480
+      y: 643.33
+      width: 162.69
+      height: 77.06
+    body:
+      paragraphs:
+        - runs:
+            - text: "14"
+              sizePt: 48
+            - text: k
+              sizePt: 28.8
+          lineHeight: 0.8
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            weight: 400
+            color:
+              kind: rgb
+              value: "#FFFFFF"
+      overflow: visible
+  - id: text10
+    type: text
+    name: DATA POINTS LOGGED
+    frame:
+      x: 623.44
+      y: 654.89
+      width: 284.99
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: DATA POINTS LOGGED
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+    rotationDeg: 0.02
+  - id: text11
+    type: text
+    name: Unique celestial bodies ...
+    frame:
+      x: 623.44
+      y: 686.2
+      width: 293.54
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: Unique celestial bodies mapped.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+    rotationDeg: 0.02
+  - id: text12
+    type: text
+    name: SPECTRAL ANALYSIS
+    frame:
+      x: 1200
+      y: 344.89
+      width: 528.05
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: SPECTRAL ANALYSIS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C5A0"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 1200
+      y: 734.11
+      width: 528
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: shape7
+    type: shape
+    frame:
+      x: 1200
+      y: 655.11
+      width: 64
+      height: 79
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.05
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.2
+  - id: shape6
+    type: shape
+    frame:
+      x: 1200
+      y: 654.11
+      width: 64
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.4
+  - id: text13
+    type: text
+    name: Q1
+    frame:
+      x: 1223.94
+      y: 713.95
+      width: 19.18
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Q1
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: shape9
+    type: shape
+    frame:
+      x: 1292.8
+      y: 605.11
+      width: 64.02
+      height: 129
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.05
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.2
+  - id: shape8
+    type: shape
+    frame:
+      x: 1292.8
+      y: 604.11
+      width: 64.02
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.4
+  - id: text14
+    type: text
+    name: Q2
+    frame:
+      x: 1316.73
+      y: 713.95
+      width: 19.18
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Q2
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: shape11
+    type: shape
+    frame:
+      x: 1385.61
+      y: 630.11
+      width: 64
+      height: 104
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.05
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.2
+  - id: shape10
+    type: shape
+    frame:
+      x: 1385.61
+      y: 629.11
+      width: 64
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.4
+  - id: text15
+    type: text
+    name: Q3
+    frame:
+      x: 1409.55
+      y: 713.95
+      width: 19.18
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Q3
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: shape13
+    type: shape
+    frame:
+      x: 1478.41
+      y: 480.11
+      width: 64
+      height: 254
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#D4C5A0"
+          opacity: 0.2
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#D4C5A0"
+          opacity: 0.8
+  - id: shape12
+    type: shape
+    frame:
+      x: 1478.41
+      y: 478.11
+      width: 64
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4C5A0"
+  - id: text16
+    type: text
+    name: Q4
+    frame:
+      x: 1502.34
+      y: 713.95
+      width: 19.18
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Q4
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: shape15
+    type: shape
+    frame:
+      x: 1571.2
+      y: 535.11
+      width: 64
+      height: 199
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.05
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.2
+  - id: shape14
+    type: shape
+    frame:
+      x: 1571.2
+      y: 534.11
+      width: 64
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.4
+  - id: text17
+    type: text
+    name: Q5
+    frame:
+      x: 1595.14
+      y: 713.95
+      width: 19.18
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Q5
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: shape17
+    type: shape
+    frame:
+      x: 1664
+      y: 570.11
+      width: 64
+      height: 164
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.05
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.2
+  - id: shape16
+    type: shape
+    frame:
+      x: 1664
+      y: 569.11
+      width: 64
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.4
+  - id: text18
+    type: text
+    name: Q6
+    frame:
+      x: 1687.94
+      y: 713.95
+      width: 19.18
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Q6
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: shape18
+    type: shape
+    frame:
+      x: 1200
+      y: 432
+      width: 528
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4C5A0"
+      opacity: 0.3
+  - id: text19
+    type: text
+    name: Nadir Threshold
+    frame:
+      x: 1568.67
+      y: 410.39
+      width: 120.99
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Nadir Threshold
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C5A0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text20
+    type: text
+    name: Orbital Metrics
+    frame:
+      x: 480
+      y: 86.39
+      width: 392.3
+      height: 174.39
+    body:
+      paragraphs:
+        - runs:
+            - text: Orbital Metrics
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text21
+    type: text
+    name: EXAMPLE COMPANY, INC.
+    frame:
+      x: 1436.7
+      y: 1013.78
+      width: 239.4
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C5A0"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: shape19
+    type: shape
+    frame:
+      x: 1720.09
+      y: 1017.2
+      width: 1
+      height: 16.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4C5A0"
+      opacity: 0.3
+  - id: text22
+    type: text
+    name: PAGE 03
+    frame:
+      x: 1778.69
+      y: 1013.78
+      width: 68.44
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: PAGE 03
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C5A0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6

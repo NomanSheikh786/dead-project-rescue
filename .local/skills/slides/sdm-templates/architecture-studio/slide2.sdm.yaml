@@ -1,0 +1,437 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 960
+      height: 1080
+    assetId: photo-architecture
+    altText: Monolith Tower Project
+    fit: cover
+  - id: text1
+    type: text
+    name: MONOLITH TOWER
+    frame:
+      x: 1113.59
+      y: 232.97
+      width: 652.86
+      height: 107.59
+    body:
+      paragraphs:
+        - runs:
+            - text: MONOLITH TOWER
+              font:
+                kind: family
+                family: Inter
+              sizePt: 24
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 7.2
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 1113.59
+      y: 381.75
+      width: 652.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape2
+    type: shape
+    frame:
+      x: 1113.59
+      y: 454.73
+      width: 652.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text2
+    type: text
+    name: Location
+    frame:
+      x: 1113.59
+      y: 404.34
+      width: 96.33
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Location
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: São Paulo, Brazil
+    frame:
+      x: 1604.48
+      y: 404.34
+      width: 181.99
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: São Paulo, Brazil
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.192
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 1113.59
+      y: 527.71
+      width: 652.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text4
+    type: text
+    name: Area
+    frame:
+      x: 1113.59
+      y: 477.33
+      width: 52.63
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Area
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: 42,000 sqm
+    frame:
+      x: 1647.94
+      y: 477.33
+      width: 118.52
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 42,000 sqm
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.192
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1113.59
+      y: 600.7
+      width: 652.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text6
+    type: text
+    name: Height
+    frame:
+      x: 1113.59
+      y: 550.31
+      width: 71.47
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Height
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: 187m / 47 floors
+    frame:
+      x: 1611.66
+      y: 550.31
+      width: 184.38
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 187m / 47 floors
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.192
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 1113.59
+      y: 673.68
+      width: 652.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text8
+    type: text
+    name: Status
+    frame:
+      x: 1113.59
+      y: 623.3
+      width: 76.61
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Status
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Completed 2025
+    frame:
+      x: 1466.46
+      y: 623.3
+      width: 300
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Completed 2025
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.192
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 1113.59
+      y: 746.67
+      width: 652.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text10
+    type: text
+    name: Awards
+    frame:
+      x: 1113.59
+      y: 696.28
+      width: 76.75
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Awards
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: AIA Gold Medal
+    frame:
+      x: 1616.69
+      y: 696.28
+      width: 158.76
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: AIA Gold Medal
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.192
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Form follows function fo...
+    frame:
+      x: 1113.59
+      y: 812.47
+      width: 652.86
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Form follows function follows light.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 1113.59
+      y: 1016.66
+      width: 349.04
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.672
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: "02"
+    frame:
+      x: 1747.03
+      y: 1016.66
+      width: 22.43
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.672
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  photo-architecture:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/photo-architecture.png

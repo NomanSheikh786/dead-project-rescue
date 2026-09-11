@@ -1,0 +1,541 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#05050F"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: astronaut-space
+    altText: Space Background
+    fit: cover
+    opacity: 0.3
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#05050F"
+          opacity: 0.7
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#05050F"
+          opacity: 0.95
+  - id: text1
+    type: text
+    name: MISSION ARCHITECTURE
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 531.46
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: MISSION ARCHITECTURE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#6A8AAA"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: System Capabilities
+    frame:
+      x: 115.19
+      y: 133.91
+      width: 563.35
+      height: 65.34
+    body:
+      paragraphs:
+        - runs:
+            - text: System Capabilities
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 28.8
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E0E8F0"
+              letterSpacingPt: -0.48
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 1756.81
+      y: 86.39
+      width: 48
+      height: 48
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#6A8AAA"
+      widthPt: 0.5
+  - id: shape3
+    type: shape
+    frame:
+      x: 1776.02
+      y: 105.59
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0E8F0"
+  - id: shape5
+    type: shape
+    frame:
+      x: 115.19
+      y: 283.64
+      width: 806.41
+      height: 208.69
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#6A8AAA"
+          opacity: 0.05
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape4
+    type: shape
+    frame:
+      x: 115.19
+      y: 283.64
+      width: 806.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#6A8AAA"
+      opacity: 0.3
+  - id: text3
+    type: text
+    name: 01 / ORBITAL INSERTION
+    frame:
+      x: 153.58
+      y: 317.03
+      width: 729.68
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 01 / ORBITAL INSERTION
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0E8F0"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Precision maneuvering sy...
+    frame:
+      x: 153.58
+      y: 367.78
+      width: 729.68
+      height: 92.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Precision maneuvering systems capable of multi-stage deployment across varied gravitational fields. Optimized for deep space trajectories.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0E8F0"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.7
+  - id: shape7
+    type: shape
+    frame:
+      x: 115.19
+      y: 535.52
+      width: 806.41
+      height: 177.97
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#6A8AAA"
+          opacity: 0.05
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape6
+    type: shape
+    frame:
+      x: 115.19
+      y: 535.52
+      width: 806.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#6A8AAA"
+      opacity: 0.3
+  - id: text5
+    type: text
+    name: 02 / TELEMETRY LINK
+    frame:
+      x: 153.58
+      y: 568.91
+      width: 729.68
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 02 / TELEMETRY LINK
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0E8F0"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Quantum-encrypted commun...
+    frame:
+      x: 153.58
+      y: 619.66
+      width: 729.68
+      height: 61.44
+    body:
+      paragraphs:
+        - runs:
+            - text: Quantum-encrypted communications array ensuring zero-latency data transmission. High fidelity link preservation.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0E8F0"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.7
+  - id: shape9
+    type: shape
+    frame:
+      x: 998.39
+      y: 283.64
+      width: 806.42
+      height: 208.69
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#6A8AAA"
+          opacity: 0.05
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape8
+    type: shape
+    frame:
+      x: 998.39
+      y: 283.64
+      width: 806.42
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#6A8AAA"
+      opacity: 0.3
+  - id: text7
+    type: text
+    name: 03 / LIFE SUPPORT
+    frame:
+      x: 1036.78
+      y: 317.03
+      width: 729.69
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 03 / LIFE SUPPORT
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0E8F0"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Closed-loop resource gen...
+    frame:
+      x: 1036.78
+      y: 367.78
+      width: 729.69
+      height: 92.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Closed-loop resource generation with advanced biomimetic filtration. Built for extended habitation beyond Earth-normal parameters.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0E8F0"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.7
+  - id: shape11
+    type: shape
+    frame:
+      x: 998.39
+      y: 535.52
+      width: 806.42
+      height: 177.97
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#6A8AAA"
+          opacity: 0.05
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape10
+    type: shape
+    frame:
+      x: 998.39
+      y: 535.52
+      width: 806.42
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#6A8AAA"
+      opacity: 0.3
+  - id: text9
+    type: text
+    name: 04 / PROPULSION
+    frame:
+      x: 1036.78
+      y: 568.91
+      width: 729.69
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 04 / PROPULSION
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0E8F0"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Next-generation ion driv...
+    frame:
+      x: 1036.78
+      y: 619.66
+      width: 729.69
+      height: 61.44
+    body:
+      paragraphs:
+        - runs:
+            - text: Next-generation ion drives utilizing magnetically confined plasma. Unprecedented efficiency for long-haul operations.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0E8F0"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.7
+  - id: text11
+    type: text
+    name: "SYS: NOMINAL"
+    frame:
+      x: 115.19
+      y: 970.58
+      width: 129.49
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "SYS: NOMINAL"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6A8AAA"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: AD ASTRA
+    frame:
+      x: 1639
+      y: 964.81
+      width: 104.44
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: AD ASTRA
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0E8F0"
+              italic: true
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text13
+    type: text
+    name: "02"
+    frame:
+      x: 1781.78
+      y: 964.81
+      width: 27.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#E0E8F0"
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  astronaut-space:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/astronaut-space.png

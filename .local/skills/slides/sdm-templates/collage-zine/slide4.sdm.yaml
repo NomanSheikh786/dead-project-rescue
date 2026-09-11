@@ -1,0 +1,443 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFDE7"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 60.64
+      stops:
+        - offset: 0.2
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+    opacity: 0.1
+  - id: shape2
+    type: shape
+    frame:
+      x: 288
+      y: 864
+      width: 768
+      height: 324
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+    rotationDeg: -5
+  - id: shape3
+    type: shape
+    frame:
+      x: 153.59
+      y: 432
+      width: 288
+      height: 288
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFDE7"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 2.5
+    rotationDeg: 45
+  - id: shape4
+    type: shape
+    frame:
+      x: 1451.76
+      y: 64.97
+      width: 353
+      height: 51
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF1744"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1.5
+    rotationDeg: 3
+  - id: text1
+    type: text
+    name: END OF TRANSMISSION
+    frame:
+      x: 1451.76
+      y: 64.97
+      width: 353.05
+      height: 51
+    body:
+      paragraphs:
+        - runs:
+            - text: END OF TRANSMISSION
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 19.2
+        bottom: 2.7
+        left: 19.2
+    rotationDeg: 3
+  - id: text2
+    type: text
+    name: READY TO CAUSE
+    frame:
+      x: 358.265
+      y: 170
+      width: 1196.05
+      height: 117
+    body:
+      paragraphs:
+        - runs:
+            - text: READY TO CAUSE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 38.4
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -2
+  - id: shape5
+    type: shape
+    frame:
+      x: 363.81
+      y: 330
+      width: 1196
+      height: 223
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+    rotationDeg: 2
+  - id: text3
+    type: text
+    name: SOME CHAOS?
+    frame:
+      x: 405.07
+      y: 340.5
+      width: 1113.48
+      height: 202
+    body:
+      paragraphs:
+        - runs:
+            - text: SOME CHAOS?
+              font:
+                kind: family
+                family: Inter
+              sizePt: 67.2
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FFFDE7"
+              letterSpacingPt: 3.36
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 2
+  - id: shape6
+    type: shape
+    frame:
+      x: 441.64
+      y: 635.81
+      width: 480
+      height: 228
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFDE7"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 2
+    rotationDeg: 1
+  - id: text4
+    type: text
+    name: DROP A LINE
+    frame:
+      x: 485.08
+      y: 672.33
+      width: 395.05
+      height: 47
+    body:
+      paragraphs:
+        - runs:
+            - text: DROP A LINE
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 5.4
+        left: 0
+    rotationDeg: 1
+  - id: text5
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 483.91
+      y: 741.19
+      width: 395.05
+      height: 45
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 1
+  - id: text6
+    type: text
+    name: +1 800 NO RULEZ
+    frame:
+      x: 483.16
+      y: 784.37
+      width: 395.05
+      height: 45
+    body:
+      paragraphs:
+        - runs:
+            - text: +1 800 NO RULEZ
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 1
+  - id: shape7
+    type: shape
+    frame:
+      x: 997.97
+      y: 667.11
+      width: 480
+      height: 228
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF1744"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 2
+    rotationDeg: -2
+  - id: text7
+    type: text
+    name: STALK US
+    frame:
+      x: 1038.59
+      y: 703.66
+      width: 395.05
+      height: 47
+    body:
+      paragraphs:
+        - runs:
+            - text: STALK US
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 5.4
+        left: 0
+    rotationDeg: -2
+  - id: text8
+    type: text
+    name: "@acme_chaos"
+    frame:
+      x: 1040.92
+      y: 772.49
+      width: 395.05
+      height: 45
+    body:
+      paragraphs:
+        - runs:
+            - text: "@acme_chaos"
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -2
+  - id: text9
+    type: text
+    name: acme.co/void
+    frame:
+      x: 1042.43
+      y: 815.65
+      width: 395.05
+      height: 45
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co/void
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -2
+  - id: shape8
+    type: shape
+    frame:
+      x: 114.96
+      y: 970.03
+      width: 235
+      height: 45
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+    rotationDeg: -1
+  - id: text10
+    type: text
+    name: ACME.CO // 2026
+    frame:
+      x: 114.96
+      y: 970.03
+      width: 247.72
+      height: 81
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO // 2026
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFDE7"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 9.6
+        bottom: 2.7
+        left: 9.6
+    rotationDeg: -1
+  - id: text11
+    type: text
+    name: "04"
+    frame:
+      x: 1750.69
+      y: 957.4
+      width: 54.05
+      height: 58
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 5

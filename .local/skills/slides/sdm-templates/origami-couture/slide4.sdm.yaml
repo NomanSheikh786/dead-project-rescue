@@ -1,0 +1,249 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0A0A"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 45
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#0A0A0A"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#1A1A1A"
+  - id: text1
+    type: text
+    name: FIN
+    frame:
+      x: 1452.28
+      y: 432
+      width: 633.77
+      height: 576
+    body:
+      paragraphs:
+        - runs:
+            - text: FIN
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 192
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.02
+    rotationDeg: 0.02
+  - id: shape2
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 153.59
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text2
+    type: text
+    name: ISSUE 01
+    frame:
+      x: 30.3
+      y: 78.13
+      width: 104.55
+      height: 25
+    body:
+      paragraphs:
+        - runs:
+            - text: ISSUE 01
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#0A0A0A"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 270
+  - id: text3
+    type: text
+    name: Shape the
+    frame:
+      x: 288
+      y: 378
+      width: 745.82
+      height: 278.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Shape the
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 76.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -2.88
+          lineHeight: 0.9
+        - runs:
+            - text: Future.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 76.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -2.88
+          lineHeight: 0.9
+      overflow: visible
+  - id: text4
+    type: text
+    name: CONTACT US
+    frame:
+      x: 288
+      y: 740.86
+      width: 213.28
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CONTACT US
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#888888"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text5
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 288
+      y: 774.69
+      width: 213.28
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text6
+    type: text
+    name: FOLLOW
+    frame:
+      x: 654.83
+      y: 740.86
+      width: 222.57
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: FOLLOW
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#888888"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text7
+    type: text
+    name: "@acme.couture"
+    frame:
+      x: 654.83
+      y: 774.69
+      width: 235.92
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "@acme.couture"
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text8
+    type: text
+    name: "04"
+    frame:
+      x: 1776.42
+      y: 986.41
+      width: 31.44
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02

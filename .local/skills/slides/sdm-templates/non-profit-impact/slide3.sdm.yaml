@@ -1,0 +1,558 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FDF8F0"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1344
+      y: -192
+      width: 768
+      height: 768
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B5E5A"
+    opacity: 0.03
+  - id: shape2
+    type: shape
+    frame:
+      x: -96
+      y: 600
+      width: 576
+      height: 576
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4654A"
+    opacity: 0.03
+  - id: shape3
+    type: shape
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 48
+      height: 48
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#C4654A"
+      widthPt: 1
+  - id: shape4
+    type: shape
+    frame:
+      x: 129.59
+      y: 79.2
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4654A"
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 182.38
+      y: 71.52
+      width: 125.19
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: IMPACT METRICS
+    frame:
+      x: 1627.44
+      y: 74.39
+      width: 188.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: IMPACT METRICS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#C4654A"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Measurable Outcomes
+    frame:
+      x: 451.17
+      y: 192.73
+      width: 1017.65
+      height: 95.05
+    body:
+      paragraphs:
+        - runs:
+            - text: Measurable Outcomes
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Our commitment to transp...
+    frame:
+      x: 479.975
+      y: 309.38
+      width: 960.05
+      height: 82.63
+    body:
+      paragraphs:
+        - runs:
+            - text: Our commitment to transparency and accountability ensures that every dollar invested translates into tangible, lasting impact.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.85
+    rotationDeg: 0.02
+  - id: shape5
+    type: shape
+    frame:
+      x: 345.63
+      y: 553.2
+      width: 307.19
+      height: 307.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#1B5E5A"
+      widthPt: 0.5
+      opacity: 0.2
+  - id: shape6
+    type: shape
+    frame:
+      x: 374.42
+      y: 582
+      width: 249.59
+      height: 249.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FDF8F0"
+    stroke:
+      color:
+        kind: rgb
+        value: "#1B5E5A"
+      widthPt: 1
+  - id: text5
+    type: text
+    name: 85%
+    frame:
+      x: 421.75
+      y: 673.19
+      width: 154.96
+      height: 67.2
+    body:
+      paragraphs:
+        - runs:
+            - text: 85%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 33.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: text6
+    type: text
+    name: Graduation Rate
+    frame:
+      x: 409.8
+      y: 892.78
+      width: 201
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Graduation Rate
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Among program participan...
+    frame:
+      x: 356.72
+      y: 938.14
+      width: 284.98
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Among program participants within 2 years.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+    rotationDeg: 0.02
+  - id: shape7
+    type: shape
+    frame:
+      x: 768
+      y: 476.39
+      width: 384
+      height: 384
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#1B5E5A"
+      widthPt: 0.5
+      opacity: 0.2
+  - id: shape8
+    type: shape
+    frame:
+      x: 796.8
+      y: 505.19
+      width: 326.39
+      height: 326.39
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B5E5A"
+  - id: text8
+    type: text
+    name: 250K
+    frame:
+      x: 844.53
+      y: 625.17
+      width: 230.94
+      height: 86.41
+    body:
+      paragraphs:
+        - runs:
+            - text: 250K
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FDF8F0"
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 1093.42
+      y: 821.02
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4654A"
+  - id: text9
+    type: text
+    name: Meals Provided
+    frame:
+      x: 874.09
+      y: 892.78
+      width: 193.09
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Meals Provided
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Nutritious meals distrib...
+    frame:
+      x: 806.385
+      y: 938.14
+      width: 307.24
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Nutritious meals distributed in food deserts.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+    rotationDeg: 0.02
+  - id: shape10
+    type: shape
+    frame:
+      x: 1267.19
+      y: 553.2
+      width: 307.19
+      height: 307.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#1B5E5A"
+      widthPt: 0.5
+      opacity: 0.2
+  - id: shape11
+    type: shape
+    frame:
+      x: 1295.98
+      y: 582
+      width: 249.59
+      height: 249.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4654A"
+  - id: text11
+    type: text
+    name: $14M
+    frame:
+      x: 1323.43
+      y: 673.19
+      width: 194.69
+      height: 67.2
+    body:
+      paragraphs:
+        - runs:
+            - text: $14M
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 33.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FDF8F0"
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: text12
+    type: text
+    name: Economic Value
+    frame:
+      x: 1331.81
+      y: 892.78
+      width: 177.97
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Economic Value
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Generated locally throug...
+    frame:
+      x: 1286.355
+      y: 938.14
+      width: 268.85
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Generated locally through micro-grants.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape12
+    type: shape
+    frame:
+      x: 115.19
+      y: 1035.81
+      width: 793.91
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B5E5A"
+    opacity: 0.2
+  - id: text14
+    type: text
+    name: "03"
+    frame:
+      x: 909.09
+      y: 1010.89
+      width: 107.96
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B5E5A"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 19.2
+        bottom: 0
+        left: 19.2
+    opacity: 0.6
+  - id: shape13
+    type: shape
+    frame:
+      x: 1010.89
+      y: 1035.81
+      width: 793.92
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B5E5A"
+    opacity: 0.2

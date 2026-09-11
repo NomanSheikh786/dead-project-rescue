@@ -1,0 +1,356 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0805"
+elements:
+  - id: text1
+    type: text
+    name: THE LANDSCAPE
+    frame:
+      x: 115.19
+      y: 115.19
+      width: 172.71
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: THE LANDSCAPE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#C4865A"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "03"
+    frame:
+      x: 1784.09
+      y: 115.19
+      width: 24.77
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text3
+    type: text
+    name: GLOBAL IMPACT
+    frame:
+      x: 115.19
+      y: 205.91
+      width: 1689.68
+      height: 77.77
+    body:
+      paragraphs:
+        - runs:
+            - text: GLOBAL IMPACT
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 43.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+              letterSpacingPt: -0.864
+          lineHeight: 0.9
+      overflow: visible
+  - id: text4
+    type: text
+    name: $2.4B
+    frame:
+      x: 115.19
+      y: 457.23
+      width: 512.05
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: $2.4B
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#C4865A"
+          lineHeight: 1
+      overflow: visible
+  - id: text5
+    type: text
+    name: MARKET SIZE
+    frame:
+      x: 115.19
+      y: 583.23
+      width: 512.05
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: MARKET SIZE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 633.63
+      width: 512
+      height: 216
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1510"
+  - id: shape2
+    type: shape
+    frame:
+      x: 115.19
+      y: 720.03
+      width: 512
+      height: 129.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4865A"
+  - id: text6
+    type: text
+    name: 85M+
+    frame:
+      x: 703.98
+      y: 457.23
+      width: 512.07
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: 85M+
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+          lineHeight: 1
+      overflow: visible
+  - id: text7
+    type: text
+    name: ACTIVE SKATERS
+    frame:
+      x: 703.98
+      y: 583.23
+      width: 512.07
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ACTIVE SKATERS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: shape3
+    type: shape
+    frame:
+      x: 703.98
+      y: 633.63
+      width: 512.02
+      height: 216
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1510"
+  - id: shape4
+    type: shape
+    frame:
+      x: 703.98
+      y: 666.03
+      width: 512.02
+      height: 183.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5EDE0"
+    opacity: 0.9
+  - id: text8
+    type: text
+    name: 120%
+    frame:
+      x: 1292.8
+      y: 457.23
+      width: 512.07
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: 120%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#C4865A"
+          lineHeight: 1
+      overflow: visible
+  - id: text9
+    type: text
+    name: YOY GROWTH
+    frame:
+      x: 1292.8
+      y: 583.23
+      width: 512.07
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: YOY GROWTH
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: shape5
+    type: shape
+    frame:
+      x: 1292.8
+      y: 633.63
+      width: 512.02
+      height: 216
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1510"
+  - id: shape6
+    type: shape
+    frame:
+      x: 1292.8
+      y: 763.23
+      width: 512.02
+      height: 86.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4865A"
+    opacity: 0.6
+  - id: text10
+    type: text
+    name: NO RULES
+    frame:
+      x: 115.19
+      y: 941.78
+      width: 117.28
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: NO RULES
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text11
+    type: text
+    name: acme.co
+    frame:
+      x: 1726.73
+      y: 936.02
+      width: 78.13
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#C4865A"
+          lineHeight: 1.5
+      overflow: visible

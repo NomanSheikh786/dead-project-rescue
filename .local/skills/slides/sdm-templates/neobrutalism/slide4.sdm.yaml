@@ -1,0 +1,653 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FF90E8"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 204
+      y: 228
+      width: 1536
+      height: 648
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+    rotationDeg: -2
+  - id: shape2
+    type: shape
+    frame:
+      x: 192
+      y: 216
+      width: 1536
+      height: 648
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8FF8B"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 2
+    rotationDeg: -2
+  - id: shape3
+    type: shape
+    frame:
+      x: 118.19
+      y: 67.8
+      width: 160.19
+      height: 53.5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape4
+    type: shape
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 160.19
+      height: 53.5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1.5
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 160.24
+      height: 53.5
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E8FF8B"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 3.24
+        right: 14.4
+        bottom: 3.24
+        left: 14.4
+  - id: shape5
+    type: shape
+    frame:
+      x: 1678.72
+      y: 74.27
+      width: 129.09
+      height: 40.55
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape6
+    type: shape
+    frame:
+      x: 1675.72
+      y: 71.27
+      width: 129.09
+      height: 40.55
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1.5
+  - id: text2
+    type: text
+    name: Let's Talk
+    frame:
+      x: 1675.72
+      y: 71.27
+      width: 145.1
+      height: 40.55
+    body:
+      paragraphs:
+        - runs:
+            - text: Let's Talk
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.16
+        right: 11.52
+        bottom: 2.16
+        left: 11.52
+  - id: shape7
+    type: shape
+    frame:
+      x: 800
+      y: 294.47
+      width: 328
+      height: 66
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+    rotationDeg: 2
+  - id: shape8
+    type: shape
+    frame:
+      x: 796
+      y: 290.47
+      width: 328
+      height: 66
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#90C8FF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1.5
+    rotationDeg: 2
+  - id: text3
+    type: text
+    name: READY TO START?
+    frame:
+      x: 786.13
+      y: 290.47
+      width: 347.73
+      height: 66
+    body:
+      paragraphs:
+        - runs:
+            - text: READY TO START?
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 800
+              color:
+                kind: rgb
+                value: "#000000"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 4.32
+        right: 19.2
+        bottom: 4.32
+        left: 19.2
+    rotationDeg: 2
+  - id: text4
+    type: text
+    name: GET IN TOUCH
+    frame:
+      x: 422.41
+      y: 389.08
+      width: 1075.17
+      height: 140.23
+    body:
+      paragraphs:
+        - runs:
+            - text: GET IN TOUCH
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 76.8
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+          align: center
+          lineHeight: 0.9
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 647.88
+      y: 598.09
+      width: 335.41
+      height: 92.38
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape10
+    type: shape
+    frame:
+      x: 641.88
+      y: 592.09
+      width: 335.41
+      height: 92.38
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1.5
+  - id: text5
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 641.855
+      y: 592.09
+      width: 335.46
+      height: 92.38
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#000000"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 28.8
+        bottom: 10.8
+        left: 28.8
+  - id: shape11
+    type: shape
+    frame:
+      x: 1021.67
+      y: 598.09
+      width: 262.44
+      height: 92.38
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: shape12
+    type: shape
+    frame:
+      x: 1015.67
+      y: 592.09
+      width: 262.44
+      height: 92.38
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1.5
+  - id: text6
+    type: text
+    name: "@acmeco"
+    frame:
+      x: 1015.645
+      y: 592.09
+      width: 262.49
+      height: 92.38
+    body:
+      paragraphs:
+        - runs:
+            - text: "@acmeco"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 28.8
+        bottom: 10.8
+        left: 28.8
+  - id: shape13
+    type: shape
+    frame:
+      x: 856.42
+      y: 751.27
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape14
+    type: shape
+    frame:
+      x: 854.42
+      y: 749.27
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1
+  - id: shape15
+    type: shape
+    frame:
+      x: 933.2
+      y: 751.27
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape16
+    type: shape
+    frame:
+      x: 931.2
+      y: 749.27
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1
+  - id: shape17
+    type: shape
+    frame:
+      x: 1009.98
+      y: 751.27
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape18
+    type: shape
+    frame:
+      x: 1007.98
+      y: 749.27
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1
+  - id: shape19
+    type: shape
+    frame:
+      x: 117.19
+      y: 980.81
+      width: 127.03
+      height: 36.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape20
+    type: shape
+    frame:
+      x: 115.19
+      y: 978.81
+      width: 127.03
+      height: 36.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1
+  - id: text7
+    type: text
+    name: Thank You
+    frame:
+      x: 115.19
+      y: 978.81
+      width: 134.7
+      height: 36.39
+    body:
+      paragraphs:
+        - runs:
+            - text: Thank You
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 1.62
+        right: 9.6
+        bottom: 1.62
+        left: 9.6
+  - id: shape23
+    type: shape
+    frame:
+      x: 1484.41
+      y: 686.41
+      width: 345.59
+      height: 345.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape24
+    type: shape
+    frame:
+      x: 1478.41
+      y: 680.41
+      width: 345.59
+      height: 345.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#90C8FF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1.5
+  - id: shape21
+    type: shape
+    frame:
+      x: 1740.7
+      y: 980.81
+      width: 66.11
+      height: 36.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape22
+    type: shape
+    frame:
+      x: 1738.7
+      y: 978.81
+      width: 66.11
+      height: 36.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1
+  - id: text8
+    type: text
+    name: "04"
+    frame:
+      x: 1738.7
+      y: 978.81
+      width: 66.16
+      height: 36.39
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 1.62
+        right: 9.6
+        bottom: 1.62
+        left: 9.6

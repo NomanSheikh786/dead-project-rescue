@@ -1,0 +1,394 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0A14"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: photo-aurora
+    altText: Aurora background
+    fit: cover
+    opacity: 0.1
+  - id: text1
+    type: text
+    name: EXPEDITION DATA
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 1689.68
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EXPEDITION DATA
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text2
+    type: text
+    name: SEASONAL PROBABILITIES
+    frame:
+      x: 153.58
+      y: 402.08
+      width: 564.53
+      height: 161.28
+    body:
+      paragraphs:
+        - runs:
+            - text: SEASONAL PROBABILITIES
+              font:
+                kind: family
+                family: Inter
+              sizePt: 33.6
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.68
+          lineHeight: 1.2
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.58
+      y: 606.55
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.5
+  - id: text3
+    type: text
+    name: Solar activity reaches i...
+    frame:
+      x: 153.58
+      y: 650.73
+      width: 564.53
+      height: 135.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Solar activity reaches its peak during the equinox months. Optimal viewing conditions are carefully modeled to maximize successful sightings across all expedition routes.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.528
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+  - id: text4
+    type: text
+    name: OCTOBER - MARCH
+    frame:
+      x: 960
+      y: 458.72
+      width: 223.96
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: OCTOBER - MARCH
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text5
+    type: text
+    name: 94%
+    frame:
+      x: 1716.33
+      y: 458.72
+      width: 50.14
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 94%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 960
+      y: 503.7
+      width: 806.42
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: shape3
+    type: shape
+    frame:
+      x: 960
+      y: 503.7
+      width: 758.03
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text6
+    type: text
+    name: SEPTEMBER & APRIL
+    frame:
+      x: 960
+      y: 570.5
+      width: 251.09
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: SEPTEMBER & APRIL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text7
+    type: text
+    name: 72%
+    frame:
+      x: 1718.38
+      y: 570.5
+      width: 52.1
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 72%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 960
+      y: 615.48
+      width: 806.42
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: shape5
+    type: shape
+    frame:
+      x: 960
+      y: 615.48
+      width: 580.61
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text8
+    type: text
+    name: CLEAR SKY PROBABILITY
+    frame:
+      x: 960
+      y: 682.28
+      width: 292.5
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CLEAR SKY PROBABILITY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text9
+    type: text
+    name: 85%
+    frame:
+      x: 1717.34
+      y: 682.28
+      width: 52.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 85%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 960
+      y: 727.27
+      width: 806.42
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: shape7
+    type: shape
+    frame:
+      x: 960
+      y: 727.27
+      width: 685.45
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text10
+    type: text
+    name: "03"
+    frame:
+      x: 115.19
+      y: 970.58
+      width: 23.39
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text11
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 1509.58
+      y: 970.58
+      width: 331.78
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+assets:
+  photo-aurora:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/photo-aurora.png

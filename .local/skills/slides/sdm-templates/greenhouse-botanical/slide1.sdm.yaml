@@ -1,0 +1,223 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#1A3A2A"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: greenhouse-interior
+    altText: Greenhouse interior
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 119.36
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.4
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.6
+          color:
+            kind: rgb
+            value: "#F5F0E8"
+          opacity: 0.7
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#F5F0E8"
+          opacity: 0.95
+  - id: text1
+    type: text
+    name: 🌿 BOTANICAL COLLECTION
+    frame:
+      x: 1407
+      y: 572.52
+      width: 359.41
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 🌿 BOTANICAL COLLECTION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+              letterSpacingPt: 1.92
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Example Deck
+    frame:
+      x: 1028.93
+      y: 622.91
+      width: 737.47
+      height: 255
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+              italic: true
+          align: right
+          lineHeight: 1.1
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text3
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 952.28
+      y: 782.02
+      width: 814.13
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: shape2
+    type: shape
+    frame:
+      x: 1574.41
+      y: 928.89
+      width: 192
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A3A2A"
+      opacity: 0.3
+  - id: text4
+    type: text
+    name: EST. 2026
+    frame:
+      x: 1574.36
+      y: 928.89
+      width: 192.05
+      height: 43.11
+    body:
+      paragraphs:
+        - runs:
+            - text: EST. 2026
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+              italic: true
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 0
+        bottom: 0
+        left: 0
+    opacity: 0.7
+  - id: text5
+    type: text
+    name: acme.co
+    frame:
+      x: 76.8
+      y: 1018.81
+      width: 82.36
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 200
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Confidential
+    frame:
+      x: 1727.09
+      y: 1018.81
+      width: 135.16
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 200
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  greenhouse-interior:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/greenhouse-interior.png

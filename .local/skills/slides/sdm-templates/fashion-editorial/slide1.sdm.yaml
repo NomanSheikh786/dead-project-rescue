@@ -1,0 +1,157 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#000000"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: photo-fashion-face
+    altText: Fashion Face
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 810
+      width: 1920
+      height: 270
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 0
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.4
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape2
+    type: shape
+    frame:
+      x: 57.59
+      y: 756.02
+      width: 2
+      height: 237.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF2D78"
+  - id: text1
+    type: text
+    name: NOVA
+    frame:
+      x: 134.38
+      y: 691.59
+      width: 1670.49
+      height: 186.31
+    body:
+      paragraphs:
+        - runs:
+            - text: NOVA
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 115.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+          lineHeight: 0.8
+      overflow: visible
+  - id: text2
+    type: text
+    name: CREATIVE AGENCY
+    frame:
+      x: 134.38
+      y: 908.3
+      width: 1670.49
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: CREATIVE AGENCY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 6.912
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Redefining beauty throug...
+    frame:
+      x: 134.38
+      y: 959.05
+      width: 1670.49
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Redefining beauty through bold expression.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text4
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 1291.06
+      y: 1013.78
+      width: 544.63
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL © 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+assets:
+  photo-fashion-face:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/photo-fashion-face.png

@@ -1,0 +1,388 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0A0A"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1152
+      height: 1080
+    assetId: street-mural
+    altText: Street Mural
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1152
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#0A0A0A"
+          opacity: 0.2
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#0A0A0A"
+  - id: shape2
+    type: shape
+    frame:
+      x: 960
+      y: 0
+      width: 960
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0A0A0A"
+  - id: text1
+    type: text
+    name: /////
+    frame:
+      x: 1075.19
+      y: 190.22
+      width: 73.28
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: /////
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#D4695A"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: GET INVOLVED
+    frame:
+      x: 1173.06
+      y: 191.66
+      width: 146.6
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: GET INVOLVED
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#D4695A"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: JOIN THE
+    frame:
+      x: 1075.19
+      y: 259.33
+      width: 729.68
+      height: 209.34
+    body:
+      paragraphs:
+        - runs:
+            - text: JOIN THE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -1.152
+          lineHeight: 0.9
+        - runs:
+            - text: MOVEMENT
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -1.152
+          lineHeight: 0.9
+      overflow: visible
+  - id: text4
+    type: text
+    name: Partner with us to trans...
+    frame:
+      x: 1075.19
+      y: 499.06
+      width: 576.05
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Partner with us to transform the next blank wall in your neighborhood into a local landmark.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 1075.19
+      y: 737.02
+      width: 672
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+  - id: text5
+    type: text
+    name: WEB
+    frame:
+      x: 1075.19
+      y: 689.14
+      width: 50.05
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: WEB
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: streetmural.art
+    frame:
+      x: 1557.2
+      y: 689.14
+      width: 190.03
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: streetmural.art
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1075.19
+      y: 812.9
+      width: 672
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+  - id: text7
+    type: text
+    name: EMAIL
+    frame:
+      x: 1075.19
+      y: 765.02
+      width: 70.38
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: EMAIL
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: hello@streetmural.art
+    frame:
+      x: 1481.2
+      y: 765.02
+      width: 266.03
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@streetmural.art
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 1075.19
+      y: 888.77
+      width: 672
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+  - id: text9
+    type: text
+    name: SOCIAL
+    frame:
+      x: 1075.19
+      y: 840.89
+      width: 80.61
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: SOCIAL
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: "@streetmural_project"
+    frame:
+      x: 1493.88
+      y: 840.89
+      width: 253.36
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: "@streetmural_project"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: acme.co
+    frame:
+      x: 1075.19
+      y: 1010.89
+      width: 72.57
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text12
+    type: text
+    name: "04"
+    frame:
+      x: 1784.09
+      y: 1010.89
+      width: 24.77
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+assets:
+  street-mural:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/street-mural.png

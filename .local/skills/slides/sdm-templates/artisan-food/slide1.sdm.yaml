@@ -1,0 +1,208 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#111111"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: photo-food-bread
+    altText: Artisan sourdough bread on dark marble
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.6
+        - offset: 0.3
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.3
+        - offset: 0.6
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: text1
+    type: text
+    name: EXAMPLE COMPANY
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 864.05
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text2
+    type: text
+    name: Hearth
+    frame:
+      x: 115.19
+      y: 147.58
+      width: 864.05
+      height: 274.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Hearth
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+              letterSpacingPt: -1.152
+          lineHeight: 1.1
+        - runs:
+            - text: "&"
+              sizePt: 67.2
+              weight: 300
+              color:
+                kind: rgb
+                value: "#D4A86A"
+              italic: true
+            - text: Grain
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+          lineHeight: 0.943
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            letterSpacingPt: -1.152
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 115.19
+      y: 465.33
+      width: 57.59
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A86A"
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: The honest craft of slow...
+    frame:
+      x: 115.19
+      y: 467.33
+      width: 864.05
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: The honest craft of slow baking.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+              letterSpacingPt: 0.23
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text4
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 115.19
+      y: 970.58
+      width: 428.26
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text5
+    type: text
+    name: "2026"
+    frame:
+      x: 1765.72
+      y: 970.58
+      width: 42.14
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFF8F0"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+assets:
+  photo-food-bread:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/photo-food-bread.png

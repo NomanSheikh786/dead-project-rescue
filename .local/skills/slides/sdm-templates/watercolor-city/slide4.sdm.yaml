@@ -1,0 +1,388 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#000000"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: illust-watercolor-city
+    altText: Watercolor City
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.3
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.7
+  - id: text1
+    type: text
+    name: CONNECT
+    frame:
+      x: 96
+      y: 54
+      width: 108.75
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CONNECT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFDFD"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1769.36
+      y: 54
+      width: 60.69
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFDFD"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: Shape the Future
+    frame:
+      x: 395.79
+      y: 309.42
+      width: 1128.41
+      height: 309
+    body:
+      paragraphs:
+        - runs:
+            - text: Shape the Future
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 76.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FDFDFD"
+              italic: true
+              letterSpacingPt: -1.536
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Join us in redefining th...
+    frame:
+      x: 575.975
+      y: 495.41
+      width: 768.05
+      height: 82.63
+    body:
+      paragraphs:
+        - runs:
+            - text: Join us in redefining the modern skyline. Let's create something extraordinary together.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFDFD"
+              letterSpacingPt: 0.72
+          align: center
+          lineHeight: 1.4
+      overflow: visible
+    opacity: 0.9
+    rotationDeg: 0.02
+  - id: shape2
+    type: shape
+    frame:
+      x: 378.2
+      y: 640.83
+      width: 1163.59
+      height: 129.77
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.08
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.15
+  - id: text5
+    type: text
+    name: EMAIL
+    frame:
+      x: 475.2
+      y: 674.22
+      width: 231.46
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EMAIL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FDFDFD"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text6
+    type: text
+    name: vision@example.com
+    frame:
+      x: 475.2
+      y: 702.64
+      width: 231.46
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: vision@example.com
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FDFDFD"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 783.41
+      y: 674.22
+      width: 1
+      height: 62.98
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text7
+    type: text
+    name: PHONE
+    frame:
+      x: 861.2
+      y: 674.22
+      width: 200.32
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: PHONE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FDFDFD"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text8
+    type: text
+    name: +1 (555) 019-2026
+    frame:
+      x: 861.2
+      y: 702.64
+      width: 238.58
+      height: 71
+    body:
+      paragraphs:
+        - runs:
+            - text: +1 (555) 019-2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FDFDFD"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1138.27
+      y: 674.22
+      width: 1
+      height: 62.98
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text9
+    type: text
+    name: OFFICE
+    frame:
+      x: 1216.06
+      y: 674.22
+      width: 228.78
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: OFFICE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FDFDFD"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text10
+    type: text
+    name: 100 Horizon Way, NY
+    frame:
+      x: 1216.06
+      y: 702.64
+      width: 257.06
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 100 Horizon Way, NY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FDFDFD"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 96
+      y: 1002.97
+      width: 331.78
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFDFD"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text12
+    type: text
+    name: "04"
+    frame:
+      x: 1803.27
+      y: 997.2
+      width: 26.78
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFDFD"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+assets:
+  illust-watercolor-city:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/illust-watercolor-city.png

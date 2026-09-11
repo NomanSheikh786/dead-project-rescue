@@ -1,0 +1,186 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: linearGradient
+  angleDeg: 90
+  stops:
+    - offset: 0
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0
+    - offset: 0.3
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0
+    - offset: 0.7
+      color:
+        kind: rgb
+        value: "#19140F"
+      opacity: 0.85
+    - offset: 1
+      color:
+        kind: rgb
+        value: "#19140F"
+      opacity: 0.95
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: stormy-wheat-field
+    altText: Stormy Wheat Field
+    fit: cover
+  - id: shape2
+    type: shape
+    frame:
+      x: 0
+      y: 470
+      width: 1920
+      height: 380
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#19140F"
+          opacity: 0
+        - offset: 0.3
+          color:
+            kind: rgb
+            value: "#19140F"
+          opacity: 0.5
+        - offset: 0.75
+          color:
+            kind: rgb
+            value: "#19140F"
+          opacity: 0.5
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#19140F"
+          opacity: 0
+  - id: text1
+    type: text
+    name: CHAPTER ONE
+    frame:
+      x: 864
+      y: 329.41
+      width: 212.14
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CHAPTER ONE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#B5A07A"
+              letterSpacingPt: 2.88
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Example Deck
+    frame:
+      x: 864
+      y: 379.8
+      width: 798.35
+      height: 128.72
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8DFD0"
+              letterSpacingPt: -1.152
+          lineHeight: 1.1
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape1
+    type: shape
+    frame:
+      x: 864
+      y: 549.7
+      width: 230.39
+      height: 2.16
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B5A07A"
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 864
+      y: 595.05
+      width: 672.05
+      height: 155.53
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 300
+              color:
+                kind: rgb
+                value: "#B5A07A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: acme.co
+    frame:
+      x: 1770.22
+      y: 1013.78
+      width: 73.03
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B5A07A"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+assets:
+  stormy-wheat-field:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/stormy-wheat-field.png

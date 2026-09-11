@@ -1,0 +1,217 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F5F0"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1536
+      y: 96
+      width: 288
+      height: 288
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#E8878C"
+      widthPt: 2.5
+  - id: shape2
+    type: shape
+    frame:
+      x: 1497.61
+      y: 0
+      width: 230.39
+      height: 230.39
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#7B9FCC"
+      widthPt: 2.5
+  - id: shape3
+    type: shape
+    frame:
+      x: 1728
+      y: 192
+      width: 192
+      height: 192
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#7BC8A4"
+      widthPt: 2.5
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 134.22
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1E1E1E"
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1757.39
+      y: 67.67
+      width: 52.47
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Example Deck
+    frame:
+      x: 115.19
+      y: 437.16
+      width: 1689.68
+      height: 141.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 67.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1E1E1E"
+              letterSpacingPt: -2.688
+          lineHeight: 1.05
+      overflow: visible
+  - id: text4
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 115.19
+      y: 610.67
+      width: 864.05
+      height: 115.22
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 115.19
+      y: 986.41
+      width: 320
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1636.06
+      y: 955.69
+      width: 168.75
+      height: 59.52
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text6
+    type: text
+    name: Confidential
+    frame:
+      x: 1636.06
+      y: 955.69
+      width: 180.8
+      height: 59.52
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1E1E1E"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 7.68
+        right: 14.4
+        bottom: 7.68
+        left: 14.4

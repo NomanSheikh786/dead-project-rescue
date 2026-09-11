@@ -1,0 +1,356 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#1A1B26"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 921.59
+      y: 181.53
+      width: 76.8
+      height: 76.8
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7AA2F7"
+  - id: shape2
+    type: shape
+    frame:
+      x: 940.8
+      y: 200.73
+      width: 38.39
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1B26"
+  - id: text1
+    type: text
+    name: Start Building Today
+    frame:
+      x: 450.14
+      y: 301.52
+      width: 1019.72
+      height: 144
+    body:
+      paragraphs:
+        - runs:
+            - text: Start Building Today
+              font:
+                kind: family
+                family: Inter
+              sizePt: 48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.96
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Join thousands of develo...
+    frame:
+      x: 474.35
+      y: 477.91
+      width: 971.31
+      height: 94.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Join thousands of developers building scalable, reliable integrations with our robust API infrastructure.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9AA5CE"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape3
+    type: shape
+    frame:
+      x: 649.47
+      y: 634.83
+      width: 245.81
+      height: 79.75
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7AA2F7"
+  - id: text3
+    type: text
+    name: Get API Key
+    frame:
+      x: 649.47
+      y: 634.83
+      width: 260.61
+      height: 79.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Get API Key
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1B26"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 28.8
+        bottom: 10.8
+        left: 28.8
+  - id: shape4
+    type: shape
+    frame:
+      x: 933.67
+      y: 634.83
+      width: 336.86
+      height: 79.75
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.1
+  - id: text4
+    type: text
+    name: View Full Reference
+    frame:
+      x: 933.67
+      y: 634.83
+      width: 357.12
+      height: 79.75
+    body:
+      paragraphs:
+        - runs:
+            - text: View Full Reference
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 28.8
+        bottom: 10.8
+        left: 28.8
+  - id: shape5
+    type: shape
+    frame:
+      x: 486.28
+      y: 822.58
+      width: 947.42
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+  - id: shape6
+    type: shape
+    frame:
+      x: 486.28
+      y: 873.02
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#9ECE6A"
+  - id: text5
+    type: text
+    name: 99.99% Uptime
+    frame:
+      x: 524.66
+      y: 866.77
+      width: 165.3
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: 99.99% Uptime
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C0CAF5"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 757.34
+      y: 873.02
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0AF68"
+  - id: text6
+    type: text
+    name: 24/7 Developer Support
+    frame:
+      x: 795.72
+      y: 866.77
+      width: 268.78
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: 24/7 Developer Support
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C0CAF5"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 1111.69
+      y: 873.02
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7AA2F7"
+  - id: text7
+    type: text
+    name: SDKs for Node, Python & ...
+    frame:
+      x: 1150.06
+      y: 866.77
+      width: 318.75
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: SDKs for Node, Python & Go
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C0CAF5"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: "04"
+    frame:
+      x: 153.59
+      y: 964.81
+      width: 27.03
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#565F89"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 1466.45
+      y: 966.25
+      width: 300
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#565F89"
+          align: right
+          lineHeight: 1.5
+      overflow: visible

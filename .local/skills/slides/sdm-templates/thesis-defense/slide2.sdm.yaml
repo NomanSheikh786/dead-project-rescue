@@ -1,0 +1,360 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#1A2332"
+elements:
+  - id: text1
+    type: text
+    name: PROBLEM STATEMENT
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 304.87
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: PROBLEM STATEMENT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+              letterSpacingPt: 1.584
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: acme.co
+    frame:
+      x: 1671.17
+      y: 86.39
+      width: 95.24
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.528
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Research Methodology
+    frame:
+      x: 153.59
+      y: 172.06
+      width: 1612.86
+      height: 90.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Research Methodology
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.384
+          lineHeight: 1.15
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 281.97
+      width: 76.8
+      height: 5.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A90E2"
+  - id: text4
+    type: text
+    name: Theoretical Framework
+    frame:
+      x: 153.59
+      y: 341.72
+      width: 690.27
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Theoretical Framework
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: The current approach rel...
+    frame:
+      x: 153.59
+      y: 415.16
+      width: 731.69
+      height: 174
+    body:
+      paragraphs:
+        - runs:
+            - text: The current approach relies on establishing a comprehensive model of decentralized systems. Our framework attempts to bridge the gap between deterministic structures and stochastic behavior.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text6
+    type: text
+    name: Analysis of temporal con...
+    frame:
+      x: 191.98
+      y: 619.55
+      width: 651.88
+      height: 50.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Analysis of temporal constraints
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+          lineHeight: 1.8
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text7
+    type: text
+    name: Evaluation of legacy sys...
+    frame:
+      x: 191.98
+      y: 667.92
+      width: 651.88
+      height: 50.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Evaluation of legacy system overhead
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+          lineHeight: 1.8
+      overflow: visible
+  - id: text8
+    type: text
+    name: Stochastic modeling of n...
+    frame:
+      x: 191.98
+      y: 716.3
+      width: 651.88
+      height: 50.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Stochastic modeling of network requests
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+          lineHeight: 1.8
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 959
+      y: 341.72
+      width: 807.41
+      height: 549.39
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8E9EBB"
+      opacity: 0.05
+    stroke:
+      color:
+        kind: rgb
+        value: "#8E9EBB"
+      widthPt: 0.5
+      opacity: 0.2
+  - id: text9
+    type: text
+    name: KEY FINDINGS
+    frame:
+      x: 1017.59
+      y: 481.05
+      width: 690.27
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: KEY FINDINGS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#4A90E2"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: '"The integration of modu...'
+    frame:
+      x: 1017.59
+      y: 537.2
+      width: 731.69
+      height: 161.3
+    body:
+      paragraphs:
+        - runs:
+            - text: '"The integration of modular nodes resulted in a 40% reduction in cognitive latency during peak load."'
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.4
+      overflow: visible
+  - id: text11
+    type: text
+    name: — Pre-defense validation...
+    frame:
+      x: 1017.59
+      y: 720.09
+      width: 690.27
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: — Pre-defense validation report
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape3
+    type: shape
+    frame:
+      x: 153.59
+      y: 934.3
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8E9EBB"
+      opacity: 0.2
+  - id: text12
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 153.59
+      y: 967.69
+      width: 209.43
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Page 2
+    frame:
+      x: 1704.45
+      y: 967.69
+      width: 65.72
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Page 2
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible

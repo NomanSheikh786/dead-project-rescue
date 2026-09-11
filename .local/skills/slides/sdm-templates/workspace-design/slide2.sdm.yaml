@@ -1,0 +1,391 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#121216"
+elements:
+  - id: text1
+    type: text
+    name: PROJECT BRIEF — OVERVIEW
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 313.48
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: PROJECT BRIEF — OVERVIEW
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: A New Approach
+    frame:
+      x: 153.59
+      y: 216
+      width: 729.64
+      height: 170.94
+    body:
+      paragraphs:
+        - runs:
+            - text: A New Approach
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 38.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -1.152
+          lineHeight: 1.1
+        - runs:
+            - text: To Spatial Design
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 38.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -1.152
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 428.13
+      width: 729.59
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text3
+    type: text
+    name: Our core philosophy cent...
+    frame:
+      x: 153.59
+      y: 472.31
+      width: 729.64
+      height: 147.5
+    body:
+      paragraphs:
+        - runs:
+            - text: Our core philosophy centers on the intersection of human behavior and environmental psychology. We believe that modern workspaces should adapt to the way people actually work, rather than forcing people to adapt to the space.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text4
+    type: text
+    name: By integrating biophilic...
+    frame:
+      x: 153.59
+      y: 652.2
+      width: 729.64
+      height: 110.63
+    body:
+      paragraphs:
+        - runs:
+            - text: By integrating biophilic elements and flexible zoning, we create environments that foster both deep focus and spontaneous collaboration.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text5
+    type: text
+    name: "01"
+    frame:
+      x: 1036.78
+      y: 216
+      width: 27.08
+      height: 111.58
+    body:
+      paragraphs:
+        - runs:
+            - text: "01"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.16
+        right: 0
+        bottom: 0
+        left: 0
+    opacity: 0.5
+  - id: text6
+    type: text
+    name: Adaptive Architecture
+    frame:
+      x: 1098.2
+      y: 216
+      width: 668.24
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Adaptive Architecture
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Modular layouts that can...
+    frame:
+      x: 1098.2
+      y: 269.98
+      width: 668.24
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Modular layouts that can be reconfigured in minutes to support varying team sizes and project phases.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: "02"
+    frame:
+      x: 1036.78
+      y: 370.77
+      width: 27.08
+      height: 111.58
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.16
+        right: 0
+        bottom: 0
+        left: 0
+    opacity: 0.5
+  - id: text9
+    type: text
+    name: Biophilic Integration
+    frame:
+      x: 1098.2
+      y: 370.77
+      width: 668.24
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Biophilic Integration
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Seamless inclusion of na...
+    frame:
+      x: 1098.2
+      y: 424.75
+      width: 668.24
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Seamless inclusion of natural light, vegetation, and organic materials to reduce stress and elevate mood.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: "03"
+    frame:
+      x: 1036.78
+      y: 525.53
+      width: 27.08
+      height: 111.58
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.16
+        right: 0
+        bottom: 0
+        left: 0
+    opacity: 0.5
+  - id: text12
+    type: text
+    name: Acoustic Excellence
+    frame:
+      x: 1098.2
+      y: 525.53
+      width: 668.24
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Acoustic Excellence
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Advanced sound dampening...
+    frame:
+      x: 1098.2
+      y: 579.52
+      width: 668.24
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Advanced sound dampening materials integrated directly into the aesthetic framework of the space.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: "02"
+    frame:
+      x: 153.59
+      y: 989.28
+      width: 25.57
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: acme.co
+    frame:
+      x: 1680.92
+      y: 986.41
+      width: 85.53
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible

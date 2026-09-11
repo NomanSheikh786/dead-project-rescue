@@ -1,0 +1,560 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0A0A"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 639.92
+      y: 0
+      width: 1
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+  - id: shape2
+    type: shape
+    frame:
+      x: 1279.86
+      y: 0
+      width: 1
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+  - id: shape3
+    type: shape
+    frame:
+      x: 0
+      y: 216
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+  - id: text1
+    type: text
+    name: AVAILABLE COLORWAYS
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 1689.68
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: AVAILABLE COLORWAYS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -2.304
+          lineHeight: 1
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 115.19
+      y: 235.58
+      width: 192
+      height: 4
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#39FF14"
+  - id: text2
+    type: text
+    name: // FW26 COLLECTION
+    frame:
+      x: 345.58
+      y: 223.19
+      width: 279.1
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: // FW26 COLLECTION
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 115.19
+      y: 338.38
+      width: 512
+      height: 10.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+  - id: text3
+    type: text
+    name: "01"
+    frame:
+      x: 64
+      y: 443.55
+      width: 256.36
+      height: 288
+    body:
+      paragraphs:
+        - runs:
+            - text: "01"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 96
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.03
+  - id: text4
+    type: text
+    name: SHADOW BLACK
+    frame:
+      x: 115.19
+      y: 904.38
+      width: 512.05
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: SHADOW BLACK
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: $189
+    frame:
+      x: 115.19
+      y: 972.78
+      width: 77.75
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: $189
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: STANDARD
+    frame:
+      x: 532.2
+      y: 982.86
+      width: 95.03
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: STANDARD
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 703.98
+      y: 338.38
+      width: 512.02
+      height: 10.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text7
+    type: text
+    name: "02"
+    frame:
+      x: 652.8
+      y: 443.55
+      width: 260.68
+      height: 288
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 96
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.03
+  - id: text8
+    type: text
+    name: ARCTIC WHITE
+    frame:
+      x: 703.98
+      y: 904.38
+      width: 512.07
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: ARCTIC WHITE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: $189
+    frame:
+      x: 703.98
+      y: 972.78
+      width: 77.75
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: $189
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: STANDARD
+    frame:
+      x: 1121.02
+      y: 982.86
+      width: 95.03
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: STANDARD
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 1292.8
+      y: 338.38
+      width: 512.02
+      height: 10.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#39FF14"
+  - id: text11
+    type: text
+    name: "03"
+    frame:
+      x: 1241.61
+      y: 443.55
+      width: 264.99
+      height: 288
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 96
+              weight: 900
+              color:
+                kind: rgb
+                value: "#39FF14"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.05
+  - id: text12
+    type: text
+    name: VOLT GREEN
+    frame:
+      x: 1292.8
+      y: 904.38
+      width: 512.07
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: VOLT GREEN
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 800
+              color:
+                kind: rgb
+                value: "#39FF14"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: $199
+    frame:
+      x: 1292.8
+      y: 972.78
+      width: 77.75
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: $199
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: EXCLUSIVE
+    frame:
+      x: 1706.66
+      y: 982.86
+      width: 104.1
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EXCLUSIVE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#39FF14"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: image1
+    type: image
+    frame:
+      x: 115.19
+      y: 392.36
+      width: 512
+      height: 512
+    assetId: product-sneaker
+    altText: Shadow Black
+    fit: contain
+    rotationDeg: -15
+  - id: image2
+    type: image
+    frame:
+      x: 703.99
+      y: 392.37
+      width: 512
+      height: 512
+    assetId: product-sneaker
+    altText: Arctic White
+    fit: contain
+    rotationDeg: -15
+  - id: image3
+    type: image
+    frame:
+      x: 1267.2
+      y: 366.77
+      width: 563.2
+      height: 563.2
+    assetId: product-sneaker
+    altText: Volt Green
+    fit: contain
+    rotationDeg: -15
+  - id: shape8
+    type: shape
+    frame:
+      x: 1692.06
+      y: 392.28
+      width: 113
+      height: 34
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#39FF14"
+    rotationDeg: 5
+  - id: text15
+    type: text
+    name: LIMITED
+    frame:
+      x: 1692.06
+      y: 392.28
+      width: 119.83
+      height: 34
+    body:
+      paragraphs:
+        - runs:
+            - text: LIMITED
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 900
+              color:
+                kind: rgb
+                value: "#0A0A0A"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 9.6
+        bottom: 2.7
+        left: 9.6
+    rotationDeg: 5
+  - id: shape9
+    type: shape
+    frame:
+      x: 1229.8
+      y: 240
+      width: 575
+      height: 70.06
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#39FF14"
+      widthPt: 1
+  - id: text16
+    type: text
+    name: "DROP DATE: MARCH 15, 202..."
+    frame:
+      x: 1270.23
+      y: 253.44
+      width: 523.83
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "DROP DATE: MARCH 15, 2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 900
+              color:
+                kind: rgb
+                value: "#39FF14"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+assets:
+  product-sneaker:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/product-sneaker.png

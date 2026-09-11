@@ -1,0 +1,502 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#080505"
+elements:
+  - id: text1
+    type: text
+    name: ▲ TECTONIC
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 147.22
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ▲ TECTONIC
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#E85A3A"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: 03 // MAGNITUDE
+    frame:
+      x: 1620.48
+      y: 67.67
+      width: 195.44
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: 03 // MAGNITUDE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text3
+    type: text
+    name: MEASURING THE IMPACT
+    frame:
+      x: 115.19
+      y: 179.98
+      width: 1689.68
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: "MEASURING THE "
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+            - text: IMPACT
+              color:
+                kind: rgb
+                value: "#E85A3A"
+          lineHeight: 1.5
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Space Grotesk
+            sizePt: 28.8
+            weight: 700
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 115.19
+      y: 352.77
+      width: 512
+      height: 593.34
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0E8E0"
+      opacity: 0.03
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 352.77
+      width: 512
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E85A3A"
+  - id: text4
+    type: text
+    name: THERMAL EXPANSION
+    frame:
+      x: 172.78
+      y: 397.95
+      width: 396.86
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: THERMAL EXPANSION
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text5
+    type: text
+    name: 4.8x
+    frame:
+      x: 172.78
+      y: 514.38
+      width: 396.86
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: 4.8x
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+          lineHeight: 1
+      overflow: visible
+  - id: text6
+    type: text
+    name: +12% vs previous cycle
+    frame:
+      x: 172.78
+      y: 651.17
+      width: 396.86
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: +12% vs previous cycle
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E85A3A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Market capacity growth r...
+    frame:
+      x: 172.78
+      y: 816.53
+      width: 396.86
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: Market capacity growth rate over the last 18 months, indicating extreme subsurface heat.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: shape4
+    type: shape
+    frame:
+      x: 703.98
+      y: 352.77
+      width: 512.02
+      height: 593.34
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0E8E0"
+      opacity: 0.03
+  - id: shape3
+    type: shape
+    frame:
+      x: 703.98
+      y: 352.77
+      width: 512.02
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0E8E0"
+      opacity: 0.2
+  - id: text8
+    type: text
+    name: FAULT LINE DEPTH
+    frame:
+      x: 761.58
+      y: 397.95
+      width: 396.88
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: FAULT LINE DEPTH
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text9
+    type: text
+    name: 92%
+    frame:
+      x: 761.58
+      y: 514.38
+      width: 396.88
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: 92%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+          lineHeight: 1
+      overflow: visible
+  - id: text10
+    type: text
+    name: Penetration rate
+    frame:
+      x: 761.58
+      y: 651.17
+      width: 396.88
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Penetration rate
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text11
+    type: text
+    name: Percentage of legacy inf...
+    frame:
+      x: 761.58
+      y: 816.53
+      width: 396.88
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: Percentage of legacy infrastructure showing critical vulnerabilities to new technology.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: shape6
+    type: shape
+    frame:
+      x: 1292.8
+      y: 352.77
+      width: 512.02
+      height: 593.34
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0E8E0"
+      opacity: 0.03
+  - id: shape5
+    type: shape
+    frame:
+      x: 1292.8
+      y: 352.77
+      width: 512.02
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0E8E0"
+      opacity: 0.2
+  - id: text12
+    type: text
+    name: ERUPTION PROBABILITY
+    frame:
+      x: 1350.39
+      y: 397.95
+      width: 396.88
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ERUPTION PROBABILITY
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text13
+    type: text
+    name: 24m
+    frame:
+      x: 1350.39
+      y: 514.38
+      width: 396.88
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: 24m
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+          lineHeight: 1
+      overflow: visible
+  - id: text14
+    type: text
+    name: Time to critical mass
+    frame:
+      x: 1350.39
+      y: 651.17
+      width: 396.88
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Time to critical mass
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text15
+    type: text
+    name: Estimated timeframe befo...
+    frame:
+      x: 1350.39
+      y: 816.53
+      width: 396.88
+      height: 86.39
+    body:
+      paragraphs:
+        - runs:
+            - text: Estimated timeframe before permanent market restructuring completes.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text16
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 1010.89
+      width: 78.63
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: text17
+    type: text
+    name: "03"
+    frame:
+      x: 1784.09
+      y: 1010.89
+      width: 24.77
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4

@@ -1,0 +1,526 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: image
+  assetId: mountain-dramatic
+  fit: cover
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 0
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.9
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.4
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.1
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 96
+      y: 54
+      width: 136.32
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Key Metrics
+    frame:
+      x: 1714.72
+      y: 56.88
+      width: 130.21
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Key Metrics
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text3
+    type: text
+    name: Performance at Altitude
+    frame:
+      x: 95.975
+      y: 234.27
+      width: 1728.05
+      height: 75.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Performance at Altitude
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 33.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.672
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: By tracking our key indi...
+    frame:
+      x: 383.975
+      y: 318.98
+      width: 1152.05
+      height: 88.38
+    body:
+      paragraphs:
+        - runs:
+            - text: By tracking our key indicators, we maintain steady progress toward our strategic summit.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: shape2
+    type: shape
+    frame:
+      x: 96
+      y: 470.16
+      width: 524.8
+      height: 361.61
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.4
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.1
+  - id: text5
+    type: text
+    name: 4,500+
+    frame:
+      x: 206.07
+      y: 525.16
+      width: 304.63
+      height: 129.61
+    body:
+      paragraphs:
+        - runs:
+            - text: 4,500+
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 43.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.864
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 329.59
+      y: 676.36
+      width: 57.59
+      height: 4.31
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text6
+    type: text
+    name: New Partnerships
+    frame:
+      x: 230.89
+      y: 702.27
+      width: 255.03
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: New Partnerships
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Formed globally this yea...
+    frame:
+      x: 226.89
+      y: 747.97
+      width: 263.01
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Formed globally this year
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+    rotationDeg: 0.02
+  - id: shape4
+    type: shape
+    frame:
+      x: 697.59
+      y: 470.16
+      width: 524.81
+      height: 361.61
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.4
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.1
+  - id: text8
+    type: text
+    name: 98%
+    frame:
+      x: 863.21
+      y: 525.16
+      width: 193.58
+      height: 129.61
+    body:
+      paragraphs:
+        - runs:
+            - text: 98%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 43.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.864
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 931.2
+      y: 676.36
+      width: 57.59
+      height: 4.31
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text9
+    type: text
+    name: Client Retention
+    frame:
+      x: 841.9
+      y: 702.27
+      width: 236.2
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Client Retention
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Consistently exceeding n...
+    frame:
+      x: 810.76
+      y: 747.97
+      width: 298.47
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Consistently exceeding norms
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+    rotationDeg: 0.02
+  - id: shape6
+    type: shape
+    frame:
+      x: 1299.2
+      y: 470.16
+      width: 524.8
+      height: 361.61
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.4
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.1
+  - id: text11
+    type: text
+    name: 12x
+    frame:
+      x: 1480.92
+      y: 525.16
+      width: 161.38
+      height: 129.61
+    body:
+      paragraphs:
+        - runs:
+            - text: 12x
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 43.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.864
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 1532.8
+      y: 676.36
+      width: 57.59
+      height: 4.31
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text12
+    type: text
+    name: Revenue Growth
+    frame:
+      x: 1449.4
+      y: 702.27
+      width: 224.38
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Revenue Growth
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Compared to previous fis...
+    frame:
+      x: 1416.29
+      y: 747.97
+      width: 290.63
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Compared to previous fiscal
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+    rotationDeg: 0.02
+  - id: shape8
+    type: shape
+    frame:
+      x: 96
+      y: 977.48
+      width: 1728
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text14
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 96
+      y: 1000.08
+      width: 358.47
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text15
+    type: text
+    name: "03"
+    frame:
+      x: 1802.5
+      y: 1000.08
+      width: 24.55
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+assets:
+  mountain-dramatic:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/mountain-dramatic.jpg

@@ -1,0 +1,259 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0805"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: skater-sunset
+    altText: Skater at sunset
+    fit: cover
+    opacity: 0.4
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#0A0805"
+          opacity: 0.95
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#0A0805"
+          opacity: 0.4
+  - id: text1
+    type: text
+    name: READY TO RIDE?
+    frame:
+      x: 115.19
+      y: 115.19
+      width: 172.35
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: READY TO RIDE?
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#C4865A"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "04"
+    frame:
+      x: 1784.09
+      y: 115.19
+      width: 24.77
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text3
+    type: text
+    name: JOIN THE
+    frame:
+      x: 115.19
+      y: 266.42
+      width: 1152.05
+      height: 278.47
+    body:
+      paragraphs:
+        - runs:
+            - text: JOIN THE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 76.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+              letterSpacingPt: -1.536
+          lineHeight: 0.9
+        - runs:
+            - text: MOVEMENT
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 76.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+              letterSpacingPt: -1.536
+          lineHeight: 0.9
+      overflow: visible
+  - id: text4
+    type: text
+    name: Don't just watch from th...
+    frame:
+      x: 115.19
+      y: 564.48
+      width: 768.05
+      height: 82.63
+    body:
+      paragraphs:
+        - runs:
+            - text: Don't just watch from the sidelines. Be part of the culture that is shaping tomorrow.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: shape2
+    type: shape
+    frame:
+      x: 115.19
+      y: 709.91
+      width: 313.94
+      height: 100.78
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4865A"
+  - id: text5
+    type: text
+    name: GET STARTED
+    frame:
+      x: 172.78
+      y: 743.02
+      width: 174.69
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: GET STARTED
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#0A0805"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: →
+    frame:
+      x: 347.39
+      y: 738.7
+      width: 24.19
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: →
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#0A0805"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: NO RULES
+    frame:
+      x: 115.19
+      y: 941.78
+      width: 117.28
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: NO RULES
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text8
+    type: text
+    name: acme.co
+    frame:
+      x: 1726.73
+      y: 936.02
+      width: 78.13
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#C4865A"
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  skater-sunset:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/skater-sunset.png

@@ -1,0 +1,410 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#EBE6DE"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1152
+      y: 0
+      width: 768
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F2F2F2"
+  - id: shape2
+    type: shape
+    frame:
+      x: 1344
+      y: 120
+      width: 288
+      height: 288
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#033E8C"
+  - id: shape3
+    type: shape
+    frame:
+      x: 0
+      y: 933.61
+      width: 768
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D9281C"
+  - id: shape4
+    type: shape
+    frame:
+      x: 96
+      y: 96
+      width: 156.95
+      height: 62.38
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 96
+      y: 96
+      width: 157
+      height: 64.38
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 900
+              color:
+                kind: rgb
+                value: "#EBE6DE"
+              letterSpacingPt: -0.48
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 4.8
+        right: 9.6
+        bottom: 4.8
+        left: 9.6
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1634.11
+      y: 96
+      width: 189.89
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: 1.92
+          align: right
+          lineHeight: 1.5
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: 1.92
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: our core
+    frame:
+      x: 96
+      y: 266.38
+      width: 960.05
+      height: 230.47
+    body:
+      paragraphs:
+        - runs:
+            - text: our core
+              font:
+                kind: family
+                family: Inter
+              sizePt: 67.2
+              weight: 900
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: -2.88
+          lineHeight: 0.85
+        - runs:
+            - text: principles
+              font:
+                kind: family
+                family: Inter
+              sizePt: 67.2
+              weight: 900
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: -2.88
+          lineHeight: 0.85
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 96
+      y: 538.03
+      width: 19
+      height: 239.28
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F2B705"
+  - id: text4
+    type: text
+    name: Function dictates form. ...
+    frame:
+      x: 153.39
+      y: 538.03
+      width: 1014.23
+      height: 98.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Function dictates form. We strip away the unnecessary to reveal the essential structure beneath.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 500
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: -0.192
+          lineHeight: 1.4
+      overflow: visible
+  - id: text5
+    type: text
+    name: The harmony of our proce...
+    frame:
+      x: 153.39
+      y: 656.38
+      width: 902.66
+      height: 122.94
+    body:
+      paragraphs:
+        - runs:
+            - text: The harmony of our process relies on strict geometric proportions, bold use of primary colors, and absolute truth to materials. Nothing is hidden, everything is deliberate.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text6
+    type: text
+    name: 01. honesty
+    frame:
+      x: 1152
+      y: 428.38
+      width: 576.05
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: 01. honesty
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 800
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Materials must be true t...
+    frame:
+      x: 1152
+      y: 496.78
+      width: 576.05
+      height: 69.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Materials must be true to themselves. No artificial veneers or hidden structures.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: 02. geometry
+    frame:
+      x: 1152
+      y: 609.09
+      width: 576.05
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: 02. geometry
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 800
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: The square, the circle, ...
+    frame:
+      x: 1152
+      y: 677.5
+      width: 576.05
+      height: 69.13
+    body:
+      paragraphs:
+        - runs:
+            - text: The square, the circle, and the triangle form the basis of all functional design.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: 03. purity
+    frame:
+      x: 1152
+      y: 789.81
+      width: 576.05
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: 03. purity
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 800
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Red, yellow, and blue. P...
+    frame:
+      x: 1152
+      y: 858.22
+      width: 576.05
+      height: 69.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Red, yellow, and blue. Primary elements combined to create infinite complexity.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: EXAMPLE COMPANY, INC.
+    frame:
+      x: 96
+      y: 949.44
+      width: 358.24
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: "02"
+    frame:
+      x: 1790.11
+      y: 949.44
+      width: 35.98
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible

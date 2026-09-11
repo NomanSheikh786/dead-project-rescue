@@ -1,0 +1,348 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0D0A08"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: molten-glass
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#0A0805"
+          opacity: 0.95
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#0A0805"
+          opacity: 0.85
+  - id: text1
+    type: text
+    name: METRICS
+    frame:
+      x: -192
+      y: 432
+      width: 2389.61
+      height: 480
+    body:
+      paragraphs:
+        - runs:
+            - text: METRICS
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 240
+              weight: 800
+              color:
+                kind: rgb
+                value: "#E8A84C"
+              letterSpacingPt: 12
+          lineHeight: 1
+      overflow: visible
+    opacity: 0.03
+    rotationDeg: 0.02
+  - id: text2
+    type: text
+    name: 02 // THE IMPACT
+    frame:
+      x: 115.165
+      y: 86.39
+      width: 1689.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 02 // THE IMPACT
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E8A84C"
+              letterSpacingPt: 1.92
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Heat & Pressure Yield Re...
+    frame:
+      x: 115.165
+      y: 136.78
+      width: 1689.68
+      height: 86.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Heat & Pressure Yield Results
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E8A84C"
+              letterSpacingPt: -0.384
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: 1200°
+    frame:
+      x: 141.87
+      y: 540.94
+      width: 436.97
+      height: 134.41
+    body:
+      paragraphs:
+        - runs:
+            - text: 1200°
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 67.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8A84C"
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: text5
+    type: text
+    name: OPTIMAL TEMP
+    frame:
+      x: 202.365
+      y: 696.94
+      width: 315.97
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: OPTIMAL TEMP
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.152
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape2
+    type: shape
+    frame:
+      x: 692.73
+      y: 555.22
+      width: 1
+      height: 162
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8A84C"
+      opacity: 0.3
+  - id: text6
+    type: text
+    name: 84%
+    frame:
+      x: 838.14
+      y: 540.94
+      width: 253.3
+      height: 134.41
+    body:
+      paragraphs:
+        - runs:
+            - text: "84"
+              sizePt: 67.2
+            - text: "%"
+              sizePt: 38.4
+          align: center
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            weight: 400
+            color:
+              kind: rgb
+              value: "#E8A84C"
+      overflow: visible
+  - id: text7
+    type: text
+    name: PURITY RATE
+    frame:
+      x: 868.135
+      y: 696.94
+      width: 193.3
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: PURITY RATE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.152
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape3
+    type: shape
+    frame:
+      x: 1235.83
+      y: 555.22
+      width: 1
+      height: 162
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8A84C"
+      opacity: 0.3
+  - id: text8
+    type: text
+    name: 3.2X
+    frame:
+      x: 1411.225
+      y: 540.94
+      width: 306.39
+      height: 134.41
+    body:
+      paragraphs:
+        - runs:
+            - text: "3.2"
+              sizePt: 67.2
+            - text: X
+              sizePt: 38.4
+          align: center
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            weight: 400
+            color:
+              kind: rgb
+              value: "#E8A84C"
+      overflow: visible
+  - id: text9
+    type: text
+    name: STRENGTH MULTIPLIER
+    frame:
+      x: 1402.03
+      y: 696.94
+      width: 324.77
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: STRENGTH MULTIPLIER
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.152
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text10
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 964.81
+      width: 87.36
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4652A"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: "03"
+    frame:
+      x: 1777.94
+      y: 964.81
+      width: 30.93
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4652A"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  molten-glass:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/molten-glass.png

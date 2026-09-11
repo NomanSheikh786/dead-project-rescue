@@ -1,0 +1,201 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: linearGradient
+  angleDeg: 60.64
+  stops:
+    - offset: 0
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0
+    - offset: 1
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.7
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: molten-glass
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 580
+      width: 1920
+      height: 500
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.18
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.5
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.6
+  - id: text1
+    type: text
+    name: STUDIO
+    frame:
+      x: 96
+      y: 108
+      width: 1526.43
+      height: 384
+    body:
+      paragraphs:
+        - runs:
+            - text: STUDIO
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 192
+              weight: 800
+              color:
+                kind: rgb
+                value: "#E8A84C"
+              letterSpacingPt: 9.6
+          lineHeight: 1
+      overflow: visible
+    opacity: 0.06
+  - id: text2
+    type: text
+    name: FIRE & FORM
+    frame:
+      x: 115.19
+      y: 591.17
+      width: 1689.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: FIRE & FORM
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E8A84C"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Example Deck
+    frame:
+      x: 115.19
+      y: 652.36
+      width: 1689.68
+      height: 141.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 67.2
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E8A84C"
+              letterSpacingPt: -0.672
+          lineHeight: 1.05
+      overflow: visible
+  - id: text4
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 115.19
+      y: 815.08
+      width: 768.05
+      height: 92.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 15.36
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.85
+  - id: text5
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 964.81
+      width: 87.36
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4652A"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Master Series
+    frame:
+      x: 1632.86
+      y: 950.42
+      width: 183.63
+      height: 88.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Master Series
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4652A"
+              italic: true
+              letterSpacingPt: 0.288
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  molten-glass:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/molten-glass.png

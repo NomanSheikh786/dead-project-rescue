@@ -1,0 +1,197 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0D4F4F"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: lagoon-aerial
+    altText: Turquoise lagoon aerial view
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 1132.81
+      y: 583.22
+      width: 672
+      height: 410.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.95
+  - id: text1
+    type: text
+    name: PRIVATE ISLAND COLLECTIO...
+    frame:
+      x: 1190.41
+      y: 626.41
+      width: 556.86
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: PRIVATE ISLAND COLLECTION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 700
+              color:
+                kind: rgb
+                value: "#0D4F4F"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Example Deck
+    frame:
+      x: 1190.41
+      y: 671.03
+      width: 556.86
+      height: 75.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 33.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#0D4F4F"
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 1190.41
+      y: 761.14
+      width: 556.86
+      height: 69.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: ★★★★★
+    frame:
+      x: 1190.41
+      y: 862.66
+      width: 95.66
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ★★★★★
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#0D4F4F"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Exclusive Access
+    frame:
+      x: 1305.2
+      y: 862.66
+      width: 143.39
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: Exclusive Access
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 1190.41
+      y: 913.05
+      width: 556.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0D4F4F"
+      opacity: 0.2
+  - id: text6
+    type: text
+    name: acme.co
+    frame:
+      x: 1190.41
+      y: 913.05
+      width: 556.86
+      height: 43.11
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#0D4F4F"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 0
+        bottom: 0
+        left: 0
+assets:
+  lagoon-aerial:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/lagoon-aerial.png

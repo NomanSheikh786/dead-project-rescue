@@ -1,0 +1,396 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: image
+  assetId: ocean-aerial
+  fit: cover
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 192
+      y: 162
+      width: 1536
+      height: 756
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 38.4
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.85
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 307.19
+      y: 226.8
+      width: 160.84
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A365D"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1551.86
+      y: 226.8
+      width: 68
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A5568"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: The Ocean Paradigm
+    frame:
+      x: 307.19
+      y: 313.17
+      width: 1305.68
+      height: 86.47
+    body:
+      paragraphs:
+        - runs:
+            - text: The Ocean Paradigm
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C5282"
+              letterSpacingPt: -0.768
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Our approach emphasizes ...
+    frame:
+      x: 307.19
+      y: 440.83
+      width: 625.69
+      height: 232.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Our approach emphasizes fluidity and adaptability in an ever-changing market. Just as the ocean shapes the coastline, our strategies continuously refine and optimize your business operations.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A5568"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 307.19
+      y: 700.42
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3182CE"
+  - id: text5
+    type: text
+    name: Sustainable Growth
+    frame:
+      x: 345.56
+      y: 692.73
+      width: 213.15
+      height: 71
+    body:
+      paragraphs:
+        - runs:
+            - text: Sustainable Growth
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D3748"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape3
+    type: shape
+    frame:
+      x: 307.19
+      y: 751.17
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3182CE"
+  - id: text6
+    type: text
+    name: Deep Analytics
+    frame:
+      x: 345.56
+      y: 743.48
+      width: 165.6
+      height: 71
+    body:
+      paragraphs:
+        - runs:
+            - text: Deep Analytics
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D3748"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 307.19
+      y: 801.92
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3182CE"
+  - id: text7
+    type: text
+    name: Current Trends
+    frame:
+      x: 345.56
+      y: 794.23
+      width: 164.02
+      height: 71
+    body:
+      paragraphs:
+        - runs:
+            - text: Current Trends
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D3748"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape5
+    type: shape
+    frame:
+      x: 307.19
+      y: 852.67
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3182CE"
+  - id: text8
+    type: text
+    name: Wave Momentum
+    frame:
+      x: 345.56
+      y: 844.98
+      width: 197.81
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Wave Momentum
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2D3748"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape6
+    type: shape
+    frame:
+      x: 940.8
+      y: 440.83
+      width: 672.02
+      height: 427.17
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3182CE"
+      opacity: 0.1
+  - id: text9
+    type: text
+    name: '"We harness the natural ...'
+    frame:
+      x: 998.39
+      y: 561.02
+      width: 556.88
+      height: 163.25
+    body:
+      paragraphs:
+        - runs:
+            - text: '"We harness the natural momentum of your industry to propel you forward, navigating through the complexities with unparalleled clarity and focus."'
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2B6CB0"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: — THE EXECUTIVE TEAM
+    frame:
+      x: 998.39
+      y: 743.86
+      width: 556.88
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: — THE EXECUTIVE TEAM
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 10.56
+              weight: 700
+              color:
+                kind: rgb
+                value: "#4A5568"
+              letterSpacingPt: 0.528
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 307.19
+      y: 938.92
+      width: 1305.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C5282"
+      opacity: 0.2
+  - id: text11
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 307.19
+      y: 884
+      width: 214.26
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2C5282"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: "02"
+    frame:
+      x: 1584.92
+      y: 884
+      width: 30.94
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#718096"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  ocean-aerial:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/ocean-aerial.jpg

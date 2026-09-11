@@ -1,0 +1,604 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F0E8"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 96
+      y: 54
+      width: 1728
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8960C"
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 96
+      y: 76.59
+      width: 107.36
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2C1810"
+              letterSpacingPt: 0.528
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "03"
+    frame:
+      x: 1799.75
+      y: 78.03
+      width: 27.3
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C1810"
+              letterSpacingPt: 0.192
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Key Metrics
+    frame:
+      x: 95.975
+      y: 129.88
+      width: 1728.05
+      height: 95.05
+    body:
+      paragraphs:
+        - runs:
+            - text: Key Metrics
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1810"
+              letterSpacingPt: -0.432
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 952.49
+      y: 235.9
+      width: 15
+      height: 15
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8960C"
+    rotationDeg: 45
+  - id: shape3
+    type: shape
+    frame:
+      x: 96
+      y: 294.27
+      width: 550.41
+      height: 231.05
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.3
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8960C"
+      widthPt: 0.5
+      opacity: 0.4
+  - id: text4
+    type: text
+    name: +145%
+    frame:
+      x: 234.52
+      y: 327.66
+      width: 273.35
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: +145%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#B8960C"
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: text5
+    type: text
+    name: REVENUE GROWTH
+    frame:
+      x: 221.2
+      y: 426.05
+      width: 300
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: REVENUE GROWTH
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2C1810"
+              letterSpacingPt: 0.576
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Year over Year
+    frame:
+      x: 300.12
+      y: 466
+      width: 142.16
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Year over Year
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1810"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: shape4
+    type: shape
+    frame:
+      x: 684.8
+      y: 294.27
+      width: 550.41
+      height: 231.05
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.3
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8960C"
+      widthPt: 0.5
+      opacity: 0.4
+  - id: text7
+    type: text
+    name: 2.4M
+    frame:
+      x: 859
+      y: 327.66
+      width: 202.02
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 2.4M
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#B8960C"
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: text8
+    type: text
+    name: ACTIVE USERS
+    frame:
+      x: 864.25
+      y: 426.05
+      width: 191.5
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACTIVE USERS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2C1810"
+              letterSpacingPt: 0.576
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Global Reach
+    frame:
+      x: 902.85
+      y: 466
+      width: 114.29
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Global Reach
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1810"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+    rotationDeg: 0.02
+  - id: shape5
+    type: shape
+    frame:
+      x: 1273.59
+      y: 294.27
+      width: 550.41
+      height: 231.05
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.3
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8960C"
+      widthPt: 0.5
+      opacity: 0.4
+  - id: text10
+    type: text
+    name: 94%
+    frame:
+      x: 1460.26
+      y: 327.66
+      width: 177.07
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 94%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#B8960C"
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: text11
+    type: text
+    name: RETENTION RATE
+    frame:
+      x: 1435.77
+      y: 426.05
+      width: 226.07
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: RETENTION RATE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#2C1810"
+              letterSpacingPt: 0.576
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Industry Leading
+    frame:
+      x: 1471.82
+      y: 466
+      width: 153.93
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Industry Leading
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1810"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+    rotationDeg: 0.02
+  - id: text13
+    type: text
+    name: Growth Trajectory
+    frame:
+      x: 96
+      y: 753.7
+      width: 550.46
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: Growth Trajectory
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1810"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: Our expansion strategy h...
+    frame:
+      x: 96
+      y: 832.91
+      width: 618.5
+      height: 101.39
+    body:
+      paragraphs:
+        - runs:
+            - text: Our expansion strategy has yielded consistent positive results across all major markets, outperforming initial projections by a significant margin.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1810"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+  - id: shape6
+    type: shape
+    frame:
+      x: 723.2
+      y: 954.89
+      width: 1100.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8960C"
+      opacity: 0.3
+  - id: shape7
+    type: shape
+    frame:
+      x: 723.2
+      y: 787.39
+      width: 140.8
+      height: 145.91
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C1810"
+      opacity: 0.8
+  - id: shape8
+    type: shape
+    frame:
+      x: 883.19
+      y: 732.67
+      width: 140.81
+      height: 200.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C1810"
+      opacity: 0.8
+  - id: shape9
+    type: shape
+    frame:
+      x: 1043.19
+      y: 769.14
+      width: 140.81
+      height: 164.16
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C1810"
+      opacity: 0.8
+  - id: shape10
+    type: shape
+    frame:
+      x: 1203.19
+      y: 677.95
+      width: 140.81
+      height: 255.34
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C1810"
+      opacity: 0.8
+  - id: shape11
+    type: shape
+    frame:
+      x: 1363.19
+      y: 696.19
+      width: 140.81
+      height: 237.11
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C1810"
+      opacity: 0.8
+  - id: shape12
+    type: shape
+    frame:
+      x: 1523.19
+      y: 623.23
+      width: 140.81
+      height: 310.06
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C1810"
+      opacity: 0.8
+  - id: shape13
+    type: shape
+    frame:
+      x: 1683.19
+      y: 568.5
+      width: 140.81
+      height: 364.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8960C"
+  - id: text15
+    type: text
+    name: EXAMPLE COMPANY, INC. • ...
+    frame:
+      x: 96
+      y: 977.48
+      width: 452.21
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. • CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1810"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape14
+    type: shape
+    frame:
+      x: 96
+      y: 1025
+      width: 1728
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8960C"

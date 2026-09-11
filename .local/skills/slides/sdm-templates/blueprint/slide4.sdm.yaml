@@ -1,0 +1,628 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#1B3A5C"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0.0009
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.05
+        - offset: 0.0009
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape2
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0.0009
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.1
+        - offset: 0.0009
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape3
+    type: shape
+    frame:
+      x: 57.59
+      y: 32.39
+      width: 1804.81
+      height: 1015.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.2
+  - id: shape4
+    type: shape
+    frame:
+      x: 96
+      y: 54
+      width: 1728
+      height: 972
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.1
+  - id: text1
+    type: text
+    name: SECTION 4
+    frame:
+      x: 134.39
+      y: 75.59
+      width: 214.11
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: SECTION 4
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.344
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text2
+    type: text
+    name: EXECUTION SUMMARY
+    frame:
+      x: 134.39
+      y: 95.75
+      width: 226.96
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: EXECUTION SUMMARY
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: REF NO.
+    frame:
+      x: 1699.81
+      y: 75.59
+      width: 85.8
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: REF NO.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.344
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text4
+    type: text
+    name: END-04X
+    frame:
+      x: 1694.66
+      y: 95.75
+      width: 90.95
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: END-04X
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 816
+      y: 146.14
+      width: 288
+      height: 288
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.4
+  - id: shape6
+    type: shape
+    frame:
+      x: 797.81
+      y: 127.95
+      width: 324.38
+      height: 324.38
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.2
+      dash: dash
+  - id: shape7
+    type: shape
+    frame:
+      x: 883.2
+      y: 213.34
+      width: 153.59
+      height: 153.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 1
+      opacity: 0.8
+  - id: text5
+    type: text
+    name: ">_"
+    frame:
+      x: 925.26
+      y: 246.94
+      width: 69.47
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: ">_"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 28.8
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: INITIATE BUILD
+    frame:
+      x: 565.57
+      y: 488.14
+      width: 788.84
+      height: 129.61
+    body:
+      paragraphs:
+        - runs:
+            - text: INITIATE BUILD
+              font:
+                kind: family
+                family: Inter
+              sizePt: 43.2
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 4.32
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 844.8
+      y: 650.14
+      width: 230.39
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.5
+  - id: text7
+    type: text
+    name: All systems verified and...
+    frame:
+      x: 527.975
+      y: 683.53
+      width: 864.05
+      height: 110.63
+    body:
+      paragraphs:
+        - runs:
+            - text: All systems verified and structural components detailed. The blueprint is complete and ready for immediate deployment. Awaiting authorization to commence phase one.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.7
+    rotationDeg: 0.02
+  - id: shape9
+    type: shape
+    frame:
+      x: 641.78
+      y: 818.16
+      width: 296.39
+      height: 119.34
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.4
+  - id: text8
+    type: text
+    name: PRIMARY CONTACT
+    frame:
+      x: 700.46
+      y: 847.95
+      width: 179.02
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: PRIMARY CONTACT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.344
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text9
+    type: text
+    name: init@example.com
+    frame:
+      x: 700.355
+      y: 878.91
+      width: 179.25
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: init@example.com
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape10
+    type: shape
+    frame:
+      x: 976.56
+      y: 818.16
+      width: 301.66
+      height: 119.34
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.4
+  - id: text10
+    type: text
+    name: SECURE LINE
+    frame:
+      x: 1065.88
+      y: 847.95
+      width: 123.01
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: SECURE LINE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.344
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text11
+    type: text
+    name: +1 (555) 019-8247
+    frame:
+      x: 1029.26
+      y: 878.91
+      width: 196.27
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: +1 (555) 019-8247
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape11
+    type: shape
+    frame:
+      x: 134.39
+      y: 960
+      width: 1651.22
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text12
+    type: text
+    name: STATUS
+    frame:
+      x: 134.39
+      y: 977.2
+      width: 58.57
+      height: 19.27
+    body:
+      paragraphs:
+        - runs:
+            - text: STATUS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 5.76
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: text13
+    type: text
+    name: FINAL
+    frame:
+      x: 134.39
+      y: 994.4
+      width: 54.57
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: FINAL
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: AUTHORIZATION
+    frame:
+      x: 910.88
+      y: 977.2
+      width: 116.33
+      height: 19.27
+    body:
+      paragraphs:
+        - runs:
+            - text: AUTHORIZATION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 5.76
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: text15
+    type: text
+    name: REQUIRED
+    frame:
+      x: 910.88
+      y: 994.4
+      width: 116.33
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: REQUIRED
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: PAGE
+    frame:
+      x: 1749.13
+      y: 977.2
+      width: 39.53
+      height: 19.27
+    body:
+      paragraphs:
+        - runs:
+            - text: PAGE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 5.76
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: text17
+    type: text
+    name: "04"
+    frame:
+      x: 1749.13
+      y: 994.4
+      width: 36.53
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible

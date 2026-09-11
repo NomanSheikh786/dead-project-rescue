@@ -1,0 +1,190 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FCFAF8"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: art-gallery
+    altText: Art Gallery
+    fit: cover
+    rotationDeg: 180
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 0
+      stops:
+        - offset: 0.4
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.6
+          color:
+            kind: rgb
+            value: "#FCFAF8"
+          opacity: 0.95
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#FCFAF8"
+  - id: text1
+    type: text
+    name: Let's Collaborate.
+    frame:
+      x: 575.05
+      y: 341.27
+      width: 917.04
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: Let's Collaborate.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -0.96
+          lineHeight: 1
+      overflow: visible
+  - id: text2
+    type: text
+    name: studio@example.com
+    frame:
+      x: 842.73
+      y: 469.66
+      width: 234.58
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: studio@example.com
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape2
+    type: shape
+    frame:
+      x: 829.11
+      y: 547.41
+      width: 261.77
+      height: 60.3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+      widthPt: 0.5
+  - id: text3
+    type: text
+    name: GET IN TOUCH
+    frame:
+      x: 829.11
+      y: 547.41
+      width: 261.82
+      height: 60.3
+    body:
+      paragraphs:
+        - runs:
+            - text: GET IN TOUCH
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+  - id: text4
+    type: text
+    name: THE CONCLUSION
+    frame:
+      x: 153.59
+      y: 1002.97
+      width: 181.36
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: THE CONCLUSION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: "04"
+    frame:
+      x: 1740.27
+      y: 1002.97
+      width: 28.19
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  art-gallery:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/art-gallery.png

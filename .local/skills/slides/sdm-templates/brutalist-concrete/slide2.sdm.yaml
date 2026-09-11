@@ -1,0 +1,367 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#E5E5E5"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 671
+      y: 0
+      width: 1
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 96
+      y: 64.8
+      width: 479.05
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -0.23
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: CORE
+    frame:
+      x: 96
+      y: 475.94
+      width: 479.05
+      height: 140.22
+    body:
+      paragraphs:
+        - runs:
+            - text: CORE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 38.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -1.536
+          lineHeight: 0.9
+        - runs:
+            - text: STRATEGY
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 38.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -1.536
+          lineHeight: 0.9
+      overflow: visible
+  - id: text3
+    type: text
+    name: 02 / 04
+    frame:
+      x: 96
+      y: 990.73
+      width: 479.05
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: 02 / 04
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.16
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 672
+      y: 0
+      width: 1248
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F2F2F2"
+  - id: shape3
+    type: shape
+    frame:
+      x: 768
+      y: 252.31
+      width: 1056
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text4
+    type: text
+    name: "01"
+    frame:
+      x: 768
+      y: 274.91
+      width: 39.61
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "01"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: SYSTEM ARCHITECTURE
+    frame:
+      x: 840.95
+      y: 274.91
+      width: 983.1
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: SYSTEM ARCHITECTURE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 19.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -0.384
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: "> A robust foundation bu..."
+    frame:
+      x: 840.95
+      y: 343.31
+      width: 983.1
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "> A robust foundation built on scalable, modular components designed for high throughput and reliability."
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 768
+      y: 465.7
+      width: 1056
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text7
+    type: text
+    name: "02"
+    frame:
+      x: 768
+      y: 488.3
+      width: 39.61
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: MARKET PENETRATION
+    frame:
+      x: 840.95
+      y: 488.3
+      width: 983.1
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: MARKET PENETRATION
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 19.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -0.384
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: "> Targeting key demograp..."
+    frame:
+      x: 840.95
+      y: 556.7
+      width: 983.1
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "> Targeting key demographics through aggressive growth tactics and data-driven marketing campaigns."
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 768
+      y: 679.09
+      width: 1056
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text10
+    type: text
+    name: "03"
+    frame:
+      x: 768
+      y: 701.69
+      width: 39.61
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: USER EXPERIENCE
+    frame:
+      x: 840.95
+      y: 701.69
+      width: 983.1
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: USER EXPERIENCE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 19.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -0.384
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: "> Streamlining interface..."
+    frame:
+      x: 840.95
+      y: 770.09
+      width: 983.1
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "> Streamlining interfaces and workflows to minimize friction and maximize engagement and retention."
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible

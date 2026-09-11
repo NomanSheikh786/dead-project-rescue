@@ -1,0 +1,419 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: text1
+    type: text
+    name: NEW FEATURES
+    frame:
+      x: 491.19
+      y: 226.8
+      width: 1113.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: NEW FEATURES
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#0071E3"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: ◉
+    frame:
+      x: 491.19
+      y: 326.14
+      width: 57.64
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ◉
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#0071E3"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Blazing Performance
+    frame:
+      x: 548.78
+      y: 320.39
+      width: 316.44
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: Blazing Performance
+              font:
+                kind: family
+                family: Inter
+              sizePt: 15.36
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1D1D1F"
+              letterSpacingPt: -0.307
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Industry-leading speed t...
+    frame:
+      x: 900
+      y: 324.39
+      width: 737.7
+      height: 42
+    body:
+      paragraphs:
+        - runs:
+            - text: Industry-leading speed that adapts to your workflow.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#86868B"
+              letterSpacingPt: -0.134
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: ◆
+    frame:
+      x: 491.19
+      y: 426.22
+      width: 57.64
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ◆
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#0071E3"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: All-Day Battery
+    frame:
+      x: 548.78
+      y: 420.47
+      width: 258.07
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: All-Day Battery
+              font:
+                kind: family
+                family: Inter
+              sizePt: 15.36
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1D1D1F"
+              letterSpacingPt: -0.307
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Power through your tasks...
+    frame:
+      x: 900
+      y: 424.47
+      width: 709.14
+      height: 42
+    body:
+      paragraphs:
+        - runs:
+            - text: Power through your tasks from morning until night.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#86868B"
+              letterSpacingPt: -0.134
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: ▸
+    frame:
+      x: 491.19
+      y: 549.34
+      width: 54.61
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ▸
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#0071E3"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Pro Camera System
+    frame:
+      x: 548.78
+      y: 543.59
+      width: 337.48
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: Pro Camera System
+              font:
+                kind: family
+                family: Inter
+              sizePt: 15.36
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1D1D1F"
+              letterSpacingPt: -0.307
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Capture every detail wit...
+    frame:
+      x: 900
+      y: 545.63
+      width: 890
+      height: 42
+    body:
+      paragraphs:
+        - runs:
+            - text: Capture every detail with advanced computational photography.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#86868B"
+              letterSpacingPt: -0.134
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: ◎
+    frame:
+      x: 491.19
+      y: 672.45
+      width: 57.64
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ◎
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#0071E3"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Secure by Design
+    frame:
+      x: 548.78
+      y: 666.7
+      width: 265.2
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: Secure by Design
+              font:
+                kind: family
+                family: Inter
+              sizePt: 15.36
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1D1D1F"
+              letterSpacingPt: -0.307
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Enterprise-grade encrypt...
+    frame:
+      x: 900
+      y: 670.7
+      width: 695.38
+      height: 42
+    body:
+      paragraphs:
+        - runs:
+            - text: Enterprise-grade encryption built into the core.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#86868B"
+              letterSpacingPt: -0.134
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: ✦
+    frame:
+      x: 491.19
+      y: 772.53
+      width: 57.64
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ✦
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#0071E3"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: Seamless Integration
+    frame:
+      x: 548.78
+      y: 766.78
+      width: 337.48
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: Seamless Integration
+              font:
+                kind: family
+                family: Inter
+              sizePt: 15.36
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1D1D1F"
+              letterSpacingPt: -0.307
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: Works effortlessly acros...
+    frame:
+      x: 900
+      y: 770.78
+      width: 722.58
+      height: 42
+    body:
+      paragraphs:
+        - runs:
+            - text: Works effortlessly across your entire ecosystem.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#86868B"
+              letterSpacingPt: -0.134
+          lineHeight: 1.5
+      overflow: visible
+  - id: text17
+    type: text
+    name: "02"
+    frame:
+      x: 115.19
+      y: 986.41
+      width: 28
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1D1D1F"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text18
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 803.58
+      y: 987.84
+      width: 337.02
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#86868B"
+              letterSpacingPt: 0.173
+          lineHeight: 1.5
+      overflow: visible

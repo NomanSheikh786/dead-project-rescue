@@ -1,0 +1,319 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#030303"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1152
+      y: 215.83
+      width: 768
+      height: 1.41
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.15
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape2
+    type: shape
+    frame:
+      x: -96
+      y: 485.83
+      width: 576
+      height: 1.41
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.2
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape3
+    type: shape
+    frame:
+      x: 1152
+      y: 754.75
+      width: 960
+      height: 1.41
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.1
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 178.97
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+              letterSpacingPt: 4.8
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: 2026 / CONFIDENTIAL
+    frame:
+      x: 1427.25
+      y: 86.39
+      width: 381.13
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 2026 / CONFIDENTIAL
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+              letterSpacingPt: 2.88
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: "> VISION INTERFACE"
+    frame:
+      x: 233.39
+      y: 383.13
+      width: 509.35
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "> VISION INTERFACE"
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#A3A3A3"
+              letterSpacingPt: 7.68
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: EXAMPLE DECK
+    frame:
+      x: 233.39
+      y: 444.31
+      width: 1240.86
+      height: 155.59
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE DECK
+              font:
+                kind: family
+                family: Inter
+              sizePt: 76.8
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -1.92
+          lineHeight: 1
+      overflow: visible
+  - id: text5
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 233.39
+      y: 619.5
+      width: 960.05
+      height: 88
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 15.36
+              weight: 300
+              color:
+                kind: rgb
+                value: "#B3B3B3"
+              letterSpacingPt: 0.48
+          lineHeight: 1.4
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text6
+    type: text
+    name: "SYS_ID: 8X-994"
+    frame:
+      x: 153.59
+      y: 967.69
+      width: 200
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "SYS_ID: 8X-994"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#595959"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: "STATUS: ONLINE"
+    frame:
+      x: 375.42
+      y: 967.69
+      width: 200
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "STATUS: ONLINE"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#595959"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: "VER: 4.2.0"
+    frame:
+      x: 597.25
+      y: 967.69
+      width: 145
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "VER: 4.2.0"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#595959"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: EXAMPLE COMPANY, INC. //...
+    frame:
+      x: 1198.42
+      y: 967.69
+      width: 602.11
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. // ENGINEERING DIV
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#595959"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 153.59
+      y: 120.95
+      width: 3
+      height: 846.73
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1

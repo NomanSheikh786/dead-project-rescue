@@ -1,0 +1,369 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#111111"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 57.59
+      y: 32.39
+      width: 1804.81
+      height: 1015.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.1
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 164.7
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 4.8
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "04"
+    frame:
+      x: 1737.58
+      y: 89.27
+      width: 31.88
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: text3
+    type: text
+    name: THE FUTURE AWAITS
+    frame:
+      x: 792.84
+      y: 277.45
+      width: 334.3
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: THE FUTURE AWAITS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 4.608
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: text4
+    type: text
+    name: Connect
+    frame:
+      x: 655.52
+      y: 343.67
+      width: 608.96
+      height: 122.95
+    body:
+      paragraphs:
+        - runs:
+            - text: Connect
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 67.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+              letterSpacingPt: 1.344
+          align: center
+          lineHeight: 0.9
+      overflow: visible
+  - id: text5
+    type: text
+    name: WITH US
+    frame:
+      x: 707.86
+      y: 486.22
+      width: 504.26
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: WITH US
+              font:
+                kind: family
+                family: Inter
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 19.2
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 459.03
+      y: 666.2
+      width: 1001.94
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text6
+    type: text
+    name: INQUIRIES
+    frame:
+      x: 459.005
+      y: 732
+      width: 196.77
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: INQUIRIES
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 2.016
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: text7
+    type: text
+    name: atelier@acme.co
+    frame:
+      x: 450.51
+      y: 773.75
+      width: 213.77
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: atelier@acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.576
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 770.94
+      y: 732
+      width: 1
+      height: 76.31
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text8
+    type: text
+    name: PRESS
+    frame:
+      x: 887.105
+      y: 732
+      width: 188.28
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: PRESS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 2.016
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: text9
+    type: text
+    name: press@acme.co
+    frame:
+      x: 881.46
+      y: 773.75
+      width: 199.58
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: press@acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.576
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1190.55
+      y: 732
+      width: 1
+      height: 76.31
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text10
+    type: text
+    name: FLAGSHIP
+    frame:
+      x: 1306.705
+      y: 732
+      width: 154.28
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: FLAGSHIP
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 2.016
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: text11
+    type: text
+    name: Paris, France
+    frame:
+      x: 1291.97
+      y: 773.75
+      width: 183.75
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Paris, France
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.576
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: © MMXXVI ACME CORPORATIO...
+    frame:
+      x: 779.52
+      y: 970.58
+      width: 382.68
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: © MMXXVI ACME CORPORATION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.3

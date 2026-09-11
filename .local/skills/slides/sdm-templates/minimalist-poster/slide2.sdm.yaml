@@ -1,0 +1,283 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: text1
+    type: text
+    name: Strategy Overview
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 226.08
+      height: 32.27
+    body:
+      paragraphs:
+        - runs:
+            - text: Strategy Overview
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#444444"
+          lineHeight: 1.4
+      overflow: visible
+  - id: text2
+    type: text
+    name: CORE
+    frame:
+      x: 153.59
+      y: 216
+      width: 624.82
+      height: 105.67
+    body:
+      paragraphs:
+        - runs:
+            - text: CORE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 200
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: -2.304
+          lineHeight: 0.9
+      overflow: visible
+  - id: text3
+    type: text
+    name: PRINCIPLES
+    frame:
+      x: 153.59
+      y: 319.67
+      width: 624.82
+      height: 105.67
+    body:
+      paragraphs:
+        - runs:
+            - text: PRINCIPLES
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: -2.88
+          lineHeight: 0.9
+      overflow: visible
+  - id: text4
+    type: text
+    name: 01. Simplicity
+    frame:
+      x: 153.59
+      y: 486
+      width: 768.05
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: 01. Simplicity
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: -0.144
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Removing the unnecessary...
+    frame:
+      x: 153.59
+      y: 539.98
+      width: 768.05
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Removing the unnecessary so the necessary may speak. We focus on absolute clarity in every interaction.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: 02. Utility
+    frame:
+      x: 153.59
+      y: 640.77
+      width: 768.05
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: 02. Utility
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: -0.144
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Form follows function. E...
+    frame:
+      x: 153.59
+      y: 694.75
+      width: 862.98
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Form follows function. Every element must serve a distinct and measurable purpose.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: 03. Elegance
+    frame:
+      x: 153.59
+      y: 766.73
+      width: 768.05
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: 03. Elegance
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: -0.144
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Achieving maximum impact...
+    frame:
+      x: 153.59
+      y: 820.72
+      width: 768.05
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Achieving maximum impact with minimal effort. Refinement through reduction.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: "02"
+    frame:
+      x: 153.59
+      y: 992.17
+      width: 25.5
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: ACME.CO / 2026
+    frame:
+      x: 1659.03
+      y: 992.17
+      width: 154.58
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO / 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 1672.73
+      y: 86.39
+      width: 132.13
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible

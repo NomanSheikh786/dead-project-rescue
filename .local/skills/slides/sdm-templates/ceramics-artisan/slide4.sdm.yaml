@@ -1,0 +1,417 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F1EB"
+elements:
+  - id: text1
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 76.8
+      y: 43.19
+      width: 186.3
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A2988E"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: 2026 / Confidential
+    frame:
+      x: 1689.05
+      y: 43.19
+      width: 183.67
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: 2026 / Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A2988E"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: LET'S CREATE TOGETHER
+    frame:
+      x: 811.45
+      y: 240.25
+      width: 297.1
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: LET'S CREATE TOGETHER
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A2988E"
+              letterSpacingPt: 0.96
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Shape the Future
+    frame:
+      x: 531.08
+      y: 301.44
+      width: 857.84
+      height: 107.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Shape the Future
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#3E2E21"
+              letterSpacingPt: -0.48
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text5
+    type: text
+    name: Reach out to discover ou...
+    frame:
+      x: 623.975
+      y: 450.22
+      width: 672.05
+      height: 73.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Reach out to discover our latest collections or to discuss bespoke commissions for your space.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#8B7D6B"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape1
+    type: shape
+    frame:
+      x: 705.67
+      y: 588.77
+      width: 227.84
+      height: 63.17
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3E2E21"
+    stroke:
+      color:
+        kind: rgb
+        value: "#3E2E21"
+      widthPt: 0.5
+  - id: text6
+    type: text
+    name: Contact Us
+    frame:
+      x: 698.81
+      y: 588.77
+      width: 241.56
+      height: 63.17
+    body:
+      paragraphs:
+        - runs:
+            - text: Contact Us
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5F1EB"
+              letterSpacingPt: 0.48
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+  - id: shape2
+    type: shape
+    frame:
+      x: 971.91
+      y: 588.77
+      width: 242.42
+      height: 63.17
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#3E2E21"
+      widthPt: 0.5
+  - id: text7
+    type: text
+    name: View Gallery
+    frame:
+      x: 964.61
+      y: 588.77
+      width: 257.02
+      height: 63.17
+    body:
+      paragraphs:
+        - runs:
+            - text: View Gallery
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#3E2E21"
+              letterSpacingPt: 0.48
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+  - id: shape3
+    type: shape
+    frame:
+      x: 621.48
+      y: 738.33
+      width: 677.03
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1C9C0"
+  - id: text8
+    type: text
+    name: Email
+    frame:
+      x: 621.48
+      y: 782.52
+      width: 207.78
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Email
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A2988E"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: hello@kilnandclay.com
+    frame:
+      x: 621.48
+      y: 810.94
+      width: 220.25
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@kilnandclay.com
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#3E2E21"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Studio
+    frame:
+      x: 906.02
+      y: 782.52
+      width: 195.32
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Studio
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A2988E"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: 124 Potter's Lane, NY
+    frame:
+      x: 906.02
+      y: 810.94
+      width: 232.63
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 124 Potter's Lane, NY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#3E2E21"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Social
+    frame:
+      x: 1178.08
+      y: 782.52
+      width: 120.49
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Social
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A2988E"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: "@kilnandclay"
+    frame:
+      x: 1178.08
+      y: 810.94
+      width: 128.49
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "@kilnandclay"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#3E2E21"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: Kiln & Clay
+    frame:
+      x: 76.8
+      y: 1013.78
+      width: 102.51
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Kiln & Clay
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A2988E"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: "04"
+    frame:
+      x: 1822.05
+      y: 1013.78
+      width: 23.21
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A2988E"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible

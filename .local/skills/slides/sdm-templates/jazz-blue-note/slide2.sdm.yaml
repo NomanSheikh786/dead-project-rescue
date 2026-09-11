@@ -1,0 +1,407 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F4F0EA"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 288
+      y: 648
+      width: 384
+      height: 384
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4A373"
+      widthPt: 1
+    opacity: 0.5
+  - id: text1
+    type: text
+    name: STEREO / CONFIDENTIAL
+    frame:
+      x: 1582.23
+      y: 54
+      width: 241.82
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: STEREO / CONFIDENTIAL
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Modern Aesthetics
+    frame:
+      x: 576
+      y: 287.48
+      width: 585.64
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Modern Aesthetics
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1C2A43"
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text3
+    type: text
+    name: A sophisticated blend of...
+    frame:
+      x: 576
+      y: 353.27
+      width: 620.78
+      height: 131.56
+    body:
+      paragraphs:
+        - runs:
+            - text: A sophisticated blend of striking typography and minimal layouts that resonate with today's design standards.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Timeless Appeal
+    frame:
+      x: 1238.39
+      y: 287.48
+      width: 585.66
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Timeless Appeal
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1C2A43"
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text5
+    type: text
+    name: Drawing inspiration from...
+    frame:
+      x: 1238.39
+      y: 353.27
+      width: 658.05
+      height: 131.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Drawing inspiration from classic jazz album covers, we create experiences that are deeply rooted in artistic tradition.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 576
+      y: 547.63
+      width: 1248
+      height: 257.72
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1C2A43"
+  - id: text6
+    type: text
+    name: // KEY TAKEAWAY
+    frame:
+      x: 652.8
+      y: 590.81
+      width: 1094.46
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: // KEY TAKEAWAY
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4A373"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: '"Design is not just what...'
+    frame:
+      x: 652.8
+      y: 646.97
+      width: 1094.46
+      height: 117.19
+    body:
+      paragraphs:
+        - runs:
+            - text: '"Design is not just what it looks like and feels like. Design is how it works."'
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 24
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F4F0EA"
+          lineHeight: 1.2
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 576
+      y: 957.05
+      width: 1248
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text8
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 576
+      y: 991.44
+      width: 251.05
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -0.115
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1718.47
+      y: 1006.81
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1C2A43"
+  - id: shape5
+    type: shape
+    frame:
+      x: 1747.25
+      y: 1006.81
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A373"
+  - id: shape6
+    type: shape
+    frame:
+      x: 1776.03
+      y: 1006.81
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1C2A43"
+  - id: shape7
+    type: shape
+    frame:
+      x: 1804.81
+      y: 1006.81
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1C2A43"
+  - id: shape8
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 480
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1C2A43"
+  - id: text9
+    type: text
+    name: acme.co
+    frame:
+      x: 57.59
+      y: 54
+      width: 364.86
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F4F0EA"
+              letterSpacingPt: -0.288
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: THE
+    frame:
+      x: 57.59
+      y: 437.7
+      width: 317.47
+      height: 192
+    body:
+      paragraphs:
+        - runs:
+            - text: THE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F4F0EA"
+          lineHeight: 1
+        - runs:
+            - text: VISION
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#D4A373"
+          lineHeight: 1
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 57.59
+      y: 970.22
+      width: 57.59
+      height: 5.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A373"
+  - id: text11
+    type: text
+    name: PAGE 02
+    frame:
+      x: 57.59
+      y: 997.2
+      width: 364.86
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: PAGE 02
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F4F0EA"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible

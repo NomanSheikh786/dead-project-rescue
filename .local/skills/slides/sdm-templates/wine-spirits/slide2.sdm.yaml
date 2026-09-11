@@ -1,0 +1,390 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#1A1216"
+elements:
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 110.44
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text2
+    type: text
+    name: THE PROCESS
+    frame:
+      x: 1630.73
+      y: 66.23
+      width: 184.58
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: THE PROCESS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+              letterSpacingPt: 3.072
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text3
+    type: text
+    name: Crafted with Patience
+    frame:
+      x: 115.19
+      y: 345.42
+      width: 1689.68
+      height: 117.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Crafted with Patience
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+              italic: true
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 482.2
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0E8DC"
+      opacity: 0.4
+  - id: shape2
+    type: shape
+    frame:
+      x: 115.38
+      y: 548.2
+      width: 38
+      height: 38
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#F0E8DC"
+      widthPt: 0.5
+      opacity: 0.3
+    rotationDeg: 45
+  - id: shape3
+    type: shape
+    frame:
+      x: 129.38
+      y: 562.18
+      width: 10
+      height: 10
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0E8DC"
+      opacity: 0.8
+    rotationDeg: 45
+  - id: text4
+    type: text
+    name: Terroir
+    frame:
+      x: 115.19
+      y: 607.98
+      width: 486.46
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Terroir
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Sourced from the finest ...
+    frame:
+      x: 115.19
+      y: 676.02
+      width: 515.65
+      height: 61.44
+    body:
+      paragraphs:
+        - runs:
+            - text: Sourced from the finest high-altitude vineyards, where the soil dictates the soul of the vine.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.6
+  - id: shape4
+    type: shape
+    frame:
+      x: 716.98
+      y: 548.2
+      width: 38
+      height: 38
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#F0E8DC"
+      widthPt: 0.5
+      opacity: 0.3
+    rotationDeg: 45
+  - id: shape5
+    type: shape
+    frame:
+      x: 730.98
+      y: 562.18
+      width: 10
+      height: 10
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0E8DC"
+      opacity: 0.8
+    rotationDeg: 45
+  - id: text6
+    type: text
+    name: Distillation
+    frame:
+      x: 716.78
+      y: 607.98
+      width: 486.47
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Distillation
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: A double-distillation pr...
+    frame:
+      x: 716.78
+      y: 676.02
+      width: 486.47
+      height: 61.44
+    body:
+      paragraphs:
+        - runs:
+            - text: A double-distillation process utilizing copper alembic stills for unparalleled purity.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.6
+  - id: shape6
+    type: shape
+    frame:
+      x: 1318.59
+      y: 548.2
+      width: 38
+      height: 38
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#F0E8DC"
+      widthPt: 0.5
+      opacity: 0.3
+    rotationDeg: 45
+  - id: shape7
+    type: shape
+    frame:
+      x: 1332.59
+      y: 562.18
+      width: 10
+      height: 10
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0E8DC"
+      opacity: 0.8
+    rotationDeg: 45
+  - id: text8
+    type: text
+    name: Maturation
+    frame:
+      x: 1318.39
+      y: 607.98
+      width: 486.47
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Maturation
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Aged for a minimum of 12...
+    frame:
+      x: 1318.39
+      y: 676.02
+      width: 486.47
+      height: 61.44
+    body:
+      paragraphs:
+        - runs:
+            - text: Aged for a minimum of 12 years in bespoke European oak casks to develop complex notes.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.6
+  - id: text10
+    type: text
+    name: EXAMPLE COMPANY, INC.
+    frame:
+      x: 115.19
+      y: 992.17
+      width: 239.79
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text11
+    type: text
+    name: "02"
+    frame:
+      x: 1782.67
+      y: 992.17
+      width: 25.19
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5

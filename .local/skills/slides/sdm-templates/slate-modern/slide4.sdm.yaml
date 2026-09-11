@@ -1,0 +1,276 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 38.39
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D4852"
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 95.83
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#3D4852"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Confidential
+    frame:
+      x: 1635.3
+      y: 86.39
+      width: 147.16
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#99A3A4"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 134.41
+      y: 391.67
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5A8A7A"
+  - id: text3
+    type: text
+    name: Let's build the
+    frame:
+      x: 230.39
+      y: 243.02
+      width: 1536.07
+      height: 255.44
+    body:
+      paragraphs:
+        - runs:
+            - text: Let's build the
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 800
+              color:
+                kind: rgb
+                value: "#3D4852"
+              letterSpacingPt: -1.728
+          lineHeight: 1.1
+        - runs:
+            - text: future together.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 800
+              color:
+                kind: rgb
+                value: "#3D4852"
+              letterSpacingPt: -1.728
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: We are looking for visio...
+    frame:
+      x: 230.39
+      y: 539.64
+      width: 864.05
+      height: 155.53
+    body:
+      paragraphs:
+        - runs:
+            - text: We are looking for visionary partners to join our Series B round and help scale our operations globally.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7F8C8D"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: CONTACT
+    frame:
+      x: 230.39
+      y: 759.97
+      width: 265.25
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CONTACT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#99A3A4"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: jane.doe@acme.co
+    frame:
+      x: 230.39
+      y: 799.56
+      width: 281.17
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: jane.doe@acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#3D4852"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: WEBSITE
+    frame:
+      x: 572.39
+      y: 759.97
+      width: 333.27
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: WEBSITE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#99A3A4"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: www.acme.co/investors
+    frame:
+      x: 572.39
+      y: 799.56
+      width: 333.27
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: www.acme.co/investors
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#3D4852"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 153.59
+      y: 964.81
+      width: 300
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#99A3A4"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: "04"
+    frame:
+      x: 1741.42
+      y: 964.81
+      width: 27.03
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#99A3A4"
+          lineHeight: 1.5
+      overflow: visible

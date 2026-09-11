@@ -1,0 +1,617 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#E8E2D9"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1440
+      y: 108
+      width: 672
+      height: 672
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 302.4
+    fill:
+      kind: linearGradient
+      angleDeg: 135
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#FFDAB9"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#FFCBA4"
+    opacity: 0.8
+  - id: shape2
+    type: shape
+    frame:
+      x: -96
+      y: 654
+      width: 480
+      height: 480
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: linearGradient
+      angleDeg: 135
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#E6E6FA"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#D8BFD8"
+    opacity: 0.8
+  - id: shape3
+    type: shape
+    frame:
+      x: 134.39
+      y: 64.8
+      width: 211.78
+      height: 66.94
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 33.47
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F4F0EA"
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 134.39
+      y: 64.8
+      width: 211.83
+      height: 68.94
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#5C544D"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+  - id: shape4
+    type: shape
+    frame:
+      x: 1584.77
+      y: 64.8
+      width: 200.84
+      height: 66.94
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 33.47
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F4F0EA"
+  - id: text2
+    type: text
+    name: Metrics
+    frame:
+      x: 1584.77
+      y: 64.8
+      width: 213.89
+      height: 68.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Metrics
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#8E867E"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+  - id: shape5
+    type: shape
+    frame:
+      x: 134.39
+      y: 190.48
+      width: 747.63
+      height: 163.17
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 57.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F4F0EA"
+  - id: text3
+    type: text
+    name: Growth & Traction
+    frame:
+      x: 211.19
+      y: 233.67
+      width: 655.41
+      height: 155
+    body:
+      paragraphs:
+        - runs:
+            - text: Growth & Traction
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 38.4
+              weight: 800
+              color:
+                kind: rgb
+                value: "#3D3833"
+              letterSpacingPt: -1.152
+          lineHeight: 1
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 134.39
+      y: 396.84
+      width: 512
+      height: 236.36
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 57.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F4F0EA"
+  - id: text4
+    type: text
+    name: 78%
+    frame:
+      x: 293.56
+      y: 440.03
+      width: 221.69
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: 78%
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 48
+              weight: 800
+              color:
+                kind: rgb
+                value: "#D48C6B"
+          lineHeight: 1
+      overflow: visible
+  - id: text5
+    type: text
+    name: YoY Growth
+    frame:
+      x: 312.31
+      y: 546.83
+      width: 161.75
+      height: 88.19
+    body:
+      paragraphs:
+        - runs:
+            - text: YoY Growth
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#736A61"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 703.98
+      y: 396.84
+      width: 512.02
+      height: 236.36
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 57.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F4F0EA"
+  - id: text6
+    type: text
+    name: 2.4M
+    frame:
+      x: 851.89
+      y: 440.03
+      width: 252.25
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: 2.4M
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 48
+              weight: 800
+              color:
+                kind: rgb
+                value: "#9CA4D1"
+          lineHeight: 1
+      overflow: visible
+  - id: text7
+    type: text
+    name: Active Users
+    frame:
+      x: 875.88
+      y: 546.83
+      width: 174.75
+      height: 88.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Active Users
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#736A61"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 1273.59
+      y: 396.84
+      width: 512.02
+      height: 236.36
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 57.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F4F0EA"
+  - id: text8
+    type: text
+    name: $12M
+    frame:
+      x: 1420.3
+      y: 440.03
+      width: 277.64
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: $12M
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 48
+              weight: 800
+              color:
+                kind: rgb
+                value: "#7BB594"
+          lineHeight: 1
+      overflow: visible
+  - id: text9
+    type: text
+    name: ARR
+    frame:
+      x: 1502.5
+      y: 546.83
+      width: 59.24
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: ARR
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#736A61"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 134.39
+      y: 676.39
+      width: 1651.22
+      height: 248.38
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 57.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F4F0EA"
+  - id: shape10
+    type: shape
+    frame:
+      x: 211.19
+      y: 719.58
+      width: 576
+      height: 162
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 38.4
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8E2D9"
+  - id: shape11
+    type: shape
+    frame:
+      x: 249.58
+      y: 805.98
+      width: 76.8
+      height: 54
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#FFCBA4"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#FFDAB9"
+  - id: shape12
+    type: shape
+    frame:
+      x: 364.78
+      y: 773.59
+      width: 76.8
+      height: 86.39
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#FFCBA4"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#FFDAB9"
+  - id: shape13
+    type: shape
+    frame:
+      x: 479.98
+      y: 795.19
+      width: 76.8
+      height: 64.8
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#D8BFD8"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#E6E6FA"
+  - id: shape14
+    type: shape
+    frame:
+      x: 595.19
+      y: 741.19
+      width: 76.8
+      height: 118.8
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#98FF98"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#CFFFE5"
+  - id: text10
+    type: text
+    name: Steady Upward Trajectory
+    frame:
+      x: 863.98
+      y: 728.95
+      width: 844.88
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: Steady Upward Trajectory
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 19.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#3D3833"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Our quarter-over-quarter...
+    frame:
+      x: 863.98
+      y: 797.36
+      width: 844.88
+      height: 76.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Our quarter-over-quarter metrics continue to outperform expectations, solidifying our market position.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 12.48
+              weight: 500
+              color:
+                kind: rgb
+                value: "#736A61"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape15
+    type: shape
+    frame:
+      x: 134.39
+      y: 961.92
+      width: 315.19
+      height: 53.28
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 26.64
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F4F0EA"
+  - id: text12
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 134.39
+      y: 961.92
+      width: 322.38
+      height: 53.28
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 10.56
+              weight: 700
+              color:
+                kind: rgb
+                value: "#8E867E"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 5.4
+        right: 19.2
+        bottom: 5.4
+        left: 19.2
+  - id: shape16
+    type: shape
+    frame:
+      x: 1681.19
+      y: 961.92
+      width: 104.42
+      height: 53.28
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 26.64
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F4F0EA"
+  - id: text13
+    type: text
+    name: "03"
+    frame:
+      x: 1681.19
+      y: 961.92
+      width: 110.74
+      height: 53.28
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 10.56
+              weight: 700
+              color:
+                kind: rgb
+                value: "#8E867E"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 5.4
+        right: 19.2
+        bottom: 5.4
+        left: 19.2

@@ -1,0 +1,386 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#1A2332"
+elements:
+  - id: text1
+    type: text
+    name: DOCTORAL THESIS DEFENSE
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 393.99
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: DOCTORAL THESIS DEFENSE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+              letterSpacingPt: 1.584
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Department of Computer S...
+    frame:
+      x: 153.59
+      y: 128.88
+      width: 371.69
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Department of Computer Science
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+    rotationDeg: 0.02
+  - id: text3
+    type: text
+    name: acme.co
+    frame:
+      x: 1640.15
+      y: 86.39
+      width: 126.25
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.528
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: October 2026
+    frame:
+      x: 1624.55
+      y: 123.47
+      width: 141.86
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: October 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 200.86
+      width: 76.8
+      height: 5.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A90E2"
+  - id: text5
+    type: text
+    name: Example Deck
+    frame:
+      x: 153.59
+      y: 249.8
+      width: 782.1
+      height: 134.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.576
+          lineHeight: 1.15
+      overflow: visible
+  - id: text6
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 153.59
+      y: 414.66
+      width: 1434.31
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 300
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text7
+    type: text
+    name: CANDIDATE
+    frame:
+      x: 153.59
+      y: 771.16
+      width: 193.08
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CANDIDATE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Jane Doe, M.S.
+    frame:
+      x: 153.59
+      y: 804.98
+      width: 204.66
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Jane Doe, M.S.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: ADVISORS
+    frame:
+      x: 461.81
+      y: 771.16
+      width: 206.49
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: ADVISORS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Prof. Alan Turing
+    frame:
+      x: 461.81
+      y: 804.98
+      width: 245.93
+      height: 64.53
+    body:
+      paragraphs:
+        - runs:
+            - text: Prof. Alan Turing
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.4
+        - runs:
+            - text: Prof. Grace Hopper
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.4
+      overflow: visible
+  - id: text11
+    type: text
+    name: COMMITTEE
+    frame:
+      x: 783.44
+      y: 771.16
+      width: 247.02
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: COMMITTEE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Dr. John von Neumann
+    frame:
+      x: 783.44
+      y: 804.98
+      width: 261.84
+      height: 64.53
+    body:
+      paragraphs:
+        - runs:
+            - text: Dr. John von Neumann
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.4
+        - runs:
+            - text: Dr. Ada Lovelace
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.4
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 153.59
+      y: 934.3
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8E9EBB"
+      opacity: 0.2
+  - id: text13
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 153.59
+      y: 967.69
+      width: 209.43
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: Confidential
+    frame:
+      x: 1657.75
+      y: 967.69
+      width: 121.71
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8E9EBB"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible

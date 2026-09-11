@@ -1,0 +1,266 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFDE7"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1190.41
+      y: 54
+      width: 576
+      height: 378
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+    rotationDeg: 3
+  - id: shape2
+    type: shape
+    frame:
+      x: 1209.41
+      y: 64.99
+      width: 538
+      height: 356
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF1744"
+    rotationDeg: 2
+  - id: shape3
+    type: shape
+    frame:
+      x: 1536
+      y: 486
+      width: 288
+      height: 288
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 2
+    rotationDeg: -5
+  - id: shape4
+    type: shape
+    frame:
+      x: 114.98
+      y: 64.59
+      width: 120
+      height: 40
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+    rotationDeg: -2
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 114.98
+      y: 64.59
+      width: 120.05
+      height: 40
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFDE7"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 9.6
+        bottom: 2.7
+        left: 9.6
+    rotationDeg: -2
+  - id: text2
+    type: text
+    name: ISSUE NO. 01 / 2026
+    frame:
+      x: 1440
+      y: 96
+      width: 235.49
+      height: 40
+    body:
+      paragraphs:
+        - runs:
+            - text: ISSUE NO. 01 / 2026
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 1
+  - id: text3
+    type: text
+    name: EXAMPLE
+    frame:
+      x: 113.85
+      y: 384.16
+      width: 1690.05
+      height: 140
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 86.4
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 0.8
+      overflow: visible
+    rotationDeg: -1
+  - id: shape5
+    type: shape
+    frame:
+      x: 116.54
+      y: 539.55
+      width: 325.78
+      height: 125.97
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF1744"
+  - id: text4
+    type: text
+    name: DECK
+    frame:
+      x: 154.94
+      y: 544.94
+      width: 249.05
+      height: 117.19
+    body:
+      paragraphs:
+        - runs:
+            - text: DECK
+              font:
+                kind: family
+                family: Inter
+              sizePt: 38.4
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 3.84
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 115.19
+      y: 933.24
+      width: 779.06
+      height: 82
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence. No kidding.
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 5.4
+        right: 0
+        bottom: 0
+        left: 0
+    rotationDeg: 0.5
+  - id: text6
+    type: text
+    name: EXAMPLE COMPANY, INC.
+    frame:
+      x: 1630.37
+      y: 974.97
+      width: 174.12
+      height: 22
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#000000"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -1
+  - id: text7
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 1635.79
+      y: 995.12
+      width: 169.05
+      height: 22
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 6.72
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FF1744"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -1

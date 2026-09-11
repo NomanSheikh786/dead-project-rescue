@@ -1,0 +1,702 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#1A1B26"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 421.39
+      y: 0
+      width: 1
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+  - id: shape2
+    type: shape
+    frame:
+      x: 57.59
+      y: 56.88
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7AA2F7"
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 105.58
+      y: 54
+      width: 95.83
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: GETTING STARTED
+    frame:
+      x: 57.59
+      y: 153.36
+      width: 306.25
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: GETTING STARTED
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#565F89"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Authentication
+    frame:
+      x: 57.59
+      y: 200.88
+      width: 306.25
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Authentication
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#7AA2F7"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Pagination
+    frame:
+      x: 57.59
+      y: 245.86
+      width: 306.25
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Pagination
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C0CAF5"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text5
+    type: text
+    name: Errors
+    frame:
+      x: 57.59
+      y: 290.84
+      width: 306.25
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Errors
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C0CAF5"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text6
+    type: text
+    name: RESOURCES
+    frame:
+      x: 57.59
+      y: 362.83
+      width: 306.25
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: RESOURCES
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#565F89"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Example Deck
+    frame:
+      x: 57.59
+      y: 410.34
+      width: 306.25
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C0CAF5"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text8
+    type: text
+    name: Users
+    frame:
+      x: 57.59
+      y: 455.33
+      width: 306.25
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Users
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C0CAF5"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text9
+    type: text
+    name: Workspaces
+    frame:
+      x: 57.59
+      y: 500.31
+      width: 306.25
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Workspaces
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C0CAF5"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text10
+    type: text
+    name: v2.0.0 • 2026
+    frame:
+      x: 57.59
+      y: 1002.97
+      width: 306.25
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: v2.0.0 • 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#565F89"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: CORE CONCEPTS
+    frame:
+      x: 537.58
+      y: 86.39
+      width: 1267.28
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CORE CONCEPTS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#7AA2F7"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Authentication
+    frame:
+      x: 537.58
+      y: 136.78
+      width: 1267.28
+      height: 129.61
+    body:
+      paragraphs:
+        - runs:
+            - text: Authentication
+              font:
+                kind: family
+                family: Inter
+              sizePt: 43.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Authenticate your API re...
+    frame:
+      x: 537.58
+      y: 287.98
+      width: 768.05
+      height: 88
+    body:
+      paragraphs:
+        - runs:
+            - text: Authenticate your API requests using Bearer tokens. All API requests must be made over HTTPS.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9AA5CE"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 537.58
+      y: 417.17
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7AA2F7"
+      opacity: 0.1
+  - id: text14
+    type: text
+    name: "1"
+    frame:
+      x: 537.555
+      y: 417.17
+      width: 57.64
+      height: 57.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "1"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#7AA2F7"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text15
+    type: text
+    name: Obtain your API Key
+    frame:
+      x: 633.56
+      y: 417.17
+      width: 864.07
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Obtain your API Key
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: You can generate API key...
+    frame:
+      x: 633.56
+      y: 468.28
+      width: 864.07
+      height: 63.38
+    body:
+      paragraphs:
+        - runs:
+            - text: You can generate API keys from the developer dashboard. Keep your keys secure and do not share them in publicly accessible areas.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9AA5CE"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 537.58
+      y: 574.84
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#9ECE6A"
+      opacity: 0.1
+  - id: text17
+    type: text
+    name: "2"
+    frame:
+      x: 537.555
+      y: 574.84
+      width: 57.64
+      height: 57.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "2"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#9ECE6A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text18
+    type: text
+    name: Set the Authorization He...
+    frame:
+      x: 633.56
+      y: 574.84
+      width: 864.07
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Set the Authorization Header
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text19
+    type: text
+    name: Include the key in the H...
+    frame:
+      x: 633.56
+      y: 625.95
+      width: 864.07
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Include the key in the HTTP headers of your requests.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#9AA5CE"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 633.56
+      y: 679.23
+      width: 864.02
+      height: 75.91
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#16161E"
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.05
+  - id: text20
+    type: text
+    name: "Authorization: Bearer sk..."
+    frame:
+      x: 672.95
+      y: 701.83
+      width: 785.28
+      height: 30.72
+    body:
+      paragraphs:
+        - runs:
+            - text: "Authorization: Bearer "
+              color:
+                kind: rgb
+                value: "#C0CAF5"
+            - text: sk_live_123456789
+              color:
+                kind: rgb
+                value: "#9ECE6A"
+          lineHeight: 1.6
+          defaultRunStyle:
+            font:
+              kind: family
+              family: DM Mono
+            sizePt: 9.6
+            weight: 400
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 537.58
+      y: 798.33
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0AF68"
+      opacity: 0.1
+  - id: text21
+    type: text
+    name: "3"
+    frame:
+      x: 537.555
+      y: 798.33
+      width: 57.64
+      height: 57.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "3"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E0AF68"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text22
+    type: text
+    name: Handle Errors
+    frame:
+      x: 633.56
+      y: 798.33
+      width: 800.83
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Handle Errors
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text23
+    type: text
+    name: Requests with invalid or...
+    frame:
+      x: 633.56
+      y: 849.44
+      width: 848.88
+      height: 32.69
+    body:
+      paragraphs:
+        - runs:
+            - text: "Requests with invalid or missing tokens will return a "
+              font:
+                kind: family
+                family: Inter
+              color:
+                kind: rgb
+                value: "#9AA5CE"
+            - text: 401 Unauthorized
+              font:
+                kind: family
+                family: DM Mono
+              color:
+                kind: rgb
+                value: "#FF9E64"
+              highlight:
+                kind: rgb
+                value: "#31282C"
+            - text: " error."
+              font:
+                kind: family
+                family: Inter
+              color:
+                kind: rgb
+                value: "#9AA5CE"
+          lineHeight: 1.5
+          defaultRunStyle:
+            sizePt: 10.56
+            weight: 400
+      overflow: visible
+  - id: text24
+    type: text
+    name: "02"
+    frame:
+      x: 537.58
+      y: 964.81
+      width: 27.27
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#565F89"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text25
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 1504.86
+      y: 966.25
+      width: 300
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#565F89"
+          align: right
+          lineHeight: 1.5
+      overflow: visible

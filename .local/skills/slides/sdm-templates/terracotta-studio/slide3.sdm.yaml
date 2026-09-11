@@ -1,0 +1,577 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5EDE0"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 288
+      y: -132
+      width: 1344
+      height: 1344
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: linearGradient
+      angleDeg: 45
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#D2B48C"
+          opacity: 0.3
+        - offset: 0.7
+          color:
+            kind: rgb
+            value: "#F5EDE0"
+          opacity: 0
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 120.72
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 700
+              color:
+                kind: rgb
+                value: "#8B4513"
+              letterSpacingPt: 0.672
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: MARKET IMPACT
+    frame:
+      x: 1619.16
+      y: 92.14
+      width: 165.51
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: MARKET IMPACT
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#A0522D"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Growth in the Artisan Se...
+    frame:
+      x: 521.18
+      y: 173.17
+      width: 877.63
+      height: 203
+    body:
+      paragraphs:
+        - runs:
+            - text: Growth in the Artisan Sector
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 33.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#4A2F1D"
+              italic: true
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 288
+      y: 767.77
+      width: 1344
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#A0522D"
+  - id: text4
+    type: text
+    name: 30%
+    frame:
+      x: 395.77
+      y: 538.84
+      width: 67.89
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: 30%
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#8B4513"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 288
+      y: 592.83
+      width: 278.39
+      height: 97.19
+    geometry:
+      kind: path
+      viewBox:
+        width: 278.39
+        height: 97.19
+      path: M 0 97.19 L 0 12 A 12 12 0 0 1 12 0 L 266.39 0 A 12 12 0 0 1 278.39 12 L 278.39 97.19 Z
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#A0522D"
+      opacity: 0.4
+  - id: text5
+    type: text
+    name: "2023"
+    frame:
+      x: 399.17
+      y: 711.61
+      width: 63.1
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "2023"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#6B4423"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: 55%
+    frame:
+      x: 752.25
+      y: 457.84
+      width: 67.33
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: 55%
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#8B4513"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 643.19
+      y: 511.83
+      width: 278.41
+      height: 178.19
+    geometry:
+      kind: path
+      viewBox:
+        width: 278.41
+        height: 178.19
+      path: M 0 178.19 L 0 12 A 12 12 0 0 1 12 0 L 266.41 0 A 12 12 0 0 1 278.41 12 L 278.41 178.19 Z
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#A0522D"
+      opacity: 0.4
+  - id: text7
+    type: text
+    name: "2024"
+    frame:
+      x: 754.02
+      y: 711.61
+      width: 62.78
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "2024"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#6B4423"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: 75%
+    frame:
+      x: 1108.77
+      y: 393.03
+      width: 67.71
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: 75%
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#8B4513"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 998.39
+      y: 447.02
+      width: 278.41
+      height: 243
+    geometry:
+      kind: path
+      viewBox:
+        width: 278.41
+        height: 243
+      path: M 0 243 L 0 12 A 12 12 0 0 1 12 0 L 266.41 0 A 12 12 0 0 1 278.41 12 L 278.41 243 Z
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#A0522D"
+      opacity: 0.4
+  - id: text9
+    type: text
+    name: "2025"
+    frame:
+      x: 1109.28
+      y: 711.61
+      width: 62.66
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "2025"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#6B4423"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: 100%
+    frame:
+      x: 1454.75
+      y: 312.03
+      width: 86.14
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: 100%
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#8B4513"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 1353.59
+      y: 366.02
+      width: 278.41
+      height: 324
+    geometry:
+      kind: path
+      viewBox:
+        width: 278.41
+        height: 324
+      path: M 0 324 L 0 12 A 12 12 0 0 1 12 0 L 266.41 0 A 12 12 0 0 1 278.41 12 L 278.41 324 Z
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B85C38"
+  - id: text11
+    type: text
+    name: "2026"
+    frame:
+      x: 1464.33
+      y: 711.61
+      width: 62.97
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#6B4423"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: 2.4x
+    frame:
+      x: 405.505
+      y: 835.56
+      width: 222.16
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: 2.4x
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 28.8
+              weight: 600
+              color:
+                kind: rgb
+                value: "#8B4513"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: REVENUE MULTIPLIER
+    frame:
+      x: 384.29
+      y: 921.95
+      width: 264.6
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: REVENUE MULTIPLIER
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0522D"
+              letterSpacingPt: 0.96
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: 98%
+    frame:
+      x: 862.695
+      y: 835.56
+      width: 199.52
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: 98%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 28.8
+              weight: 600
+              color:
+                kind: rgb
+                value: "#8B4513"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: CLIENT RETENTION
+    frame:
+      x: 850.37
+      y: 921.95
+      width: 224.18
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CLIENT RETENTION
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0522D"
+              letterSpacingPt: 0.96
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: 15k+
+    frame:
+      x: 1297.225
+      y: 835.56
+      width: 217.25
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: 15k+
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 28.8
+              weight: 600
+              color:
+                kind: rgb
+                value: "#8B4513"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text17
+    type: text
+    name: PRODUCTS CRAFTED
+    frame:
+      x: 1283.8
+      y: 921.95
+      width: 244.11
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: PRODUCTS CRAFTED
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0522D"
+              letterSpacingPt: 0.96
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text18
+    type: text
+    name: Crafted with care
+    frame:
+      x: 153.59
+      y: 959.42
+      width: 176.06
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: Crafted with care
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8B4513"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 1683.88
+      y: 954.03
+      width: 82.53
+      height: 39.58
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.79
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B85C38"
+  - id: text19
+    type: text
+    name: "03"
+    frame:
+      x: 1683.88
+      y: 954.03
+      width: 87.53
+      height: 41.58
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 14.4
+        bottom: 2.7
+        left: 14.4

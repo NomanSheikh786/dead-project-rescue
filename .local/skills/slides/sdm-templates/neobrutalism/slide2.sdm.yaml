@@ -1,0 +1,1293 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1721.6
+      y: -166.4
+      width: 384
+      height: 384
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape2
+    type: shape
+    frame:
+      x: 1712
+      y: -176
+      width: 384
+      height: 384
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C6F135"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 3.5
+  - id: shape3
+    type: shape
+    frame:
+      x: -120.4
+      y: 751.4
+      width: 230
+      height: 230
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+    rotationDeg: 15
+  - id: shape4
+    type: shape
+    frame:
+      x: -130
+      y: 741.8
+      width: 230
+      height: 230
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF6B9D"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 3.5
+    rotationDeg: 15
+  - id: shape5
+    type: shape
+    frame:
+      x: 115.19
+      y: 205.21
+      width: 684.67
+      height: 11
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text1
+    type: text
+    name: Choose Your Plan
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 740.95
+      height: 272
+    body:
+      paragraphs:
+        - runs:
+            - text: Choose Your Plan
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 43.2
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 5.4
+        left: 0
+  - id: text2
+    type: text
+    name: Features
+    frame:
+      x: 157.42
+      y: 334.98
+      width: 231.39
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: Features
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 24
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 686.74
+      y: 268.99
+      width: 334.88
+      height: 158.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape7
+    type: shape
+    frame:
+      x: 677.14
+      y: 259.39
+      width: 334.88
+      height: 158.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFE156"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 3.5
+  - id: text3
+    type: text
+    name: Free
+    frame:
+      x: 796.08
+      y: 302.58
+      width: 118.03
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: Free
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 24
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 1437.29
+      y: 268.99
+      width: 334.88
+      height: 158.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape9
+    type: shape
+    frame:
+      x: 1427.69
+      y: 259.39
+      width: 334.88
+      height: 158.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4ECDC4"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 3.5
+  - id: text4
+    type: text
+    name: Business
+    frame:
+      x: 1497.34
+      y: 302.58
+      width: 218.61
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: Business
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 24
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape10
+    type: shape
+    frame:
+      x: 168.94
+      y: 461.69
+      width: 1605.14
+      height: 584
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape11
+    type: shape
+    frame:
+      x: 157.42
+      y: 450.17
+      width: 1605.14
+      height: 584
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 3.5
+  - id: shape12
+    type: shape
+    frame:
+      x: 164.42
+      y: 567.17
+      width: 1591.14
+      height: 5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text5
+    type: text
+    name: Unlimited Projects
+    frame:
+      x: 164.42
+      y: 457.17
+      width: 498.5
+      height: 110
+    body:
+      paragraphs:
+        - runs:
+            - text: Unlimited Projects
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 15.36
+              weight: 800
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 9
+        right: 19.2
+        bottom: 9
+        left: 19.2
+  - id: shape13
+    type: shape
+    frame:
+      x: 662.88
+      y: 457.17
+      width: 5
+      height: 110
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text6
+    type: text
+    name: ✗
+    frame:
+      x: 662.855
+      y: 457.17
+      width: 362.96
+      height: 110
+    body:
+      paragraphs:
+        - runs:
+            - text: ✗
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 24
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FF3B30"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 9
+        right: 19.2
+        bottom: 9
+        left: 19.2
+  - id: shape16
+    type: shape
+    frame:
+      x: 1025.78
+      y: 457.17
+      width: 371.89
+      height: 110
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF6B9D"
+      opacity: 0.15
+  - id: shape14
+    type: shape
+    frame:
+      x: 1390.67
+      y: 457.17
+      width: 7
+      height: 110
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape15
+    type: shape
+    frame:
+      x: 1025.78
+      y: 457.17
+      width: 7
+      height: 110
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text7
+    type: text
+    name: ✓
+    frame:
+      x: 1025.755
+      y: 457.17
+      width: 371.94
+      height: 110
+    body:
+      paragraphs:
+        - runs:
+            - text: ✓
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 24
+              weight: 900
+              color:
+                kind: rgb
+                value: "#00A86B"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 9
+        right: 19.2
+        bottom: 9
+        left: 19.2
+  - id: text8
+    type: text
+    name: ✓
+    frame:
+      x: 1397.645
+      y: 457.17
+      width: 357.94
+      height: 110
+    body:
+      paragraphs:
+        - runs:
+            - text: ✓
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 24
+              weight: 900
+              color:
+                kind: rgb
+                value: "#00A86B"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 9
+        right: 19.2
+        bottom: 9
+        left: 19.2
+  - id: shape17
+    type: shape
+    frame:
+      x: 164.42
+      y: 682.17
+      width: 1591.14
+      height: 5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text9
+    type: text
+    name: Priority Support
+    frame:
+      x: 164.42
+      y: 572.17
+      width: 498.5
+      height: 110
+    body:
+      paragraphs:
+        - runs:
+            - text: Priority Support
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 15.36
+              weight: 800
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 9
+        right: 19.2
+        bottom: 9
+        left: 19.2
+  - id: shape18
+    type: shape
+    frame:
+      x: 662.88
+      y: 572.17
+      width: 5
+      height: 110
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text10
+    type: text
+    name: ✗
+    frame:
+      x: 662.855
+      y: 572.17
+      width: 362.96
+      height: 110
+    body:
+      paragraphs:
+        - runs:
+            - text: ✗
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 24
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FF3B30"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 9
+        right: 19.2
+        bottom: 9
+        left: 19.2
+  - id: shape21
+    type: shape
+    frame:
+      x: 1025.78
+      y: 572.17
+      width: 371.89
+      height: 110
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF6B9D"
+      opacity: 0.15
+  - id: shape19
+    type: shape
+    frame:
+      x: 1390.67
+      y: 572.17
+      width: 7
+      height: 110
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape20
+    type: shape
+    frame:
+      x: 1025.78
+      y: 572.17
+      width: 7
+      height: 110
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text11
+    type: text
+    name: ✓
+    frame:
+      x: 1025.755
+      y: 572.17
+      width: 371.94
+      height: 110
+    body:
+      paragraphs:
+        - runs:
+            - text: ✓
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 24
+              weight: 900
+              color:
+                kind: rgb
+                value: "#00A86B"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 9
+        right: 19.2
+        bottom: 9
+        left: 19.2
+  - id: text12
+    type: text
+    name: ✓
+    frame:
+      x: 1397.645
+      y: 572.17
+      width: 357.94
+      height: 110
+    body:
+      paragraphs:
+        - runs:
+            - text: ✓
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 24
+              weight: 900
+              color:
+                kind: rgb
+                value: "#00A86B"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 9
+        right: 19.2
+        bottom: 9
+        left: 19.2
+  - id: shape22
+    type: shape
+    frame:
+      x: 164.42
+      y: 797.17
+      width: 1591.14
+      height: 5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text13
+    type: text
+    name: Custom Domain
+    frame:
+      x: 164.42
+      y: 687.17
+      width: 498.5
+      height: 110
+    body:
+      paragraphs:
+        - runs:
+            - text: Custom Domain
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 15.36
+              weight: 800
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 9
+        right: 19.2
+        bottom: 9
+        left: 19.2
+  - id: shape23
+    type: shape
+    frame:
+      x: 662.88
+      y: 687.17
+      width: 5
+      height: 110
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text14
+    type: text
+    name: ✗
+    frame:
+      x: 662.855
+      y: 687.17
+      width: 362.96
+      height: 110
+    body:
+      paragraphs:
+        - runs:
+            - text: ✗
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 24
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FF3B30"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 9
+        right: 19.2
+        bottom: 9
+        left: 19.2
+  - id: shape26
+    type: shape
+    frame:
+      x: 1025.78
+      y: 687.17
+      width: 371.89
+      height: 110
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF6B9D"
+      opacity: 0.15
+  - id: shape24
+    type: shape
+    frame:
+      x: 1390.67
+      y: 687.17
+      width: 7
+      height: 110
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape25
+    type: shape
+    frame:
+      x: 1025.78
+      y: 687.17
+      width: 7
+      height: 110
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text15
+    type: text
+    name: ✗
+    frame:
+      x: 1025.755
+      y: 687.17
+      width: 371.94
+      height: 110
+    body:
+      paragraphs:
+        - runs:
+            - text: ✗
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 24
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FF3B30"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 9
+        right: 19.2
+        bottom: 9
+        left: 19.2
+  - id: text16
+    type: text
+    name: ✓
+    frame:
+      x: 1397.645
+      y: 687.17
+      width: 357.94
+      height: 110
+    body:
+      paragraphs:
+        - runs:
+            - text: ✓
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 24
+              weight: 900
+              color:
+                kind: rgb
+                value: "#00A86B"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 9
+        right: 19.2
+        bottom: 9
+        left: 19.2
+  - id: shape27
+    type: shape
+    frame:
+      x: 164.42
+      y: 912.17
+      width: 1591.14
+      height: 5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text17
+    type: text
+    name: Analytics
+    frame:
+      x: 164.42
+      y: 802.17
+      width: 498.5
+      height: 110
+    body:
+      paragraphs:
+        - runs:
+            - text: Analytics
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 15.36
+              weight: 800
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 9
+        right: 19.2
+        bottom: 9
+        left: 19.2
+  - id: shape28
+    type: shape
+    frame:
+      x: 662.88
+      y: 802.17
+      width: 5
+      height: 110
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text18
+    type: text
+    name: ✗
+    frame:
+      x: 662.855
+      y: 802.17
+      width: 362.96
+      height: 110
+    body:
+      paragraphs:
+        - runs:
+            - text: ✗
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 24
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FF3B30"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 9
+        right: 19.2
+        bottom: 9
+        left: 19.2
+  - id: shape31
+    type: shape
+    frame:
+      x: 1025.78
+      y: 802.17
+      width: 371.89
+      height: 110
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF6B9D"
+      opacity: 0.15
+  - id: shape29
+    type: shape
+    frame:
+      x: 1390.67
+      y: 802.17
+      width: 7
+      height: 110
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape30
+    type: shape
+    frame:
+      x: 1025.78
+      y: 802.17
+      width: 7
+      height: 110
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text19
+    type: text
+    name: ✓
+    frame:
+      x: 1025.755
+      y: 802.17
+      width: 371.94
+      height: 110
+    body:
+      paragraphs:
+        - runs:
+            - text: ✓
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 24
+              weight: 900
+              color:
+                kind: rgb
+                value: "#00A86B"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 9
+        right: 19.2
+        bottom: 9
+        left: 19.2
+  - id: text20
+    type: text
+    name: ✓
+    frame:
+      x: 1397.645
+      y: 802.17
+      width: 357.94
+      height: 110
+    body:
+      paragraphs:
+        - runs:
+            - text: ✓
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 24
+              weight: 900
+              color:
+                kind: rgb
+                value: "#00A86B"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 9
+        right: 19.2
+        bottom: 9
+        left: 19.2
+  - id: text21
+    type: text
+    name: API Access
+    frame:
+      x: 164.42
+      y: 917.17
+      width: 498.5
+      height: 110
+    body:
+      paragraphs:
+        - runs:
+            - text: API Access
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 15.36
+              weight: 800
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 9
+        right: 19.2
+        bottom: 9
+        left: 19.2
+  - id: shape32
+    type: shape
+    frame:
+      x: 662.88
+      y: 917.17
+      width: 5
+      height: 110
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text22
+    type: text
+    name: ✗
+    frame:
+      x: 662.855
+      y: 917.17
+      width: 362.96
+      height: 110
+    body:
+      paragraphs:
+        - runs:
+            - text: ✗
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 24
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FF3B30"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 9
+        right: 19.2
+        bottom: 9
+        left: 19.2
+  - id: shape35
+    type: shape
+    frame:
+      x: 1025.78
+      y: 917.17
+      width: 371.89
+      height: 110
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF6B9D"
+      opacity: 0.15
+  - id: shape33
+    type: shape
+    frame:
+      x: 1390.67
+      y: 917.17
+      width: 7
+      height: 110
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape34
+    type: shape
+    frame:
+      x: 1025.78
+      y: 917.17
+      width: 7
+      height: 110
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text23
+    type: text
+    name: ✗
+    frame:
+      x: 1025.755
+      y: 917.17
+      width: 371.94
+      height: 110
+    body:
+      paragraphs:
+        - runs:
+            - text: ✗
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 24
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FF3B30"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 9
+        right: 19.2
+        bottom: 9
+        left: 19.2
+  - id: text24
+    type: text
+    name: ✓
+    frame:
+      x: 1397.645
+      y: 917.17
+      width: 357.94
+      height: 110
+    body:
+      paragraphs:
+        - runs:
+            - text: ✓
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 24
+              weight: 900
+              color:
+                kind: rgb
+                value: "#00A86B"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 9
+        right: 19.2
+        bottom: 9
+        left: 19.2
+  - id: shape36
+    type: shape
+    frame:
+      x: 1061.93
+      y: 260.11
+      width: 338.89
+      height: 158.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape37
+    type: shape
+    frame:
+      x: 1050.41
+      y: 248.59
+      width: 338.89
+      height: 158.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF6B9D"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 4.5
+  - id: text25
+    type: text
+    name: Pro
+    frame:
+      x: 1175.97
+      y: 284.59
+      width: 107.8
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: Pro
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 28.8
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible

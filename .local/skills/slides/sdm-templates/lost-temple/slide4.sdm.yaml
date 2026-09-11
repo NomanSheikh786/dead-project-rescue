@@ -1,0 +1,261 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0C0A08"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: -96
+      y: -54
+      width: 2112
+      height: 1188
+    assetId: jungle-temple
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 0
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#0C0A08"
+          opacity: 0.95
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#0C0A08"
+          opacity: 0.7
+  - id: text1
+    type: text
+    name: ◆ The Journey Awaits
+    frame:
+      x: 818.81
+      y: 307.66
+      width: 282.4
+      height: 88.19
+    body:
+      paragraphs:
+        - runs:
+            - text: ◆ The Journey Awaits
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8965A"
+              italic: true
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Join the Expedition.
+    frame:
+      x: 355.5
+      y: 383.23
+      width: 1208.97
+      height: 128.72
+    body:
+      paragraphs:
+        - runs:
+            - text: Join the Expedition.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D8C4"
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text3
+    type: text
+    name: Discover what lies benea...
+    frame:
+      x: 575.975
+      y: 553.14
+      width: 768.05
+      height: 88
+    body:
+      paragraphs:
+        - runs:
+            - text: Discover what lies beneath the surface. Reach out to our guild of explorers to chart your next course.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D8C4"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+    rotationDeg: 0.02
+  - id: text4
+    type: text
+    name: DISPATCH
+    frame:
+      x: 741.165
+      y: 703.94
+      width: 167.61
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: DISPATCH
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8965A"
+              letterSpacingPt: 1.536
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 741.165
+      y: 737.77
+      width: 167.61
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D8C4"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: COORDINATES
+    frame:
+      x: 985.525
+      y: 703.94
+      width: 193.32
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: COORDINATES
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8965A"
+              letterSpacingPt: 1.536
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: 123 Hidden Valley
+    frame:
+      x: 973.58
+      y: 737.77
+      width: 217.22
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 123 Hidden Valley
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D8C4"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: acme.co
+    frame:
+      x: 153.565
+      y: 967.69
+      width: 72.57
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D8C4"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text9
+    type: text
+    name: "04"
+    frame:
+      x: 1743.67
+      y: 967.69
+      width: 24.77
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8965A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  jungle-temple:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/jungle-temple.png

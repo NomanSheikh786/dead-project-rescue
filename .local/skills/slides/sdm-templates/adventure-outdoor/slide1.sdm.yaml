@@ -1,0 +1,346 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0F0C08"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: autumn-road
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#0F0C08"
+          opacity: 0.85
+  - id: shape2
+    type: shape
+    frame:
+      x: 1728.02
+      y: 86.39
+      width: 76.8
+      height: 76.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#C4A060"
+      widthPt: 0.5
+      opacity: 0.3
+  - id: text1
+    type: text
+    name: N
+    frame:
+      x: 1762.94
+      y: 91.22
+      width: 8.97
+      height: 19.27
+    body:
+      paragraphs:
+        - runs:
+            - text: N
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 5.76
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: S
+    frame:
+      x: 1762.94
+      y: 141.09
+      width: 8.97
+      height: 19.27
+    body:
+      paragraphs:
+        - runs:
+            - text: S
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 5.76
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: W
+    frame:
+      x: 1734.77
+      y: 116.14
+      width: 12.97
+      height: 19.27
+    body:
+      paragraphs:
+        - runs:
+            - text: W
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 5.76
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: E
+    frame:
+      x: 1791.14
+      y: 116.14
+      width: 8.97
+      height: 19.27
+    body:
+      paragraphs:
+        - runs:
+            - text: E
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 5.76
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 1747.41
+      y: 124.28
+      width: 38
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A060"
+      opacity: 0.3
+    rotationDeg: 45
+  - id: shape4
+    type: shape
+    frame:
+      x: 1747.4
+      y: 124.28
+      width: 38
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A060"
+      opacity: 0.3
+    rotationDeg: -45
+  - id: text5
+    type: text
+    name: THE OPEN ROAD
+    frame:
+      x: 115.19
+      y: 545.92
+      width: 237.47
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: THE OPEN ROAD
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 10.56
+              weight: 600
+              color:
+                kind: rgb
+                value: "#C4A060"
+              letterSpacingPt: 2.112
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 364.88
+      y: 561.27
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A060"
+    opacity: 0.5
+  - id: text6
+    type: text
+    name: ROUTE 26
+    frame:
+      x: 480.06
+      y: 547.36
+      width: 113.97
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ROUTE 26
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text7
+    type: text
+    name: Example Deck
+    frame:
+      x: 115.19
+      y: 610
+      width: 867.85
+      height: 290
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 67.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+              letterSpacingPt: -1.344
+          lineHeight: 1.05
+      overflow: visible
+  - id: text8
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 115.19
+      y: 907.61
+      width: 864.05
+      height: 88
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+          lineHeight: 1.4
+      overflow: visible
+    opacity: 0.8
+  - id: text9
+    type: text
+    name: Field Guide
+    frame:
+      x: 1696.43
+      y: 928.09
+      width: 108.39
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Field Guide
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+              italic: true
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text10
+    type: text
+    name: ACME.CO
+    frame:
+      x: 1702.56
+      y: 967.69
+      width: 102.25
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+    rotationDeg: 0.02
+assets:
+  autumn-road:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/autumn-road.png

@@ -1,0 +1,322 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: text1
+    type: text
+    name: acme.co (by Example Comp...
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 367.46
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "acme.co "
+              color:
+                kind: rgb
+                value: "#666666"
+            - text: (by Example Company)
+              color:
+                kind: rgb
+                value: "#999999"
+          lineHeight: 1.5
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Inter
+            sizePt: 11.52
+            weight: 400
+            letterSpacingPt: -0.115
+      overflow: visible
+  - id: text2
+    type: text
+    name: Next Steps
+    frame:
+      x: 1685.73
+      y: 64.8
+      width: 133.86
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Next Steps
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Let's build the future.
+    frame:
+      x: 326.76
+      y: 271.58
+      width: 1266.49
+      height: 128
+    body:
+      paragraphs:
+        - runs:
+            - text: "Let's build the "
+              color:
+                kind: rgb
+                value: "#000000"
+            - text: future
+              color:
+                kind: rgb
+                value: "#007AFF"
+            - text: .
+              color:
+                kind: rgb
+                value: "#000000"
+          align: center
+          lineHeight: 1.1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Inter
+            sizePt: 57.6
+            weight: 200
+            letterSpacingPt: -2.304
+      overflow: visible
+  - id: text4
+    type: text
+    name: Join us in redefining th...
+    frame:
+      x: 516.16
+      y: 419.89
+      width: 887.69
+      height: 53.77
+    body:
+      paragraphs:
+        - runs:
+            - text: Join us in redefining the industry standard.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 300
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: -0.192
+          align: center
+          lineHeight: 1.4
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 618.92
+      y: 538.45
+      width: 305.28
+      height: 100.78
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 50.39
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text5
+    type: text
+    name: Get Started
+    frame:
+      x: 600.03
+      y: 538.45
+      width: 343.07
+      height: 102
+    body:
+      paragraphs:
+        - runs:
+            - text: Get Started
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.144
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 14.4
+        right: 38.4
+        bottom: 14.4
+        left: 38.4
+  - id: shape2
+    type: shape
+    frame:
+      x: 962.59
+      y: 538.45
+      width: 338.48
+      height: 100.78
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 50.39
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5F5F7"
+  - id: text6
+    type: text
+    name: Contact Sales
+    frame:
+      x: 941.64
+      y: 538.45
+      width: 380.37
+      height: 102
+    body:
+      paragraphs:
+        - runs:
+            - text: Contact Sales
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: -0.144
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 14.4
+        right: 38.4
+        bottom: 14.4
+        left: 38.4
+  - id: text7
+    type: text
+    name: hello@example.com
+    frame:
+      x: 600.835
+      y: 725.63
+      width: 219.78
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@example.com
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: +1 (555) 123-4567
+    frame:
+      x: 871.19
+      y: 725.63
+      width: 251.87
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: +1 (555) 123-4567
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: example.com
+    frame:
+      x: 1173.615
+      y: 725.63
+      width: 145.53
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: example.com
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 115.19
+      y: 986.41
+      width: 374.52
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.192
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: "04"
+    frame:
+      x: 1780.31
+      y: 986.41
+      width: 28
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+          lineHeight: 1.5
+      overflow: visible

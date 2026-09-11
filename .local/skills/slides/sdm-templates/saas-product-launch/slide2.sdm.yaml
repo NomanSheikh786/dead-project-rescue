@@ -1,0 +1,746 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0C0F1A"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1152
+      y: -216
+      width: 960
+      height: 960
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4F7FFF"
+    opacity: 0.028
+  - id: shape2
+    type: shape
+    frame:
+      x: -288
+      y: 252
+      width: 1152
+      height: 1152
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7C6BF0"
+    opacity: 0.028
+  - id: shape3
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0.0009
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.03
+        - offset: 0.0009
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+    opacity: 0.5
+  - id: text1
+    type: text
+    name: EXAMPLE COMPANY, INC.
+    frame:
+      x: 96
+      y: 1000.08
+      width: 250.35
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: text2
+    type: text
+    name: 02 / 04
+    frame:
+      x: 1758.55
+      y: 1000.08
+      width: 78.02
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: 02 / 04
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: shape4
+    type: shape
+    frame:
+      x: 96
+      y: 54
+      width: 38.39
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 7.68
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4F7FFF"
+  - id: text3
+    type: text
+    name: acme.co
+    frame:
+      x: 153.58
+      y: 55.91
+      width: 93.86
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.23
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: "2026"
+    frame:
+      x: 1776.58
+      y: 54
+      width: 52.47
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: shape5
+    type: shape
+    frame:
+      x: 192
+      y: 152.84
+      width: 281.98
+      height: 38.7
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.35
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4F7FFF"
+      opacity: 0.15
+    stroke:
+      color:
+        kind: rgb
+        value: "#4F7FFF"
+      widthPt: 0.5
+      opacity: 0.3
+  - id: text5
+    type: text
+    name: CORE INFRASTRUCTURE
+    frame:
+      x: 192
+      y: 152.84
+      width: 282.03
+      height: 38.7
+    body:
+      paragraphs:
+        - runs:
+            - text: CORE INFRASTRUCTURE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#4F7FFF"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 9.6
+        bottom: 2.7
+        left: 9.6
+  - id: text6
+    type: text
+    name: Built for scale.
+    frame:
+      x: 192
+      y: 223.94
+      width: 710.46
+      height: 255.41
+    body:
+      paragraphs:
+        - runs:
+            - text: Built for scale.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 38.4
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -1.152
+          lineHeight: 1.1
+        - runs:
+            - text: Designed for speed.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 38.4
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -1.152
+          lineHeight: 1.1
+      overflow: visible
+  - id: text7
+    type: text
+    name: We re-engineered our ent...
+    frame:
+      x: 192
+      y: 509.73
+      width: 755.11
+      height: 121.77
+    body:
+      paragraphs:
+        - runs:
+            - text: We re-engineered our entire platform from the ground up to give you unparalleled performance and reliability. It is the solid foundation your team deserves.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 12.48
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.7
+  - id: text8
+    type: text
+    name: Global Edge Network
+    frame:
+      x: 239.98
+      y: 683.48
+      width: 639.19
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Global Edge Network
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Deploy your code closer ...
+    frame:
+      x: 239.98
+      y: 723.44
+      width: 718.19
+      height: 26.88
+    body:
+      paragraphs:
+        - runs:
+            - text: Deploy your code closer to your users for sub-50ms latency worldwide.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.4
+      overflow: visible
+    opacity: 0.5
+  - id: text10
+    type: text
+    name: Automated Scaling
+    frame:
+      x: 239.98
+      y: 771.91
+      width: 580.47
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Automated Scaling
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text11
+    type: text
+    name: Traffic spikes are handl...
+    frame:
+      x: 239.98
+      y: 811.86
+      width: 691.35
+      height: 26.88
+    body:
+      paragraphs:
+        - runs:
+            - text: Traffic spikes are handled gracefully without manual intervention.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.4
+      overflow: visible
+    opacity: 0.5
+  - id: text12
+    type: text
+    name: Zero Downtime Deployment...
+    frame:
+      x: 239.98
+      y: 860.33
+      width: 393.94
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Zero Downtime Deployments
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text13
+    type: text
+    name: Ship new features instan...
+    frame:
+      x: 239.98
+      y: 900.28
+      width: 469.19
+      height: 26.88
+    body:
+      paragraphs:
+        - runs:
+            - text: Ship new features instantly with confidence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.4
+      overflow: visible
+    opacity: 0.5
+  - id: shape6
+    type: shape
+    frame:
+      x: 1017.59
+      y: 237.59
+      width: 710.41
+      height: 604.8
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#131726"
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.1
+  - id: shape7
+    type: shape
+    frame:
+      x: 1018.59
+      y: 311.54
+      width: 708.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+  - id: shape8
+    type: shape
+    frame:
+      x: 1047.39
+      y: 267.39
+      width: 15.36
+      height: 15.36
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF5F56"
+  - id: shape9
+    type: shape
+    frame:
+      x: 1072.34
+      y: 267.39
+      width: 15.36
+      height: 15.36
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFBD2E"
+  - id: shape10
+    type: shape
+    frame:
+      x: 1097.3
+      y: 267.39
+      width: 15.36
+      height: 15.36
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#27C93F"
+  - id: shape11
+    type: shape
+    frame:
+      x: 1056.98
+      y: 350.94
+      width: 252.64
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+  - id: shape12
+    type: shape
+    frame:
+      x: 1056.98
+      y: 421.72
+      width: 306.22
+      height: 86.39
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4F7FFF"
+      opacity: 0.1
+    stroke:
+      color:
+        kind: rgb
+        value: "#4F7FFF"
+      widthPt: 0.5
+      opacity: 0.2
+  - id: shape13
+    type: shape
+    frame:
+      x: 1077.17
+      y: 445.72
+      width: 38.39
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4F7FFF"
+  - id: shape14
+    type: shape
+    frame:
+      x: 1134.75
+      y: 448.78
+      width: 124.95
+      height: 15.36
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 3.84
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: shape15
+    type: shape
+    frame:
+      x: 1134.75
+      y: 469.53
+      width: 83.3
+      height: 11.52
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 3.84
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: shape16
+    type: shape
+    frame:
+      x: 1382.39
+      y: 421.72
+      width: 306.22
+      height: 86.39
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.03
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.05
+  - id: shape17
+    type: shape
+    frame:
+      x: 1402.58
+      y: 445.72
+      width: 38.39
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: shape18
+    type: shape
+    frame:
+      x: 1460.16
+      y: 448.78
+      width: 104.13
+      height: 15.36
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 3.84
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: shape19
+    type: shape
+    frame:
+      x: 1460.16
+      y: 469.53
+      width: 62.47
+      height: 11.52
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 3.84
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: shape20
+    type: shape
+    frame:
+      x: 1056.98
+      y: 551.3
+      width: 631.63
+      height: 162
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.02
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.1
+      dash: dash
+  - id: shape21
+    type: shape
+    frame:
+      x: 1056.98
+      y: 745.69
+      width: 631.63
+      height: 15.36
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 3.84
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+  - id: shape22
+    type: shape
+    frame:
+      x: 1056.98
+      y: 771.84
+      width: 505.3
+      height: 15.36
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 3.84
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+  - id: shape23
+    type: shape
+    frame:
+      x: 1056.98
+      y: 798
+      width: 631.63
+      height: 15.36
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 3.84
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05

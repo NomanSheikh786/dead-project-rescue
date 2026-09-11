@@ -1,0 +1,280 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#080C08"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: geodesic-greenhouse
+    altText: Geodesic Greenhouse Background
+    fit: cover
+    opacity: 0.15
+  - id: text1
+    type: text
+    name: ⬡
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 18.02
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: ⬡
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#5A8A5A"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: BIODOME
+    frame:
+      x: 142.75
+      y: 64.8
+      width: 106.72
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: BIODOME
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#5A8A5A"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Enter the Canopy
+    frame:
+      x: 508.79
+      y: 411.2
+      width: 902.43
+      height: 232.2
+    body:
+      paragraphs:
+        - runs:
+            - text: Enter the Canopy
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+              letterSpacingPt: -0.96
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Join our network of atmo...
+    frame:
+      x: 575.975
+      y: 558.8
+      width: 768.05
+      height: 92.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Join our network of atmospheric habitats and pioneer the future of environmental isolation.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+    rotationDeg: 0.02
+  - id: shape1
+    type: shape
+    frame:
+      x: 583.53
+      y: 715.75
+      width: 375.66
+      height: 68.94
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5A8A5A"
+  - id: text5
+    type: text
+    name: INITIATE CONTACT
+    frame:
+      x: 583.505
+      y: 715.75
+      width: 375.71
+      height: 68.94
+    body:
+      paragraphs:
+        - runs:
+            - text: INITIATE CONTACT
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#080C08"
+              letterSpacingPt: 0.48
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 14.4
+        bottom: 8.1
+        left: 14.4
+  - id: shape2
+    type: shape
+    frame:
+      x: 985.58
+      y: 715.75
+      width: 338.88
+      height: 68.94
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#5A8A5A"
+      widthPt: 0.5
+  - id: text6
+    type: text
+    name: VIEW SCHEMATICS
+    frame:
+      x: 975.39
+      y: 715.75
+      width: 359.27
+      height: 68.94
+    body:
+      paragraphs:
+        - runs:
+            - text: VIEW SCHEMATICS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#5A8A5A"
+              letterSpacingPt: 0.48
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+  - id: text7
+    type: text
+    name: communications@biodome.c...
+    frame:
+      x: 115.19
+      y: 946.81
+      width: 287.86
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: communications@biodome.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text8
+    type: text
+    name: 1-800-HABITAT
+    frame:
+      x: 115.19
+      y: 986.41
+      width: 287.86
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 1-800-HABITAT
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text9
+    type: text
+    name: "04"
+    frame:
+      x: 1781.78
+      y: 986.41
+      width: 27.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+assets:
+  geodesic-greenhouse:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/geodesic-greenhouse.png

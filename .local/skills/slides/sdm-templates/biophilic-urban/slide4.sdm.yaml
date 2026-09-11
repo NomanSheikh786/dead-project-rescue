@@ -1,0 +1,314 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#000000"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: vertical-garden
+    altText: Vertical Garden Background
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 384
+      y: 216
+      width: 1152
+      height: 648
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.85
+  - id: text1
+    type: text
+    name: 🌱
+    frame:
+      x: 805.7
+      y: 317.66
+      width: 25.88
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 🌱
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#0F172A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: JOIN THE MOVEMENT
+    frame:
+      x: 826.92
+      y: 320.53
+      width: 289.58
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: JOIN THE MOVEMENT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#6B8E6B"
+              letterSpacingPt: 1.92
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Let's cultivate a
+    frame:
+      x: 666.81
+      y: 373.81
+      width: 586.36
+      height: 339
+    body:
+      paragraphs:
+        - runs:
+            - text: Let's cultivate a
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 38.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+              letterSpacingPt: -0.48
+          align: center
+          lineHeight: 1.1
+        - runs:
+            - text: greener future.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 38.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+              letterSpacingPt: -0.48
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text4
+    type: text
+    name: Partner with us to trans...
+    frame:
+      x: 575.975
+      y: 575.14
+      width: 768.05
+      height: 69.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Partner with us to transform urban environments into living, breathing ecosystems that sustain both people and the planet.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: shape2
+    type: shape
+    frame:
+      x: 811.41
+      y: 698.27
+      width: 297.17
+      height: 64.06
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 32.03
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A3A2A"
+  - id: text5
+    type: text
+    name: Contact Our Team
+    frame:
+      x: 808.66
+      y: 698.27
+      width: 302.68
+      height: 97.06
+    body:
+      paragraphs:
+        - runs:
+            - text: Contact Our Team
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+  - id: text6
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 765.035
+      y: 805.69
+      width: 128.97
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text7
+    type: text
+    name: •
+    frame:
+      x: 929.86
+      y: 805.69
+      width: 11.58
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: •
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text8
+    type: text
+    name: acme.co
+    frame:
+      x: 977.275
+      y: 805.69
+      width: 71.27
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text9
+    type: text
+    name: •
+    frame:
+      x: 1084.39
+      y: 805.69
+      width: 11.58
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: •
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text10
+    type: text
+    name: "04"
+    frame:
+      x: 1131.805
+      y: 805.69
+      width: 23.16
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A3A2A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+assets:
+  vertical-garden:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/vertical-garden.png

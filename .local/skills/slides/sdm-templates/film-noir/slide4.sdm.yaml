@@ -1,0 +1,330 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0D0D0D"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: -960
+      y: -540
+      width: 3840
+      height: 2160
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0.4
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.48
+          color:
+            kind: rgb
+            value: "#1A1A1A"
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#2A2A2A"
+        - offset: 0.52
+          color:
+            kind: rgb
+            value: "#1A1A1A"
+        - offset: 0.6
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: text1
+    type: text
+    name: "FILE: CLOSED"
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 171.01
+      height: 48.06
+    body:
+      paragraphs:
+        - runs:
+            - text: "FILE: CLOSED"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+        - runs:
+            - text: "AUTH: REQUIRED"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "DEST: [REDACTED]"
+    frame:
+      x: 1570.97
+      y: 86.39
+      width: 195.44
+      height: 48.06
+    body:
+      paragraphs:
+        - runs:
+            - text: "DEST: [REDACTED]"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 1.152
+          align: right
+          lineHeight: 1.5
+        - runs:
+            - text: "TIME: 4:00"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 1.152
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 854.44
+      y: 333.97
+      width: 211.13
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4C36A"
+  - id: text3
+    type: text
+    name: END OF LINE
+    frame:
+      x: 848.08
+      y: 294.38
+      width: 223.85
+      height: 40.59
+    body:
+      paragraphs:
+        - runs:
+            - text: END OF LINE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C36A"
+              letterSpacingPt: 3.84
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 5.4
+        left: 0
+  - id: text4
+    type: text
+    name: Make Your Move.
+    frame:
+      x: 349.41
+      y: 367.36
+      width: 1221.17
+      height: 134.41
+    body:
+      paragraphs:
+        - runs:
+            - text: Make Your Move.
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 67.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0E0E0"
+              italic: true
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: text5
+    type: text
+    name: The pieces are in place....
+    frame:
+      x: 575.975
+      y: 544.95
+      width: 768.05
+      height: 94.13
+    body:
+      paragraphs:
+        - runs:
+            - text: The pieces are in place. The next step is yours. Contact our operatives to initiate the sequence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape3
+    type: shape
+    frame:
+      x: 742
+      y: 701.88
+      width: 436
+      height: 83.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4C36A"
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4C36A"
+      widthPt: 1.5
+  - id: text6
+    type: text
+    name: INITIATE CONTACT
+    frame:
+      x: 741.975
+      y: 701.88
+      width: 436.05
+      height: 83.75
+    body:
+      paragraphs:
+        - runs:
+            - text: INITIATE CONTACT
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#0D0D0D"
+              letterSpacingPt: 1.728
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: text7
+    type: text
+    name: CONFIDENTIAL REPORT
+    frame:
+      x: 153.59
+      y: 1010.89
+      width: 243.5
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL REPORT
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: "04"
+    frame:
+      x: 1742.22
+      y: 1010.89
+      width: 28.24
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C36A"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 60.64
+      stops:
+        - offset: 0.2
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.95

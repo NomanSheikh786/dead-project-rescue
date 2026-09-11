@@ -1,0 +1,350 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 38.39
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D4852"
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 95.83
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#3D4852"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Confidential
+    frame:
+      x: 1635.3
+      y: 86.39
+      width: 147.16
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#99A3A4"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 134.41
+      y: 223.53
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5A8A7A"
+  - id: text3
+    type: text
+    name: Strategic Priorities
+    frame:
+      x: 230.39
+      y: 207.34
+      width: 1536.07
+      height: 86.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Strategic Priorities
+              font:
+                kind: family
+                family: Inter
+              sizePt: 38.4
+              weight: 800
+              color:
+                kind: rgb
+                value: "#3D4852"
+              letterSpacingPt: -0.768
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: "01"
+    frame:
+      x: 230.39
+      y: 356.61
+      width: 57.64
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "01"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#5A8A7A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Market Expansion
+    frame:
+      x: 326.38
+      y: 356.61
+      width: 1152.05
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Market Expansion
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#3D4852"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Penetrating new demograp...
+    frame:
+      x: 326.38
+      y: 419.25
+      width: 1152.05
+      height: 88
+    body:
+      paragraphs:
+        - runs:
+            - text: Penetrating new demographics through targeted digital campaigns and strategic regional partnerships across major coastal hubs.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7F8C8D"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text7
+    type: text
+    name: "02"
+    frame:
+      x: 230.39
+      y: 548.44
+      width: 57.64
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#5A8A7A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Product Innovation
+    frame:
+      x: 326.38
+      y: 548.44
+      width: 1152.05
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Product Innovation
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#3D4852"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Accelerating our R&D pip...
+    frame:
+      x: 326.38
+      y: 611.08
+      width: 1152.05
+      height: 88
+    body:
+      paragraphs:
+        - runs:
+            - text: Accelerating our R&D pipeline to deliver the next generation of intuitive, enterprise-grade collaboration tools by Q3.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7F8C8D"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text10
+    type: text
+    name: "03"
+    frame:
+      x: 230.39
+      y: 740.27
+      width: 57.64
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#5A8A7A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Operational Excellence
+    frame:
+      x: 326.38
+      y: 740.27
+      width: 1152.05
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Operational Excellence
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#3D4852"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Streamlining internal wo...
+    frame:
+      x: 326.38
+      y: 802.91
+      width: 1152.05
+      height: 88
+    body:
+      paragraphs:
+        - runs:
+            - text: Streamlining internal workflows and adopting robust automated systems to reduce overhead and improve delivery timelines by 25%.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7F8C8D"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text13
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 153.59
+      y: 964.81
+      width: 300
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#99A3A4"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: "02"
+    frame:
+      x: 1742.19
+      y: 964.81
+      width: 27.27
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#99A3A4"
+          lineHeight: 1.5
+      overflow: visible

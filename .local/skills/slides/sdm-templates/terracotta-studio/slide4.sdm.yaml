@@ -1,0 +1,358 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5EDE0"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 960
+      y: 0
+      width: 960
+      height: 1080
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 480
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D2B48C"
+    opacity: 0.4
+  - id: shape2
+    type: shape
+    frame:
+      x: -192
+      y: 528
+      width: 768
+      height: 768
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#A0522D"
+    opacity: 0.6
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 120.72
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 700
+              color:
+                kind: rgb
+                value: "#8B4513"
+              letterSpacingPt: 0.672
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: CONNECT
+    frame:
+      x: 1674.98
+      y: 92.14
+      width: 91.47
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CONNECT
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#A0522D"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 436.75
+      y: 191.2
+      width: 1046.48
+      height: 698.31
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 24
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5EDE0"
+      opacity: 0.7
+  - id: text3
+    type: text
+    name: LET'S CREATE TOGETHER
+    frame:
+      x: 551.915
+      y: 256
+      width: 816.16
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: LET'S CREATE TOGETHER
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#A0522D"
+              letterSpacingPt: 2.304
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Ready to Begin?
+    frame:
+      x: 539.67
+      y: 322.95
+      width: 840.64
+      height: 255
+    body:
+      paragraphs:
+        - runs:
+            - text: Ready to Begin?
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#4A2F1D"
+              italic: true
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text5
+    type: text
+    name: Join us in our studio to...
+    frame:
+      x: 564.44
+      y: 492.86
+      width: 791.09
+      height: 140.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Join us in our studio to discuss your next project. We're currently accepting commissions for the upcoming season.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B4423"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape4
+    type: shape
+    frame:
+      x: 734.67
+      y: 638.98
+      width: 450.64
+      height: 86.38
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 43.19
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B85C38"
+  - id: text6
+    type: text
+    name: Book a Consultation
+    frame:
+      x: 729.91
+      y: 638.98
+      width: 460.17
+      height: 131.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Book a Consultation
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+              letterSpacingPt: 0.72
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: text7
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 642.66
+      y: 790.16
+      width: 173.92
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8B4513"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: +1 (555) 123-4567
+    frame:
+      x: 866.33
+      y: 790.16
+      width: 197.48
+      height: 71
+    body:
+      paragraphs:
+        - runs:
+            - text: +1 (555) 123-4567
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8B4513"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: "@acme.studio"
+    frame:
+      x: 1113.86
+      y: 790.16
+      width: 163.14
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "@acme.studio"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8B4513"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Crafted with care
+    frame:
+      x: 153.59
+      y: 959.42
+      width: 176.06
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: Crafted with care
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8B4513"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 1683.13
+      y: 954.03
+      width: 83.28
+      height: 39.58
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.79
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B85C38"
+  - id: text11
+    type: text
+    name: "04"
+    frame:
+      x: 1683.13
+      y: 954.03
+      width: 83.33
+      height: 41.58
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F5EDE0"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 14.4
+        bottom: 2.7
+        left: 14.4

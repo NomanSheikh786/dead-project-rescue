@@ -1,0 +1,395 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F4F4F0"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 477
+      y: 0
+      width: 3
+      height: 974.42
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: shape2
+    type: shape
+    frame:
+      x: 0
+      y: 971.42
+      width: 480
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: text1
+    type: text
+    name: SECT. 03
+    frame:
+      x: 76.8
+      y: 76.8
+      width: 323.46
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: SECT. 03
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: CONTACT
+    frame:
+      x: 76.8
+      y: 116.39
+      width: 323.46
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: CONTACT
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 76.8
+      y: 789.52
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E32929"
+  - id: text3
+    type: text
+    name: ACME.CO
+    frame:
+      x: 76.8
+      y: 868.7
+      width: 323.46
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 480
+      y: 0
+      width: 1440
+      height: 974.42
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: shape4
+    type: shape
+    frame:
+      x: 480
+      y: 971.42
+      width: 1440
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: text4
+    type: text
+    name: "[ END OF FILE ]"
+    frame:
+      x: 1670.52
+      y: 76.8
+      width: 226
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "[ END OF FILE ]"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: READY TO
+    frame:
+      x: 556.8
+      y: 248.25
+      width: 1286.46
+      height: 278.47
+    body:
+      paragraphs:
+        - runs:
+            - text: READY TO
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 76.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F4F4F0"
+              letterSpacingPt: -2.304
+          lineHeight: 0.9
+        - runs:
+            - text: DEPLOY.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 76.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E32929"
+              letterSpacingPt: -2.304
+          lineHeight: 0.9
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 556.8
+      y: 567.91
+      width: 288
+      height: 7.67
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E32929"
+  - id: text6
+    type: text
+    name: EMAIL
+    frame:
+      x: 556.8
+      y: 640.38
+      width: 207.39
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: EMAIL
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: init@acme.co
+    frame:
+      x: 556.8
+      y: 679.97
+      width: 207.39
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: init@acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F4F4F0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: PORTAL
+    frame:
+      x: 840.94
+      y: 640.38
+      width: 241.96
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: PORTAL
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: secure.acme.co
+    frame:
+      x: 840.94
+      y: 679.97
+      width: 241.96
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: secure.acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F4F4F0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 0
+      y: 974.42
+      width: 1920
+      height: 105.58
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E32929"
+  - id: text10
+    type: text
+    name: EXAMPLE COMPANY, INC.
+    frame:
+      x: 76.8
+      y: 1012.81
+      width: 256.33
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: "SYS.IDX: 004"
+    frame:
+      x: 1574.55
+      y: 1012.81
+      width: 173
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "SYS.IDX: 004"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: "PAGE: 04"
+    frame:
+      x: 1751.09
+      y: 1012.81
+      width: 116
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "PAGE: 04"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible

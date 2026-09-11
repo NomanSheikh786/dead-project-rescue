@@ -1,0 +1,430 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FDFDFD"
+elements:
+  - id: text1
+    type: text
+    name: "02"
+    frame:
+      x: 1445.75
+      y: 739.19
+      width: 586.69
+      height: 384
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 240
+              weight: 700
+              color:
+                kind: rgb
+                value: "#ECECEC"
+              letterSpacingPt: -12
+          lineHeight: 0.8
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 142.55
+      width: 1689.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0E0E0"
+  - id: text2
+    type: text
+    name: ACME.CO
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 126.36
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Key Operations
+    frame:
+      x: 1650.97
+      y: 67.67
+      width: 172.91
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Key Operations
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Strategic Initiatives
+    frame:
+      x: 115.19
+      y: 251.55
+      width: 591.41
+      height: 170.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Strategic Initiatives
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: -0.768
+          lineHeight: 1.1
+      overflow: visible
+  - id: text5
+    type: text
+    name: Our focus remains on del...
+    frame:
+      x: 115.19
+      y: 463.67
+      width: 591.41
+      height: 163.25
+    body:
+      paragraphs:
+        - runs:
+            - text: Our focus remains on delivering sustainable growth through strategic investments and operational excellence across all major divisions.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 821.73
+      y: 251.55
+      width: 983.08
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0E0E0"
+  - id: text6
+    type: text
+    name: "01."
+    frame:
+      x: 821.73
+      y: 284.94
+      width: 39.39
+      height: 120.25
+    body:
+      paragraphs:
+        - runs:
+            - text: "01."
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Global Expansion
+    frame:
+      x: 889.47
+      y: 284.94
+      width: 915.39
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: Global Expansion
+              font:
+                kind: family
+                family: Inter
+              sizePt: 15.36
+              weight: 600
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Entering emerging market...
+    frame:
+      x: 889.47
+      y: 341.81
+      width: 915.39
+      height: 63.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Entering emerging markets in APAC and EMEA to capture new demographics and diversify revenue streams.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 821.73
+      y: 459.19
+      width: 983.08
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0E0E0"
+  - id: text9
+    type: text
+    name: "02."
+    frame:
+      x: 821.73
+      y: 492.58
+      width: 39.39
+      height: 120.25
+    body:
+      paragraphs:
+        - runs:
+            - text: "02."
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Digital Transformation
+    frame:
+      x: 892.47
+      y: 492.58
+      width: 912.39
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: Digital Transformation
+              font:
+                kind: family
+                family: Inter
+              sizePt: 15.36
+              weight: 600
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Overhauling legacy syste...
+    frame:
+      x: 892.47
+      y: 549.45
+      width: 912.39
+      height: 63.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Overhauling legacy systems with cloud-native infrastructure, improving operational efficiency by 34%.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 821.73
+      y: 666.83
+      width: 983.08
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0E0E0"
+  - id: text12
+    type: text
+    name: "03."
+    frame:
+      x: 821.73
+      y: 700.22
+      width: 39.61
+      height: 120.25
+    body:
+      paragraphs:
+        - runs:
+            - text: "03."
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Sustainable Practices
+    frame:
+      x: 891.69
+      y: 700.22
+      width: 913.18
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: Sustainable Practices
+              font:
+                kind: family
+                family: Inter
+              sizePt: 15.36
+              weight: 600
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: Achieved carbon-neutral ...
+    frame:
+      x: 891.69
+      y: 757.09
+      width: 913.18
+      height: 63.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Achieved carbon-neutral operations ahead of our 2030 pledge, leading the industry in environmental responsibility.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: CONFIDENTIAL INFORMATION
+    frame:
+      x: 115.19
+      y: 986.41
+      width: 347.52
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL INFORMATION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#888888"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: "02"
+    frame:
+      x: 1776.75
+      y: 986.41
+      width: 31.11
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#888888"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible

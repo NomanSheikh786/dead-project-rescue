@@ -1,0 +1,184 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#000000"
+elements:
+  - id: text1
+    type: text
+    name: EXAMPLE COMPANY
+    frame:
+      x: 76.8
+      y: 115.19
+      width: 614.46
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 300
+              color:
+                kind: rgb
+                value: "#B8956A"
+              letterSpacingPt: 2.688
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: CHRONOS
+    frame:
+      x: 67.2
+      y: 429.13
+      width: 726.05
+      height: 134.41
+    body:
+      paragraphs:
+        - runs:
+            - text: CHRONOS
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 5.76
+          lineHeight: 1
+      overflow: visible
+  - id: text3
+    type: text
+    name: PRECISION. HERITAGE. CRA...
+    frame:
+      x: 76.8
+      y: 585.13
+      width: 614.46
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: PRECISION. HERITAGE. CRAFT.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.16
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8956A"
+              letterSpacingPt: 2.448
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 76.8
+      y: 652.78
+      width: 115.19
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8956A"
+  - id: text4
+    type: text
+    name: EST. 2026
+    frame:
+      x: 76.8
+      y: 947.55
+      width: 85.94
+      height: 19.27
+    body:
+      paragraphs:
+        - runs:
+            - text: EST. 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 5.76
+              weight: 300
+              color:
+                kind: rgb
+                value: "#B8956A"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text5
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 369.67
+      y: 947.55
+      width: 340.87
+      height: 19.27
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 5.76
+              weight: 300
+              color:
+                kind: rgb
+                value: "#B8956A"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: image1
+    type: image
+    frame:
+      x: 768
+      y: 0
+      width: 1152
+      height: 1080
+    assetId: photo-watch
+    altText: Luxury Watch
+    fit: cover
+    crop:
+      top: 0
+      right: 41.82
+      bottom: 0
+      left: 0
+  - id: shape2
+    type: shape
+    frame:
+      x: 768
+      y: 0
+      width: 192
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+assets:
+  photo-watch:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/photo-watch.png

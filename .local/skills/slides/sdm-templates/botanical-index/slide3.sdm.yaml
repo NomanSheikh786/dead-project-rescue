@@ -1,0 +1,577 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F4F1EA"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 76.8
+      y: 43.19
+      width: 1766.41
+      height: 993.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D1C7B7"
+      widthPt: 1
+  - id: shape2
+    type: shape
+    frame:
+      x: 606.52
+      y: 45.19
+      width: 1
+      height: 989.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1C7B7"
+  - id: text1
+    type: text
+    name: SECTION 02
+    frame:
+      x: 136.39
+      y: 99.19
+      width: 412.58
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: SECTION 02
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7D7461"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Distribution
+    frame:
+      x: 136.39
+      y: 146.7
+      width: 412.58
+      height: 128.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Distribution
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3531"
+          lineHeight: 1.1
+        - runs:
+            - text: Metrics
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A5D4E"
+              italic: true
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: 84%
+    frame:
+      x: 136.39
+      y: 447.36
+      width: 412.58
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "84"
+              sizePt: 38.4
+            - text: "%"
+              sizePt: 19.2
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            weight: 400
+            color:
+              kind: rgb
+              value: "#4A5D4E"
+      overflow: visible
+  - id: text4
+    type: text
+    name: Survival rate in observe...
+    frame:
+      x: 136.39
+      y: 534.95
+      width: 412.58
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Survival rate in observed test groups across varied climates.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#5C6661"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: 1.2k
+    frame:
+      x: 136.39
+      y: 635.73
+      width: 412.58
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "1.2"
+              sizePt: 38.4
+            - text: k
+              sizePt: 19.2
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            weight: 400
+            color:
+              kind: rgb
+              value: "#4A5D4E"
+      overflow: visible
+  - id: text6
+    type: text
+    name: Specimens currently cata...
+    frame:
+      x: 136.39
+      y: 723.33
+      width: 412.58
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Specimens currently cataloged in the primary database.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#5C6661"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Page 03
+    frame:
+      x: 136.39
+      y: 954.89
+      width: 412.58
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Page 03
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7D7461"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: FIG. 3
+    frame:
+      x: 1714.52
+      y: 77.58
+      width: 69.13
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: FIG. 3
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D1C7B7"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: GROWTH TRAJECTORY BY REG...
+    frame:
+      x: 703.495
+      y: 174.77
+      width: 1041.72
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: GROWTH TRAJECTORY BY REGION
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7D7461"
+              letterSpacingPt: 0.432
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 703.52
+      y: 897.04
+      width: 1041.67
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1C7B7"
+  - id: shape4
+    type: shape
+    frame:
+      x: 737.3
+      y: 614
+      width: 110
+      height: 283
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A5D4E"
+  - id: shape5
+    type: shape
+    frame:
+      x: 953.3
+      y: 472.4
+      width: 110
+      height: 424.6
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A5D4E"
+  - id: shape6
+    type: shape
+    frame:
+      x: 1169.3
+      y: 711.2
+      width: 110
+      height: 185.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A5D4E"
+  - id: shape7
+    type: shape
+    frame:
+      x: 1385.4
+      y: 322
+      width: 110
+      height: 575
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A5D4E"
+  - id: shape8
+    type: shape
+    frame:
+      x: 1601.4
+      y: 534.3
+      width: 110
+      height: 362.7
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A5D4E"
+  - id: text10
+    type: text
+    name: "320"
+    frame:
+      x: 776.78
+      y: 578
+      width: 36.13
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "320"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7D7461"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: "480"
+    frame:
+      x: 992.78
+      y: 436.4
+      width: 36.13
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "480"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7D7461"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: "210"
+    frame:
+      x: 1208.8
+      y: 675.2
+      width: 36.13
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "210"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7D7461"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: "650"
+    frame:
+      x: 1424.81
+      y: 286
+      width: 36.13
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "650"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7D7461"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: "410"
+    frame:
+      x: 1640.83
+      y: 498.3
+      width: 36.13
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "410"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7D7461"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: North
+    frame:
+      x: 703.495
+      y: 919.63
+      width: 177.66
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: North
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5C6661"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: South
+    frame:
+      x: 919.495
+      y: 919.63
+      width: 177.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: South
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5C6661"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text17
+    type: text
+    name: East
+    frame:
+      x: 1135.505
+      y: 919.63
+      width: 177.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: East
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5C6661"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text18
+    type: text
+    name: West
+    frame:
+      x: 1351.525
+      y: 919.63
+      width: 177.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: West
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5C6661"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text19
+    type: text
+    name: Central
+    frame:
+      x: 1567.535
+      y: 919.63
+      width: 177.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Central
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5C6661"
+          align: center
+          lineHeight: 1.5
+      overflow: visible

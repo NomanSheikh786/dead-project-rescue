@@ -1,0 +1,252 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFE8D6"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1382.41
+      y: 86.39
+      width: 345.59
+      height: 345.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FF6B6B"
+      widthPt: 2.5
+  - id: shape2
+    type: shape
+    frame:
+      x: 505.5
+      y: 865.5
+      width: 269
+      height: 269
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4ECDC4"
+    rotationDeg: 15
+  - id: shape3
+    type: shape
+    frame:
+      x: 1286.41
+      y: 540
+      width: 153.59
+      height: 153.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFE66D"
+  - id: shape4
+    type: shape
+    frame:
+      x: 1612.81
+      y: 806.2
+      width: 192
+      height: 58
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 28.8
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF6B6B"
+    rotationDeg: -20
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 134.39
+      y: 64.8
+      width: 104.27
+      height: 39.42
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 12.48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FF6B6B"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 1682.57
+      y: 65.01
+      width: 103
+      height: 37
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF6B6B"
+    rotationDeg: -3
+  - id: text2
+    type: text
+    name: NEW!
+    frame:
+      x: 1682.57
+      y: 65.01
+      width: 103.05
+      height: 37
+    body:
+      paragraphs:
+        - runs:
+            - text: NEW!
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 14.4
+        bottom: 2.7
+        left: 14.4
+    rotationDeg: -3
+  - id: text3
+    type: text
+    name: Example
+    frame:
+      x: 134.39
+      y: 370.81
+      width: 1651.27
+      height: 122.95
+    body:
+      paragraphs:
+        - runs:
+            - text: Example
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 67.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 0.9
+      overflow: visible
+  - id: text4
+    type: text
+    name: Deck
+    frame:
+      x: 134.39
+      y: 491.77
+      width: 1651.27
+      height: 122.95
+    body:
+      paragraphs:
+        - runs:
+            - text: Deck
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 67.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FF6B6B"
+          lineHeight: 0.9
+      overflow: visible
+  - id: text5
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 134.39
+      y: 634.31
+      width: 768.05
+      height: 88.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Example Company
+    frame:
+      x: 134.39
+      y: 989.28
+      width: 149.69
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: "2026"
+    frame:
+      x: 322.42
+      y: 989.28
+      width: 47.28
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+          lineHeight: 1.5
+      overflow: visible

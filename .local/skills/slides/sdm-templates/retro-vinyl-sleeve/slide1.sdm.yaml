@@ -1,0 +1,245 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#D3A052"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1248
+      y: -108
+      width: 864
+      height: 864
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: shape2
+    type: shape
+    frame:
+      x: 1572
+      y: 216
+      width: 216
+      height: 216
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D3A052"
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 155.27
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: VOL. 26
+    frame:
+      x: 1685.02
+      y: 86.39
+      width: 97
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: VOL. 26
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#DAD6D0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: STEREO / HIGH-FIDELITY
+    frame:
+      x: 153.59
+      y: 288.17
+      width: 1056.05
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: STEREO / HIGH-FIDELITY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: EXAMPLE
+    frame:
+      x: 153.59
+      y: 338.56
+      width: 1056.05
+      height: 313.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 86.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -2.592
+          lineHeight: 0.9
+        - runs:
+            - text: DECK
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 86.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -2.592
+          lineHeight: 0.9
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 153.59
+      y: 692.78
+      width: 4
+      height: 89.84
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text5
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 153.59
+      y: 692.78
+      width: 1056.05
+      height: 91.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.3
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 19.2
+  - id: shape4
+    type: shape
+    frame:
+      x: 153.59
+      y: 941.22
+      width: 1612.81
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text6
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 153.59
+      y: 964.81
+      width: 300
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: CONFIDENTIAL • 2026
+    frame:
+      x: 1555.84
+      y: 964.81
+      width: 223.25
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL • 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible

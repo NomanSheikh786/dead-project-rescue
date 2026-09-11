@@ -1,0 +1,540 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F4F4F0"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 477
+      y: 0
+      width: 3
+      height: 974.42
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: shape2
+    type: shape
+    frame:
+      x: 0
+      y: 971.42
+      width: 480
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: text1
+    type: text
+    name: SECT. 01
+    frame:
+      x: 76.8
+      y: 76.8
+      width: 323.46
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: SECT. 01
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: OVERVIEW
+    frame:
+      x: 76.8
+      y: 116.39
+      width: 323.46
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: OVERVIEW
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 76.8
+      y: 789.52
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E32929"
+  - id: text3
+    type: text
+    name: ACME.CO
+    frame:
+      x: 76.8
+      y: 868.7
+      width: 323.46
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 480
+      y: 971.42
+      width: 1440
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: text4
+    type: text
+    name: "[ CONFIDENTIAL ]"
+    frame:
+      x: 1659
+      y: 76.8
+      width: 240
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "[ CONFIDENTIAL ]"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: SYSTEM ARCHITECTURE
+    frame:
+      x: 556.8
+      y: 76.8
+      width: 1286.46
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: SYSTEM ARCHITECTURE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 38.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: -0.768
+          lineHeight: 1
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 556.8
+      y: 175.19
+      width: 153.59
+      height: 7.67
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E32929"
+  - id: text6
+    type: text
+    name: CORE PRINCIPLES
+    frame:
+      x: 556.8
+      y: 247.64
+      width: 604.85
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: CORE PRINCIPLES
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Our methodology centers ...
+    frame:
+      x: 556.8
+      y: 312.42
+      width: 720.39
+      height: 138.25
+    body:
+      paragraphs:
+        - runs:
+            - text: Our methodology centers on rigorous structuring of data, ensuring both high availability and complete fidelity across all functional endpoints. The architecture is defined by clear boundaries and robust fail-safes.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: By leveraging immutable ...
+    frame:
+      x: 556.8
+      y: 472.27
+      width: 604.85
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: By leveraging immutable audit logs, we maintain a secure state that can be referenced indefinitely without degradation of original source materials.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape6
+    type: shape
+    frame:
+      x: 1238.39
+      y: 247.64
+      width: 604.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: text9
+    type: text
+    name: "001"
+    frame:
+      x: 1238.39
+      y: 264.83
+      width: 604.86
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "001"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Scalable Infrastructure
+    frame:
+      x: 1238.39
+      y: 296.14
+      width: 604.86
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Scalable Infrastructure
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 1238.39
+      y: 352.3
+      width: 604.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: text11
+    type: text
+    name: "002"
+    frame:
+      x: 1238.39
+      y: 369.48
+      width: 604.86
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "002"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text12
+    type: text
+    name: Redundant Data Stores
+    frame:
+      x: 1238.39
+      y: 400.8
+      width: 604.86
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Redundant Data Stores
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 1238.39
+      y: 456.95
+      width: 604.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: shape9
+    type: shape
+    frame:
+      x: 1238.39
+      y: 556.2
+      width: 604.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: text13
+    type: text
+    name: "003"
+    frame:
+      x: 1238.39
+      y: 474.14
+      width: 604.86
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "003"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: Zero-Trust Validation
+    frame:
+      x: 1238.39
+      y: 505.45
+      width: 604.86
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Zero-Trust Validation
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape10
+    type: shape
+    frame:
+      x: 0
+      y: 974.42
+      width: 1920
+      height: 105.58
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: text15
+    type: text
+    name: EXAMPLE COMPANY, INC.
+    frame:
+      x: 76.8
+      y: 1012.81
+      width: 256.33
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F4F4F0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: "SYS.IDX: 002"
+    frame:
+      x: 1574.55
+      y: 1012.81
+      width: 173
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "SYS.IDX: 002"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F4F4F0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text17
+    type: text
+    name: "PAGE: 02"
+    frame:
+      x: 1751.09
+      y: 1012.81
+      width: 116
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "PAGE: 02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F4F4F0"
+          lineHeight: 1.5
+      overflow: visible

@@ -1,0 +1,291 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0A0F"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 129.59
+      width: 96
+      height: 2.16
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+  - id: text1
+    type: text
+    name: CRAFT & PRECISION
+    frame:
+      x: 153.59
+      y: 164.14
+      width: 722.18
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: CRAFT & PRECISION
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4A84B"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: The Master's Process
+    frame:
+      x: 153.59
+      y: 206.25
+      width: 860.13
+      height: 170.47
+    body:
+      paragraphs:
+        - runs:
+            - text: The Master's Process
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: Every piece begins with ...
+    frame:
+      x: 153.59
+      y: 377.11
+      width: 748.86
+      height: 147.5
+    body:
+      paragraphs:
+        - runs:
+            - text: Every piece begins with raw materials and a vision. The transformative journey from sand and fire to pristine art requires both technical mastery and intuitive understanding of the medium.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+  - id: text4
+    type: text
+    name: Our artisans spend decad...
+    frame:
+      x: 153.59
+      y: 578.61
+      width: 748.86
+      height: 122.88
+    body:
+      paragraphs:
+        - runs:
+            - text: Our artisans spend decades honing their skills, learning to read the subtle shifts in temperature and viscosity that dictate the final form of each creation. This dedication ensures that no two pieces are ever exactly alike.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.6
+  - id: shape2
+    type: shape
+    frame:
+      x: 1017.59
+      y: 377.11
+      width: 748.81
+      height: 573.3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.02
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4A84B"
+      widthPt: 0.5
+      opacity: 0.2
+  - id: text5
+    type: text
+    name: '"The fire reveals what t...'
+    frame:
+      x: 1076.19
+      y: 590.5
+      width: 631.68
+      height: 99.84
+    body:
+      paragraphs:
+        - runs:
+            - text: '"The fire reveals what the hands can only guess."'
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+              italic: true
+          lineHeight: 1.3
+      overflow: visible
+  - id: text6
+    type: text
+    name: — HEAD GLASSBLOWER
+    frame:
+      x: 1076.19
+      y: 711.94
+      width: 631.68
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: — HEAD GLASSBLOWER
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4A84B"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 1008
+      y: 367.52
+      width: 19.19
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+  - id: shape4
+    type: shape
+    frame:
+      x: 1008
+      y: 367.52
+      width: 1
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+  - id: shape5
+    type: shape
+    frame:
+      x: 1775
+      y: 940.81
+      width: 1
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+  - id: shape6
+    type: shape
+    frame:
+      x: 1756.81
+      y: 959
+      width: 19.19
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+  - id: text7
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 1013.78
+      width: 75.32
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4A84B"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: "02"
+    frame:
+      x: 1744.89
+      y: 1013.78
+      width: 25.57
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4A84B"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible

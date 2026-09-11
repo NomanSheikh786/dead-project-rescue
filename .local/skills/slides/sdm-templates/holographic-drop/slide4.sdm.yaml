@@ -1,0 +1,293 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#05050A"
+elements:
+  - id: text1
+    type: text
+    name: "04"
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 32.21
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#B8A9D4"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 183.73
+      y: 77.25
+      width: 38.39
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8A9D4"
+      opacity: 0.3
+  - id: text2
+    type: text
+    name: NEXT STEPS
+    frame:
+      x: 260.52
+      y: 64.8
+      width: 131.82
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: NEXT STEPS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8A9D4"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text3
+    type: text
+    name: Step Into
+    frame:
+      x: 538.75
+      y: 218.42
+      width: 842.5
+      height: 313.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Step Into
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 86.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -1.92
+          align: center
+          lineHeight: 0.9
+        - runs:
+            - text: The Light
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 86.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -1.92
+          align: center
+          lineHeight: 0.9
+      overflow: visible
+  - id: text4
+    type: text
+    name: Early access opens next ...
+    frame:
+      x: 623.975
+      y: 561.84
+      width: 672.05
+      height: 122.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Early access opens next month. Join the vanguard of creators defining the next spatial computing paradigm.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+    rotationDeg: 0.02
+  - id: shape2
+    type: shape
+    frame:
+      x: 754.61
+      y: 747.58
+      width: 410.78
+      height: 77.75
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 38.88
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text5
+    type: text
+    name: REQUEST ACCESS→
+    frame:
+      x: 754.585
+      y: 746.58
+      width: 410.83
+      height: 79.75
+    body:
+      paragraphs:
+        - runs:
+            - text: REQUEST ACCESS
+              sizePt: 10.56
+            - text: →
+              sizePt: 11.52
+          align: center
+          lineHeight: 1.5
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Inter
+            weight: 600
+            color:
+              kind: rgb
+              value: "#05050A"
+            letterSpacingPt: 0.96
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+    rotationDeg: 0.02
+  - id: shape3
+    type: shape
+    frame:
+      x: 115.19
+      y: 953.02
+      width: 1689.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8A9D4"
+      opacity: 0.2
+  - id: text6
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 986.41
+      width: 78.82
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Twitter
+    frame:
+      x: 1533.38
+      y: 986.41
+      width: 77.36
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Twitter
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8A9D4"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text8
+    type: text
+    name: Discord
+    frame:
+      x: 1634.08
+      y: 986.41
+      width: 76.8
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Discord
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8A9D4"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text9
+    type: text
+    name: GitHub
+    frame:
+      x: 1742.22
+      y: 986.41
+      width: 66.64
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: GitHub
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8A9D4"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7

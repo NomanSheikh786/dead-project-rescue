@@ -1,0 +1,390 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0F0C08"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: -48
+      y: -27
+      width: 2016
+      height: 1134
+    assetId: autumn-road
+    fit: cover
+    opacity: 0.5
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 0
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#0F0C08"
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#0F0C08"
+          opacity: 0.6
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#0F0C08"
+          opacity: 0.9
+  - id: shape2
+    type: shape
+    frame:
+      x: 1728.02
+      y: 86.39
+      width: 76.8
+      height: 76.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#C4A060"
+      widthPt: 0.5
+      opacity: 0.3
+  - id: text1
+    type: text
+    name: N
+    frame:
+      x: 1762.94
+      y: 91.22
+      width: 8.97
+      height: 19.27
+    body:
+      paragraphs:
+        - runs:
+            - text: N
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 5.76
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: S
+    frame:
+      x: 1762.94
+      y: 141.09
+      width: 8.97
+      height: 19.27
+    body:
+      paragraphs:
+        - runs:
+            - text: S
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 5.76
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: W
+    frame:
+      x: 1734.77
+      y: 116.14
+      width: 12.97
+      height: 19.27
+    body:
+      paragraphs:
+        - runs:
+            - text: W
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 5.76
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: E
+    frame:
+      x: 1791.14
+      y: 116.14
+      width: 8.97
+      height: 19.27
+    body:
+      paragraphs:
+        - runs:
+            - text: E
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 5.76
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 1747.41
+      y: 124.28
+      width: 38
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A060"
+      opacity: 0.3
+    rotationDeg: 45
+  - id: shape4
+    type: shape
+    frame:
+      x: 1747.4
+      y: 124.28
+      width: 38
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A060"
+      opacity: 0.3
+    rotationDeg: -45
+  - id: shape5
+    type: shape
+    frame:
+      x: 682.5
+      y: 292.86
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A060"
+    opacity: 0.5
+  - id: text5
+    type: text
+    name: THE EXPEDITION CONTINUES
+    frame:
+      x: 766.82
+      y: 278.97
+      width: 386.36
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: THE EXPEDITION CONTINUES
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#C4A060"
+              letterSpacingPt: 1.92
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 1160.7
+      y: 292.86
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A060"
+    opacity: 0.5
+  - id: text6
+    type: text
+    name: Join the Journey.
+    frame:
+      x: 430.23
+      y: 350.95
+      width: 1059.52
+      height: 128.72
+    body:
+      paragraphs:
+        - runs:
+            - text: Join the Journey.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+              letterSpacingPt: -1.152
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text7
+    type: text
+    name: We've mapped the terrain...
+    frame:
+      x: 575.975
+      y: 520.86
+      width: 768.05
+      height: 131
+    body:
+      paragraphs:
+        - runs:
+            - text: We've mapped the terrain. Now it's time to take the first step. Equip yourself and let's explore what lies beyond the horizon.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+    rotationDeg: 0.02
+  - id: shape7
+    type: shape
+    frame:
+      x: 768.89
+      y: 714.66
+      width: 382.22
+      height: 86.38
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A060"
+  - id: text8
+    type: text
+    name: BEGIN ASCENT→
+    frame:
+      x: 768.865
+      y: 713.66
+      width: 382.27
+      height: 88.38
+    body:
+      paragraphs:
+        - runs:
+            - text: BEGIN ASCENT
+              sizePt: 11.52
+            - text: →
+              sizePt: 14.4
+          align: center
+          lineHeight: 1.5
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Space Grotesk
+            weight: 600
+            color:
+              kind: rgb
+              value: "#0F0C08"
+            letterSpacingPt: 1.152
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: text9
+    type: text
+    name: FIELD GUIDE — 2024
+    frame:
+      x: 153.59
+      y: 989.28
+      width: 186.52
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: FIELD GUIDE — 2024
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text10
+    type: text
+    name: "04"
+    frame:
+      x: 1743.38
+      y: 986.41
+      width: 27.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  autumn-road:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/autumn-road.png

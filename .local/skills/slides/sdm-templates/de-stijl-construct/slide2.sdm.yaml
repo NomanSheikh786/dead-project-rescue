@@ -1,0 +1,323 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 384
+      height: 270
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D92E2E"
+  - id: shape2
+    type: shape
+    frame:
+      x: 412.8
+      y: 0
+      width: 1507.19
+      height: 270
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text1
+    type: text
+    name: OUR CORE VISION
+    frame:
+      x: 489.59
+      y: 97.2
+      width: 826.2
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: OUR CORE VISION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 48
+              weight: 900
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: -1.92
+          lineHeight: 1
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 0
+      y: 298.8
+      width: 384
+      height: 619.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A3B8C"
+  - id: shape4
+    type: shape
+    frame:
+      x: 412.8
+      y: 298.8
+      width: 1507.19
+      height: 619.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text2
+    type: text
+    name: 01. STRUCTURE
+    frame:
+      x: 489.59
+      y: 479.77
+      width: 619.25
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: 01. STRUCTURE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 800
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: The structural integrity...
+    frame:
+      x: 489.59
+      y: 575.77
+      width: 695.79
+      height: 163.25
+    body:
+      paragraphs:
+        - runs:
+            - text: The structural integrity of our process ensures robust and reliable outcomes. We leverage asymmetrical balance to provide clarity and precision in every project we undertake.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: 02. METHOD
+    frame:
+      x: 1223.98
+      y: 479.77
+      width: 619.25
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: 02. METHOD
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 800
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: By constraining our pale...
+    frame:
+      x: 1223.98
+      y: 575.77
+      width: 619.25
+      height: 163.25
+    body:
+      paragraphs:
+        - runs:
+            - text: By constraining our palette and organizing space with rigorous grid systems, we achieve a universal aesthetic that speaks clearly and stands the test of time.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 0
+      y: 946.8
+      width: 384
+      height: 133.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F2B807"
+  - id: text6
+    type: text
+    name: "02"
+    frame:
+      x: 38.39
+      y: 1007.03
+      width: 31.32
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 900
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 412.8
+      y: 946.8
+      width: 1507.19
+      height: 133.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text7
+    type: text
+    name: CONTENT OUTLINE
+    frame:
+      x: 489.59
+      y: 1012.8
+      width: 184.25
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CONTENT OUTLINE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: ACME.CO
+    frame:
+      x: 1751.39
+      y: 1012.8
+      width: 91.85
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 384
+      y: 0
+      width: 28.8
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: shape8
+    type: shape
+    frame:
+      x: 0
+      y: 270
+      width: 1920
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: shape9
+    type: shape
+    frame:
+      x: 0
+      y: 918
+      width: 1920
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"

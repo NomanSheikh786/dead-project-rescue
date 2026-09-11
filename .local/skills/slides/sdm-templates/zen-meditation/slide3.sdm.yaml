@@ -1,0 +1,361 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F4F1ED"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 768
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#EBE6E0"
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 96
+      y: 64.8
+      width: 576.05
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C2C2A"
+              letterSpacingPt: -0.72
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 96
+      y: 384
+      width: 57.59
+      height: 2.16
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1C9BE"
+  - id: text2
+    type: text
+    name: Measurable
+    frame:
+      x: 96
+      y: 429.34
+      width: 576.05
+      height: 149.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Measurable
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 33.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A1A19"
+              letterSpacingPt: -1.008
+          lineHeight: 1.1
+        - runs:
+            - text: clarity.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 33.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A1A19"
+              letterSpacingPt: -1.008
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: Our metrics show a signi...
+    frame:
+      x: 96
+      y: 609.58
+      width: 576.05
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Our metrics show a significant shift towards focused execution when distractions are minimized.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5A5854"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: DATA & INSIGHTS
+    frame:
+      x: 96
+      y: 989.28
+      width: 576.05
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: DATA & INSIGHTS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A39E96"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: "03"
+    frame:
+      x: 1800.97
+      y: 64.8
+      width: 27.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7A7874"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: 84%
+    frame:
+      x: 960
+      y: 201.59
+      width: 287.68
+      height: 109.52
+    body:
+      paragraphs:
+        - runs:
+            - text: 84%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 67.2
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A1A19"
+              letterSpacingPt: -3.36
+          lineHeight: 0.8
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 1306.11
+      y: 308.11
+      width: 421.89
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1C9BE"
+  - id: text7
+    type: text
+    name: INCREASE IN DEEP WORK
+    frame:
+      x: 1306.11
+      y: 268.52
+      width: 421.94
+      height: 40.59
+    body:
+      paragraphs:
+        - runs:
+            - text: INCREASE IN DEEP WORK
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5A5854"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 5.4
+        left: 0
+  - id: text8
+    type: text
+    name: -60%
+    frame:
+      x: 960
+      y: 373.91
+      width: 359.77
+      height: 109.52
+    body:
+      paragraphs:
+        - runs:
+            - text: -60%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 67.2
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A1A19"
+              letterSpacingPt: -3.36
+          lineHeight: 0.8
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1306.11
+      y: 480.42
+      width: 421.89
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1C9BE"
+  - id: text9
+    type: text
+    name: REDUCTION IN CONTEXT SWI...
+    frame:
+      x: 1306.11
+      y: 440.83
+      width: 421.94
+      height: 40.59
+    body:
+      paragraphs:
+        - runs:
+            - text: REDUCTION IN CONTEXT SWITCHING
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5A5854"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 5.4
+        left: 0
+  - id: text10
+    type: text
+    name: 2.5x
+    frame:
+      x: 960
+      y: 546.22
+      width: 273.22
+      height: 109.52
+    body:
+      paragraphs:
+        - runs:
+            - text: 2.5x
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 67.2
+              weight: 300
+              color:
+                kind: rgb
+                value: "#1A1A19"
+              letterSpacingPt: -3.36
+          lineHeight: 0.8
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 1306.11
+      y: 652.73
+      width: 421.89
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1C9BE"
+  - id: text11
+    type: text
+    name: FASTER PROJECT COMPLETIO...
+    frame:
+      x: 1306.11
+      y: 613.14
+      width: 421.94
+      height: 40.59
+    body:
+      paragraphs:
+        - runs:
+            - text: FASTER PROJECT COMPLETION
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5A5854"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 5.4
+        left: 0

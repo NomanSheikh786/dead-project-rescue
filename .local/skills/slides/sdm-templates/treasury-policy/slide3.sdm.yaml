@@ -1,0 +1,812 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 158.38
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1C2541"
+  - id: text1
+    type: text
+    name: Allocation Targets
+    frame:
+      x: 153.59
+      y: 43.19
+      width: 462.86
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: Allocation Targets
+              font:
+                kind: family
+                family: Inter
+              sizePt: 24
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.24
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: POL-2026-001
+    frame:
+      x: 1628.25
+      y: 64.78
+      width: 151.21
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: POL-2026-001
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: shape3
+    type: shape
+    frame:
+      x: 153.59
+      y: 244.77
+      width: 486.41
+      height: 323.95
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5F7FA"
+  - id: shape2
+    type: shape
+    frame:
+      x: 153.59
+      y: 244.77
+      width: 7
+      height: 323.95
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1C2541"
+  - id: text3
+    type: text
+    name: Tier 1 Liquidity
+    frame:
+      x: 203.78
+      y: 287.95
+      width: 393.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Tier 1 Liquidity
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: 45%
+    frame:
+      x: 203.78
+      y: 327.55
+      width: 393.08
+      height: 102.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 45%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 33.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1C2541"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Immediate access funds. ...
+    frame:
+      x: 203.78
+      y: 439.14
+      width: 393.08
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: Immediate access funds. Overnight deposits, money market funds, and highly liquid short-term instruments.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 716.8
+      y: 244.77
+      width: 486.41
+      height: 323.95
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5F7FA"
+  - id: shape4
+    type: shape
+    frame:
+      x: 716.8
+      y: 244.77
+      width: 7
+      height: 323.95
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5C6B89"
+  - id: text6
+    type: text
+    name: Tier 2 Core
+    frame:
+      x: 766.98
+      y: 287.95
+      width: 393.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Tier 2 Core
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: 35%
+    frame:
+      x: 766.98
+      y: 327.55
+      width: 393.08
+      height: 102.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 35%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 33.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1C2541"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Short-duration fixed inc...
+    frame:
+      x: 766.98
+      y: 439.14
+      width: 393.08
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: Short-duration fixed income, commercial paper, and government securities (1-3 year maturity).
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 1280
+      y: 244.77
+      width: 486.41
+      height: 323.95
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5F7FA"
+  - id: shape6
+    type: shape
+    frame:
+      x: 1280
+      y: 244.77
+      width: 7
+      height: 323.95
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#A0AABF"
+  - id: text9
+    type: text
+    name: Tier 3 Strategic
+    frame:
+      x: 1330.19
+      y: 287.95
+      width: 393.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Tier 3 Strategic
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: 20%
+    frame:
+      x: 1330.19
+      y: 327.55
+      width: 393.08
+      height: 102.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 20%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 33.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1C2541"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Longer-duration high-gra...
+    frame:
+      x: 1330.19
+      y: 439.14
+      width: 393.08
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: Longer-duration high-grade corporate bonds and diversified institutional mandates.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Permitted Instrument Mat...
+    frame:
+      x: 153.59
+      y: 633.52
+      width: 1612.86
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Permitted Instrument Matrix
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1C2541"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 153.59
+      y: 698.3
+      width: 1612.81
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1C2541"
+  - id: shape9
+    type: shape
+    frame:
+      x: 153.59
+      y: 775.18
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0E0E0"
+  - id: text13
+    type: text
+    name: U.S. Treasury Securities
+    frame:
+      x: 153.59
+      y: 721.89
+      width: 645.18
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: U.S. Treasury Securities
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: N/A
+    frame:
+      x: 798.72
+      y: 721.89
+      width: 322.61
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: N/A
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.12
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: 100%
+    frame:
+      x: 1121.28
+      y: 721.89
+      width: 322.61
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: 100%
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.12
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: Up to 5 Years
+    frame:
+      x: 1443.84
+      y: 721.89
+      width: 322.61
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Up to 5 Years
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.12
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape10
+    type: shape
+    frame:
+      x: 153.59
+      y: 851.05
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0E0E0"
+  - id: text17
+    type: text
+    name: Corporate Bonds
+    frame:
+      x: 153.59
+      y: 797.77
+      width: 645.18
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Corporate Bonds
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text18
+    type: text
+    name: A- or higher
+    frame:
+      x: 798.72
+      y: 797.77
+      width: 322.61
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: A- or higher
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.12
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text19
+    type: text
+    name: 40%
+    frame:
+      x: 1121.28
+      y: 797.77
+      width: 322.61
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: 40%
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.12
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text20
+    type: text
+    name: Up to 3 Years
+    frame:
+      x: 1443.84
+      y: 797.77
+      width: 322.61
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Up to 3 Years
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.12
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape11
+    type: shape
+    frame:
+      x: 153.59
+      y: 926.93
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0E0E0"
+  - id: text21
+    type: text
+    name: Commercial Paper
+    frame:
+      x: 153.59
+      y: 873.64
+      width: 645.18
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Commercial Paper
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text22
+    type: text
+    name: A-1 / P-1
+    frame:
+      x: 798.72
+      y: 873.64
+      width: 322.61
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: A-1 / P-1
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.12
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text23
+    type: text
+    name: 25%
+    frame:
+      x: 1121.28
+      y: 873.64
+      width: 322.61
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: 25%
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.12
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text24
+    type: text
+    name: Up to 270 Days
+    frame:
+      x: 1443.84
+      y: 873.64
+      width: 322.61
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Up to 270 Days
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.12
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape12
+    type: shape
+    frame:
+      x: 153.59
+      y: 1002.8
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0E0E0"
+  - id: text25
+    type: text
+    name: Money Market Funds
+    frame:
+      x: 153.59
+      y: 949.52
+      width: 645.18
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Money Market Funds
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#333333"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text26
+    type: text
+    name: AAA
+    frame:
+      x: 798.72
+      y: 949.52
+      width: 322.61
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: AAA
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.12
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text27
+    type: text
+    name: 50%
+    frame:
+      x: 1121.28
+      y: 949.52
+      width: 322.61
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: 50%
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.12
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text28
+    type: text
+    name: Daily
+    frame:
+      x: 1443.84
+      y: 949.52
+      width: 322.61
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Daily
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.12
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible

@@ -1,0 +1,267 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#2D3436"
+elements:
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 96.78
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E2D5"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1711.13
+      y: 86.39
+      width: 62.33
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E2D5"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: Class Dismissed
+    frame:
+      x: 380.59
+      y: 267.52
+      width: 1158.8
+      height: 309
+    body:
+      paragraphs:
+        - runs:
+            - text: Class Dismissed
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 76.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E8E2D5"
+              letterSpacingPt: -1.536
+          align: center
+          lineHeight: 1
+      overflow: visible
+    rotationDeg: -1
+  - id: shape1
+    type: shape
+    frame:
+      x: 369.49
+      y: 443.1
+      width: 1181
+      height: 5
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8E2D5"
+    rotationDeg: 1.5
+    opacity: 0.8
+  - id: shape2
+    type: shape
+    frame:
+      x: 453.48
+      y: 459.17
+      width: 1013
+      height: 2
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8E2D5"
+    rotationDeg: -0.5
+    opacity: 0.5
+  - id: text4
+    type: text
+    name: Any questions before we ...
+    frame:
+      x: 403.53
+      y: 547.75
+      width: 1112.99
+      height: 117
+    body:
+      paragraphs:
+        - runs:
+            - text: Any questions before we begin building the future together?
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E2D5"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.5
+    opacity: 0.85
+  - id: shape3
+    type: shape
+    frame:
+      x: 769
+      y: 727.84
+      width: 382
+      height: 90
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#E8E2D5"
+      widthPt: 1
+      opacity: 0.4
+    rotationDeg: -0.5
+  - id: text5
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 768.975
+      y: 727.84
+      width: 382.05
+      height: 90
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E2D5"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+    rotationDeg: -0.5
+  - id: shape5
+    type: shape
+    frame:
+      x: 0
+      y: 1026
+      width: 1920
+      height: 10.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#222728"
+  - id: shape4
+    type: shape
+    frame:
+      x: 0
+      y: 1026
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3F484B"
+  - id: text6
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 153.82
+      y: 964.71
+      width: 426.47
+      height: 29
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E2D5"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -0.2
+    opacity: 0.6
+  - id: text7
+    type: text
+    name: Page 04
+    frame:
+      x: 1685.81
+      y: 964.81
+      width: 80.64
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Page 04
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E2D5"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6

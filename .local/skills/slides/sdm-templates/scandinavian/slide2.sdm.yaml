@@ -1,0 +1,487 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FAFAF7"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 76.8
+      y: 43.19
+      width: 1766.41
+      height: 993.63
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 76.8
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#4A4A4A"
+      widthPt: 0.5
+      opacity: 0.1
+  - id: shape2
+    type: shape
+    frame:
+      x: 153.59
+      y: 129.58
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8FAE8B"
+    opacity: 0.8
+  - id: text1
+    type: text
+    name: Our Promise
+    frame:
+      x: 239.98
+      y: 107.98
+      width: 384.09
+      height: 203
+    body:
+      paragraphs:
+        - runs:
+            - text: Our Promise
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 33.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+              letterSpacingPt: -0.672
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 153.59
+      y: 295.17
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A4A4A"
+      opacity: 0.15
+  - id: shape4
+    type: shape
+    frame:
+      x: 153.59
+      y: 387.95
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8FAE8B"
+  - id: text2
+    type: text
+    name: Sustainable Materials
+    frame:
+      x: 201.58
+      y: 382.56
+      width: 537.64
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Sustainable Materials
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 600
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Carefully sourced natura...
+    frame:
+      x: 201.58
+      y: 431.5
+      width: 537.64
+      height: 61.44
+    body:
+      paragraphs:
+        - runs:
+            - text: Carefully sourced natural elements that age beautifully and respect our environment.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B6B"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 153.59
+      y: 552.31
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4775A"
+  - id: text4
+    type: text
+    name: Timeless Design
+    frame:
+      x: 201.58
+      y: 546.92
+      width: 537.64
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Timeless Design
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 600
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Clean lines and function...
+    frame:
+      x: 201.58
+      y: 595.86
+      width: 537.64
+      height: 61.44
+    body:
+      paragraphs:
+        - runs:
+            - text: Clean lines and functional forms intended to outlast seasonal trends.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B6B"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 153.59
+      y: 716.67
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D5A73"
+  - id: text6
+    type: text
+    name: Local Craft
+    frame:
+      x: 201.58
+      y: 711.28
+      width: 537.64
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Local Craft
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 600
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Partnering with skilled ...
+    frame:
+      x: 201.58
+      y: 760.22
+      width: 537.64
+      height: 61.44
+    body:
+      paragraphs:
+        - runs:
+            - text: Partnering with skilled regional artisans to preserve traditional techniques.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B6B"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 1056
+      y: 387.95
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8FAE8B"
+  - id: text8
+    type: text
+    name: Ethical Supply Chain
+    frame:
+      x: 1103.98
+      y: 382.56
+      width: 537.64
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Ethical Supply Chain
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 600
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Complete transparency an...
+    frame:
+      x: 1103.98
+      y: 431.5
+      width: 537.64
+      height: 61.44
+    body:
+      paragraphs:
+        - runs:
+            - text: Complete transparency and fair labor practices from origin to final product.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B6B"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 1056
+      y: 552.31
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4775A"
+  - id: text10
+    type: text
+    name: Lifetime Warranty
+    frame:
+      x: 1103.98
+      y: 546.92
+      width: 537.64
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Lifetime Warranty
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 600
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Built for generations, b...
+    frame:
+      x: 1103.98
+      y: 595.86
+      width: 537.64
+      height: 61.44
+    body:
+      paragraphs:
+        - runs:
+            - text: Built for generations, backed by our comprehensive structural guarantee.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B6B"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 1056
+      y: 716.67
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D5A73"
+  - id: text12
+    type: text
+    name: Carbon Neutral
+    frame:
+      x: 1103.98
+      y: 711.28
+      width: 537.64
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Carbon Neutral
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 600
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Offsetting our footprint...
+    frame:
+      x: 1103.98
+      y: 760.22
+      width: 537.64
+      height: 61.44
+    body:
+      paragraphs:
+        - runs:
+            - text: Offsetting our footprint through verified regenerative agriculture programs.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B6B6B"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text14
+    type: text
+    name: "02"
+    frame:
+      x: 153.59
+      y: 992.17
+      width: 23.82
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text15
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 1474.91
+      y: 992.17
+      width: 300.31
+      height: 48.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5

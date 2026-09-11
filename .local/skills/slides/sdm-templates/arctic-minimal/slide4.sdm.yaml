@@ -1,0 +1,285 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F0F4F8"
+elements:
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 905.48
+      y: 86.39
+      width: 109.03
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#94A3B8"
+              letterSpacingPt: 2.304
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 940.8
+      y: 322.67
+      width: 38.39
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3B82F6"
+  - id: text2
+    type: text
+    name: Let's build
+    frame:
+      x: 560.24
+      y: 388.47
+      width: 799.49
+      height: 213.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Let's build
+              font:
+                kind: family
+                family: Inter
+              sizePt: 48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#334155"
+              letterSpacingPt: -1.44
+          align: center
+          lineHeight: 1.1
+        - runs:
+            - text: something great.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#334155"
+              letterSpacingPt: -1.44
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: EMAIL
+    frame:
+      x: 610.5
+      y: 686.05
+      width: 71.74
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EMAIL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#94A3B8"
+              letterSpacingPt: 1.296
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 562.555
+      y: 722.77
+      width: 167.61
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#334155"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 806.94
+      y: 686.05
+      width: 1
+      height: 43.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#94A3B8"
+      opacity: 0.3
+  - id: text5
+    type: text
+    name: OFFICE
+    frame:
+      x: 943.36
+      y: 686.05
+      width: 81.41
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: OFFICE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#94A3B8"
+              letterSpacingPt: 1.296
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text6
+    type: text
+    name: 123 Minimal St, SF
+    frame:
+      x: 872.42
+      y: 722.77
+      width: 223.27
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 123 Minimal St, SF
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#334155"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 1160.19
+      y: 686.05
+      width: 1
+      height: 43.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#94A3B8"
+      opacity: 0.3
+  - id: text7
+    type: text
+    name: SOCIAL
+    frame:
+      x: 1256.3
+      y: 686.05
+      width: 82.76
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: SOCIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#94A3B8"
+              letterSpacingPt: 1.296
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: "@acme_co"
+    frame:
+      x: 1237.955
+      y: 722.77
+      width: 119.47
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "@acme_co"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#334155"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: "04"
+    frame:
+      x: 947.37
+      y: 970.58
+      width: 25.27
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#94A3B8"
+              letterSpacingPt: 0.768
+          align: center
+          lineHeight: 1.5
+      overflow: visible

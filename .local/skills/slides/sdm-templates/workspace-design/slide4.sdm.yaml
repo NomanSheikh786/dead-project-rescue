@@ -1,0 +1,275 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#121216"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: coworking-skyline
+    altText: Workspace Skyline
+    fit: cover
+    opacity: 0.3
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#121216"
+          opacity: 0.9
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#121216"
+  - id: text1
+    type: text
+    name: PROJECT BRIEF — NEXT STE...
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 334.05
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: PROJECT BRIEF — NEXT STEPS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Let's Begin.
+    frame:
+      x: 621.84
+      y: 334.88
+      width: 676.3
+      height: 128.72
+    body:
+      paragraphs:
+        - runs:
+            - text: Let's Begin.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -1.728
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 883.2
+      y: 493.98
+      width: 153.59
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.3
+  - id: text3
+    type: text
+    name: Ready to transform your ...
+    frame:
+      x: 671.975
+      y: 538.17
+      width: 576.05
+      height: 73.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Ready to transform your workspace into an environment that inspires your best work.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text4
+    type: text
+    name: EMAIL
+    frame:
+      x: 713.165
+      y: 676.72
+      width: 167.61
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EMAIL
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+              letterSpacingPt: 0.768
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 713.165
+      y: 710.55
+      width: 167.61
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: OFFICE
+    frame:
+      x: 957.525
+      y: 676.72
+      width: 249.32
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: OFFICE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+              letterSpacingPt: 0.768
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: 123 Design District, NY
+    frame:
+      x: 933.72
+      y: 710.55
+      width: 296.95
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 123 Design District, NY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: "04"
+    frame:
+      x: 153.59
+      y: 989.28
+      width: 25.57
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: acme.co
+    frame:
+      x: 1680.92
+      y: 986.41
+      width: 85.53
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  coworking-skyline:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/coworking-skyline.png

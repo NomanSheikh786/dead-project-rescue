@@ -1,0 +1,418 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#080808"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: sneaker-float
+    altText: Floating Sneaker
+    fit: cover
+    opacity: 0.3
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#080808"
+          opacity: 0.95
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#080808"
+          opacity: 0.7
+  - id: shape2
+    type: shape
+    frame:
+      x: 115.19
+      y: 115.19
+      width: 201.75
+      height: 39.41
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.7
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#7AB87A"
+      widthPt: 0.5
+  - id: text1
+    type: text
+    name: 02 / THE VISION
+    frame:
+      x: 115.19
+      y: 115.19
+      width: 213.91
+      height: 39.41
+    body:
+      paragraphs:
+        - runs:
+            - text: 02 / THE VISION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.16
+              weight: 700
+              color:
+                kind: rgb
+                value: "#7AB87A"
+              letterSpacingPt: 0.816
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 3.24
+        right: 11.52
+        bottom: 3.24
+        left: 11.52
+  - id: text2
+    type: text
+    name: "STYLE: EX-2026"
+    frame:
+      x: 1647.67
+      y: 121.92
+      width: 166.62
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "STYLE: EX-2026"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7AB87A"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: ELEVATING STREETWEAR
+    frame:
+      x: 115.19
+      y: 219.39
+      width: 768.07
+      height: 172.81
+    body:
+      paragraphs:
+        - runs:
+            - text: ELEVATING STREETWEAR
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 43.2
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -1.296
+          lineHeight: 1
+      overflow: visible
+  - id: text4
+    type: text
+    name: We are blending high-fas...
+    frame:
+      x: 115.19
+      y: 435.39
+      width: 768.07
+      height: 147.5
+    body:
+      paragraphs:
+        - runs:
+            - text: We are blending high-fashion aesthetics with technical streetwear utility. The new drop focuses on breathable fabrics, modular components, and an undeniable silhouette that stands out in any urban environment.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.7
+  - id: text5
+    type: text
+    name: Every seam, stitch, and ...
+    frame:
+      x: 115.19
+      y: 615.28
+      width: 768.07
+      height: 110.63
+    body:
+      paragraphs:
+        - runs:
+            - text: Every seam, stitch, and panel has been re-engineered for maximum mobility without compromising the avant-garde shape that defines our brand.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.7
+  - id: shape3
+    type: shape
+    frame:
+      x: 1036.8
+      y: 408.89
+      width: 2
+      height: 82.78
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7AB87A"
+  - id: text6
+    type: text
+    name: MODULAR DESIGN
+    frame:
+      x: 1077.19
+      y: 408.89
+      width: 727.68
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: MODULAR DESIGN
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.72
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Adaptable elements for c...
+    frame:
+      x: 1077.19
+      y: 462.88
+      width: 727.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Adaptable elements for changing climates.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: shape4
+    type: shape
+    frame:
+      x: 1036.8
+      y: 534.86
+      width: 2
+      height: 82.78
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7AB87A"
+  - id: text8
+    type: text
+    name: TECHNICAL FABRICS
+    frame:
+      x: 1077.19
+      y: 534.86
+      width: 727.68
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: TECHNICAL FABRICS
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.72
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Water-resistant, breatha...
+    frame:
+      x: 1077.19
+      y: 588.84
+      width: 727.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Water-resistant, breathable, and durable.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: shape5
+    type: shape
+    frame:
+      x: 1036.8
+      y: 660.83
+      width: 2
+      height: 82.78
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7AB87A"
+  - id: text10
+    type: text
+    name: SUSTAINABLE SOURCING
+    frame:
+      x: 1077.19
+      y: 660.83
+      width: 727.68
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: SUSTAINABLE SOURCING
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.72
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Recycled materials in 80...
+    frame:
+      x: 1077.19
+      y: 714.81
+      width: 727.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Recycled materials in 80% of the collection.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text12
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 933.13
+      width: 94.1
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.528
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text13
+    type: text
+    name: "02"
+    frame:
+      x: 1776.06
+      y: 933.13
+      width: 31.8
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.528
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+assets:
+  sneaker-float:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/sneaker-float.png

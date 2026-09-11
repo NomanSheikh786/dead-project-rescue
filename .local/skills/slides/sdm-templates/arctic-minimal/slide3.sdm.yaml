@@ -1,0 +1,309 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F0F4F8"
+elements:
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 908.59
+      y: 86.39
+      width: 109.03
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#94A3B8"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 940.8
+      y: 172.78
+      width: 38.39
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3B82F6"
+  - id: text2
+    type: text
+    name: THE NUMBERS
+    frame:
+      x: 654.525
+      y: 216.97
+      width: 610.94
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: THE NUMBERS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#94A3B8"
+              letterSpacingPt: 1.728
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Metrics That Matter
+    frame:
+      x: 596.18
+      y: 264.48
+      width: 727.65
+      height: 75.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Metrics That Matter
+              font:
+                kind: family
+                family: Inter
+              sizePt: 33.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#334155"
+              letterSpacingPt: -1.008
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: 84%
+    frame:
+      x: 450.92
+      y: 468
+      width: 256.1
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: 84%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#3B82F6"
+              letterSpacingPt: -2.304
+          lineHeight: 1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 445.83
+      y: 604.8
+      width: 266.25
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#94A3B8"
+      opacity: 0.3
+  - id: text5
+    type: text
+    name: EFFICIENCY INCREASE
+    frame:
+      x: 419
+      y: 627.39
+      width: 320
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: EFFICIENCY INCREASE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#64748B"
+              letterSpacingPt: 1.44
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: 2.4x
+    frame:
+      x: 827.27
+      y: 468
+      width: 251.6
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: 2.4x
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#3B82F6"
+              letterSpacingPt: -2.304
+          lineHeight: 1
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 819.95
+      y: 604.8
+      width: 266.25
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#94A3B8"
+      opacity: 0.3
+  - id: text7
+    type: text
+    name: REVENUE GROWTH
+    frame:
+      x: 793.07
+      y: 627.39
+      width: 320
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: REVENUE GROWTH
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#64748B"
+              letterSpacingPt: 1.44
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: 10M+
+    frame:
+      x: 1179.77
+      y: 468
+      width: 313.46
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: 10M+
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#3B82F6"
+              letterSpacingPt: -2.304
+          lineHeight: 1
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1203.38
+      y: 604.8
+      width: 266.25
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#94A3B8"
+      opacity: 0.3
+  - id: text9
+    type: text
+    name: ACTIVE USERS
+    frame:
+      x: 1176.5
+      y: 627.39
+      width: 320
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ACTIVE USERS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#64748B"
+              letterSpacingPt: 1.44
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: "03"
+    frame:
+      x: 949.06
+      y: 970.58
+      width: 24.93
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 300
+              color:
+                kind: rgb
+                value: "#94A3B8"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible

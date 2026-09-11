@@ -1,0 +1,419 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F5F0"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1608
+      y: -96
+      width: 480
+      height: 480
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#E8878C"
+      widthPt: 1.5
+    opacity: 0.2
+  - id: shape2
+    type: shape
+    frame:
+      x: 1560
+      y: 40
+      width: 384
+      height: 384
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#7B9FCC"
+      widthPt: 1.5
+    opacity: 0.2
+  - id: shape3
+    type: shape
+    frame:
+      x: 1672
+      y: 300
+      width: 288
+      height: 288
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#7BC8A4"
+      widthPt: 1.5
+    opacity: 0.2
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 134.22
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1E1E1E"
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1757.39
+      y: 67.67
+      width: 52.47
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Let's Build the Future
+    frame:
+      x: 305.91
+      y: 247.7
+      width: 1308.17
+      height: 122.95
+    body:
+      paragraphs:
+        - runs:
+            - text: Let's Build the Future
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1E1E1E"
+              letterSpacingPt: -2.304
+          align: center
+          lineHeight: 1.05
+      overflow: visible
+  - id: text4
+    type: text
+    name: Partner with us to creat...
+    frame:
+      x: 527.975
+      y: 401.05
+      width: 864.05
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Partner with us to create sustainable, scalable, and innovative solutions for tomorrow.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape4
+    type: shape
+    frame:
+      x: 639.2
+      y: 580.31
+      width: 252.55
+      height: 98.16
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 38.4
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1E1E1E"
+  - id: text5
+    type: text
+    name: Get in Touch
+    frame:
+      x: 631.6
+      y: 580.31
+      width: 267.76
+      height: 98.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Get in Touch
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 14.4
+        right: 28.8
+        bottom: 14.4
+        left: 28.8
+  - id: shape5
+    type: shape
+    frame:
+      x: 930.14
+      y: 580.31
+      width: 350.64
+      height: 98.16
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 38.4
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#1E1E1E"
+      widthPt: 1.5
+  - id: text6
+    type: text
+    name: View Documentation
+    frame:
+      x: 930.115
+      y: 580.31
+      width: 350.69
+      height: 98.16
+    body:
+      paragraphs:
+        - runs:
+            - text: View Documentation
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1E1E1E"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 14.4
+        right: 28.8
+        bottom: 14.4
+        left: 28.8
+  - id: text7
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 626.305
+      y: 775.66
+      width: 155.94
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: +1 (555) 123-4567
+    frame:
+      x: 822.16
+      y: 775.66
+      width: 219.9
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: +1 (555) 123-4567
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: 123 Innovation Dr, SF
+    frame:
+      x: 1061.73
+      y: 775.66
+      width: 252.16
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: 123 Innovation Dr, SF
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: "04"
+    frame:
+      x: 115.19
+      y: 986.41
+      width: 26.55
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 158.88
+      y: 1000.3
+      width: 38.39
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#888888"
+  - id: text11
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 216.45
+      y: 986.41
+      width: 320
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 1636.06
+      y: 955.69
+      width: 168.75
+      height: 59.52
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text12
+    type: text
+    name: Confidential
+    frame:
+      x: 1636.06
+      y: 955.69
+      width: 180.8
+      height: 59.52
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1E1E1E"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 7.68
+        right: 14.4
+        bottom: 7.68
+        left: 14.4

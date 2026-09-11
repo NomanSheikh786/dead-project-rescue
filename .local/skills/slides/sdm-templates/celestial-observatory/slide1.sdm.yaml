@@ -1,0 +1,347 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: linearGradient
+  angleDeg: 143.47
+  stops:
+    - offset: 0
+      color:
+        kind: rgb
+        value: "#152243"
+    - offset: 0.6
+      color:
+        kind: rgb
+        value: "#0B1026"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 384
+      y: 0
+      width: 1
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+  - id: shape2
+    type: shape
+    frame:
+      x: 1535
+      y: 0
+      width: 1
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+  - id: shape3
+    type: shape
+    frame:
+      x: 0
+      y: 216
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+  - id: shape4
+    type: shape
+    frame:
+      x: 0
+      y: 863
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.05
+  - id: text1
+    type: text
+    name: RA 05h 34m 31.97s
+    frame:
+      x: 1677.26
+      y: 43.19
+      width: 165.94
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: RA 05h 34m 31.97s
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C5A0"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text2
+    type: text
+    name: DEC +22° 00' 52.1"
+    frame:
+      x: 1677.26
+      y: 66.22
+      width: 165.94
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: DEC +22° 00' 52.1"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C5A0"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text3
+    type: text
+    name: FOV 45.00°
+    frame:
+      x: 1677.26
+      y: 89.25
+      width: 165.94
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: FOV 45.00°
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C5A0"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text4
+    type: text
+    name: OBSERVATION LOG
+    frame:
+      x: 76.8
+      y: 990.75
+      width: 147.5
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: OBSERVATION LOG
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C5A0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text5
+    type: text
+    name: SEC 001 / QUAD 4
+    frame:
+      x: 76.8
+      y: 1013.78
+      width: 147.5
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: SEC 001 / QUAD 4
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C5A0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: shape5
+    type: shape
+    frame:
+      x: 480
+      y: 389.52
+      width: 57.59
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4C5A0"
+  - id: text6
+    type: text
+    name: ACME.CO
+    frame:
+      x: 556.78
+      y: 375.63
+      width: 118.52
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C5A0"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Example Deck
+    frame:
+      x: 480
+      y: 436.81
+      width: 960.05
+      height: 139.27
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 62.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+          lineHeight: 1.1
+      overflow: visible
+  - id: text8
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 480
+      y: 606.47
+      width: 768.05
+      height: 99.91
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.7
+      overflow: visible
+    opacity: 0.8
+  - id: text9
+    type: text
+    name: EXAMPLE COMPANY, INC.
+    frame:
+      x: 1390.63
+      y: 1013.78
+      width: 239.4
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C5A0"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: shape6
+    type: shape
+    frame:
+      x: 1674.02
+      y: 1017.2
+      width: 1
+      height: 16.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4C5A0"
+      opacity: 0.3
+  - id: text10
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 1732.61
+      y: 1013.78
+      width: 117.28
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C5A0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6

@@ -1,0 +1,199 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#18181B"
+elements:
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 92.61
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F4F4F5"
+              letterSpacingPt: -0.23
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 1747.22
+      y: 101.52
+      width: 57.59
+      height: 4.31
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F4F4F5"
+  - id: text2
+    type: text
+    name: Let's build the
+    frame:
+      x: 424.5
+      y: 278.3
+      width: 1070.98
+      height: 264.06
+    body:
+      paragraphs:
+        - runs:
+            - text: Let's build the
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 62.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F4F4F5"
+              letterSpacingPt: -2.496
+          align: center
+          lineHeight: 1.05
+        - runs:
+            - text: future together.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 62.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F4F4F5"
+              letterSpacingPt: -2.496
+          align: center
+          lineHeight: 1.05
+      overflow: visible
+  - id: text3
+    type: text
+    name: Join us in transforming ...
+    frame:
+      x: 552.93
+      y: 572.75
+      width: 814.13
+      height: 92.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Join us in transforming how modern teams operate. Reach out to start the conversation today.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A1A1AA"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape2
+    type: shape
+    frame:
+      x: 796.38
+      y: 729.7
+      width: 327.25
+      height: 77.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F4F4F5"
+  - id: text4
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 796.355
+      y: 729.7
+      width: 327.3
+      height: 79.75
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#18181B"
+              letterSpacingPt: -0.23
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: text5
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 115.19
+      y: 967.69
+      width: 415.54
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#71717A"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: "04"
+    frame:
+      x: 1781.78
+      y: 964.81
+      width: 27.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#71717A"
+          lineHeight: 1.5
+      overflow: visible

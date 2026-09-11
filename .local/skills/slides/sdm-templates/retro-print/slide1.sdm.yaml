@@ -1,0 +1,226 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F0E6"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 48
+      y: 27
+      width: 1824
+      height: 1026
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#1B2A4A"
+      widthPt: 0.5
+  - id: shape2
+    type: shape
+    frame:
+      x: 56.67
+      y: 36.63
+      width: 1806.66
+      height: 1006.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#1B2A4A"
+      widthPt: 0.5
+  - id: text1
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: -0.025
+      y: 1001.53
+      width: 1920.05
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL / 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.16
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+              letterSpacingPt: 2.448
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: EXAMPLE COMPANY DECK
+    frame:
+      x: 153.59
+      y: 276.8
+      width: 806.46
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY DECK
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+              letterSpacingPt: 4.608
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Oracle
+    frame:
+      x: 153.59
+      y: 354.55
+      width: 806.46
+      height: 144
+    body:
+      paragraphs:
+        - runs:
+            - text: Oracle
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 72
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+              letterSpacingPt: -1.44
+          lineHeight: 1
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 153.59
+      y: 523.23
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B2A4A"
+  - id: text4
+    type: text
+    name: ◆
+    frame:
+      x: 259.19
+      y: 509.34
+      width: 14.82
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ◆
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 302.75
+      y: 523.23
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B2A4A"
+  - id: text5
+    type: text
+    name: See what others cannot.
+    frame:
+      x: 153.59
+      y: 570.53
+      width: 806.46
+      height: 65.34
+    body:
+      paragraphs:
+        - runs:
+            - text: See what others cannot.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 21.12
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8573A"
+              letterSpacingPt: 0.422
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Discover the hidden patt...
+    frame:
+      x: 153.59
+      y: 720.27
+      width: 576.05
+      height: 84.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Discover the hidden patterns that drive tomorrow's markets. Our proprietary methodology uncovers insights where others see only noise.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.7
+  - id: image1
+    type: image
+    frame:
+      x: 921.6
+      y: 189
+      width: 806.41
+      height: 702
+    assetId: illust-retro-orb-nobg
+    altText: Glowing crystal orb with geometric patterns
+    fit: contain
+assets:
+  illust-retro-orb-nobg:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/illust-retro-orb-nobg.png

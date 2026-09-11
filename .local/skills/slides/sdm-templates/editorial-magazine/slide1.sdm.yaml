@@ -1,0 +1,278 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F2ED"
+elements:
+  - id: text1
+    type: text
+    name: B
+    frame:
+      x: 1420.11
+      y: -54
+      width: 574.33
+      height: 864
+    body:
+      paragraphs:
+        - runs:
+            - text: B
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 432
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+          lineHeight: 1
+      overflow: visible
+    opacity: 0.08
+    rotationDeg: 0.02
+  - id: text2
+    type: text
+    name: ACME.CO (BY EXAMPLE COMP...
+    frame:
+      x: 96
+      y: 54
+      width: 522.95
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO (BY EXAMPLE COMPANY)
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+              letterSpacingPt: 2.88
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: "2026"
+    frame:
+      x: 1753.55
+      y: 54
+      width: 77.5
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+              letterSpacingPt: 2.88
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Example
+    frame:
+      x: 96
+      y: 424.08
+      width: 932.57
+      height: 347.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Example
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 96
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+              letterSpacingPt: -1.92
+          lineHeight: 0.9
+        - runs:
+            - text: Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 96
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C45B28"
+              italic: true
+              letterSpacingPt: -1.92
+          lineHeight: 0.9
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 1124.52
+      y: 425.33
+      width: 1
+      height: 343.11
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8C8C8C"
+      opacity: 0.4
+  - id: text5
+    type: text
+    name: THE OVERVIEW
+    frame:
+      x: 1202.31
+      y: 479.33
+      width: 621.74
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: THE OVERVIEW
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#C45B28"
+              letterSpacingPt: 3.456
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 1202.31
+      y: 537.64
+      width: 621.74
+      height: 107.53
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+          lineHeight: 1.4
+      overflow: visible
+  - id: text7
+    type: text
+    name: Describe your big idea i...
+    frame:
+      x: 1202.31
+      y: 677.56
+      width: 528.47
+      height: 36.88
+    body:
+      paragraphs:
+        - runs:
+            - text: Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text8
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 96
+      y: 1002.97
+      width: 574.79
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+              letterSpacingPt: 3.072
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: VOL. 1
+    frame:
+      x: 1741.63
+      y: 1002.97
+      width: 92.62
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: VOL. 1
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8C8C8C"
+              letterSpacingPt: 3.072
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 96
+      y: 104.39
+      width: 1728
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8C8C8C"
+      opacity: 0.4
+  - id: shape3
+    type: shape
+    frame:
+      x: 96
+      y: 980.38
+      width: 1728
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8C8C8C"
+      opacity: 0.4

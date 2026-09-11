@@ -1,0 +1,511 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FAFBFC"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 76.8
+      y: 103.17
+      width: 1766.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E2E8F0"
+  - id: shape2
+    type: shape
+    frame:
+      x: 76.8
+      y: 43.19
+      width: 38.39
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 7.68
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0D9488"
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 134.38
+      y: 45.09
+      width: 100.32
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1E3A5F"
+              letterSpacingPt: 0.23
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: NEXT STEPS
+    frame:
+      x: 1639.19
+      y: 47.98
+      width: 124.6
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: NEXT STEPS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#64748B"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: "2026"
+    frame:
+      x: 1795.08
+      y: 47.98
+      width: 52.18
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#64748B"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 902.41
+      y: 157.11
+      width: 115.19
+      height: 115.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0D9488"
+      opacity: 0.1
+  - id: shape4
+    type: shape
+    frame:
+      x: 931.2
+      y: 185.91
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0D9488"
+  - id: text4
+    type: text
+    name: Let's Build the Future
+    frame:
+      x: 312.66
+      y: 315.48
+      width: 1294.67
+      height: 128.72
+    body:
+      paragraphs:
+        - runs:
+            - text: Let's Build the Future
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 800
+              color:
+                kind: rgb
+                value: "#1E3A5F"
+              letterSpacingPt: -1.152
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text5
+    type: text
+    name: Join us in transforming ...
+    frame:
+      x: 388.28
+      y: 463.8
+      width: 1143.43
+      height: 88.38
+    body:
+      paragraphs:
+        - runs:
+            - text: Join us in transforming the analytics landscape. We are actively looking for strategic partners to accelerate our next phase of growth.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#475569"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape5
+    type: shape
+    frame:
+      x: 575.11
+      y: 614.97
+      width: 335.94
+      height: 79.75
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0D9488"
+  - id: text6
+    type: text
+    name: Partner With Us
+    frame:
+      x: 554.33
+      y: 614.97
+      width: 377.52
+      height: 79.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Partner With Us
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.23
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: shape6
+    type: shape
+    frame:
+      x: 949.44
+      y: 614.97
+      width: 395.45
+      height: 79.75
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 9.6
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#E2E8F0"
+      widthPt: 0.5
+  - id: text7
+    type: text
+    name: View Documentation
+    frame:
+      x: 949.415
+      y: 614.97
+      width: 395.5
+      height: 79.75
+    body:
+      paragraphs:
+        - runs:
+            - text: View Documentation
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1E3A5F"
+              letterSpacingPt: 0.23
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: shape7
+    type: shape
+    frame:
+      x: 471.73
+      y: 781.11
+      width: 976.52
+      height: 154.25
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#E2E8F0"
+      widthPt: 0.5
+  - id: text8
+    type: text
+    name: CONTACT US
+    frame:
+      x: 587.92
+      y: 825.3
+      width: 213.86
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: CONTACT US
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#64748B"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: partners@acme.co
+    frame:
+      x: 587.92
+      y: 856.61
+      width: 226.69
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: partners@acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1E3A5F"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 878.53
+      y: 825.3
+      width: 1
+      height: 65.88
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E2E8F0"
+  - id: text10
+    type: text
+    name: VISIT US
+    frame:
+      x: 956.33
+      y: 825.3
+      width: 375.78
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: VISIT US
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#64748B"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: 123 Data Drive, San Fran...
+    frame:
+      x: 956.33
+      y: 856.61
+      width: 422.23
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 123 Data Drive, San Francisco, CA
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1E3A5F"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 76.8
+      y: 988.3
+      width: 1766.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E2E8F0"
+  - id: text12
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 76.8
+      y: 1010.89
+      width: 193.33
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#94A3B8"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Confidential & Proprieta...
+    frame:
+      x: 1525.03
+      y: 1010.89
+      width: 253.72
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential & Proprietary
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#94A3B8"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: •
+    frame:
+      x: 1757.2
+      y: 1010.89
+      width: 11.27
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: •
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#94A3B8"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text15
+    type: text
+    name: Page 4
+    frame:
+      x: 1785.61
+      y: 1010.89
+      width: 61.1
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Page 4
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#94A3B8"
+          lineHeight: 1.5
+      overflow: visible

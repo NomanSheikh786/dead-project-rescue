@@ -1,0 +1,293 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#08080C"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: electric-car
+    altText: Electric Car
+    fit: cover
+    opacity: 0.3
+  - id: shape4
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 60.64
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.8
+          color:
+            kind: rgb
+            value: "#08080C"
+  - id: text1
+    type: text
+    name: THE FUTURE IS NOW
+    frame:
+      x: 383.975
+      y: 270.08
+      width: 1152.05
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: THE FUTURE IS NOW
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A90D9"
+              letterSpacingPt: 3.456
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Reserve Yours
+    frame:
+      x: 383.975
+      y: 337.03
+      width: 1152.05
+      height: 134.41
+    body:
+      paragraphs:
+        - runs:
+            - text: Reserve Yours
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 67.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -1.344
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 902.41
+      y: 514.63
+      width: 115.19
+      height: 2.16
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A90D9"
+  - id: text3
+    type: text
+    name: Join the exclusive list ...
+    frame:
+      x: 383.975
+      y: 559.97
+      width: 1152.05
+      height: 98.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Join the exclusive list of early adopters and experience the pinnacle of electric performance.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A8B4"
+          align: center
+          lineHeight: 1.4
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 600.8
+      y: 721.52
+      width: 340
+      height: 88.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A90D9"
+  - id: text4
+    type: text
+    name: BUILD & PRICE
+    frame:
+      x: 600.8
+      y: 721.52
+      width: 340
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: BUILD & PRICE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 14.4
+        right: 28.8
+        bottom: 14.4
+        left: 28.8
+  - id: shape3
+    type: shape
+    frame:
+      x: 979.2
+      y: 721.52
+      width: 340
+      height: 88.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#4A90D9"
+      widthPt: 0.5
+  - id: text5
+    type: text
+    name: CONTACT SALES
+    frame:
+      x: 979.2
+      y: 721.52
+      width: 340
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: CONTACT SALES
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#4A90D9"
+              letterSpacingPt: 0.96
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 14.4
+        right: 28.8
+        bottom: 14.4
+        left: 28.8
+  - id: text6
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 1008.02
+      width: 94.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A8B4"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: "04"
+    frame:
+      x: 944.64
+      y: 1008.02
+      width: 34.77
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A8B4"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 1620.58
+      y: 1008.02
+      width: 195.34
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A8B4"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  electric-car:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/electric-car.png

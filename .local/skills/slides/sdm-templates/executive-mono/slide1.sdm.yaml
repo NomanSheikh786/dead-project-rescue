@@ -1,0 +1,225 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: text1
+    type: text
+    name: "01"
+    frame:
+      x: 1528.34
+      y: 150
+      width: 307.52
+      height: 230.41
+    body:
+      paragraphs:
+        - runs:
+            - text: "01"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 115.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E5E5E5"
+          lineHeight: 1
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text2
+    type: text
+    name: "[acme.co]"
+    frame:
+      x: 115.19
+      y: 99.19
+      width: 134.8
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "[acme.co]"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: "DATE: 2026"
+    frame:
+      x: 1689.69
+      y: 99.19
+      width: 115.18
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "DATE: 2026"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: DOCUMENT // TITLE
+    frame:
+      x: 115.19
+      y: 432.02
+      width: 242.11
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: DOCUMENT // TITLE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: EXAMPLE DECK
+    frame:
+      x: 115.19
+      y: 482.41
+      width: 900.85
+      height: 128.72
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE DECK
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 57.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: -1.152
+          lineHeight: 1.1
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text6
+    type: text
+    name: "> Your compelling subtit..."
+    frame:
+      x: 115.19
+      y: 652.31
+      width: 920
+      height: 88.38
+    body:
+      paragraphs:
+        - runs:
+            - text: "> Your compelling subtitle goes here."
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+        - runs:
+            - text: "> Describe your big idea in a single sentence."
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text7
+    type: text
+    name: "COMPANY: Example Company..."
+    frame:
+      x: 115.19
+      y: 928.97
+      width: 336.75
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: "COMPANY: Example Company, Inc."
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+        - runs:
+            - text: "STATUS: Confidential"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 1689.63
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape2
+    type: shape
+    frame:
+      x: 115.19
+      y: 1013.2
+      width: 1689.63
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"

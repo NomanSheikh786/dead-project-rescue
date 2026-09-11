@@ -1,0 +1,283 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#05050F"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: astronaut-space
+    altText: Astronaut floating in space
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0.55
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.65
+          color:
+            kind: rgb
+            value: "#05050F"
+          opacity: 0.7
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#05050F"
+          opacity: 0.85
+  - id: text1
+    type: text
+    name: MISSION BRIEF
+    frame:
+      x: 1171.19
+      y: 86.39
+      width: 175.09
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: MISSION BRIEF
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#6A8AAA"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "ORBIT: LEO-7"
+    frame:
+      x: 1171.19
+      y: 123.11
+      width: 155.83
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "ORBIT: LEO-7"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0E8F0"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape2
+    type: shape
+    frame:
+      x: 1756.81
+      y: 86.39
+      width: 48
+      height: 48
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#6A8AAA"
+      widthPt: 0.5
+  - id: shape3
+    type: shape
+    frame:
+      x: 1776.02
+      y: 105.59
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0E8F0"
+  - id: text3
+    type: text
+    name: Example
+    frame:
+      x: 1171.19
+      y: 353.3
+      width: 633.68
+      height: 230.41
+    body:
+      paragraphs:
+        - runs:
+            - text: Example
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E0E8F0"
+              letterSpacingPt: -0.96
+          lineHeight: 1
+        - runs:
+            - text: Deck
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E0E8F0"
+              letterSpacingPt: -0.96
+          lineHeight: 1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 1171.19
+      y: 616.09
+      width: 576.05
+      height: 110.63
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0E8F0"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.7
+  - id: text5
+    type: text
+    name: "ALT: 408 KM"
+    frame:
+      x: 1171.19
+      y: 942.16
+      width: 142.52
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "ALT: 408 KM"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6A8AAA"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: "VEL: 7.66 KM/S"
+    frame:
+      x: 1171.19
+      y: 970.58
+      width: 142.52
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "VEL: 7.66 KM/S"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6A8AAA"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: AD ASTRA
+    frame:
+      x: 1700.42
+      y: 928.09
+      width: 104.44
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: AD ASTRA
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0E8F0"
+              italic: true
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: acme.co
+    frame:
+      x: 1732.3
+      y: 967.69
+      width: 72.57
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6A8AAA"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+assets:
+  astronaut-space:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/astronaut-space.png

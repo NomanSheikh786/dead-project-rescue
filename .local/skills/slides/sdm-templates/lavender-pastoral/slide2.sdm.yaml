@@ -1,0 +1,411 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFCF5"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 264.94
+      width: 1689.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B4A082"
+      opacity: 0.4
+  - id: text1
+    type: text
+    name: The Art of Cultivation
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 775.39
+      height: 203
+    body:
+      paragraphs:
+        - runs:
+            - text: The Art of Cultivation
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 33.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A2040"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Nurturing ideas from see...
+    frame:
+      x: 115.19
+      y: 197.98
+      width: 651.03
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Nurturing ideas from seed to blossom
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#7A5A80"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text3
+    type: text
+    name: ⚜
+    frame:
+      x: 1761.78
+      y: 86.39
+      width: 43.08
+      height: 48
+    body:
+      paragraphs:
+        - runs:
+            - text: ⚜
+              font:
+                kind: family
+                family: Inter
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7A5A80"
+          lineHeight: 1
+      overflow: visible
+  - id: text4
+    type: text
+    name: In the heart of the vall...
+    frame:
+      x: 115.19
+      y: 330.73
+      width: 787.27
+      height: 161.69
+    body:
+      paragraphs:
+        - runs:
+            - text: In the heart of the valley, our approach combines traditional wisdom with modern innovation. We believe that true quality cannot be rushed, and that patience is the essential ingredient in any masterpiece.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 12.48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A2040"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text5
+    type: text
+    name: "01"
+    frame:
+      x: 115.19
+      y: 546.56
+      width: 31.94
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "01"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7A5A80"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Preparation
+    frame:
+      x: 164.88
+      y: 544.41
+      width: 737.58
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Preparation
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#4A2040"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Laying the groundwork th...
+    frame:
+      x: 164.88
+      y: 590.11
+      width: 737.58
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Laying the groundwork through careful research and deep understanding of the environment.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7A5A80"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: "02"
+    frame:
+      x: 115.19
+      y: 682.25
+      width: 31.66
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7A5A80"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Cultivation
+    frame:
+      x: 168.59
+      y: 680.09
+      width: 733.86
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Cultivation
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#4A2040"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Tending to the delicate ...
+    frame:
+      x: 168.59
+      y: 725.8
+      width: 733.86
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Tending to the delicate process with precision, care, and unwavering attention to detail.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7A5A80"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: "03"
+    frame:
+      x: 115.19
+      y: 817.94
+      width: 31.89
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7A5A80"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Harvest
+    frame:
+      x: 167.83
+      y: 815.78
+      width: 734.63
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Harvest
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#4A2040"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Reaping the rewards of p...
+    frame:
+      x: 167.83
+      y: 861.48
+      width: 734.63
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Reaping the rewards of patience, delivering exceptional results that stand the test of time.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7A5A80"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 1056
+      y: 373.92
+      width: 748.8
+      height: 501.94
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#B4A082"
+      widthPt: 0.5
+      opacity: 0.6
+  - id: shape3
+    type: shape
+    frame:
+      x: 115.19
+      y: 962.27
+      width: 1689.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B4A082"
+      opacity: 0.4
+  - id: text14
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 987.73
+      width: 76.05
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7A5A80"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: Page 2
+    frame:
+      x: 1741.86
+      y: 984.86
+      width: 65.91
+      height: 65
+    body:
+      paragraphs:
+        - runs:
+            - text: Page 2
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7A5A80"
+              italic: true
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: image1
+    type: image
+    frame:
+      x: 1017.59
+      y: 373.92
+      width: 710.41
+      height: 458.75
+    assetId: lavender-provence
+    altText: Lavender fields
+    fit: cover
+assets:
+  lavender-provence:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/lavender-provence.png

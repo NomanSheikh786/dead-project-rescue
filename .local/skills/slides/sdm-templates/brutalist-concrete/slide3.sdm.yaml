@@ -1,0 +1,403 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#E5E5E5"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 215
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 96
+      y: 90.22
+      width: 104.05
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -0.23
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: PERFORMANCE METRICS
+    frame:
+      x: 666.36
+      y: 64.31
+      width: 690.81
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: PERFORMANCE METRICS
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 28.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: 03 / 04
+    frame:
+      x: 1755.48
+      y: 95.27
+      width: 68.57
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: 03 / 04
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.16
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 638.92
+      y: 216
+      width: 1
+      height: 864
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text4
+    type: text
+    name: 45%
+    frame:
+      x: 96
+      y: 520.06
+      width: 446.97
+      height: 105.67
+    body:
+      paragraphs:
+        - runs:
+            - text: "45"
+              sizePt: 57.6
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+            - text: "%"
+              sizePt: 38.4
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 0.9
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Space Grotesk
+            weight: 700
+            letterSpacingPt: -2.304
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 96
+      y: 656.13
+      width: 446.92
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text5
+    type: text
+    name: GROWTH RATE
+    frame:
+      x: 96
+      y: 678.72
+      width: 446.97
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: GROWTH RATE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: "> Year over year expansi..."
+    frame:
+      x: 96
+      y: 724.08
+      width: 446.97
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: "> Year over year expansion in primary markets."
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 639.92
+      y: 216
+      width: 640.13
+      height: 864
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F2F2F2"
+  - id: shape4
+    type: shape
+    frame:
+      x: 1279.05
+      y: 216
+      width: 1
+      height: 864
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text7
+    type: text
+    name: 1.2M
+    frame:
+      x: 735.92
+      y: 520.06
+      width: 447.18
+      height: 105.67
+    body:
+      paragraphs:
+        - runs:
+            - text: "1.2"
+              sizePt: 57.6
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+            - text: M
+              sizePt: 38.4
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 0.9
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Space Grotesk
+            weight: 700
+            letterSpacingPt: -2.304
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 735.92
+      y: 656.13
+      width: 447.13
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text8
+    type: text
+    name: ACTIVE USERS
+    frame:
+      x: 735.92
+      y: 678.72
+      width: 447.18
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACTIVE USERS
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: "> Total monthly active u..."
+    frame:
+      x: 735.92
+      y: 724.08
+      width: 447.18
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: "> Total monthly active users across all platforms."
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: $8M
+    frame:
+      x: 1376.05
+      y: 520.06
+      width: 447.97
+      height: 105.67
+    body:
+      paragraphs:
+        - runs:
+            - text: $8
+              sizePt: 57.6
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+            - text: M
+              sizePt: 38.4
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 0.9
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Space Grotesk
+            weight: 700
+            letterSpacingPt: -2.304
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 1376.05
+      y: 656.13
+      width: 447.92
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text11
+    type: text
+    name: REVENUE
+    frame:
+      x: 1376.05
+      y: 678.72
+      width: 447.97
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: REVENUE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: "> Q4 recurring revenue p..."
+    frame:
+      x: 1376.05
+      y: 724.08
+      width: 447.97
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "> Q4 recurring revenue projections."
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible

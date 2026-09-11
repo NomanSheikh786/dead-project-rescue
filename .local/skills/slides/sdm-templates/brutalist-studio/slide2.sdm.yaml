@@ -1,0 +1,333 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#121212"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 96
+      y: 136.78
+      width: 1728
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text1
+    type: text
+    name: CORE PHILOSOPHY
+    frame:
+      x: 96
+      y: 86.39
+      width: 251.15
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CORE PHILOSOPHY
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#C4A060"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: PHASE 01
+    frame:
+      x: 1716.53
+      y: 86.39
+      width: 113.97
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: PHASE 01
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Form follows
+    frame:
+      x: 96
+      y: 226.17
+      width: 787.25
+      height: 380.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Form follows
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 43.2
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.864
+          lineHeight: 1.1
+        - runs:
+            - text: function, but
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 43.2
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.864
+          lineHeight: 1.1
+        - runs:
+            - text: material dictates
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 43.2
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.864
+          lineHeight: 1.1
+        - runs:
+            - text: feeling.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 43.2
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.864
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Our approach strips away...
+    frame:
+      x: 1036.8
+      y: 236.97
+      width: 787.25
+      height: 147.5
+    body:
+      paragraphs:
+        - runs:
+            - text: Our approach strips away the non-essential to reveal the raw, structural truth of the project. We believe in brutal honesty in both material and method, shaping spaces that leave a lasting impact.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#AAAAAA"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 1036.8
+      y: 427.66
+      width: 3
+      height: 111.58
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A060"
+  - id: text5
+    type: text
+    name: Structural Integrity
+    frame:
+      x: 1078.19
+      y: 427.66
+      width: 745.86
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Structural Integrity
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Exposing the bones of th...
+    frame:
+      x: 1078.19
+      y: 481.64
+      width: 745.86
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Exposing the bones of the operation rather than hiding them behind decorative facades. Form must be justified by its load.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 1036.8
+      y: 582.42
+      width: 3
+      height: 111.58
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A060"
+  - id: text7
+    type: text
+    name: Uncompromising Scale
+    frame:
+      x: 1078.19
+      y: 582.42
+      width: 745.86
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Uncompromising Scale
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 14.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Embracing mass and prese...
+    frame:
+      x: 1078.19
+      y: 636.41
+      width: 745.86
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Embracing mass and presence to create volumes that demand attention and command the surrounding environment.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 96
+      y: 942.22
+      width: 1728
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text9
+    type: text
+    name: acme.co
+    frame:
+      x: 96
+      y: 964.81
+      width: 80.64
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: "02"
+    frame:
+      x: 1798.2
+      y: 964.81
+      width: 28.85
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4A060"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible

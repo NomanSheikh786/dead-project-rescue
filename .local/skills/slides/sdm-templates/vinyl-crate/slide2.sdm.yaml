@@ -1,0 +1,349 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#C4A872"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1272
+      y: 648
+      width: 756
+      height: 756
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#18130E"
+  - id: shape2
+    type: shape
+    frame:
+      x: 1299
+      y: 675
+      width: 702
+      height: 702
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.05
+  - id: shape3
+    type: shape
+    frame:
+      x: 1353
+      y: 729
+      width: 594
+      height: 594
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.03
+  - id: shape4
+    type: shape
+    frame:
+      x: 1407
+      y: 783
+      width: 486
+      height: 486
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 1
+      opacity: 0.04
+  - id: shape5
+    type: shape
+    frame:
+      x: 1542
+      y: 918
+      width: 216
+      height: 216
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8B3A3A"
+  - id: shape6
+    type: shape
+    frame:
+      x: 1641.91
+      y: 1017.91
+      width: 16.19
+      height: 16.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4A872"
+  - id: shape7
+    type: shape
+    frame:
+      x: 153.59
+      y: 99.78
+      width: 57.59
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8B3A3A"
+  - id: text1
+    type: text
+    name: TRACK 01
+    frame:
+      x: 249.58
+      y: 86.39
+      width: 122.1
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: TRACK 01
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#8B3A3A"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: STEREO
+    frame:
+      x: 1680.05
+      y: 86.39
+      width: 96.41
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: STEREO
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: The Analogue Revival
+    frame:
+      x: 153.59
+      y: 283.52
+      width: 1152.05
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: The Analogue Revival
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 38.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+              letterSpacingPt: -0.768
+          lineHeight: 1
+      overflow: visible
+  - id: text4
+    type: text
+    name: In an era dominated by d...
+    frame:
+      x: 153.59
+      y: 414.31
+      width: 755.11
+      height: 217
+    body:
+      paragraphs:
+        - runs:
+            - text: In an era dominated by digital convenience, the tactile experience of physical media has seen a remarkable resurgence. The ritual of placing a needle on a groove offers a mindful counterpoint to the endless scroll.
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.9
+  - id: text5
+    type: text
+    name: This isn't merely nostal...
+    frame:
+      x: 153.59
+      y: 661.7
+      width: 672.05
+      height: 131
+    body:
+      paragraphs:
+        - runs:
+            - text: This isn't merely nostalgia; it's a profound shift in how we choose to consume and value art, prioritizing presence over accessibility.
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.9
+  - id: shape8
+    type: shape
+    frame:
+      x: 940.78
+      y: 414.31
+      width: 2
+      height: 376.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8B3A3A"
+  - id: text6
+    type: text
+    name: KEY INSIGHT
+    frame:
+      x: 1000.38
+      y: 515.03
+      width: 420.46
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: KEY INSIGHT
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+              letterSpacingPt: 1.296
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text7
+    type: text
+    name: Physical interaction inc...
+    frame:
+      x: 1000.38
+      y: 551.75
+      width: 420.46
+      height: 140.23
+    body:
+      paragraphs:
+        - runs:
+            - text: Physical interaction increases perceived value by over 60%.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 19.2
+              weight: 600
+              color:
+                kind: rgb
+                value: "#8B3A3A"
+          lineHeight: 1.2
+      overflow: visible
+  - id: text8
+    type: text
+    name: PAGE 02
+    frame:
+      x: 153.59
+      y: 964.81
+      width: 99.72
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: PAGE 02
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C1E0F"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text9
+    type: text
+    name: acme.co
+    frame:
+      x: 1653.55
+      y: 959.05
+      width: 112.91
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F0E6D2"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible

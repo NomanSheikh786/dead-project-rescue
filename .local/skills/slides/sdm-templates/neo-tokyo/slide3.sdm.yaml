@@ -1,0 +1,513 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0A0F"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: tokyo-neon
+    altText: Tokyo Neon
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 96
+      y: 108
+      width: 1728
+      height: 864
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0A0A14"
+      opacity: 0.8
+    stroke:
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      widthPt: 0.5
+      opacity: 0.1
+  - id: shape2
+    type: shape
+    frame:
+      x: 173.8
+      y: 163
+      width: 1572.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7B9CC4"
+  - id: text1
+    type: text
+    name: METRICS_OVERVIEW
+    frame:
+      x: 173.8
+      y: 185.59
+      width: 234.97
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: METRICS_OVERVIEW
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7B9CC4"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: 03 // 04
+    frame:
+      x: 1664.8
+      y: 188.47
+      width: 81.46
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: 03 // 04
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7B9CC4"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text3
+    type: text
+    name: Performance Telemetry
+    frame:
+      x: 173.8
+      y: 279.19
+      width: 1572.46
+      height: 75.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Performance Telemetry
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 33.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.96
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 173.8
+      y: 417.91
+      width: 498.53
+      height: 448.7
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.03
+    stroke:
+      color:
+        kind: rgb
+        value: "#7B9CC4"
+      widthPt: 0.5
+      opacity: 0.2
+  - id: shape4
+    type: shape
+    frame:
+      x: 174.8
+      y: 418.91
+      width: 5.75
+      height: 446.7
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7B9CC4"
+  - id: text4
+    type: text
+    name: LATENCY
+    frame:
+      x: 232.39
+      y: 555.5
+      width: 381.39
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: LATENCY
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text5
+    type: text
+    name: 12ms
+    frame:
+      x: 232.39
+      y: 595.09
+      width: 381.39
+      height: 86.41
+    body:
+      paragraphs:
+        - runs:
+            - text: "12"
+              sizePt: 43.2
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+            - text: ms
+              sizePt: 19.2
+              color:
+                kind: rgb
+                value: "#7B9CC4"
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Space Grotesk
+            weight: 700
+      overflow: visible
+  - id: text6
+    type: text
+    name: Global average p99 respo...
+    frame:
+      x: 232.39
+      y: 703.09
+      width: 381.39
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Global average p99 response time
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: shape5
+    type: shape
+    frame:
+      x: 710.72
+      y: 417.91
+      width: 498.55
+      height: 448.7
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.03
+    stroke:
+      color:
+        kind: rgb
+        value: "#7B9CC4"
+      widthPt: 0.5
+      opacity: 0.2
+  - id: shape6
+    type: shape
+    frame:
+      x: 711.72
+      y: 418.91
+      width: 5.75
+      height: 446.7
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7B9CC4"
+  - id: text7
+    type: text
+    name: UPTIME
+    frame:
+      x: 769.31
+      y: 555.5
+      width: 381.41
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: UPTIME
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text8
+    type: text
+    name: 99.99%
+    frame:
+      x: 769.31
+      y: 595.09
+      width: 381.41
+      height: 86.41
+    body:
+      paragraphs:
+        - runs:
+            - text: "99.99"
+              sizePt: 43.2
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+            - text: "%"
+              sizePt: 19.2
+              color:
+                kind: rgb
+                value: "#7B9CC4"
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Space Grotesk
+            weight: 700
+      overflow: visible
+  - id: text9
+    type: text
+    name: Guaranteed structural in...
+    frame:
+      x: 769.31
+      y: 703.09
+      width: 381.41
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Guaranteed structural integrity
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: shape7
+    type: shape
+    frame:
+      x: 1247.66
+      y: 417.91
+      width: 498.55
+      height: 448.7
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.03
+    stroke:
+      color:
+        kind: rgb
+        value: "#7B9CC4"
+      widthPt: 0.5
+      opacity: 0.2
+  - id: shape8
+    type: shape
+    frame:
+      x: 1248.66
+      y: 418.91
+      width: 5.75
+      height: 446.7
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#7B9CC4"
+  - id: text10
+    type: text
+    name: NODES
+    frame:
+      x: 1306.25
+      y: 555.5
+      width: 381.41
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: NODES
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text11
+    type: text
+    name: 14k+
+    frame:
+      x: 1306.25
+      y: 595.09
+      width: 381.41
+      height: 86.41
+    body:
+      paragraphs:
+        - runs:
+            - text: "14"
+              sizePt: 43.2
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+            - text: k+
+              sizePt: 19.2
+              color:
+                kind: rgb
+                value: "#7B9CC4"
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Space Grotesk
+            weight: 700
+      overflow: visible
+  - id: text12
+    type: text
+    name: Active edge computing po...
+    frame:
+      x: 1306.25
+      y: 703.09
+      width: 381.41
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Active edge computing points
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text13
+    type: text
+    name: acme.co
+    frame:
+      x: 173.8
+      y: 888.2
+      width: 80.64
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text14
+    type: text
+    name: "2026.03"
+    frame:
+      x: 1665.61
+      y: 888.2
+      width: 85.48
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026.03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7B9CC4"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+assets:
+  tokyo-neon:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/tokyo-neon.png

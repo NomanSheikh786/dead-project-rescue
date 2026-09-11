@@ -1,0 +1,334 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0A0A"
+elements:
+  - id: text1
+    type: text
+    name: /////
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 73.28
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: /////
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#D4695A"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: IMPACT METRICS
+    frame:
+      x: 213.06
+      y: 87.83
+      width: 181.27
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: IMPACT METRICS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#D4695A"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: COMMUNITY REACH
+    frame:
+      x: 115.19
+      y: 216
+      width: 1689.68
+      height: 107.59
+    body:
+      paragraphs:
+        - runs:
+            - text: COMMUNITY REACH
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 52.8
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -1.056
+          lineHeight: 1
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 859.59
+      width: 1689.63
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+  - id: text4
+    type: text
+    name: "24"
+    frame:
+      x: 115.19
+      y: 577.61
+      width: 103.28
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "24"
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 38.4
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1
+      overflow: visible
+  - id: text5
+    type: text
+    name: MURALS
+    frame:
+      x: 468.52
+      y: 620.22
+      width: 84.13
+      height: 36.19
+    body:
+      paragraphs:
+        - runs:
+            - text: MURALS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 2.7
+        left: 0
+  - id: shape2
+    type: shape
+    frame:
+      x: 115.19
+      y: 676
+      width: 422.41
+      height: 162
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+  - id: text6
+    type: text
+    name: "142"
+    frame:
+      x: 748.8
+      y: 469.61
+      width: 154.24
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "142"
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 38.4
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1
+      overflow: visible
+  - id: text7
+    type: text
+    name: ARTISTS
+    frame:
+      x: 1090.61
+      y: 512.22
+      width: 85.48
+      height: 36.19
+    body:
+      paragraphs:
+        - runs:
+            - text: ARTISTS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 2.7
+        left: 0
+  - id: shape3
+    type: shape
+    frame:
+      x: 748.8
+      y: 568
+      width: 422.41
+      height: 270
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#666666"
+  - id: text8
+    type: text
+    name: 85K
+    frame:
+      x: 1382.41
+      y: 361.61
+      width: 154.28
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 85K
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 38.4
+              weight: 800
+              color:
+                kind: rgb
+                value: "#D4695A"
+          lineHeight: 1
+      overflow: visible
+  - id: text9
+    type: text
+    name: VISITORS
+    frame:
+      x: 1712.7
+      y: 404.22
+      width: 92.16
+      height: 36.19
+    body:
+      paragraphs:
+        - runs:
+            - text: VISITORS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4695A"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 2.7
+        left: 0
+    opacity: 0.8
+  - id: shape4
+    type: shape
+    frame:
+      x: 1382.41
+      y: 460
+      width: 422.41
+      height: 378
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4695A"
+  - id: text10
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 1010.89
+      width: 72.57
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text11
+    type: text
+    name: "03"
+    frame:
+      x: 1784.09
+      y: 1010.89
+      width: 24.77
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5

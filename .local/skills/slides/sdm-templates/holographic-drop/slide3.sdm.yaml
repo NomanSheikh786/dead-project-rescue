@@ -1,0 +1,534 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#05050A"
+elements:
+  - id: text1
+    type: text
+    name: "03"
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 32.71
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#B8A9D4"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 183.23
+      y: 77.25
+      width: 38.39
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8A9D4"
+      opacity: 0.3
+  - id: text2
+    type: text
+    name: SYSTEM METRICS
+    frame:
+      x: 260.02
+      y: 64.8
+      width: 190.01
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: SYSTEM METRICS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8A9D4"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text3
+    type: text
+    name: Performance & Adoption
+    frame:
+      x: 115.19
+      y: 177.11
+      width: 970.84
+      height: 86.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Performance & Adoption
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 38.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.96
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 115.19
+      y: 347.97
+      width: 512
+      height: 225.94
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.03
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8A9D4"
+      widthPt: 0.5
+      opacity: 0.1
+  - id: text4
+    type: text
+    name: 4.2B
+    frame:
+      x: 173.78
+      y: 392.16
+      width: 394.86
+      height: 86.41
+    body:
+      paragraphs:
+        - runs:
+            - text: 4.2B
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 43.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#B8A9D4"
+              letterSpacingPt: -1.44
+          lineHeight: 1
+      overflow: visible
+  - id: text5
+    type: text
+    name: Interactions processed d...
+    frame:
+      x: 173.78
+      y: 500.16
+      width: 394.86
+      height: 31.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Interactions processed daily
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.4
+      overflow: visible
+    opacity: 0.6
+  - id: shape3
+    type: shape
+    frame:
+      x: 703.98
+      y: 347.97
+      width: 512.02
+      height: 225.94
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.03
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8A9D4"
+      widthPt: 0.5
+      opacity: 0.1
+  - id: text6
+    type: text
+    name: 0.8ms
+    frame:
+      x: 762.58
+      y: 392.16
+      width: 394.88
+      height: 86.41
+    body:
+      paragraphs:
+        - runs:
+            - text: 0.8ms
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 43.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -1.44
+          lineHeight: 1
+      overflow: visible
+  - id: text7
+    type: text
+    name: Average latency per requ...
+    frame:
+      x: 762.58
+      y: 500.16
+      width: 394.88
+      height: 31.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Average latency per request
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.4
+      overflow: visible
+    opacity: 0.6
+  - id: shape4
+    type: shape
+    frame:
+      x: 1292.8
+      y: 347.97
+      width: 512.02
+      height: 225.94
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.03
+    stroke:
+      color:
+        kind: rgb
+        value: "#B8A9D4"
+      widthPt: 0.5
+      opacity: 0.1
+  - id: text8
+    type: text
+    name: 99.9%
+    frame:
+      x: 1351.39
+      y: 392.16
+      width: 394.88
+      height: 86.41
+    body:
+      paragraphs:
+        - runs:
+            - text: 99.9%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 43.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -1.44
+          lineHeight: 1
+      overflow: visible
+  - id: text9
+    type: text
+    name: System uptime SLA
+    frame:
+      x: 1351.39
+      y: 500.16
+      width: 394.88
+      height: 31.56
+    body:
+      paragraphs:
+        - runs:
+            - text: System uptime SLA
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.4
+      overflow: visible
+    opacity: 0.6
+  - id: shape5
+    type: shape
+    frame:
+      x: 115.19
+      y: 773.7
+      width: 151.69
+      height: 48.59
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8A9D4"
+      opacity: 0.2
+  - id: shape6
+    type: shape
+    frame:
+      x: 286.06
+      y: 749.41
+      width: 151.7
+      height: 72.89
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8A9D4"
+      opacity: 0.2
+  - id: shape7
+    type: shape
+    frame:
+      x: 456.95
+      y: 765.61
+      width: 151.69
+      height: 56.69
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8A9D4"
+      opacity: 0.2
+  - id: shape8
+    type: shape
+    frame:
+      x: 627.83
+      y: 725.11
+      width: 151.7
+      height: 97.19
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8A9D4"
+      opacity: 0.2
+  - id: shape9
+    type: shape
+    frame:
+      x: 798.72
+      y: 741.3
+      width: 151.69
+      height: 81
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8A9D4"
+      opacity: 0.2
+  - id: shape10
+    type: shape
+    frame:
+      x: 969.59
+      y: 700.8
+      width: 151.7
+      height: 121.5
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8A9D4"
+      opacity: 0.2
+  - id: shape11
+    type: shape
+    frame:
+      x: 1140.48
+      y: 717
+      width: 151.69
+      height: 105.3
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8A9D4"
+      opacity: 0.2
+  - id: shape12
+    type: shape
+    frame:
+      x: 1311.36
+      y: 684.61
+      width: 151.7
+      height: 137.69
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8A9D4"
+      opacity: 0.2
+  - id: shape13
+    type: shape
+    frame:
+      x: 1482.25
+      y: 668.41
+      width: 151.69
+      height: 153.89
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8A9D4"
+      opacity: 0.2
+  - id: shape14
+    type: shape
+    frame:
+      x: 1653.13
+      y: 660.3
+      width: 151.69
+      height: 162
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 5.76
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8A9D4"
+  - id: shape15
+    type: shape
+    frame:
+      x: 115.19
+      y: 953.02
+      width: 1689.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8A9D4"
+      opacity: 0.2
+  - id: text10
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 986.41
+      width: 78.82
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: "03"
+    frame:
+      x: 1780.84
+      y: 986.41
+      width: 27.02
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8A9D4"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7

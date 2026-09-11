@@ -1,0 +1,500 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F7F4EF"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 76.8
+      y: 79.91
+      width: 1766.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 76.8
+      y: 43.19
+      width: 86.91
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: '"All the Ideas That Are ...'
+    frame:
+      x: 792.42
+      y: 43.19
+      width: 332.17
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: '"All the Ideas That Are Fit to Print"'
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: VOL. MMXXVI
+    frame:
+      x: 1716.75
+      y: 43.19
+      width: 134.09
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: VOL. MMXXVI
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 76.8
+      y: 209.29
+      width: 1766.41
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: text4
+    type: text
+    name: MARKET ANALYSIS
+    frame:
+      x: 76.775
+      y: 91.7
+      width: 1766.46
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: MARKET ANALYSIS
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: -0.96
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 76.8
+      y: 217.69
+      width: 1766.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: text5
+    type: text
+    name: The Shift in Consumer Be...
+    frame:
+      x: 76.8
+      y: 251.08
+      width: 805.97
+      height: 107.59
+    body:
+      paragraphs:
+        - runs:
+            - text: The Shift in Consumer Behavior Continues
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: -0.24
+          lineHeight: 1.1
+      overflow: visible
+  - id: text6
+    type: text
+    name: BY J. DOE, SENIOR ANALYS...
+    frame:
+      x: 76.8
+      y: 378.27
+      width: 805.97
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: BY J. DOE, SENIOR ANALYST
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: he unprecedented changes...
+    frame:
+      x: 121.58
+      y: 425.78
+      width: 806.86
+      height: 168.98
+    body:
+      paragraphs:
+        - runs:
+            - text: he unprecedented changes we have witnessed over the past year are not merely temporary fluctuations but represent a fundamental restructuring of the market ecosystem. Our latest research indicates a profound shift toward digital-first interactions, prioritizing speed and transparency above traditional brand loyalty metrics.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+          align: justify
+          lineHeight: 1.6
+      overflow: visible
+  - id: text8
+    type: text
+    name: T
+    frame:
+      x: 76.8
+      y: 425.78
+      width: 48.83
+      height: 53.45
+    body:
+      paragraphs:
+        - runs:
+            - text: T
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 28.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+          align: justify
+          lineHeight: 0.8
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 4.8
+        bottom: 0
+        left: 0
+  - id: text9
+    type: text
+    name: Companies that failed to...
+    frame:
+      x: 76.8
+      y: 616.36
+      width: 805.97
+      height: 135.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Companies that failed to adapt during the initial transition phase are now finding themselves at a significant disadvantage. The gap between industry leaders and laggards is widening, with technological integration serving as the primary differentiator.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+          align: justify
+          lineHeight: 1.6
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape4
+    type: shape
+    frame:
+      x: 959.5
+      y: 251.08
+      width: 1
+      height: 737.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1CEC7"
+  - id: shape5
+    type: shape
+    frame:
+      x: 1037.28
+      y: 251.08
+      width: 805.92
+      height: 272.09
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#EBE7DF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#111111"
+      widthPt: 0.5
+  - id: text10
+    type: text
+    name: KEY FINDINGS
+    frame:
+      x: 1076.645
+      y: 290.47
+      width: 727.19
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: KEY FINDINGS
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 17.28
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: A 45% increase in cross-...
+    frame:
+      x: 1105.47
+      y: 358.5
+      width: 698.39
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: A 45% increase in cross-channel integration demand.
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.8
+      overflow: visible
+  - id: text12
+    type: text
+    name: Retention costs have esc...
+    frame:
+      x: 1105.47
+      y: 403.86
+      width: 698.39
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Retention costs have escalated by 30% year-over-year.
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.8
+      overflow: visible
+  - id: text13
+    type: text
+    name: Automation adoption is n...
+    frame:
+      x: 1105.47
+      y: 449.22
+      width: 740.29
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Automation adoption is no longer optional; it is imperative for survival.
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.8
+      overflow: visible
+  - id: text14
+    type: text
+    name: Strategic Implications
+    frame:
+      x: 1037.28
+      y: 555.56
+      width: 805.97
+      height: 44.23
+    body:
+      paragraphs:
+        - runs:
+            - text: Strategic Implications
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: -0.192
+          lineHeight: 1.1
+      overflow: visible
+  - id: text15
+    type: text
+    name: Looking ahead, organizat...
+    frame:
+      x: 1037.28
+      y: 619.39
+      width: 805.97
+      height: 135.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Looking ahead, organizations must prioritize agile frameworks that allow for rapid iteration. The traditional five-year planning cycle has been rendered obsolete by the current pace of technological advancement and shifting regulatory landscapes across global markets.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+          align: justify
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 76.8
+      y: 988.3
+      width: 1766.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: text16
+    type: text
+    name: CONFIDENTIAL REPORT
+    frame:
+      x: 76.8
+      y: 1010.89
+      width: 207.58
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL REPORT
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text17
+    type: text
+    name: PAGE 2
+    frame:
+      x: 1781.63
+      y: 1010.89
+      width: 65.33
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: PAGE 2
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible

@@ -1,0 +1,937 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#141414"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 162
+      width: 1920
+      height: 1.08
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#A0785A"
+  - id: text1
+    type: text
+    name: Performance Metrics
+    frame:
+      x: 192
+      y: 45
+      width: 578.79
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: Performance Metrics
+              font:
+                kind: family
+                family: Inter
+              sizePt: 24
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 192
+      y: 248.39
+      width: 460.8
+      height: 256.16
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: shape2
+    type: shape
+    frame:
+      x: 192
+      y: 248.39
+      width: 460.8
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#A0785A"
+  - id: text2
+    type: text
+    name: AUM
+    frame:
+      x: 249.59
+      y: 294.58
+      width: 345.66
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: AUM
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#888888"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: $4.2B
+    frame:
+      x: 249.59
+      y: 344.97
+      width: 345.66
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: $4.2B
+              font:
+                kind: family
+                family: Inter
+              sizePt: 38.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Total Assets Under Manag...
+    frame:
+      x: 249.59
+      y: 432.56
+      width: 345.66
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Total Assets Under Management
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 729.59
+      y: 248.39
+      width: 460.81
+      height: 256.16
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: shape4
+    type: shape
+    frame:
+      x: 729.59
+      y: 248.39
+      width: 460.81
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+  - id: text5
+    type: text
+    name: GROSS IRR
+    frame:
+      x: 787.19
+      y: 294.58
+      width: 345.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: GROSS IRR
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#888888"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: 28.5%
+    frame:
+      x: 787.19
+      y: 344.97
+      width: 345.68
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 28.5%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 38.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1
+      overflow: visible
+  - id: text7
+    type: text
+    name: Historical Average Retur...
+    frame:
+      x: 787.19
+      y: 432.56
+      width: 345.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Historical Average Returns
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 1267.2
+      y: 248.39
+      width: 460.8
+      height: 256.16
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: shape6
+    type: shape
+    frame:
+      x: 1267.2
+      y: 248.39
+      width: 460.8
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+  - id: text8
+    type: text
+    name: MOIC
+    frame:
+      x: 1324.8
+      y: 294.58
+      width: 345.66
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: MOIC
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#888888"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: 2.9x
+    frame:
+      x: 1324.8
+      y: 344.97
+      width: 345.66
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 2.9x
+              font:
+                kind: family
+                family: Inter
+              sizePt: 38.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1
+      overflow: visible
+  - id: text10
+    type: text
+    name: Multiple on Invested Cap...
+    frame:
+      x: 1324.8
+      y: 432.56
+      width: 345.66
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Multiple on Invested Capital
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 192
+      y: 569.34
+      width: 1536
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+  - id: text11
+    type: text
+    name: Historical Growth Trajec...
+    frame:
+      x: 192
+      y: 624.34
+      width: 671.55
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Historical Growth Trajectory
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape13
+    type: shape
+    frame:
+      x: 207.8
+      y: 815
+      width: 80
+      height: 56
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+  - id: text26
+    type: text
+    name: $1.4B
+    frame:
+      x: 207.8
+      y: 785
+      width: 80
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: $1.4B
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape14
+    type: shape
+    frame:
+      x: 348.3
+      y: 795
+      width: 80
+      height: 76
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+  - id: text27
+    type: text
+    name: $1.9B
+    frame:
+      x: 348.3
+      y: 765
+      width: 80
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: $1.9B
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape15
+    type: shape
+    frame:
+      x: 490.3
+      y: 767
+      width: 80
+      height: 104
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+  - id: text28
+    type: text
+    name: $2.6B
+    frame:
+      x: 490.3
+      y: 737
+      width: 80
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: $2.6B
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape16
+    type: shape
+    frame:
+      x: 631.7
+      y: 735
+      width: 80
+      height: 136
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+  - id: text29
+    type: text
+    name: $3.4B
+    frame:
+      x: 631.7
+      y: 705
+      width: 80
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: $3.4B
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape17
+    type: shape
+    frame:
+      x: 774.2
+      y: 703
+      width: 80
+      height: 168
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#A0785A"
+  - id: text30
+    type: text
+    name: $4.2B
+    frame:
+      x: 774.2
+      y: 673
+      width: 80
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: $4.2B
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: "2021"
+    frame:
+      x: 224.3
+      y: 881.38
+      width: 47.03
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "2021"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: "2022"
+    frame:
+      x: 364.52
+      y: 881.38
+      width: 47.53
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "2022"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: "2023"
+    frame:
+      x: 506.42
+      y: 881.38
+      width: 47.68
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "2023"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: "2024"
+    frame:
+      x: 648.3
+      y: 881.38
+      width: 46.89
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "2024"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: "2025"
+    frame:
+      x: 790.59
+      y: 881.38
+      width: 47.25
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "2025"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 959.5
+      y: 624.34
+      width: 1
+      height: 282.95
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#333333"
+  - id: text17
+    type: text
+    name: Capital Allocation
+    frame:
+      x: 1056.5
+      y: 624.34
+      width: 671.55
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Capital Allocation
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape10
+    type: shape
+    frame:
+      x: 1056.5
+      y: 733.78
+      width: 671.5
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#222222"
+  - id: text18
+    type: text
+    name: Technology & Software
+    frame:
+      x: 1056.5
+      y: 691.3
+      width: 260.23
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Technology & Software
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text19
+    type: text
+    name: 45%
+    frame:
+      x: 1681.11
+      y: 691.3
+      width: 49.94
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: 45%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape11
+    type: shape
+    frame:
+      x: 1056.5
+      y: 798.86
+      width: 671.5
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#222222"
+  - id: text20
+    type: text
+    name: Healthcare IT
+    frame:
+      x: 1056.5
+      y: 756.38
+      width: 150.76
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Healthcare IT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text21
+    type: text
+    name: 30%
+    frame:
+      x: 1680.91
+      y: 756.38
+      width: 50.14
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: 30%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape12
+    type: shape
+    frame:
+      x: 1056.5
+      y: 863.93
+      width: 671.5
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#222222"
+  - id: text22
+    type: text
+    name: Business Services
+    frame:
+      x: 1056.5
+      y: 821.45
+      width: 204.74
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Business Services
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text23
+    type: text
+    name: 25%
+    frame:
+      x: 1681.86
+      y: 821.45
+      width: 50.19
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: 25%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text24
+    type: text
+    name: CONFIDENTIAL • 2026
+    frame:
+      x: 192
+      y: 1013.78
+      width: 240.59
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL • 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+  - id: text25
+    type: text
+    name: "03"
+    frame:
+      x: 1702.3
+      y: 1013.78
+      width: 28.75
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#A0785A"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible

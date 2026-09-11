@@ -1,0 +1,159 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#D4C4A8"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: desert-mirror
+    altText: Desert Mirror Installation
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 388.8
+      width: 1920
+      height: 302.39
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.5
+  - id: text1
+    type: text
+    name: INFINITE REFLECTIONS
+    frame:
+      x: 805.39
+      y: 430.55
+      width: 327.81
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: INFINITE REFLECTIONS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C4A8"
+              letterSpacingPt: 2.88
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Example Deck
+    frame:
+      x: 625.54
+      y: 467.27
+      width: 668.91
+      height: 86.41
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 43.2
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 2.16
+          align: center
+          lineHeight: 1
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text3
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 481.88
+      y: 564.47
+      width: 956.22
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+    rotationDeg: 0.02
+  - id: text4
+    type: text
+    name: —
+    frame:
+      x: 950.41
+      y: 609.83
+      width: 19.24
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: —
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#D4C4A8"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text5
+    type: text
+    name: acme.co
+    frame:
+      x: 922.05
+      y: 657.36
+      width: 75.94
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C4A8"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  desert-mirror:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/desert-mirror.png

@@ -1,0 +1,275 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: image
+  assetId: ocean-aerial
+  fit: cover
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 192
+      y: 162
+      width: 1536
+      height: 756
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 38.4
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.85
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 307.19
+      y: 226.8
+      width: 160.84
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A365D"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1551.86
+      y: 226.8
+      width: 68
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A5568"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Dive Deeper
+    frame:
+      x: 617.12
+      y: 331.23
+      width: 685.76
+      height: 128.72
+    body:
+      paragraphs:
+        - runs:
+            - text: Dive Deeper
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C5282"
+              letterSpacingPt: -1.152
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Ready to explore the opp...
+    frame:
+      x: 451.17
+      y: 490.34
+      width: 1017.65
+      height: 103.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Ready to explore the opportunities ahead? Let's connect and chart the course for our shared success.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A5568"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape2
+    type: shape
+    frame:
+      x: 658.72
+      y: 658.83
+      width: 286.7
+      height: 70.94
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 35.47
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C5282"
+      widthPt: 1
+  - id: text5
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 658.695
+      y: 658.83
+      width: 286.75
+      height: 70.94
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2C5282"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+  - id: shape3
+    type: shape
+    frame:
+      x: 1003.02
+      y: 658.83
+      width: 258.25
+      height: 70.94
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 35.47
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C5282"
+  - id: text6
+    type: text
+    name: Visit Website
+    frame:
+      x: 1000.85
+      y: 658.83
+      width: 262.59
+      height: 103
+    body:
+      paragraphs:
+        - runs:
+            - text: Visit Website
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+  - id: shape4
+    type: shape
+    frame:
+      x: 307.19
+      y: 791.02
+      width: 1305.63
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C5282"
+      opacity: 0.2
+  - id: text7
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 307.19
+      y: 824.41
+      width: 214.26
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2C5282"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: "04"
+    frame:
+      x: 1584.11
+      y: 824.41
+      width: 30.75
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#718096"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  ocean-aerial:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/ocean-aerial.jpg

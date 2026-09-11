@@ -1,0 +1,217 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#080C08"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: geodesic-greenhouse
+    altText: Geodesic Greenhouse Background
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 0.58
+          color:
+            kind: rgb
+            value: "#080C08"
+          opacity: 0.88
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#080C08"
+          opacity: 0.92
+  - id: text1
+    type: text
+    name: ⬡
+    frame:
+      x: 1171.19
+      y: 86.39
+      width: 18.02
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: ⬡
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#5A8A5A"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: BIODOME
+    frame:
+      x: 1198.75
+      y: 86.39
+      width: 106.72
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: BIODOME
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#5A8A5A"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: SECTOR 7
+    frame:
+      x: 1328.17
+      y: 87.83
+      width: 94.49
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: SECTOR 7
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text4
+    type: text
+    name: Example Deck
+    frame:
+      x: 1171.19
+      y: 177.11
+      width: 664.87
+      height: 223
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 52.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+              letterSpacingPt: -0.96
+          lineHeight: 1.05
+      overflow: visible
+  - id: text5
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 1171.19
+      y: 320.36
+      width: 633.68
+      height: 82.63
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+    rotationDeg: 0.02
+  - id: text6
+    type: text
+    name: Sustainable Futures
+    frame:
+      x: 1171.19
+      y: 925.22
+      width: 633.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Sustainable Futures
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5A8A5A"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: acme.co
+    frame:
+      x: 1171.19
+      y: 964.81
+      width: 633.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E0EBE0"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+assets:
+  geodesic-greenhouse:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/geodesic-greenhouse.png

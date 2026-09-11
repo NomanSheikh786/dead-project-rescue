@@ -1,0 +1,195 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 76.8
+      y: 43.19
+      width: 83.68
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1799.34
+      y: 43.19
+      width: 48.91
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 76.8
+      y: 1013.78
+      width: 133.25
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#C41E3A"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 1640.33
+      y: 1013.78
+      width: 215.11
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 7.68
+              weight: 600
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: PRESENTATION TITLE
+    frame:
+      x: 153.59
+      y: 149.25
+      width: 1766.46
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: PRESENTATION TITLE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#C41E3A"
+              letterSpacingPt: 4.608
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: EXAMPLE
+    frame:
+      x: 153.59
+      y: 227
+      width: 1766.46
+      height: 278.47
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 172.8
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: -6.912
+          lineHeight: 0.8
+      overflow: visible
+  - id: text7
+    type: text
+    name: DECK
+    frame:
+      x: 153.59
+      y: 503.47
+      width: 1766.46
+      height: 278.47
+    body:
+      paragraphs:
+        - runs:
+            - text: DECK
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 172.8
+              weight: 900
+              color:
+                kind: rgb
+                value: "#C41E3A"
+              letterSpacingPt: -6.912
+          lineHeight: 0.8
+      overflow: visible
+  - id: text8
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 153.59
+      y: 844.73
+      width: 864.05
+      height: 88
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 15.36
+              weight: 500
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: -0.154
+          lineHeight: 1.4
+      overflow: visible

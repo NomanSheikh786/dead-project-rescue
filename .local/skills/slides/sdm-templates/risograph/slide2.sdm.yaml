@@ -1,0 +1,758 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F0E8"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 192
+      y: 162
+      width: 38.39
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8573A"
+    opacity: 0.6
+  - id: shape2
+    type: shape
+    frame:
+      x: 197.75
+      y: 172.8
+      width: 38.39
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2D8A8E"
+      widthPt: 1.5
+    opacity: 0.28
+  - id: shape3
+    type: shape
+    frame:
+      x: 1633.61
+      y: 761
+      width: 56
+      height: 49
+    geometry:
+      kind: preset
+      preset: triangle
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2D8A8E"
+    rotationDeg: 15
+    opacity: 0.7
+  - id: shape4
+    type: shape
+    frame:
+      x: 1639.37
+      y: 765.33
+      width: 56
+      height: 49
+    geometry:
+      kind: preset
+      preset: triangle
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8573A"
+    rotationDeg: 15
+    opacity: 0.6
+  - id: shape5
+    type: shape
+    frame:
+      x: 1344
+      y: -108
+      width: 672
+      height: 672
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2D8A8E"
+    opacity: 0.15
+  - id: text1
+    type: text
+    name: THE TEAM
+    frame:
+      x: 157.42
+      y: 88.55
+      width: 412.27
+      height: 261
+    body:
+      paragraphs:
+        - runs:
+            - text: THE TEAM
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 43.2
+              weight: 800
+              color:
+                kind: rgb
+                value: "#E8573A"
+              letterSpacingPt: -0.864
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text2
+    type: text
+    name: THE TEAM
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 1612.86
+      height: 129.61
+    body:
+      paragraphs:
+        - runs:
+            - text: THE TEAM
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 43.2
+              weight: 800
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+              letterSpacingPt: -0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 153.59
+      y: 237.59
+      width: 288
+      height: 7.67
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2D8A8E"
+  - id: shape7
+    type: shape
+    frame:
+      x: 159.34
+      y: 243.11
+      width: 288
+      height: 7.67
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8573A"
+  - id: shape8
+    type: shape
+    frame:
+      x: 224.63
+      y: 386.13
+      width: 192
+      height: 192
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2D8A8E"
+    opacity: 0.8
+  - id: shape9
+    type: shape
+    frame:
+      x: 218.88
+      y: 380.38
+      width: 192
+      height: 192
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8573A"
+    opacity: 0.315
+  - id: text3
+    type: text
+    name: A.K.
+    frame:
+      x: 255.06
+      y: 425.97
+      width: 133.66
+      height: 102.8
+    body:
+      paragraphs:
+        - runs:
+            - text: A.K.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 33.6
+              weight: 800
+              color:
+                kind: rgb
+                value: "#F5F0E8"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text4
+    type: text
+    name: Alex Kim
+    frame:
+      x: 243.35
+      y: 606.67
+      width: 146.87
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Alex Kim
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 17.28
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E8573A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text5
+    type: text
+    name: Alex Kim
+    frame:
+      x: 241.44
+      y: 604.77
+      width: 146.87
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Alex Kim
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 17.28
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: CEO
+    frame:
+      x: 245.305
+      y: 662
+      width: 139.14
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: CEO
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2D8A8E"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape10
+    type: shape
+    frame:
+      x: 645.13
+      y: 386.13
+      width: 192
+      height: 192
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8573A"
+    opacity: 0.8
+  - id: shape11
+    type: shape
+    frame:
+      x: 648.95
+      y: 380.38
+      width: 192
+      height: 192
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2D8A8E"
+    opacity: 0.315
+  - id: text7
+    type: text
+    name: S.R.
+    frame:
+      x: 690.28
+      y: 425.97
+      width: 133.38
+      height: 102.8
+    body:
+      paragraphs:
+        - runs:
+            - text: S.R.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 33.6
+              weight: 800
+              color:
+                kind: rgb
+                value: "#F5F0E8"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text8
+    type: text
+    name: Sam Rivera
+    frame:
+      x: 648.95
+      y: 606.68
+      width: 188.18
+      height: 105
+    body:
+      paragraphs:
+        - runs:
+            - text: Sam Rivera
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 17.28
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2D8A8E"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text9
+    type: text
+    name: Sam Rivera
+    frame:
+      x: 650.87
+      y: 604.77
+      width: 188.18
+      height: 105
+    body:
+      paragraphs:
+        - runs:
+            - text: Sam Rivera
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 17.28
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: CTO
+    frame:
+      x: 656.335
+      y: 662
+      width: 177.24
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: CTO
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E8573A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape12
+    type: shape
+    frame:
+      x: 1084.8
+      y: 386.13
+      width: 192
+      height: 192
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2D8A8E"
+    opacity: 0.8
+  - id: text11
+    type: text
+    name: J.P.
+    frame:
+      x: 1125.13
+      y: 425.97
+      width: 133.89
+      height: 102.8
+    body:
+      paragraphs:
+        - runs:
+            - text: J.P.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 33.6
+              weight: 800
+              color:
+                kind: rgb
+                value: "#F5F0E8"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text12
+    type: text
+    name: Jordan Park
+    frame:
+      x: 1076.09
+      y: 602.86
+      width: 201.74
+      height: 105
+    body:
+      paragraphs:
+        - runs:
+            - text: Jordan Park
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 17.28
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+    rotationDeg: 0.02
+  - id: text13
+    type: text
+    name: Jordan Park
+    frame:
+      x: 1074.17
+      y: 604.77
+      width: 201.74
+      height: 105
+    body:
+      paragraphs:
+        - runs:
+            - text: Jordan Park
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 17.28
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: VP Design
+    frame:
+      x: 1080.365
+      y: 662
+      width: 189.35
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: VP Design
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2D8A8E"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape13
+    type: shape
+    frame:
+      x: 1512.95
+      y: 386.13
+      width: 192
+      height: 192
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B2A4A"
+    opacity: 0.4
+  - id: shape14
+    type: shape
+    frame:
+      x: 1509.13
+      y: 380.38
+      width: 192
+      height: 192
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8573A"
+    opacity: 0.9
+  - id: text15
+    type: text
+    name: M.T.
+    frame:
+      x: 1546.08
+      y: 425.97
+      width: 154.14
+      height: 102.8
+    body:
+      paragraphs:
+        - runs:
+            - text: M.T.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 33.6
+              weight: 800
+              color:
+                kind: rgb
+                value: "#F5F0E8"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text16
+    type: text
+    name: Morgan Torres
+    frame:
+      x: 1485.78
+      y: 606.68
+      width: 242.53
+      height: 105
+    body:
+      paragraphs:
+        - runs:
+            - text: Morgan Torres
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 17.28
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E8573A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text17
+    type: text
+    name: Morgan Torres
+    frame:
+      x: 1483.86
+      y: 604.77
+      width: 242.53
+      height: 105
+    body:
+      paragraphs:
+        - runs:
+            - text: Morgan Torres
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 17.28
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text18
+    type: text
+    name: VP Sales
+    frame:
+      x: 1491.065
+      y: 662
+      width: 228.11
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: VP Sales
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape15
+    type: shape
+    frame:
+      x: 476.16
+      y: 907.23
+      width: 967.69
+      height: 3.83
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1B2A4A"
+  - id: shape16
+    type: shape
+    frame:
+      x: 478.06
+      y: 911.06
+      width: 967.69
+      height: 3.83
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8573A"
+    opacity: 0.7
+  - id: text19
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 153.59
+      y: 954.73
+      width: 431.37
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text20
+    type: text
+    name: "02"
+    frame:
+      x: 1731.81
+      y: 952.33
+      width: 39.55
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 800
+              color:
+                kind: rgb
+                value: "#E8573A"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text21
+    type: text
+    name: "02"
+    frame:
+      x: 1729.91
+      y: 950.42
+      width: 39.55
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 800
+              color:
+                kind: rgb
+                value: "#1B2A4A"
+          lineHeight: 1.5
+      overflow: visible

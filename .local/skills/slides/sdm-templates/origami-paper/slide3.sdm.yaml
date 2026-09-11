@@ -1,0 +1,434 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FAF8F5"
+elements:
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 97.32
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#3D4F7C"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: METRICS
+    frame:
+      x: 1670.36
+      y: 87.83
+      width: 107.1
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: METRICS
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#C4786E"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Performance Metrics
+    frame:
+      x: 153.59
+      y: 223.19
+      width: 1612.86
+      height: 117.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Performance Metrics
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#3D4F7C"
+              letterSpacingPt: -0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 249.59
+      y: 453.56
+      width: 288
+      height: 288
+    geometry:
+      kind: preset
+      preset: triangle
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0EAE1"
+    rotationDeg: 180
+  - id: shape2
+    type: shape
+    frame:
+      x: 321.59
+      y: 453.56
+      width: 144
+      height: 288
+    geometry:
+      kind: preset
+      preset: triangle
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4786E"
+    rotationDeg: 180
+    opacity: 0.9
+  - id: text4
+    type: text
+    name: Efficiency Gain
+    frame:
+      x: 300.42
+      y: 784.75
+      width: 200.78
+      height: 82.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Efficiency Gain
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#3D4F7C"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Reduction in operational...
+    frame:
+      x: 239.975
+      y: 835.86
+      width: 307.24
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Reduction in operational overhead.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B768B"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape3
+    type: shape
+    frame:
+      x: 749.61
+      y: 425.06
+      width: 344
+      height: 345
+    geometry:
+      kind: preset
+      preset: triangle
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3D4F7C"
+  - id: shape4
+    type: shape
+    frame:
+      x: 835.61
+      y: 425.06
+      width: 172
+      height: 345
+    geometry:
+      kind: preset
+      preset: triangle
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+    opacity: 0.15
+  - id: text6
+    type: text
+    name: Revenue Multiplier
+    frame:
+      x: 807.58
+      y: 784.75
+      width: 251.83
+      height: 82.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Revenue Multiplier
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#3D4F7C"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Year-over-year growth ra...
+    frame:
+      x: 790.19
+      y: 835.86
+      width: 262.84
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: Year-over-year growth rate.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B768B"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape5
+    type: shape
+    frame:
+      x: 1334.59
+      y: 511.36
+      width: 230
+      height: 230
+    geometry:
+      kind: preset
+      preset: triangle
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B3685F"
+    rotationDeg: 90
+  - id: text8
+    type: text
+    name: Retention Rate
+    frame:
+      x: 1358.97
+      y: 784.75
+      width: 200.6
+      height: 82.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Retention Rate
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 500
+              color:
+                kind: rgb
+                value: "#3D4F7C"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Client satisfaction and ...
+    frame:
+      x: 1295.995
+      y: 835.86
+      width: 307.24
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Client satisfaction and renewal metrics.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6B768B"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text10
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 153.59
+      y: 979.84
+      width: 241.85
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8E99AF"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Confidential
+    frame:
+      x: 450.17
+      y: 979.84
+      width: 121.57
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8E99AF"
+              italic: true
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: "03"
+    frame:
+      x: 1744.19
+      y: 979.84
+      width: 24.27
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#3D4F7C"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: 82%
+    frame:
+      x: 315.75
+      y: 465
+      width: 155.69
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: 82%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 24
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FAF8F5"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: 4.5x
+    frame:
+      x: 841.05
+      y: 587.97
+      width: 173.18
+      height: 117.19
+    body:
+      paragraphs:
+        - runs:
+            - text: 4.5x
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 38.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FAF8F5"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: 99%
+    frame:
+      x: 1372.95
+      y: 583.17
+      width: 132.96
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: 99%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 28.8
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FAF8F5"
+          lineHeight: 1.5
+      overflow: visible

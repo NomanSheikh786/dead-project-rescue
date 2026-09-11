@@ -1,0 +1,150 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: text1
+    type: text
+    name: acme.co (by Example Comp...
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 367.46
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "acme.co "
+              color:
+                kind: rgb
+                value: "#666666"
+            - text: (by Example Company)
+              color:
+                kind: rgb
+                value: "#999999"
+          lineHeight: 1.5
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Inter
+            sizePt: 11.52
+            weight: 400
+            letterSpacingPt: -0.115
+      overflow: visible
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1747.91
+      y: 64.8
+      width: 64
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Example Deck
+    frame:
+      x: 467.32
+      y: 356.05
+      width: 985.34
+      height: 170
+    body:
+      paragraphs:
+        - runs:
+            - text: "Example "
+              color:
+                kind: rgb
+                value: "#000000"
+            - text: Deck
+              color:
+                kind: rgb
+                value: "#007AFF"
+          align: center
+          lineHeight: 1.1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Inter
+            sizePt: 76.8
+            weight: 200
+            letterSpacingPt: -3.072
+      overflow: visible
+  - id: text4
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 531.6
+      y: 568.19
+      width: 856.78
+      height: 107.53
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 300
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: -0.192
+          align: center
+          lineHeight: 1.4
+        - runs:
+            - text: Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 300
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: -0.192
+          align: center
+          lineHeight: 1.4
+      overflow: visible
+  - id: text5
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 783.36
+      y: 986.41
+      width: 374.52
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.192
+          lineHeight: 1.5
+      overflow: visible

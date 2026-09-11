@@ -1,0 +1,430 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F4F1EA"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 76.8
+      y: 43.19
+      width: 1766.41
+      height: 993.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D1C7B7"
+      widthPt: 1
+  - id: shape2
+    type: shape
+    frame:
+      x: 606.52
+      y: 45.19
+      width: 1
+      height: 989.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1C7B7"
+  - id: text1
+    type: text
+    name: SECTION 01
+    frame:
+      x: 136.39
+      y: 99.19
+      width: 412.58
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: SECTION 01
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7D7461"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Methodology &
+    frame:
+      x: 136.39
+      y: 146.7
+      width: 463.57
+      height: 128.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Methodology &
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3531"
+          lineHeight: 1.1
+        - runs:
+            - text: Approach
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A5D4E"
+              italic: true
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: Page 02
+    frame:
+      x: 136.39
+      y: 954.89
+      width: 412.58
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Page 02
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7D7461"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: FIG. 2
+    frame:
+      x: 1714.52
+      y: 77.58
+      width: 69.13
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: FIG. 2
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D1C7B7"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Our methodology centers ...
+    frame:
+      x: 703.52
+      y: 196.38
+      width: 1041.72
+      height: 140.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Our methodology centers on rigorous observation and documentation. Each specimen is carefully cataloged, preserving both its physical characteristics and contextual habitat data.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 300
+              color:
+                kind: rgb
+                value: "#5C6661"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 703.52
+      y: 433.17
+      width: 492.03
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1C7B7"
+  - id: text6
+    type: text
+    name: PHASE I
+    frame:
+      x: 703.52
+      y: 399.34
+      width: 492.08
+      height: 34.83
+    body:
+      paragraphs:
+        - runs:
+            - text: PHASE I
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7D7461"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 5.4
+        left: 0
+  - id: text7
+    type: text
+    name: Collection
+    frame:
+      x: 703.52
+      y: 455.77
+      width: 492.08
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Collection
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A5D4E"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Systematic gathering of ...
+    frame:
+      x: 703.52
+      y: 523.8
+      width: 492.08
+      height: 101.39
+    body:
+      paragraphs:
+        - runs:
+            - text: Systematic gathering of primary sources across diverse ecosystems to ensure a comprehensive foundation for our studies.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#5C6661"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1253.14
+      y: 433.17
+      width: 492.05
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1C7B7"
+  - id: text9
+    type: text
+    name: PHASE II
+    frame:
+      x: 1253.14
+      y: 399.34
+      width: 492.1
+      height: 34.83
+    body:
+      paragraphs:
+        - runs:
+            - text: PHASE II
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7D7461"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 5.4
+        left: 0
+  - id: text10
+    type: text
+    name: Analysis
+    frame:
+      x: 1253.14
+      y: 455.77
+      width: 492.1
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Analysis
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A5D4E"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Microscopic and macrosco...
+    frame:
+      x: 1253.14
+      y: 523.8
+      width: 492.1
+      height: 101.39
+    body:
+      paragraphs:
+        - runs:
+            - text: Microscopic and macroscopic examination of structures, documenting patterns and recording variances meticulously.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#5C6661"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 703.52
+      y: 702.21
+      width: 492.03
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1C7B7"
+  - id: text12
+    type: text
+    name: PHASE III
+    frame:
+      x: 703.52
+      y: 668.38
+      width: 492.08
+      height: 34.83
+    body:
+      paragraphs:
+        - runs:
+            - text: PHASE III
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#7D7461"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 5.4
+        left: 0
+  - id: text13
+    type: text
+    name: Synthesis
+    frame:
+      x: 703.52
+      y: 724.8
+      width: 492.08
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Synthesis
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A5D4E"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: Integration of individua...
+    frame:
+      x: 703.52
+      y: 792.83
+      width: 492.08
+      height: 101.39
+    body:
+      paragraphs:
+        - runs:
+            - text: Integration of individual findings into our comprehensive taxonomy database, drawing connections between distinct species.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#5C6661"
+          lineHeight: 1.6
+      overflow: visible

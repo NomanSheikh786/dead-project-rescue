@@ -1,0 +1,308 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: linearGradient
+  angleDeg: 180
+  stops:
+    - offset: 0
+      color:
+        kind: rgb
+        value: "#1A2744"
+    - offset: 1
+      color:
+        kind: rgb
+        value: "#0D1A33"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 8.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#C5A044"
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#E8D08C"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#C5A044"
+  - id: shape2
+    type: shape
+    frame:
+      x: 0
+      y: 1071.38
+      width: 1920
+      height: 8.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#C5A044"
+        - offset: 0.5
+          color:
+            kind: rgb
+            value: "#E8D08C"
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#C5A044"
+  - id: shape3
+    type: shape
+    frame:
+      x: 57.59
+      y: 21.59
+      width: 1804.81
+      height: 1036.81
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#C5A044"
+      widthPt: 0.5
+      opacity: 0.3
+  - id: shape4
+    type: shape
+    frame:
+      x: 134.39
+      y: 75.59
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C5A044"
+  - id: text1
+    type: text
+    name: B
+    frame:
+      x: 134.365
+      y: 75.59
+      width: 57.64
+      height: 57.59
+    body:
+      paragraphs:
+        - runs:
+            - text: B
+              font:
+                kind: family
+                family: Arial
+              sizePt: 17.28
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text2
+    type: text
+    name: EXAMPLE COMPANY
+    frame:
+      x: 211.17
+      y: 85.67
+      width: 273.89
+      height: 76.42
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY
+              font:
+                kind: family
+                family: Arial
+              sizePt: 12.48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.624
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Confidential
+    frame:
+      x: 1670.13
+      y: 89.98
+      width: 123.53
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Confidential
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C5A044"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: STRATEGIC BUSINESS PROPO...
+    frame:
+      x: 134.365
+      y: 405.39
+      width: 1651.27
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: STRATEGIC BUSINESS PROPOSAL
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C5A044"
+              letterSpacingPt: 3.456
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Example Deck
+    frame:
+      x: 134.365
+      y: 461.55
+      width: 1651.27
+      height: 107.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 883.2
+      y: 594.14
+      width: 153.59
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C5A044"
+  - id: text6
+    type: text
+    name: A compelling subtitle fo...
+    frame:
+      x: 479.975
+      y: 623.14
+      width: 960.05
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: A compelling subtitle for your presentation
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text7
+    type: text
+    name: Prepared for the Board o...
+    frame:
+      x: 134.365
+      y: 941.42
+      width: 1651.27
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Prepared for the Board of Directors
+              font:
+                kind: family
+                family: Arial
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text8
+    type: text
+    name: March 2026
+    frame:
+      x: 134.365
+      y: 975.61
+      width: 1651.27
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: March 2026
+              font:
+                kind: family
+                family: Arial
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5

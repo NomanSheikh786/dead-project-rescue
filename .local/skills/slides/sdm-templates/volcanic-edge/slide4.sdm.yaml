@@ -1,0 +1,305 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#080505"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 768
+      y: 432
+      width: 1152
+      height: 648
+    geometry:
+      kind: path
+      viewBox:
+        width: 1152
+        height: 648
+      path: M 1152 0 L 1152 648 L 0 648 Z
+    fill:
+      kind: linearGradient
+      angleDeg: 135
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#E85A3A"
+          opacity: 0
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#E85A3A"
+          opacity: 0.05
+  - id: text1
+    type: text
+    name: ▲ TECTONIC
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 147.22
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ▲ TECTONIC
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#E85A3A"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: INITIATE SEQUENCE
+    frame:
+      x: 804.33
+      y: 269.88
+      width: 311.31
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: INITIATE SEQUENCE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+              letterSpacingPt: 2.88
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text3
+    type: text
+    name: HARNESS THE
+    frame:
+      x: 547.11
+      y: 331.06
+      width: 825.8
+      height: 255.44
+    body:
+      paragraphs:
+        - runs:
+            - text: HARNESS THE
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+          align: center
+          lineHeight: 1.1
+        - runs:
+            - text: ERUPTION
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E85A3A"
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Join us at the epicenter...
+    frame:
+      x: 575.975
+      y: 627.69
+      width: 768.05
+      height: 73.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Join us at the epicenter. Contact our team to begin structural integration.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.7
+    rotationDeg: 0.02
+  - id: text5
+    type: text
+    name: EMAIL
+    frame:
+      x: 713.07
+      y: 787.83
+      width: 59.82
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EMAIL
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+              letterSpacingPt: 0.768
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: text6
+    type: text
+    name: core@tectonic.io
+    frame:
+      x: 632.395
+      y: 821.66
+      width: 221.16
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: core@tectonic.io
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 911.13
+      y: 787.83
+      width: 1
+      height: 43.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0E8E0"
+      opacity: 0.2
+  - id: text7
+    type: text
+    name: COORDINATES
+    frame:
+      x: 1065.47
+      y: 787.83
+      width: 126.33
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: COORDINATES
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+              letterSpacingPt: 0.768
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: text8
+    type: text
+    name: 45.5231° N, 122.6765° W
+    frame:
+      x: 928.64
+      y: 821.66
+      width: 400
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 45.5231° N, 122.6765° W
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 1010.89
+      width: 78.63
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: text10
+    type: text
+    name: "04"
+    frame:
+      x: 1784.09
+      y: 1010.89
+      width: 24.77
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4

@@ -1,0 +1,423 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 1612.8
+      height: 2.16
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1C1C1C"
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 153.59
+      y: 107.98
+      width: 97.6
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1C1C1C"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Next Steps
+    frame:
+      x: 1667.2
+      y: 107.98
+      width: 111.52
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Next Steps
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: "04"
+    frame:
+      x: 153.59
+      y: 378
+      width: 600.33
+      height: 384
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 240
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F5F5F5"
+              letterSpacingPt: -12
+          lineHeight: 0.8
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text4
+    type: text
+    name: DATE
+    frame:
+      x: 153.59
+      y: 942.14
+      width: 124.36
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: DATE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: October 2026
+    frame:
+      x: 153.59
+      y: 967.69
+      width: 131.82
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: October 2026
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: PREPARED BY
+    frame:
+      x: 431.5
+      y: 942.14
+      width: 145.08
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: PREPARED BY
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Strategy Group
+    frame:
+      x: 431.5
+      y: 967.69
+      width: 200
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Strategy Group
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: PAGE
+    frame:
+      x: 1729.11
+      y: 942.14
+      width: 37.3
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: PAGE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: "04"
+    frame:
+      x: 1734.11
+      y: 967.69
+      width: 32.3
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1C1C1C"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Ready to scale.
+    frame:
+      x: 153.59
+      y: 272.03
+      width: 1612.86
+      height: 107.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Ready to scale.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 48
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1C1C1C"
+              letterSpacingPt: -1.44
+          lineHeight: 1.1
+      overflow: visible
+  - id: text11
+    type: text
+    name: We are currently raising...
+    frame:
+      x: 153.59
+      y: 410.02
+      width: 864.05
+      height: 155.53
+    body:
+      paragraphs:
+        - runs:
+            - text: We are currently raising a $15M Series B to accelerate our product roadmap and scale our GTM motion globally. Join us on this journey.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: REACH OUT
+    frame:
+      x: 153.59
+      y: 651.94
+      width: 285.22
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: REACH OUT
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#888888"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: partners@acme.co
+    frame:
+      x: 153.59
+      y: 696.92
+      width: 302.33
+      height: 46.08
+    body:
+      paragraphs:
+        - runs:
+            - text: partners@acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 15.36
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1C1C1C"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: +1 (555) 123-4567
+    frame:
+      x: 153.59
+      y: 753.8
+      width: 285.22
+      height: 39.42
+    body:
+      paragraphs:
+        - runs:
+            - text: +1 (555) 123-4567
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 12.48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: OFFICE
+    frame:
+      x: 630.77
+      y: 651.94
+      width: 295.27
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: OFFICE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#888888"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: 100 Innovation Drive
+    frame:
+      x: 630.77
+      y: 696.92
+      width: 331.77
+      height: 121.77
+    body:
+      paragraphs:
+        - runs:
+            - text: 100 Innovation Drive
+              font:
+                kind: family
+                family: Inter
+              sizePt: 12.48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.6
+        - runs:
+            - text: Suite 400
+              font:
+                kind: family
+                family: Inter
+              sizePt: 12.48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.6
+        - runs:
+            - text: San Francisco, CA 94103
+              font:
+                kind: family
+                family: Inter
+              sizePt: 12.48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A4A4A"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 153.59
+      y: 908.75
+      width: 1612.81
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0E0E0"

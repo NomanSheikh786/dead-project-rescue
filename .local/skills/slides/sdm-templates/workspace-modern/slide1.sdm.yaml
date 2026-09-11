@@ -1,0 +1,191 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F4F4F5"
+elements:
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 92.61
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#18181B"
+              letterSpacingPt: -0.23
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 798.75
+      y: 89.27
+      width: 52.11
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#71717A"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 327.27
+      width: 57.59
+      height: 4.31
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#18181B"
+  - id: text3
+    type: text
+    name: Example
+    frame:
+      x: 115.19
+      y: 363.97
+      width: 729.68
+      height: 264.06
+    body:
+      paragraphs:
+        - runs:
+            - text: Example
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 62.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#18181B"
+              letterSpacingPt: -2.496
+          lineHeight: 1.05
+        - runs:
+            - text: Deck
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 62.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#18181B"
+              letterSpacingPt: -2.496
+          lineHeight: 1.05
+      overflow: visible
+  - id: text4
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 115.19
+      y: 669.22
+      width: 712.37
+      height: 92.16
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 15.36
+              weight: 400
+              color:
+                kind: rgb
+                value: "#52525B"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 115.19
+      y: 967.69
+      width: 729.68
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A1A1AA"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 960
+      y: 0
+      width: 960
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: image
+      assetId: workspace-minimal
+      fit: cover
+  - id: shape3
+    type: shape
+    frame:
+      x: 960
+      y: 0
+      width: 960
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#F4F4F5"
+        - offset: 0.1
+          color:
+            kind: rgb
+            value: "#F4F4F5"
+          opacity: 0
+assets:
+  workspace-minimal:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/workspace-minimal.jpg

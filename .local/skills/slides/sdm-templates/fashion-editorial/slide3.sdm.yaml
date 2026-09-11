@@ -1,0 +1,378 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#000000"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 2
+      height: 162
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF2D78"
+  - id: text1
+    type: text
+    name: The Impact
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 1651.27
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: The Impact
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+          lineHeight: 1
+      overflow: visible
+  - id: text2
+    type: text
+    name: GLOBAL REACH & RESONANCE
+    frame:
+      x: 153.59
+      y: 223.19
+      width: 1651.27
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: GLOBAL REACH & RESONANCE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FF2D78"
+              letterSpacingPt: 3.84
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: 4.2M
+    frame:
+      x: 153.59
+      y: 381.58
+      width: 422.44
+      height: 134.41
+    body:
+      paragraphs:
+        - runs:
+            - text: 4.2M
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 67.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+          lineHeight: 1
+      overflow: visible
+  - id: text4
+    type: text
+    name: ENGAGEMENTS
+    frame:
+      x: 153.59
+      y: 537.58
+      width: 422.44
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ENGAGEMENTS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape2
+    type: shape
+    frame:
+      x: 153.59
+      y: 604.53
+      width: 422.39
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text5
+    type: text
+    name: Across all digital campa...
+    frame:
+      x: 153.59
+      y: 627.13
+      width: 422.44
+      height: 57.28
+    body:
+      paragraphs:
+        - runs:
+            - text: Across all digital campaigns and social channels over the past quarter.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.5
+  - id: text6
+    type: text
+    name: 85%
+    frame:
+      x: 710.41
+      y: 381.58
+      width: 422.44
+      height: 134.41
+    body:
+      paragraphs:
+        - runs:
+            - text: 85%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 67.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+          lineHeight: 1
+      overflow: visible
+  - id: text7
+    type: text
+    name: CONVERSION
+    frame:
+      x: 710.41
+      y: 537.58
+      width: 422.44
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: CONVERSION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape3
+    type: shape
+    frame:
+      x: 710.41
+      y: 604.53
+      width: 422.39
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text8
+    type: text
+    name: Increase in audience-to-...
+    frame:
+      x: 710.41
+      y: 627.13
+      width: 422.44
+      height: 57.28
+    body:
+      paragraphs:
+        - runs:
+            - text: Increase in audience-to-customer pipeline efficiency.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.5
+  - id: text9
+    type: text
+    name: "12"
+    frame:
+      x: 1267.2
+      y: 381.58
+      width: 422.44
+      height: 134.41
+    body:
+      paragraphs:
+        - runs:
+            - text: "12"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 67.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+          lineHeight: 1
+      overflow: visible
+  - id: text10
+    type: text
+    name: NEW MARKETS
+    frame:
+      x: 1267.2
+      y: 537.58
+      width: 422.44
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: NEW MARKETS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape4
+    type: shape
+    frame:
+      x: 1267.2
+      y: 604.53
+      width: 422.39
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text11
+    type: text
+    name: Successfully entered key...
+    frame:
+      x: 1267.2
+      y: 627.13
+      width: 422.44
+      height: 57.28
+    body:
+      paragraphs:
+        - runs:
+            - text: Successfully entered key luxury demographics in EMEA and APAC.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.5
+  - id: text12
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 115.19
+      y: 1013.78
+      width: 544.63
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL © 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text13
+    type: text
+    name: "03"
+    frame:
+      x: 1779.45
+      y: 1013.78
+      width: 28.38
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7

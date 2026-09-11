@@ -1,0 +1,261 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F9F8F6"
+elements:
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 108.47
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1757.39
+      y: 64.8
+      width: 52.47
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: The Art of
+    frame:
+      x: 288
+      y: 216
+      width: 576.05
+      height: 190.09
+    body:
+      paragraphs:
+        - runs:
+            - text: The Art of
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2A29"
+              letterSpacingPt: -0.432
+          lineHeight: 1.1
+        - runs:
+            - text: Simplicity
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2A29"
+              letterSpacingPt: -0.432
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Discover how elegant des...
+    frame:
+      x: 288
+      y: 449.28
+      width: 647.25
+      height: 110.63
+    body:
+      paragraphs:
+        - runs:
+            - text: Discover how elegant design principles can transform complex problems into clear, actionable solutions. Our approach focuses on what matters most.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#555555"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text5
+    type: text
+    name: Refined Process
+    frame:
+      x: 1056
+      y: 355.91
+      width: 576.05
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: Refined Process
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2A29"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: We distill information d...
+    frame:
+      x: 1056
+      y: 424.31
+      width: 576.05
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: We distill information down to its purest form, ensuring that every element serves a distinct purpose and drives understanding.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 1056
+      y: 553.89
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C2A29"
+  - id: text7
+    type: text
+    name: Timeless Execution
+    frame:
+      x: 1056
+      y: 598.08
+      width: 576.05
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: Timeless Execution
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2A29"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: By relying on foundation...
+    frame:
+      x: 1056
+      y: 666.48
+      width: 686.09
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: By relying on foundational aesthetic concepts, we build frameworks that outlast fleeting trends and provide lasting value.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#666666"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 115.19
+      y: 989.28
+      width: 356.8
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: "02"
+    frame:
+      x: 1783.39
+      y: 989.28
+      width: 24.47
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#999999"
+          lineHeight: 1.5
+      overflow: visible

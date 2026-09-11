@@ -1,0 +1,346 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FAF8F5"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 384
+      y: 0
+      width: 0.5
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4CFC8"
+  - id: shape2
+    type: shape
+    frame:
+      x: 1162.53
+      y: 755.5
+      width: 104.88
+      height: 0.5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4CFC8"
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 192
+      y: 86.39
+      width: 1536.05
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0978D"
+              letterSpacingPt: 1.296
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 921.59
+      y: 252.75
+      width: 76.8
+      height: 76.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4CFC8"
+      widthPt: 0.5
+  - id: shape4
+    type: shape
+    frame:
+      x: 945.59
+      y: 276.75
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4BCB2"
+  - id: text2
+    type: text
+    name: Let's create something
+    frame:
+      x: 437.51
+      y: 394.34
+      width: 1044.97
+      height: 190.09
+    body:
+      paragraphs:
+        - runs:
+            - text: Let's create something
+              font:
+                kind: family
+                family: Inter
+              sizePt: 43.2
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+              letterSpacingPt: -0.864
+          align: center
+          lineHeight: 1.1
+        - runs:
+            - text: meaningful together.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 43.2
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+              letterSpacingPt: -0.864
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: Reach out to explore how...
+    frame:
+      x: 623.955
+      y: 616.83
+      width: 672.05
+      height: 82.97
+    body:
+      paragraphs:
+        - runs:
+            - text: Reach out to explore how our intentional approach can elevate your brand and vision.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#8C8478"
+          align: center
+          lineHeight: 1.8
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text4
+    type: text
+    name: EMAIL
+    frame:
+      x: 698.45
+      y: 764.59
+      width: 60.19
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: EMAIL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0978D"
+              letterSpacingPt: 1.344
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text5
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 648.03
+      y: 795.55
+      width: 161.02
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: OFFICE
+    frame:
+      x: 949.59
+      y: 764.59
+      width: 67.83
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: OFFICE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0978D"
+              letterSpacingPt: 1.344
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text7
+    type: text
+    name: Kyoto, Japan
+    frame:
+      x: 911.74
+      y: 795.55
+      width: 143.55
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Kyoto, Japan
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: SOCIAL
+    frame:
+      x: 1180.31
+      y: 764.59
+      width: 69.3
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: SOCIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0978D"
+              letterSpacingPt: 1.344
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: "@acme.co"
+    frame:
+      x: 1162.525
+      y: 795.55
+      width: 104.88
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: "@acme.co"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 192
+      y: 970.58
+      width: 281.22
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4BCB2"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: "04"
+    frame:
+      x: 1702.48
+      y: 967.69
+      width: 28.57
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0978D"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible

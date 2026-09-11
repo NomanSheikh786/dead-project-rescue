@@ -1,0 +1,343 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F0E8"
+elements:
+  - id: text1
+    type: text
+    name: EXAMPLE COMPANY
+    frame:
+      x: 76.8
+      y: 54
+      width: 201.8
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2C2520"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text2
+    type: text
+    name: MARKET INSIGHTS
+    frame:
+      x: 1667.08
+      y: 54
+      width: 186.75
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: MARKET INSIGHTS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#2C2520"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text3
+    type: text
+    name: Sustainable Materials
+    frame:
+      x: 268.8
+      y: 318.44
+      width: 1382.46
+      height: 86.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Sustainable Materials
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2520"
+              letterSpacingPt: -0.384
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 268.8
+      y: 424.5
+      width: 76.8
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C47D5A"
+  - id: text4
+    type: text
+    name: 75%
+    frame:
+      x: 268.8
+      y: 512.89
+      width: 409.64
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: 75%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C47D5A"
+          lineHeight: 1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 268.8
+      y: 649.69
+      width: 409.59
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C2520"
+      opacity: 0.2
+  - id: text5
+    type: text
+    name: Of our materials are eth...
+    frame:
+      x: 268.8
+      y: 649.69
+      width: 409.64
+      height: 114.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Of our materials are ethically sourced from certified sustainable forests and recycled sources.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2520"
+          lineHeight: 1.6
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 0
+        bottom: 0
+        left: 0
+    opacity: 0.8
+  - id: text6
+    type: text
+    name: 40%
+    frame:
+      x: 755.19
+      y: 512.89
+      width: 409.66
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: 40%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C47D5A"
+          lineHeight: 1
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 755.19
+      y: 649.69
+      width: 409.61
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C2520"
+      opacity: 0.2
+  - id: text7
+    type: text
+    name: Reduction in carbon foot...
+    frame:
+      x: 755.19
+      y: 649.69
+      width: 487.91
+      height: 84.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Reduction in carbon footprint across our entire supply chain over the last three years.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2520"
+          lineHeight: 1.6
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 0
+        bottom: 0
+        left: 0
+    opacity: 0.8
+  - id: text8
+    type: text
+    name: 10k
+    frame:
+      x: 1241.59
+      y: 512.89
+      width: 409.66
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: 10k
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C47D5A"
+          lineHeight: 1
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1241.59
+      y: 649.69
+      width: 409.61
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C2520"
+      opacity: 0.2
+  - id: text9
+    type: text
+    name: Trees planted annually t...
+    frame:
+      x: 1241.59
+      y: 649.69
+      width: 409.66
+      height: 114.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Trees planted annually through our partnership with global reforestation initiatives.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2520"
+          lineHeight: 1.6
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 0
+        bottom: 0
+        left: 0
+    opacity: 0.8
+  - id: text10
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 76.8
+      y: 1005.84
+      width: 349.04
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2520"
+              letterSpacingPt: 0.672
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text11
+    type: text
+    name: "03"
+    frame:
+      x: 1823.73
+      y: 1005.84
+      width: 22.52
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C2520"
+              letterSpacingPt: 0.672
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5

@@ -1,0 +1,305 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F0F2F5"
+elements:
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 95.83
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#1A1A2E"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: 2026 / Confidential
+    frame:
+      x: 1595.55
+      y: 64.8
+      width: 249.3
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 2026 / Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: "02"
+    frame:
+      x: 1776.23
+      y: 980.64
+      width: 31.63
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Strategic Approach
+    frame:
+      x: 115.19
+      y: 194.39
+      width: 1689.68
+      height: 117.19
+    body:
+      paragraphs:
+        - runs:
+            - text: Strategic Approach
+              font:
+                kind: family
+                family: Inter
+              sizePt: 38.4
+              weight: 800
+              color:
+                kind: rgb
+                value: "#1A1A2E"
+              letterSpacingPt: -1.536
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Our methodology ensures ...
+    frame:
+      x: 115.19
+      y: 331.17
+      width: 1152.05
+      height: 82.63
+    body:
+      paragraphs:
+        - runs:
+            - text: Our methodology ensures comprehensive coverage from initial concept to final execution, delivering sustained value.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5A5A6E"
+          lineHeight: 1.4
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 450
+      width: 512
+      height: 360
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 28.8
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0E7ED"
+  - id: text6
+    type: text
+    name: Research Phase
+    frame:
+      x: 115.19
+      y: 842.4
+      width: 512.05
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: Research Phase
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A2E"
+              letterSpacingPt: -0.384
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Gathering insights from ...
+    frame:
+      x: 115.19
+      y: 916.2
+      width: 512.05
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Gathering insights from market data.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5A5A6E"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 703.98
+      y: 450
+      width: 512.02
+      height: 360
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 28.8
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E1EDE4"
+  - id: text8
+    type: text
+    name: Development
+    frame:
+      x: 703.98
+      y: 842.4
+      width: 512.07
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: Development
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A2E"
+              letterSpacingPt: -0.384
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Building the core infras...
+    frame:
+      x: 703.98
+      y: 916.2
+      width: 512.07
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Building the core infrastructure.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5A5A6E"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 1292.8
+      y: 450
+      width: 512.02
+      height: 360
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 28.8
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0E4D8"
+  - id: text10
+    type: text
+    name: Launch
+    frame:
+      x: 1292.8
+      y: 842.4
+      width: 512.07
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: Launch
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A1A2E"
+              letterSpacingPt: -0.384
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Executing the go-to-mark...
+    frame:
+      x: 1292.8
+      y: 916.2
+      width: 512.07
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Executing the go-to-market strategy.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#5A5A6E"
+          lineHeight: 1.5
+      overflow: visible

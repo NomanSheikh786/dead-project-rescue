@@ -1,0 +1,240 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#08080C"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: electric-car
+    altText: Electric Car
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 594
+      width: 1920
+      height: 486
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#08080C"
+          opacity: 0.92
+  - id: shape3
+    type: shape
+    frame:
+      x: 103
+      y: 596
+      width: 660
+      height: 48
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#08080C"
+      opacity: 0.5
+  - id: text1
+    type: text
+    name: PERFORMANCE SERIES
+    frame:
+      x: 115.19
+      y: 603.84
+      width: 372.74
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: PERFORMANCE SERIES
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A8B4"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: /
+    frame:
+      x: 475.67
+      y: 603.84
+      width: 18.49
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: /
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A90D9"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: 0–60 IN 2.8s
+    frame:
+      x: 522.91
+      y: 603.84
+      width: 221.18
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: 0–60 IN 2.8s
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A8B4"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Example Deck
+    frame:
+      x: 115.19
+      y: 660
+      width: 960.05
+      height: 128.72
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -1.152
+          lineHeight: 1.1
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape2
+    type: shape
+    frame:
+      x: 115.19
+      y: 819.11
+      width: 153.59
+      height: 2.16
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#4A90D9"
+  - id: text5
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 115.19
+      y: 853.66
+      width: 960.05
+      height: 98.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A8B4"
+          lineHeight: 1.4
+      overflow: visible
+  - id: text6
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 1008.02
+      width: 94.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A8B4"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 1620.58
+      y: 1008.02
+      width: 195.34
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A8B4"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  electric-car:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/electric-car.png

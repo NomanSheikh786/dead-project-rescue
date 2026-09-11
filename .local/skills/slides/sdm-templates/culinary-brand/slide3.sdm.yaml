@@ -1,0 +1,322 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0F0C0A"
+elements:
+  - id: text1
+    type: text
+    name: BY THE NUMBERS
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 218.21
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: BY THE NUMBERS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.16
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8A07A"
+              letterSpacingPt: 2.04
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 386.14
+      y: 98.13
+      width: 1380.27
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8A07A"
+      opacity: 0.3
+  - id: text2
+    type: text
+    name: "12"
+    frame:
+      x: 316.67
+      y: 393.86
+      width: 153.85
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: "12"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 364.8
+      y: 530.66
+      width: 57.59
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87333"
+  - id: text3
+    type: text
+    name: MICHELIN STARS
+    frame:
+      x: 283.91
+      y: 564.05
+      width: 219.36
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: MICHELIN STARS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8A07A"
+              letterSpacingPt: 1.056
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 676.3
+      y: 415.45
+      width: 1
+      height: 270
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8A07A"
+      opacity: 0.2
+  - id: text4
+    type: text
+    name: 85%
+    frame:
+      x: 855.25
+      y: 393.86
+      width: 209.5
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: "85"
+              sizePt: 57.6
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+            - text: "%"
+              sizePt: 28.8
+              color:
+                kind: rgb
+                value: "#B87333"
+          align: center
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            weight: 400
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 931.2
+      y: 530.66
+      width: 57.59
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87333"
+  - id: text5
+    type: text
+    name: LOCAL SOURCING
+    frame:
+      x: 850.32
+      y: 564.05
+      width: 219.36
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: LOCAL SOURCING
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8A07A"
+              letterSpacingPt: 1.056
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 1242.7
+      y: 415.45
+      width: 1
+      height: 270
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8A07A"
+      opacity: 0.2
+  - id: text6
+    type: text
+    name: "24"
+    frame:
+      x: 1449.34
+      y: 393.86
+      width: 154.13
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: "24"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DA"
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: shape6
+    type: shape
+    frame:
+      x: 1497.61
+      y: 530.66
+      width: 57.59
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87333"
+  - id: text7
+    type: text
+    name: SEASONAL MENUS
+    frame:
+      x: 1410.14
+      y: 564.05
+      width: 232.52
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: SEASONAL MENUS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8A07A"
+              letterSpacingPt: 1.056
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: CHEF'S TABLE
+    frame:
+      x: 153.59
+      y: 967.69
+      width: 164.8
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: CHEF'S TABLE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8A07A"
+              letterSpacingPt: 1.296
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text9
+    type: text
+    name: "03"
+    frame:
+      x: 1740.5
+      y: 967.69
+      width: 29.96
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8A07A"
+              letterSpacingPt: 1.296
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8

@@ -1,0 +1,629 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#05050F"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 60.64
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#6A8AAA"
+          opacity: 0.1
+        - offset: 0.7
+          color:
+            kind: rgb
+            value: "#05050F"
+  - id: text1
+    type: text
+    name: FLIGHT DYNAMICS
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 434.05
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: FLIGHT DYNAMICS
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#6A8AAA"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Velocity Profiles
+    frame:
+      x: 115.19
+      y: 133.91
+      width: 516.96
+      height: 65.34
+    body:
+      paragraphs:
+        - runs:
+            - text: Velocity Profiles
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 28.8
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E0E8F0"
+              letterSpacingPt: -0.48
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 1756.81
+      y: 86.39
+      width: 48
+      height: 48
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#6A8AAA"
+      widthPt: 0.5
+  - id: shape3
+    type: shape
+    frame:
+      x: 1776.02
+      y: 105.59
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0E8F0"
+  - id: shape4
+    type: shape
+    frame:
+      x: 412.83
+      y: 817.63
+      width: 537.55
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#6A8AAA"
+      opacity: 0.3
+  - id: text3
+    type: text
+    name: 35%
+    frame:
+      x: 433.95
+      y: 576.83
+      width: 45.6
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 35%
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6A8AAA"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: shape5
+    type: shape
+    frame:
+      x: 412.83
+      y: 627.22
+      width: 76.8
+      height: 113.39
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 3.84
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#6A8AAA"
+      opacity: 0.4
+  - id: text4
+    type: text
+    name: T+10
+    frame:
+      x: 430.88
+      y: 773
+      width: 44.75
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: T+10
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6A8AAA"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: 60%
+    frame:
+      x: 549.14
+      y: 495.83
+      width: 45.6
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 60%
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6A8AAA"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: shape6
+    type: shape
+    frame:
+      x: 528.02
+      y: 546.22
+      width: 76.8
+      height: 194.39
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 3.84
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#6A8AAA"
+      opacity: 0.6
+  - id: text6
+    type: text
+    name: T+20
+    frame:
+      x: 546.06
+      y: 773
+      width: 44.75
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: T+20
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6A8AAA"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: 45%
+    frame:
+      x: 664.33
+      y: 544.42
+      width: 45.6
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 45%
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6A8AAA"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: shape7
+    type: shape
+    frame:
+      x: 643.2
+      y: 594.81
+      width: 76.8
+      height: 145.8
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 3.84
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#6A8AAA"
+      opacity: 0.8
+  - id: text8
+    type: text
+    name: T+30
+    frame:
+      x: 661.25
+      y: 773
+      width: 44.75
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: T+30
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6A8AAA"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: 90%
+    frame:
+      x: 779.52
+      y: 398.63
+      width: 45.6
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 90%
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0E8F0"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 758.39
+      y: 449.02
+      width: 76.8
+      height: 291.59
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 3.84
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E0E8F0"
+  - id: text10
+    type: text
+    name: T+40
+    frame:
+      x: 776.44
+      y: 773
+      width: 44.75
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: T+40
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6A8AAA"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: 75%
+    frame:
+      x: 894.7
+      y: 447.22
+      width: 45.6
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 75%
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6A8AAA"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: shape9
+    type: shape
+    frame:
+      x: 873.58
+      y: 497.61
+      width: 76.8
+      height: 243
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 3.84
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#6A8AAA"
+      opacity: 0.8
+  - id: text12
+    type: text
+    name: T+50
+    frame:
+      x: 891.63
+      y: 773
+      width: 44.75
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: T+50
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6A8AAA"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: 90%
+    frame:
+      x: 1027.17
+      y: 449.16
+      width: 480.05
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "90"
+              sizePt: 28.8
+              color:
+                kind: rgb
+                value: "#E0E8F0"
+            - text: "%"
+              sizePt: 14.4
+              color:
+                kind: rgb
+                value: "#6A8AAA"
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: DM Mono
+            weight: 400
+      overflow: visible
+  - id: text14
+    type: text
+    name: Peak efficiency reached ...
+    frame:
+      x: 1027.17
+      y: 512.14
+      width: 480.05
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Peak efficiency reached at T+40 interval during primary burn sequence.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0E8F0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape10
+    type: shape
+    frame:
+      x: 1027.17
+      y: 602.13
+      width: 480
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#6A8AAA"
+      opacity: 0.3
+  - id: text15
+    type: text
+    name: 11.2KM/S
+    frame:
+      x: 1027.17
+      y: 635.52
+      width: 480.05
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "11.2"
+              sizePt: 28.8
+              color:
+                kind: rgb
+                value: "#E0E8F0"
+            - text: KM/S
+              sizePt: 14.4
+              color:
+                kind: rgb
+                value: "#6A8AAA"
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: DM Mono
+            weight: 400
+      overflow: visible
+  - id: text16
+    type: text
+    name: Escape velocity confirme...
+    frame:
+      x: 1027.17
+      y: 698.5
+      width: 480.05
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Escape velocity confirmed, trajectory locked for trans-lunar injection.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0E8F0"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text17
+    type: text
+    name: "DATA: TELEMETRY_V2"
+    frame:
+      x: 115.19
+      y: 970.58
+      width: 205.86
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "DATA: TELEMETRY_V2"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#6A8AAA"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text18
+    type: text
+    name: AD ASTRA
+    frame:
+      x: 1639
+      y: 964.81
+      width: 104.44
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: AD ASTRA
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E0E8F0"
+              italic: true
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text19
+    type: text
+    name: "03"
+    frame:
+      x: 1781.78
+      y: 964.81
+      width: 27.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#E0E8F0"
+          lineHeight: 1.5
+      overflow: visible

@@ -1,0 +1,703 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#EBE3D5"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 60.64
+      stops:
+        - offset: 0.4
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#8B7355"
+          opacity: 0.1
+  - id: shape2
+    type: shape
+    frame:
+      x: 57.59
+      y: 57.59
+      width: 1804.81
+      height: 964.81
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 7.5
+  - id: shape3
+    type: shape
+    frame:
+      x: 87.95
+      y: 87.95
+      width: 1744.09
+      height: 904.09
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 1.5
+  - id: shape4
+    type: shape
+    frame:
+      x: 90.95
+      y: 239.73
+      width: 1738.09
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: text1
+    type: text
+    name: SECTION I
+    frame:
+      x: 167.75
+      y: 148.06
+      width: 167.91
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: SECTION I
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: The Core Philosophy
+    frame:
+      x: 747.03
+      y: 129.34
+      width: 463.52
+      height: 145
+    body:
+      paragraphs:
+        - runs:
+            - text: The Core Philosophy
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 24
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: ACME.CO
+    frame:
+      x: 1612.17
+      y: 148.06
+      width: 148.54
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 129.34
+      y: 281.13
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 0.5
+  - id: shape6
+    type: shape
+    frame:
+      x: 138.94
+      y: 290.72
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: shape7
+    type: shape
+    frame:
+      x: 1761.86
+      y: 281.13
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 0.5
+  - id: shape8
+    type: shape
+    frame:
+      x: 1771.45
+      y: 290.72
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: shape9
+    type: shape
+    frame:
+      x: 129.34
+      y: 957.88
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 0.5
+  - id: shape10
+    type: shape
+    frame:
+      x: 138.94
+      y: 967.47
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: shape11
+    type: shape
+    frame:
+      x: 1761.86
+      y: 957.88
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 0.5
+  - id: shape12
+    type: shape
+    frame:
+      x: 1771.45
+      y: 967.47
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: shape13
+    type: shape
+    frame:
+      x: 167.75
+      y: 319.53
+      width: 554.56
+      height: 628.73
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      opacity: 0.03
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 1
+      dash: dash
+  - id: shape14
+    type: shape
+    frame:
+      x: 406.52
+      y: 463.99
+      width: 77
+      height: 77
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 1.5
+    rotationDeg: 45
+  - id: shape15
+    type: shape
+    frame:
+      x: 409.52
+      y: 477.84
+      width: 71
+      height: 71
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 0.5
+    rotationDeg: 45
+  - id: text4
+    type: text
+    name: Time-Honored
+    frame:
+      x: 272.66
+      y: 598.48
+      width: 344.75
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: Time-Honored
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              italic: true
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape16
+    type: shape
+    frame:
+      x: 349.03
+      y: 708.86
+      width: 192
+      height: 1.91
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: text5
+    type: text
+    name: Rooted in traditions of ...
+    frame:
+      x: 208.115
+      y: 729.95
+      width: 473.83
+      height: 73.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Rooted in traditions of excellence, crafted with utmost precision.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+  - id: text6
+    type: text
+    name: A Commitment to Uncompro...
+    frame:
+      x: 799.11
+      y: 319.53
+      width: 953.19
+      height: 149.84
+    body:
+      paragraphs:
+        - runs:
+            - text: A Commitment to Uncompromising Quality
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 33.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+          lineHeight: 1.1
+      overflow: visible
+  - id: text7
+    type: text
+    name: "01."
+    frame:
+      x: 799.11
+      y: 505.77
+      width: 64.85
+      height: 121.91
+    body:
+      paragraphs:
+        - runs:
+            - text: "01."
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: FINEST INGREDIENTS
+    frame:
+      x: 876.7
+      y: 505.77
+      width: 875.6
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: FINEST INGREDIENTS
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 0.72
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: We source only the rares...
+    frame:
+      x: 876.7
+      y: 558.55
+      width: 875.6
+      height: 69.13
+    body:
+      paragraphs:
+        - runs:
+            - text: We source only the rarest and most potent materials from across the globe, ensuring every element meets our rigorous standards.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A5D4E"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: "02."
+    frame:
+      x: 799.11
+      y: 666.06
+      width: 65.14
+      height: 121.91
+    body:
+      paragraphs:
+        - runs:
+            - text: "02."
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: METICULOUS PROCESS
+    frame:
+      x: 883
+      y: 666.06
+      width: 869.3
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: METICULOUS PROCESS
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 0.72
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Our artisans employ time...
+    frame:
+      x: 883
+      y: 718.84
+      width: 869.3
+      height: 69.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Our artisans employ time-tested methods, refusing to rush perfection. Every step is monitored with unwavering attention to detail.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A5D4E"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: "03."
+    frame:
+      x: 799.11
+      y: 826.36
+      width: 64.97
+      height: 121.91
+    body:
+      paragraphs:
+        - runs:
+            - text: "03."
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: ENDURING LEGACY
+    frame:
+      x: 881.83
+      y: 826.36
+      width: 870.47
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: ENDURING LEGACY
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 14.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 0.72
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: Building a foundation th...
+    frame:
+      x: 881.83
+      y: 879.14
+      width: 870.47
+      height: 69.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Building a foundation that will last for generations, creating products designed not just for today, but for tomorrow.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A5D4E"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape17
+    type: shape
+    frame:
+      x: 90.95
+      y: 1025.06
+      width: 1738.09
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: text16
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 129.34
+      y: 1028.06
+      width: 195.79
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape18
+    type: shape
+    frame:
+      x: 1694.53
+      y: 1028.06
+      width: 3
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: text17
+    type: text
+    name: Pg. 02
+    frame:
+      x: 1735.92
+      y: 1028.06
+      width: 65.24
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Pg. 02
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02

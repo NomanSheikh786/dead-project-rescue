@@ -1,0 +1,643 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#1A251D"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 138.24
+      width: 1689.63
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      opacity: 0.3
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 135.03
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: OUR IMPACT
+    frame:
+      x: 1651.08
+      y: 64.8
+      width: 172.79
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: OUR IMPACT
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Growth Trajectory
+    frame:
+      x: 500.83
+      y: 183.42
+      width: 918.33
+      height: 95.05
+    body:
+      paragraphs:
+        - runs:
+            - text: Growth Trajectory
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 43.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+              letterSpacingPt: 0.96
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 576.03
+      y: 772.15
+      width: 960
+      height: 3
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 1.5
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      opacity: 0.6
+    rotationDeg: 0.5
+  - id: shape3
+    type: shape
+    frame:
+      x: 576.15
+      y: 289.27
+      width: 3
+      height: 486
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 1.5
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      opacity: 0.6
+    rotationDeg: -1
+  - id: text4
+    type: text
+    name: 24k
+    frame:
+      x: 651.41
+      y: 613
+      width: 53.25
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: 24k
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: shape7
+    type: shape
+    frame:
+      x: 614.42
+      y: 661
+      width: 115.19
+      height: 3
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 1.5
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      opacity: 0.1
+  - id: shape4
+    type: shape
+    frame:
+      x: 614.42
+      y: 661
+      width: 115.19
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      opacity: 0.8
+  - id: shape5
+    type: shape
+    frame:
+      x: 726.61
+      y: 661
+      width: 3
+      height: 111
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      opacity: 0.8
+  - id: shape6
+    type: shape
+    frame:
+      x: 614.42
+      y: 661
+      width: 3
+      height: 111
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      opacity: 0.8
+  - id: text5
+    type: text
+    name: Q1
+    frame:
+      x: 657.38
+      y: 740.7
+      width: 36.33
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Q1
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: 38k
+    frame:
+      x: 843.25
+      y: 549
+      width: 52.55
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: 38k
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: shape11
+    type: shape
+    frame:
+      x: 806.41
+      y: 597
+      width: 115.19
+      height: 3
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 1.5
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      opacity: 0.1
+  - id: shape8
+    type: shape
+    frame:
+      x: 806.41
+      y: 597
+      width: 115.19
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      opacity: 0.8
+  - id: shape9
+    type: shape
+    frame:
+      x: 918.6
+      y: 597
+      width: 3
+      height: 175
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      opacity: 0.8
+  - id: shape10
+    type: shape
+    frame:
+      x: 806.41
+      y: 597
+      width: 3
+      height: 175
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      opacity: 0.8
+  - id: text7
+    type: text
+    name: Q2
+    frame:
+      x: 846.44
+      y: 740.7
+      width: 35.18
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Q2
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: 52k
+    frame:
+      x: 1036.13
+      y: 484
+      width: 52.75
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: 52k
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: shape15
+    type: shape
+    frame:
+      x: 998.39
+      y: 532
+      width: 115.19
+      height: 3
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 1.5
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      opacity: 0.1
+  - id: shape12
+    type: shape
+    frame:
+      x: 998.39
+      y: 532
+      width: 115.19
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      opacity: 0.8
+  - id: shape13
+    type: shape
+    frame:
+      x: 1110.58
+      y: 532
+      width: 3
+      height: 240
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      opacity: 0.8
+  - id: shape14
+    type: shape
+    frame:
+      x: 998.39
+      y: 532
+      width: 3
+      height: 240
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      opacity: 0.8
+  - id: text9
+    type: text
+    name: Q3
+    frame:
+      x: 1038.2
+      y: 740.7
+      width: 35.61
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Q3
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: 89k
+    frame:
+      x: 1226.84
+      y: 314
+      width: 53.3
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: 89k
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: shape19
+    type: shape
+    frame:
+      x: 1190.38
+      y: 362
+      width: 115.19
+      height: 3
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 1.5
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      opacity: 0.1
+  - id: shape16
+    type: shape
+    frame:
+      x: 1190.38
+      y: 362
+      width: 115.19
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      opacity: 0.8
+  - id: shape17
+    type: shape
+    frame:
+      x: 1302.57
+      y: 362
+      width: 3
+      height: 410
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      opacity: 0.8
+  - id: shape18
+    type: shape
+    frame:
+      x: 1190.38
+      y: 362
+      width: 3
+      height: 410
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      opacity: 0.8
+  - id: text11
+    type: text
+    name: Q4
+    frame:
+      x: 1229.88
+      y: 740.7
+      width: 36.24
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: Q4
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape20
+    type: shape
+    frame:
+      x: 115.19
+      y: 957.05
+      width: 1689.63
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      opacity: 0.3
+  - id: text12
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 115.19
+      y: 980.64
+      width: 252.03
+      height: 71
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: "03"
+    frame:
+      x: 1772.41
+      y: 986.41
+      width: 35.46
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7

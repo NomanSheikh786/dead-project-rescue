@@ -1,0 +1,476 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F0E6"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: -192
+      y: 216
+      width: 864
+      height: 648
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5B8FB9"
+    rotationDeg: -15
+    opacity: 0.85
+  - id: shape2
+    type: shape
+    frame:
+      x: 960
+      y: 354
+      width: 672
+      height: 672
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 96
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#DAC070"
+    rotationDeg: 25
+    opacity: 0.85
+  - id: shape3
+    type: shape
+    frame:
+      x: 1440
+      y: 108
+      width: 384
+      height: 384
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8A0BF"
+    opacity: 0.85
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 115.19
+      y: 66.8
+      width: 121.39
+      height: 36
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 900
+              color:
+                kind: rgb
+                value: "#1A3636"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: BY EXAMPLE COMPANY
+    frame:
+      x: 255.72
+      y: 66.8
+      width: 304.4
+      height: 71
+    body:
+      paragraphs:
+        - runs:
+            - text: BY EXAMPLE COMPANY
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A3636"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: shape4
+    type: shape
+    frame:
+      x: 1717.33
+      y: 64.8
+      width: 87.48
+      height: 39.58
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.79
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A3636"
+  - id: text3
+    type: text
+    name: "04"
+    frame:
+      x: 1717.33
+      y: 64.8
+      width: 87.53
+      height: 41.58
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F5F0E6"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 2.7
+        right: 14.4
+        bottom: 2.7
+        left: 14.4
+  - id: text4
+    type: text
+    name: LET'S TALK.
+    frame:
+      x: 408.79
+      y: 205.91
+      width: 1087.1
+      height: 382.08
+    body:
+      paragraphs:
+        - runs:
+            - text: LET'S TALK.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 105.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#E8A0BF"
+              letterSpacingPt: -4.224
+          align: center
+          lineHeight: 0.9
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text5
+    type: text
+    name: LET'S TALK.
+    frame:
+      x: 421.25
+      y: 216.69
+      width: 1087.1
+      height: 380.16
+    body:
+      paragraphs:
+        - runs:
+            - text: LET'S TALK.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 105.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#DAC070"
+              letterSpacingPt: -4.224
+          align: center
+          lineHeight: 0.9
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text6
+    type: text
+    name: LET'S TALK.
+    frame:
+      x: 416.46
+      y: 212.38
+      width: 1087.1
+      height: 382.08
+    body:
+      paragraphs:
+        - runs:
+            - text: LET'S TALK.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 105.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#1A3636"
+              letterSpacingPt: -4.224
+          align: center
+          lineHeight: 0.9
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 665.19
+      y: 508.18
+      width: 628
+      height: 407
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A3636"
+    rotationDeg: -2
+  - id: shape6
+    type: shape
+    frame:
+      x: 645.99
+      y: 488.98
+      width: 628
+      height: 407
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F5F0E6"
+    stroke:
+      color:
+        kind: rgb
+        value: "#1A3636"
+      widthPt: 3.5
+    rotationDeg: -2
+  - id: text7
+    type: text
+    name: READY TO START?
+    frame:
+      x: 748.69
+      y: 539.1
+      width: 414.4
+      height: 145
+    body:
+      paragraphs:
+        - runs:
+            - text: READY TO START?
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 24
+              weight: 900
+              color:
+                kind: rgb
+                value: "#1A3636"
+              letterSpacingPt: -0.48
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -2
+  - id: text8
+    type: text
+    name: hello@example.com
+    frame:
+      x: 767.135
+      y: 632.74
+      width: 383.05
+      height: 45
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@example.com
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A3636"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -2
+  - id: text9
+    type: text
+    name: +1 (555) 123-4567
+    frame:
+      x: 769.015
+      y: 686.69
+      width: 383.05
+      height: 45
+    body:
+      paragraphs:
+        - runs:
+            - text: +1 (555) 123-4567
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 14.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1A3636"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -2
+  - id: shape7
+    type: shape
+    frame:
+      x: 799.57
+      y: 772.88
+      width: 329
+      height: 73
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 36.5
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A3636"
+    stroke:
+      color:
+        kind: rgb
+        value: "#1A3636"
+      widthPt: 1.5
+    rotationDeg: -2
+  - id: text10
+    type: text
+    name: VISIT WEBSITE >
+    frame:
+      x: 799.545
+      y: 772.88
+      width: 329.05
+      height: 103
+    body:
+      paragraphs:
+        - runs:
+            - text: VISIT WEBSITE >
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F5F0E6"
+              letterSpacingPt: 0.96
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+    rotationDeg: -2
+  - id: shape8
+    type: shape
+    frame:
+      x: 115.19
+      y: 919.2
+      width: 96
+      height: 96
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A3636"
+  - id: text11
+    type: text
+    name: a.
+    frame:
+      x: 115.165
+      y: 919.2
+      width: 96.05
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: a.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 19.2
+              weight: 900
+              color:
+                kind: rgb
+                value: "#F5F0E6"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+  - id: text12
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 1523.04
+      y: 950.67
+      width: 281.77
+      height: 32.27
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A3636"
+          align: right
+          lineHeight: 1.4
+      overflow: visible
+    opacity: 0.8
+  - id: text13
+    type: text
+    name: EXAMPLE COMPANY, INC.
+    frame:
+      x: 1514.58
+      y: 982.94
+      width: 290.23
+      height: 66.27
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A3636"
+          align: right
+          lineHeight: 1.4
+      overflow: visible
+    opacity: 0.8

@@ -1,0 +1,201 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#2D3436"
+elements:
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 96.78
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E2D5"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1711.13
+      y: 86.39
+      width: 62.33
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E2D5"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: LESSON 01
+    frame:
+      x: 153.77
+      y: 265.72
+      width: 213.26
+      height: 88
+    body:
+      paragraphs:
+        - runs:
+            - text: LESSON 01
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E2D5"
+              letterSpacingPt: 2.88
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -1
+    opacity: 0.9
+  - id: text4
+    type: text
+    name: Example Deck
+    frame:
+      x: 153.56
+      y: 330.3
+      width: 1116.05
+      height: 173
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 86.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E8E2D5"
+              letterSpacingPt: -1.728
+          lineHeight: 1
+      overflow: visible
+    rotationDeg: 0.5
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.46
+      y: 524.95
+      width: 1172
+      height: 4
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8E2D5"
+    rotationDeg: -1
+    opacity: 0.8
+  - id: text5
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 153.59
+      y: 594.03
+      width: 1335.56
+      height: 120
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 21.12
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E2D5"
+          lineHeight: 1.4
+      overflow: visible
+    rotationDeg: 0.2
+    opacity: 0.85
+  - id: shape3
+    type: shape
+    frame:
+      x: 0
+      y: 1026
+      width: 1920
+      height: 10.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#222728"
+  - id: shape2
+    type: shape
+    frame:
+      x: 0
+      y: 1026
+      width: 1920
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3F484B"
+  - id: text6
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 153.5
+      y: 964.71
+      width: 1613.05
+      height: 29
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E2D5"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -0.5
+    opacity: 0.6

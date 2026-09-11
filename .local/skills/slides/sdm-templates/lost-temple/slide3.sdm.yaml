@@ -1,0 +1,378 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0C0A08"
+elements:
+  - id: text1
+    type: text
+    name: EVIDENCE
+    frame:
+      x: 153.59
+      y: 110.88
+      width: 117.64
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EVIDENCE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8965A"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 292.98
+      y: 121.89
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8965A"
+    opacity: 0.6
+  - id: text2
+    type: text
+    name: Treasures Unearthed
+    frame:
+      x: 398.58
+      y: 86.39
+      width: 540.14
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: Treasures Unearthed
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D8C4"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: "482"
+    frame:
+      x: 278.29
+      y: 467.25
+      width: 307.38
+      height: 155.59
+    body:
+      paragraphs:
+        - runs:
+            - text: "482"
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 76.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8965A"
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: text4
+    type: text
+    name: ARTIFACTS RECOVERED
+    frame:
+      x: 287.02
+      y: 642.44
+      width: 289.93
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ARTIFACTS RECOVERED
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D8C4"
+              letterSpacingPt: 1.44
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 412.78
+      y: 692.83
+      width: 38.39
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8965A"
+    opacity: 0.5
+  - id: text5
+    type: text
+    name: Rare market insights gat...
+    frame:
+      x: 182.36
+      y: 716.42
+      width: 499.24
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Rare market insights gathered over two decades.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D8C4"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text6
+    type: text
+    name: 15x
+    frame:
+      x: 812.25
+      y: 467.25
+      width: 295.5
+      height: 155.59
+    body:
+      paragraphs:
+        - runs:
+            - text: 15x
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 76.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8965A"
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: text7
+    type: text
+    name: RETURN ON EXPEDITION MULTIPLIER
+    frame:
+      x: 640
+      y: 642.44
+      width: 640
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: RETURN ON EXPEDITION MULTIPLIER
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D8C4"
+              letterSpacingPt: 1.44
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 940.8
+      y: 692.83
+      width: 38.39
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8965A"
+    opacity: 0.5
+  - id: text8
+    type: text
+    name: Exponential growth from ...
+    frame:
+      x: 722.24
+      y: 716.42
+      width: 475.52
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Exponential growth from baseline investments.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D8C4"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text9
+    type: text
+    name: 99%
+    frame:
+      x: 1311.32
+      y: 467.25
+      width: 353.38
+      height: 155.59
+    body:
+      paragraphs:
+        - runs:
+            - text: 99%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 76.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8965A"
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: text10
+    type: text
+    name: TERRAIN MAPPED
+    frame:
+      x: 1374.79
+      y: 642.44
+      width: 226.46
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: TERRAIN MAPPED
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D8C4"
+              letterSpacingPt: 1.44
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1468.81
+      y: 692.83
+      width: 38.39
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B8965A"
+    opacity: 0.5
+  - id: text11
+    type: text
+    name: Comprehensive understand...
+    frame:
+      x: 1237.03
+      y: 716.42
+      width: 501.93
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Comprehensive understanding of the ecosystem.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D8C4"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text12
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 967.69
+      width: 72.57
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8D8C4"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text13
+    type: text
+    name: "03"
+    frame:
+      x: 1745.69
+      y: 967.69
+      width: 24.77
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B8965A"
+          lineHeight: 1.5
+      overflow: visible

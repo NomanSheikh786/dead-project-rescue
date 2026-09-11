@@ -1,0 +1,854 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#EBE3D5"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 60.64
+      stops:
+        - offset: 0.4
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#8B7355"
+          opacity: 0.1
+  - id: shape2
+    type: shape
+    frame:
+      x: 57.59
+      y: 57.59
+      width: 1804.81
+      height: 964.81
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 7.5
+  - id: shape3
+    type: shape
+    frame:
+      x: 87.95
+      y: 87.95
+      width: 1744.09
+      height: 904.09
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 1.5
+  - id: shape4
+    type: shape
+    frame:
+      x: 90.95
+      y: 239.73
+      width: 1738.09
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: text1
+    type: text
+    name: SECTION II
+    frame:
+      x: 167.75
+      y: 148.06
+      width: 171.68
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: SECTION II
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Empirical Results
+    frame:
+      x: 783.8
+      y: 129.34
+      width: 395.54
+      height: 145
+    body:
+      paragraphs:
+        - runs:
+            - text: Empirical Results
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 24
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: ACME.CO
+    frame:
+      x: 1612.17
+      y: 148.06
+      width: 148.54
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 129.34
+      y: 281.13
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 0.5
+  - id: shape6
+    type: shape
+    frame:
+      x: 138.94
+      y: 290.72
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: shape7
+    type: shape
+    frame:
+      x: 1761.86
+      y: 281.13
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 0.5
+  - id: shape8
+    type: shape
+    frame:
+      x: 1771.45
+      y: 290.72
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: shape9
+    type: shape
+    frame:
+      x: 129.34
+      y: 1037.78
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 0.5
+  - id: shape10
+    type: shape
+    frame:
+      x: 138.94
+      y: 1047.38
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: shape11
+    type: shape
+    frame:
+      x: 1761.86
+      y: 1037.78
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 0.5
+  - id: shape12
+    type: shape
+    frame:
+      x: 1771.45
+      y: 1047.38
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: text4
+    type: text
+    name: Measured Efficacy & Grow...
+    frame:
+      x: 167.725
+      y: 319.53
+      width: 1584.55
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: Measured Efficacy & Growth
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 28.8
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: A careful examination of...
+    frame:
+      x: 167.725
+      y: 425.11
+      width: 1584.55
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: A careful examination of our historical progression and projected outcomes.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#4A5D4E"
+              italic: true
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape13
+    type: shape
+    frame:
+      x: 167.75
+      y: 517.27
+      width: 1032.73
+      height: 455
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E4DCCB"
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 1.5
+  - id: shape14
+    type: shape
+    frame:
+      x: 209.14
+      y: 612.41
+      width: 949.95
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: text6
+    type: text
+    name: QUARTERLY YIELDS (VOL. 1...
+    frame:
+      x: 209.14
+      y: 558.66
+      width: 950
+      height: 54.75
+    body:
+      paragraphs:
+        - runs:
+            - text: QUARTERLY YIELDS (VOL. 1-4)
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 9.6
+        left: 0
+  - id: shape15
+    type: shape
+    frame:
+      x: 209.14
+      y: 905
+      width: 949.95
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: text7
+    type: text
+    name: 35%
+    frame:
+      x: 209.14
+      y: 782.5
+      width: 208.69
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: 35%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              italic: true
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape16
+    type: shape
+    frame:
+      x: 209.14
+      y: 830.53
+      width: 208.69
+      height: 74.47
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      opacity: 0.15
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 1.5
+  - id: text8
+    type: text
+    name: Q1
+    frame:
+      x: 300.28
+      y: 920
+      width: 31.46
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q1
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: 52%
+    frame:
+      x: 456.22
+      y: 746.4
+      width: 208.7
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: 52%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              italic: true
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape17
+    type: shape
+    frame:
+      x: 456.22
+      y: 794.36
+      width: 208.7
+      height: 110.64
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      opacity: 0.15
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 1.5
+  - id: text10
+    type: text
+    name: Q2
+    frame:
+      x: 546.02
+      y: 920
+      width: 31.14
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q2
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: 78%
+    frame:
+      x: 703.31
+      y: 691
+      width: 208.69
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: 78%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              italic: true
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape18
+    type: shape
+    frame:
+      x: 703.31
+      y: 739.04
+      width: 208.69
+      height: 165.96
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      opacity: 0.15
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 1.5
+  - id: text12
+    type: text
+    name: Q3
+    frame:
+      x: 793.44
+      y: 920
+      width: 31.47
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q3
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: 94%
+    frame:
+      x: 950.4
+      y: 657
+      width: 208.69
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: 94%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              italic: true
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape23
+    type: shape
+    frame:
+      x: 950.4
+      y: 705
+      width: 208.69
+      height: 200
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      opacity: 0.15
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 1.5
+  - id: text14
+    type: text
+    name: Q4
+    frame:
+      x: 1040.14
+      y: 920
+      width: 31.24
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Q4
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape19
+    type: shape
+    frame:
+      x: 1277.28
+      y: 517.27
+      width: 474.97
+      height: 212
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      opacity: 0.05
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 1
+      dash: dash
+  - id: text15
+    type: text
+    name: 94%
+    frame:
+      x: 1317.645
+      y: 550.34
+      width: 394.24
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "94"
+              sizePt: 38.4
+            - text: "%"
+              sizePt: 19.2
+          align: center
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            weight: 700
+            color:
+              kind: rgb
+              value: "#2C3E2D"
+            italic: true
+      overflow: visible
+  - id: shape20
+    type: shape
+    frame:
+      x: 1476.36
+      y: 646.32
+      width: 76.8
+      height: 1.91
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: text16
+    type: text
+    name: YEAR-END PURITY RATE
+    frame:
+      x: 1317.645
+      y: 667.41
+      width: 394.24
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: YEAR-END PURITY RATE
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 0.96
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape21
+    type: shape
+    frame:
+      x: 1277.28
+      y: 760.27
+      width: 474.97
+      height: 212
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      opacity: 0.05
+    stroke:
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+      widthPt: 1
+      dash: dash
+  - id: text17
+    type: text
+    name: 3X
+    frame:
+      x: 1317.645
+      y: 793.34
+      width: 394.24
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "3"
+              sizePt: 38.4
+            - text: X
+              sizePt: 19.2
+          align: center
+          lineHeight: 1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            weight: 700
+            color:
+              kind: rgb
+              value: "#2C3E2D"
+            italic: true
+      overflow: visible
+  - id: shape22
+    type: shape
+    frame:
+      x: 1476.36
+      y: 889.32
+      width: 76.8
+      height: 1.91
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#2C3E2D"
+  - id: text18
+    type: text
+    name: PRODUCTION INCREASE
+    frame:
+      x: 1317.645
+      y: 910.41
+      width: 394.24
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: PRODUCTION INCREASE
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#2C3E2D"
+              letterSpacingPt: 0.96
+          align: center
+          lineHeight: 1.5
+      overflow: visible

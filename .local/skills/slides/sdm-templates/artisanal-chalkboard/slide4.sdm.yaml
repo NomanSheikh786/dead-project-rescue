@@ -1,0 +1,290 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#1A251D"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 138.24
+      width: 1689.63
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      opacity: 0.3
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 135.03
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: GET IN TOUCH
+    frame:
+      x: 1626
+      y: 64.8
+      width: 189.59
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: GET IN TOUCH
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 480
+      y: 278.64
+      width: 960
+      height: 540
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      widthPt: 1
+      opacity: 0.2
+    rotationDeg: -5
+  - id: shape3
+    type: shape
+    frame:
+      x: 460.99
+      y: 289.63
+      width: 998
+      height: 518
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      widthPt: 1
+      opacity: 0.4
+      dash: dash
+    rotationDeg: 10
+  - id: text3
+    type: text
+    name: Join the craft.
+    frame:
+      x: 445.72
+      y: 329.91
+      width: 1028.57
+      height: 297
+    body:
+      paragraphs:
+        - runs:
+            - text: Join the craft.
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 67.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+              letterSpacingPt: 0.96
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 882.98
+      y: 510.3
+      width: 154
+      height: 4
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+    rotationDeg: 2
+    opacity: 0.8
+  - id: text4
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 785.87
+      y: 568.44
+      width: 348.24
+      height: 72
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 24
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+              italic: true
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape5
+    type: shape
+    frame:
+      x: 761.49
+      y: 694.39
+      width: 397
+      height: 73
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 36.5
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      widthPt: 1.5
+    rotationDeg: -1
+  - id: text5
+    type: text
+    name: VISIT OUR WORKSHOP
+    frame:
+      x: 749.55
+      y: 694.39
+      width: 420.87
+      height: 73
+    body:
+      paragraphs:
+        - runs:
+            - text: VISIT OUR WORKSHOP
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+              letterSpacingPt: 0.96
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+    rotationDeg: -1
+  - id: shape6
+    type: shape
+    frame:
+      x: 115.19
+      y: 957.05
+      width: 1689.63
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E8ECD7"
+      opacity: 0.3
+  - id: text6
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 115.19
+      y: 980.64
+      width: 252.03
+      height: 71
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: "04"
+    frame:
+      x: 1771.91
+      y: 986.41
+      width: 34.96
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#E8ECD7"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7

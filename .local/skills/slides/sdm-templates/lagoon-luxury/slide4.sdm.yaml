@@ -1,0 +1,220 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0D4F4F"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: lagoon-aerial
+    altText: Turquoise lagoon aerial view
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0D4F4F"
+      opacity: 0.6
+  - id: shape2
+    type: shape
+    frame:
+      x: 480
+      y: 278.41
+      width: 960
+      height: 523.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.95
+  - id: text1
+    type: text
+    name: BECOME A MEMBER
+    frame:
+      x: 854.67
+      y: 364.8
+      width: 210.66
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: BECOME A MEMBER
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 700
+              color:
+                kind: rgb
+                value: "#0D4F4F"
+              letterSpacingPt: 1.536
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Join the Elite
+    frame:
+      x: 693.64
+      y: 420.22
+      width: 532.72
+      height: 170.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Join the Elite
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#0D4F4F"
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: Experience the pinnacle ...
+    frame:
+      x: 595.165
+      y: 526.28
+      width: 729.68
+      height: 73.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Experience the pinnacle of luxury living. Connect with our dedicated concierge to begin your journey.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#888888"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape3
+    type: shape
+    frame:
+      x: 720
+      y: 654.03
+      width: 480
+      height: 61.17
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0D4F4F"
+  - id: text4
+    type: text
+    name: CONTACT CONCIERGE
+    frame:
+      x: 720
+      y: 654.03
+      width: 480
+      height: 63.17
+    body:
+      paragraphs:
+        - runs:
+            - text: CONTACT CONCIERGE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 8.1
+        right: 28.8
+        bottom: 8.1
+        left: 28.8
+  - id: text5
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 1021.69
+      width: 76.99
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text6
+    type: text
+    name: Page 4
+    frame:
+      x: 1751.27
+      y: 1021.69
+      width: 55.6
+      height: 53
+    body:
+      paragraphs:
+        - runs:
+            - text: Page 4
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+assets:
+  lagoon-aerial:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/lagoon-aerial.png

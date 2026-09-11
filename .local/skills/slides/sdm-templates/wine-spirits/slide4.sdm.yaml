@@ -1,0 +1,299 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#1A1216"
+elements:
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 907.92
+      y: 64.8
+      width: 110.44
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text2
+    type: text
+    name: Raise a Glass
+    frame:
+      x: 670.26
+      y: 242.03
+      width: 579.47
+      height: 289
+    body:
+      paragraphs:
+        - runs:
+            - text: Raise a Glass
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 48
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+              italic: true
+              letterSpacingPt: 0.96
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 782.42
+      y: 433.52
+      width: 153.59
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0E8DC"
+      opacity: 0.4
+  - id: shape2
+    type: shape
+    frame:
+      x: 955
+      y: 429.02
+      width: 10
+      height: 10
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#F0E8DC"
+      widthPt: 0.5
+      opacity: 0.8
+    rotationDeg: 45
+  - id: shape3
+    type: shape
+    frame:
+      x: 983.98
+      y: 433.52
+      width: 153.59
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F0E8DC"
+      opacity: 0.4
+  - id: text3
+    type: text
+    name: Join us in our journey o...
+    frame:
+      x: 623.975
+      y: 482
+      width: 672.05
+      height: 110.63
+    body:
+      paragraphs:
+        - runs:
+            - text: Join us in our journey of crafting exceptional spirits. For allocation requests and exclusive tastings, connect with our cellar master.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.6
+    rotationDeg: 0.02
+  - id: shape4
+    type: shape
+    frame:
+      x: 754.2
+      y: 657.42
+      width: 411.58
+      height: 71.11
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#F0E8DC"
+      widthPt: 0.5
+      opacity: 0.3
+  - id: text4
+    type: text
+    name: REQUEST ALLOCATION
+    frame:
+      x: 754.2
+      y: 657.42
+      width: 436.33
+      height: 71.11
+    body:
+      paragraphs:
+        - runs:
+            - text: REQUEST ALLOCATION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: text5
+    type: text
+    name: cellar@acme.co
+    frame:
+      x: 669.31
+      y: 814.92
+      width: 139.03
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: cellar@acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text6
+    type: text
+    name: +1 (800) 555-1234
+    frame:
+      x: 858.02
+      y: 814.92
+      width: 180.22
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: +1 (800) 555-1234
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text7
+    type: text
+    name: 123 Vineyard Lane, CA
+    frame:
+      x: 1066.88
+      y: 814.92
+      width: 206.57
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: 123 Vineyard Lane, CA
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text8
+    type: text
+    name: EXAMPLE COMPANY, INC.
+    frame:
+      x: 115.19
+      y: 992.17
+      width: 239.79
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text9
+    type: text
+    name: "04"
+    frame:
+      x: 1782.13
+      y: 992.17
+      width: 24.74
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8DC"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5

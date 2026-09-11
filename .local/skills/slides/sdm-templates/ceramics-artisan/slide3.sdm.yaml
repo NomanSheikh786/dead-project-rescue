@@ -1,0 +1,403 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F5F1EB"
+elements:
+  - id: text1
+    type: text
+    name: Example Company, Inc.
+    frame:
+      x: 76.8
+      y: 43.19
+      width: 186.3
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A2988E"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: 2026 / Confidential
+    frame:
+      x: 1689.05
+      y: 43.19
+      width: 183.67
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: 2026 / Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A2988E"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Production Growth
+    frame:
+      x: 153.59
+      y: 216
+      width: 1612.85
+      height: 86.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Production Growth
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#3E2E21"
+              letterSpacingPt: -0.384
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: A steady increase in han...
+    frame:
+      x: 153.59
+      y: 322.06
+      width: 862.98
+      height: 73.75
+    body:
+      paragraphs:
+        - runs:
+            - text: A steady increase in handcrafted pieces over the last four quarters, reflecting our expanding artisan network and refined kiln processes.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#8B7D6B"
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 859.2
+      width: 1152
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1C9C0"
+  - id: text5
+    type: text
+    name: 3,500
+    frame:
+      x: 242.64
+      y: 666.8
+      width: 58.33
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 3,500
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8B7D6B"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 153.59
+      y: 706.39
+      width: 230.39
+      height: 94.5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1C9C0"
+  - id: text6
+    type: text
+    name: Q1
+    frame:
+      x: 257.81
+      y: 822.48
+      width: 26
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Q1
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A2988E"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: 5,000
+    frame:
+      x: 549.86
+      y: 626.3
+      width: 58.28
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 5,000
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8B7D6B"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 460.78
+      y: 665.89
+      width: 230.41
+      height: 135
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1C9C0"
+  - id: text8
+    type: text
+    name: Q2
+    frame:
+      x: 563.25
+      y: 822.48
+      width: 25.52
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Q2
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A2988E"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: 7,500
+    frame:
+      x: 858.53
+      y: 558.8
+      width: 58.36
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 7,500
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8B7D6B"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 767.98
+      y: 598.39
+      width: 230.41
+      height: 202.5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1C9C0"
+  - id: text10
+    type: text
+    name: Q3
+    frame:
+      x: 870.38
+      y: 822.48
+      width: 25.66
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Q3
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A2988E"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: 10,000
+    frame:
+      x: 1160
+      y: 491.3
+      width: 71.83
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 10,000
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8B7D6B"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 1075.19
+      y: 530.89
+      width: 230.41
+      height: 270
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#3E2E21"
+  - id: text12
+    type: text
+    name: Q4
+    frame:
+      x: 1177.34
+      y: 822.48
+      width: 26.14
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Q4
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A2988E"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Kiln & Clay
+    frame:
+      x: 76.8
+      y: 1013.78
+      width: 102.51
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Kiln & Clay
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A2988E"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: "03"
+    frame:
+      x: 1822.48
+      y: 1013.78
+      width: 23.77
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A2988E"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible

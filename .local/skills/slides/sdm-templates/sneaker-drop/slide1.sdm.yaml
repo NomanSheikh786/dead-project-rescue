@@ -1,0 +1,339 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0A0A"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1152
+      y: 876
+      width: 96
+      height: 96
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#39FF14"
+      widthPt: 1
+    opacity: 0.3
+  - id: shape2
+    type: shape
+    frame:
+      x: 1190.41
+      y: 914.41
+      width: 19.19
+      height: 19.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#39FF14"
+    opacity: 0.3
+  - id: shape3
+    type: shape
+    frame:
+      x: -192
+      y: 432
+      width: 2304
+      height: 378
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#39FF14"
+    rotationDeg: -12
+  - id: text1
+    type: text
+    name: NOT FOR RESALE // LIMITE...
+    frame:
+      x: -112.57
+      y: 305.32
+      width: 3749.25
+      height: 117
+    body:
+      paragraphs:
+        - runs:
+            - text: NOT FOR RESALE // LIMITED EDITION // OFF-WHITE // HIGHSNOBIETY // HYPEBEAST // NOT FOR RESALE // LIMITED EDITION // OFF-WHITE //
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 900
+              color:
+                kind: rgb
+                value: "#0A0A0A"
+              letterSpacingPt: 3.84
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: -12
+    opacity: 0.7
+  - id: text2
+    type: text
+    name: VELO
+    frame:
+      x: 96
+      y: 162
+      width: 1047.71
+      height: 337.92
+    body:
+      paragraphs:
+        - runs:
+            - text: VELO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 211.2
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -12.672
+          lineHeight: 0.8
+      overflow: visible
+  - id: text3
+    type: text
+    name: X1
+    frame:
+      x: 1455.06
+      y: 594
+      width: 335.39
+      height: 217.03
+    body:
+      paragraphs:
+        - runs:
+            - text: X1
+              font:
+                kind: family
+                family: Inter
+              sizePt: 134.4
+              weight: 900
+              color:
+                kind: rgb
+                value: "#39FF14"
+              letterSpacingPt: -5.376
+          lineHeight: 0.8
+      overflow: visible
+  - id: text4
+    type: text
+    name: // PROTOTYPE_01
+    frame:
+      x: 96
+      y: 54
+      width: 253.19
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: // PROTOTYPE_01
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 800
+              color:
+                kind: rgb
+                value: "#39FF14"
+              letterSpacingPt: 1.92
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: "AUTHORIZATION: REQUIRED"
+    frame:
+      x: 96
+      y: 93.59
+      width: 253.19
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "AUTHORIZATION: REQUIRED"
+              font:
+                kind: family
+                family: Courier New
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: LIMITED DROP • 03.26
+    frame:
+      x: 96
+      y: 984.41
+      width: 451.87
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: LIMITED DROP • 03.26
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 4.8
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 96
+      y: 1024
+      width: 288
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#39FF14"
+  - id: text7
+    type: text
+    name: SNKRS
+    frame:
+      x: 1662.39
+      y: 54
+      width: 161.61
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: SNKRS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 900
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.152
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: X VIRGIL ABLOH
+    frame:
+      x: 1652.69
+      y: 93.95
+      width: 171.31
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: X VIRGIL ABLOH
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 700
+              color:
+                kind: rgb
+                value: "#39FF14"
+              letterSpacingPt: 0.864
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Constructed with hyper-r...
+    frame:
+      x: 1343.95
+      y: 939.61
+      width: 480.05
+      height: 88.39
+    body:
+      paragraphs:
+        - runs:
+            - text: "Constructed with hyper-responsive neon tech and breathable mesh. The X1 defies gravity. "
+              weight: 500
+              color:
+                kind: rgb
+                value: "#888888"
+            - text: Don't sleep on this drop.
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: right
+          lineHeight: 1.5
+          defaultRunStyle:
+            font:
+              kind: family
+              family: DM Sans
+            sizePt: 9.6
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 1459.2
+      y: 254.39
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.5
+  - id: shape6
+    type: shape
+    frame:
+      x: 1497.59
+      y: 216
+      width: 1
+      height: 76.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.5
+  - id: image1
+    type: image
+    frame:
+      x: 268.8
+      y: 86.4
+      width: 1382.4
+      height: 907.2
+    assetId: product-sneaker
+    altText: VELO X1 Sneaker
+    fit: contain
+    rotationDeg: -18
+assets:
+  product-sneaker:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/product-sneaker.png

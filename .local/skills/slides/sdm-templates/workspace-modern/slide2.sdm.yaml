@@ -1,0 +1,283 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F4F4F5"
+elements:
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 92.61
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#18181B"
+              letterSpacingPt: -0.23
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 1747.22
+      y: 101.52
+      width: 57.59
+      height: 4.31
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#18181B"
+  - id: text2
+    type: text
+    name: The New Standard
+    frame:
+      x: 115.19
+      y: 207.34
+      width: 768.07
+      height: 190.09
+    body:
+      paragraphs:
+        - runs:
+            - text: The New Standard
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 43.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#18181B"
+              letterSpacingPt: -1.296
+          lineHeight: 1.1
+        - runs:
+            - text: in Work
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 43.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#18181B"
+              letterSpacingPt: -1.296
+          lineHeight: 1.1
+      overflow: visible
+  - id: text3
+    type: text
+    name: We are redefining how te...
+    frame:
+      x: 115.19
+      y: 440.63
+      width: 691.25
+      height: 140.19
+    body:
+      paragraphs:
+        - runs:
+            - text: We are redefining how teams collaborate by stripping away the unnecessary and focusing on what truly drives impact.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#52525B"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text4
+    type: text
+    name: Focus on Clarity
+    frame:
+      x: 1036.8
+      y: 228.94
+      width: 768.07
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Focus on Clarity
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#18181B"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Eliminate distractions a...
+    frame:
+      x: 1036.8
+      y: 291.58
+      width: 863
+      height: 73.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Eliminate distractions and bring your most important work front and center. Our approach guarantees that signal always overcomes noise.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#71717A"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text6
+    type: text
+    name: Built for Speed
+    frame:
+      x: 1036.8
+      y: 408.52
+      width: 768.07
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Built for Speed
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#18181B"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Performance isn't just a...
+    frame:
+      x: 1036.8
+      y: 471.16
+      width: 768.07
+      height: 73.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Performance isn't just a metric; it's a foundation. Deliver results faster with streamlined processes and modern tools.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#71717A"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text8
+    type: text
+    name: Seamless Integration
+    frame:
+      x: 1036.8
+      y: 588.09
+      width: 768.07
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Seamless Integration
+              font:
+                kind: family
+                family: Inter
+              sizePt: 17.28
+              weight: 600
+              color:
+                kind: rgb
+                value: "#18181B"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Work where you are comfo...
+    frame:
+      x: 1036.8
+      y: 650.73
+      width: 768.07
+      height: 73.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Work where you are comfortable. Connect your existing tools and workflows without skipping a beat.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#71717A"
+          lineHeight: 1.6
+      overflow: visible
+  - id: text10
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 115.19
+      y: 967.69
+      width: 415.54
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A1A1AA"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: "02"
+    frame:
+      x: 1781.78
+      y: 964.81
+      width: 27.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#71717A"
+          lineHeight: 1.5
+      overflow: visible

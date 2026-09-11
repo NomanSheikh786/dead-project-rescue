@@ -1,0 +1,587 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: linearGradient
+  angleDeg: 180
+  stops:
+    - offset: 0
+      color:
+        kind: rgb
+        value: "#0A3D5C"
+    - offset: 1
+      color:
+        kind: rgb
+        value: "#051B2C"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 192
+      y: 108
+      width: 768
+      height: 768
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#6B9E8E"
+    opacity: 0.083
+  - id: shape2
+    type: shape
+    frame:
+      x: 768
+      y: 228
+      width: 960
+      height: 960
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 288
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4726E"
+    opacity: 0.083
+  - id: shape3
+    type: shape
+    frame:
+      x: 768
+      y: 432
+      width: 480
+      height: 480
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4B896"
+    opacity: 0.083
+  - id: shape4
+    type: shape
+    frame:
+      x: 576
+      y: 216
+      width: 13.44
+      height: 13.44
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.15
+  - id: shape5
+    type: shape
+    frame:
+      x: 288
+      y: 756
+      width: 7.67
+      height: 7.67
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.2
+  - id: shape6
+    type: shape
+    frame:
+      x: 1430.41
+      y: 432
+      width: 9.59
+      height: 9.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.1
+  - id: shape7
+    type: shape
+    frame:
+      x: 1140.48
+      y: 864
+      width: 11.52
+      height: 11.52
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    opacity: 0.15
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 102.99
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#E8E0D0"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text2
+    type: text
+    name: Performance Metrics
+    frame:
+      x: 1583.42
+      y: 67.67
+      width: 228.07
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: Performance Metrics
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E0D0"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text3
+    type: text
+    name: Measuring Our Depth
+    frame:
+      x: 578.11
+      y: 243.08
+      width: 763.8
+      height: 102.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Measuring Our Depth
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 33.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.336
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 326.41
+      y: 430.27
+      width: 268.8
+      height: 268.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.02
+    stroke:
+      color:
+        kind: rgb
+        value: "#C4726E"
+      widthPt: 1.5
+  - id: shape9
+    type: shape
+    frame:
+      x: 345.59
+      y: 449.45
+      width: 230.39
+      height: 230.39
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#C4726E"
+      widthPt: 0.5
+      dash: dash
+    opacity: 0.5
+  - id: text4
+    type: text
+    name: 84%
+    frame:
+      x: 372.36
+      y: 507.06
+      width: 176.91
+      height: 117.19
+    body:
+      paragraphs:
+        - runs:
+            - text: 84%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Market Penetration
+    frame:
+      x: 323.16
+      y: 731.45
+      width: 275.31
+      height: 82.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Market Penetration
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.672
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Expanding our reach acro...
+    frame:
+      x: 266.49
+      y: 787.95
+      width: 388.63
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: Expanding our reach across global currents
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#E8E0D0"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+    rotationDeg: 0.02
+  - id: shape10
+    type: shape
+    frame:
+      x: 825.59
+      y: 430.27
+      width: 268.8
+      height: 268.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.02
+    stroke:
+      color:
+        kind: rgb
+        value: "#6B9E8E"
+      widthPt: 1.5
+  - id: shape11
+    type: shape
+    frame:
+      x: 844.78
+      y: 449.45
+      width: 230.39
+      height: 230.39
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#6B9E8E"
+      widthPt: 0.5
+      dash: dash
+    opacity: 0.5
+  - id: text7
+    type: text
+    name: 2.5x
+    frame:
+      x: 873.53
+      y: 507.06
+      width: 172.93
+      height: 117.19
+    body:
+      paragraphs:
+        - runs:
+            - text: 2.5x
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Year Over Year
+    frame:
+      x: 855.49
+      y: 731.45
+      width: 209.02
+      height: 82.31
+    body:
+      paragraphs:
+        - runs:
+            - text: Year Over Year
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.672
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Multiplying our impact w...
+    frame:
+      x: 767.975
+      y: 787.95
+      width: 384.05
+      height: 59.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Multiplying our impact within the ecosystem
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#E8E0D0"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+    rotationDeg: 0.02
+  - id: shape12
+    type: shape
+    frame:
+      x: 1324.78
+      y: 430.27
+      width: 268.8
+      height: 268.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.02
+    stroke:
+      color:
+        kind: rgb
+        value: "#C4B896"
+      widthPt: 1.5
+  - id: shape13
+    type: shape
+    frame:
+      x: 1343.97
+      y: 449.45
+      width: 230.39
+      height: 230.39
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#C4B896"
+      widthPt: 0.5
+      dash: dash
+    opacity: 0.5
+  - id: text10
+    type: text
+    name: 99.9%
+    frame:
+      x: 1332.86
+      y: 507.06
+      width: 252.66
+      height: 117.19
+    body:
+      paragraphs:
+        - runs:
+            - text: 99.9%
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: System Reliability
+    frame:
+      x: 1330.65
+      y: 731.45
+      width: 257.07
+      height: 82.31
+    body:
+      paragraphs:
+        - runs:
+            - text: System Reliability
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.672
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Maintaining stability in...
+    frame:
+      x: 1282.44
+      y: 787.95
+      width: 353.5
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: Maintaining stability in turbulent waters
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#E8E0D0"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+    rotationDeg: 0.02
+  - id: text13
+    type: text
+    name: "03"
+    frame:
+      x: 115.19
+      y: 989.28
+      width: 28.57
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E0D0"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text14
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 1665.22
+      y: 989.28
+      width: 149.64
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E8E0D0"
+              letterSpacingPt: 0.864
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6

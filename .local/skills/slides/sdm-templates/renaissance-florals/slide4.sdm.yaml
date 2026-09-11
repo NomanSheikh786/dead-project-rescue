@@ -1,0 +1,236 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: image
+  assetId: dark-florals
+  fit: cover
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 90
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.85
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.6
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 142.21
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C5B9"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Next Steps
+    frame:
+      x: 1688.89
+      y: 86.39
+      width: 119.45
+      height: 71
+    body:
+      paragraphs:
+        - runs:
+            - text: Next Steps
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4C5B9"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Begin the journey.
+    frame:
+      x: 470.29
+      y: 299.47
+      width: 979.42
+      height: 276.27
+    body:
+      paragraphs:
+        - runs:
+            - text: "Begin the "
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+            - text: journey
+              color:
+                kind: rgb
+                value: "#D4C5B9"
+              italic: true
+            - text: .
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          align: center
+          lineHeight: 1.1
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Playfair Display
+            sizePt: 62.4
+            weight: 400
+            letterSpacingPt: -1.248
+      overflow: visible
+  - id: text4
+    type: text
+    name: Discover how our classic...
+    frame:
+      x: 575.975
+      y: 479.92
+      width: 768.05
+      height: 149.42
+    body:
+      paragraphs:
+        - runs:
+            - text: Discover how our classical approach to modern aesthetics can elevate your brand's presence in a crowded world.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 15.36
+              weight: 300
+              color:
+                kind: rgb
+                value: "#A89F96"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape2
+    type: shape
+    frame:
+      x: 725.63
+      y: 692.14
+      width: 468.73
+      height: 94.16
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+      opacity: 0.4
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4C5B9"
+      widthPt: 0.5
+  - id: text5
+    type: text
+    name: CONTACT OUR ATELIER
+    frame:
+      x: 711.54
+      y: 692.14
+      width: 496.91
+      height: 94.16
+    body:
+      paragraphs:
+        - runs:
+            - text: CONTACT OUR ATELIER
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+              letterSpacingPt: 1.728
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 14.4
+        right: 38.4
+        bottom: 14.4
+        left: 38.4
+  - id: text6
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 115.19
+      y: 964.81
+      width: 158.21
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A8179"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: "04"
+    frame:
+      x: 1778.03
+      y: 964.81
+      width: 28.83
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#8A8179"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  dark-florals:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/dark-florals.jpg

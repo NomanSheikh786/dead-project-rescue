@@ -1,0 +1,535 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F7F4EF"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 76.8
+      y: 79.91
+      width: 1766.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 76.8
+      y: 43.19
+      width: 86.91
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: '"All the Ideas That Are ...'
+    frame:
+      x: 792.42
+      y: 43.19
+      width: 332.17
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: '"All the Ideas That Are Fit to Print"'
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: VOL. MMXXVI
+    frame:
+      x: 1716.75
+      y: 43.19
+      width: 134.09
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: VOL. MMXXVI
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 500
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 76.8
+      y: 209.29
+      width: 1766.41
+      height: 3
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: text4
+    type: text
+    name: THE FINAL WORD
+    frame:
+      x: 76.775
+      y: 91.7
+      width: 1766.46
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: THE FINAL WORD
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: -0.96
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 76.8
+      y: 217.69
+      width: 1766.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: text5
+    type: text
+    name: Ready to Make Headlines ...
+    frame:
+      x: 349.41
+      y: 331.69
+      width: 1221.17
+      height: 149.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Ready to Make Headlines Together?
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 33.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text6
+    type: text
+    name: The opportunity is clear...
+    frame:
+      x: 383.975
+      y: 511.92
+      width: 1152.05
+      height: 73.75
+    body:
+      paragraphs:
+        - runs:
+            - text: The opportunity is clear, the strategy is sound, and the market is waiting. Join us in defining the next era of industry standards.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#333333"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 552
+      y: 650.47
+      width: 815.98
+      height: 98.94
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#EBE7DF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#111111"
+      widthPt: 0.5
+  - id: shape5
+    type: shape
+    frame:
+      x: 562.59
+      y: 661.06
+      width: 325.34
+      height: 77.75
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: text7
+    type: text
+    name: INVEST NOW
+    frame:
+      x: 562.59
+      y: 661.06
+      width: 325.39
+      height: 79.75
+    body:
+      paragraphs:
+        - runs:
+            - text: INVEST NOW
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F7F4EF"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: text8
+    type: text
+    name: CONTACT PARTNERS
+    frame:
+      x: 926.305
+      y: 660.06
+      width: 431.11
+      height: 79.75
+    body:
+      paragraphs:
+        - runs:
+            - text: CONTACT PARTNERS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: 1.152
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      verticalAlign: middle
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: shape6
+    type: shape
+    frame:
+      x: 507.17
+      y: 835.8
+      width: 905.66
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1CEC7"
+  - id: text9
+    type: text
+    name: EMAIL
+    frame:
+      x: 507.145
+      y: 879.98
+      width: 199.83
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: EMAIL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.768
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: partners@acme.co
+    frame:
+      x: 501.15
+      y: 908.41
+      width: 211.82
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: partners@acme.co
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 783.75
+      y: 879.98
+      width: 1
+      height: 60.11
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1CEC7"
+  - id: text11
+    type: text
+    name: PHONE
+    frame:
+      x: 861.525
+      y: 879.98
+      width: 202.99
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: PHONE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.768
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: +1 (555) 019-2024
+    frame:
+      x: 848.98
+      y: 908.41
+      width: 228.08
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: +1 (555) 019-2024
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape8
+    type: shape
+    frame:
+      x: 1141.28
+      y: 879.98
+      width: 1
+      height: 60.11
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D1CEC7"
+  - id: text13
+    type: text
+    name: OFFICE
+    frame:
+      x: 1219.055
+      y: 879.98
+      width: 193.8
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: OFFICE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.768
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text14
+    type: text
+    name: 100 Broadway, NY
+    frame:
+      x: 1219.055
+      y: 908.41
+      width: 193.8
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: 100 Broadway, NY
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape9
+    type: shape
+    frame:
+      x: 76.8
+      y: 988.3
+      width: 1766.41
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: text15
+    type: text
+    name: END OF REPORT
+    frame:
+      x: 76.8
+      y: 1010.89
+      width: 139.86
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: END OF REPORT
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible
+  - id: text16
+    type: text
+    name: PAGE 4
+    frame:
+      x: 1781.63
+      y: 1010.89
+      width: 65.33
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: PAGE 4
+              font:
+                kind: family
+                family: Georgia
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#111111"
+              italic: true
+          lineHeight: 1.5
+      overflow: visible

@@ -1,0 +1,510 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#000000"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: photo-ocean-aerial
+    altText: Ocean Aerial
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 60.64
+      stops:
+        - offset: 0.3
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0.5
+  - id: text1
+    type: text
+    name: EXAMPLE COMPANY
+    frame:
+      x: 76.8
+      y: 43.19
+      width: 234.96
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1788.11
+      y: 43.19
+      width: 61.14
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.96
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: BY THE NUMBERS
+    frame:
+      x: 724.83
+      y: 311.64
+      width: 470.33
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: BY THE NUMBERS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 19.2
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 3.84
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: shape3
+    type: shape
+    frame:
+      x: 253.44
+      y: 455.64
+      width: 419.84
+      height: 318.48
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.1
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0
+  - id: shape2
+    type: shape
+    frame:
+      x: 253.44
+      y: 455.64
+      width: 419.84
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text4
+    type: text
+    name: 3.2M
+    frame:
+      x: 324.92
+      y: 499.83
+      width: 276.86
+      height: 144
+    body:
+      paragraphs:
+        - runs:
+            - text: 3.2M
+              font:
+                kind: family
+                family: Inter
+              sizePt: 48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 2.4
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: OCEANS MAPPED
+    frame:
+      x: 333.36
+      y: 654.63
+      width: 260
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: OCEANS MAPPED
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.44
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text6
+    type: text
+    name: Square miles of deep blu...
+    frame:
+      x: 308.27
+      y: 705.02
+      width: 310.15
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Square miles of deep blue charted
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape5
+    type: shape
+    frame:
+      x: 750.08
+      y: 455.64
+      width: 419.84
+      height: 318.48
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.1
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0
+  - id: shape4
+    type: shape
+    frame:
+      x: 750.08
+      y: 455.64
+      width: 419.84
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text7
+    type: text
+    name: "142"
+    frame:
+      x: 855.89
+      y: 499.83
+      width: 208.24
+      height: 144
+    body:
+      paragraphs:
+        - runs:
+            - text: "142"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 2.4
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: VESSELS DEPLOYED
+    frame:
+      x: 833.98
+      y: 654.63
+      width: 252.02
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: VESSELS DEPLOYED
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.44
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text9
+    type: text
+    name: Autonomous drones curren...
+    frame:
+      x: 796.63
+      y: 705.02
+      width: 326.72
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Autonomous drones currently active
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+    rotationDeg: 0.02
+  - id: shape7
+    type: shape
+    frame:
+      x: 1246.72
+      y: 455.64
+      width: 419.84
+      height: 318.48
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0.1
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#FFFFFF"
+          opacity: 0
+  - id: shape6
+    type: shape
+    frame:
+      x: 1246.72
+      y: 455.64
+      width: 419.84
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.2
+  - id: text10
+    type: text
+    name: 8.9B
+    frame:
+      x: 1331.32
+      y: 499.83
+      width: 250.63
+      height: 144
+    body:
+      paragraphs:
+        - runs:
+            - text: 8.9B
+              font:
+                kind: family
+                family: Inter
+              sizePt: 48
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 2.4
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: DATA POINTS
+    frame:
+      x: 1372.38
+      y: 654.63
+      width: 168.51
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: DATA POINTS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.44
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+  - id: text12
+    type: text
+    name: Real-time telemetry gath...
+    frame:
+      x: 1292.52
+      y: 705.02
+      width: 328.25
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Real-time telemetry gathered daily
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+    rotationDeg: 0.02
+  - id: text13
+    type: text
+    name: "03"
+    frame:
+      x: 76.8
+      y: 1013.78
+      width: 23.77
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text14
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 1543.83
+      y: 1013.78
+      width: 317.4
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.384
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+assets:
+  photo-ocean-aerial:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/photo-ocean-aerial.png

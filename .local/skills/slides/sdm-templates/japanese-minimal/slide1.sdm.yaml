@@ -1,0 +1,225 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FAF8F5"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 1689.11
+      y: 162
+      width: 0.5
+      height: 594
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4CFC8"
+  - id: shape2
+    type: shape
+    frame:
+      x: 288
+      y: 971.5
+      width: 384
+      height: 0.5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4CFC8"
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 192
+      y: 86.39
+      width: 1536.05
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0978D"
+              letterSpacingPt: 1.296
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: PRESENTATION TITLE
+    frame:
+      x: 192
+      y: 377.06
+      width: 367.05
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: PRESENTATION TITLE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0978D"
+              letterSpacingPt: 2.304
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: Example
+    frame:
+      x: 192
+      y: 421.69
+      width: 367.05
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: Example
+              font:
+                kind: family
+                family: Inter
+              sizePt: 48
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+              letterSpacingPt: -0.96
+          lineHeight: 1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Deck
+    frame:
+      x: 192
+      y: 517.69
+      width: 367.05
+      height: 96
+    body:
+      paragraphs:
+        - runs:
+            - text: Deck
+              font:
+                kind: family
+                family: Inter
+              sizePt: 48
+              weight: 300
+              color:
+                kind: rgb
+                value: "#2C2C2C"
+              letterSpacingPt: -0.96
+          lineHeight: 1
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 635.8
+      y: 484.09
+      width: 0.5
+      height: 129.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4CFC8"
+  - id: text5
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 713.09
+      y: 537.66
+      width: 480.05
+      height: 78.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 300
+              color:
+                kind: rgb
+                value: "#8C8478"
+          lineHeight: 1.8
+      overflow: visible
+  - id: text6
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 192
+      y: 970.58
+      width: 281.22
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#C4BCB2"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1612.81
+      y: 878.42
+      width: 115.19
+      height: 115.19
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4CFC8"
+      widthPt: 0.5
+  - id: shape5
+    type: shape
+    frame:
+      x: 1651.2
+      y: 916.81
+      width: 38.39
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C4BCB2"

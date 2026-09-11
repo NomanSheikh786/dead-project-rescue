@@ -1,0 +1,216 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: text1
+    type: text
+    name: Performance Metrics
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 257.45
+      height: 32.27
+    body:
+      paragraphs:
+        - runs:
+            - text: Performance Metrics
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#444444"
+          lineHeight: 1.4
+      overflow: visible
+  - id: text2
+    type: text
+    name: 84%
+    frame:
+      x: 153.59
+      y: 324
+      width: 517.24
+      height: 186.31
+    body:
+      paragraphs:
+        - runs:
+            - text: 84%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 115.2
+              weight: 900
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: -6.912
+          lineHeight: 0.8
+      overflow: visible
+  - id: text3
+    type: text
+    name: GROWTH RATE
+    frame:
+      x: 153.59
+      y: 529.91
+      width: 517.24
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: GROWTH RATE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: $2.4
+    frame:
+      x: 824.38
+      y: 324
+      width: 461
+      height: 186.31
+    body:
+      paragraphs:
+        - runs:
+            - text: $2.4
+              font:
+                kind: family
+                family: Inter
+              sizePt: 115.2
+              weight: 200
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: -6.912
+          lineHeight: 0.8
+      overflow: visible
+  - id: text5
+    type: text
+    name: MILLION REVENUE
+    frame:
+      x: 824.38
+      y: 529.91
+      width: 434.91
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: MILLION REVENUE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+  - id: text6
+    type: text
+    name: Our metrics speak volume...
+    frame:
+      x: 153.59
+      y: 743.06
+      width: 960.05
+      height: 122.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Our metrics speak volumes. By focusing on essentials, we have outpaced industry standards and redefined the benchmark for operational efficiency.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#444444"
+          lineHeight: 1.4
+      overflow: visible
+  - id: text7
+    type: text
+    name: "03"
+    frame:
+      x: 153.59
+      y: 992.17
+      width: 24.68
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: ACME.CO / 2026
+    frame:
+      x: 1659.03
+      y: 992.17
+      width: 154.58
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO / 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 1672.73
+      y: 86.39
+      width: 132.13
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#999999"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible

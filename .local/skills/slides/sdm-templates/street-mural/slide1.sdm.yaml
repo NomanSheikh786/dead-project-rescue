@@ -1,0 +1,200 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: street-mural
+    altText: Street Mural
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 648
+      width: 998.39
+      height: 432
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#0A0A0A"
+  - id: text1
+    type: text
+    name: /////
+    frame:
+      x: 76.8
+      y: 691.19
+      width: 73.28
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: /////
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 600
+              color:
+                kind: rgb
+                value: "#D4695A"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: DISTRICT
+    frame:
+      x: 174.67
+      y: 692.63
+      width: 92.22
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: DISTRICT
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 500
+              color:
+                kind: rgb
+                value: "#D4695A"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: PUBLIC ART PROJECT
+    frame:
+      x: 295.64
+      y: 694.06
+      width: 179.54
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: PUBLIC ART PROJECT
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 6.72
+              weight: 500
+              color:
+                kind: rgb
+                value: "#666666"
+              letterSpacingPt: 0.672
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: EXAMPLE DECK
+    frame:
+      x: 76.8
+      y: 734.91
+      width: 895.54
+      height: 115.2
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE DECK
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 57.6
+              weight: 800
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -1.152
+          lineHeight: 1
+      overflow: visible
+  - id: text5
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 76.8
+      y: 864.7
+      width: 768.05
+      height: 69.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A0A0A0"
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text6
+    type: text
+    name: acme.co
+    frame:
+      x: 76.8
+      y: 1010.89
+      width: 72.57
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text7
+    type: text
+    name: "2026"
+    frame:
+      x: 880.16
+      y: 1010.89
+      width: 47.49
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+assets:
+  street-mural:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/street-mural.png

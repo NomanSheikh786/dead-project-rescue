@@ -1,0 +1,725 @@
+I want you to build a production-ready open-source developer tool called **DeadProject Rescue**.
+
+## Core Idea
+
+DeadProject Rescue takes an old or abandoned GitHub repository, ideally 2–5+ years old, analyzes its dependencies and codebase, identifies outdated or incompatible packages, upgrades the project to modern versions, fixes breaking changes where possible, and prepares a clean migration Pull Request.
+
+The initial focus should be JavaScript and TypeScript projects using:
+
+* Node.js
+* React
+* Next.js
+* Express
+* TypeScript
+* npm
+* yarn
+* pnpm
+
+The tool should be designed so more ecosystems can be supported later.
+
+---
+
+## Main User Flow
+
+A user provides a GitHub repository URL such as:
+
+https://github.com/example/old-react-project
+
+The application should:
+
+1. Clone or securely inspect the repository.
+2. Detect the project type automatically.
+3. Read:
+
+   * package.json
+   * package-lock.json
+   * yarn.lock
+   * pnpm-lock.yaml
+   * tsconfig.json
+   * next.config.*
+   * eslint config
+   * babel config
+   * Node version files
+   * GitHub Actions workflows
+4. Detect outdated dependencies.
+5. Identify deprecated packages.
+6. Detect dependency conflicts.
+7. Determine the current Node.js version requirements.
+8. Detect framework versions such as React and Next.js.
+9. Generate a migration plan.
+10. Upgrade dependencies in controlled stages.
+11. Apply automated code migrations where possible.
+12. Run:
+
+* install
+* lint
+* type checking
+* build
+* tests
+
+13. Detect failures after each upgrade.
+14. Attempt to fix common migration problems automatically.
+15. Generate a migration report.
+16. Produce a Git diff.
+17. Prepare a GitHub Pull Request containing all changes.
+
+---
+
+# Example
+
+Old repository:
+
+Node.js 14
+React 17
+Next.js 11
+TypeScript 4
+ESLint 7
+
+DeadProject Rescue may recommend:
+
+Node.js 22 LTS or the latest suitable LTS version
+React 19 if compatible
+Current stable Next.js version if migration is safe
+Modern TypeScript
+Modern ESLint configuration
+
+Do NOT blindly upgrade everything to the newest version.
+
+The tool must evaluate compatibility first.
+
+---
+
+# Migration Strategy
+
+Use staged migrations instead of one massive upgrade.
+
+Example:
+
+Stage 1:
+Update Node runtime and tooling.
+
+Stage 2:
+Update safe patch and minor dependencies.
+
+Stage 3:
+Upgrade React.
+
+Stage 4:
+Upgrade Next.js.
+
+Stage 5:
+Upgrade TypeScript and ESLint.
+
+Stage 6:
+Fix breaking API changes.
+
+Stage 7:
+Run validation.
+
+Every stage should create a clear log.
+
+If an upgrade is considered too risky, mark it as:
+
+MANUAL REVIEW REQUIRED
+
+instead of breaking the repository.
+
+---
+
+# Risk Analysis
+
+Create a migration risk engine.
+
+Every dependency upgrade should receive a risk level:
+
+LOW
+MEDIUM
+HIGH
+CRITICAL
+
+Evaluate risk using factors such as:
+
+* major version jumps
+* deprecated packages
+* peer dependency conflicts
+* Node engine compatibility
+* framework compatibility
+* number of dependent packages
+* config changes
+* known breaking changes
+* unavailable replacement packages
+
+Example output:
+
+react
+17.0.2 → 19.x
+Risk: HIGH
+
+next
+11.x → current stable
+Risk: CRITICAL
+
+axios
+0.21 → current stable
+Risk: MEDIUM
+
+---
+
+# Project Health Score
+
+Generate a project health score between 0 and 100.
+
+Example:
+
+DeadProject Health Score: 38/100
+
+Breakdown:
+
+Dependencies: 30/100
+Security: 45/100
+Build health: 50/100
+Framework freshness: 25/100
+Node compatibility: 40/100
+
+After migration:
+
+Projected Health Score: 87/100
+
+---
+
+# Migration Report
+
+Generate a report such as:
+
+## DeadProject Rescue Report
+
+Repository:
+github.com/example/project
+
+Detected Stack:
+Next.js
+React
+TypeScript
+Node.js
+
+Repository Age:
+4 years
+
+Last meaningful dependency update:
+3 years ago
+
+Outdated Dependencies:
+27
+
+Deprecated Dependencies:
+5
+
+Security Issues:
+8
+
+Critical Migration Risks:
+2
+
+Recommended Node Version:
+22 LTS
+
+Migration Confidence:
+82%
+
+---
+
+# Dependency Table
+
+Generate a table:
+
+Package | Current | Recommended | Risk | Action
+
+react | 17.x | 19.x | High | Upgrade
+next | 11.x | current stable | Critical | Staged Migration
+axios | 0.21 | current stable | Medium | Upgrade
+request | old | remove | Critical | Replace
+eslint | 7.x | modern | Medium | Upgrade
+
+---
+
+# Automated Code Fixes
+
+Implement a migration engine capable of applying code transformations.
+
+Possible technologies:
+
+* AST parsing
+* jscodeshift
+* ts-morph
+* Babel parser
+* recast
+
+Do not rely only on regex for source code transformations.
+
+Possible automated fixes:
+
+* deprecated React APIs
+* old Next.js configuration
+* CommonJS to ESM where appropriate
+* outdated imports
+* ESLint configuration migration
+* TypeScript configuration updates
+* Node API replacements
+* deprecated package replacements
+
+Design migrations as individual codemods.
+
+Example:
+
+migrations/
+react/
+next/
+node/
+typescript/
+eslint/
+
+Each migration should be independently testable.
+
+---
+
+# GitHub Integration
+
+Use GitHub OAuth or GitHub App authentication.
+
+Required capabilities:
+
+* read repository
+* create branch
+* commit files
+* create Pull Request
+
+Example branch:
+
+deadproject-rescue/modernize-2026
+
+Example PR title:
+
+chore: rescue and modernize legacy project
+
+PR body should include:
+
+## DeadProject Rescue
+
+This PR modernizes the project's dependencies and runtime.
+
+### Updated
+
+* Node 14 → Node 22
+* React 17 → React 19
+* Next.js 11 → modern Next.js
+* TypeScript upgraded
+* ESLint configuration migrated
+
+### Validation
+
+Install: PASS
+Lint: PASS
+Typecheck: PASS
+Tests: PASS
+Build: PASS
+
+### Manual Review
+
+List anything that could not safely be fixed automatically.
+
+---
+
+# Security
+
+Security is extremely important.
+
+Never execute untrusted repository code directly on the main server.
+
+Run repository analysis and build commands inside an isolated environment.
+
+Recommended options:
+
+* Docker containers
+* ephemeral sandboxes
+* resource limits
+* timeout limits
+* disabled privileged mode
+* restricted filesystem
+* controlled network access
+
+Protect against:
+
+* malicious npm scripts
+* crypto miners
+* fork bombs
+* filesystem attacks
+* secret stealing
+* arbitrary shell commands
+
+Package install scripts should be treated as untrusted.
+
+Design the execution architecture accordingly.
+
+---
+
+# Architecture
+
+Use a monorepo.
+
+Suggested structure:
+
+deadproject-rescue/
+
+apps/
+web/
+api/
+
+packages/
+analyzer/
+migration-engine/
+dependency-engine/
+github/
+sandbox/
+reporter/
+shared/
+
+migrations/
+react/
+next/
+node/
+typescript/
+eslint/
+
+Use TypeScript throughout the codebase.
+
+---
+
+# Web Application
+
+Build a clean modern dashboard.
+
+Recommended stack:
+
+Next.js
+TypeScript
+Tailwind CSS
+
+Main page:
+
+Title:
+DeadProject Rescue
+
+Subtitle:
+Bring abandoned JavaScript projects back to life.
+
+Input:
+
+Paste GitHub Repository URL
+
+Button:
+
+Analyze Repository
+
+---
+
+# Analysis Dashboard
+
+Show:
+
+Repository
+
+Detected Stack
+
+Project Health Score
+
+Current Node Version
+
+Recommended Node Version
+
+Outdated Dependencies
+
+Deprecated Packages
+
+Security Issues
+
+Migration Risks
+
+Migration Confidence
+
+---
+
+# Dependency UI
+
+Create a table with:
+
+Package
+Current Version
+Recommended Version
+Risk
+Migration Status
+
+Use badges for:
+
+Safe
+Review
+High Risk
+Blocked
+
+---
+
+# Migration Timeline
+
+Show stages visually:
+
+Repository Analysis
+↓
+Dependency Resolution
+↓
+Runtime Upgrade
+↓
+Framework Migration
+↓
+Automated Code Fixes
+↓
+Build Validation
+↓
+PR Ready
+
+Show live logs where possible.
+
+---
+
+# Migration Confidence
+
+Generate confidence percentage.
+
+Example:
+
+Migration Confidence: 86%
+
+Explain why:
+
+Low risk dependencies: 18
+Medium risk: 5
+High risk: 2
+Critical: 0
+
+---
+
+# CLI
+
+Also create a CLI.
+
+Example:
+
+npx deadproject-rescue analyze https://github.com/user/repo
+
+Commands:
+
+deadproject-rescue analyze
+deadproject-rescue plan
+deadproject-rescue migrate
+deadproject-rescue validate
+
+Example:
+
+npx deadproject-rescue analyze .
+
+Output:
+
+Scanning project...
+
+Detected:
+Next.js 11
+React 17
+Node 14
+
+Outdated dependencies: 23
+Deprecated dependencies: 4
+
+Health Score: 41/100
+
+Recommended migration available.
+
+---
+
+# Dry Run Mode
+
+Support:
+
+deadproject-rescue migrate --dry-run
+
+Dry run should:
+
+* make no permanent code changes
+* generate proposed dependency upgrades
+* show proposed codemods
+* generate expected diff
+* calculate risk
+* calculate migration confidence
+
+---
+
+# Configuration
+
+Support:
+
+deadproject.config.json
+
+Example:
+
+{
+"targetNode": "22",
+"maxRisk": "medium",
+"runTests": true,
+"runBuild": true,
+"createPullRequest": false
+}
+
+---
+
+# Important Engineering Rules
+
+1. Do not build fake functionality.
+2. Do not hard-code analysis results.
+3. Every dashboard result must come from the actual analysis engine.
+4. Keep the analyzer separate from the UI.
+5. Keep GitHub logic separate from migration logic.
+6. Use strict TypeScript.
+7. Add meaningful error handling.
+8. Add structured logs.
+9. Make migrations deterministic and reproducible.
+10. Do not silently modify user repositories.
+11. Always support dry-run before applying changes.
+12. Prefer conservative migrations over aggressive upgrades.
+
+---
+
+# MVP Scope
+
+For the first working version, prioritize:
+
+1. Local repository analysis
+2. package.json detection
+3. dependency outdated analysis
+4. Node version detection
+5. React detection
+6. Next.js detection
+7. dependency risk scoring
+8. project health score
+9. migration plan generation
+10. dry-run dependency migration
+11. Git diff generation
+12. validation commands
+13. migration report
+
+After the MVP is stable, add full GitHub OAuth and automatic PR creation.
+
+---
+
+# Testing
+
+Add:
+
+* unit tests
+* migration fixtures
+* integration tests
+
+Create sample legacy projects inside:
+
+fixtures/
+
+Examples:
+
+fixtures/
+react-17/
+next-11/
+node-14-express/
+broken-typescript/
+
+Tests should confirm that the analyzer correctly detects old project versions and produces a sensible migration plan.
+
+---
+
+# README
+
+Create a professional open-source README containing:
+
+* project logo placeholder
+* tagline
+* badges
+* screenshots placeholder
+* problem statement
+* features
+* architecture
+* installation
+* CLI usage
+* web dashboard
+* security model
+* roadmap
+* contributing guide
+* GitHub Sponsors section
+
+Tagline:
+
+**DeadProject Rescue — Bring abandoned JavaScript projects back to life.**
+
+Include a section:
+
+## Why this project exists
+
+Explain that thousands of useful open-source repositories become unusable because dependencies, runtimes, frameworks, and build systems become outdated.
+
+DeadProject Rescue attempts to safely modernize them instead of letting them die.
+
+---
+
+# GitHub Sponsors
+
+Make the project attractive for GitHub Sponsors.
+
+Add:
+
+.github/FUNDING.yml
+
+Add sponsorship messaging such as:
+
+"If DeadProject Rescue helped revive a project you depend on, consider sponsoring its development."
+
+Do not make sponsorship intrusive.
+
+---
+
+# Development Process
+
+Do not try to implement the entire project in one giant response.
+
+Work like a senior software architect and engineer.
+
+Start by:
+
+1. Designing the architecture.
+2. Creating the monorepo structure.
+3. Creating shared types.
+4. Building the analyzer.
+5. Implementing dependency detection.
+6. Implementing risk scoring.
+7. Implementing health scoring.
+8. Creating the migration planner.
+9. Creating the CLI.
+10. Creating the web dashboard.
+11. Adding safe sandbox execution.
+12. Adding GitHub integration last.
+
+For every implementation stage:
+
+* explain what you are building
+* show the folder/file structure
+* write complete working code
+* avoid placeholders when real implementation is possible
+* explain how to run it
+* test the code before moving to the next stage
+
+When a design decision has multiple options, choose the option that is simplest for the MVP but scalable enough for an open-source project.
+
+The end goal is a real GitHub-ready repository that developers can clone, run locally, contribute to, and eventually sponsor.

@@ -1,0 +1,380 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#190F08"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: coffee-roasting
+    fit: cover
+    opacity: 0.15
+  - id: text1
+    type: text
+    name: THE PROCESS
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 583.57
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: THE PROCESS
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#B87333"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Artisan Roasting
+    frame:
+      x: 115.19
+      y: 136.78
+      width: 695.03
+      height: 86.47
+    body:
+      paragraphs:
+        - runs:
+            - text: Artisan Roasting
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 600
+              color:
+                kind: rgb
+                value: "#F5E8D4"
+          lineHeight: 1.1
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 115.19
+      y: 253.64
+      width: 76.8
+      height: 2
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87333"
+  - id: text3
+    type: text
+    name: Lot No. 2026
+    frame:
+      x: 1680.45
+      y: 86.39
+      width: 124.36
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: Lot No. 2026
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E8D4"
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text4
+    type: text
+    name: We believe that roasting...
+    frame:
+      x: 115.19
+      y: 363.63
+      width: 787.27
+      height: 174
+    body:
+      paragraphs:
+        - runs:
+            - text: We believe that roasting is a delicate balance of art and science. Each batch is carefully monitored by our master roasters to ensure the unique characteristics of the beans are preserved.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E8D4"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+  - id: text5
+    type: text
+    name: Our small-batch process ...
+    frame:
+      x: 115.19
+      y: 568.02
+      width: 787.27
+      height: 131
+    body:
+      paragraphs:
+        - runs:
+            - text: Our small-batch process allows us to adapt to the nuances of every harvest, bringing out the distinct flavor notes that make our coffee truly exceptional.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 13.44
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E8D4"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.8
+  - id: shape2
+    type: shape
+    frame:
+      x: 1017.59
+      y: 363.63
+      width: 2
+      height: 100.09
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87333"
+  - id: text6
+    type: text
+    name: Temperature Control
+    frame:
+      x: 1057.98
+      y: 363.63
+      width: 746.88
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: Temperature Control
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 500
+              color:
+                kind: rgb
+                value: "#F5E8D4"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: Precise adjustments at c...
+    frame:
+      x: 1057.98
+      y: 432.03
+      width: 746.88
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Precise adjustments at critical stages of the roast curve.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E8D4"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape3
+    type: shape
+    frame:
+      x: 1017.59
+      y: 506.91
+      width: 2
+      height: 100.09
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87333"
+  - id: text8
+    type: text
+    name: Development Time
+    frame:
+      x: 1057.98
+      y: 506.91
+      width: 746.88
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: Development Time
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 500
+              color:
+                kind: rgb
+                value: "#F5E8D4"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Optimizing the Maillard ...
+    frame:
+      x: 1057.98
+      y: 575.31
+      width: 746.88
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Optimizing the Maillard reaction for perfect sweetness.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E8D4"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: shape4
+    type: shape
+    frame:
+      x: 1017.59
+      y: 650.19
+      width: 2
+      height: 100.09
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#B87333"
+  - id: text10
+    type: text
+    name: Cooling Phase
+    frame:
+      x: 1057.98
+      y: 650.19
+      width: 746.88
+      height: 57.61
+    body:
+      paragraphs:
+        - runs:
+            - text: Cooling Phase
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 19.2
+              weight: 500
+              color:
+                kind: rgb
+                value: "#F5E8D4"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: Rapid cooling to halt th...
+    frame:
+      x: 1057.98
+      y: 718.59
+      width: 746.88
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Rapid cooling to halt the roasting process instantly.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E8D4"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+  - id: text12
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 964.81
+      width: 80.64
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E8D4"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text13
+    type: text
+    name: "02"
+    frame:
+      x: 1781.78
+      y: 964.81
+      width: 27.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F5E8D4"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+assets:
+  coffee-roasting:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/coffee-roasting.png

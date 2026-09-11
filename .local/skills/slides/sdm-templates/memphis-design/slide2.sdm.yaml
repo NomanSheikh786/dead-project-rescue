@@ -1,0 +1,1173 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FDFDFD"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 96
+      y: 54
+      width: 153.59
+      height: 153.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#FF6B9D"
+      widthPt: 3.5
+    opacity: 0.8
+  - id: shape2
+    type: shape
+    frame:
+      x: 1651.31
+      y: 802.91
+      width: 115
+      height: 115
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFDE59"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 2.5
+    rotationDeg: 45
+  - id: shape3
+    type: shape
+    frame:
+      x: 1785.61
+      y: 324
+      width: 76.8
+      height: 76.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#45B7D1"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 2.5
+  - id: shape4
+    type: shape
+    frame:
+      x: 192
+      y: 876
+      width: 96
+      height: 96
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#96CEB4"
+      widthPt: 3.5
+      dash: dash
+  - id: shape5
+    type: shape
+    frame:
+      x: 1593.61
+      y: 648
+      width: 38.39
+      height: 38.39
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF6B9D"
+  - id: shape6
+    type: shape
+    frame:
+      x: 480
+      y: 810
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text1
+    type: text
+    name: FEATURES
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 1612.86
+      height: 144
+    body:
+      paragraphs:
+        - runs:
+            - text: FEATURES
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 48
+              weight: 900
+              color:
+                kind: rgb
+                value: "#000000"
+              letterSpacingPt: -0.96
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 165.11
+      y: 306.71
+      width: 499.2
+      height: 348.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape8
+    type: shape
+    frame:
+      x: 153.59
+      y: 295.19
+      width: 499.2
+      height: 348.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF6B9D"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 2.5
+  - id: shape9
+    type: shape
+    frame:
+      x: 721.91
+      y: 306.71
+      width: 499.2
+      height: 348.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape10
+    type: shape
+    frame:
+      x: 710.39
+      y: 295.19
+      width: 499.2
+      height: 348.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFDE59"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 2.5
+  - id: shape11
+    type: shape
+    frame:
+      x: 1278.71
+      y: 306.71
+      width: 499.22
+      height: 348.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape12
+    type: shape
+    frame:
+      x: 1267.19
+      y: 295.19
+      width: 499.22
+      height: 348.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#45B7D1"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 2.5
+  - id: shape13
+    type: shape
+    frame:
+      x: 165.11
+      y: 712.52
+      width: 499.2
+      height: 348.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape14
+    type: shape
+    frame:
+      x: 153.59
+      y: 701
+      width: 499.2
+      height: 348.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#96CEB4"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 2.5
+  - id: shape15
+    type: shape
+    frame:
+      x: 721.91
+      y: 712.52
+      width: 499.2
+      height: 348.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape16
+    type: shape
+    frame:
+      x: 710.39
+      y: 701
+      width: 499.2
+      height: 348.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#C2A3FF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 2.5
+  - id: shape17
+    type: shape
+    frame:
+      x: 1278.71
+      y: 712.52
+      width: 499.22
+      height: 348.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape18
+    type: shape
+    frame:
+      x: 1267.19
+      y: 701
+      width: 499.22
+      height: 348.22
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF9F43"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 2.5
+  - id: shape19
+    type: shape
+    frame:
+      x: 206.59
+      y: 348.19
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1.5
+  - id: shape20
+    type: shape
+    frame:
+      x: 225.8
+      y: 367.39
+      width: 57.59
+      height: 57.59
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#45B7D1"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1.5
+  - id: shape21
+    type: shape
+    frame:
+      x: 206.59
+      y: 441.17
+      width: 242.11
+      height: 65.5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1.5
+  - id: text2
+    type: text
+    name: FAST DEPLOY
+    frame:
+      x: 206.59
+      y: 441.17
+      width: 248.73
+      height: 113
+    body:
+      paragraphs:
+        - runs:
+            - text: FAST DEPLOY
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 17.28
+              weight: 800
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 1.92
+        right: 5.76
+        bottom: 1.92
+        left: 5.76
+  - id: shape23
+    type: shape
+    frame:
+      x: 206.59
+      y: 517.47
+      width: 393.2
+      height: 72.94
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.7
+  - id: shape22
+    type: shape
+    frame:
+      x: 206.59
+      y: 517.47
+      width: 5
+      height: 72.94
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text3
+    type: text
+    name: Push your code to produc...
+    frame:
+      x: 206.59
+      y: 517.47
+      width: 393.25
+      height: 74.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Push your code to production in seconds with zero downtime.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.4
+      overflow: visible
+      insetsPt:
+        top: 4.8
+        right: 4.8
+        bottom: 4.8
+        left: 4.8
+    rotationDeg: 0.02
+  - id: shape24
+    type: shape
+    frame:
+      x: 763.39
+      y: 348.39
+      width: 76
+      height: 67
+    geometry:
+      kind: preset
+      preset: triangle
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#96CEB4"
+  - id: shape25
+    type: shape
+    frame:
+      x: 763.39
+      y: 441.17
+      width: 233.7
+      height: 65.5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1.5
+  - id: text4
+    type: text
+    name: AUTO SCALE
+    frame:
+      x: 763.39
+      y: 441.17
+      width: 240.08
+      height: 113
+    body:
+      paragraphs:
+        - runs:
+            - text: AUTO SCALE
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 17.28
+              weight: 800
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 1.92
+        right: 5.76
+        bottom: 1.92
+        left: 5.76
+  - id: shape27
+    type: shape
+    frame:
+      x: 763.39
+      y: 517.47
+      width: 393.2
+      height: 72.94
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.7
+  - id: shape26
+    type: shape
+    frame:
+      x: 763.39
+      y: 517.47
+      width: 5
+      height: 72.94
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text5
+    type: text
+    name: Seamlessly handle traffi...
+    frame:
+      x: 763.39
+      y: 517.47
+      width: 393.25
+      height: 74.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Seamlessly handle traffic spikes without breaking a sweat.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.4
+      overflow: visible
+      insetsPt:
+        top: 4.8
+        right: 4.8
+        bottom: 4.8
+        left: 4.8
+    rotationDeg: 0.02
+  - id: shape28
+    type: shape
+    frame:
+      x: 1330.75
+      y: 353.47
+      width: 23.03
+      height: 23.03
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF6B9D"
+  - id: shape29
+    type: shape
+    frame:
+      x: 1363.38
+      y: 353.47
+      width: 23.03
+      height: 23.03
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF6B9D"
+  - id: shape30
+    type: shape
+    frame:
+      x: 1347.08
+      y: 396.67
+      width: 23
+      height: 23
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF6B9D"
+    rotationDeg: 45
+  - id: shape31
+    type: shape
+    frame:
+      x: 1320.19
+      y: 441.17
+      width: 182.45
+      height: 65.5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1.5
+  - id: text6
+    type: text
+    name: SMART AI
+    frame:
+      x: 1320.19
+      y: 441.17
+      width: 187.27
+      height: 113
+    body:
+      paragraphs:
+        - runs:
+            - text: SMART AI
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 17.28
+              weight: 800
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 1.92
+        right: 5.76
+        bottom: 1.92
+        left: 5.76
+  - id: shape33
+    type: shape
+    frame:
+      x: 1320.19
+      y: 517.47
+      width: 393.22
+      height: 72.94
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.7
+  - id: shape32
+    type: shape
+    frame:
+      x: 1320.19
+      y: 517.47
+      width: 5
+      height: 72.94
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text7
+    type: text
+    name: Intelligent features tha...
+    frame:
+      x: 1320.19
+      y: 517.47
+      width: 393.27
+      height: 74.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Intelligent features that learn from your user behaviors.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.4
+      overflow: visible
+      insetsPt:
+        top: 4.8
+        right: 4.8
+        bottom: 4.8
+        left: 4.8
+    rotationDeg: 0.02
+  - id: shape34
+    type: shape
+    frame:
+      x: 206.59
+      y: 773.19
+      width: 67.19
+      height: 48
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFDE59"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1.5
+  - id: shape35
+    type: shape
+    frame:
+      x: 216.19
+      y: 763.59
+      width: 67.19
+      height: 48
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1.5
+  - id: shape36
+    type: shape
+    frame:
+      x: 206.59
+      y: 846.98
+      width: 218.94
+      height: 65.5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1.5
+  - id: text8
+    type: text
+    name: TEAM CHAT
+    frame:
+      x: 206.59
+      y: 846.98
+      width: 224.87
+      height: 113
+    body:
+      paragraphs:
+        - runs:
+            - text: TEAM CHAT
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 17.28
+              weight: 800
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 1.92
+        right: 5.76
+        bottom: 1.92
+        left: 5.76
+  - id: shape38
+    type: shape
+    frame:
+      x: 206.59
+      y: 923.28
+      width: 393.2
+      height: 72.94
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.7
+  - id: shape37
+    type: shape
+    frame:
+      x: 206.59
+      y: 923.28
+      width: 5
+      height: 72.94
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text9
+    type: text
+    name: Collaborate in real-time...
+    frame:
+      x: 206.59
+      y: 923.28
+      width: 393.25
+      height: 74.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Collaborate in real-time with your entire organization.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.4
+      overflow: visible
+      insetsPt:
+        top: 4.8
+        right: 4.8
+        bottom: 4.8
+        left: 4.8
+    rotationDeg: 0.02
+  - id: shape39
+    type: shape
+    frame:
+      x: 763.39
+      y: 802
+      width: 19.19
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: shape40
+    type: shape
+    frame:
+      x: 790.25
+      y: 782.8
+      width: 19.19
+      height: 48
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FF6B9D"
+  - id: shape41
+    type: shape
+    frame:
+      x: 817.11
+      y: 763.61
+      width: 19.19
+      height: 67.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#45B7D1"
+  - id: shape42
+    type: shape
+    frame:
+      x: 763.39
+      y: 846.98
+      width: 210.36
+      height: 65.5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1.5
+  - id: text10
+    type: text
+    name: ANALYTICS
+    frame:
+      x: 763.39
+      y: 846.98
+      width: 223.03
+      height: 65.5
+    body:
+      paragraphs:
+        - runs:
+            - text: ANALYTICS
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 17.28
+              weight: 800
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 1.92
+        right: 5.76
+        bottom: 1.92
+        left: 5.76
+  - id: shape44
+    type: shape
+    frame:
+      x: 763.39
+      y: 923.28
+      width: 393.2
+      height: 72.94
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.7
+  - id: shape43
+    type: shape
+    frame:
+      x: 763.39
+      y: 923.28
+      width: 5
+      height: 72.94
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text11
+    type: text
+    name: Deep insights into your ...
+    frame:
+      x: 763.39
+      y: 923.28
+      width: 393.25
+      height: 74.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Deep insights into your performance metrics and growth.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.4
+      overflow: visible
+      insetsPt:
+        top: 4.8
+        right: 4.8
+        bottom: 4.8
+        left: 4.8
+  - id: shape45
+    type: shape
+    frame:
+      x: 1320.19
+      y: 846.98
+      width: 268.58
+      height: 65.5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#000000"
+      widthPt: 1.5
+  - id: text12
+    type: text
+    name: INTEGRATIONS
+    frame:
+      x: 1320.19
+      y: 846.98
+      width: 284.75
+      height: 65.5
+    body:
+      paragraphs:
+        - runs:
+            - text: INTEGRATIONS
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 17.28
+              weight: 800
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 1.92
+        right: 5.76
+        bottom: 1.92
+        left: 5.76
+  - id: shape47
+    type: shape
+    frame:
+      x: 1320.19
+      y: 923.28
+      width: 393.22
+      height: 72.94
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.7
+  - id: shape46
+    type: shape
+    frame:
+      x: 1320.19
+      y: 923.28
+      width: 5
+      height: 72.94
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#000000"
+  - id: text13
+    type: text
+    name: Connect with all the too...
+    frame:
+      x: 1320.19
+      y: 923.28
+      width: 393.27
+      height: 74.94
+    body:
+      paragraphs:
+        - runs:
+            - text: Connect with all the tools you already know and love.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#000000"
+          lineHeight: 1.4
+      overflow: visible
+      insetsPt:
+        top: 4.8
+        right: 4.8
+        bottom: 4.8
+        left: 4.8

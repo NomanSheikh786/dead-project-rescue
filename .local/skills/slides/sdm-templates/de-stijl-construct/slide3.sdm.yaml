@@ -1,0 +1,427 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FFFFFF"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 768
+      height: 648
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#F2B807"
+  - id: text1
+    type: text
+    name: KEY
+    frame:
+      x: 76.8
+      y: 160.81
+      width: 614.46
+      height: 209.34
+    body:
+      paragraphs:
+        - runs:
+            - text: KEY
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: -1.92
+          lineHeight: 0.9
+        - runs:
+            - text: METRICS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: -1.92
+          lineHeight: 0.9
+      overflow: visible
+  - id: text2
+    type: text
+    name: Analyzing performance th...
+    frame:
+      x: 76.8
+      y: 406.55
+      width: 480.05
+      height: 82.63
+    body:
+      paragraphs:
+        - runs:
+            - text: Analyzing performance through structural geometry.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.4
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 796.8
+      y: 0
+      width: 739.19
+      height: 216
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D92E2E"
+  - id: shape3
+    type: shape
+    frame:
+      x: 1564.8
+      y: 0
+      width: 355.19
+      height: 216
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: shape4
+    type: shape
+    frame:
+      x: 796.8
+      y: 244.8
+      width: 739.19
+      height: 403.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text3
+    type: text
+    name: 78%
+    frame:
+      x: 873.59
+      y: 353.27
+      width: 585.64
+      height: 122.88
+    body:
+      paragraphs:
+        - runs:
+            - text: 78%
+              font:
+                kind: family
+                family: Inter
+              sizePt: 76.8
+              weight: 900
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: -3.84
+          lineHeight: 0.8
+      overflow: visible
+  - id: text4
+    type: text
+    name: EFFICIENCY INCREASE
+    frame:
+      x: 873.59
+      y: 504.94
+      width: 585.64
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: EFFICIENCY INCREASE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape5
+    type: shape
+    frame:
+      x: 1564.8
+      y: 244.8
+      width: 355.19
+      height: 403.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A3B8C"
+  - id: shape6
+    type: shape
+    frame:
+      x: 0
+      y: 676.8
+      width: 768
+      height: 403.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text5
+    type: text
+    name: 2.4x
+    frame:
+      x: 76.8
+      y: 800.63
+      width: 614.46
+      height: 94.16
+    body:
+      paragraphs:
+        - runs:
+            - text: 2.4x
+              font:
+                kind: family
+                family: Inter
+              sizePt: 57.6
+              weight: 900
+              color:
+                kind: rgb
+                value: "#111111"
+              letterSpacingPt: -2.88
+          lineHeight: 0.8
+      overflow: visible
+  - id: text6
+    type: text
+    name: REVENUE MULTIPLIER
+    frame:
+      x: 76.8
+      y: 921.58
+      width: 614.46
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: REVENUE MULTIPLIER
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 700
+              color:
+                kind: rgb
+                value: "#1A3B8C"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape7
+    type: shape
+    frame:
+      x: 796.8
+      y: 676.8
+      width: 739.19
+      height: 403.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: shape8
+    type: shape
+    frame:
+      x: 873.59
+      y: 903.36
+      width: 115.19
+      height: 99.83
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: shape9
+    type: shape
+    frame:
+      x: 1027.17
+      y: 840.95
+      width: 115.19
+      height: 162.23
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: shape10
+    type: shape
+    frame:
+      x: 1180.75
+      y: 778.56
+      width: 115.19
+      height: 224.63
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D92E2E"
+  - id: shape11
+    type: shape
+    frame:
+      x: 1564.8
+      y: 676.8
+      width: 355.19
+      height: 403.19
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+  - id: text7
+    type: text
+    name: "03"
+    frame:
+      x: 1849.81
+      y: 715.19
+      width: 31.83
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 900
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: DATA & STATS
+    frame:
+      x: 1603.19
+      y: 1012.8
+      width: 278.46
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: DATA & STATS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#111111"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape12
+    type: shape
+    frame:
+      x: 768
+      y: 0
+      width: 28.8
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: shape13
+    type: shape
+    frame:
+      x: 1536
+      y: 0
+      width: 28.8
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: shape14
+    type: shape
+    frame:
+      x: 768
+      y: 216
+      width: 1152
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"
+  - id: shape15
+    type: shape
+    frame:
+      x: 0
+      y: 648
+      width: 1920
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#111111"

@@ -1,0 +1,239 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#000000"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 153.59
+      y: 108
+      width: 1
+      height: 864
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5C0A2A"
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 230.39
+      y: 108
+      width: 119.8
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 3.072
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text2
+    type: text
+    name: COLLECTION 2026
+    frame:
+      x: 1535.66
+      y: 108
+      width: 244.65
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: COLLECTION 2026
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 3.072
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text3
+    type: text
+    name: THE CONCLUSION
+    frame:
+      x: 326.365
+      y: 378
+      width: 1344.05
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: THE CONCLUSION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 200
+              color:
+                kind: rgb
+                value: "#5C0A2A"
+              letterSpacingPt: 3.072
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Embrace the Night
+    frame:
+      x: 286.04
+      y: 433.42
+      width: 1424.69
+      height: 155.59
+    body:
+      paragraphs:
+        - runs:
+            - text: Embrace the Night
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 76.8
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              italic: true
+              letterSpacingPt: -1.536
+          align: center
+          lineHeight: 1
+      overflow: visible
+  - id: text5
+    type: text
+    name: Join us in redefining lu...
+    frame:
+      x: 591.32
+      y: 630.2
+      width: 814.13
+      height: 82.97
+    body:
+      paragraphs:
+        - runs:
+            - text: Join us in redefining luxury fragrance. A scent that doesn't just linger, but lives within the memory of those who experience it.
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.8
+      overflow: visible
+    opacity: 0.7
+    rotationDeg: 0.02
+  - id: shape2
+    type: shape
+    frame:
+      x: 896.14
+      y: 817.56
+      width: 204.48
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#5C0A2A"
+  - id: text6
+    type: text
+    name: DISCOVER MORE
+    frame:
+      x: 889.98
+      y: 777.97
+      width: 216.8
+      height: 40.59
+    body:
+      paragraphs:
+        - runs:
+            - text: DISCOVER MORE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.92
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 5.4
+        left: 0
+  - id: text7
+    type: text
+    name: CONFIDENTIAL
+    frame:
+      x: 230.39
+      y: 951.84
+      width: 171.83
+      height: 20.16
+    body:
+      paragraphs:
+        - runs:
+            - text: CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 6.72
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 2.688
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.4
+  - id: text8
+    type: text
+    name: "04"
+    frame:
+      x: 1747.72
+      y: 948.97
+      width: 21.74
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 200
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6

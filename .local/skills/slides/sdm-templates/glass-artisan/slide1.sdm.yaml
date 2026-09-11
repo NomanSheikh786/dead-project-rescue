@@ -1,0 +1,182 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0A0A0F"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: glass-art
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 486
+      width: 1920
+      height: 594
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#0A0A0F"
+          opacity: 0
+        - offset: 0.7
+          color:
+            kind: rgb
+            value: "#0A0A0F"
+          opacity: 0.9
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#0A0A0F"
+  - id: shape2
+    type: shape
+    frame:
+      x: 153.59
+      y: 662.08
+      width: 96
+      height: 2.16
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4A84B"
+  - id: text1
+    type: text
+    name: MASTER ARTISAN SERIES
+    frame:
+      x: 153.59
+      y: 696.63
+      width: 307.59
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: MASTER ARTISAN SERIES
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4A84B"
+              letterSpacingPt: 1.728
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: Example Deck
+    frame:
+      x: 153.59
+      y: 738.73
+      width: 780.39
+      height: 122.95
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Deck
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+          lineHeight: 1.05
+      overflow: visible
+    rotationDeg: 0.02
+  - id: text3
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 153.59
+      y: 881.28
+      width: 960.05
+      height: 69.13
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#F0ECE4"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.7
+    rotationDeg: 0.02
+  - id: text4
+    type: text
+    name: acme.co
+    frame:
+      x: 153.59
+      y: 1013.78
+      width: 75.32
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4A84B"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: MMXXVI
+    frame:
+      x: 1701.89
+      y: 1013.78
+      width: 76.57
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: MMXXVI
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4A84B"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  glass-art:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/glass-art.png

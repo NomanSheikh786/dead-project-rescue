@@ -1,0 +1,271 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#0F1423"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0.0009
+          color:
+            kind: rgb
+            value: "#D4DEEB"
+          opacity: 0.05
+        - offset: 0.0009
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+  - id: shape2
+    type: shape
+    frame:
+      x: 192
+      y: 539.5
+      width: 1536
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      opacity: 0.2
+  - id: shape3
+    type: shape
+    frame:
+      x: 959.5
+      y: 108
+      width: 1
+      height: 864
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      opacity: 0.2
+  - id: shape4
+    type: shape
+    frame:
+      x: 672
+      y: 252
+      width: 576
+      height: 576
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      widthPt: 0.5
+      opacity: 0.15
+  - id: shape5
+    type: shape
+    frame:
+      x: 864
+      y: 444
+      width: 192
+      height: 192
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: none
+    stroke:
+      color:
+        kind: rgb
+        value: "#D4DEEB"
+      widthPt: 0.5
+      opacity: 0.3
+      dash: dash
+  - id: text1
+    type: text
+    name: "OBSERVATION: ACME.CO"
+    frame:
+      x: 115.19
+      y: 64.8
+      width: 228.01
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "OBSERVATION: ACME.CO"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "EPOCH: 2026"
+    frame:
+      x: 1686.53
+      y: 64.8
+      width: 125.43
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "EPOCH: 2026"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text3
+    type: text
+    name: SECTOR 7G / ALIGNMENT
+    frame:
+      x: 115.165
+      y: 360.94
+      width: 1689.68
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: SECTOR 7G / ALIGNMENT
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+              letterSpacingPt: 2.88
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text4
+    type: text
+    name: EXAMPLE DECK
+    frame:
+      x: 115.165
+      y: 411.33
+      width: 1689.68
+      height: 201.61
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE DECK
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 67.2
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+              letterSpacingPt: 3.36
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 527.975
+      y: 645.33
+      width: 864.05
+      height: 73.75
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.7
+  - id: text6
+    type: text
+    name: "COORD: 45.92° N, 14.38° ..."
+    frame:
+      x: 115.19
+      y: 992.17
+      width: 268.85
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "COORD: 45.92° N, 14.38° E"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text7
+    type: text
+    name: Example Company, Inc. / ...
+    frame:
+      x: 1417.75
+      y: 992.17
+      width: 387.11
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. / Confidential
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#D4DEEB"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5

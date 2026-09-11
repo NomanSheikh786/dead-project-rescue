@@ -1,0 +1,181 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#FAF8F5"
+elements:
+  - id: text1
+    type: text
+    name: End of Deck
+    frame:
+      x: 683.14
+      y: 403.42
+      width: 616.24
+      height: 347
+    body:
+      paragraphs:
+        - runs:
+            - text: End of Deck
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: -1.152
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 921.59
+      y: 597.81
+      width: 76.8
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#8A8578"
+  - id: text2
+    type: text
+    name: HELLO@ACME.CO
+    frame:
+      x: 844.48
+      y: 642
+      width: 244.93
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: HELLO@ACME.CO
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#8A8578"
+              letterSpacingPt: 1.152
+          lineHeight: 1.5
+      overflow: visible
+    rotationDeg: 0.02
+  - id: shape2
+    type: shape
+    frame:
+      x: 960
+      y: 0
+      width: 1
+      height: 270
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 180
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#8A8578"
+  - id: shape3
+    type: shape
+    frame:
+      x: 960
+      y: 810
+      width: 1
+      height: 270
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 0
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#000000"
+          opacity: 0
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#8A8578"
+  - id: shape4
+    type: shape
+    frame:
+      x: 96
+      y: 986.41
+      width: 28.8
+      height: 28.8
+    geometry:
+      kind: preset
+      preset: ellipse
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#1A1A1A"
+  - id: text3
+    type: text
+    name: "04"
+    frame:
+      x: 143.98
+      y: 989.28
+      width: 24.74
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: acme.co
+    frame:
+      x: 1751.02
+      y: 992.17
+      width: 73.03
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#1A1A1A"
+              letterSpacingPt: 0.768
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8

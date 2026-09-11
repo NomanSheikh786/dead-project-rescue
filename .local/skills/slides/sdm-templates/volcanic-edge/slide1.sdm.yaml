@@ -1,0 +1,207 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#080505"
+elements:
+  - id: image1
+    type: image
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    assetId: volcanic-coast
+    fit: cover
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: path
+      viewBox:
+        width: 1920
+        height: 1080
+      path: M 0 0 L 1056 0 L 768 1080 L 0 1080 Z
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#080505"
+      opacity: 0.9
+  - id: text1
+    type: text
+    name: ▲ TECTONIC
+    frame:
+      x: 76.8
+      y: 86.39
+      width: 147.22
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ▲ TECTONIC
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 600
+              color:
+                kind: rgb
+                value: "#E85A3A"
+              letterSpacingPt: 1.44
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: MAGNITUDE
+    frame:
+      x: 76.8
+      y: 342.22
+      width: 710.46
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: MAGNITUDE
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+              letterSpacingPt: 1.536
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text3
+    type: text
+    name: EXAMPLE DECK
+    frame:
+      x: 76.8
+      y: 376.05
+      width: 710.46
+      height: 234.28
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE DECK
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 52.8
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+              letterSpacingPt: -1.056
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Your compelling subtitle...
+    frame:
+      x: 76.8
+      y: 640.72
+      width: 576.05
+      height: 110.63
+    body:
+      paragraphs:
+        - runs:
+            - text: Your compelling subtitle goes here. Describe your big idea in a single sentence.
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 11.52
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.7
+  - id: text5
+    type: text
+    name: acme.co
+    frame:
+      x: 76.8
+      y: 964.81
+      width: 87.36
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text6
+    type: text
+    name: CORE TEMP
+    frame:
+      x: 665.47
+      y: 913.34
+      width: 121.74
+      height: 25.03
+    body:
+      paragraphs:
+        - runs:
+            - text: CORE TEMP
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 7.68
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E85A3A"
+              letterSpacingPt: 0.768
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: 1,170°C
+    frame:
+      x: 634.47
+      y: 941.77
+      width: 152.74
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: 1,170°C
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 17.28
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F0E8E0"
+              letterSpacingPt: 0.346
+          align: right
+          lineHeight: 1.5
+      overflow: visible
+assets:
+  volcanic-coast:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/volcanic-coast.png

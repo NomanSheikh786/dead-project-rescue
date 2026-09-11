@@ -1,0 +1,364 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: image
+  assetId: desert-dunes
+  fit: cover
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: linearGradient
+      angleDeg: 135
+      stops:
+        - offset: 0
+          color:
+            kind: rgb
+            value: "#1E140A"
+          opacity: 0.9
+        - offset: 1
+          color:
+            kind: rgb
+            value: "#1E140A"
+          opacity: 0.4
+  - id: text1
+    type: text
+    name: ACME.CO
+    frame:
+      x: 153.59
+      y: 86.39
+      width: 144.97
+      height: 42.31
+    body:
+      paragraphs:
+        - runs:
+            - text: ACME.CO
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 13.44
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+              letterSpacingPt: 1.344
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: "2026"
+    frame:
+      x: 1710.25
+      y: 89.27
+      width: 62.21
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "2026"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.8
+  - id: text3
+    type: text
+    name: Ready to Build the Futur...
+    frame:
+      x: 147.38
+      y: 266.95
+      width: 1625.22
+      height: 128.72
+    body:
+      paragraphs:
+        - runs:
+            - text: Ready to Build the Future?
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 57.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          align: center
+          lineHeight: 1.1
+      overflow: visible
+  - id: text4
+    type: text
+    name: Join us on our journey t...
+    frame:
+      x: 528.51
+      y: 426.06
+      width: 862.98
+      height: 100.28
+    body:
+      paragraphs:
+        - runs:
+            - text: Join us on our journey to transform the landscape. Let's create something extraordinary together.
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 15.36
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          align: center
+          lineHeight: 1.6
+      overflow: visible
+    opacity: 0.9
+    rotationDeg: 0.02
+  - id: shape2
+    type: shape
+    frame:
+      x: 768.27
+      y: 589.14
+      width: 383.45
+      height: 77.75
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E2C792"
+  - id: text5
+    type: text
+    name: PARTNER WITH US
+    frame:
+      x: 764.8
+      y: 589.14
+      width: 390.4
+      height: 114
+    body:
+      paragraphs:
+        - runs:
+            - text: PARTNER WITH US
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#1E140A"
+              letterSpacingPt: 1.152
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+      insetsPt:
+        top: 10.8
+        right: 38.4
+        bottom: 10.8
+        left: 38.4
+  - id: text6
+    type: text
+    name: EMAIL
+    frame:
+      x: 648.165
+      y: 753.28
+      width: 161.11
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EMAIL
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E2C792"
+              letterSpacingPt: 0.864
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: hello@acme.co
+    frame:
+      x: 643.33
+      y: 790
+      width: 170.78
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: hello@acme.co
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: OFFICE
+    frame:
+      x: 886.025
+      y: 753.28
+      width: 187.16
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: OFFICE
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E2C792"
+              letterSpacingPt: 0.864
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: San Francisco, CA
+    frame:
+      x: 883.22
+      y: 790
+      width: 192.77
+      height: 71
+    body:
+      paragraphs:
+        - runs:
+            - text: San Francisco, CA
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text10
+    type: text
+    name: SOCIAL
+    frame:
+      x: 1149.925
+      y: 753.28
+      width: 121.91
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: SOCIAL
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#E2C792"
+              letterSpacingPt: 0.864
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: "@acme_co"
+    frame:
+      x: 1149.925
+      y: 790
+      width: 121.91
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: "@acme_co"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 11.52
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Example Company, Inc. — ...
+    frame:
+      x: 153.59
+      y: 964.81
+      width: 378.23
+      height: 59
+    body:
+      paragraphs:
+        - runs:
+            - text: Example Company, Inc. — Confidential
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+  - id: text13
+    type: text
+    name: "04"
+    frame:
+      x: 1741.88
+      y: 964.81
+      width: 26.58
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "04"
+              font:
+                kind: family
+                family: DM Sans
+              sizePt: 9.6
+              weight: 300
+              color:
+                kind: rgb
+                value: "#FDFBF7"
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+assets:
+  desert-dunes:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/desert-dunes.jpg

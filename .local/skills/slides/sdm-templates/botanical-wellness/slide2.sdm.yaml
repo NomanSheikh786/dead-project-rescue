@@ -1,0 +1,652 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#1B4332"
+elements:
+  - id: shape1
+    type: shape
+    frame:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: image
+      assetId: photo-botanical
+      fit: cover
+    opacity: 0.15
+  - id: text1
+    type: text
+    name: The Collection
+    frame:
+      x: 708.61
+      y: 135.92
+      width: 502.78
+      height: 232.19
+    body:
+      paragraphs:
+        - runs:
+            - text: The Collection
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#95D5B2"
+              italic: true
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text2
+    type: text
+    name: CURATED BOTANICAL FORMUL...
+    frame:
+      x: 725.355
+      y: 267.3
+      width: 469.28
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: CURATED BOTANICAL FORMULATIONS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 1.44
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.6
+    rotationDeg: 0.02
+  - id: shape6
+    type: shape
+    frame:
+      x: 240
+      y: 360.89
+      width: 441.59
+      height: 540
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.03
+  - id: shape2
+    type: shape
+    frame:
+      x: 240
+      y: 360.89
+      width: 441.59
+      height: 5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#95D5B2"
+  - id: shape3
+    type: shape
+    frame:
+      x: 680.59
+      y: 360.89
+      width: 1
+      height: 540
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: shape4
+    type: shape
+    frame:
+      x: 240
+      y: 899.89
+      width: 441.59
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: shape5
+    type: shape
+    frame:
+      x: 240
+      y: 360.89
+      width: 1
+      height: 540
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text3
+    type: text
+    name: 🌿
+    frame:
+      x: 418.73
+      y: 433.08
+      width: 84.14
+      height: 117.19
+    body:
+      paragraphs:
+        - runs:
+            - text: 🌿
+              font:
+                kind: family
+                family: Inter
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: Botanical Cleanser
+    frame:
+      x: 288.05
+      y: 575.27
+      width: 345.49
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Botanical Cleanser
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text5
+    type: text
+    name: Gentle daily purificatio...
+    frame:
+      x: 319.88
+      y: 637.91
+      width: 281.83
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Gentle daily purification
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#95D5B2"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+    rotationDeg: 0.02
+  - id: text6
+    type: text
+    name: $38
+    frame:
+      x: 435.285
+      y: 795.28
+      width: 51.02
+      height: 39.42
+    body:
+      paragraphs:
+        - runs:
+            - text: $38
+              font:
+                kind: family
+                family: Inter
+              sizePt: 12.48
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape11
+    type: shape
+    frame:
+      x: 739.19
+      y: 360.89
+      width: 441.61
+      height: 540
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.03
+  - id: shape7
+    type: shape
+    frame:
+      x: 739.19
+      y: 360.89
+      width: 441.61
+      height: 5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#95D5B2"
+  - id: shape8
+    type: shape
+    frame:
+      x: 1179.8
+      y: 360.89
+      width: 1
+      height: 540
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: shape9
+    type: shape
+    frame:
+      x: 739.19
+      y: 899.89
+      width: 441.61
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: shape10
+    type: shape
+    frame:
+      x: 739.19
+      y: 360.89
+      width: 1
+      height: 540
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text7
+    type: text
+    name: 🍃
+    frame:
+      x: 917.92
+      y: 433.08
+      width: 84.14
+      height: 117.19
+    body:
+      paragraphs:
+        - runs:
+            - text: 🍃
+              font:
+                kind: family
+                family: Inter
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text8
+    type: text
+    name: Renewal Serum
+    frame:
+      x: 831.6
+      y: 575.27
+      width: 256.77
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Renewal Serum
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: Deep cellular repair
+    frame:
+      x: 850.64
+      y: 637.91
+      width: 218.7
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Deep cellular repair
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#95D5B2"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+    rotationDeg: 0.02
+  - id: text10
+    type: text
+    name: $62
+    frame:
+      x: 933.12
+      y: 795.28
+      width: 53.72
+      height: 39.42
+    body:
+      paragraphs:
+        - runs:
+            - text: $62
+              font:
+                kind: family
+                family: Inter
+              sizePt: 12.48
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape16
+    type: shape
+    frame:
+      x: 1238.39
+      y: 360.89
+      width: 441.61
+      height: 540
+    geometry:
+      kind: preset
+      preset: roundRect
+      cornerRadius: 19.2
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.03
+  - id: shape12
+    type: shape
+    frame:
+      x: 1238.39
+      y: 360.89
+      width: 441.61
+      height: 5
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#95D5B2"
+  - id: shape13
+    type: shape
+    frame:
+      x: 1679
+      y: 360.89
+      width: 1
+      height: 540
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: shape14
+    type: shape
+    frame:
+      x: 1238.39
+      y: 899.89
+      width: 441.61
+      height: 1
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: shape15
+    type: shape
+    frame:
+      x: 1238.39
+      y: 360.89
+      width: 1
+      height: 540
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+      opacity: 0.1
+  - id: text11
+    type: text
+    name: 🌱
+    frame:
+      x: 1417.12
+      y: 433.08
+      width: 84.14
+      height: 117.19
+    body:
+      paragraphs:
+        - runs:
+            - text: 🌱
+              font:
+                kind: family
+                family: Inter
+              sizePt: 38.4
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text12
+    type: text
+    name: Night Cream
+    frame:
+      x: 1348.65
+      y: 575.27
+      width: 221.05
+      height: 51.84
+    body:
+      paragraphs:
+        - runs:
+            - text: Night Cream
+              font:
+                kind: family
+                family: Playfair Display
+              sizePt: 17.28
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text13
+    type: text
+    name: Restorative overnight
+    frame:
+      x: 1333.04
+      y: 637.91
+      width: 252.31
+      height: 31.69
+    body:
+      paragraphs:
+        - runs:
+            - text: Restorative overnight
+              font:
+                kind: family
+                family: Inter
+              sizePt: 10.56
+              weight: 400
+              color:
+                kind: rgb
+                value: "#95D5B2"
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.9
+    rotationDeg: 0.02
+  - id: text14
+    type: text
+    name: $48
+    frame:
+      x: 1433.315
+      y: 795.28
+      width: 51.75
+      height: 39.42
+    body:
+      paragraphs:
+        - runs:
+            - text: $48
+              font:
+                kind: family
+                family: Inter
+              sizePt: 12.48
+              weight: 600
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          align: center
+          lineHeight: 1.5
+      overflow: visible
+  - id: text15
+    type: text
+    name: "02"
+    frame:
+      x: 96
+      y: 1012.34
+      width: 25.22
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: "02"
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.16
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+  - id: text16
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 1448.5
+      y: 1012.34
+      width: 398.08
+      height: 26.47
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.16
+              weight: 400
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+    opacity: 0.5
+assets:
+  photo-botanical:
+    src: https://storage.googleapis.com/replit-agent-examples/sdm-slides/assets/photo-botanical.png

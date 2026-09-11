@@ -1,0 +1,324 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#F4F4F5"
+elements:
+  - id: text1
+    type: text
+    name: acme.co
+    frame:
+      x: 115.19
+      y: 86.39
+      width: 92.61
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: acme.co
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 600
+              color:
+                kind: rgb
+                value: "#18181B"
+              letterSpacingPt: -0.23
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape1
+    type: shape
+    frame:
+      x: 1747.22
+      y: 101.52
+      width: 57.59
+      height: 4.31
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#18181B"
+  - id: text2
+    type: text
+    name: Quarterly Momentum
+    frame:
+      x: 115.19
+      y: 207.34
+      width: 1689.68
+      height: 102.8
+    body:
+      paragraphs:
+        - runs:
+            - text: Quarterly Momentum
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 33.6
+              weight: 700
+              color:
+                kind: rgb
+                value: "#18181B"
+              letterSpacingPt: -1.008
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape2
+    type: shape
+    frame:
+      x: 115.19
+      y: 372.94
+      width: 865
+      height: 527.08
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#FFFFFF"
+    stroke:
+      color:
+        kind: rgb
+        value: "#E4E4E7"
+      widthPt: 0.5
+  - id: text3
+    type: text
+    name: ACTIVE USERS
+    frame:
+      x: 173.78
+      y: 417.13
+      width: 747.86
+      height: 34.56
+    body:
+      paragraphs:
+        - runs:
+            - text: ACTIVE USERS
+              font:
+                kind: family
+                family: Inter
+              sizePt: 11.52
+              weight: 500
+              color:
+                kind: rgb
+                value: "#71717A"
+              letterSpacingPt: 0.576
+          lineHeight: 1.5
+      overflow: visible
+  - id: text4
+    type: text
+    name: 2.4M
+    frame:
+      x: 173.78
+      y: 580.66
+      width: 747.86
+      height: 134.41
+    body:
+      paragraphs:
+        - runs:
+            - text: 2.4M
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 67.2
+              weight: 700
+              color:
+                kind: rgb
+                value: "#18181B"
+          lineHeight: 1
+      overflow: visible
+  - id: text5
+    type: text
+    name: +42% from last quarter
+    frame:
+      x: 173.78
+      y: 725.86
+      width: 747.86
+      height: 45.19
+    body:
+      paragraphs:
+        - runs:
+            - text: +42% from last quarter
+              font:
+                kind: family
+                family: Inter
+              sizePt: 14.4
+              weight: 500
+              color:
+                kind: rgb
+                value: "#10B981"
+          lineHeight: 1.5
+      overflow: visible
+  - id: shape3
+    type: shape
+    frame:
+      x: 1056.98
+      y: 372.94
+      width: 747.83
+      height: 241.94
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#18181B"
+  - id: text6
+    type: text
+    name: ENTERPRISE ADOPTION
+    frame:
+      x: 1114.58
+      y: 435.7
+      width: 632.69
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: ENTERPRISE ADOPTION
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#A1A1AA"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text7
+    type: text
+    name: 64%
+    frame:
+      x: 1114.58
+      y: 475.3
+      width: 632.69
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 64%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 38.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#F4F4F5"
+          lineHeight: 1
+      overflow: visible
+  - id: shape4
+    type: shape
+    frame:
+      x: 1056.98
+      y: 658.06
+      width: 747.83
+      height: 241.95
+    geometry:
+      kind: preset
+      preset: rect
+    fill:
+      kind: solid
+      color:
+        kind: rgb
+        value: "#E4E4E7"
+  - id: text8
+    type: text
+    name: RETENTION RATE
+    frame:
+      x: 1114.58
+      y: 720.84
+      width: 632.69
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: RETENTION RATE
+              font:
+                kind: family
+                family: Inter
+              sizePt: 9.6
+              weight: 500
+              color:
+                kind: rgb
+                value: "#71717A"
+              letterSpacingPt: 0.48
+          lineHeight: 1.5
+      overflow: visible
+  - id: text9
+    type: text
+    name: 98.2%
+    frame:
+      x: 1114.58
+      y: 760.44
+      width: 632.69
+      height: 76.8
+    body:
+      paragraphs:
+        - runs:
+            - text: 98.2%
+              font:
+                kind: family
+                family: Space Grotesk
+              sizePt: 38.4
+              weight: 700
+              color:
+                kind: rgb
+                value: "#18181B"
+          lineHeight: 1
+      overflow: visible
+  - id: text10
+    type: text
+    name: EXAMPLE COMPANY, INC. / ...
+    frame:
+      x: 115.19
+      y: 967.69
+      width: 415.54
+      height: 25.92
+    body:
+      paragraphs:
+        - runs:
+            - text: EXAMPLE COMPANY, INC. / CONFIDENTIAL
+              font:
+                kind: family
+                family: Inter
+              sizePt: 8.64
+              weight: 400
+              color:
+                kind: rgb
+                value: "#A1A1AA"
+              letterSpacingPt: 0.432
+          lineHeight: 1.5
+      overflow: visible
+  - id: text11
+    type: text
+    name: "03"
+    frame:
+      x: 1781.78
+      y: 964.81
+      width: 27.08
+      height: 28.8
+    body:
+      paragraphs:
+        - runs:
+            - text: "03"
+              font:
+                kind: family
+                family: DM Mono
+              sizePt: 9.6
+              weight: 400
+              color:
+                kind: rgb
+                value: "#71717A"
+          lineHeight: 1.5
+      overflow: visible
